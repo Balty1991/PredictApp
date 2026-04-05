@@ -128,8 +128,13 @@ def build_reason(market: str, confidence: int, country: str) -> str:
 
 def train_logreg_with_preprocessing(training_features: pd.DataFrame, labels: pd.Series):
     from predictions import dataset_preprocessing
+
+    training_features = training_features.reset_index(drop=True).copy()
+    labels = pd.Series(labels).reset_index(drop=True)
+
     tmp = training_features.copy()
-    tmp["result"] = labels
+    tmp["result"] = labels.values
+
     X, Y, label_encoder, feature_preprocessor = dataset_preprocessing(tmp)
     model = LogisticRegression(C=1e5, max_iter=1000)
     model.fit(X, Y)
@@ -236,167 +241,173 @@ def main():
     all_predictions = []
 
     for country in COUNTRIES:
-        kwargs = build_kwargs(country, training_end_year)
+        try:
+            kwargs = build_kwargs(country, training_end_year)
 
-        league = League(BETTING_PLATFORMS, **kwargs)
-        league.run()
+            league = League(BETTING_PLATFORMS, **kwargs)
+            league.run()
 
-        training_features, training_meta = build_training_frames(league)
+            training_features, training_meta = build_training_frames(league)
 
-        result_model, result_le, result_pre = train_logreg_with_preprocessing(
-            training_features.drop(columns=["result"]).copy(),
-            training_features["result"].copy()
-        )
+            result_model, result_le, result_pre = train_logreg_with_preprocessing(
+                training_features.drop(columns=["result"]).copy(),
+                training_features["result"].copy()
+            )
 
-        total_goals = training_meta["FTHG"].fillna(0).astype(float) + training_meta["FTAG"].fillna(0).astype(float)
-        over15_labels = (total_goals >= 2).astype(int)
-        over25_labels = (total_goals >= 3).astype(int)
-        under35_labels = (total_goals <= 3).astype(int)
-        btts_labels = (
-            (training_meta["FTHG"].fillna(0).astype(float) > 0)
-            & (training_meta["FTAG"].fillna(0).astype(float) > 0)
-        ).astype(int)
+            total_goals = training_meta["FTHG"].fillna(0).astype(float) + training_meta["FTAG"].fillna(0).astype(float)
+            over15_labels = (total_goals >= 2).astype(int)
+            over25_labels = (total_goals >= 3).astype(int)
+            under35_labels = (total_goals <= 3).astype(int)
+            btts_labels = (
+                (training_meta["FTHG"].fillna(0).astype(float) > 0)
+                & (training_meta["FTAG"].fillna(0).astype(float) > 0)
+            ).astype(int)
 
-        base_features = training_features.drop(columns=["result"]).copy()
+            base_features = training_features.drop(columns=["result"]).copy()
 
-        over15_model, over15_le, over15_pre = train_logreg_with_preprocessing(base_features, over15_labels)
-        over25_model, over25_le, over25_pre = train_logreg_with_preprocessing(base_features, over25_labels)
-        under35_model, under35_le, under35_pre = train_logreg_with_preprocessing(base_features, under35_labels)
-        btts_model, btts_le, btts_pre = train_logreg_with_preprocessing(base_features, btts_labels)
+            over15_model, over15_le, over15_pre = train_logreg_with_preprocessing(base_features, over15_labels)
+            over25_model, over25_le, over25_pre = train_logreg_with_preprocessing(base_features, over25_labels)
+            under35_model, under35_le, under35_pre = train_logreg_with_preprocessing(base_features, under35_labels)
+            btts_model, btts_le, btts_pre = train_logreg_with_preprocessing(base_features, btts_labels)
 
-        pending_df, match_lookup = build_pending_features(country, current_season, kwargs)
-        if pending_df.empty:
+            pending_df, match_lookup = build_pending_features(country, current_season, kwargs)
+            if pending_df.empty:
+                print(f"[INFO] {country}: nu există meciuri eligibile pentru predicție.")
+                continue
+
+            result_proba = predict_with_model(result_model, result_le, result_pre, pending_df)
+            over15_proba = predict_with_model(over15_model, over15_le, over15_pre, pending_df)
+            over25_proba = predict_with_model(over25_model, over25_le, over25_pre, pending_df)
+            under35_proba = predict_with_model(under35_model, under35_le, under35_pre, pending_df)
+            btts_proba = predict_with_model(btts_model, btts_le, btts_pre, pending_df)
+
+            for idx in pending_df.index:
+                match_row = match_lookup[idx]
+                home = str(match_row.get("HomeTeam", "Home"))
+                away = str(match_row.get("AwayTeam", "Away"))
+                match_name = f"{home} vs {away}"
+                kickoff = format_kickoff(match_row.get("Date", "-"))
+                league_name = f"{country} - Division 1"
+
+                r = result_proba.loc[idx]
+                pred_result = str(r.idxmax())
+                result_probability = float(r[pred_result])
+                result_conf = int(round(result_probability * 100))
+                result_odds = odds_1x2(match_row, pred_result)
+
+                if pred_result == "H":
+                    result_pick = f"{home} câștigă"
+                elif pred_result == "A":
+                    result_pick = f"{away} câștigă"
+                else:
+                    result_pick = "Egal"
+
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "1X2",
+                    result_pick,
+                    result_conf,
+                    result_odds,
+                    value_flag(result_probability, result_odds),
+                    build_reason("1X2", result_conf, country)
+                )
+
+                dc_options = {
+                    "1X": float(r.get("H", 0.0) + r.get("D", 0.0)),
+                    "X2": float(r.get("D", 0.0) + r.get("A", 0.0)),
+                    "12": float(r.get("H", 0.0) + r.get("A", 0.0)),
+                }
+                dc_pick = max(dc_options, key=dc_options.get)
+                dc_prob = dc_options[dc_pick]
+                dc_conf = int(round(dc_prob * 100))
+
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "Double Chance",
+                    dc_pick,
+                    dc_conf,
+                    0.0,
+                    False,
+                    build_reason("Double Chance", dc_conf, country)
+                )
+
+                over15_yes_prob = float(over15_proba.loc[idx].get(1, 0.0))
+                over15_conf = int(round(over15_yes_prob * 100))
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "Over 1.5",
+                    "Peste 1.5 goluri",
+                    over15_conf,
+                    0.0,
+                    False,
+                    build_reason("Over 1.5", over15_conf, country)
+                )
+
+                over25_yes_prob = float(over25_proba.loc[idx].get(1, 0.0))
+                over25_conf = int(round(over25_yes_prob * 100))
+                over25_odds_value = odds_over25(match_row)
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "Over 2.5",
+                    "Peste 2.5 goluri",
+                    over25_conf,
+                    over25_odds_value,
+                    value_flag(over25_yes_prob, over25_odds_value),
+                    build_reason("Over 2.5", over25_conf, country)
+                )
+
+                under35_yes_prob = float(under35_proba.loc[idx].get(1, 0.0))
+                under35_conf = int(round(under35_yes_prob * 100))
+                under35_odds_value = odds_under35(match_row)
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "Under 3.5",
+                    "Sub 3.5 goluri",
+                    under35_conf,
+                    under35_odds_value,
+                    value_flag(under35_yes_prob, under35_odds_value),
+                    build_reason("Under 3.5", under35_conf, country)
+                )
+
+                btts_yes_prob = float(btts_proba.loc[idx].get(1, 0.0))
+                btts_no_prob = 1.0 - btts_yes_prob
+                btts_pick_yes = btts_yes_prob >= btts_no_prob
+                btts_prob = btts_yes_prob if btts_pick_yes else btts_no_prob
+                btts_conf = int(round(btts_prob * 100))
+                btts_pick = "Ambele marchează" if btts_pick_yes else "Ambele NU marchează"
+                btts_odds_value = odds_btts(match_row, btts_pick_yes)
+
+                append_prediction(
+                    all_predictions,
+                    league_name,
+                    match_name,
+                    kickoff,
+                    "BTTS",
+                    btts_pick,
+                    btts_conf,
+                    btts_odds_value,
+                    value_flag(btts_prob, btts_odds_value),
+                    build_reason("BTTS", btts_conf, country)
+                )
+
+        except Exception as e:
+            print(f"[ERROR] {country}: {e}")
             continue
-
-        result_proba = predict_with_model(result_model, result_le, result_pre, pending_df)
-        over15_proba = predict_with_model(over15_model, over15_le, over15_pre, pending_df)
-        over25_proba = predict_with_model(over25_model, over25_le, over25_pre, pending_df)
-        under35_proba = predict_with_model(under35_model, under35_le, under35_pre, pending_df)
-        btts_proba = predict_with_model(btts_model, btts_le, btts_pre, pending_df)
-
-        for idx in pending_df.index:
-            match_row = match_lookup[idx]
-            home = str(match_row.get("HomeTeam", "Home"))
-            away = str(match_row.get("AwayTeam", "Away"))
-            match_name = f"{home} vs {away}"
-            kickoff = format_kickoff(match_row.get("Date", "-"))
-            league_name = f"{country} - Division 1"
-
-            r = result_proba.loc[idx]
-            pred_result = str(r.idxmax())
-            result_probability = float(r[pred_result])
-            result_conf = int(round(result_probability * 100))
-            result_odds = odds_1x2(match_row, pred_result)
-
-            if pred_result == "H":
-                result_pick = f"{home} câștigă"
-            elif pred_result == "A":
-                result_pick = f"{away} câștigă"
-            else:
-                result_pick = "Egal"
-
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "1X2",
-                result_pick,
-                result_conf,
-                result_odds,
-                value_flag(result_probability, result_odds),
-                build_reason("1X2", result_conf, country)
-            )
-
-            dc_options = {
-                "1X": float(r.get("H", 0.0) + r.get("D", 0.0)),
-                "X2": float(r.get("D", 0.0) + r.get("A", 0.0)),
-                "12": float(r.get("H", 0.0) + r.get("A", 0.0)),
-            }
-            dc_pick = max(dc_options, key=dc_options.get)
-            dc_prob = dc_options[dc_pick]
-            dc_conf = int(round(dc_prob * 100))
-
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "Double Chance",
-                dc_pick,
-                dc_conf,
-                0.0,
-                False,
-                build_reason("Double Chance", dc_conf, country)
-            )
-
-            over15_yes_prob = float(over15_proba.loc[idx].get(1, 0.0))
-            over15_conf = int(round(over15_yes_prob * 100))
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "Over 1.5",
-                "Peste 1.5 goluri",
-                over15_conf,
-                0.0,
-                False,
-                build_reason("Over 1.5", over15_conf, country)
-            )
-
-            over25_yes_prob = float(over25_proba.loc[idx].get(1, 0.0))
-            over25_conf = int(round(over25_yes_prob * 100))
-            over25_odds_value = odds_over25(match_row)
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "Over 2.5",
-                "Peste 2.5 goluri",
-                over25_conf,
-                over25_odds_value,
-                value_flag(over25_yes_prob, over25_odds_value),
-                build_reason("Over 2.5", over25_conf, country)
-            )
-
-            under35_yes_prob = float(under35_proba.loc[idx].get(1, 0.0))
-            under35_conf = int(round(under35_yes_prob * 100))
-            under35_odds_value = odds_under35(match_row)
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "Under 3.5",
-                "Sub 3.5 goluri",
-                under35_conf,
-                under35_odds_value,
-                value_flag(under35_yes_prob, under35_odds_value),
-                build_reason("Under 3.5", under35_conf, country)
-            )
-
-            btts_yes_prob = float(btts_proba.loc[idx].get(1, 0.0))
-            btts_no_prob = 1.0 - btts_yes_prob
-            btts_pick_yes = btts_yes_prob >= btts_no_prob
-            btts_prob = btts_yes_prob if btts_pick_yes else btts_no_prob
-            btts_conf = int(round(btts_prob * 100))
-            btts_pick = "Ambele marchează" if btts_pick_yes else "Ambele NU marchează"
-            btts_odds_value = odds_btts(match_row, btts_pick_yes)
-
-            append_prediction(
-                all_predictions,
-                league_name,
-                match_name,
-                kickoff,
-                "BTTS",
-                btts_pick,
-                btts_conf,
-                btts_odds_value,
-                value_flag(btts_prob, btts_odds_value),
-                build_reason("BTTS", btts_conf, country)
-            )
 
     all_predictions.sort(key=lambda item: (item["confidence"], item["odds"]), reverse=True)
 
