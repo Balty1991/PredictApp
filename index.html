@@ -33,7 +33,7 @@
     }
     .brand h1{margin:0;font-size:20px;line-height:1.05}
     .brand p{margin:4px 0 0;color:var(--muted);font-size:12px}
-    .status-chip{padding:9px 12px;border-radius:999px;background:rgba(37,194,129,.12);color:#8cf0bf;border:1px solid rgba(37,194,129,.28);font-size:12px;white-space:nowrap}
+    .status-chip{padding:9px 12px;border-radius:999px;background:rgba(77,163,255,.12);color:#9ac9ff;border:1px solid rgba(77,163,255,.25);font-size:12px;white-space:nowrap}
     .hero{
       background:radial-gradient(circle at top right, rgba(124,92,255,.22), transparent 34%),radial-gradient(circle at top left, rgba(77,163,255,.18), transparent 30%),linear-gradient(180deg, var(--card-2), var(--card));
       border:1px solid var(--line);border-radius:28px;padding:18px;box-shadow:var(--shadow);margin-bottom:16px
@@ -44,7 +44,6 @@
     button,select,input{font:inherit;border:none;outline:none}
     .btn{border-radius:14px;padding:12px 14px;cursor:pointer;transition:.18s ease;border:1px solid var(--line)}
     .btn-primary{background:linear-gradient(135deg, #7c5cff, #4da3ff);color:#fff;font-weight:700;box-shadow:0 10px 24px rgba(77,163,255,.18)}
-    .btn-secondary{background:rgba(255,255,255,.04);color:var(--text)}
     .grid{display:grid;gap:12px}
     .stats{grid-template-columns:repeat(2,1fr);margin-bottom:16px}
     .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));border:1px solid var(--line);border-radius:22px;padding:15px;box-shadow:var(--shadow)}
@@ -79,7 +78,6 @@
     .reason{background:rgba(255,255,255,.03);border:1px dashed rgba(255,255,255,.12);border-radius:16px;padding:12px;color:#d7e2f7;font-size:13px;line-height:1.45}
     .empty{text-align:center;color:var(--muted);padding:24px 12px;border:1px dashed rgba(255,255,255,.12);border-radius:20px;background:rgba(255,255,255,.025)}
     .footer-note{margin-top:18px;text-align:center;color:var(--muted);font-size:12px;line-height:1.5;padding:0 6px}
-    .mini{font-size:11px;color:var(--muted)}
     @media (min-width:700px){.stats{grid-template-columns:repeat(4,1fr)}.filters{grid-template-columns:repeat(4,1fr)}}
   </style>
 </head>
@@ -90,35 +88,34 @@
         <div class="logo">PA</div>
         <div>
           <h1>PredictApp Live</h1>
-          <p>Actualizare automată din data.json</p>
+          <p>Doar date reale, fără demo</p>
         </div>
       </div>
       <div class="status-chip" id="liveStatus">● Se încarcă...</div>
     </div>
 
     <section class="hero">
-      <h2>Live by default. Fallback doar când lipsește sursa.</h2>
+      <h2>Fără demo. Fără fallback fals. Doar feed real.</h2>
       <p>
-        Aplicația citește automat <strong>data.json</strong> și reîncarcă datele la fiecare 60 de secunde.
-        Dacă fișierul nu există sau e gol, intră pe demo.
+        Pagina citește doar <strong>data.json</strong>. Dacă fișierul nu există sau este gol,
+        aplicația afișează stare goală și așteaptă date reale.
       </p>
       <div class="hero-actions">
         <button class="btn btn-primary" id="refreshBtn">Reîmprospătează acum</button>
-        <button class="btn btn-secondary" id="toggleDemoBtn">Comută demo/live</button>
       </div>
     </section>
 
     <section class="grid stats">
       <div class="card"><div class="stat-label">Pronosticuri afișate</div><div class="stat-value" id="statCount">0</div><div class="stat-sub">după filtrele active</div></div>
       <div class="card"><div class="stat-label">Încredere medie</div><div class="stat-value" id="statAvg">0%</div><div class="stat-sub">media selecțiilor</div></div>
-      <div class="card"><div class="stat-label">Cea mai bună selecție</div><div class="stat-value" id="statBest">-</div><div class="stat-sub" id="statBestSub">așteaptă date</div></div>
+      <div class="card"><div class="stat-label">Cea mai bună selecție</div><div class="stat-value" id="statBest">-</div><div class="stat-sub" id="statBestSub">așteaptă date reale</div></div>
       <div class="card"><div class="stat-label">Ultimul update</div><div class="stat-value" id="statUpdated" style="font-size:16px">-</div><div class="stat-sub">ora locală</div></div>
     </section>
 
     <section class="section card">
       <div class="section-title">
         <h3>Filtre rapide</h3>
-        <small>auto-refresh 60s</small>
+        <small>refresh automat 60s</small>
       </div>
 
       <div class="filters">
@@ -181,18 +178,12 @@
     </section>
 
     <div class="footer-note">
-      Această versiune pornește pe live și verifică automat date noi la fiecare 60 de secunde.
-      <div class="mini">Actualizarea reală a fișierului data.json se face din GitHub Actions.</div>
+      Varianta aceasta nu folosește deloc date demo. Dacă vezi predicții, ele vin din <strong>data.json</strong>.
     </div>
   </div>
 
   <script>
-    const DEMO_DATA = [
-      { league:"Romania - SuperLiga", match:"Rapid București vs Universitatea Cluj", kickoff:"2026-04-05 20:30", market:"Over 1.5", pick:"Peste 1.5 goluri", confidence:86, odds:1.33, tag:"safe", value:false, reason:"Demo fallback." },
-      { league:"England - Championship", match:"Leeds vs Sunderland", kickoff:"2026-04-05 21:00", market:"1X2", pick:"Leeds câștigă", confidence:78, odds:1.72, tag:"value", value:true, reason:"Demo fallback." }
-    ];
-
-    const state = { predictions: [], useDemo: false, quickFilter: "all" };
+    const state = { predictions: [], quickFilter: "all" };
 
     const el = {
       list: document.getElementById("predictionsList"),
@@ -208,12 +199,24 @@
       minConfidence: document.getElementById("minConfidence"),
       sortBy: document.getElementById("sortBy"),
       refreshBtn: document.getElementById("refreshBtn"),
-      toggleDemoBtn: document.getElementById("toggleDemoBtn"),
       pills: [...document.querySelectorAll(".pill")]
     };
 
-    function confidenceClass(value){ if(value >= 85) return "high"; if(value >= 75) return "mid"; return "low"; }
-    function escapeHtml(str){ return String(str ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"); }
+    function confidenceClass(value){
+      if(value >= 85) return "high";
+      if(value >= 75) return "mid";
+      return "low";
+    }
+
+    function escapeHtml(str){
+      return String(str ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
     function normalizeData(raw){
       if(Array.isArray(raw)) return raw;
       if(raw && Array.isArray(raw.predictions)) return raw.predictions;
@@ -222,29 +225,21 @@
       return [];
     }
 
-    async function loadData(silent=false){
+    async function loadData(){
       try{
-        if(state.useDemo){
-          state.predictions = DEMO_DATA;
-          el.liveStatus.textContent = "● Demo activ";
-          render();
-          return;
-        }
-
         const response = await fetch("./data.json?v=" + Date.now(), { cache: "no-store" });
         if(!response.ok) throw new Error("Nu s-a găsit data.json");
 
         const raw = await response.json();
         const items = normalizeData(raw);
-        if(!items.length) throw new Error("data.json gol");
 
         state.predictions = items;
-        el.liveStatus.textContent = "● Live activ";
-        if(!silent) render(); else render();
+        el.liveStatus.textContent = items.length ? "● Date reale active" : "● Fără date reale";
+        render();
       }catch(error){
         console.warn(error);
-        state.predictions = DEMO_DATA;
-        el.liveStatus.textContent = "● Demo fallback";
+        state.predictions = [];
+        el.liveStatus.textContent = "● Fără date reale";
         render();
       }
     }
@@ -264,16 +259,35 @@
           String(item.pick || "").toLowerCase().includes(q)
         );
       }
-      if(market !== "all") items = items.filter(item => String(item.market || "") === market);
-      if(minConf > 0) items = items.filter(item => Number(item.confidence || 0) >= minConf);
-      if(state.quickFilter === "safe") items = items.filter(item => String(item.tag || "").toLowerCase() === "safe");
-      if(state.quickFilter === "value") items = items.filter(item => Boolean(item.value) === true);
-      if(state.quickFilter === "high") items = items.filter(item => Number(item.confidence || 0) >= 85);
+
+      if(market !== "all"){
+        items = items.filter(item => String(item.market || "") === market);
+      }
+
+      if(minConf > 0){
+        items = items.filter(item => Number(item.confidence || 0) >= minConf);
+      }
+
+      if(state.quickFilter === "safe"){
+        items = items.filter(item => String(item.tag || "").toLowerCase() === "safe");
+      }
+
+      if(state.quickFilter === "value"){
+        items = items.filter(item => Boolean(item.value) === true);
+      }
+
+      if(state.quickFilter === "high"){
+        items = items.filter(item => Number(item.confidence || 0) >= 85);
+      }
 
       items.sort((a,b)=>{
-        const ac = Number(a.confidence || 0), bc = Number(b.confidence || 0);
-        const ao = Number(a.odds || 0), bo = Number(b.odds || 0);
-        const at = String(a.kickoff || ""), bt = String(b.kickoff || "");
+        const ac = Number(a.confidence || 0);
+        const bc = Number(b.confidence || 0);
+        const ao = Number(a.odds || 0);
+        const bo = Number(b.odds || 0);
+        const at = String(a.kickoff || "");
+        const bt = String(b.kickoff || "");
+
         switch(sortBy){
           case "confidence-asc": return ac - bc;
           case "odds-desc": return bo - ao;
@@ -282,32 +296,49 @@
           default: return bc - ac;
         }
       });
+
       return items;
     }
 
     function updateStats(items){
       el.count.textContent = items.length;
-      const avg = items.length ? Math.round(items.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / items.length) : 0;
+
+      const avg = items.length
+        ? Math.round(items.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / items.length)
+        : 0;
       el.avg.textContent = avg + "%";
+
       const best = items[0];
       if(best){
         el.best.textContent = (best.confidence || 0) + "%";
         el.bestSub.textContent = `${best.pick || "-"} • ${best.match || "-"}`;
-      } else {
+      }else{
         el.best.textContent = "-";
-        el.bestSub.textContent = "nicio selecție";
+        el.bestSub.textContent = "nicio selecție reală";
       }
-      el.updated.textContent = new Date().toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" });
+
+      el.updated.textContent = new Date().toLocaleTimeString("ro-RO", {
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+
       el.resultsText.textContent = `${items.length} rezultate`;
     }
 
     function render(){
       const items = getFilteredData();
       updateStats(items);
+
       if(!items.length){
-        el.list.innerHTML = `<div class="empty">Nu există rezultate pentru filtrele selectate.</div>`;
+        el.list.innerHTML = `
+          <div class="empty">
+            Nu există încă date reale disponibile.<br>
+            Verifică workflow-ul, sursa de date și fișierul data.json.
+          </div>
+        `;
         return;
       }
+
       el.list.innerHTML = items.map(item => `
         <article class="pick-card">
           <div class="pick-top">
@@ -316,7 +347,9 @@
               <h4 class="match">${escapeHtml(item.match || "-")}</h4>
               <div class="kickoff">Start: ${escapeHtml(item.kickoff || "-")}</div>
             </div>
-            <div class="confidence ${confidenceClass(Number(item.confidence || 0))}">${Number(item.confidence || 0)}%</div>
+            <div class="confidence ${confidenceClass(Number(item.confidence || 0))}">
+              ${Number(item.confidence || 0)}%
+            </div>
           </div>
 
           <div class="pick-meta">
@@ -341,11 +374,10 @@
     el.minConfidence.addEventListener("change", render);
     el.sortBy.addEventListener("change", render);
     el.pills.forEach(btn => btn.addEventListener("click", () => setQuickFilter(btn.dataset.quick)));
-    el.refreshBtn.addEventListener("click", () => loadData(false));
-    el.toggleDemoBtn.addEventListener("click", async () => { state.useDemo = !state.useDemo; await loadData(false); });
+    el.refreshBtn.addEventListener("click", loadData);
 
-    loadData(false);
-    setInterval(() => loadData(true), 60000);
+    loadData();
+    setInterval(loadData, 60000);
   </script>
 </body>
 </html>
