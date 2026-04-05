@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>OddsHarvester Pro</title>
+  <title>PredictApp Live</title>
   <meta name="theme-color" content="#0b1220" />
   <style>
     :root{
@@ -17,8 +17,7 @@
     }
     *{box-sizing:border-box}
     html,body{
-      margin:0;
-      padding:0;
+      margin:0;padding:0;
       background:linear-gradient(180deg,#06101d 0%, #0b1423 100%);
       color:var(--text);
       font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
@@ -88,54 +87,38 @@
   <div class="app">
     <div class="topbar">
       <div class="brand">
-        <div class="logo">OH</div>
+        <div class="logo">PA</div>
         <div>
-          <h1>OddsHarvester Pro</h1>
-          <p>Dashboard mobil pentru pronosticuri</p>
+          <h1>PredictApp Live</h1>
+          <p>Actualizare automată din data.json</p>
         </div>
       </div>
-      <div class="status-chip" id="liveStatus">● Demo activ</div>
+      <div class="status-chip" id="liveStatus">● Se încarcă...</div>
     </div>
 
     <section class="hero">
-      <h2>Pronosticuri curate, mobile-first, fără haos.</h2>
+      <h2>Live by default. Fallback doar când lipsește sursa.</h2>
       <p>
-        Pagina încearcă să citească automat un fișier <strong>data.json</strong> din repo.
-        Dacă nu îl găsește, folosește date demo ca să vezi imediat interfața.
+        Aplicația citește automat <strong>data.json</strong> și reîncarcă datele la fiecare 60 de secunde.
+        Dacă fișierul nu există sau e gol, intră pe demo.
       </p>
       <div class="hero-actions">
-        <button class="btn btn-primary" id="refreshBtn">Reîmprospătează</button>
+        <button class="btn btn-primary" id="refreshBtn">Reîmprospătează acum</button>
         <button class="btn btn-secondary" id="toggleDemoBtn">Comută demo/live</button>
       </div>
     </section>
 
     <section class="grid stats">
-      <div class="card">
-        <div class="stat-label">Pronosticuri afișate</div>
-        <div class="stat-value" id="statCount">0</div>
-        <div class="stat-sub">după filtrele active</div>
-      </div>
-      <div class="card">
-        <div class="stat-label">Încredere medie</div>
-        <div class="stat-value" id="statAvg">0%</div>
-        <div class="stat-sub">media selecțiilor</div>
-      </div>
-      <div class="card">
-        <div class="stat-label">Cea mai bună selecție</div>
-        <div class="stat-value" id="statBest">-</div>
-        <div class="stat-sub" id="statBestSub">așteaptă date</div>
-      </div>
-      <div class="card">
-        <div class="stat-label">Ultimul update</div>
-        <div class="stat-value" id="statUpdated" style="font-size:16px">-</div>
-        <div class="stat-sub">ora locală</div>
-      </div>
+      <div class="card"><div class="stat-label">Pronosticuri afișate</div><div class="stat-value" id="statCount">0</div><div class="stat-sub">după filtrele active</div></div>
+      <div class="card"><div class="stat-label">Încredere medie</div><div class="stat-value" id="statAvg">0%</div><div class="stat-sub">media selecțiilor</div></div>
+      <div class="card"><div class="stat-label">Cea mai bună selecție</div><div class="stat-value" id="statBest">-</div><div class="stat-sub" id="statBestSub">așteaptă date</div></div>
+      <div class="card"><div class="stat-label">Ultimul update</div><div class="stat-value" id="statUpdated" style="font-size:16px">-</div><div class="stat-sub">ora locală</div></div>
     </section>
 
     <section class="section card">
       <div class="section-title">
         <h3>Filtre rapide</h3>
-        <small>mobile optimized</small>
+        <small>auto-refresh 60s</small>
       </div>
 
       <div class="filters">
@@ -198,81 +181,18 @@
     </section>
 
     <div class="footer-note">
-      Acesta este primul pas: un frontend mobil funcțional. După ce îl urci, putem adăuga
-      <strong>manifest</strong>, <strong>iconițe</strong> și un <strong>data.json</strong> real.
-      <div class="mini">GitHub Pages adoră fișiere statice. Python-ul... mai puțin romantic.</div>
+      Această versiune pornește pe live și verifică automat date noi la fiecare 60 de secunde.
+      <div class="mini">Actualizarea reală a fișierului data.json se face din GitHub Actions.</div>
     </div>
   </div>
 
   <script>
     const DEMO_DATA = [
-      {
-        league: "Romania - SuperLiga",
-        match: "Rapid București vs Universitatea Cluj",
-        kickoff: "2026-04-05 20:30",
-        market: "Over 1.5",
-        pick: "Peste 1.5 goluri",
-        confidence: 86,
-        odds: 1.33,
-        tag: "safe",
-        value: false,
-        reason: "Ambele echipe au profil ofensiv decent, iar modelul favorizează minimum 2 goluri."
-      },
-      {
-        league: "England - Championship",
-        match: "Leeds vs Sunderland",
-        kickoff: "2026-04-05 21:00",
-        market: "1X2",
-        pick: "Leeds câștigă",
-        confidence: 78,
-        odds: 1.72,
-        tag: "value",
-        value: true,
-        reason: "Forma recentă și superioritatea acasă oferă avantaj echipei gazdă."
-      },
-      {
-        league: "Spain - LaLiga",
-        match: "Betis vs Villarreal",
-        kickoff: "2026-04-05 22:00",
-        market: "BTTS",
-        pick: "Ambele marchează",
-        confidence: 81,
-        odds: 1.74,
-        tag: "value",
-        value: true,
-        reason: "Structura defensivă a ambelor echipe e vulnerabilă în tranziție."
-      },
-      {
-        league: "Italy - Serie A",
-        match: "Atalanta vs Torino",
-        kickoff: "2026-04-05 19:00",
-        market: "Under 3.5",
-        pick: "Sub 3.5 goluri",
-        confidence: 84,
-        odds: 1.40,
-        tag: "safe",
-        value: false,
-        reason: "Linia de 3.5 pare generoasă raportat la ritmul probabil al partidei."
-      },
-      {
-        league: "Germany - Bundesliga",
-        match: "Freiburg vs Mainz",
-        kickoff: "2026-04-05 18:30",
-        market: "Double Chance",
-        pick: "1X",
-        confidence: 88,
-        odds: 1.29,
-        tag: "safe",
-        value: false,
-        reason: "Gazdele au stabilitate mai bună și acoperirea 1X reduce riscul."
-      }
+      { league:"Romania - SuperLiga", match:"Rapid București vs Universitatea Cluj", kickoff:"2026-04-05 20:30", market:"Over 1.5", pick:"Peste 1.5 goluri", confidence:86, odds:1.33, tag:"safe", value:false, reason:"Demo fallback." },
+      { league:"England - Championship", match:"Leeds vs Sunderland", kickoff:"2026-04-05 21:00", market:"1X2", pick:"Leeds câștigă", confidence:78, odds:1.72, tag:"value", value:true, reason:"Demo fallback." }
     ];
 
-    const state = {
-      predictions: [],
-      useDemo: true,
-      quickFilter: "all"
-    };
+    const state = { predictions: [], useDemo: false, quickFilter: "all" };
 
     const el = {
       list: document.getElementById("predictionsList"),
@@ -292,28 +212,17 @@
       pills: [...document.querySelectorAll(".pill")]
     };
 
-    function confidenceClass(value){
-      if(value >= 85) return "high";
-      if(value >= 75) return "mid";
-      return "low";
-    }
-
-    function escapeHtml(str){
-      return String(str ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-    }
-
+    function confidenceClass(value){ if(value >= 85) return "high"; if(value >= 75) return "mid"; return "low"; }
+    function escapeHtml(str){ return String(str ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;"); }
     function normalizeData(raw){
       if(Array.isArray(raw)) return raw;
       if(raw && Array.isArray(raw.predictions)) return raw.predictions;
+      if(raw && Array.isArray(raw.items)) return raw.items;
+      if(raw && Array.isArray(raw.data)) return raw.data;
       return [];
     }
 
-    async function loadData(){
+    async function loadData(silent=false){
       try{
         if(state.useDemo){
           state.predictions = DEMO_DATA;
@@ -327,16 +236,15 @@
 
         const raw = await response.json();
         const items = normalizeData(raw);
-
-        if(!items.length) throw new Error("data.json este gol sau într-un format invalid");
+        if(!items.length) throw new Error("data.json gol");
 
         state.predictions = items;
-        el.liveStatus.textContent = "● Date live încărcate";
-        render();
+        el.liveStatus.textContent = "● Live activ";
+        if(!silent) render(); else render();
       }catch(error){
         console.warn(error);
         state.predictions = DEMO_DATA;
-        el.liveStatus.textContent = "● Demo activ (fallback)";
+        el.liveStatus.textContent = "● Demo fallback";
         render();
       }
     }
@@ -356,35 +264,16 @@
           String(item.pick || "").toLowerCase().includes(q)
         );
       }
-
-      if(market !== "all"){
-        items = items.filter(item => String(item.market || "") === market);
-      }
-
-      if(minConf > 0){
-        items = items.filter(item => Number(item.confidence || 0) >= minConf);
-      }
-
-      if(state.quickFilter === "safe"){
-        items = items.filter(item => String(item.tag || "").toLowerCase() === "safe");
-      }
-
-      if(state.quickFilter === "value"){
-        items = items.filter(item => Boolean(item.value) === true);
-      }
-
-      if(state.quickFilter === "high"){
-        items = items.filter(item => Number(item.confidence || 0) >= 85);
-      }
+      if(market !== "all") items = items.filter(item => String(item.market || "") === market);
+      if(minConf > 0) items = items.filter(item => Number(item.confidence || 0) >= minConf);
+      if(state.quickFilter === "safe") items = items.filter(item => String(item.tag || "").toLowerCase() === "safe");
+      if(state.quickFilter === "value") items = items.filter(item => Boolean(item.value) === true);
+      if(state.quickFilter === "high") items = items.filter(item => Number(item.confidence || 0) >= 85);
 
       items.sort((a,b)=>{
-        const ac = Number(a.confidence || 0);
-        const bc = Number(b.confidence || 0);
-        const ao = Number(a.odds || 0);
-        const bo = Number(b.odds || 0);
-        const at = String(a.kickoff || "");
-        const bt = String(b.kickoff || "");
-
+        const ac = Number(a.confidence || 0), bc = Number(b.confidence || 0);
+        const ao = Number(a.odds || 0), bo = Number(b.odds || 0);
+        const at = String(a.kickoff || ""), bt = String(b.kickoff || "");
         switch(sortBy){
           case "confidence-asc": return ac - bc;
           case "odds-desc": return bo - ao;
@@ -393,49 +282,32 @@
           default: return bc - ac;
         }
       });
-
       return items;
     }
 
     function updateStats(items){
       el.count.textContent = items.length;
-
-      const avg = items.length
-        ? Math.round(items.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / items.length)
-        : 0;
+      const avg = items.length ? Math.round(items.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / items.length) : 0;
       el.avg.textContent = avg + "%";
-
       const best = items[0];
       if(best){
         el.best.textContent = (best.confidence || 0) + "%";
         el.bestSub.textContent = `${best.pick || "-"} • ${best.match || "-"}`;
-      }else{
+      } else {
         el.best.textContent = "-";
         el.bestSub.textContent = "nicio selecție";
       }
-
-      el.updated.textContent = new Date().toLocaleTimeString("ro-RO", {
-        hour: "2-digit",
-        minute: "2-digit"
-      });
-
+      el.updated.textContent = new Date().toLocaleTimeString("ro-RO", { hour: "2-digit", minute: "2-digit" });
       el.resultsText.textContent = `${items.length} rezultate`;
     }
 
     function render(){
       const items = getFilteredData();
       updateStats(items);
-
       if(!items.length){
-        el.list.innerHTML = `
-          <div class="empty">
-            Nu există rezultate pentru filtrele selectate.<br>
-            Încearcă să relaxezi filtrul de încredere sau să schimbi piața.
-          </div>
-        `;
+        el.list.innerHTML = `<div class="empty">Nu există rezultate pentru filtrele selectate.</div>`;
         return;
       }
-
       el.list.innerHTML = items.map(item => `
         <article class="pick-card">
           <div class="pick-top">
@@ -444,38 +316,23 @@
               <h4 class="match">${escapeHtml(item.match || "-")}</h4>
               <div class="kickoff">Start: ${escapeHtml(item.kickoff || "-")}</div>
             </div>
-            <div class="confidence ${confidenceClass(Number(item.confidence || 0))}">
-              ${Number(item.confidence || 0)}%
-            </div>
+            <div class="confidence ${confidenceClass(Number(item.confidence || 0))}">${Number(item.confidence || 0)}%</div>
           </div>
 
           <div class="pick-meta">
-            <div class="meta-box">
-              <div class="k">Piață</div>
-              <div class="v">${escapeHtml(item.market || "-")}</div>
-            </div>
-            <div class="meta-box">
-              <div class="k">Pronostic</div>
-              <div class="v">${escapeHtml(item.pick || "-")}</div>
-            </div>
-            <div class="meta-box">
-              <div class="k">Cotă</div>
-              <div class="v">${escapeHtml(item.odds ?? "-")}</div>
-            </div>
+            <div class="meta-box"><div class="k">Piață</div><div class="v">${escapeHtml(item.market || "-")}</div></div>
+            <div class="meta-box"><div class="k">Pronostic</div><div class="v">${escapeHtml(item.pick || "-")}</div></div>
+            <div class="meta-box"><div class="k">Cotă</div><div class="v">${escapeHtml(item.odds ?? "-")}</div></div>
           </div>
 
-          <div class="reason">
-            ${escapeHtml(item.reason || "Fără explicație disponibilă.")}
-          </div>
+          <div class="reason">${escapeHtml(item.reason || "Fără explicație disponibilă.")}</div>
         </article>
       `).join("");
     }
 
     function setQuickFilter(value){
       state.quickFilter = value;
-      el.pills.forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.quick === value);
-      });
+      el.pills.forEach(btn => btn.classList.toggle("active", btn.dataset.quick === value));
       render();
     }
 
@@ -483,19 +340,12 @@
     el.marketFilter.addEventListener("change", render);
     el.minConfidence.addEventListener("change", render);
     el.sortBy.addEventListener("change", render);
+    el.pills.forEach(btn => btn.addEventListener("click", () => setQuickFilter(btn.dataset.quick)));
+    el.refreshBtn.addEventListener("click", () => loadData(false));
+    el.toggleDemoBtn.addEventListener("click", async () => { state.useDemo = !state.useDemo; await loadData(false); });
 
-    el.pills.forEach(btn => {
-      btn.addEventListener("click", () => setQuickFilter(btn.dataset.quick));
-    });
-
-    el.refreshBtn.addEventListener("click", loadData);
-
-    el.toggleDemoBtn.addEventListener("click", async () => {
-      state.useDemo = !state.useDemo;
-      await loadData();
-    });
-
-    loadData();
+    loadData(false);
+    setInterval(() => loadData(true), 60000);
   </script>
 </body>
 </html>
