@@ -1,5 +1,454 @@
 {
-  "generatedAt": "2026-04-21T00:00:00.000Z",
-  "count": 0,
-  "items": []
+  "generatedAt": "2026-04-21T12:20:41.014Z",
+  "count": 42,
+  "items": [
+    {
+      "id": 30,
+      "name": "Africa Cup of Nations 2025",
+      "country": "Africa",
+      "season": {
+        "id": 211,
+        "name": "Africa Cup of Nations 2025",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Allsvenskan",
+      "country": "Sweden",
+      "season": {
+        "id": 9,
+        "name": "Allsvenskan 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Brasileirão Serie A",
+      "country": "Brazil",
+      "season": {
+        "id": 28,
+        "name": "Brasileiro Serie A 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Brasileirão Serie B",
+      "country": "Brazil",
+      "season": {
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bundesliga",
+      "country": "Germany",
+      "season": {
+        "id": 228,
+        "name": "Bundesliga 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 29,
+      "name": "CAF Champions League",
+      "country": "Africa",
+      "season": {
+        "id": 229,
+        "name": "CAF Champions League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 40,
+      "name": "Carabao Cup",
+      "country": "England"
+    },
+    {
+      "id": 12,
+      "name": "Championship",
+      "country": "England",
+      "season": {
+        "id": 243,
+        "name": "Championship 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Champions League",
+      "country": "Europe",
+      "season": {
+        "id": 268,
+        "name": "UEFA Champions League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Copa del Rey",
+      "country": "Spain"
+    },
+    {
+      "id": 35,
+      "name": "Copa do Brasil",
+      "country": "Brazil",
+      "season": {
+        "id": 78,
+        "name": "Copa do Brasil 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Copa Libertadores",
+      "country": "South America",
+      "season": {
+        "id": 96,
+        "name": "CONMEBOL Libertadores 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Copa Sudamericana",
+      "country": "South America",
+      "season": {
+        "id": 114,
+        "name": "CONMEBOL Sudamericana 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Coppa Italia",
+      "country": "Italy"
+    },
+    {
+      "id": 44,
+      "name": "Coupe de France",
+      "country": "France"
+    },
+    {
+      "id": 43,
+      "name": "DFB Pokal",
+      "country": "Germany"
+    },
+    {
+      "id": 25,
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "season": {
+        "id": 271,
+        "name": "Ekstraklasa 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "season": {
+        "id": 279,
+        "name": "VriendenLoterij Eredivisie 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Europa League",
+      "country": "Europe",
+      "season": {
+        "id": 280,
+        "name": "UEFA Europa League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 39,
+      "name": "FA Cup",
+      "country": "England"
+    },
+    {
+      "id": 31,
+      "name": "International Friendly Games",
+      "country": "International",
+      "season": {
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 3,
+      "name": "La Liga",
+      "country": "Spain",
+      "season": {
+        "id": 294,
+        "name": "LaLiga 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Liga F",
+      "country": "Spain",
+      "season": {
+        "id": 295,
+        "name": "Liga F Moeve 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Liga MX Apertura",
+      "country": "Mexico",
+      "season": {
+        "id": 296,
+        "name": "Liga MX, Apertura 2025",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Liga MX Clausura",
+      "country": "Mexico",
+      "season": {
+        "id": 297,
+        "name": "Liga MX, Clausura 2026",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "season": {
+        "id": 305,
+        "name": "Liga Portugal 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ligue 1",
+      "country": "France",
+      "season": {
+        "id": 317,
+        "name": "Ligue 1 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 18,
+      "name": "MLS",
+      "country": "USA",
+      "season": {
+        "id": 158,
+        "name": "MLS 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Nigeria Premier Football League",
+      "country": "Nigeria",
+      "season": {
+        "id": 318,
+        "name": "Premier League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Parva Liga",
+      "country": "Bulgaria",
+      "season": {
+        "id": 321,
+        "name": "Parva Liga 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Premier League",
+      "country": "England",
+      "season": {
+        "id": 337,
+        "name": "Premier League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Pro League",
+      "country": "Belgium",
+      "season": {
+        "id": 338,
+        "name": "Pro League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Puchar Polski",
+      "country": "Poland"
+    },
+    {
+      "id": 17,
+      "name": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "season": {
+        "id": 339,
+        "name": "Saudi Pro League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Scottish Premiership",
+      "country": "Scotland",
+      "season": {
+        "id": 345,
+        "name": "Premiership 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Segunda División",
+      "country": "Spain"
+    },
+    {
+      "id": 4,
+      "name": "Serie A",
+      "country": "Italy",
+      "season": {
+        "id": 358,
+        "name": "Serie A 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Stoiximan Super League",
+      "country": "Greece",
+      "season": {
+        "id": 364,
+        "name": "Super League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Super League",
+      "country": "Switzerland",
+      "season": {
+        "id": 371,
+        "name": "Super League 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Superliga",
+      "country": "Romania",
+      "season": {
+        "id": 374,
+        "name": "Superliga 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Trendyol Super Lig",
+      "country": "Turkey",
+      "season": {
+        "id": 380,
+        "name": "Super Lig 25/26",
+        "year": 2025,
+        "start_date": "2025-07-01",
+        "end_date": "2026-06-30"
+      }
+    },
+    {
+      "id": 27,
+      "name": "World Cup 2026",
+      "country": "International",
+      "season": {
+        "id": 188,
+        "name": "World Cup 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
+    }
+  ]
 }
