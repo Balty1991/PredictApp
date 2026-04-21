@@ -4,11 +4,32 @@ import path from "node:path";
 const API_BASE = process.env.BSD_API_BASE || "https://sports.bzzoiro.com";
 const API_KEY = process.env.BSD_API_KEY || "";
 
-const ENDPOINTS = {
-  events: process.env.BSD_EVENTS_ENDPOINT || "/api/events/",
-  predictions: process.env.BSD_PREDICTIONS_ENDPOINT || "/api/predictions/",
-  leagues: process.env.BSD_LEAGUES_ENDPOINT || "/api/leagues/"
+const DEFAULT_CANDIDATES = {
+  events: [
+    process.env.BSD_EVENTS_ENDPOINT || "/api/events/",
+    "/api/events/?sport=football",
+    "/api/events/?sport=soccer",
+    "/api/football/events/",
+    "/api/matches/"
+  ],
+  predictions: [
+    process.env.BSD_PREDICTIONS_ENDPOINT || "/api/predictions/",
+    "/api/predictions/?sport=football",
+    "/api/predictions/?sport=soccer",
+    "/api/football/predictions/",
+    "/api/tips/"
+  ],
+  leagues: [
+    process.env.BSD_LEAGUES_ENDPOINT || "/api/leagues/",
+    "/api/leagues/?sport=football",
+    "/api/football/leagues/",
+    "/api/competitions/"
+  ]
 };
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
+}
 
 function toAbsoluteUrl(value) {
   if (!value) return null;
@@ -18,13 +39,16 @@ function toAbsoluteUrl(value) {
 
 function buildHeaders() {
   const headers = {
-    Accept: "application/json"
+    Accept: "application/json",
+    "Content-Type": "application/json"
   };
 
   if (API_KEY) {
     headers.Authorization = `Bearer ${API_KEY}`;
     headers["X-API-Key"] = API_KEY;
     headers["x-api-key"] = API_KEY;
+    headers.apikey = API_KEY;
+    headers.ApiKey = API_KEY;
   }
 
   return headers;
@@ -40,14 +64,56 @@ async function fetchJson(label, endpoint) {
   const text = await response.text();
 
   if (!response.ok) {
-    throw new Error(`[${label}] ${response.status} ${response.statusText}: ${text.slice(0, 250)}`);
+    throw new Error(`[${label}] ${response.status} ${response.statusText} @ ${url} :: ${text.slice(0, 300)}`);
   }
 
   try {
-    return JSON.parse(text);
+    return { url, payload: JSON.parse(text) };
   } catch (error) {
-    throw new Error(`[${label}] răspunsul nu este JSON valid.`);
+    throw new Error(`[${label}] răspuns non-JSON @ ${url} :: ${text.slice(0, 180)}`);
   }
+}
+
+async function fetchFirstWorking(label, candidates) {
+  const tried = [];
+  for (const candidate of unique(candidates)) {
+    try {
+      const result = await fetchJson(label, candidate);
+      return { ...result, tried };
+    } catch (error) {
+      tried.push(error.message);
+    }
+  }
+  return { url: null, payload: null, tried };
+}
+
+function looksLikeRecord(value) {
+  return Boolean(value && typeof value === "object" && !Array.isArray(value));
+}
+
+function maybeObjectMapToArray(value) {
+  if (!looksLikeRecord(value)) return null;
+  const values = Object.values(value);
+  if (!values.length) return null;
+  if (values.every(looksLikeRecord)) return values;
+  return null;
+}
+
+function deepFindArray(payload, depth = 0) {
+  if (depth > 4 || payload == null) return null;
+  if (Array.isArray(payload)) return payload;
+
+  const objectMap = maybeObjectMapToArray(payload);
+  if (objectMap) return objectMap;
+
+  if (looksLikeRecord(payload)) {
+    for (const value of Object.values(payload)) {
+      const found = deepFindArray(value, depth + 1);
+      if (found) return found;
+    }
+  }
+
+  return null;
 }
 
 function extractArray(payload, preferredKeys = []) {
@@ -62,25 +128,19 @@ function extractArray(payload, preferredKeys = []) {
     "events",
     "matches",
     "predictions",
-    "leagues"
+    "leagues",
+    "fixtures",
+    "tips"
   ];
 
   for (const key of keys) {
     if (Array.isArray(payload?.[key])) return payload[key];
+
+    const objectMap = maybeObjectMapToArray(payload?.[key]);
+    if (objectMap) return objectMap;
   }
 
-  if (payload && typeof payload === "object") {
-    for (const value of Object.values(payload)) {
-      if (Array.isArray(value)) return value;
-      if (value && typeof value === "object") {
-        for (const nested of Object.values(value)) {
-          if (Array.isArray(nested)) return nested;
-        }
-      }
-    }
-  }
-
-  return [];
+  return deepFindArray(payload) || [];
 }
 
 function firstDefined(...values) {
@@ -280,32 +340,25 @@ function writeJson(filename, content) {
 }
 
 async function main() {
-  const errors = [];
-  let eventsPayload = null;
-  let predictionsPayload = null;
-  let leaguesPayload = null;
-
-  try {
-    eventsPayload = await fetchJson("events", ENDPOINTS.events);
-  } catch (error) {
-    errors.push(error.message);
+  if (!API_KEY) {
+    throw new Error("Secretul BSD_API_KEY lipsește din GitHub Actions.");
   }
 
-  try {
-    predictionsPayload = await fetchJson("predictions", ENDPOINTS.predictions);
-  } catch (error) {
-    errors.push(error.message);
-  }
+  ensureDataDir();
 
-  try {
-    leaguesPayload = await fetchJson("leagues", ENDPOINTS.leagues);
-  } catch (error) {
-    errors.push(error.message);
-  }
+  const eventsResult = await fetchFirstWorking("events", DEFAULT_CANDIDATES.events);
+  const predictionsResult = await fetchFirstWorking("predictions", DEFAULT_CANDIDATES.predictions);
+  const leaguesResult = await fetchFirstWorking("leagues", DEFAULT_CANDIDATES.leagues);
 
-  const rawEvents = extractArray(eventsPayload, ["events", "matches"]).filter(isFootball);
-  const rawPredictions = extractArray(predictionsPayload, ["predictions"]).filter(isFootball);
-  const rawLeagues = extractArray(leaguesPayload, ["leagues"]);
+  const errors = [
+    ...eventsResult.tried,
+    ...predictionsResult.tried,
+    ...leaguesResult.tried
+  ];
+
+  const rawEvents = extractArray(eventsResult.payload, ["events", "matches", "fixtures"]).filter(isFootball);
+  const rawPredictions = extractArray(predictionsResult.payload, ["predictions", "tips"]).filter(isFootball);
+  const rawLeagues = extractArray(leaguesResult.payload, ["leagues", "competitions"]);
 
   const events = sortByStartTime(rawEvents.map(normalizeEvent));
   const predictions = sortByStartTime(rawPredictions.map(normalizePrediction));
@@ -313,28 +366,35 @@ async function main() {
     ? rawLeagues.map(normalizeLeague).filter(item => item.name)
     : [...new Set(events.map(item => item.league).filter(Boolean))].map(name => ({ name }));
 
-  if (!events.length && !predictions.length) {
-    throw new Error(
-      "Nu s-au putut normaliza date utile din BSD. Verifică în workflow endpoint-urile BSD_*_ENDPOINT și eventual schema JSON exactă din documentație."
-    );
-  }
-
-  ensureDataDir();
-
-  writeJson("football-overview.json", buildOverview(events, predictions, leagues, errors));
-  writeJson("football-events.json", { generatedAt: new Date().toISOString(), count: events.length, items: events });
-  writeJson("football-predictions.json", { generatedAt: new Date().toISOString(), count: predictions.length, items: predictions });
-  writeJson("football-leagues.json", { generatedAt: new Date().toISOString(), count: leagues.length, items: leagues });
   writeJson("football-raw.json", {
     generatedAt: new Date().toISOString(),
-    endpoints: ENDPOINTS,
+    requests: {
+      eventsUrl: eventsResult.url,
+      predictionsUrl: predictionsResult.url,
+      leaguesUrl: leaguesResult.url
+    },
     errors,
     samples: {
       event: rawEvents[0] || null,
       prediction: rawPredictions[0] || null,
       league: rawLeagues[0] || null
+    },
+    payloadShapes: {
+      eventsTopKeys: eventsResult.payload && typeof eventsResult.payload === "object" ? Object.keys(eventsResult.payload).slice(0, 20) : [],
+      predictionsTopKeys: predictionsResult.payload && typeof predictionsResult.payload === "object" ? Object.keys(predictionsResult.payload).slice(0, 20) : [],
+      leaguesTopKeys: leaguesResult.payload && typeof leaguesResult.payload === "object" ? Object.keys(leaguesResult.payload).slice(0, 20) : []
     }
   });
+
+  if (!events.length && !predictions.length) {
+    console.error("Detalii endpoint-uri BSD:", errors);
+    throw new Error("BSD a răspuns, dar schema datelor nu s-a potrivit încă. Acum logul conține endpoint-urile încercate și erorile exacte.");
+  }
+
+  writeJson("football-overview.json", buildOverview(events, predictions, leagues, errors));
+  writeJson("football-events.json", { generatedAt: new Date().toISOString(), count: events.length, items: events });
+  writeJson("football-predictions.json", { generatedAt: new Date().toISOString(), count: predictions.length, items: predictions });
+  writeJson("football-leagues.json", { generatedAt: new Date().toISOString(), count: leagues.length, items: leagues });
 
   console.log(`OK: ${events.length} evenimente, ${predictions.length} predicții, ${leagues.length} ligi.`);
 }
