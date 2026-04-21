@@ -37,54 +37,75 @@ function toAbsoluteUrl(value) {
   return new URL(value, API_BASE).toString();
 }
 
-function buildHeaders() {
-  const headers = {
+function getBaseHeaders() {
+  return {
     Accept: "application/json",
     "Content-Type": "application/json"
   };
-
-  if (API_KEY) {
-    headers.Authorization = `Bearer ${API_KEY}`;
-    headers["X-API-Key"] = API_KEY;
-    headers["x-api-key"] = API_KEY;
-    headers.apikey = API_KEY;
-    headers.ApiKey = API_KEY;
-  }
-
-  return headers;
 }
 
-async function fetchJson(label, endpoint) {
-  const url = toAbsoluteUrl(endpoint);
+function getAuthStrategies() {
+  return [
+    { name: "bearer", headers: { Authorization: `Bearer ${API_KEY}` } },
+    { name: "x-api-key", headers: { "X-API-Key": API_KEY } },
+    { name: "apikey-header", headers: { apikey: API_KEY } },
+    { name: "token", headers: { Authorization: `Token ${API_KEY}` } },
+    { name: "api-key-auth", headers: { Authorization: `Api-Key ${API_KEY}` } },
+    { name: "query-api_key", query: { api_key: API_KEY } },
+    { name: "query-apikey", query: { apikey: API_KEY } },
+    { name: "query-key", query: { key: API_KEY } },
+    { name: "query-token", query: { token: API_KEY } }
+  ];
+}
+
+function withQuery(url, query = {}) {
+  const next = new URL(url);
+  for (const [key, value] of Object.entries(query)) {
+    if (value != null && value !== "") next.searchParams.set(key, value);
+  }
+  return next.toString();
+}
+
+async function fetchJson(label, endpoint, authStrategy) {
+  const baseUrl = toAbsoluteUrl(endpoint);
+  const url = withQuery(baseUrl, authStrategy.query || {});
   const response = await fetch(url, {
     method: "GET",
-    headers: buildHeaders()
+    headers: {
+      ...getBaseHeaders(),
+      ...(authStrategy.headers || {})
+    }
   });
 
   const text = await response.text();
 
   if (!response.ok) {
-    throw new Error(`[${label}] ${response.status} ${response.statusText} @ ${url} :: ${text.slice(0, 300)}`);
+    throw new Error(`[${label}] ${response.status} ${response.statusText} via ${authStrategy.name} @ ${url} :: ${text.slice(0, 300)}`);
   }
 
   try {
-    return { url, payload: JSON.parse(text) };
+    return { url, payload: JSON.parse(text), auth: authStrategy.name };
   } catch (error) {
-    throw new Error(`[${label}] răspuns non-JSON @ ${url} :: ${text.slice(0, 180)}`);
+    throw new Error(`[${label}] răspuns non-JSON via ${authStrategy.name} @ ${url} :: ${text.slice(0, 180)}`);
   }
 }
 
 async function fetchFirstWorking(label, candidates) {
   const tried = [];
+  const authStrategies = getAuthStrategies();
+
   for (const candidate of unique(candidates)) {
-    try {
-      const result = await fetchJson(label, candidate);
-      return { ...result, tried };
-    } catch (error) {
-      tried.push(error.message);
+    for (const authStrategy of authStrategies) {
+      try {
+        const result = await fetchJson(label, candidate, authStrategy);
+        return { ...result, tried };
+      } catch (error) {
+        tried.push(error.message);
+      }
     }
   }
-  return { url: null, payload: null, tried };
+
+  return { url: null, payload: null, auth: null, tried };
 }
 
 function looksLikeRecord(value) {
@@ -371,7 +392,10 @@ async function main() {
     requests: {
       eventsUrl: eventsResult.url,
       predictionsUrl: predictionsResult.url,
-      leaguesUrl: leaguesResult.url
+      leaguesUrl: leaguesResult.url,
+      eventsAuth: eventsResult.auth,
+      predictionsAuth: predictionsResult.auth,
+      leaguesAuth: leaguesResult.auth
     },
     errors,
     samples: {
@@ -388,7 +412,7 @@ async function main() {
 
   if (!events.length && !predictions.length) {
     console.error("Detalii endpoint-uri BSD:", errors);
-    throw new Error("BSD a răspuns, dar schema datelor nu s-a potrivit încă. Acum logul conține endpoint-urile încercate și erorile exacte.");
+    throw new Error("Autentificarea BSD nu a trecut încă sau schema datelor rămâne diferită. Logul arată acum și metoda de autentificare încercată.");
   }
 
   writeJson("football-overview.json", buildOverview(events, predictions, leagues, errors));
