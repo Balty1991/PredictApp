@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T21:55:52.298Z",
+  "generatedAt": "2026-04-21T22:49:09.279Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,148 +21,183 @@
   ],
   "samples": {
     "event": {
-      "id": 203557,
+      "id": 9582,
       "league": {
-        "id": 42,
-        "name": "Coppa Italia",
-        "country": "Italy",
+        "id": 35,
+        "name": "Copa do Brasil",
+        "country": "Brazil",
         "is_women": false,
-        "current_season": null
-      },
-      "season": null,
-      "home_team": "Inter",
-      "away_team": "Como",
-      "home_team_obj": {
-        "id": 77,
-        "name": "Inter",
-        "short_name": "Inter",
-        "country": "Italy",
-        "coach": {
-          "name": "Cristian Chivu",
-          "shortName": "C. Chivu"
-        },
-        "venue": null
-      },
-      "away_team_obj": {
-        "id": 69,
-        "name": "Como",
-        "short_name": "Como",
-        "country": "Italy",
-        "coach": {
-          "name": "Cesc Fàbregas",
-          "shortName": "C. Fàbregas"
-        },
-        "venue": {
-          "id": 69,
-          "name": "Stadio Giuseppe Sinigaglia",
-          "city": "Como",
-          "country": "Italy",
-          "capacity": 12064
+        "current_season": {
+          "id": 78,
+          "name": "Copa do Brasil 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
-      "event_date": "2026-04-21T23:00:00+04:00",
-      "round_number": 28,
+      "season": {
+        "id": 78,
+        "name": "Copa do Brasil 2026",
+        "year": 2026
+      },
+      "home_team": "Botafogo",
+      "away_team": "Chapecoense",
+      "home_team_obj": {
+        "id": 163,
+        "name": "Botafogo",
+        "short_name": "Botafogo",
+        "country": "Brazil",
+        "coach": {
+          "name": "Franclim Carvalho",
+          "shortName": "F. Carvalho"
+        },
+        "venue": {
+          "id": 160,
+          "name": "Estádio Nilton Santos",
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "capacity": 46831
+        }
+      },
+      "away_team_obj": {
+        "id": 373,
+        "name": "Chapecoense",
+        "short_name": "Chapecoense",
+        "country": "Brazil",
+        "coach": {
+          "name": "Fábio Matias",
+          "shortName": "F. Matias"
+        },
+        "venue": {
+          "id": 353,
+          "name": "Arena Condá",
+          "city": "Chapecó",
+          "country": "Brazil",
+          "capacity": 21000
+        }
+      },
+      "event_date": "2026-04-22T00:00:00+04:00",
+      "round_number": 5,
       "status": "finished",
-      "home_score": 3,
-      "away_score": 2,
+      "home_score": 1,
+      "away_score": 0,
       "home_score_ht": 0,
-      "away_score_ht": 2,
+      "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 1.79,
-      "odds_draw": 3.5,
-      "odds_away": 4.5,
-      "odds_over_15": 1.25,
-      "odds_over_25": 1.85,
-      "odds_over_35": 3,
-      "odds_under_15": 3.75,
-      "odds_under_25": 1.95,
-      "odds_under_35": 1.36,
-      "odds_btts_yes": 1.75,
-      "odds_btts_no": 2,
-      "odds_dc_12": null,
+      "odds_home": 2.4,
+      "odds_draw": 1.8,
+      "odds_away": 9.75,
+      "odds_over_15": 4.75,
+      "odds_over_25": 10.5,
+      "odds_over_35": 12.5,
+      "odds_under_15": 1.15,
+      "odds_under_25": 1.01,
+      "odds_under_35": 1.03,
+      "odds_btts_yes": 8,
+      "odds_btts_no": 1.03,
+      "odds_dc_12": 1.95,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
-      "referee": {
-        "name": "Simone Sozza",
-        "country": "Italy",
-        "redCards": 25,
-        "yellowCards": 875
-      },
+      "referee": null,
       "home_coach": {
-        "id": 439,
-        "name": "Cristian Chivu",
-        "short_name": "C. Chivu",
-        "country": "Romania",
-        "profile": "attacking",
-        "preferred_formation": "3-5-2",
-        "pressing_intensity": 0.5498309260484152,
-        "defensive_line": "high",
+        "id": 44,
+        "name": "Franclim Carvalho",
+        "short_name": "F. Carvalho",
+        "country": "Portugal",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.4431278656598902,
+        "defensive_line": "mid",
         "top_styles": [
-          "wing_play",
-          "overload_isolate"
+          "heritage",
+          "anti_football"
         ]
       },
       "away_coach": {
-        "id": 449,
-        "name": "Cesc Fàbregas",
-        "short_name": "C. Fàbregas",
-        "country": "Spain",
-        "profile": "attacking",
+        "id": 158,
+        "name": "Fábio Matias",
+        "short_name": "F. Matias",
+        "country": "Brazil",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.784182229910174,
-        "defensive_line": "low",
+        "pressing_intensity": 0.2294855477274455,
+        "defensive_line": "mid",
         "top_styles": [
-          "tiki_taka",
-          "chaos_ball"
+          "cross_pray",
+          "terrorist_fb"
         ]
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Alessandro Bastoni",
-            "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-05-06"
-          },
-          {
-            "name": "Lautaro Martínez",
+            "name": "Alex Telles",
             "status": "doubtful",
             "reason": "Muscle Injury",
-            "expected_return": "2026-05-06"
+            "expected_return": null
           },
           {
-            "name": "Yann Bisseck",
+            "name": "Chris Ramos",
             "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-04-30"
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Joaquin Correa",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Kaio Pantaleão",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Marcal",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Mateo Ponte",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Newton",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
           }
         ],
         "away": [
           {
-            "name": "Jayden Addai",
+            "name": "Bruno Matias",
             "status": "injured",
-            "reason": "Achilles Tendon Injury",
+            "reason": "ACL Knee Injury",
             "expected_return": "2026-05-20"
           },
           {
-            "name": "Sergi Roberto",
-            "status": "doubtful",
-            "reason": "Physical Discomfort",
-            "expected_return": "2026-05-06"
+            "name": "Giovanni Augusto",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Robert Santos",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
           }
         ]
       },
-      "venue": {
-        "id": 63,
-        "name": "San Siro/Giuseppe Meazza",
-        "city": "Milan",
-        "country": "Italy",
-        "capacity": 75817
-      }
+      "venue": null
     },
     "prediction": {
       "id": 2911,
