@@ -1,0 +1,41 @@
+name: Update BSD football data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    env:
+      BSD_API_BASE: https://sports.bzzoiro.com
+      BSD_EVENTS_ENDPOINT: /api/events/
+      BSD_PREDICTIONS_ENDPOINT: /api/predictions/
+      BSD_LEAGUES_ENDPOINT: /api/leagues/
+      BSD_API_KEY: ${{ secrets.BSD_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch football data
+        run: node scripts/fetch-bsd-data.mjs
+
+      - name: Commit generated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update BSD football data"
+          git push
