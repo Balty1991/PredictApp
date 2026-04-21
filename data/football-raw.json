@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T13:58:23.665Z",
+  "generatedAt": "2026-04-21T15:21:55.809Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 203194,
+      "id": 203193,
       "league": {
         "id": 39,
         "name": "FA Cup",
@@ -30,40 +30,40 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "SCR Altach",
-      "away_team": "WSG Tirol",
+      "home_team": "FC Blau Weiss Linz",
+      "away_team": "Wolfsberger AC",
       "home_team_obj": {
-        "id": 1407,
-        "name": "SCR Altach",
-        "short_name": "Altach",
+        "id": 1412,
+        "name": "FC Blau Weiss Linz",
+        "short_name": "BW Linz",
         "country": "Austria",
         "coach": {
-          "name": "Ognjen Zaric",
-          "shortName": "O. Zaric"
+          "name": "Michael Köllner",
+          "shortName": "M. Köllner"
         },
         "venue": {
-          "id": 859,
-          "name": "Stadion Schnabelholz",
-          "city": "Altach",
+          "id": 862,
+          "name": "Hofmann Personal Stadion",
+          "city": "Linz",
           "country": "Austria",
-          "capacity": 8500
+          "capacity": 5595
         }
       },
       "away_team_obj": {
-        "id": 1405,
-        "name": "WSG Tirol",
-        "short_name": "Tirol",
+        "id": 411,
+        "name": "Wolfsberger AC",
+        "short_name": "WAC",
         "country": "Austria",
         "coach": {
-          "name": "Philipp Semlic",
-          "shortName": "P. Semlic"
+          "name": "Thomas Silberberger",
+          "shortName": "T. Silberberger"
         },
         "venue": {
-          "id": 857,
-          "name": "Tivoli Stadion Tirol",
-          "city": "Innsbruck",
+          "id": 392,
+          "name": "Lavanttal-Arena",
+          "city": "Wolfsberg",
           "country": "Austria",
-          "capacity": 17400
+          "capacity": 7300
         }
       },
       "event_date": "2026-04-21T20:30:00+04:00",
@@ -75,17 +75,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 2.01,
-      "odds_draw": 3.1,
-      "odds_away": 3.5,
-      "odds_over_15": 1.36,
-      "odds_over_25": 2.2,
-      "odds_over_35": 4,
-      "odds_under_15": 3,
-      "odds_under_25": 1.65,
-      "odds_under_35": 1.22,
-      "odds_btts_yes": 1.95,
-      "odds_btts_no": 1.8,
+      "odds_home": 2.15,
+      "odds_draw": 3.3,
+      "odds_away": 3,
+      "odds_over_15": 1.25,
+      "odds_over_25": 1.85,
+      "odds_over_35": 3,
+      "odds_under_15": 3.75,
+      "odds_under_25": 1.95,
+      "odds_under_35": 1.36,
+      "odds_btts_yes": 1.67,
+      "odds_btts_no": 2.1,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -94,10 +94,10 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 845,
-        "name": "Ognjen Zaric",
-        "short_name": "O. Zaric",
-        "country": "Austria",
+        "id": 850,
+        "name": "Michael Köllner",
+        "short_name": "M. Köllner",
+        "country": "Germany",
         "profile": "balanced",
         "preferred_formation": "",
         "pressing_intensity": null,
@@ -105,12 +105,12 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 843,
-        "name": "Philipp Semlic",
-        "short_name": "P. Semlic",
+        "id": 652,
+        "name": "Thomas Silberberger",
+        "short_name": "T. Silberberger",
         "country": "Austria",
         "profile": "balanced",
-        "preferred_formation": "",
+        "preferred_formation": "3-4-1-2",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
