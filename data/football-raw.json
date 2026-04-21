@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T20:59:44.325Z",
+  "generatedAt": "2026-04-21T21:55:52.298Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,96 +21,148 @@
   ],
   "samples": {
     "event": {
-      "id": 203195,
+      "id": 203557,
       "league": {
-        "id": 39,
-        "name": "FA Cup",
-        "country": "England",
+        "id": 42,
+        "name": "Coppa Italia",
+        "country": "Italy",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "SV Ried",
-      "away_team": "Grazer AK 1902",
+      "home_team": "Inter",
+      "away_team": "Como",
       "home_team_obj": {
-        "id": 1408,
-        "name": "SV Ried",
-        "short_name": "Ried",
-        "country": "Austria",
+        "id": 77,
+        "name": "Inter",
+        "short_name": "Inter",
+        "country": "Italy",
         "coach": {
-          "name": "Maximilian Senft",
-          "shortName": "M. Senft"
-        },
-        "venue": {
-          "id": 860,
-          "name": "Josko Arena",
-          "city": "Ried im Innkreis",
-          "country": "Austria",
-          "capacity": 7300
-        }
-      },
-      "away_team_obj": {
-        "id": 1409,
-        "name": "Grazer AK 1902",
-        "short_name": "GAK 1902",
-        "country": "Austria",
-        "coach": {
-          "name": "Ferdinand Feldhofer",
-          "shortName": "F. Feldhofer"
+          "name": "Cristian Chivu",
+          "shortName": "C. Chivu"
         },
         "venue": null
       },
-      "event_date": "2026-04-21T22:30:00+04:00",
+      "away_team_obj": {
+        "id": 69,
+        "name": "Como",
+        "short_name": "Como",
+        "country": "Italy",
+        "coach": {
+          "name": "Cesc Fàbregas",
+          "shortName": "C. Fàbregas"
+        },
+        "venue": {
+          "id": 69,
+          "name": "Stadio Giuseppe Sinigaglia",
+          "city": "Como",
+          "country": "Italy",
+          "capacity": 12064
+        }
+      },
+      "event_date": "2026-04-21T23:00:00+04:00",
       "round_number": 28,
       "status": "finished",
-      "home_score": 2,
-      "away_score": 1,
-      "home_score_ht": 2,
-      "away_score_ht": 0,
+      "home_score": 3,
+      "away_score": 2,
+      "home_score_ht": 0,
+      "away_score_ht": 2,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 2.05,
-      "odds_draw": 3.2,
-      "odds_away": 3.4,
-      "odds_over_15": 1.33,
-      "odds_over_25": 2.08,
-      "odds_over_35": 3.75,
-      "odds_under_15": 3.25,
-      "odds_under_25": 1.73,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 1.8,
-      "odds_btts_no": 1.95,
+      "odds_home": 1.79,
+      "odds_draw": 3.5,
+      "odds_away": 4.5,
+      "odds_over_15": 1.25,
+      "odds_over_25": 1.85,
+      "odds_over_35": 3,
+      "odds_under_15": 3.75,
+      "odds_under_25": 1.95,
+      "odds_under_35": 1.36,
+      "odds_btts_yes": 1.75,
+      "odds_btts_no": 2,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 2.12,
-      "away_xg_live": 0.53,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
-      "referee": null,
+      "referee": {
+        "name": "Simone Sozza",
+        "country": "Italy",
+        "redCards": 25,
+        "yellowCards": 875
+      },
       "home_coach": {
-        "id": 846,
-        "name": "Maximilian Senft",
-        "short_name": "M. Senft",
-        "country": "Austria",
-        "profile": "balanced",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 439,
+        "name": "Cristian Chivu",
+        "short_name": "C. Chivu",
+        "country": "Romania",
+        "profile": "attacking",
+        "preferred_formation": "3-5-2",
+        "pressing_intensity": 0.5498309260484152,
+        "defensive_line": "high",
+        "top_styles": [
+          "wing_play",
+          "overload_isolate"
+        ]
       },
       "away_coach": {
-        "id": 847,
-        "name": "Ferdinand Feldhofer",
-        "short_name": "F. Feldhofer",
-        "country": "Austria",
-        "profile": "balanced",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 449,
+        "name": "Cesc Fàbregas",
+        "short_name": "C. Fàbregas",
+        "country": "Spain",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.784182229910174,
+        "defensive_line": "low",
+        "top_styles": [
+          "tiki_taka",
+          "chaos_ball"
+        ]
       },
-      "unavailable_players": null,
-      "venue": null
+      "unavailable_players": {
+        "home": [
+          {
+            "name": "Alessandro Bastoni",
+            "status": "doubtful",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-05-06"
+          },
+          {
+            "name": "Lautaro Martínez",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-06"
+          },
+          {
+            "name": "Yann Bisseck",
+            "status": "injured",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-04-30"
+          }
+        ],
+        "away": [
+          {
+            "name": "Jayden Addai",
+            "status": "injured",
+            "reason": "Achilles Tendon Injury",
+            "expected_return": "2026-05-20"
+          },
+          {
+            "name": "Sergi Roberto",
+            "status": "doubtful",
+            "reason": "Physical Discomfort",
+            "expected_return": "2026-05-06"
+          }
+        ]
+      },
+      "venue": {
+        "id": 63,
+        "name": "San Siro/Giuseppe Meazza",
+        "city": "Milan",
+        "country": "Italy",
+        "capacity": 75817
+      }
     },
     "prediction": {
       "id": 2911,
