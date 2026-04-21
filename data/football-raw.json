@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T19:46:37.378Z",
+  "generatedAt": "2026-04-21T20:59:44.325Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,200 +21,95 @@
   ],
   "samples": {
     "event": {
-      "id": 1016,
+      "id": 203195,
       "league": {
-        "id": 3,
-        "name": "La Liga",
-        "country": "Spain",
+        "id": 39,
+        "name": "FA Cup",
+        "country": "England",
         "is_women": false,
-        "current_season": {
-          "id": 294,
-          "name": "LaLiga 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 294,
-        "name": "LaLiga 25/26",
-        "year": 2025
-      },
-      "home_team": "Mallorca",
-      "away_team": "Valencia",
+      "season": null,
+      "home_team": "SV Ried",
+      "away_team": "Grazer AK 1902",
       "home_team_obj": {
-        "id": 43,
-        "name": "Mallorca",
-        "short_name": "Mallorca",
-        "country": "Spain",
+        "id": 1408,
+        "name": "SV Ried",
+        "short_name": "Ried",
+        "country": "Austria",
         "coach": {
-          "name": "Martín Demichelis",
-          "shortName": "M. Demichelis"
+          "name": "Maximilian Senft",
+          "shortName": "M. Senft"
         },
         "venue": {
-          "id": 43,
-          "name": "Estadi de Son Moix",
-          "city": "Palma",
-          "country": "Spain",
-          "capacity": 26020
+          "id": 860,
+          "name": "Josko Arena",
+          "city": "Ried im Innkreis",
+          "country": "Austria",
+          "capacity": 7300
         }
       },
       "away_team_obj": {
-        "id": 47,
-        "name": "Valencia",
-        "short_name": "Valencia",
-        "country": "Spain",
+        "id": 1409,
+        "name": "Grazer AK 1902",
+        "short_name": "GAK 1902",
+        "country": "Austria",
         "coach": {
-          "name": "Carlos Corberán",
-          "shortName": "C. Corberán"
+          "name": "Ferdinand Feldhofer",
+          "shortName": "F. Feldhofer"
         },
-        "venue": {
-          "id": 47,
-          "name": "Mestalla",
-          "city": "Valencia",
-          "country": "Spain",
-          "capacity": 49430
-        }
+        "venue": null
       },
-      "event_date": "2026-04-21T21:00:00+04:00",
-      "round_number": 33,
+      "event_date": "2026-04-21T22:30:00+04:00",
+      "round_number": 28,
       "status": "finished",
-      "home_score": 1,
+      "home_score": 2,
       "away_score": 1,
-      "home_score_ht": 1,
+      "home_score_ht": 2,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 3.45,
-      "odds_draw": 1.75,
-      "odds_away": 5.1,
-      "odds_over_15": 2.45,
-      "odds_over_25": 1.8,
-      "odds_over_35": 4.7,
-      "odds_under_15": 1.52,
-      "odds_under_25": 1.95,
-      "odds_under_35": 1.18,
-      "odds_btts_yes": 3.8,
-      "odds_btts_no": 1.25,
-      "odds_dc_12": 2.05,
+      "odds_home": 2.05,
+      "odds_draw": 3.2,
+      "odds_away": 3.4,
+      "odds_over_15": 1.33,
+      "odds_over_25": 2.08,
+      "odds_over_35": 3.75,
+      "odds_under_15": 3.25,
+      "odds_under_25": 1.73,
+      "odds_under_35": 1.25,
+      "odds_btts_yes": 1.8,
+      "odds_btts_no": 1.95,
+      "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 1.86,
-      "away_xg_live": 1.49,
+      "home_xg_live": 2.12,
+      "away_xg_live": 0.53,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 263,
-        "name": "Martín Demichelis",
-        "short_name": "M. Demichelis",
-        "country": "Argentina",
+        "id": 846,
+        "name": "Maximilian Senft",
+        "short_name": "M. Senft",
+        "country": "Austria",
         "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.27695209441301505,
-        "defensive_line": "mid",
-        "top_styles": [
-          "park_the_bus",
-          "terrorist_fb"
-        ]
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 395,
-        "name": "Carlos Corberán",
-        "short_name": "C. Corberán",
-        "country": "Spain",
+        "id": 847,
+        "name": "Ferdinand Feldhofer",
+        "short_name": "F. Feldhofer",
+        "country": "Austria",
         "profile": "balanced",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.3394782376675976,
-        "defensive_line": "high",
-        "top_styles": [
-          "chaos_ball",
-          "terrorist_fb"
-        ]
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Antonio Raíllo",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-04-27"
-          },
-          {
-            "name": "Jan Salas",
-            "status": "injured",
-            "reason": "ACL Knee Injury",
-            "expected_return": "2026-10-15"
-          },
-          {
-            "name": "Lucas Bergström",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-04-30"
-          },
-          {
-            "name": "Mateo Joseph",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Zito Luvumbo",
-            "status": "injured",
-            "reason": "Hamstring Injury",
-            "expected_return": "2026-05-20"
-          }
-        ],
-        "away": [
-          {
-            "name": "César Tárrega",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-05"
-          },
-          {
-            "name": "Eray Cömert",
-            "status": "doubtful",
-            "reason": "Stomach Injury",
-            "expected_return": "2026-05-06"
-          },
-          {
-            "name": "Hugo Duro",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-05"
-          },
-          {
-            "name": "José Copete",
-            "status": "injured",
-            "reason": "Meniscus Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Jose Gaya",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-04-30"
-          },
-          {
-            "name": "Julen Agirrezabala",
-            "status": "injured",
-            "reason": "Hamstring",
-            "expected_return": "2026-05-25"
-          },
-          {
-            "name": "Mouctar Diakhaby",
-            "status": "injured",
-            "reason": "Hamstring Injury",
-            "expected_return": "2026-04-29"
-          },
-          {
-            "name": "Unai Núñez",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-10"
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": null
     },
     "prediction": {
