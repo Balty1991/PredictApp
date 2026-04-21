@@ -1,383 +1,152 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>PredictApp Live</title>
-  <meta name="theme-color" content="#0b1220" />
-  <style>
-    :root{
-      --card:#101c31;
-      --card-2:#13223b;
-      --line:rgba(255,255,255,.08);
-      --text:#f3f7ff;
-      --muted:#aab8d0;
-      --blue:#4da3ff;
-      --shadow:0 16px 40px rgba(0,0,0,.28);
-    }
-    *{box-sizing:border-box}
-    html,body{
-      margin:0;padding:0;
-      background:linear-gradient(180deg,#06101d 0%, #0b1423 100%);
-      color:var(--text);
-      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-    }
-    body{min-height:100vh;padding:14px 14px 28px}
-    .app{max-width:720px;margin:0 auto}
-    .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{
-      width:46px;height:46px;border-radius:14px;
-      background:radial-gradient(circle at 30% 30%, rgba(124,92,255,.9), transparent 45%),radial-gradient(circle at 75% 25%, rgba(77,163,255,.75), transparent 35%),linear-gradient(135deg, #13223b, #0b1220);
-      border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);display:grid;place-items:center;font-size:20px;font-weight:800
-    }
-    .brand h1{margin:0;font-size:20px;line-height:1.05}
-    .brand p{margin:4px 0 0;color:var(--muted);font-size:12px}
-    .status-chip{padding:9px 12px;border-radius:999px;background:rgba(77,163,255,.12);color:#9ac9ff;border:1px solid rgba(77,163,255,.25);font-size:12px;white-space:nowrap}
-    .hero{
-      background:radial-gradient(circle at top right, rgba(124,92,255,.22), transparent 34%),radial-gradient(circle at top left, rgba(77,163,255,.18), transparent 30%),linear-gradient(180deg, var(--card-2), var(--card));
-      border:1px solid var(--line);border-radius:28px;padding:18px;box-shadow:var(--shadow);margin-bottom:16px
-    }
-    .hero h2{margin:0 0 8px;font-size:22px;line-height:1.15}
-    .hero p{margin:0;color:var(--muted);font-size:14px;line-height:1.5}
-    .hero-actions{margin-top:14px;display:flex;flex-wrap:wrap;gap:10px}
-    button,select,input{font:inherit;border:none;outline:none}
-    .btn{border-radius:14px;padding:12px 14px;cursor:pointer;transition:.18s ease;border:1px solid var(--line)}
-    .btn-primary{background:linear-gradient(135deg, #7c5cff, #4da3ff);color:#fff;font-weight:700;box-shadow:0 10px 24px rgba(77,163,255,.18)}
-    .grid{display:grid;gap:12px}
-    .stats{grid-template-columns:repeat(2,1fr);margin-bottom:16px}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));border:1px solid var(--line);border-radius:22px;padding:15px;box-shadow:var(--shadow)}
-    .stat-label{color:var(--muted);font-size:12px;margin-bottom:8px}
-    .stat-value{font-size:24px;font-weight:800;line-height:1}
-    .stat-sub{margin-top:8px;font-size:12px;color:var(--muted)}
-    .section{margin-bottom:16px}
-    .section-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
-    .section-title h3{margin:0;font-size:17px}
-    .section-title small{color:var(--muted)}
-    .filters{display:grid;gap:10px;grid-template-columns:1fr 1fr}
-    .field{display:flex;flex-direction:column;gap:7px}
-    .field label{font-size:12px;color:var(--muted)}
-    .input,.select{width:100%;background:rgba(255,255,255,.045);color:var(--text);border:1px solid var(--line);border-radius:14px;padding:12px 13px}
-    .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-    .pill{padding:10px 12px;border-radius:999px;background:rgba(255,255,255,.04);color:var(--text);border:1px solid var(--line);cursor:pointer;font-size:13px}
-    .pill.active{background:rgba(124,92,255,.18);border-color:rgba(124,92,255,.45);color:#dcd4ff}
-    .list{display:grid;gap:12px}
-    .pick-card{background:linear-gradient(180deg, #0f1b30, #0c1628);border:1px solid var(--line);border-radius:22px;padding:15px;box-shadow:var(--shadow)}
-    .pick-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
-    .league{color:var(--blue);font-size:12px;margin-bottom:6px;font-weight:700}
-    .match{font-size:17px;font-weight:800;line-height:1.25;margin:0 0 5px}
-    .kickoff{color:var(--muted);font-size:12px}
-    .confidence{min-width:74px;text-align:center;border-radius:16px;padding:10px 10px;font-weight:800;font-size:16px;line-height:1;border:1px solid transparent}
-    .confidence.high{background:rgba(37,194,129,.12);color:#98f3c5;border-color:rgba(37,194,129,.22)}
-    .confidence.mid{background:rgba(247,183,49,.12);color:#ffd98b;border-color:rgba(247,183,49,.22)}
-    .confidence.low{background:rgba(255,107,107,.10);color:#ffaaaa;border-color:rgba(255,107,107,.18)}
-    .pick-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}
-    .meta-box{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:16px;padding:11px}
-    .meta-box .k{color:var(--muted);font-size:11px;margin-bottom:6px}
-    .meta-box .v{font-weight:700;font-size:13px;line-height:1.25}
-    .reason{background:rgba(255,255,255,.03);border:1px dashed rgba(255,255,255,.12);border-radius:16px;padding:12px;color:#d7e2f7;font-size:13px;line-height:1.45}
-    .empty{text-align:center;color:var(--muted);padding:24px 12px;border:1px dashed rgba(255,255,255,.12);border-radius:20px;background:rgba(255,255,255,.025)}
-    .footer-note{margin-top:18px;text-align:center;color:var(--muted);font-size:12px;line-height:1.5;padding:0 6px}
-    @media (min-width:700px){.stats{grid-template-columns:repeat(4,1fr)}.filters{grid-template-columns:repeat(4,1fr)}}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PredictApp | BSD Football Dashboard</title>
+  <meta name="description" content="Dashboard GitHub Pages pentru evenimente, cote și predicții fotbal din BSD Sports Data." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="app">
-    <div class="topbar">
-      <div class="brand">
-        <div class="logo">PA</div>
-        <div>
-          <h1>PredictApp Live</h1>
-          <p>Doar date reale, fără demo</p>
-        </div>
+  <div class="page-shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">BSD Football Dashboard</p>
+        <h1>PredictApp</h1>
+        <p class="hero-text">
+          Pagină de bază pentru extragerea și afișarea datelor de fotbal din BSD:
+          evenimente, cote, predicții și statistici agregate.
+        </p>
       </div>
-      <div class="status-chip" id="liveStatus">● Se încarcă...</div>
-    </div>
 
-    <section class="hero">
-      <h2>Fără demo. Fără fallback fals. Doar feed real.</h2>
-      <p>
-        Pagina citește doar <strong>data.json</strong>. Dacă fișierul nu există sau este gol,
-        aplicația afișează stare goală și așteaptă date reale.
-      </p>
       <div class="hero-actions">
-        <button class="btn btn-primary" id="refreshBtn">Reîmprospătează acum</button>
+        <button id="refreshButton" class="primary-btn">Reîncarcă datele</button>
+        <a class="ghost-btn" href="./data/football-overview.json" target="_blank" rel="noreferrer">JSON overview</a>
       </div>
-    </section>
+    </header>
 
-    <section class="grid stats">
-      <div class="card"><div class="stat-label">Pronosticuri afișate</div><div class="stat-value" id="statCount">0</div><div class="stat-sub">după filtrele active</div></div>
-      <div class="card"><div class="stat-label">Încredere medie</div><div class="stat-value" id="statAvg">0%</div><div class="stat-sub">media selecțiilor</div></div>
-      <div class="card"><div class="stat-label">Cea mai bună selecție</div><div class="stat-value" id="statBest">-</div><div class="stat-sub" id="statBestSub">așteaptă date reale</div></div>
-      <div class="card"><div class="stat-label">Ultimul update</div><div class="stat-value" id="statUpdated" style="font-size:16px">-</div><div class="stat-sub">ora locală</div></div>
-    </section>
-
-    <section class="section card">
-      <div class="section-title">
-        <h3>Filtre rapide</h3>
-        <small>refresh automat 60s</small>
-      </div>
-
-      <div class="filters">
-        <div class="field">
-          <label for="searchInput">Caută meci</label>
-          <input class="input" id="searchInput" placeholder="Ex: Rapid, Arsenal..." />
+    <main class="dashboard">
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Rezumat</h2>
+            <p class="muted">Numerele sunt generate din datele JSON actualizate de workflow.</p>
+          </div>
+          <div id="lastUpdated" class="timestamp">Se încarcă...</div>
         </div>
 
-        <div class="field">
-          <label for="marketFilter">Piață</label>
-          <select class="select" id="marketFilter">
-            <option value="all">Toate</option>
-            <option value="1X2">1X2</option>
-            <option value="Over 1.5">Over 1.5</option>
-            <option value="Over 2.5">Over 2.5</option>
-            <option value="Under 3.5">Under 3.5</option>
-            <option value="BTTS">BTTS</option>
-            <option value="Double Chance">Double Chance</option>
+        <div id="summaryCards" class="cards-grid">
+          <article class="stat-card skeleton"></article>
+          <article class="stat-card skeleton"></article>
+          <article class="stat-card skeleton"></article>
+          <article class="stat-card skeleton"></article>
+          <article class="stat-card skeleton"></article>
+        </div>
+      </section>
+
+      <section class="panel controls-panel">
+        <div>
+          <h2>Filtrare rapidă</h2>
+          <p class="muted">Filtrele se aplică în tabelele de evenimente și predicții.</p>
+        </div>
+
+        <div class="controls">
+          <input id="searchInput" type="search" placeholder="Caută echipă sau ligă..." />
+          <select id="leagueSelect">
+            <option value="">Toate ligile</option>
           </select>
         </div>
+      </section>
 
-        <div class="field">
-          <label for="minConfidence">Încredere minimă</label>
-          <select class="select" id="minConfidence">
-            <option value="0">Toate</option>
-            <option value="70">70%+</option>
-            <option value="75">75%+</option>
-            <option value="80">80%+</option>
-            <option value="85">85%+</option>
-            <option value="90">90%+</option>
-          </select>
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Ligi urmărite</h2>
+            <p class="muted">Top ligile extrase din feed-ul de evenimente/predicții.</p>
+          </div>
+        </div>
+        <div id="leagueChips" class="chip-grid">
+          <span class="chip skeleton-chip"></span>
+          <span class="chip skeleton-chip"></span>
+          <span class="chip skeleton-chip"></span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Evenimente fotbal</h2>
+            <p class="muted">Meciuri viitoare sau live extrase din API.</p>
+          </div>
+          <span id="eventsCount" class="pill">0</span>
         </div>
 
-        <div class="field">
-          <label for="sortBy">Sortare</label>
-          <select class="select" id="sortBy">
-            <option value="confidence-desc">Încredere ↓</option>
-            <option value="confidence-asc">Încredere ↑</option>
-            <option value="odds-desc">Cotă ↓</option>
-            <option value="odds-asc">Cotă ↑</option>
-            <option value="time-asc">Ora meciului ↑</option>
-          </select>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Meci</th>
+                <th>Liga</th>
+                <th>Status</th>
+                <th>Cote</th>
+                <th>Bookmakers</th>
+              </tr>
+            </thead>
+            <tbody id="eventsTableBody">
+              <tr><td colspan="6" class="empty-row">Se încarcă evenimentele...</td></tr>
+            </tbody>
+          </table>
         </div>
-      </div>
+      </section>
 
-      <div class="toolbar">
-        <button class="pill active" data-quick="all">Toate</button>
-        <button class="pill" data-quick="safe">Safe</button>
-        <button class="pill" data-quick="value">Value</button>
-        <button class="pill" data-quick="high">85%+</button>
-      </div>
-    </section>
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Predicții fotbal</h2>
+            <p class="muted">Selecții și probabilități normalizate din endpoint-ul de predicții.</p>
+          </div>
+          <span id="predictionsCount" class="pill">0</span>
+        </div>
 
-    <section class="section">
-      <div class="section-title">
-        <h3>Selecții disponibile</h3>
-        <small id="resultsText">0 rezultate</small>
-      </div>
-      <div id="predictionsList" class="list"></div>
-    </section>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Meci</th>
+                <th>Liga</th>
+                <th>Pick</th>
+                <th>Prob.</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody id="predictionsTableBody">
+              <tr><td colspan="6" class="empty-row">Se încarcă predicțiile...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <div class="footer-note">
-      Varianta aceasta nu folosește deloc date demo. Dacă vezi predicții, ele vin din <strong>data.json</strong>.
-    </div>
+      <section class="panel">
+        <div class="panel-head">
+          <div>
+            <h2>Materie primă</h2>
+            <p class="muted">Fișierele JSON pot fi inspectate direct și sunt utile pentru dezvoltarea pasului următor.</p>
+          </div>
+        </div>
+
+        <div class="raw-links">
+          <a href="./data/football-overview.json" target="_blank" rel="noreferrer">football-overview.json</a>
+          <a href="./data/football-events.json" target="_blank" rel="noreferrer">football-events.json</a>
+          <a href="./data/football-predictions.json" target="_blank" rel="noreferrer">football-predictions.json</a>
+          <a href="./data/football-leagues.json" target="_blank" rel="noreferrer">football-leagues.json</a>
+          <a href="./data/football-raw.json" target="_blank" rel="noreferrer">football-raw.json</a>
+        </div>
+      </section>
+    </main>
   </div>
 
-  <script>
-    const state = { predictions: [], quickFilter: "all" };
-
-    const el = {
-      list: document.getElementById("predictionsList"),
-      count: document.getElementById("statCount"),
-      avg: document.getElementById("statAvg"),
-      best: document.getElementById("statBest"),
-      bestSub: document.getElementById("statBestSub"),
-      updated: document.getElementById("statUpdated"),
-      resultsText: document.getElementById("resultsText"),
-      liveStatus: document.getElementById("liveStatus"),
-      searchInput: document.getElementById("searchInput"),
-      marketFilter: document.getElementById("marketFilter"),
-      minConfidence: document.getElementById("minConfidence"),
-      sortBy: document.getElementById("sortBy"),
-      refreshBtn: document.getElementById("refreshBtn"),
-      pills: [...document.querySelectorAll(".pill")]
-    };
-
-    function confidenceClass(value){
-      if(value >= 85) return "high";
-      if(value >= 75) return "mid";
-      return "low";
-    }
-
-    function escapeHtml(str){
-      return String(str ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-    }
-
-    function normalizeData(raw){
-      if(Array.isArray(raw)) return raw;
-      if(raw && Array.isArray(raw.predictions)) return raw.predictions;
-      if(raw && Array.isArray(raw.items)) return raw.items;
-      if(raw && Array.isArray(raw.data)) return raw.data;
-      return [];
-    }
-
-    async function loadData(){
-      try{
-        const response = await fetch("./data.json?v=" + Date.now(), { cache: "no-store" });
-        if(!response.ok) throw new Error("Nu s-a găsit data.json");
-
-        const raw = await response.json();
-        const items = normalizeData(raw);
-
-        state.predictions = items;
-        el.liveStatus.textContent = items.length ? "● Date reale active" : "● Fără date reale";
-        render();
-      }catch(error){
-        console.warn(error);
-        state.predictions = [];
-        el.liveStatus.textContent = "● Fără date reale";
-        render();
-      }
-    }
-
-    function getFilteredData(){
-      const q = el.searchInput.value.trim().toLowerCase();
-      const market = el.marketFilter.value;
-      const minConf = Number(el.minConfidence.value);
-      const sortBy = el.sortBy.value;
-
-      let items = [...state.predictions];
-
-      if(q){
-        items = items.filter(item =>
-          String(item.match || "").toLowerCase().includes(q) ||
-          String(item.league || "").toLowerCase().includes(q) ||
-          String(item.pick || "").toLowerCase().includes(q)
-        );
-      }
-
-      if(market !== "all"){
-        items = items.filter(item => String(item.market || "") === market);
-      }
-
-      if(minConf > 0){
-        items = items.filter(item => Number(item.confidence || 0) >= minConf);
-      }
-
-      if(state.quickFilter === "safe"){
-        items = items.filter(item => String(item.tag || "").toLowerCase() === "safe");
-      }
-
-      if(state.quickFilter === "value"){
-        items = items.filter(item => Boolean(item.value) === true);
-      }
-
-      if(state.quickFilter === "high"){
-        items = items.filter(item => Number(item.confidence || 0) >= 85);
-      }
-
-      items.sort((a,b)=>{
-        const ac = Number(a.confidence || 0);
-        const bc = Number(b.confidence || 0);
-        const ao = Number(a.odds || 0);
-        const bo = Number(b.odds || 0);
-        const at = String(a.kickoff || "");
-        const bt = String(b.kickoff || "");
-
-        switch(sortBy){
-          case "confidence-asc": return ac - bc;
-          case "odds-desc": return bo - ao;
-          case "odds-asc": return ao - bo;
-          case "time-asc": return at.localeCompare(bt);
-          default: return bc - ac;
-        }
-      });
-
-      return items;
-    }
-
-    function updateStats(items){
-      el.count.textContent = items.length;
-
-      const avg = items.length
-        ? Math.round(items.reduce((sum, item) => sum + Number(item.confidence || 0), 0) / items.length)
-        : 0;
-      el.avg.textContent = avg + "%";
-
-      const best = items[0];
-      if(best){
-        el.best.textContent = (best.confidence || 0) + "%";
-        el.bestSub.textContent = `${best.pick || "-"} • ${best.match || "-"}`;
-      }else{
-        el.best.textContent = "-";
-        el.bestSub.textContent = "nicio selecție reală";
-      }
-
-      el.updated.textContent = new Date().toLocaleTimeString("ro-RO", {
-        hour: "2-digit",
-        minute: "2-digit"
-      });
-
-      el.resultsText.textContent = `${items.length} rezultate`;
-    }
-
-    function render(){
-      const items = getFilteredData();
-      updateStats(items);
-
-      if(!items.length){
-        el.list.innerHTML = `
-          <div class="empty">
-            Nu există încă date reale disponibile.<br>
-            Verifică workflow-ul, sursa de date și fișierul data.json.
-          </div>
-        `;
-        return;
-      }
-
-      el.list.innerHTML = items.map(item => `
-        <article class="pick-card">
-          <div class="pick-top">
-            <div>
-              <div class="league">${escapeHtml(item.league || "-")}</div>
-              <h4 class="match">${escapeHtml(item.match || "-")}</h4>
-              <div class="kickoff">Start: ${escapeHtml(item.kickoff || "-")}</div>
-            </div>
-            <div class="confidence ${confidenceClass(Number(item.confidence || 0))}">
-              ${Number(item.confidence || 0)}%
-            </div>
-          </div>
-
-          <div class="pick-meta">
-            <div class="meta-box"><div class="k">Piață</div><div class="v">${escapeHtml(item.market || "-")}</div></div>
-            <div class="meta-box"><div class="k">Pronostic</div><div class="v">${escapeHtml(item.pick || "-")}</div></div>
-            <div class="meta-box"><div class="k">Cotă</div><div class="v">${escapeHtml(item.odds ?? "-")}</div></div>
-          </div>
-
-          <div class="reason">${escapeHtml(item.reason || "Fără explicație disponibilă.")}</div>
-        </article>
-      `).join("");
-    }
-
-    function setQuickFilter(value){
-      state.quickFilter = value;
-      el.pills.forEach(btn => btn.classList.toggle("active", btn.dataset.quick === value));
-      render();
-    }
-
-    el.searchInput.addEventListener("input", render);
-    el.marketFilter.addEventListener("change", render);
-    el.minConfidence.addEventListener("change", render);
-    el.sortBy.addEventListener("change", render);
-    el.pills.forEach(btn => btn.addEventListener("click", () => setQuickFilter(btn.dataset.quick)));
-    el.refreshBtn.addEventListener("click", loadData);
-
-    loadData();
-    setInterval(loadData, 60000);
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
