@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T23:41:18.332Z",
+  "generatedAt": "2026-04-22T03:24:16.237Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 9583,
+      "id": 9586,
       "league": {
         "id": 35,
         "name": "Copa do Brasil",
@@ -40,63 +40,63 @@
         "name": "Copa do Brasil 2026",
         "year": 2026
       },
-      "home_team": "São Paulo",
-      "away_team": "Juventude",
+      "home_team": "Paysandu SC",
+      "away_team": "Vasco da Gama",
       "home_team_obj": {
-        "id": 158,
-        "name": "São Paulo",
-        "short_name": "São Paulo",
+        "id": 822,
+        "name": "Paysandu SC",
+        "short_name": "Paysandu",
         "country": "Brazil",
         "coach": {
-          "name": "Roger Machado",
-          "shortName": "R. Machado"
+          "name": "Júnior Rocha",
+          "shortName": "J. Rocha"
         },
         "venue": {
-          "id": 156,
-          "name": "MorumBIS",
-          "city": "São Paulo",
+          "id": 615,
+          "name": "Estádio Banpará Curuzu",
+          "city": "Belém",
           "country": "Brazil",
-          "capacity": 66795
+          "capacity": 16200
         }
       },
       "away_team_obj": {
-        "id": 156,
-        "name": "Juventude",
-        "short_name": "Juventude",
+        "id": 164,
+        "name": "Vasco da Gama",
+        "short_name": "Vasco",
         "country": "Brazil",
         "coach": {
-          "name": "Mauricio Barbieri",
-          "shortName": "M. Barbieri"
+          "name": "Renato Portaluppi",
+          "shortName": "R. Portaluppi"
         },
         "venue": {
-          "id": 154,
-          "name": "Estádio Alfredo Jaconi",
-          "city": "Caxias do Sul",
+          "id": 161,
+          "name": "Estádio São Januário",
+          "city": "Rio de Janeiro",
           "country": "Brazil",
-          "capacity": 19924
+          "capacity": 21880
         }
       },
-      "event_date": "2026-04-22T02:15:00+04:00",
+      "event_date": "2026-04-22T04:30:00+04:00",
       "round_number": 5,
-      "status": "2nd_half",
-      "home_score": 1,
-      "away_score": 0,
-      "home_score_ht": 1,
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 2,
+      "home_score_ht": 0,
       "away_score_ht": 0,
-      "current_minute": 65,
-      "period": "2T",
-      "odds_home": 1.04,
-      "odds_draw": 10,
-      "odds_away": 90,
-      "odds_over_15": 1.32,
-      "odds_over_25": 2.5,
-      "odds_over_35": 5.6,
-      "odds_under_15": 3.05,
-      "odds_under_25": 1.47,
-      "odds_under_35": 1.1,
-      "odds_btts_yes": 4.5,
-      "odds_btts_no": 1.16,
-      "odds_dc_12": 1.03,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 100,
+      "odds_draw": 13,
+      "odds_away": 1.01,
+      "odds_over_15": 2.55,
+      "odds_over_25": 1.85,
+      "odds_over_35": 5.2,
+      "odds_under_15": 1.45,
+      "odds_under_25": 1.85,
+      "odds_under_35": 1.12,
+      "odds_btts_yes": 3.35,
+      "odds_btts_no": 1.27,
+      "odds_dc_12": 11.5,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -104,148 +104,115 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 141,
-        "name": "Roger Machado",
-        "short_name": "R. Machado",
+        "id": 566,
+        "name": "Júnior Rocha",
+        "short_name": "J. Rocha",
         "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "3-4-1-2",
-        "pressing_intensity": 0.6147698146105153,
-        "defensive_line": "high",
-        "top_styles": [
-          "ball_dominant",
-          "anti_football"
-        ]
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 118,
-        "name": "Mauricio Barbieri",
-        "short_name": "M. Barbieri",
+        "id": 147,
+        "name": "Renato Portaluppi",
+        "short_name": "R. Portaluppi",
         "country": "Brazil",
         "profile": "balanced",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.40243208753431214,
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.5000068451461732,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "chaos_ball",
+          "tiki_taka"
         ]
       },
       "unavailable_players": {
-        "home": [
+        "home": [],
+        "away": [
           {
-            "name": "Damián Bobadilla",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Ferreirinha",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Jonathan Calleri",
-            "status": "injured",
-            "reason": "Concussion",
-            "expected_return": null
-          },
-          {
-            "name": "Lucas Moura",
-            "status": "injured",
-            "reason": "Rib Injury",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "Luciano",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Marcos Antônio",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Pablo Maia",
-            "status": "injured",
-            "reason": "Facial Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Ryan Francisco",
+            "name": "Cauan Barros",
             "status": "injured",
             "reason": "",
             "expected_return": null
           },
           {
-            "name": "Sabino",
+            "name": "Jair",
             "status": "injured",
-            "reason": "Calf Injury",
+            "reason": "",
             "expected_return": null
+          },
+          {
+            "name": "Mateus Carvalho",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-07-08"
           }
-        ],
-        "away": []
+        ]
       },
       "venue": null
     },
     "prediction": {
-      "id": 2911,
+      "id": 2914,
       "event": {
-        "id": 6256,
+        "id": 9200,
         "league": {
-          "id": 20,
-          "name": "Liga MX Clausura",
-          "country": "Mexico",
+          "id": 24,
+          "name": "Stoiximan Super League",
+          "country": "Greece",
           "is_women": false,
           "current_season": {
-            "id": 297,
-            "name": "Liga MX, Clausura 2026",
+            "id": 364,
+            "name": "Super League 25/26",
             "year": 2025,
             "start_date": "2025-07-01",
             "end_date": "2026-06-30"
           }
         },
         "season": {
-          "id": 297,
-          "name": "Liga MX, Clausura 2026",
+          "id": 364,
+          "name": "Super League 25/26",
           "year": 2025
         },
-        "home_team": "Querétaro FC",
-        "away_team": "Cruz Azul",
+        "home_team": "MGS Panserraikos",
+        "away_team": "APS Atromitos Athinon",
         "home_team_obj": {
-          "id": 309,
-          "name": "Querétaro FC",
-          "short_name": "Querétaro",
-          "country": "Mexico",
+          "id": 369,
+          "name": "MGS Panserraikos",
+          "short_name": "Panserraikos",
+          "country": "Greece",
           "coach": {
-            "name": "Esteban Gonzalez",
-            "shortName": "E. Gonzalez"
+            "name": "Gerard Zaragoza Mulet",
+            "shortName": "G. Z. Mulet"
           },
           "venue": {
-            "id": 297,
-            "name": "Estadio La Corregidora",
-            "city": "Santiago de Queretaro",
-            "country": "Mexico",
-            "capacity": 34130
+            "id": 349,
+            "name": "Serres Stadium",
+            "city": "Serres",
+            "country": "Greece",
+            "capacity": 9500
           }
         },
         "away_team_obj": {
-          "id": 314,
-          "name": "Cruz Azul",
-          "short_name": "Cruz Azul",
-          "country": "Mexico",
+          "id": 330,
+          "name": "APS Atromitos Athinon",
+          "short_name": "Atromitos",
+          "country": "Greece",
           "coach": {
-            "name": "Nicolas Larcamon",
-            "shortName": "N. Larcamon"
+            "name": "Dušan Kerkez",
+            "shortName": "D. Kerkez"
           },
-          "venue": null
+          "venue": {
+            "id": 315,
+            "name": "Peristeri Stadium",
+            "city": "Peristeri",
+            "country": "Greece",
+            "capacity": 10000
+          }
         },
-        "event_date": "2026-04-22T05:00:00+04:00",
-        "round_number": 16,
+        "event_date": "2026-04-22T17:00:00+04:00",
+        "round_number": 4,
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -253,18 +220,18 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 4.25,
-        "odds_draw": 3.8,
-        "odds_away": 1.72,
-        "odds_over_15": 1.2,
-        "odds_over_25": 1.65,
-        "odds_over_35": 2.6,
-        "odds_under_15": 3.9,
-        "odds_under_25": 2.06,
-        "odds_under_35": 1.42,
-        "odds_btts_yes": 1.68,
-        "odds_btts_no": 2.06,
-        "odds_dc_12": 1.25,
+        "odds_home": 2.75,
+        "odds_draw": 2.85,
+        "odds_away": 2.65,
+        "odds_over_15": 1.5,
+        "odds_over_25": 2.5,
+        "odds_over_35": 5,
+        "odds_under_15": 2.5,
+        "odds_under_25": 1.5,
+        "odds_under_35": 1.17,
+        "odds_btts_yes": 2.1,
+        "odds_btts_no": 1.67,
+        "odds_dc_12": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -272,13 +239,13 @@
         "penalty_shootout": null,
         "referee": null,
         "home_coach": {
-          "id": 327,
-          "name": "Esteban Gonzalez",
-          "short_name": "E. Gonzalez",
-          "country": "Chile",
-          "profile": "balanced",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.32433017133556896,
+          "id": 234,
+          "name": "Gerard Zaragoza Mulet",
+          "short_name": "G. Z. Mulet",
+          "country": "Spain",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.34562821739477284,
           "defensive_line": "high",
           "top_styles": [
             "terrorist_fb",
@@ -286,57 +253,48 @@
           ]
         },
         "away_coach": {
-          "id": 349,
-          "name": "Nicolas Larcamon",
-          "short_name": "N. Larcamon",
-          "country": "Argentina",
-          "profile": "attacking",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.7899773995559449,
-          "defensive_line": "low",
+          "id": 302,
+          "name": "Dušan Kerkez",
+          "short_name": "D. Kerkez",
+          "country": "Bosnia & Herzegovina",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.4462566682194473,
+          "defensive_line": "mid",
           "top_styles": [
-            "wing_play",
-            "gegenpressing"
+            "anti_football",
+            "terrorist_fb"
           ]
         },
-        "unavailable_players": {
-          "home": [],
-          "away": [
-            {
-              "name": "Nicolás Ibáñez",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            }
-          ]
-        },
+        "unavailable_players": null,
         "venue": null,
+        "incidents": null,
         "lineups": null,
         "shotmap": null,
         "momentum": null,
         "average_positions": null
       },
-      "created_at": "2026-04-15T06:20:10.172645+04:00",
-      "prob_home_win": 29.694731656541347,
-      "prob_draw": 24.954261209818807,
-      "prob_away_win": 45.35100713363986,
+      "created_at": "2026-04-16T06:20:07.922048+04:00",
+      "prob_home_win": 33.80971228088812,
+      "prob_draw": 26.29470840604752,
+      "prob_away_win": 39.89557931306436,
       "predicted_result": "A",
-      "expected_home_goals": 1.21757,
-      "expected_away_goals": 1.56375,
-      "prob_over_15": 81.08059952052476,
-      "prob_over_25": 61.968727612208966,
-      "prob_over_35": 31.344033483307577,
-      "prob_btts_yes": 75.15772841613338,
-      "confidence": 45.35100713363986,
+      "expected_home_goals": 1.23777,
+      "expected_away_goals": 1.36795,
+      "prob_over_15": 30.54663320283189,
+      "prob_over_25": 19.27592049966229,
+      "prob_over_35": 15.038180412015304,
+      "prob_btts_yes": 24.16004054053014,
+      "confidence": 39.89557931306436,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "A",
-      "favorite_prob": 45.35100713363986,
+      "favorite_prob": 39.89557931306436,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
       "over_35_recommend": false,
-      "btts_recommend": true,
+      "btts_recommend": false,
       "winner_recommend": false
     },
     "league": {
