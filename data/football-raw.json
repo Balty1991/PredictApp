@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T21:56:07.537Z",
+  "generatedAt": "2026-04-22T22:56:03.861Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,67 +21,83 @@
   ],
   "samples": {
     "event": {
-      "id": 203558,
+      "id": 9587,
       "league": {
-        "id": 42,
-        "name": "Coppa Italia",
-        "country": "Italy",
+        "id": 35,
+        "name": "Copa do Brasil",
+        "country": "Brazil",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 78,
+          "name": "Copa do Brasil 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
+        }
       },
-      "season": null,
-      "home_team": "Atalanta",
-      "away_team": "Lazio",
+      "season": {
+        "id": 78,
+        "name": "Copa do Brasil 2026",
+        "year": 2026
+      },
+      "home_team": "Goiás",
+      "away_team": "Cruzeiro",
       "home_team_obj": {
-        "id": 71,
-        "name": "Atalanta",
-        "short_name": "Atalanta",
-        "country": "Italy",
+        "id": 809,
+        "name": "Goiás",
+        "short_name": "Goiás",
+        "country": "Brazil",
         "coach": {
-          "name": "Raffaele Palladino",
-          "shortName": "R. Palladino"
+          "name": "Daniel Paulista",
+          "shortName": "D. Paulista"
         },
         "venue": {
-          "id": 70,
-          "name": "New Balance Arena",
-          "city": "Bergamo",
-          "country": "Italy",
-          "capacity": 23439
+          "id": 603,
+          "name": "Estádio da Serrinha",
+          "city": "Goiânia",
+          "country": "Brazil",
+          "capacity": 14450
         }
       },
       "away_team_obj": {
-        "id": 70,
-        "name": "Lazio",
-        "short_name": "Lazio",
-        "country": "Italy",
+        "id": 150,
+        "name": "Cruzeiro",
+        "short_name": "Cruzeiro",
+        "country": "Brazil",
         "coach": {
-          "name": "Maurizio Sarri",
-          "shortName": "M. Sarri"
+          "name": "Artur Jorge",
+          "shortName": "A. Jorge"
         },
-        "venue": null
+        "venue": {
+          "id": 148,
+          "name": "Governador Magalhães Pinto",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": 61927
+        }
       },
-      "event_date": "2026-04-22T23:00:00+04:00",
-      "round_number": 28,
+      "event_date": "2026-04-23T02:00:00+04:00",
+      "round_number": 5,
       "group_name": null,
-      "status": "penalties",
+      "status": "halftime",
       "home_score": 1,
       "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 27,
-      "period": "PEN",
-      "odds_home": 1.68,
-      "odds_draw": 3.75,
-      "odds_away": 4.5,
-      "odds_over_15": 1.29,
-      "odds_over_25": 1.9,
-      "odds_over_35": 3.25,
-      "odds_under_15": 3.5,
-      "odds_under_25": 1.9,
-      "odds_under_35": 1.33,
-      "odds_btts_yes": 1.8,
-      "odds_btts_no": 1.95,
-      "odds_dc_12": null,
+      "home_score_ht": 1,
+      "away_score_ht": 1,
+      "current_minute": 45,
+      "period": "HT",
+      "odds_home": 3.8,
+      "odds_draw": 2.55,
+      "odds_away": 2.4,
+      "odds_over_15": 1.52,
+      "odds_over_25": 1.22,
+      "odds_over_35": 2.05,
+      "odds_under_15": 2.4,
+      "odds_under_25": 3.8,
+      "odds_under_35": 1.7,
+      "odds_btts_yes": 2.25,
+      "odds_btts_no": 1.57,
+      "odds_dc_12": 1.47,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -89,111 +105,84 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 457,
-        "name": "Raffaele Palladino",
-        "short_name": "R. Palladino",
-        "country": "Italy",
+        "id": 139,
+        "name": "Daniel Paulista",
+        "short_name": "D. Paulista",
+        "country": "Brazil",
         "profile": "balanced",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.3967397650698443,
-        "defensive_line": "mid",
-        "top_styles": [
-          "chaos_ball",
-          "false_9"
-        ]
+        "preferred_formation": "4-1-3-2",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 313,
-        "name": "Maurizio Sarri",
-        "short_name": "M. Sarri",
-        "country": "Italy",
+        "id": 143,
+        "name": "Artur Jorge",
+        "short_name": "A. Jorge",
+        "country": "Portugal",
         "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.22275181243312753,
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.5846240832375629,
         "defensive_line": "mid",
         "top_styles": [
-          "inverted_fb",
+          "anti_football",
           "low_block"
         ]
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Ademola Lookman",
+            "name": "Diego Caito",
             "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-06"
+            "reason": "",
+            "expected_return": null
           },
           {
-            "name": "Daniel Maldini",
+            "name": "Esli García",
             "status": "injured",
-            "reason": "Hamstring Injury",
-            "expected_return": "2026-05-20"
+            "reason": "",
+            "expected_return": null
           },
           {
-            "name": "Isak Hien",
+            "name": "Rodrigo Soares",
             "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Kamaldeen Sulemana",
-            "status": "injured",
-            "reason": "Foot Injury",
-            "expected_return": "2026-05-10"
+            "reason": "",
+            "expected_return": null
           }
         ],
         "away": [
           {
-            "name": "Adam Marusic",
+            "name": "Cássio",
             "status": "injured",
-            "reason": "Calf Injury",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "Alessio Furlanetto",
-            "status": "injured",
-            "reason": "Ligament Injury",
+            "reason": "",
             "expected_return": null
           },
           {
-            "name": "Danilo Cataldi",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-01"
-          },
-          {
-            "name": "Ivan Provedel",
+            "name": "Kaio Jorge",
             "status": "injured",
-            "reason": "Shoulder Injury",
+            "reason": "",
             "expected_return": null
           },
           {
-            "name": "Manuel Lazzari",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Mario Gila Fuentes",
+            "name": "Lucas Romero",
             "status": "doubtful",
-            "reason": "Knee Injury",
-            "expected_return": "2026-05-03"
+            "reason": "",
+            "expected_return": null
           },
           {
-            "name": "Mattia Zaccagni",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-04-28"
-          },
-          {
-            "name": "Nicolò Rovella",
+            "name": "Luis Sinisterra",
             "status": "injured",
-            "reason": "Broken Collarbone",
-            "expected_return": "2026-05-10"
+            "reason": "",
+            "expected_return": null
           },
           {
-            "name": "Samuel Gigot",
+            "name": "Marquinhos",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Walace",
             "status": "injured",
             "reason": "",
             "expected_return": null
@@ -201,11 +190,11 @@
         ]
       },
       "venue": {
-        "id": 70,
-        "name": "New Balance Arena",
-        "city": "Bergamo",
-        "country": "Italy",
-        "capacity": 23439
+        "id": 603,
+        "name": "Estádio da Serrinha",
+        "city": "Goiânia",
+        "country": "Brazil",
+        "capacity": 14450
       }
     },
     "prediction": {
@@ -408,7 +397,410 @@
           "capacity": 20371
         },
         "incidents": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "J. Marcinkowski",
+                "goals": 0,
+                "api_id": 880766,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 9461,
+                "yellow_card": false,
+                "jersey_number": "12",
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "M. Yamane",
+                "goals": 0,
+                "api_id": 831926,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9447,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "M. Yoshida",
+                "goals": 0,
+                "api_id": 24248,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9422,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "J. Haak",
+                "goals": 0,
+                "api_id": 1086321,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9127,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "J. Aude",
+                "goals": 0,
+                "api_id": 1017474,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9729,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "E. Wynder",
+                "goals": 0,
+                "api_id": 983805,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9431,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "E. Cerrillo",
+                "goals": 0,
+                "api_id": 976021,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9435,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "G. Pec",
+                "goals": 0,
+                "api_id": 995072,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9440,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
+              },
+              {
+                "name": "L. Sanabria",
+                "goals": 0,
+                "api_id": 1799195,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9779,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "J. Paintsil",
+                "goals": 0,
+                "api_id": 901285,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 9445,
+                "yellow_card": false,
+                "jersey_number": "28",
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "RW"
+                ]
+              },
+              {
+                "name": "M. Reus",
+                "goals": 0,
+                "api_id": 37092,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9793,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM",
+                  "CM"
+                ]
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "P. Schulte",
+                "goals": 0,
+                "api_id": 942252,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 9197,
+                "yellow_card": false,
+                "jersey_number": "28",
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "S. Moreira",
+                "goals": 0,
+                "api_id": 287833,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9199,
+                "yellow_card": false,
+                "jersey_number": "31",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "CB"
+                ]
+              },
+              {
+                "name": "R. Camacho",
+                "goals": 0,
+                "api_id": 135777,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9223,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "S. Zawadzki",
+                "goals": 0,
+                "api_id": 1176604,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9201,
+                "yellow_card": false,
+                "jersey_number": "25",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. Amundsen",
+                "goals": 0,
+                "api_id": 806978,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 9203,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "LB"
+                ]
+              },
+              {
+                "name": "M. Herrera",
+                "goals": 0,
+                "api_id": 954700,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9204,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "RM"
+                ]
+              },
+              {
+                "name": "D. Chambost",
+                "goals": 0,
+                "api_id": 891600,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9206,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM",
+                  "AM"
+                ]
+              },
+              {
+                "name": "A. Gomes",
+                "goals": 0,
+                "api_id": 235460,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 3822,
+                "yellow_card": false,
+                "jersey_number": "20",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. Arfsten",
+                "goals": 0,
+                "api_id": 1471659,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 9209,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "specific_position": "LM",
+                "positions_detailed": [
+                  "LM"
+                ]
+              },
+              {
+                "name": "D. Rossi",
+                "goals": 0,
+                "api_id": 831809,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 9212,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM"
+                ]
+              },
+              {
+                "name": "D. Gazdag",
+                "goals": 0,
+                "api_id": 284605,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 9219,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM"
+                ]
+              }
+            ],
+            "formation": "4-4-2",
+            "substitutes": []
+          },
+          "confirmed": false
+        },
         "shotmap": null,
         "momentum": null,
         "average_positions": null
