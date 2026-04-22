@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-04-22T05:38:46.120Z",
+  "generatedAt": "2026-04-22T07:59:33.720Z",
   "count": 50,
   "items": [
-    {
-      "id": 6257,
-      "status": "finished",
-      "league": "Liga MX Clausura",
-      "country": "Mexico",
-      "homeTeam": "CF Monterrey",
-      "awayTeam": "Club Puebla",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 6258,
-      "status": "finished",
-      "league": "Liga MX Clausura",
-      "country": "Mexico",
-      "homeTeam": "Club León",
-      "awayTeam": "Club América",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
     {
       "id": 9200,
       "status": "notstarted",
@@ -47,17 +25,6 @@
       "marketCount": 0
     },
     {
-      "id": 203196,
-      "status": "notstarted",
-      "league": "FA Cup",
-      "country": "England",
-      "homeTeam": "Red Bull Salzburg",
-      "awayTeam": "FK Austria Wien",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203197,
       "status": "notstarted",
       "league": "FA Cup",
@@ -69,23 +36,12 @@
       "marketCount": 0
     },
     {
-      "id": 46331,
+      "id": 203196,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Örgryte IS",
-      "awayTeam": "IF Brommapojkarna",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46330,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Västerås SK",
-      "awayTeam": "BK Häcken",
+      "league": "FA Cup",
+      "country": "England",
+      "homeTeam": "Red Bull Salzburg",
+      "awayTeam": "FK Austria Wien",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -102,12 +58,12 @@
       "marketCount": 0
     },
     {
-      "id": 46328,
+      "id": 46331,
       "status": "notstarted",
       "league": "Allsvenskan",
       "country": "Sweden",
-      "homeTeam": "Hammarby IF",
-      "awayTeam": "Halmstads BK",
+      "homeTeam": "Örgryte IS",
+      "awayTeam": "IF Brommapojkarna",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -119,17 +75,6 @@
       "country": "Spain",
       "homeTeam": "Elche",
       "awayTeam": "Atlético Madrid",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9199,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "Asteras Aktor",
-      "awayTeam": "GFS Panetolikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,12 +102,34 @@
       "marketCount": 0
     },
     {
-      "id": 1020,
+      "id": 46330,
       "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Real Sociedad",
-      "awayTeam": "Getafe",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Västerås SK",
+      "awayTeam": "BK Häcken",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46328,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Hammarby IF",
+      "awayTeam": "Halmstads BK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9199,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "Asteras Aktor",
+      "awayTeam": "GFS Panetolikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,12 +146,12 @@
       "marketCount": 0
     },
     {
-      "id": 203198,
+      "id": 1020,
       "status": "notstarted",
-      "league": "FA Cup",
-      "country": "England",
-      "homeTeam": "SK Sturm Graz",
-      "awayTeam": "LASK",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Real Sociedad",
+      "awayTeam": "Getafe",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +179,12 @@
       "marketCount": 0
     },
     {
-      "id": 3902,
+      "id": 203198,
       "status": "notstarted",
-      "league": "Championship",
+      "league": "FA Cup",
       "country": "England",
-      "homeTeam": "Charlton Athletic",
-      "awayTeam": "Ipswich Town",
+      "homeTeam": "SK Sturm Graz",
+      "awayTeam": "LASK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,12 +201,12 @@
       "marketCount": 0
     },
     {
-      "id": 3904,
+      "id": 3902,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Sheffield United",
-      "awayTeam": "Blackburn Rovers",
+      "homeTeam": "Charlton Athletic",
+      "awayTeam": "Ipswich Town",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,23 +223,23 @@
       "marketCount": 0
     },
     {
-      "id": 203784,
+      "id": 3904,
       "status": "notstarted",
-      "league": "Coupe de France",
-      "country": "France",
-      "homeTeam": "RC Strasbourg",
-      "awayTeam": "Nice",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Sheffield United",
+      "awayTeam": "Blackburn Rovers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 335,
+      "id": 204354,
       "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Bournemouth",
-      "awayTeam": "Leeds United",
+      "league": "DFB Pokal",
+      "country": "Germany",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "FC Bayern München",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -295,6 +262,28 @@
       "country": "Italy",
       "homeTeam": "Atalanta",
       "awayTeam": "Lazio",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 203784,
+      "status": "notstarted",
+      "league": "Coupe de France",
+      "country": "France",
+      "homeTeam": "RC Strasbourg",
+      "awayTeam": "Nice",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 335,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Leeds United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,6 +333,50 @@
       "marketCount": 0
     },
     {
+      "id": 5034,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "New York City FC",
+      "awayTeam": "FC Cincinnati",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5035,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Toronto FC",
+      "awayTeam": "Philadelphia Union",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5036,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Orlando City SC",
+      "awayTeam": "Charlotte FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5033,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Columbus Crew",
+      "awayTeam": "LA Galaxy",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9590,
       "status": "notstarted",
       "league": "Copa do Brasil",
@@ -377,56 +410,23 @@
       "marketCount": 0
     },
     {
-      "id": 5035,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Toronto FC",
-      "awayTeam": "Philadelphia Union",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5033,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Columbus Crew",
-      "awayTeam": "LA Galaxy",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5034,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New York City FC",
-      "awayTeam": "FC Cincinnati",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5036,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Orlando City SC",
-      "awayTeam": "Charlotte FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5037,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Atlanta United",
       "awayTeam": "New England Revolution",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5039,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "FC Dallas",
+      "awayTeam": "Minnesota United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -471,17 +471,6 @@
       "country": "USA",
       "homeTeam": "Houston Dynamo",
       "awayTeam": "San Diego FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5039,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "FC Dallas",
-      "awayTeam": "Minnesota United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "USA",
       "homeTeam": "Los Angeles FC",
       "awayTeam": "Colorado Rapids",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 6263,
+      "status": "notstarted",
+      "league": "Liga MX Clausura",
+      "country": "Mexico",
+      "homeTeam": "Club Tijuana",
+      "awayTeam": "CF Pachuca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0

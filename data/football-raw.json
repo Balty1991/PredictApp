@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T05:38:46.119Z",
+  "generatedAt": "2026-04-22T07:59:33.719Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,128 +21,124 @@
   ],
   "samples": {
     "event": {
-      "id": 6257,
+      "id": 9200,
       "league": {
-        "id": 20,
-        "name": "Liga MX Clausura",
-        "country": "Mexico",
+        "id": 24,
+        "name": "Stoiximan Super League",
+        "country": "Greece",
         "is_women": false,
         "current_season": {
-          "id": 297,
-          "name": "Liga MX, Clausura 2026",
+          "id": 364,
+          "name": "Super League 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 297,
-        "name": "Liga MX, Clausura 2026",
+        "id": 364,
+        "name": "Super League 25/26",
         "year": 2025
       },
-      "home_team": "CF Monterrey",
-      "away_team": "Club Puebla",
+      "home_team": "MGS Panserraikos",
+      "away_team": "APS Atromitos Athinon",
       "home_team_obj": {
-        "id": 317,
-        "name": "CF Monterrey",
-        "short_name": "Monterrey",
-        "country": "Mexico",
+        "id": 369,
+        "name": "MGS Panserraikos",
+        "short_name": "Panserraikos",
+        "country": "Greece",
         "coach": {
-          "name": "Nicolás Sánchez",
-          "shortName": "N. Sánchez"
+          "name": "Gerard Zaragoza Mulet",
+          "shortName": "G. Z. Mulet"
         },
         "venue": {
-          "id": 304,
-          "name": "Estadio BBVA",
-          "city": "Monterrey",
-          "country": "Mexico",
-          "capacity": 53500
+          "id": 349,
+          "name": "Serres Stadium",
+          "city": "Serres",
+          "country": "Greece",
+          "capacity": 9500
         }
       },
       "away_team_obj": {
-        "id": 304,
-        "name": "Club Puebla",
-        "short_name": "Puebla",
-        "country": "Mexico",
+        "id": 330,
+        "name": "APS Atromitos Athinon",
+        "short_name": "Atromitos",
+        "country": "Greece",
         "coach": {
-          "name": "Albert Espigares",
-          "shortName": "A. Espigares"
+          "name": "Dušan Kerkez",
+          "shortName": "D. Kerkez"
         },
         "venue": {
-          "id": 292,
-          "name": "Estadio Cuauhtemoc",
-          "city": "Puebla",
-          "country": "Mexico",
-          "capacity": 51726
+          "id": 315,
+          "name": "Peristeri Stadium",
+          "city": "Peristeri",
+          "country": "Greece",
+          "capacity": 10000
         }
       },
-      "event_date": "2026-04-22T07:00:00+04:00",
-      "round_number": 16,
-      "status": "finished",
-      "home_score": 2,
-      "away_score": 1,
-      "home_score_ht": 2,
-      "away_score_ht": 1,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 1.42,
-      "odds_draw": 4.6,
-      "odds_away": 6.25,
-      "odds_over_15": 1.16,
-      "odds_over_25": 1.54,
-      "odds_over_35": 2.32,
-      "odds_under_15": 4.3,
-      "odds_under_25": 2.27,
-      "odds_under_35": 1.52,
-      "odds_btts_yes": 1.72,
-      "odds_btts_no": 1.96,
-      "odds_dc_12": 1.14,
+      "event_date": "2026-04-22T17:00:00+04:00",
+      "round_number": 4,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 2.75,
+      "odds_draw": 2.85,
+      "odds_away": 2.65,
+      "odds_over_15": 1.5,
+      "odds_over_25": 2.5,
+      "odds_over_35": 5,
+      "odds_under_15": 2.5,
+      "odds_under_25": 1.5,
+      "odds_under_35": 1.17,
+      "odds_btts_yes": 2.1,
+      "odds_btts_no": 1.67,
+      "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 2.38,
-      "away_xg_live": 1,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 329,
-        "name": "Nicolás Sánchez",
-        "short_name": "N. Sánchez",
-        "country": "Argentina",
-        "profile": "balanced",
+        "id": 234,
+        "name": "Gerard Zaragoza Mulet",
+        "short_name": "G. Z. Mulet",
+        "country": "Spain",
+        "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.48396560213188733,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.34562821739477284,
+        "defensive_line": "high",
         "top_styles": [
-          "no_midfield",
-          "heritage"
+          "terrorist_fb",
+          "park_the_bus"
         ]
       },
       "away_coach": {
-        "id": 207,
-        "name": "Albert Espigares",
-        "short_name": "A. Espigares",
-        "country": "Spain",
+        "id": 302,
+        "name": "Dušan Kerkez",
+        "short_name": "D. Kerkez",
+        "country": "Bosnia & Herzegovina",
         "profile": "balanced",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.5445329779483337,
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.4462566682194473,
         "defensive_line": "mid",
         "top_styles": [
           "anti_football",
           "terrorist_fb"
         ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Iker Fimbres",
-            "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": null
-          }
-        ],
-        "away": []
-      },
-      "venue": null
+      "unavailable_players": null,
+      "venue": {
+        "id": 349,
+        "name": "Serres Stadium",
+        "city": "Serres",
+        "country": "Greece",
+        "capacity": 9500
+      }
     },
     "prediction": {
       "id": 2914,
@@ -258,7 +254,13 @@
           ]
         },
         "unavailable_players": null,
-        "venue": null,
+        "venue": {
+          "id": 349,
+          "name": "Serres Stadium",
+          "city": "Serres",
+          "country": "Greece",
+          "capacity": 9500
+        },
         "incidents": null,
         "lineups": null,
         "shotmap": null,
