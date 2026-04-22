@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T20:31:17.070Z",
+  "generatedAt": "2026-04-22T21:56:07.537Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,147 +21,191 @@
   ],
   "samples": {
     "event": {
-      "id": 3031,
+      "id": 203558,
       "league": {
-        "id": 10,
-        "name": "Eredivisie",
-        "country": "Netherlands",
+        "id": 42,
+        "name": "Coppa Italia",
+        "country": "Italy",
         "is_women": false,
-        "current_season": {
-          "id": 279,
-          "name": "VriendenLoterij Eredivisie 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 279,
-        "name": "VriendenLoterij Eredivisie 25/26",
-        "year": 2025
-      },
-      "home_team": "SC Telstar",
-      "away_team": "Sparta Rotterdam",
+      "season": null,
+      "home_team": "Atalanta",
+      "away_team": "Lazio",
       "home_team_obj": {
-        "id": 179,
-        "name": "SC Telstar",
-        "short_name": "Telstar",
-        "country": "Netherlands",
+        "id": 71,
+        "name": "Atalanta",
+        "short_name": "Atalanta",
+        "country": "Italy",
         "coach": {
-          "name": "Anthony Correia",
-          "shortName": "A. Correia"
+          "name": "Raffaele Palladino",
+          "shortName": "R. Palladino"
         },
         "venue": {
-          "id": 175,
-          "name": "BUKO Stadion",
-          "city": "Velsen",
-          "country": "Netherlands",
-          "capacity": 5336
+          "id": 70,
+          "name": "New Balance Arena",
+          "city": "Bergamo",
+          "country": "Italy",
+          "capacity": 23439
         }
       },
       "away_team_obj": {
-        "id": 176,
-        "name": "Sparta Rotterdam",
-        "short_name": "Sparta",
-        "country": "Netherlands",
+        "id": 70,
+        "name": "Lazio",
+        "short_name": "Lazio",
+        "country": "Italy",
         "coach": {
-          "name": "Maurice Steijn",
-          "shortName": "M. Steijn"
+          "name": "Maurizio Sarri",
+          "shortName": "M. Sarri"
         },
-        "venue": {
-          "id": 172,
-          "name": "Het Kasteel",
-          "city": "Rotterdam",
-          "country": "Netherlands",
-          "capacity": 11000
-        }
+        "venue": null
       },
-      "event_date": "2026-04-22T22:00:00+04:00",
-      "round_number": 31,
+      "event_date": "2026-04-22T23:00:00+04:00",
+      "round_number": 28,
       "group_name": null,
-      "status": "finished",
-      "home_score": 4,
+      "status": "penalties",
+      "home_score": 1,
       "away_score": 1,
-      "home_score_ht": 1,
-      "away_score_ht": 1,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 2.48,
-      "odds_draw": 3.6,
-      "odds_away": 2.34,
-      "odds_over_15": 1.17,
-      "odds_over_25": 1.57,
-      "odds_over_35": 2.16,
-      "odds_under_15": 5,
-      "odds_under_25": 2.35,
-      "odds_under_35": 1.54,
-      "odds_btts_yes": 1.45,
-      "odds_btts_no": 2.5,
-      "odds_dc_12": 1.26,
-      "actual_home_xg": 1.7,
-      "actual_away_xg": 1.04,
-      "home_xg_live": 1.7,
-      "away_xg_live": 1.04,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 27,
+      "period": "PEN",
+      "odds_home": 1.68,
+      "odds_draw": 3.75,
+      "odds_away": 4.5,
+      "odds_over_15": 1.29,
+      "odds_over_25": 1.9,
+      "odds_over_35": 3.25,
+      "odds_under_15": 3.5,
+      "odds_under_25": 1.9,
+      "odds_under_35": 1.33,
+      "odds_btts_yes": 1.8,
+      "odds_btts_no": 1.95,
+      "odds_dc_12": null,
+      "actual_home_xg": null,
+      "actual_away_xg": null,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 293,
-        "name": "Anthony Correia",
-        "short_name": "A. Correia",
-        "country": "Netherlands",
+        "id": 457,
+        "name": "Raffaele Palladino",
+        "short_name": "R. Palladino",
+        "country": "Italy",
         "profile": "balanced",
         "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.47107488893826044,
+        "pressing_intensity": 0.3967397650698443,
         "defensive_line": "mid",
         "top_styles": [
-          "park_the_bus",
-          "low_counter"
+          "chaos_ball",
+          "false_9"
         ]
       },
       "away_coach": {
-        "id": 400,
-        "name": "Maurice Steijn",
-        "short_name": "M. Steijn",
-        "country": "Netherlands",
+        "id": 313,
+        "name": "Maurizio Sarri",
+        "short_name": "M. Sarri",
+        "country": "Italy",
         "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4491265392462462,
-        "defensive_line": "low",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.22275181243312753,
+        "defensive_line": "mid",
         "top_styles": [
-          "chaos_ball",
+          "inverted_fb",
           "low_block"
         ]
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Gerald Alders",
-            "status": "doubtful",
-            "reason": "Head Injury",
-            "expected_return": "2026-04-23"
+            "name": "Ademola Lookman",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-06"
           },
           {
-            "name": "Nökkvi Þórisson",
-            "status": "doubtful",
+            "name": "Daniel Maldini",
+            "status": "injured",
+            "reason": "Hamstring Injury",
+            "expected_return": "2026-05-20"
+          },
+          {
+            "name": "Isak Hien",
+            "status": "injured",
             "reason": "Thigh Injury",
-            "expected_return": "2026-04-23"
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Kamaldeen Sulemana",
+            "status": "injured",
+            "reason": "Foot Injury",
+            "expected_return": "2026-05-10"
           }
         ],
         "away": [
           {
-            "name": "Teo Quintero",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-04-23"
+            "name": "Adam Marusic",
+            "status": "injured",
+            "reason": "Calf Injury",
+            "expected_return": "2026-05-20"
+          },
+          {
+            "name": "Alessio Furlanetto",
+            "status": "injured",
+            "reason": "Ligament Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Danilo Cataldi",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-01"
+          },
+          {
+            "name": "Ivan Provedel",
+            "status": "injured",
+            "reason": "Shoulder Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Manuel Lazzari",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Mario Gila Fuentes",
+            "status": "doubtful",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-03"
+          },
+          {
+            "name": "Mattia Zaccagni",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-04-28"
+          },
+          {
+            "name": "Nicolò Rovella",
+            "status": "injured",
+            "reason": "Broken Collarbone",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Samuel Gigot",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
           }
         ]
       },
       "venue": {
-        "id": 175,
-        "name": "BUKO Stadion",
-        "city": "Velsen",
-        "country": "Netherlands",
-        "capacity": 5336
+        "id": 70,
+        "name": "New Balance Arena",
+        "city": "Bergamo",
+        "country": "Italy",
+        "capacity": 23439
       }
     },
     "prediction": {
