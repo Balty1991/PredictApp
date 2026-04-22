@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T03:24:16.237Z",
+  "generatedAt": "2026-04-22T05:38:46.119Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,135 +21,126 @@
   ],
   "samples": {
     "event": {
-      "id": 9586,
+      "id": 6257,
       "league": {
-        "id": 35,
-        "name": "Copa do Brasil",
-        "country": "Brazil",
+        "id": 20,
+        "name": "Liga MX Clausura",
+        "country": "Mexico",
         "is_women": false,
         "current_season": {
-          "id": 78,
-          "name": "Copa do Brasil 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
+          "id": 297,
+          "name": "Liga MX, Clausura 2026",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 78,
-        "name": "Copa do Brasil 2026",
-        "year": 2026
+        "id": 297,
+        "name": "Liga MX, Clausura 2026",
+        "year": 2025
       },
-      "home_team": "Paysandu SC",
-      "away_team": "Vasco da Gama",
+      "home_team": "CF Monterrey",
+      "away_team": "Club Puebla",
       "home_team_obj": {
-        "id": 822,
-        "name": "Paysandu SC",
-        "short_name": "Paysandu",
-        "country": "Brazil",
+        "id": 317,
+        "name": "CF Monterrey",
+        "short_name": "Monterrey",
+        "country": "Mexico",
         "coach": {
-          "name": "Júnior Rocha",
-          "shortName": "J. Rocha"
+          "name": "Nicolás Sánchez",
+          "shortName": "N. Sánchez"
         },
         "venue": {
-          "id": 615,
-          "name": "Estádio Banpará Curuzu",
-          "city": "Belém",
-          "country": "Brazil",
-          "capacity": 16200
+          "id": 304,
+          "name": "Estadio BBVA",
+          "city": "Monterrey",
+          "country": "Mexico",
+          "capacity": 53500
         }
       },
       "away_team_obj": {
-        "id": 164,
-        "name": "Vasco da Gama",
-        "short_name": "Vasco",
-        "country": "Brazil",
+        "id": 304,
+        "name": "Club Puebla",
+        "short_name": "Puebla",
+        "country": "Mexico",
         "coach": {
-          "name": "Renato Portaluppi",
-          "shortName": "R. Portaluppi"
+          "name": "Albert Espigares",
+          "shortName": "A. Espigares"
         },
         "venue": {
-          "id": 161,
-          "name": "Estádio São Januário",
-          "city": "Rio de Janeiro",
-          "country": "Brazil",
-          "capacity": 21880
+          "id": 292,
+          "name": "Estadio Cuauhtemoc",
+          "city": "Puebla",
+          "country": "Mexico",
+          "capacity": 51726
         }
       },
-      "event_date": "2026-04-22T04:30:00+04:00",
-      "round_number": 5,
+      "event_date": "2026-04-22T07:00:00+04:00",
+      "round_number": 16,
       "status": "finished",
-      "home_score": 0,
-      "away_score": 2,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
+      "home_score": 2,
+      "away_score": 1,
+      "home_score_ht": 2,
+      "away_score_ht": 1,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 100,
-      "odds_draw": 13,
-      "odds_away": 1.01,
-      "odds_over_15": 2.55,
-      "odds_over_25": 1.85,
-      "odds_over_35": 5.2,
-      "odds_under_15": 1.45,
-      "odds_under_25": 1.85,
-      "odds_under_35": 1.12,
-      "odds_btts_yes": 3.35,
-      "odds_btts_no": 1.27,
-      "odds_dc_12": 11.5,
+      "odds_home": 1.42,
+      "odds_draw": 4.6,
+      "odds_away": 6.25,
+      "odds_over_15": 1.16,
+      "odds_over_25": 1.54,
+      "odds_over_35": 2.32,
+      "odds_under_15": 4.3,
+      "odds_under_25": 2.27,
+      "odds_under_35": 1.52,
+      "odds_btts_yes": 1.72,
+      "odds_btts_no": 1.96,
+      "odds_dc_12": 1.14,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 2.38,
+      "away_xg_live": 1,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 566,
-        "name": "Júnior Rocha",
-        "short_name": "J. Rocha",
-        "country": "Brazil",
-        "profile": "attacking",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
-      "away_coach": {
-        "id": 147,
-        "name": "Renato Portaluppi",
-        "short_name": "R. Portaluppi",
-        "country": "Brazil",
+        "id": 329,
+        "name": "Nicolás Sánchez",
+        "short_name": "N. Sánchez",
+        "country": "Argentina",
         "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5000068451461732,
+        "pressing_intensity": 0.48396560213188733,
         "defensive_line": "mid",
         "top_styles": [
-          "chaos_ball",
-          "tiki_taka"
+          "no_midfield",
+          "heritage"
+        ]
+      },
+      "away_coach": {
+        "id": 207,
+        "name": "Albert Espigares",
+        "short_name": "A. Espigares",
+        "country": "Spain",
+        "profile": "balanced",
+        "preferred_formation": "4-1-4-1",
+        "pressing_intensity": 0.5445329779483337,
+        "defensive_line": "mid",
+        "top_styles": [
+          "anti_football",
+          "terrorist_fb"
         ]
       },
       "unavailable_players": {
-        "home": [],
-        "away": [
+        "home": [
           {
-            "name": "Cauan Barros",
+            "name": "Iker Fimbres",
             "status": "injured",
-            "reason": "",
+            "reason": "Ankle Injury",
             "expected_return": null
-          },
-          {
-            "name": "Jair",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Mateus Carvalho",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-07-08"
           }
-        ]
+        ],
+        "away": []
       },
       "venue": null
     },
