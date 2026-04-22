@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T14:50:08.304Z",
+  "generatedAt": "2026-04-22T16:13:32.230Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 9200,
+      "id": 9198,
       "league": {
         "id": 24,
         "name": "Stoiximan Super League",
@@ -40,92 +40,92 @@
         "name": "Super League 25/26",
         "year": 2025
       },
-      "home_team": "MGS Panserraikos",
-      "away_team": "APS Atromitos Athinon",
+      "home_team": "AEL Novibet",
+      "away_team": "AE Kifisia",
       "home_team_obj": {
-        "id": 369,
-        "name": "MGS Panserraikos",
-        "short_name": "Panserraikos",
+        "id": 336,
+        "name": "AEL Novibet",
+        "short_name": "AEL Novibet",
         "country": "Greece",
         "coach": {
-          "name": "Gerard Zaragoza Mulet",
-          "shortName": "G. Z. Mulet"
+          "name": "Savvas Pantelidis",
+          "shortName": "S. Pantelidis"
         },
         "venue": {
-          "id": 349,
-          "name": "Serres Stadium",
-          "city": "Serres",
+          "id": 318,
+          "name": "Alcazar Stadium",
+          "city": "Larissa",
           "country": "Greece",
-          "capacity": 9500
+          "capacity": 13108
         }
       },
       "away_team_obj": {
-        "id": 330,
-        "name": "APS Atromitos Athinon",
-        "short_name": "Atromitos",
+        "id": 324,
+        "name": "AE Kifisia",
+        "short_name": "Kifisia",
         "country": "Greece",
         "coach": {
-          "name": "Dušan Kerkez",
-          "shortName": "D. Kerkez"
+          "name": "Sebastián Leto",
+          "shortName": "S. Leto"
         },
         "venue": {
-          "id": 315,
-          "name": "Peristeri Stadium",
-          "city": "Peristeri",
+          "id": 310,
+          "name": "Municipal Kifisia Stadium Zirineio",
+          "city": "Kifisia",
           "country": "Greece",
-          "capacity": 10000
+          "capacity": 3000
         }
       },
-      "event_date": "2026-04-22T17:00:00+04:00",
+      "event_date": "2026-04-22T18:00:00+04:00",
       "round_number": 4,
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 0,
-      "away_score": 4,
+      "status": "finished",
+      "home_score": 1,
+      "away_score": 1,
       "home_score_ht": 0,
-      "away_score_ht": 3,
+      "away_score_ht": 1,
       "current_minute": 90,
-      "period": "2T",
-      "odds_home": 2.75,
-      "odds_draw": 2.85,
-      "odds_away": 2.65,
-      "odds_over_15": 1.5,
-      "odds_over_25": 2.5,
-      "odds_over_35": 5,
-      "odds_under_15": 2.5,
-      "odds_under_25": 1.5,
-      "odds_under_35": 1.17,
-      "odds_btts_yes": 2.1,
-      "odds_btts_no": 1.67,
+      "period": "FT",
+      "odds_home": 2.65,
+      "odds_draw": 3.2,
+      "odds_away": 2.57,
+      "odds_over_15": 1.44,
+      "odds_over_25": 2.35,
+      "odds_over_35": 4.5,
+      "odds_under_15": 2.62,
+      "odds_under_25": 1.57,
+      "odds_under_35": 1.18,
+      "odds_btts_yes": 2,
+      "odds_btts_no": 1.75,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.84,
-      "away_xg_live": 2.35,
+      "home_xg_live": 0.85,
+      "away_xg_live": 1.66,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 234,
-        "name": "Gerard Zaragoza Mulet",
-        "short_name": "G. Z. Mulet",
-        "country": "Spain",
+        "id": 270,
+        "name": "Savvas Pantelidis",
+        "short_name": "S. Pantelidis",
+        "country": "Greece",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.34562821739477284,
-        "defensive_line": "high",
+        "pressing_intensity": 0.2581356602917769,
+        "defensive_line": "low",
         "top_styles": [
-          "terrorist_fb",
-          "park_the_bus"
+          "anti_football",
+          "terrorist_fb"
         ]
       },
       "away_coach": {
-        "id": 302,
-        "name": "Dušan Kerkez",
-        "short_name": "D. Kerkez",
-        "country": "Bosnia & Herzegovina",
+        "id": 233,
+        "name": "Sebastián Leto",
+        "short_name": "S. Leto",
+        "country": "Argentina",
         "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4462566682194473,
+        "pressing_intensity": 0.644527825220622,
         "defensive_line": "mid",
         "top_styles": [
           "anti_football",
@@ -134,11 +134,11 @@
       },
       "unavailable_players": null,
       "venue": {
-        "id": 349,
-        "name": "Serres Stadium",
-        "city": "Serres",
+        "id": 318,
+        "name": "Alcazar Stadium",
+        "city": "Larissa",
         "country": "Greece",
-        "capacity": 9500
+        "capacity": 13108
       }
     },
     "prediction": {
