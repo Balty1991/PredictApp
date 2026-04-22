@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-22T12:41:20.921Z",
+  "generatedAt": "2026-04-22T14:50:08.305Z",
   "count": 50,
   "items": [
     {
       "id": 9200,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "MGS Panserraikos",
@@ -15,7 +15,7 @@
     },
     {
       "id": 9198,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "AEL Novibet",
@@ -47,67 +47,12 @@
       "marketCount": 0
     },
     {
-      "id": 46330,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Västerås SK",
-      "awayTeam": "BK Häcken",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1994,
-      "status": "notstarted",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "Paris Saint-Germain",
-      "awayTeam": "Nantes",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1013,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Elche",
-      "awayTeam": "Atlético Madrid",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9199,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "Asteras Aktor",
-      "awayTeam": "GFS Panetolikos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9817,
       "status": "notstarted",
       "league": "Liga F",
       "country": "Spain",
       "homeTeam": "RCD Espanyol de Barcelona",
       "awayTeam": "Fútbol Club Barcelona",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46329,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "IF Elfsborg",
-      "awayTeam": "Djurgårdens IF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -130,6 +75,61 @@
       "country": "Sweden",
       "homeTeam": "Hammarby IF",
       "awayTeam": "Halmstads BK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1013,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Elche",
+      "awayTeam": "Atlético Madrid",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1994,
+      "status": "notstarted",
+      "league": "Ligue 1",
+      "country": "France",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Nantes",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46330,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Västerås SK",
+      "awayTeam": "BK Häcken",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46329,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "IF Elfsborg",
+      "awayTeam": "Djurgårdens IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9199,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "Asteras Aktor",
+      "awayTeam": "GFS Panetolikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +212,12 @@
       "marketCount": 0
     },
     {
-      "id": 3902,
+      "id": 3904,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Charlton Athletic",
-      "awayTeam": "Ipswich Town",
+      "homeTeam": "Sheffield United",
+      "awayTeam": "Blackburn Rovers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,12 +234,12 @@
       "marketCount": 0
     },
     {
-      "id": 3904,
+      "id": 3902,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Sheffield United",
-      "awayTeam": "Blackburn Rovers",
+      "homeTeam": "Charlton Athletic",
+      "awayTeam": "Ipswich Town",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,28 +366,6 @@
       "marketCount": 0
     },
     {
-      "id": 5036,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Orlando City SC",
-      "awayTeam": "Charlotte FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9591,
-      "status": "notstarted",
-      "league": "Copa do Brasil",
-      "country": "Brazil",
-      "homeTeam": "Fortaleza",
-      "awayTeam": "CRB",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5034,
       "status": "notstarted",
       "league": "MLS",
@@ -410,34 +388,34 @@
       "marketCount": 0
     },
     {
+      "id": 9591,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Fortaleza",
+      "awayTeam": "CRB",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5036,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Orlando City SC",
+      "awayTeam": "Charlotte FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 5037,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Atlanta United",
       "awayTeam": "New England Revolution",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5040,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Houston Dynamo",
-      "awayTeam": "San Diego FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5039,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "FC Dallas",
-      "awayTeam": "Minnesota United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -454,12 +432,12 @@
       "marketCount": 0
     },
     {
-      "id": 9593,
+      "id": 5039,
       "status": "notstarted",
-      "league": "Copa do Brasil",
-      "country": "Brazil",
-      "homeTeam": "Red Bull Bragantino",
-      "awayTeam": "Mirassol",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "FC Dallas",
+      "awayTeam": "Minnesota United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -471,6 +449,28 @@
       "country": "Brazil",
       "homeTeam": "Cuiabá",
       "awayTeam": "Botafogo-SP",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5040,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Houston Dynamo",
+      "awayTeam": "San Diego FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9593,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Red Bull Bragantino",
+      "awayTeam": "Mirassol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +542,12 @@
       "marketCount": 0
     },
     {
-      "id": 6263,
+      "id": 6262,
       "status": "notstarted",
       "league": "Liga MX Clausura",
       "country": "Mexico",
-      "homeTeam": "Club Tijuana",
-      "awayTeam": "CF Pachuca",
+      "homeTeam": "Club Necaxa",
+      "awayTeam": "CD Guadalajara",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
