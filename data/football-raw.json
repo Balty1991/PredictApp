@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T11:13:08.623Z",
+  "generatedAt": "2026-04-22T12:41:20.920Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -78,6 +78,7 @@
       },
       "event_date": "2026-04-22T17:00:00+04:00",
       "round_number": 4,
+      "group_name": null,
       "status": "notstarted",
       "home_score": null,
       "away_score": null,
@@ -200,6 +201,7 @@
         },
         "event_date": "2026-04-22T17:00:00+04:00",
         "round_number": 4,
+        "group_name": null,
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
