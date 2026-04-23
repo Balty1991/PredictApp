@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T08:05:25.663Z",
+  "generatedAt": "2026-04-23T10:07:20.524Z",
   "count": 50,
   "items": [
     {
@@ -47,6 +47,17 @@
       "marketCount": 0
     },
     {
+      "id": 46333,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "GAIS",
+      "awayTeam": "Mjällby AIF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1015,
       "status": "notstarted",
       "league": "La Liga",
@@ -69,12 +80,12 @@
       "marketCount": 0
     },
     {
-      "id": 46333,
+      "id": 4783,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "GAIS",
-      "awayTeam": "Mjällby AIF",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Damac FC",
+      "awayTeam": "Al-Okhdood",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -102,28 +113,6 @@
       "marketCount": 0
     },
     {
-      "id": 4783,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Damac FC",
-      "awayTeam": "Al-Okhdood",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9133,
-      "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "Sint-Truidense VV",
-      "awayTeam": "RSC Anderlecht",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203826,
       "status": "notstarted",
       "league": "Pro League",
@@ -141,6 +130,17 @@
       "country": "Belgium",
       "homeTeam": "Lommel SK",
       "awayTeam": "RFC Liège",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9133,
+      "status": "notstarted",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "Sint-Truidense VV",
+      "awayTeam": "RSC Anderlecht",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,23 +355,23 @@
       "marketCount": 0
     },
     {
-      "id": 341,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Sunderland",
-      "awayTeam": "Nottingham Forest",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1007,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Real Betis",
       "awayTeam": "Real Madrid",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 341,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Sunderland",
+      "awayTeam": "Nottingham Forest",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,23 +465,12 @@
       "marketCount": 0
     },
     {
-      "id": 658,
+      "id": 656,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "FC Alverca",
-      "awayTeam": "FC Arouca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 655,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Benfica",
-      "awayTeam": "Moreirense",
+      "homeTeam": "CF Estrela Amadora",
+      "awayTeam": "FC Porto",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,6 +498,17 @@
       "marketCount": 0
     },
     {
+      "id": 655,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Benfica",
+      "awayTeam": "Moreirense",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 662,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -520,12 +520,12 @@
       "marketCount": 0
     },
     {
-      "id": 656,
+      "id": 658,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "CF Estrela Amadora",
-      "awayTeam": "FC Porto",
+      "homeTeam": "FC Alverca",
+      "awayTeam": "FC Arouca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
