@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-23T22:54:59.305Z",
+  "generatedAt": "2026-04-23T23:53:59.687Z",
   "count": 50,
   "items": [
     {
       "id": 9594,
-      "status": "halftime",
+      "status": "2nd_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Atlético Mineiro",
@@ -15,22 +15,11 @@
     },
     {
       "id": 9595,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Palmeiras",
       "awayTeam": "Jacuipense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9597,
-      "status": "notstarted",
-      "league": "Copa do Brasil",
-      "country": "Brazil",
-      "homeTeam": "Athletico",
-      "awayTeam": "Atlético Goianiense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -42,6 +31,17 @@
       "country": "Brazil",
       "homeTeam": "Operário-PR",
       "awayTeam": "Fluminense",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9597,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Athletico",
+      "awayTeam": "Atlético Goianiense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,6 +135,17 @@
       "marketCount": 0
     },
     {
+      "id": 1414,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Napoli",
+      "awayTeam": "Cremonese",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9134,
       "status": "notstarted",
       "league": "Pro League",
@@ -157,12 +168,12 @@
       "marketCount": 0
     },
     {
-      "id": 1414,
+      "id": 3908,
       "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Napoli",
-      "awayTeam": "Cremonese",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Leicester City",
+      "awayTeam": "Millwall",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -174,17 +185,6 @@
       "country": "Spain",
       "homeTeam": "Real Betis",
       "awayTeam": "Real Madrid",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3908,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Leicester City",
-      "awayTeam": "Millwall",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,6 +256,17 @@
       "marketCount": 0
     },
     {
+      "id": 660,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Santa Clara",
+      "awayTeam": "Sporting Braga",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 654,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -267,23 +278,12 @@
       "marketCount": 0
     },
     {
-      "id": 659,
+      "id": 658,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "Gil Vicente",
-      "awayTeam": "Casa Pia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 661,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Tondela",
-      "awayTeam": "CD Nacional",
+      "homeTeam": "FC Alverca",
+      "awayTeam": "FC Arouca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,12 +300,34 @@
       "marketCount": 0
     },
     {
-      "id": 660,
+      "id": 661,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "Santa Clara",
-      "awayTeam": "Sporting Braga",
+      "homeTeam": "Tondela",
+      "awayTeam": "CD Nacional",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 656,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "CF Estrela Amadora",
+      "awayTeam": "FC Porto",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 659,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Gil Vicente",
+      "awayTeam": "Casa Pia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -333,23 +355,23 @@
       "marketCount": 0
     },
     {
-      "id": 656,
+      "id": 338,
       "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "CF Estrela Amadora",
-      "awayTeam": "FC Porto",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Fulham",
+      "awayTeam": "Aston Villa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 658,
+      "id": 3339,
       "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "FC Alverca",
-      "awayTeam": "FC Arouca",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Eyüpspor",
+      "awayTeam": "Gaziantep FK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -372,28 +394,6 @@
       "country": "England",
       "homeTeam": "Middlesbrough",
       "awayTeam": "Watford",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3339,
-      "status": "notstarted",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Eyüpspor",
-      "awayTeam": "Gaziantep FK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 338,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Fulham",
-      "awayTeam": "Aston Villa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,23 +465,23 @@
       "marketCount": 0
     },
     {
+      "id": 1735,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "Borussia M'gladbach",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1727,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
       "homeTeam": "1. FC Heidenheim",
       "awayTeam": "FC St. Pauli",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1729,
-      "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "1. FSV Mainz 05",
-      "awayTeam": "FC Bayern München",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,34 +509,34 @@
       "marketCount": 0
     },
     {
-      "id": 1735,
+      "id": 1729,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
-      "homeTeam": "VfL Wolfsburg",
-      "awayTeam": "Borussia M'gladbach",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "FC Bayern München",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 343,
+      "id": 342,
       "status": "notstarted",
       "league": "Premier League",
       "country": "England",
-      "homeTeam": "Wolverhampton",
-      "awayTeam": "Tottenham Hotspur",
+      "homeTeam": "West Ham United",
+      "awayTeam": "Everton",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 3911,
+      "id": 3912,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Oxford United",
-      "awayTeam": "Sheffield Wednesday",
+      "homeTeam": "Queens Park Rangers",
+      "awayTeam": "Derby County",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
