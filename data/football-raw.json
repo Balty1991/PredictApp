@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T05:52:13.473Z",
+  "generatedAt": "2026-04-23T08:05:25.662Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,124 +21,124 @@
   ],
   "samples": {
     "event": {
-      "id": 6262,
+      "id": 4780,
       "league": {
-        "id": 20,
-        "name": "Liga MX Clausura",
-        "country": "Mexico",
+        "id": 17,
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
         "is_women": false,
         "current_season": {
-          "id": 297,
-          "name": "Liga MX, Clausura 2026",
+          "id": 339,
+          "name": "Saudi Pro League 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 297,
-        "name": "Liga MX, Clausura 2026",
+        "id": 339,
+        "name": "Saudi Pro League 25/26",
         "year": 2025
       },
-      "home_team": "Club Necaxa",
-      "away_team": "CD Guadalajara",
+      "home_team": "Al-Najma SC",
+      "away_team": "Al-Taawoun",
       "home_team_obj": {
-        "id": 311,
-        "name": "Club Necaxa",
-        "short_name": "Necaxa",
-        "country": "Mexico",
+        "id": 273,
+        "name": "Al-Najma SC",
+        "short_name": "Al-Najma",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Martin Varini",
-          "shortName": "M. Varini"
+          "name": "Nestor El Maestro",
+          "shortName": "N. E. Maestro"
         },
         "venue": {
-          "id": 299,
-          "name": "Estadio Victoria",
-          "city": "Aguascalientes",
-          "country": "Mexico",
-          "capacity": 23851
+          "id": 261,
+          "name": "Al-Najma Club Stadium",
+          "city": "Unaizah",
+          "country": "Saudi Arabia",
+          "capacity": 3000
         }
       },
       "away_team_obj": {
-        "id": 320,
-        "name": "CD Guadalajara",
-        "short_name": "Guadalajara",
-        "country": "Mexico",
+        "id": 266,
+        "name": "Al-Taawoun",
+        "short_name": "Al-Taawoun",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Gabriel Milito",
-          "shortName": "G. Milito"
+          "name": "Pericles Chamusca",
+          "shortName": "P. Chamusca"
         },
         "venue": {
-          "id": 307,
-          "name": "Estadio Akron",
-          "city": "Guadalajara",
-          "country": "Mexico",
-          "capacity": 46355
+          "id": 255,
+          "name": "Alinma Stadium",
+          "city": "Buraidah",
+          "country": "Saudi Arabia",
+          "capacity": 64040
         }
       },
-      "event_date": "2026-04-23T07:00:00+04:00",
-      "round_number": 16,
+      "event_date": "2026-04-23T20:10:00+04:00",
+      "round_number": 29,
       "group_name": null,
-      "status": "finished",
-      "home_score": 0,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 4.1,
-      "odds_draw": 3.85,
-      "odds_away": 1.68,
-      "odds_over_15": 1.18,
-      "odds_over_25": 1.57,
-      "odds_over_35": 2.39,
-      "odds_under_15": 4.5,
-      "odds_under_25": 2.16,
-      "odds_under_35": 1.47,
-      "odds_btts_yes": 1.57,
-      "odds_btts_no": 2.11,
-      "odds_dc_12": 1.19,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 4.33,
+      "odds_draw": 3.5,
+      "odds_away": 1.65,
+      "odds_over_15": null,
+      "odds_over_25": 1.67,
+      "odds_over_35": null,
+      "odds_under_15": null,
+      "odds_under_25": 2.15,
+      "odds_under_35": null,
+      "odds_btts_yes": null,
+      "odds_btts_no": null,
+      "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.3,
-      "away_xg_live": 0.82,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 209,
-        "name": "Martin Varini",
-        "short_name": "M. Varini",
-        "country": "Uruguay",
-        "profile": "balanced",
-        "preferred_formation": "3-1-4-2",
-        "pressing_intensity": 0.582449492231932,
-        "defensive_line": "high",
+        "id": 198,
+        "name": "Nestor El Maestro",
+        "short_name": "N. E. Maestro",
+        "country": "England",
+        "profile": "defensive",
+        "preferred_formation": "4-1-4-1",
+        "pressing_intensity": 0.44814408106410614,
+        "defensive_line": "mid",
         "top_styles": [
-          "ball_dominant",
-          "total_football"
+          "park_the_bus",
+          "terrorist_fb"
         ]
       },
       "away_coach": {
-        "id": 444,
-        "name": "Gabriel Milito",
-        "short_name": "G. Milito",
-        "country": "Argentina",
+        "id": 306,
+        "name": "Pericles Chamusca",
+        "short_name": "P. Chamusca",
+        "country": "Brazil",
         "profile": "attacking",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.6120103533035149,
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.5419611106533773,
         "defensive_line": "mid",
         "top_styles": [
-          "false_9",
-          "positional"
+          "moments_fc",
+          "chaos_ball"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 299,
-        "name": "Estadio Victoria",
-        "city": "Aguascalientes",
-        "country": "Mexico",
-        "capacity": 23851
+        "id": 261,
+        "name": "Al-Najma Club Stadium",
+        "city": "Unaizah",
+        "country": "Saudi Arabia",
+        "capacity": 3000
       }
     },
     "prediction": {
