@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T03:27:55.955Z",
+  "generatedAt": "2026-04-23T05:52:13.473Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,213 +21,124 @@
   ],
   "samples": {
     "event": {
-      "id": 9593,
+      "id": 6262,
       "league": {
-        "id": 35,
-        "name": "Copa do Brasil",
-        "country": "Brazil",
+        "id": 20,
+        "name": "Liga MX Clausura",
+        "country": "Mexico",
         "is_women": false,
         "current_season": {
-          "id": 78,
-          "name": "Copa do Brasil 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
+          "id": 297,
+          "name": "Liga MX, Clausura 2026",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 78,
-        "name": "Copa do Brasil 2026",
-        "year": 2026
+        "id": 297,
+        "name": "Liga MX, Clausura 2026",
+        "year": 2025
       },
-      "home_team": "Red Bull Bragantino",
-      "away_team": "Mirassol",
+      "home_team": "Club Necaxa",
+      "away_team": "CD Guadalajara",
       "home_team_obj": {
-        "id": 168,
-        "name": "Red Bull Bragantino",
-        "short_name": "RB Bragantino",
-        "country": "Brazil",
+        "id": 311,
+        "name": "Club Necaxa",
+        "short_name": "Necaxa",
+        "country": "Mexico",
         "coach": {
-          "name": "Vagner Mancini",
-          "shortName": "V. Mancini"
+          "name": "Martin Varini",
+          "shortName": "M. Varini"
         },
         "venue": {
-          "id": 165,
-          "name": "Estádio Nabi Abi Chedid",
-          "city": "Bragança Paulista",
-          "country": "Brazil",
-          "capacity": 15010
+          "id": 299,
+          "name": "Estadio Victoria",
+          "city": "Aguascalientes",
+          "country": "Mexico",
+          "capacity": 23851
         }
       },
       "away_team_obj": {
-        "id": 151,
-        "name": "Mirassol",
-        "short_name": "Mirassol",
-        "country": "Brazil",
+        "id": 320,
+        "name": "CD Guadalajara",
+        "short_name": "Guadalajara",
+        "country": "Mexico",
         "coach": {
-          "name": "Rafael Guanaes",
-          "shortName": "R. Guanaes"
+          "name": "Gabriel Milito",
+          "shortName": "G. Milito"
         },
         "venue": {
-          "id": 149,
-          "name": "Estádio José Maria de Campos Maia",
-          "city": "Mirassol",
-          "country": "Brazil",
-          "capacity": 15000
+          "id": 307,
+          "name": "Estadio Akron",
+          "city": "Guadalajara",
+          "country": "Mexico",
+          "capacity": 46355
         }
       },
-      "event_date": "2026-04-23T04:30:00+04:00",
-      "round_number": 5,
+      "event_date": "2026-04-23T07:00:00+04:00",
+      "round_number": 16,
       "group_name": null,
       "status": "finished",
-      "home_score": 1,
-      "away_score": 1,
-      "home_score_ht": 1,
-      "away_score_ht": 1,
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 1.6,
-      "odds_draw": 3.45,
-      "odds_away": 5.7,
-      "odds_over_15": 1.4,
-      "odds_over_25": 2.2,
-      "odds_over_35": 3.9,
-      "odds_under_15": 2.85,
-      "odds_under_25": 1.6,
-      "odds_under_35": 1.22,
-      "odds_btts_yes": 2.15,
-      "odds_btts_no": 1.6,
-      "odds_dc_12": 1.25,
+      "odds_home": 4.1,
+      "odds_draw": 3.85,
+      "odds_away": 1.68,
+      "odds_over_15": 1.18,
+      "odds_over_25": 1.57,
+      "odds_over_35": 2.39,
+      "odds_under_15": 4.5,
+      "odds_under_25": 2.16,
+      "odds_under_35": 1.47,
+      "odds_btts_yes": 1.57,
+      "odds_btts_no": 2.11,
+      "odds_dc_12": 1.19,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.3,
+      "away_xg_live": 0.82,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 164,
-        "name": "Vagner Mancini",
-        "short_name": "V. Mancini",
-        "country": "Brazil",
+        "id": 209,
+        "name": "Martin Varini",
+        "short_name": "M. Varini",
+        "country": "Uruguay",
         "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5066576041035539,
-        "defensive_line": "mid",
+        "preferred_formation": "3-1-4-2",
+        "pressing_intensity": 0.582449492231932,
+        "defensive_line": "high",
         "top_styles": [
-          "anti_football",
-          "heritage"
+          "ball_dominant",
+          "total_football"
         ]
       },
       "away_coach": {
-        "id": 142,
-        "name": "Rafael Guanaes",
-        "short_name": "R. Guanaes",
-        "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.48371081495328194,
-        "defensive_line": "high",
+        "id": 444,
+        "name": "Gabriel Milito",
+        "short_name": "G. Milito",
+        "country": "Argentina",
+        "profile": "attacking",
+        "preferred_formation": "3-4-2-1",
+        "pressing_intensity": 0.6120103533035149,
+        "defensive_line": "mid",
         "top_styles": [
-          "wing_play",
-          "cross_pray"
+          "false_9",
+          "positional"
         ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Alix Vinicius",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-04-28"
-          },
-          {
-            "name": "Davi Gomes",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Eduardo Sasha",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Fabrício",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Fernando",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Guzmán Rodríguez",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Henry Mosquera",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "José Herrera",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Vanderlan",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ],
-        "away": [
-          {
-            "name": "Eduardo",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Igor Cariús",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Negueba",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Reinaldo",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Yuri Lara",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 165,
-        "name": "Estádio Nabi Abi Chedid",
-        "city": "Bragança Paulista",
-        "country": "Brazil",
-        "capacity": 15010
+        "id": 299,
+        "name": "Estadio Victoria",
+        "city": "Aguascalientes",
+        "country": "Mexico",
+        "capacity": 23851
       }
     },
     "prediction": {
