@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T20:33:15.522Z",
+  "generatedAt": "2026-04-23T21:53:49.213Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,152 +21,213 @@
   ],
   "samples": {
     "event": {
-      "id": 610,
+      "id": 3029,
       "league": {
-        "id": 2,
-        "name": "Liga Portugal Betclic",
-        "country": "Portugal",
+        "id": 10,
+        "name": "Eredivisie",
+        "country": "Netherlands",
         "is_women": false,
         "current_season": {
-          "id": 305,
-          "name": "Liga Portugal 25/26",
+          "id": 279,
+          "name": "VriendenLoterij Eredivisie 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 305,
-        "name": "Liga Portugal 25/26",
+        "id": 279,
+        "name": "VriendenLoterij Eredivisie 25/26",
         "year": 2025
       },
-      "home_team": "Casa Pia",
-      "away_team": "Sporting Braga",
+      "home_team": "PSV Eindhoven",
+      "away_team": "PEC Zwolle",
       "home_team_obj": {
-        "id": 21,
-        "name": "Casa Pia",
-        "short_name": "Casa Pia",
-        "country": "Portugal",
+        "id": 115,
+        "name": "PSV Eindhoven",
+        "short_name": "PSV",
+        "country": "Netherlands",
         "coach": {
-          "name": "Álvaro Pacheco",
-          "shortName": "Á. Pacheco"
+          "name": "Peter Bosz",
+          "shortName": "P. Bosz"
         },
         "venue": {
-          "id": 21,
-          "name": "Estádio Municipal de Rio Maior",
-          "city": "Rio Maior",
-          "country": "Portugal",
-          "capacity": 7000
+          "id": 113,
+          "name": "Philips Stadion",
+          "city": "Eindhoven",
+          "country": "Netherlands",
+          "capacity": 36500
         }
       },
       "away_team_obj": {
-        "id": 31,
-        "name": "Sporting Braga",
-        "short_name": "Braga",
-        "country": "Portugal",
+        "id": 177,
+        "name": "PEC Zwolle",
+        "short_name": "Zwolle",
+        "country": "Netherlands",
         "coach": {
-          "name": "Carlos Vicens",
-          "shortName": "C. Vicens"
+          "name": "Henry van der Vegt",
+          "shortName": "H. v. d. Vegt"
         },
         "venue": {
-          "id": 31,
-          "name": "Estádio Municipal de Braga",
-          "city": "Braga",
-          "country": "Portugal",
-          "capacity": 30286
+          "id": 173,
+          "name": "Mac3Park Stadion",
+          "city": "Zwolle",
+          "country": "Netherlands",
+          "capacity": 14000
         }
       },
-      "event_date": "2026-04-23T22:00:00+04:00",
-      "round_number": 26,
+      "event_date": "2026-04-23T23:00:00+04:00",
+      "round_number": 31,
       "group_name": null,
       "status": "finished",
-      "home_score": 0,
+      "home_score": 6,
       "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 1,
+      "home_score_ht": 1,
+      "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 5.25,
-      "odds_draw": 4.1,
-      "odds_away": 1.56,
-      "odds_over_15": 1.29,
-      "odds_over_25": 1.85,
-      "odds_over_35": 3.25,
-      "odds_under_15": 3.5,
-      "odds_under_25": 1.95,
-      "odds_under_35": 1.33,
-      "odds_btts_yes": 1.95,
-      "odds_btts_no": 1.8,
-      "odds_dc_12": null,
-      "actual_home_xg": 0.48,
-      "actual_away_xg": 0.47,
-      "home_xg_live": 0.34,
-      "away_xg_live": 0.47,
+      "odds_home": 1.2,
+      "odds_draw": 6,
+      "odds_away": 9,
+      "odds_over_15": 1.05,
+      "odds_over_25": 1.22,
+      "odds_over_35": 1.57,
+      "odds_under_15": 11,
+      "odds_under_25": 4.2,
+      "odds_under_35": 2.25,
+      "odds_btts_yes": 1.46,
+      "odds_btts_no": 2.46,
+      "odds_dc_12": 1.1,
+      "actual_home_xg": null,
+      "actual_away_xg": null,
+      "home_xg_live": 2.07,
+      "away_xg_live": 0.91,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 1,
-        "name": "Álvaro Pacheco",
-        "short_name": "Á. Pacheco",
-        "country": "Portugal",
-        "profile": "defensive",
-        "preferred_formation": "3-4-3",
-        "pressing_intensity": 0.4217114797024486,
-        "defensive_line": "high",
+        "id": 265,
+        "name": "Peter Bosz",
+        "short_name": "P. Bosz",
+        "country": "Netherlands",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.7654832848099506,
+        "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "gegenpressing",
+          "positional"
         ]
       },
       "away_coach": {
-        "id": 11,
-        "name": "Carlos Vicens",
-        "short_name": "C. Vicens",
-        "country": "Spain",
-        "profile": "attacking",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.5037569498972033,
-        "defensive_line": "low",
+        "id": 370,
+        "name": "Henry van der Vegt",
+        "short_name": "H. v. d. Vegt",
+        "country": "Netherlands",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.5110338104614855,
+        "defensive_line": "mid",
         "top_styles": [
-          "tiki_taka",
-          "territory"
+          "chaos_ball",
+          "terrorist_fb"
         ]
       },
       "unavailable_players": {
-        "home": [],
-        "away": [
+        "home": [
           {
-            "name": "Adrian Leon Barišić",
+            "name": "Alassane Plea",
             "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-05-15"
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-03"
           },
           {
-            "name": "Alaa Bellaarouch",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
+            "name": "Anass Salah-Eddine",
+            "status": "injured",
+            "reason": "Foot Injury",
+            "expected_return": "2026-04-24"
           },
           {
-            "name": "Diego Rodrigues",
+            "name": "Armando Obispo",
             "status": "injured",
-            "reason": "Ankle Injury",
+            "reason": "Calf Injury",
+            "expected_return": "2026-05-03"
+          },
+          {
+            "name": "Jerdy Schouten",
+            "status": "injured",
+            "reason": "ACL Knee Injury",
             "expected_return": "2026-05-18"
           },
           {
-            "name": "Sikou Niakaté",
+            "name": "Joey Veerman",
             "status": "injured",
-            "reason": "Achilles Tendon Rupture",
-            "expected_return": "2026-05-21"
+            "reason": "Unknown",
+            "expected_return": "2026-04-24"
+          },
+          {
+            "name": "Ruben van Bommel",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-18"
+          },
+          {
+            "name": "Sergiño Dest",
+            "status": "injured",
+            "reason": "Hamstring",
+            "expected_return": "2026-05-03"
+          }
+        ],
+        "away": [
+          {
+            "name": "Damian van der Haar",
+            "status": "injured",
+            "reason": "Unknown",
+            "expected_return": "2026-05-04"
+          },
+          {
+            "name": "Jadiel Pereira da Gama",
+            "status": "injured",
+            "reason": "Unknown",
+            "expected_return": "2026-05-04"
+          },
+          {
+            "name": "Jamiro Monteiro",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-04"
+          },
+          {
+            "name": "Jan Faberski",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-18"
+          },
+          {
+            "name": "Jasper Schendelaar",
+            "status": "injured",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-05-04"
+          },
+          {
+            "name": "Samir Lagsir",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-18"
+          },
+          {
+            "name": "Shola Shoretire",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-18"
           }
         ]
       },
       "venue": {
-        "id": 21,
-        "name": "Estádio Municipal de Rio Maior",
-        "city": "Rio Maior",
-        "country": "Portugal",
-        "capacity": 7000
+        "id": 113,
+        "name": "Philips Stadion",
+        "city": "Eindhoven",
+        "country": "Netherlands",
+        "capacity": 36500
       }
     },
     "prediction": {
