@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T08:32:35.973Z",
+  "generatedAt": "2026-04-24T10:26:48.317Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 204834,
+      "id": 204833,
       "league": {
         "id": 49,
         "name": "J1 League",
@@ -30,51 +30,51 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Kashiwa Reysol",
-      "away_team": "Kashima Antlers",
+      "home_team": "FC Tokyo",
+      "away_team": "Mito Hollyhock",
       "home_team_obj": {
-        "id": 1945,
-        "name": "Kashiwa Reysol",
-        "short_name": "Kashiwa",
+        "id": 1936,
+        "name": "FC Tokyo",
+        "short_name": "Tokyo",
         "country": "Japan",
         "coach": {
-          "name": "Ricardo Rodriguez",
-          "shortName": "R. Rodriguez"
+          "name": "Rikizo Matsuhashi",
+          "shortName": "R. Matsuhashi"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1937,
-        "name": "Kashima Antlers",
-        "short_name": "Kashima",
+        "id": 1947,
+        "name": "Mito Hollyhock",
+        "short_name": "Mito Hollyhock",
         "country": "Japan",
         "coach": {
-          "name": "Toru Oniki",
-          "shortName": "T. Oniki"
+          "name": "Daisuke Kimori",
+          "shortName": "D. Kimori"
         },
         "venue": null
       },
       "event_date": "2026-04-24T14:00:00+04:00",
       "round_number": 12,
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 0,
+      "away_score": 1,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 2.2,
-      "odds_draw": 3.3,
-      "odds_away": 3.2,
-      "odds_over_15": 1.3,
-      "odds_over_25": 2,
-      "odds_over_35": 3.5,
-      "odds_under_15": 3.4,
-      "odds_under_25": 1.8,
-      "odds_under_35": 1.29,
-      "odds_btts_yes": 1.75,
-      "odds_btts_no": 2,
+      "current_minute": 22,
+      "period": "1T",
+      "odds_home": 1.66,
+      "odds_draw": 3.5,
+      "odds_away": 5.25,
+      "odds_over_15": 1.36,
+      "odds_over_25": 2.1,
+      "odds_over_35": 3.75,
+      "odds_under_15": 3,
+      "odds_under_25": 1.7,
+      "odds_under_35": 1.25,
+      "odds_btts_yes": 2,
+      "odds_btts_no": 1.75,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -83,10 +83,10 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 1302,
-        "name": "Ricardo Rodriguez",
-        "short_name": "R. Rodriguez",
-        "country": "Spain",
+        "id": 1293,
+        "name": "Rikizo Matsuhashi",
+        "short_name": "R. Matsuhashi",
+        "country": "Japan",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
@@ -94,9 +94,9 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1294,
-        "name": "Toru Oniki",
-        "short_name": "T. Oniki",
+        "id": 1304,
+        "name": "Daisuke Kimori",
+        "short_name": "D. Kimori",
         "country": "Japan",
         "profile": "",
         "preferred_formation": "",
@@ -106,51 +106,73 @@
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1114,
-        "name": "Sankyo Frontier Kashiwa Stadium",
-        "city": "Kashiwa",
+        "id": 1104,
+        "name": "Ajinomoto Stadium",
+        "city": "Tokyo",
         "country": "Japan",
-        "capacity": 15349
+        "capacity": 49970
       }
     },
     "prediction": {
-      "id": 3217,
+      "id": 2962,
       "event": {
-        "id": 204834,
+        "id": 4775,
         "league": {
-          "id": 49,
-          "name": "J1 League",
-          "country": "Japan",
+          "id": 17,
+          "name": "Saudi Pro League",
+          "country": "Saudi Arabia",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 339,
+            "name": "Saudi Pro League 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
-        "season": null,
-        "home_team": "Kashiwa Reysol",
-        "away_team": "Kashima Antlers",
+        "season": {
+          "id": 339,
+          "name": "Saudi Pro League 25/26",
+          "year": 2025
+        },
+        "home_team": "Al-Fateh",
+        "away_team": "Al-Khaleej",
         "home_team_obj": {
-          "id": 1945,
-          "name": "Kashiwa Reysol",
-          "short_name": "Kashiwa",
-          "country": "Japan",
+          "id": 268,
+          "name": "Al-Fateh",
+          "short_name": "Al-Fateh",
+          "country": "Saudi Arabia",
           "coach": {
-            "name": "Ricardo Rodriguez",
-            "shortName": "R. Rodriguez"
+            "name": "Jose Manuel Gomes",
+            "shortName": "J. M. Gomes"
           },
-          "venue": null
+          "venue": {
+            "id": 257,
+            "name": "Prince Abdullah bin Jalawi Stadium",
+            "city": "Al-Ahsa",
+            "country": "Saudi Arabia",
+            "capacity": 19550
+          }
         },
         "away_team_obj": {
-          "id": 1937,
-          "name": "Kashima Antlers",
-          "short_name": "Kashima",
-          "country": "Japan",
+          "id": 265,
+          "name": "Al-Khaleej",
+          "short_name": "Al-Khaleej",
+          "country": "Saudi Arabia",
           "coach": {
-            "name": "Toru Oniki",
-            "shortName": "T. Oniki"
+            "name": "Georgios Donis",
+            "shortName": "G. Donis"
           },
-          "venue": null
+          "venue": {
+            "id": 254,
+            "name": "Al-Khaleej Club Stadium",
+            "city": "Saihat",
+            "country": "Saudi Arabia",
+            "capacity": null
+          }
         },
-        "event_date": "2026-04-24T14:00:00+04:00",
-        "round_number": 12,
+        "event_date": "2026-04-24T19:45:00+04:00",
+        "round_number": 29,
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -159,17 +181,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.2,
-        "odds_draw": 3.3,
-        "odds_away": 3.2,
-        "odds_over_15": 1.3,
-        "odds_over_25": 2,
-        "odds_over_35": 3.5,
-        "odds_under_15": 3.4,
-        "odds_under_25": 1.8,
-        "odds_under_35": 1.29,
-        "odds_btts_yes": 1.75,
-        "odds_btts_no": 2,
+        "odds_home": 2.25,
+        "odds_draw": 3.5,
+        "odds_away": 2.55,
+        "odds_over_15": 1.17,
+        "odds_over_25": 1.57,
+        "odds_over_35": 2.38,
+        "odds_under_15": 5,
+        "odds_under_25": 2.35,
+        "odds_under_35": 1.53,
+        "odds_btts_yes": 1.5,
+        "odds_btts_no": 2.5,
         "odds_dc_12": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
@@ -178,34 +200,40 @@
         "penalty_shootout": null,
         "referee": null,
         "home_coach": {
-          "id": 1302,
-          "name": "Ricardo Rodriguez",
-          "short_name": "R. Rodriguez",
-          "country": "Spain",
-          "profile": "",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 415,
+          "name": "Jose Manuel Gomes",
+          "short_name": "J. M. Gomes",
+          "country": "Portugal",
+          "profile": "balanced",
+          "preferred_formation": "3-4-1-2",
+          "pressing_intensity": 0.9277351152339717,
+          "defensive_line": "mid",
+          "top_styles": [
+            "gegenpressing",
+            "high_press"
+          ]
         },
         "away_coach": {
-          "id": 1294,
-          "name": "Toru Oniki",
-          "short_name": "T. Oniki",
-          "country": "Japan",
-          "profile": "",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 188,
+          "name": "Georgios Donis",
+          "short_name": "G. Donis",
+          "country": "Greece",
+          "profile": "attacking",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.5416918204808029,
+          "defensive_line": "mid",
+          "top_styles": [
+            "set_piece",
+            "chaos_ball"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1114,
-          "name": "Sankyo Frontier Kashiwa Stadium",
-          "city": "Kashiwa",
-          "country": "Japan",
-          "capacity": 15349
+          "id": 257,
+          "name": "Prince Abdullah bin Jalawi Stadium",
+          "city": "Al-Ahsa",
+          "country": "Saudi Arabia",
+          "capacity": 19550
         },
         "incidents": null,
         "lineups": null,
@@ -213,22 +241,22 @@
         "momentum": null,
         "average_positions": null
       },
-      "created_at": "2026-04-24T06:20:09.034998+04:00",
-      "prob_home_win": 31.892674340000482,
-      "prob_draw": 27.701755895884595,
-      "prob_away_win": 40.40556976411492,
-      "predicted_result": "A",
-      "expected_home_goals": 1.1,
-      "expected_away_goals": 1.275,
-      "prob_over_15": 72.34352369309569,
-      "prob_over_25": 48.24857946631884,
-      "prob_over_35": 25.819206513776884,
-      "prob_btts_yes": 59.03968381686071,
-      "confidence": 40.40556976411492,
+      "created_at": "2026-04-18T06:20:05.189876+04:00",
+      "prob_home_win": 40.59165061364399,
+      "prob_draw": 29.12606557331338,
+      "prob_away_win": 30.282283813042625,
+      "predicted_result": "H",
+      "expected_home_goals": 1.1898600000000001,
+      "expected_away_goals": 0.98559,
+      "prob_over_15": 81.25627892253394,
+      "prob_over_25": 44.100506595318336,
+      "prob_over_35": 24.221404619982394,
+      "prob_btts_yes": 73.27445911237098,
+      "confidence": 40.59165061364399,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 40.40556976411492,
+      "most_likely_score": "1-0",
+      "favorite": "H",
+      "favorite_prob": 40.59165061364399,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
