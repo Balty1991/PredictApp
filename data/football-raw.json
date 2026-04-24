@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T21:26:37.679Z",
+  "generatedAt": "2026-04-24T22:11:48.417Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,195 +21,118 @@
   ],
   "samples": {
     "event": {
-      "id": 1733,
+      "id": 9911,
       "league": {
-        "id": 5,
-        "name": "Bundesliga",
-        "country": "Germany",
+        "id": 34,
+        "name": "Brasileirão Serie B",
+        "country": "Brazil",
         "is_women": false,
         "current_season": {
-          "id": 228,
-          "name": "Bundesliga 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 228,
-        "name": "Bundesliga 25/26",
-        "year": 2025
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
+        "year": 2026
       },
-      "home_team": "RB Leipzig",
-      "away_team": "1. FC Union Berlin",
+      "home_team": "Ponte Preta",
+      "away_team": "América Mineiro",
       "home_team_obj": {
-        "id": 80,
-        "name": "RB Leipzig",
-        "short_name": "Leipzig",
-        "country": "Germany",
+        "id": 844,
+        "name": "Ponte Preta",
+        "short_name": "Ponte Preta",
+        "country": "Brazil",
         "coach": {
-          "name": "Ole Werner",
-          "shortName": "O. Werner"
+          "name": "Rodrigo Santana",
+          "shortName": "R. Santana"
         },
         "venue": {
-          "id": 78,
-          "name": "Red Bull Arena",
-          "city": "Leipzig",
-          "country": "Germany",
-          "capacity": 47069
+          "id": 636,
+          "name": "Moisés Lucarelli",
+          "city": "Campinas",
+          "country": "Brazil",
+          "capacity": 19728
         }
       },
       "away_team_obj": {
-        "id": 83,
-        "name": "1. FC Union Berlin",
-        "short_name": "Union Berlin",
-        "country": "Germany",
+        "id": 838,
+        "name": "América Mineiro",
+        "short_name": "América-MG",
+        "country": "Brazil",
         "coach": {
-          "name": "Marie-Louise Eta",
-          "shortName": "M. Eta"
+          "name": "Roger Rodrigues da Silva",
+          "shortName": "R. R. d. Silva"
         },
         "venue": {
-          "id": 81,
-          "name": "An der alten Försterei",
-          "city": "Berlin",
-          "country": "Germany",
-          "capacity": 22012
+          "id": 630,
+          "name": "Arena Independência",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": 23000
         }
       },
-      "event_date": "2026-04-24T22:30:00+04:00",
-      "round_number": 31,
+      "event_date": "2026-04-25T03:00:00+04:00",
+      "round_number": 6,
       "group_name": null,
-      "status": "finished",
-      "home_score": 3,
-      "away_score": 1,
-      "home_score_ht": 2,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 1.02,
-      "odds_draw": 22,
-      "odds_away": 100,
-      "odds_over_15": 1.18,
-      "odds_over_25": 1.14,
-      "odds_over_35": 1.55,
-      "odds_under_15": 4.5,
-      "odds_under_25": 5.5,
-      "odds_under_35": 2.4,
-      "odds_btts_yes": 3.35,
-      "odds_btts_no": 1.3,
-      "odds_dc_12": 1.02,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 2.5,
+      "odds_draw": 3,
+      "odds_away": 2.65,
+      "odds_over_15": 1.36,
+      "odds_over_25": 2.2,
+      "odds_over_35": 4,
+      "odds_under_15": 3,
+      "odds_under_25": 1.65,
+      "odds_under_35": 1.22,
+      "odds_btts_yes": 1.83,
+      "odds_btts_no": 1.83,
+      "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 3.85,
-      "away_xg_live": 0.18,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 242,
-        "name": "Ole Werner",
-        "short_name": "O. Werner",
-        "country": "Germany",
-        "profile": "attacking",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.5076727134273837,
-        "defensive_line": "mid",
-        "top_styles": [
-          "chaos_ball",
-          "chaos_football"
-        ]
+        "id": 148,
+        "name": "Rodrigo Santana",
+        "short_name": "R. Santana",
+        "country": "Brazil",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 385,
-        "name": "Marie-Louise Eta",
-        "short_name": "M. Eta",
-        "country": "Germany",
-        "profile": "balanced",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.26632289555699007,
-        "defensive_line": "high",
-        "top_styles": [
-          "cross_pray",
-          "terrorist_fb"
-        ]
+        "id": 132,
+        "name": "Alberto Valentim",
+        "short_name": "A. Valentim",
+        "country": "Brazil",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Castello Lukeba",
-            "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-05-08"
-          },
-          {
-            "name": "Conrad Harder",
-            "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-05-03"
-          },
-          {
-            "name": "David Raum",
-            "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-05-08"
-          },
-          {
-            "name": "Ezechiel Banzuzi",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Kosta Nedeljković",
-            "status": "injured",
-            "reason": "Back Injury",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Leopold Zingerle",
-            "status": "injured",
-            "reason": "Wrist Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Sani Suleiman",
-            "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Willi Orban",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-05-07"
-          }
-        ],
-        "away": [
-          {
-            "name": "David Preu",
-            "status": "injured",
-            "reason": "Unknown",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Matheo Raab",
-            "status": "injured",
-            "reason": "Broken Hand",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "Woo-Yeong Jeong",
-            "status": "injured",
-            "reason": "Knock Injury",
-            "expected_return": "2026-05-01"
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 78,
-        "name": "Red Bull Arena",
-        "city": "Leipzig",
-        "country": "Germany",
-        "capacity": 47069
+        "id": 636,
+        "name": "Moisés Lucarelli",
+        "city": "Campinas",
+        "country": "Brazil",
+        "capacity": 19728
       }
     },
     "prediction": {
