@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T10:26:48.317Z",
+  "generatedAt": "2026-04-24T11:42:23.647Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 204833,
+      "id": 204834,
       "league": {
         "id": 49,
         "name": "J1 League",
@@ -30,51 +30,51 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "FC Tokyo",
-      "away_team": "Mito Hollyhock",
+      "home_team": "Kashiwa Reysol",
+      "away_team": "Kashima Antlers",
       "home_team_obj": {
-        "id": 1936,
-        "name": "FC Tokyo",
-        "short_name": "Tokyo",
+        "id": 1945,
+        "name": "Kashiwa Reysol",
+        "short_name": "Kashiwa",
         "country": "Japan",
         "coach": {
-          "name": "Rikizo Matsuhashi",
-          "shortName": "R. Matsuhashi"
+          "name": "Ricardo Rodriguez",
+          "shortName": "R. Rodriguez"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1947,
-        "name": "Mito Hollyhock",
-        "short_name": "Mito Hollyhock",
+        "id": 1937,
+        "name": "Kashima Antlers",
+        "short_name": "Kashima",
         "country": "Japan",
         "coach": {
-          "name": "Daisuke Kimori",
-          "shortName": "D. Kimori"
+          "name": "Toru Oniki",
+          "shortName": "T. Oniki"
         },
         "venue": null
       },
       "event_date": "2026-04-24T14:00:00+04:00",
       "round_number": 12,
       "group_name": null,
-      "status": "1st_half",
+      "status": "2nd_half",
       "home_score": 0,
       "away_score": 1,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": 22,
-      "period": "1T",
-      "odds_home": 1.66,
-      "odds_draw": 3.5,
-      "odds_away": 5.25,
-      "odds_over_15": 1.36,
-      "odds_over_25": 2.1,
-      "odds_over_35": 3.75,
-      "odds_under_15": 3,
-      "odds_under_25": 1.7,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 2,
-      "odds_btts_no": 1.75,
+      "home_score_ht": 0,
+      "away_score_ht": 1,
+      "current_minute": 80,
+      "period": "2T",
+      "odds_home": 2.2,
+      "odds_draw": 3.3,
+      "odds_away": 3.2,
+      "odds_over_15": 1.3,
+      "odds_over_25": 2,
+      "odds_over_35": 3.5,
+      "odds_under_15": 3.4,
+      "odds_under_25": 1.8,
+      "odds_under_35": 1.29,
+      "odds_btts_yes": 1.75,
+      "odds_btts_no": 2,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -83,10 +83,10 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 1293,
-        "name": "Rikizo Matsuhashi",
-        "short_name": "R. Matsuhashi",
-        "country": "Japan",
+        "id": 1302,
+        "name": "Ricardo Rodriguez",
+        "short_name": "R. Rodriguez",
+        "country": "Spain",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
@@ -94,9 +94,9 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1304,
-        "name": "Daisuke Kimori",
-        "short_name": "D. Kimori",
+        "id": 1294,
+        "name": "Toru Oniki",
+        "short_name": "T. Oniki",
         "country": "Japan",
         "profile": "",
         "preferred_formation": "",
@@ -106,11 +106,11 @@
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1104,
-        "name": "Ajinomoto Stadium",
-        "city": "Tokyo",
+        "id": 1114,
+        "name": "Sankyo Frontier Kashiwa Stadium",
+        "city": "Kashiwa",
         "country": "Japan",
-        "capacity": 49970
+        "capacity": 15349
       }
     },
     "prediction": {
