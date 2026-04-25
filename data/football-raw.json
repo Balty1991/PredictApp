@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T16:52:42.255Z",
+  "generatedAt": "2026-04-25T17:44:09.735Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,221 +21,180 @@
   ],
   "samples": {
     "event": {
-      "id": 342,
+      "id": 8001,
       "league": {
-        "id": 1,
-        "name": "Premier League",
-        "country": "England",
+        "id": 25,
+        "name": "Ekstraklasa",
+        "country": "Poland",
         "is_women": false,
         "current_season": {
-          "id": 337,
-          "name": "Premier League 25/26",
+          "id": 271,
+          "name": "Ekstraklasa 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 337,
-        "name": "Premier League 25/26",
+        "id": 271,
+        "name": "Ekstraklasa 25/26",
         "year": 2025
       },
-      "home_team": "West Ham United",
-      "away_team": "Everton",
+      "home_team": "KS Lechia Gdańsk",
+      "away_team": "Raków Częstochowa",
       "home_team_obj": {
-        "id": 8,
-        "name": "West Ham United",
-        "short_name": "West Ham",
-        "country": "England",
+        "id": 430,
+        "name": "KS Lechia Gdańsk",
+        "short_name": "Lechia",
+        "country": "Poland",
         "coach": {
-          "name": "Nuno Espírito Santo",
-          "shortName": "N. E. Santo"
+          "name": "John Carver",
+          "shortName": "J. Carver"
         },
         "venue": {
-          "id": 8,
-          "name": "London Stadium",
-          "city": "London",
-          "country": "England",
-          "capacity": 59623
+          "id": 411,
+          "name": "Polsat Plus Arena Gdańsk",
+          "city": "Gdansk",
+          "country": "Poland",
+          "capacity": 41620
         }
       },
       "away_team_obj": {
-        "id": 20,
-        "name": "Everton",
-        "short_name": "Everton",
-        "country": "England",
+        "id": 428,
+        "name": "Raków Częstochowa",
+        "short_name": "Raków",
+        "country": "Poland",
         "coach": {
-          "name": "David Moyes",
-          "shortName": "D. Moyes"
+          "name": "Lukasz Tomczyk",
+          "shortName": "L. Tomczyk"
         },
         "venue": {
-          "id": 20,
-          "name": "Hill Dickinson Stadium",
-          "city": "Liverpool",
-          "country": "England",
-          "capacity": 52888
+          "id": 409,
+          "name": "Miejski Stadion Piłkarski Raków w Częstochowie",
+          "city": "Czestochowa",
+          "country": "Poland",
+          "capacity": 5500
         }
       },
-      "event_date": "2026-04-25T18:00:00+04:00",
-      "round_number": 34,
+      "event_date": "2026-04-25T19:30:00+04:00",
+      "round_number": 30,
       "group_name": null,
       "status": "finished",
-      "home_score": 2,
-      "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
+      "home_score": 1,
+      "away_score": 2,
+      "home_score_ht": 1,
+      "away_score_ht": 1,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 1.27,
-      "odds_draw": 4.6,
-      "odds_away": 22,
-      "odds_over_15": 1.85,
-      "odds_over_25": 5.1,
-      "odds_over_35": 12.5,
-      "odds_under_15": 1.95,
-      "odds_under_25": 1.15,
-      "odds_under_35": 1.02,
-      "odds_btts_yes": 2.85,
-      "odds_btts_no": 1.4,
-      "odds_dc_12": 1.2,
+      "odds_home": 2.45,
+      "odds_draw": 3.5,
+      "odds_away": 2.55,
+      "odds_over_15": 1.22,
+      "odds_over_25": 1.73,
+      "odds_over_35": 2.75,
+      "odds_under_15": 4,
+      "odds_under_25": 2.08,
+      "odds_under_35": 1.4,
+      "odds_btts_yes": 1.62,
+      "odds_btts_no": 2.2,
+      "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 1.17,
-      "away_xg_live": 1.41,
+      "home_xg_live": 1.77,
+      "away_xg_live": 1.7,
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 545,
-        "name": "Nuno Espírito Santo",
-        "short_name": "N. E. Santo",
-        "country": "Portugal",
-        "profile": "balanced",
+        "id": 480,
+        "name": "John Carver",
+        "short_name": "J. Carver",
+        "country": "England",
+        "profile": "attacking",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.40148637824609473,
-        "defensive_line": "mid",
-        "top_styles": [
-          "set_piece",
-          "park_the_bus"
-        ]
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 551,
-        "name": "David Moyes",
-        "short_name": "D. Moyes",
-        "country": "Scotland",
+        "id": 231,
+        "name": "Lukasz Tomczyk",
+        "short_name": "L. Tomczyk",
+        "country": "Poland",
         "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.3856416336201015,
-        "defensive_line": "high",
-        "top_styles": [
-          "terrorist_fb",
-          "ball_dominant"
-        ]
+        "preferred_formation": "3-4-3",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Łukasz Fabiański",
-            "status": "injured",
-            "reason": "Back Injury",
-            "expected_return": null
-          }
-        ],
-        "away": [
-          {
-            "name": "Beto",
-            "status": "injured",
-            "reason": "Concussion",
-            "expected_return": "2026-05-10"
-          },
-          {
-            "name": "Carlos Alcaraz",
-            "status": "doubtful",
-            "reason": "Knock Injury",
-            "expected_return": "2026-05-04"
-          },
-          {
-            "name": "Jack Grealish",
-            "status": "injured",
-            "reason": "Broken Foot",
-            "expected_return": "2026-06-05"
-          },
-          {
-            "name": "Jarrad Branthwaite",
-            "status": "injured",
-            "reason": "Hamstring Injury",
-            "expected_return": "2026-06-10"
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 8,
-        "name": "London Stadium",
-        "city": "London",
-        "country": "England",
-        "capacity": 59623
+        "id": 411,
+        "name": "Polsat Plus Arena Gdańsk",
+        "city": "Gdansk",
+        "country": "Poland",
+        "capacity": 41620
       }
     },
     "prediction": {
-      "id": 3053,
+      "id": 3057,
       "event": {
-        "id": 5045,
+        "id": 7682,
         "league": {
-          "id": 18,
-          "name": "MLS",
-          "country": "USA",
+          "id": 23,
+          "name": "Superliga",
+          "country": "Romania",
           "is_women": false,
           "current_season": {
-            "id": 158,
-            "name": "MLS 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
+            "id": 374,
+            "name": "Superliga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
           }
         },
         "season": {
-          "id": 158,
-          "name": "MLS 2026",
-          "year": 2026
+          "id": 374,
+          "name": "Superliga 25/26",
+          "year": 2025
         },
-        "home_team": "Toronto FC",
-        "away_team": "Atlanta United",
+        "home_team": "UTA Arad",
+        "away_team": "FC Farul Constanța",
         "home_team_obj": {
-          "id": 287,
-          "name": "Toronto FC",
-          "short_name": "Toronto",
-          "country": "Canada",
+          "id": 358,
+          "name": "UTA Arad",
+          "short_name": "UTA",
+          "country": "Romania",
           "coach": {
-            "name": "Robin Fraser",
-            "shortName": "R. Fraser"
+            "name": "Adrian Mihalcea",
+            "shortName": "A. Mihalcea"
           },
           "venue": {
-            "id": 275,
-            "name": "BMO Field",
-            "city": "Toronto",
-            "country": "Canada",
-            "capacity": 45700
+            "id": 338,
+            "name": "Stadionul Francisc von Neumann",
+            "city": "Arad",
+            "country": "Romania",
+            "capacity": 12584
           }
         },
         "away_team_obj": {
-          "id": 277,
-          "name": "Atlanta United",
-          "short_name": "Atlanta",
-          "country": "USA",
+          "id": 366,
+          "name": "FC Farul Constanța",
+          "short_name": "Farul Constanța",
+          "country": "Romania",
           "coach": {
-            "name": "Gerardo Martino",
-            "shortName": "G. Martino"
+            "name": "Flavius Stoican",
+            "shortName": "F. Stoican"
           },
           "venue": {
-            "id": 265,
-            "name": "Mercedes-Benz Stadium",
-            "city": "Atlanta",
-            "country": "USA",
-            "capacity": 71000
+            "id": 346,
+            "name": "Stadionul Central-Academia Gheorghe Hagi",
+            "city": "Ovidiu",
+            "country": "Romania",
+            "capacity": 4554
           }
         },
-        "event_date": "2026-04-25T21:00:00+04:00",
-        "round_number": null,
+        "event_date": "2026-04-25T22:00:00+04:00",
+        "round_number": 6,
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -244,18 +203,18 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.85,
-        "odds_draw": 3.95,
-        "odds_away": 4.25,
-        "odds_over_15": 1.2,
-        "odds_over_25": 1.65,
-        "odds_over_35": 2.55,
-        "odds_under_15": 4,
-        "odds_under_25": 2.2,
-        "odds_under_35": 1.49,
-        "odds_btts_yes": 1.61,
-        "odds_btts_no": 2.19,
-        "odds_dc_12": 1.27,
+        "odds_home": 2.05,
+        "odds_draw": 3.2,
+        "odds_away": 3.1,
+        "odds_over_15": 1.29,
+        "odds_over_25": 1.9,
+        "odds_over_35": 3.25,
+        "odds_under_15": 3.5,
+        "odds_under_25": 1.9,
+        "odds_under_35": 1.33,
+        "odds_btts_yes": 1.73,
+        "odds_btts_no": 2,
+        "odds_dc_12": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -263,484 +222,63 @@
         "penalty_shootout": null,
         "referee": null,
         "home_coach": {
-          "id": 295,
-          "name": "Robin Fraser",
-          "short_name": "R. Fraser",
-          "country": "USA",
+          "id": 373,
+          "name": "Adrian Mihalcea",
+          "short_name": "A. Mihalcea",
+          "country": "Romania",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.4391099059467884,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.5375338719717025,
+          "defensive_line": "low",
           "top_styles": [
             "set_piece",
-            "terrorist_fb"
+            "cross_pray"
           ]
         },
         "away_coach": {
-          "id": 333,
-          "name": "Gerardo Martino",
-          "short_name": "G. Martino",
-          "country": "Argentina",
+          "id": 837,
+          "name": "Flavius Stoican",
+          "short_name": "F. Stoican",
+          "country": "Romania",
           "profile": "balanced",
           "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.311617337091189,
-          "defensive_line": "high",
+          "pressing_intensity": 0.7833841119481988,
+          "defensive_line": "mid",
           "top_styles": [
-            "positional",
-            "territory"
+            "gegenpressing",
+            "high_press"
           ]
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Benjamin Kuscevic",
-              "status": "injured",
-              "reason": "Groin Injury",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Đorđe Mihailović",
-              "status": "injured",
-              "reason": "Pelvis Injury",
-              "expected_return": "2026-06-06"
-            },
-            {
-              "name": "Henry Wingo",
-              "status": "injured",
-              "reason": "Hamstring",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Matheus Pereira",
-              "status": "doubtful",
-              "reason": "Groin Injury",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Nickseon Gomis",
-              "status": "injured",
-              "reason": "Achilles Tendon Rupture",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Theo Corbeanu",
-              "status": "injured",
-              "reason": "Knee Injury",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Zane Monlouis",
-              "status": "doubtful",
-              "reason": "",
-              "expected_return": null
-            }
-          ],
-          "away": [
-            {
-              "name": "Aleksey Miranchuk",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Miguel Almiron",
-              "status": "injured",
-              "reason": "Knee Injury",
-              "expected_return": "2026-04-30"
-            },
-            {
-              "name": "Sergio Santos",
-              "status": "injured",
-              "reason": "Calf Injury",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Steven Alzate",
-              "status": "injured",
-              "reason": "Groin Injury",
-              "expected_return": "2026-04-26"
-            },
-            {
-              "name": "Tomás Jacob",
-              "status": "injured",
-              "reason": "",
-              "expected_return": null
-            }
-          ]
-        },
+        "unavailable_players": null,
         "venue": {
-          "id": 275,
-          "name": "BMO Field",
-          "city": "Toronto",
-          "country": "Canada",
-          "capacity": 45700
+          "id": 338,
+          "name": "Stadionul Francisc von Neumann",
+          "city": "Arad",
+          "country": "Romania",
+          "capacity": 12584
         },
         "incidents": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "L. Hoyos",
-                "goals": 0,
-                "api_id": 106111,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 12092,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Edwards",
-                "goals": 0,
-                "api_id": 1035655,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9827,
-                "yellow_card": false,
-                "jersey_number": "47",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Gregersen",
-                "goals": 0,
-                "api_id": 335747,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9653,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "E. Mihaj",
-                "goals": 0,
-                "api_id": 850828,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9547,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "E. Báez",
-                "goals": 0,
-                "api_id": 1485370,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 12093,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Miranchuk",
-                "goals": 0,
-                "api_id": 324353,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9679,
-                "yellow_card": false,
-                "jersey_number": "59",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Fortune",
-                "goals": 0,
-                "api_id": 1035631,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9911,
-                "yellow_card": false,
-                "jersey_number": "35",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "T. Muyumba",
-                "goals": 0,
-                "api_id": 857773,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9659,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. Sanchez",
-                "goals": 0,
-                "api_id": 1846925,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9656,
-                "yellow_card": false,
-                "jersey_number": "48",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Galarza",
-                "goals": 0,
-                "api_id": 1105836,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 13574,
-                "yellow_card": false,
-                "jersey_number": "88",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "E. L. Lath",
-                "goals": 0,
-                "api_id": 848074,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 9661,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-5-1",
-            "substitutes": []
-          },
-          "home": {
-            "players": [
-              {
-                "name": "L. Gavran",
-                "goals": 0,
-                "api_id": 1172531,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 9562,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Laryea",
-                "goals": 0,
-                "api_id": 829207,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9548,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "W. Zimmerman",
-                "goals": 0,
-                "api_id": 1125090,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9247,
-                "yellow_card": false,
-                "jersey_number": "25",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "Z. Monlouis",
-                "goals": 0,
-                "api_id": 1088909,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9894,
-                "yellow_card": false,
-                "jersey_number": "12",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Edwards",
-                "goals": 0,
-                "api_id": 842692,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 9605,
-                "yellow_card": false,
-                "jersey_number": "44",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Coello",
-                "goals": 0,
-                "api_id": 1470478,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9668,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Osorio",
-                "goals": 0,
-                "api_id": 273031,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9550,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Sargent",
-                "goals": 0,
-                "api_id": 880796,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 6776,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Cifuentes",
-                "goals": 0,
-                "api_id": 846665,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9549,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "D. Sallói",
-                "goals": 0,
-                "api_id": 798921,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 9465,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "D. E. Junior",
-                "goals": 0,
-                "api_id": 828012,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 9553,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-2-3-1",
-            "substitutes": []
-          },
-          "confirmed": false
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "average_positions": null
       },
-      "created_at": "2026-04-19T06:20:23.849444+04:00",
-      "prob_home_win": 50.68084050924675,
-      "prob_draw": 22.10082458851573,
-      "prob_away_win": 27.218334902237522,
+      "created_at": "2026-04-19T06:20:24.921488+04:00",
+      "prob_home_win": 49.07047055315013,
+      "prob_draw": 23.93915947784826,
+      "prob_away_win": 26.99036996900161,
       "predicted_result": "H",
-      "expected_home_goals": 1.9374499999999997,
-      "expected_away_goals": 1.3719550000000003,
-      "prob_over_15": 84.5744387694109,
-      "prob_over_25": 57.05788208703759,
-      "prob_over_35": 31.07710979043229,
-      "prob_btts_yes": 63.52690033812585,
-      "confidence": 50.68084050924675,
+      "expected_home_goals": 1.7000000000000002,
+      "expected_away_goals": 1.2,
+      "prob_over_15": 82.58326515295627,
+      "prob_over_25": 66.24194766862529,
+      "prob_over_35": 38.463034843383866,
+      "prob_btts_yes": 66.17195000014758,
+      "confidence": 49.07047055315013,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 50.68084050924675,
+      "favorite_prob": 49.07047055315013,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
