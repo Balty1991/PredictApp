@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T09:01:34.546Z",
+  "generatedAt": "2026-04-25T10:11:50.533Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,60 +21,60 @@
   ],
   "samples": {
     "event": {
-      "id": 204839,
+      "id": 205031,
       "league": {
-        "id": 49,
-        "name": "J1 League",
-        "country": "Japan",
+        "id": 50,
+        "name": "K League 1",
+        "country": "South Korea",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Sanfrecce Hiroshima",
-      "away_team": "Cerezo Osaka",
+      "home_team": "Bucheon FC 1995",
+      "away_team": "Gimcheon Sangmu FC",
       "home_team_obj": {
-        "id": 1933,
-        "name": "Sanfrecce Hiroshima",
-        "short_name": "Sanfrecce",
-        "country": "Japan",
+        "id": 1955,
+        "name": "Bucheon FC 1995",
+        "short_name": "Bucheon",
+        "country": "South Korea",
         "coach": {
-          "name": "Bartosch Gaul",
-          "shortName": "B. Gaul"
+          "name": "Young-Min Lee",
+          "shortName": "Y. Lee"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1938,
-        "name": "Cerezo Osaka",
-        "short_name": "Cerezo Osaka",
-        "country": "Japan",
+        "id": 1952,
+        "name": "Gimcheon Sangmu FC",
+        "short_name": "Gimcheon",
+        "country": "South Korea",
         "coach": {
-          "name": "Arthur Papas",
-          "shortName": "A. Papas"
+          "name": "Seung-jin Joo",
+          "shortName": "S. Joo"
         },
         "venue": null
       },
-      "event_date": "2026-04-25T11:00:00+04:00",
-      "round_number": 12,
+      "event_date": "2026-04-25T11:30:00+04:00",
+      "round_number": 10,
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 2,
-      "away_score": 1,
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 2,
       "home_score_ht": 0,
       "away_score_ht": 1,
-      "current_minute": 99,
-      "period": "2T",
-      "odds_home": 1.56,
-      "odds_draw": 4.1,
-      "odds_away": 5.25,
-      "odds_over_15": 1.18,
-      "odds_over_25": 1.65,
-      "odds_over_35": 2.62,
-      "odds_under_15": 4.5,
-      "odds_under_25": 2.2,
-      "odds_under_35": 1.44,
-      "odds_btts_yes": 1.7,
-      "odds_btts_no": 2.05,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 3.1,
+      "odds_draw": 3.2,
+      "odds_away": 2.2,
+      "odds_over_15": 1.36,
+      "odds_over_25": 2.15,
+      "odds_over_35": 3.75,
+      "odds_under_15": 3,
+      "odds_under_25": 1.67,
+      "odds_under_35": 1.25,
+      "odds_btts_yes": 1.83,
+      "odds_btts_no": 1.83,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -83,10 +83,10 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 1290,
-        "name": "Bartosch Gaul",
-        "short_name": "B. Gaul",
-        "country": "Germany",
+        "id": 1312,
+        "name": "Young-Min Lee",
+        "short_name": "Y. Lee",
+        "country": "South Korea",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
@@ -94,73 +94,81 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1295,
-        "name": "Arthur Papas",
-        "short_name": "A. Papas",
-        "country": "Australia",
+        "id": 1309,
+        "name": "Seung-jin Joo",
+        "short_name": "S. Joo",
+        "country": "South Korea",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
-      "unavailable_players": {
-        "home": [],
-        "away": [
-          {
-            "name": "Vitor Bueno",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 1111,
-        "name": "Edion Peace Wing Hiroshima",
-        "city": "Hiroshima",
-        "country": "Japan",
-        "capacity": 28520
+        "id": 1129,
+        "name": "Bucheon Stadium",
+        "city": "Bucheon",
+        "country": "South Korea",
+        "capacity": 35545
       }
     },
     "prediction": {
-      "id": 3227,
+      "id": 2997,
       "event": {
-        "id": 204840,
+        "id": 203024,
         "league": {
-          "id": 49,
-          "name": "J1 League",
-          "country": "Japan",
+          "id": 22,
+          "name": "Parva Liga",
+          "country": "Bulgaria",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 321,
+            "name": "Parva Liga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
         "season": null,
-        "home_team": "V-Varen Nagasaki",
-        "away_team": "Gamba Osaka",
+        "home_team": "Ludogorets",
+        "away_team": "FC CSKA 1948 Sofia",
         "home_team_obj": {
-          "id": 1932,
-          "name": "V-Varen Nagasaki",
-          "short_name": "Nagasaki",
-          "country": "Japan",
+          "id": 136,
+          "name": "Ludogorets",
+          "short_name": "Ludogorets",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Takuya Takagi",
-            "shortName": "T. Takagi"
+            "name": "Per Mathias Hogmo",
+            "shortName": "P. M. Hogmo"
           },
-          "venue": null
+          "venue": {
+            "id": 134,
+            "name": "Huvepharma Arena",
+            "city": "Razgrad",
+            "country": "Bulgaria",
+            "capacity": 10422
+          }
         },
         "away_team_obj": {
-          "id": 1939,
-          "name": "Gamba Osaka",
-          "short_name": "Gamba Osaka",
-          "country": "Japan",
+          "id": 339,
+          "name": "FC CSKA 1948 Sofia",
+          "short_name": "CSKA 1948 Sofia",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Jens Wissing",
-            "shortName": "J. Wissing"
+            "name": "Aleksandar Emilov Aleksandrov",
+            "shortName": "A. E. Aleksandrov"
           },
-          "venue": null
+          "venue": {
+            "id": 319,
+            "name": "Bistritsa Stadium",
+            "city": "Bistritsa",
+            "country": "Bulgaria",
+            "capacity": 2500
+          }
         },
-        "event_date": "2026-04-25T13:30:00+04:00",
-        "round_number": 12,
+        "event_date": "2026-04-25T14:15:00+04:00",
+        "round_number": null,
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -169,17 +177,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.5,
-        "odds_draw": 3.6,
-        "odds_away": 1.96,
-        "odds_over_15": 1.25,
-        "odds_over_25": 1.85,
-        "odds_over_35": 3.25,
-        "odds_under_15": 3.75,
-        "odds_under_25": 1.95,
-        "odds_under_35": 1.33,
-        "odds_btts_yes": 1.7,
-        "odds_btts_no": 2.05,
+        "odds_home": 1.53,
+        "odds_draw": 4,
+        "odds_away": 5.75,
+        "odds_over_15": 1.22,
+        "odds_over_25": 1.73,
+        "odds_over_35": 2.75,
+        "odds_under_15": 4,
+        "odds_under_25": 2.08,
+        "odds_under_35": 1.4,
+        "odds_btts_yes": 1.73,
+        "odds_btts_no": 2,
         "odds_dc_12": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
@@ -188,648 +196,726 @@
         "penalty_shootout": null,
         "referee": null,
         "home_coach": {
-          "id": 1289,
-          "name": "Takuya Takagi",
-          "short_name": "T. Takagi",
-          "country": "Japan",
-          "profile": "",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 421,
+          "name": "Per Mathias Hogmo",
+          "short_name": "P. M. Hogmo",
+          "country": "Norway",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.520197688531978,
+          "defensive_line": "mid",
+          "top_styles": [
+            "false_9",
+            "total_football"
+          ]
         },
         "away_coach": {
-          "id": 1296,
-          "name": "Jens Wissing",
-          "short_name": "J. Wissing",
-          "country": "Germany",
-          "profile": "",
-          "preferred_formation": "",
-          "pressing_intensity": null,
+          "id": 422,
+          "name": "Aleksandar Emilov Aleksandrov",
+          "short_name": "A. E. Aleksandrov",
+          "country": "Bulgaria",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.2745642790730072,
           "defensive_line": "",
-          "top_styles": []
+          "top_styles": [
+            "no_midfield",
+            "heritage"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1102,
-          "name": "Peace Stadium",
-          "city": "Nagasaki",
-          "country": "Japan",
-          "capacity": 20000
+          "id": 134,
+          "name": "Huvepharma Arena",
+          "city": "Razgrad",
+          "country": "Bulgaria",
+          "capacity": 10422
         },
         "incidents": null,
         "lineups": {
           "away": {
             "players": [
               {
-                "name": "R. Araki",
+                "name": "D. Sheytanov",
                 "goals": 0,
-                "api_id": 1501069,
+                "api_id": 837440,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "G",
                 "red_card": false,
-                "player_id": 43919,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "T. Kishimoto",
-                "goals": 0,
-                "api_id": 831954,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 43915,
-                "yellow_card": false,
-                "jersey_number": "15",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "G. Ikegaya",
-                "goals": 0,
-                "api_id": 1874012,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 43917,
-                "yellow_card": false,
-                "jersey_number": "19",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Nakatani",
-                "goals": 0,
-                "api_id": 362886,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 43911,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Hatsuse",
-                "goals": 0,
-                "api_id": 790962,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 43910,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Abe",
-                "goals": 0,
-                "api_id": 986780,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 43898,
+                "player_id": 10761,
                 "yellow_card": false,
                 "jersey_number": "13",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
               },
               {
-                "name": "R. Mito",
+                "name": "D. Grivić",
                 "goals": 0,
-                "api_id": 1125633,
+                "api_id": 856588,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 11444,
+                "yellow_card": false,
+                "jersey_number": "96",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "A. A. Traoré",
+                "goals": 0,
+                "api_id": 1128462,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 10766,
+                "yellow_card": false,
+                "jersey_number": "88",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "L. Dvali",
+                "goals": 0,
+                "api_id": 182025,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 10731,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "O. Gašević",
+                "goals": 0,
+                "api_id": 932310,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 10734,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "F. Krebs",
+                "goals": 0,
+                "api_id": 939706,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43905,
+                "player_id": 10736,
                 "yellow_card": false,
-                "jersey_number": "27",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "23",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
               },
               {
-                "name": "R. Meshino",
+                "name": "B. Tsonev",
                 "goals": 0,
-                "api_id": 869866,
+                "api_id": 153147,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43900,
+                "player_id": 10744,
                 "yellow_card": false,
-                "jersey_number": "8",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "10",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "AM",
+                  "DM"
+                ]
               },
               {
-                "name": "I. Jebali",
+                "name": "P. Vitanov",
                 "goals": 0,
-                "api_id": 793187,
+                "api_id": 329753,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43887,
+                "player_id": 11400,
                 "yellow_card": false,
-                "jersey_number": "11",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "34",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
               },
               {
-                "name": "Welton",
+                "name": "B. Sobrero",
                 "goals": 0,
-                "api_id": 1105033,
+                "api_id": 1017419,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43895,
+                "player_id": 10754,
                 "yellow_card": false,
-                "jersey_number": "97",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "20",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
               },
               {
-                "name": "D. Hümmet",
+                "name": "M. Diallo",
                 "goals": 0,
-                "api_id": 604928,
+                "api_id": 1936028,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "F",
                 "red_card": false,
-                "player_id": 43888,
+                "player_id": 10748,
                 "yellow_card": false,
-                "jersey_number": "23",
-                "specific_position": "FWD",
-                "positions_detailed": []
+                "jersey_number": "93",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "E. Franco",
+                "goals": 0,
+                "api_id": 1162049,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 10746,
+                "yellow_card": false,
+                "jersey_number": "77",
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW"
+                ]
               }
             ],
-            "formation": "4-2-3-1",
+            "formation": "4-4-2",
             "substitutes": [
               {
-                "name": "M. Higashiguchi",
+                "name": "P. Marinov",
                 "goals": 0,
-                "api_id": 48410,
+                "api_id": 1132814,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "G",
                 "red_card": false,
-                "player_id": 43921,
+                "player_id": 10724,
                 "yellow_card": false,
                 "jersey_number": "1",
                 "specific_position": "GK",
-                "positions_detailed": []
+                "positions_detailed": [
+                  "GK"
+                ]
               },
               {
-                "name": "G. Miura",
+                "name": "Juanmi",
                 "goals": 0,
-                "api_id": 315930,
+                "api_id": 883413,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "D",
                 "red_card": false,
-                "player_id": 43913,
+                "player_id": 10764,
                 "yellow_card": false,
-                "jersey_number": "5",
-                "specific_position": "DEF",
-                "positions_detailed": []
+                "jersey_number": "3",
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
               },
               {
-                "name": "S. Nakano",
+                "name": "A. Hoffmann",
                 "goals": 0,
-                "api_id": 1002481,
+                "api_id": 97935,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "D",
                 "red_card": false,
-                "player_id": 43912,
+                "player_id": 10728,
                 "yellow_card": false,
-                "jersey_number": "47",
+                "jersey_number": "4",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "J. D. Aka",
+                "goals": 0,
+                "api_id": 2499458,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 13561,
+                "yellow_card": false,
+                "jersey_number": "87",
                 "specific_position": "DEF",
                 "positions_detailed": []
               },
               {
-                "name": "T. Yamamoto",
+                "name": "F. Maciel",
                 "goals": 0,
-                "api_id": 2076134,
+                "api_id": 138898,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43906,
+                "player_id": 10751,
                 "yellow_card": false,
-                "jersey_number": "36",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "67",
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
               },
               {
-                "name": "T. Suzuki",
+                "name": "K. Strinski",
                 "goals": 0,
-                "api_id": 358958,
+                "api_id": 1822451,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43902,
+                "player_id": 11389,
                 "yellow_card": false,
-                "jersey_number": "16",
+                "jersey_number": "14",
                 "specific_position": "MID",
                 "positions_detailed": []
               },
               {
-                "name": "K. Okunuki",
+                "name": "M. Boychev",
                 "goals": 0,
-                "api_id": 926589,
+                "api_id": 1587291,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "M",
                 "red_card": false,
-                "player_id": 43897,
+                "player_id": 10769,
                 "yellow_card": false,
-                "jersey_number": "44",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "jersey_number": "19",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM"
+                ]
               },
               {
-                "name": "R. Yamashita",
+                "name": "G. Rusev",
                 "goals": 0,
-                "api_id": 1030212,
+                "api_id": 869017,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 10742,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW",
+                  "LW"
+                ]
+              },
+              {
+                "name": "A. Iliev",
+                "goals": 0,
+                "api_id": 800054,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "F",
                 "red_card": false,
-                "player_id": 43901,
+                "player_id": 10759,
                 "yellow_card": false,
-                "jersey_number": "17",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "T. Usami",
-                "goals": 0,
-                "api_id": 48437,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 43896,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "H. Minamino",
-                "goals": 0,
-                "api_id": 1214881,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 43891,
-                "yellow_card": false,
-                "jersey_number": "42",
-                "specific_position": "FWD",
-                "positions_detailed": []
+                "jersey_number": "9",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
               }
             ]
           },
           "home": {
             "players": [
               {
-                "name": "M. Goto",
+                "name": "H. Bonmann",
                 "goals": 0,
-                "api_id": 873412,
+                "api_id": 254461,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "G",
                 "red_card": false,
-                "player_id": 45447,
+                "player_id": 3308,
+                "yellow_card": false,
+                "jersey_number": "39",
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "Son",
+                "goals": 0,
+                "api_id": 597716,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 3309,
+                "yellow_card": false,
+                "jersey_number": "17",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "LB"
+                ]
+              },
+              {
+                "name": "D. Almeida",
+                "goals": 0,
+                "api_id": 811562,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 3311,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "E. Kurtulus",
+                "goals": 0,
+                "api_id": 981899,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 4580,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "V. Nogueira",
+                "goals": 0,
+                "api_id": 1463077,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 11330,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "Erick Marcus",
+                "goals": 0,
+                "api_id": 1403439,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 3321,
+                "yellow_card": false,
+                "jersey_number": "77",
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
+              },
+              {
+                "name": "D. Duarte",
+                "goals": 0,
+                "api_id": 921089,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 3314,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "Pedro Naressi",
+                "goals": 0,
+                "api_id": 872390,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 3313,
+                "yellow_card": false,
+                "jersey_number": "30",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "P. Stanić",
+                "goals": 0,
+                "api_id": 1128120,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 3318,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM",
+                  "CM",
+                  "ST"
+                ]
+              },
+              {
+                "name": "Rwan Cruz",
+                "goals": 0,
+                "api_id": 1180918,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 5031,
+                "yellow_card": false,
+                "jersey_number": "12",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "K. Duah",
+                "goals": 0,
+                "api_id": 827531,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 11325,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ],
+            "formation": "4-4-2",
+            "substitutes": [
+              {
+                "name": "S. Padt",
+                "goals": 0,
+                "api_id": 42894,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 3323,
                 "yellow_card": false,
                 "jersey_number": "1",
                 "specific_position": "GK",
-                "positions_detailed": []
+                "positions_detailed": [
+                  "GK"
+                ]
               },
               {
-                "name": "S. Yoneda",
+                "name": "I. Nachmias",
                 "goals": 0,
-                "api_id": 925965,
+                "api_id": 827424,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "D",
                 "red_card": false,
-                "player_id": 45437,
+                "player_id": 3326,
                 "yellow_card": false,
-                "jersey_number": "23",
-                "specific_position": "DEF",
-                "positions_detailed": []
+                "jersey_number": "55",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "RB"
+                ]
               },
               {
-                "name": "Eduardo",
+                "name": "A. Nedyalkov",
                 "goals": 0,
-                "api_id": 255201,
+                "api_id": 173521,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "D",
                 "red_card": false,
-                "player_id": 45441,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "I. Arai",
-                "goals": 0,
-                "api_id": 832980,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 45431,
-                "yellow_card": false,
-                "jersey_number": "29",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "H. Onaga",
-                "goals": 0,
-                "api_id": 873474,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45434,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Y. Hotaru",
-                "goals": 0,
-                "api_id": 109352,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45435,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Yamada",
-                "goals": 0,
-                "api_id": 873035,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45451,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Sekiguchi",
-                "goals": 0,
-                "api_id": 1047033,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45449,
+                "player_id": 3312,
                 "yellow_card": false,
                 "jersey_number": "3",
-                "specific_position": "MID",
-                "positions_detailed": []
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
               },
               {
-                "name": "N. Campbell",
+                "name": "I. Chochev",
                 "goals": 0,
-                "api_id": 1089866,
+                "api_id": 94681,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
-                "position": "F",
+                "position": "M",
                 "red_card": false,
-                "player_id": 45442,
+                "player_id": 3319,
                 "yellow_card": false,
-                "jersey_number": "11",
-                "specific_position": "FWD",
-                "positions_detailed": []
+                "jersey_number": "18",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "AM",
+                  "DM"
+                ]
               },
               {
-                "name": "M. Hasegawa",
+                "name": "F. Kaloč",
                 "goals": 0,
-                "api_id": 1047034,
+                "api_id": 941394,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
-                "position": "F",
+                "position": "M",
                 "red_card": false,
-                "player_id": 45438,
+                "player_id": 3320,
                 "yellow_card": false,
-                "jersey_number": "41",
-                "specific_position": "FWD",
-                "positions_detailed": []
+                "jersey_number": "26",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
               },
               {
-                "name": "T. Santana",
+                "name": "B. Tekpetey",
                 "goals": 0,
-                "api_id": 814724,
+                "api_id": 831399,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
-                "position": "F",
+                "position": "M",
                 "red_card": false,
-                "player_id": 45440,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "3-4-2-1",
-            "substitutes": [
-              {
-                "name": "G. Hatano",
-                "goals": 0,
-                "api_id": 805168,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 45428,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "N. Sasaki",
-                "goals": 0,
-                "api_id": 2453595,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 46213,
+                "player_id": 3328,
                 "yellow_card": false,
                 "jersey_number": "37",
-                "specific_position": "DEF",
-                "positions_detailed": []
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW",
+                  "LW"
+                ]
               },
               {
-                "name": "K. Takahata",
+                "name": "E. Syrov",
                 "goals": 0,
-                "api_id": 974602,
+                "api_id": 2567870,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 46206,
-                "yellow_card": false,
-                "jersey_number": "17",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "Y. Iwasaki",
-                "goals": 0,
-                "api_id": 873317,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 45439,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Hyeong-Jun",
-                "goals": 0,
-                "api_id": 1608259,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
+                "position": "M",
                 "red_card": false,
                 "player_id": null,
                 "yellow_card": false,
-                "jersey_number": "45",
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Takashi",
-                "goals": 0,
-                "api_id": 499426,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45836,
-                "yellow_card": false,
-                "jersey_number": "19",
+                "jersey_number": "75",
                 "specific_position": "MID",
                 "positions_detailed": []
               },
               {
-                "name": "T. Matsumoto",
+                "name": "A. Salido",
                 "goals": 0,
-                "api_id": 1979340,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45450,
-                "yellow_card": false,
-                "jersey_number": "34",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Jesus",
-                "goals": 0,
-                "api_id": 840298,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 45444,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Y. Ryogo",
-                "goals": 0,
-                "api_id": 353742,
+                "api_id": 901875,
                 "rating": null,
                 "sub_in": null,
                 "sub_out": null,
                 "position": "F",
                 "red_card": false,
-                "player_id": 45446,
+                "player_id": 10954,
                 "yellow_card": false,
-                "jersey_number": "18",
-                "specific_position": "FWD",
-                "positions_detailed": []
+                "jersey_number": "7",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
               }
             ]
           },
@@ -839,22 +925,22 @@
         "momentum": null,
         "average_positions": null
       },
-      "created_at": "2026-04-24T06:20:15.397631+04:00",
-      "prob_home_win": 22.61788932153786,
-      "prob_draw": 26.131859483446128,
-      "prob_away_win": 51.25025119501602,
-      "predicted_result": "A",
-      "expected_home_goals": 0.8999999999999999,
-      "expected_away_goals": 1.5,
-      "prob_over_15": 76.53748330727547,
-      "prob_over_25": 46.987564050359914,
-      "prob_over_35": 26.260422872499035,
-      "prob_btts_yes": 61.04102558888349,
-      "confidence": 51.25025119501602,
+      "created_at": "2026-04-19T06:20:09.685844+04:00",
+      "prob_home_win": 38.65764459455085,
+      "prob_draw": 28.311552686207996,
+      "prob_away_win": 33.03080271924116,
+      "predicted_result": "H",
+      "expected_home_goals": 1.207,
+      "expected_away_goals": 1.093,
+      "prob_over_15": 65.01071273141682,
+      "prob_over_25": 45.76258204822756,
+      "prob_over_35": 29.82756332562862,
+      "prob_btts_yes": 49.50382038713576,
+      "confidence": 38.65764459455085,
       "model_version": "v5.0",
-      "most_likely_score": "0-1",
-      "favorite": "A",
-      "favorite_prob": 51.25025119501602,
+      "most_likely_score": "1-1",
+      "favorite": "H",
+      "favorite_prob": 38.65764459455085,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
