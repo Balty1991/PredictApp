@@ -1,58 +1,14 @@
 {
-  "generatedAt": "2026-04-25T22:02:49.196Z",
+  "generatedAt": "2026-04-25T23:07:16.144Z",
   "count": 50,
   "items": [
     {
-      "id": 2042,
-      "status": "finished",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "Toulouse",
-      "awayTeam": "AS Monaco",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5044,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Minnesota United",
       "awayTeam": "Los Angeles FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7116,
-      "status": "1st_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Bahia",
-      "awayTeam": "Santos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7122,
-      "status": "1st_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Remo",
-      "awayTeam": "Cruzeiro",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7117,
-      "status": "1st_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Botafogo",
-      "awayTeam": "Internacional",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -64,6 +20,39 @@
       "country": "Brazil",
       "homeTeam": "Athletic Club",
       "awayTeam": "Náutico",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7122,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Remo",
+      "awayTeam": "Cruzeiro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7116,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Bahia",
+      "awayTeam": "Santos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7117,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Botafogo",
+      "awayTeam": "Internacional",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -91,23 +80,23 @@
       "marketCount": 0
     },
     {
+      "id": 9912,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Sport Recife",
+      "awayTeam": "Grêmio Novorizontino",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 5048,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Columbus Crew",
       "awayTeam": "Philadelphia Union",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5050,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "DC United",
-      "awayTeam": "Orlando City SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,34 +113,23 @@
       "marketCount": 0
     },
     {
+      "id": 5050,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "DC United",
+      "awayTeam": "Orlando City SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 5047,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Inter Miami CF",
       "awayTeam": "New England Revolution",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9912,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Sport Recife",
-      "awayTeam": "Grêmio Novorizontino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7123,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "São Paulo",
-      "awayTeam": "Mirassol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -168,12 +146,23 @@
       "marketCount": 0
     },
     {
-      "id": 5053,
+      "id": 7123,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "São Paulo",
+      "awayTeam": "Mirassol",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5054,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
-      "homeTeam": "Austin FC",
-      "awayTeam": "Houston Dynamo",
+      "homeTeam": "St.Louis City",
+      "awayTeam": "San Jose Earthquakes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,12 +179,12 @@
       "marketCount": 0
     },
     {
-      "id": 5054,
+      "id": 5053,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
-      "homeTeam": "St.Louis City",
-      "awayTeam": "San Jose Earthquakes",
+      "homeTeam": "Austin FC",
+      "awayTeam": "Houston Dynamo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,23 +289,23 @@
       "marketCount": 0
     },
     {
-      "id": 205039,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Ulsan HD",
-      "awayTeam": "Daejeon Hana Citizen",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205037,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Gwangju FC",
       "awayTeam": "FC Anyang",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205039,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Ulsan HD",
+      "awayTeam": "Daejeon Hana Citizen",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -487,17 +476,6 @@
       "marketCount": 0
     },
     {
-      "id": 9206,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "AE Kifisia",
-      "awayTeam": "GFS Panetolikos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10286,
       "status": "notstarted",
       "league": "Scottish Premiership",
@@ -509,12 +487,12 @@
       "marketCount": 0
     },
     {
-      "id": 1410,
+      "id": 9206,
       "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Genoa",
-      "awayTeam": "Como",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "AE Kifisia",
+      "awayTeam": "GFS Panetolikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -526,6 +504,17 @@
       "country": "France",
       "homeTeam": "Lorient",
       "awayTeam": "RC Strasbourg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1410,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Genoa",
+      "awayTeam": "Como",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Germany",
       "homeTeam": "VfB Stuttgart",
       "awayTeam": "SV Werder Bremen",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204482,
+      "status": "notstarted",
+      "league": "FA Cup",
+      "country": "England",
+      "homeTeam": "Chelsea",
+      "awayTeam": "Leeds United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
