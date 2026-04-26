@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T08:04:38.228Z",
+  "generatedAt": "2026-04-26T09:31:45.116Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 205039,
+      "id": 205037,
       "league": {
         "id": 50,
         "name": "K League 1",
@@ -30,51 +30,51 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Ulsan HD",
-      "away_team": "Daejeon Hana Citizen",
+      "home_team": "Gwangju FC",
+      "away_team": "FC Anyang",
       "home_team_obj": {
-        "id": 1950,
-        "name": "Ulsan HD",
-        "short_name": "Ulsan",
+        "id": 1957,
+        "name": "Gwangju FC",
+        "short_name": "Gwangju",
         "country": "South Korea",
         "coach": {
-          "name": "Kim Hyun-Seok",
-          "shortName": "K. Hyun-Seok"
+          "name": "Jeong-Gyu Lee",
+          "shortName": "J. Lee"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1958,
-        "name": "Daejeon Hana Citizen",
-        "short_name": "Daejeon Hana",
+        "id": 1959,
+        "name": "FC Anyang",
+        "short_name": "FC Anyang",
         "country": "South Korea",
         "coach": {
-          "name": "Sun-hong Hwang",
-          "shortName": "Seon-hong Hwang"
+          "name": "Ryu Byeong-Hoon",
+          "shortName": "R. Byeong-Hoon"
         },
         "venue": null
       },
       "event_date": "2026-04-26T11:30:00+04:00",
       "round_number": 10,
       "group_name": null,
-      "status": "1st_half",
-      "home_score": 0,
-      "away_score": 1,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": 33,
-      "period": "1T",
-      "odds_home": 2,
-      "odds_draw": 3.4,
-      "odds_away": 3.25,
-      "odds_over_15": 1.25,
-      "odds_over_25": 1.8,
-      "odds_over_35": 3,
-      "odds_under_15": 3.75,
-      "odds_under_25": 2,
-      "odds_under_35": 1.36,
-      "odds_btts_yes": 1.67,
-      "odds_btts_no": 2.1,
+      "status": "finished",
+      "home_score": 2,
+      "away_score": 5,
+      "home_score_ht": 0,
+      "away_score_ht": 3,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 3.5,
+      "odds_draw": 3.1,
+      "odds_away": 2.05,
+      "odds_over_15": 1.44,
+      "odds_over_25": 2.35,
+      "odds_over_35": 4.33,
+      "odds_under_15": 2.62,
+      "odds_under_25": 1.57,
+      "odds_under_35": 1.2,
+      "odds_btts_yes": 2,
+      "odds_btts_no": 1.73,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -83,9 +83,9 @@
       "penalty_shootout": null,
       "referee": null,
       "home_coach": {
-        "id": 1307,
-        "name": "Kim Hyun-Seok",
-        "short_name": "K. Hyun-Seok",
+        "id": 1314,
+        "name": "Jeong-Gyu Lee",
+        "short_name": "J. Lee",
         "country": "South Korea",
         "profile": "",
         "preferred_formation": "",
@@ -94,9 +94,9 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1315,
-        "name": "Sun-hong Hwang",
-        "short_name": "Seon-hong Hwang",
+        "id": 1316,
+        "name": "Ryu Byeong-Hoon",
+        "short_name": "R. Byeong-Hoon",
         "country": "South Korea",
         "profile": "",
         "preferred_formation": "",
@@ -106,11 +106,11 @@
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1123,
-        "name": "Ulsan Munsu Football Stadium",
-        "city": "Ulsan",
+        "id": 1130,
+        "name": "Gwangju Football Stadium",
+        "city": "Gwangju",
         "country": "South Korea",
-        "capacity": 44466
+        "capacity": 10007
       },
       "live_stats": null
     },
