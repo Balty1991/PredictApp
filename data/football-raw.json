@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T20:06:25.433Z",
+  "generatedAt": "2026-04-26T21:06:08.759Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,318 +21,368 @@
   ],
   "samples": {
     "event": {
-      "id": 9135,
+      "id": 2037,
       "league": {
-        "id": 14,
-        "name": "Pro League",
-        "country": "Belgium",
+        "id": 6,
+        "name": "Ligue 1",
+        "country": "France",
         "is_women": false,
         "current_season": {
-          "id": 338,
-          "name": "Pro League 25/26",
+          "id": 317,
+          "name": "Ligue 1 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 338,
-        "name": "Pro League 25/26",
+        "id": 317,
+        "name": "Ligue 1 25/26",
         "year": 2025
       },
-      "home_team": "SV Zulte Waregem",
-      "away_team": "RAAL La Louvière",
+      "home_team": "Olympique de Marseille",
+      "away_team": "Nice",
       "home_team_obj": {
-        "id": 236,
-        "name": "SV Zulte Waregem",
-        "short_name": "Zulte Waregem",
-        "country": "Belgium",
+        "id": 98,
+        "name": "Olympique de Marseille",
+        "short_name": "Marseille",
+        "country": "France",
         "coach": {
-          "name": "Steve Colpaert",
-          "shortName": "S. Colpaert"
+          "name": "Habib Beye",
+          "shortName": "H. Beye"
         },
         "venue": {
-          "id": 227,
-          "name": "Elindus Arena",
-          "city": "Waregem",
-          "country": "Belgium",
-          "capacity": 12414
+          "id": 96,
+          "name": "Orange Velodrome",
+          "city": "Marseille",
+          "country": "France",
+          "capacity": 67395
         }
       },
       "away_team_obj": {
-        "id": 238,
-        "name": "RAAL La Louvière",
-        "short_name": "La Louvière",
-        "country": "Belgium",
+        "id": 103,
+        "name": "Nice",
+        "short_name": "Nice",
+        "country": "France",
         "coach": {
-          "name": "Frédéric Taquin",
-          "shortName": "F. Taquin"
+          "name": "Claude Puel",
+          "shortName": "C. Puel"
         },
         "venue": {
-          "id": 229,
-          "name": "Stade Communal du Tivoli",
-          "city": "La Louviere",
-          "country": "Belgium",
-          "capacity": 12500
+          "id": 101,
+          "name": "Allianz Riviera",
+          "city": "Nice",
+          "country": "France",
+          "capacity": 36178
         }
       },
-      "event_date": "2026-04-26T21:15:00+04:00",
-      "round_number": 4,
+      "event_date": "2026-04-26T22:45:00+04:00",
+      "round_number": 31,
       "group_name": null,
-      "status": "finished",
-      "home_score": 4,
+      "status": "2nd_half",
+      "home_score": 0,
       "away_score": 0,
-      "home_score_ht": 2,
+      "home_score_ht": 0,
       "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 1.96,
-      "odds_draw": 3.35,
-      "odds_away": 3.45,
-      "odds_over_15": 1.29,
-      "odds_over_25": 1.81,
-      "odds_over_35": 3.25,
-      "odds_under_15": 3.5,
-      "odds_under_25": 1.83,
-      "odds_under_35": 1.33,
-      "odds_btts_yes": 1.68,
-      "odds_btts_no": 1.95,
-      "odds_dc_12": 1.24,
-      "actual_home_xg": 1.88,
-      "actual_away_xg": 0.5,
-      "home_xg_live": 2.68,
-      "away_xg_live": 0.5,
+      "current_minute": 57,
+      "period": "2T",
+      "odds_home": 2.45,
+      "odds_draw": 1.7,
+      "odds_away": 14,
+      "odds_over_15": 1.16,
+      "odds_over_25": 3.55,
+      "odds_over_35": 11.5,
+      "odds_under_15": 4.9,
+      "odds_under_25": 1.27,
+      "odds_under_35": 1.02,
+      "odds_btts_yes": 1.2,
+      "odds_btts_no": 3.85,
+      "odds_dc_12": 2.1,
+      "actual_home_xg": null,
+      "actual_away_xg": null,
+      "home_xg_live": 0.91,
+      "away_xg_live": 0.04,
       "penalty_shootout": null,
       "referee": {
-        "name": "Massimiliano Ledda",
-        "country": "",
-        "redCards": 3,
-        "yellowCards": 59
+        "name": "Willy Delajod",
+        "country": "France",
+        "redCards": 43,
+        "yellowCards": 959
       },
       "home_coach": {
-        "id": 249,
-        "name": "Steve Colpaert",
-        "short_name": "S. Colpaert",
-        "country": "Belgium",
-        "profile": "balanced",
+        "id": 438,
+        "name": "Habib Beye",
+        "short_name": "H. Beye",
+        "country": "Senegal",
+        "profile": "attacking",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.41688498655338,
-        "defensive_line": "low",
+        "pressing_intensity": 0.43524474075668507,
+        "defensive_line": "high",
         "top_styles": [
-          "no_midfield",
-          "park_the_bus"
+          "chaos_ball",
+          "positional"
         ]
       },
       "away_coach": {
-        "id": 460,
-        "name": "Frédéric Taquin",
-        "short_name": "F. Taquin",
-        "country": "Belgium",
-        "profile": "defensive",
-        "preferred_formation": "3-4-1-2",
-        "pressing_intensity": 0.36668704542646124,
+        "id": 268,
+        "name": "Claude Puel",
+        "short_name": "C. Puel",
+        "country": "France",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.37719943089883473,
         "defensive_line": "high",
         "top_styles": [
-          "cross_pray",
-          "terrorist_fb"
+          "terrorist_fb",
+          "ball_dominant"
         ]
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Anton Tanghe",
+            "name": "Amine Gouiri",
             "status": "injured",
-            "reason": "Knock",
-            "expected_return": null
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-10"
           },
           {
-            "name": "Emran Soglo",
+            "name": "Bilal Nadir",
             "status": "injured",
-            "reason": "Knock",
-            "expected_return": null
+            "reason": "Hamstring Injury",
+            "expected_return": "2026-05-20"
           },
           {
-            "name": "Jeppe Erenbjerg",
+            "name": "Conrad Jaden Egan-Riley",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-15"
+          },
+          {
+            "name": "Darryl Bakola",
+            "status": "doubtful",
+            "reason": "Physical Discomfort",
+            "expected_return": "2026-05-08"
+          },
+          {
+            "name": "Geoffrey Kondogbia",
+            "status": "injured",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Igor Paixão",
+            "status": "injured",
+            "reason": "Calf Injury",
+            "expected_return": "2026-05-24"
+          },
+          {
+            "name": "Nayef Aguerd",
             "status": "injured",
             "reason": "Groin Injury",
-            "expected_return": null
+            "expected_return": "2026-05-20"
           }
         ],
         "away": [
           {
-            "name": "Mouhamed Belkheir",
+            "name": "Charles Vanhoutte",
             "status": "injured",
-            "reason": "ACL Knee Injury",
+            "reason": "Muscle Cramps",
+            "expected_return": "2026-05-06"
+          },
+          {
+            "name": "Dante",
+            "status": "injured",
+            "reason": "Calf Injury",
             "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Mohamed Abdelmonem",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-07"
+          },
+          {
+            "name": "Moise Bombito",
+            "status": "injured",
+            "reason": "Broken Ankle",
+            "expected_return": "2026-05-20"
+          },
+          {
+            "name": "Tanguy Ndombélé",
+            "status": "injured",
+            "reason": "Unknown",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Youssouf Ndayishimiye",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-07"
           }
         ]
       },
       "venue": {
-        "id": 227,
-        "name": "Elindus Arena",
-        "city": "Waregem",
-        "country": "Belgium",
-        "capacity": 12414
+        "id": 96,
+        "name": "Orange Velodrome",
+        "city": "Marseille",
+        "country": "France",
+        "capacity": 67395
       },
       "live_stats": {
         "away": {
-          "duels": 49,
-          "fouls": 14,
-          "passes": 340,
-          "crosses": "2/16 (13)",
-          "tackles": 25,
-          "dribbles": "9/22 (41)",
-          "offsides": 5,
-          "throw_ins": 8,
-          "clearances": 18,
-          "free_kicks": 13,
+          "duels": 48,
+          "fouls": 4,
+          "passes": 209,
+          "crosses": "1/7 (14)",
+          "tackles": 7,
+          "dribbles": "1/7 (14)",
+          "offsides": 1,
+          "big_saves": 1,
+          "throw_ins": 11,
+          "clearances": 20,
+          "free_kicks": 9,
           "goal_kicks": 7,
-          "long_balls": "26/44 (59)",
-          "recoveries": 56,
-          "big_chances": 1,
-          "high_claims": 0,
-          "tackles_won": 64,
-          "total_saves": 1,
-          "total_shots": 10,
-          "aerial_duels": "6/20 (30)",
-          "corner_kicks": 5,
-          "dispossessed": 7,
-          "ground_duels": "46/87 (53)",
+          "long_balls": "7/30 (23)",
+          "recoveries": 35,
+          "big_chances": 0,
+          "tackles_won": 29,
+          "total_saves": 3,
+          "total_shots": 2,
+          "aerial_duels": "3/10 (30)",
+          "corner_kicks": 0,
+          "dispossessed": 3,
+          "ground_duels": "17/32 (53)",
           "hit_woodwork": 0,
           "yellow_cards": 1,
-          "blocked_shots": 5,
-          "interceptions": 13,
+          "blocked_shots": 0,
+          "interceptions": 11,
           "through_balls": 0,
-          "total_tackles": 25,
-          "expected_goals": "0.50",
-          "accurate_passes": 285,
-          "ball_possession": 44,
-          "goals_prevented": "-1.66",
+          "total_tackles": 7,
+          "expected_goals": "0.06",
+          "accurate_passes": 157,
+          "ball_possession": 33,
+          "goals_prevented": "0.47",
           "shots_on_target": 1,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 6,
-          "shots_off_target": 4,
-          "final_third_phase": "47/67 (70)",
-          "shots_outside_box": 4,
+          "goalkeeper_saves": 3,
+          "shots_inside_box": 1,
+          "shots_off_target": 1,
+          "final_third_phase": "14/26 (54)",
+          "shots_outside_box": 1,
           "big_chances_missed": 0,
-          "big_chances_scored": 0,
-          "final_third_entries": 36,
-          "errors_lead_to_a_shot": 0,
+          "final_third_entries": 17,
           "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 17
+          "touches_in_penalty_area": 5
         },
         "home": {
-          "duels": 51,
-          "fouls": 13,
-          "passes": 431,
-          "crosses": "5/18 (28)",
-          "tackles": 20,
-          "dribbles": "8/20 (40)",
-          "offsides": 3,
-          "throw_ins": 15,
-          "clearances": 19,
-          "free_kicks": 14,
-          "goal_kicks": 8,
-          "long_balls": "41/58 (71)",
-          "recoveries": 48,
-          "big_chances": 5,
-          "high_claims": 1,
-          "tackles_won": 40,
+          "duels": 55,
+          "fouls": 9,
+          "passes": 427,
+          "crosses": "6/21 (29)",
+          "tackles": 9,
+          "dribbles": "3/6 (50)",
+          "offsides": 0,
+          "big_saves": 0,
+          "throw_ins": 13,
+          "clearances": 8,
+          "free_kicks": 4,
+          "goal_kicks": 4,
+          "long_balls": "8/14 (57)",
+          "recoveries": 33,
+          "big_chances": 3,
+          "tackles_won": 67,
           "total_saves": 1,
-          "total_shots": 13,
-          "aerial_duels": "14/20 (70)",
-          "corner_kicks": 5,
-          "dispossessed": 13,
-          "ground_duels": "41/87 (47)",
-          "hit_woodwork": 1,
-          "yellow_cards": 1,
-          "blocked_shots": 3,
-          "interceptions": 4,
+          "total_shots": 12,
+          "aerial_duels": "7/10 (70)",
+          "corner_kicks": 4,
+          "dispossessed": 3,
+          "ground_duels": "16/32 (50)",
+          "hit_woodwork": 0,
+          "yellow_cards": 2,
+          "blocked_shots": 2,
+          "interceptions": 7,
           "through_balls": 1,
-          "total_tackles": 20,
-          "expected_goals": "2.68",
-          "accurate_passes": 365,
-          "ball_possession": 56,
-          "goals_prevented": "0.12",
-          "shots_on_target": 5,
+          "total_tackles": 9,
+          "expected_goals": "0.91",
+          "accurate_passes": 378,
+          "ball_possession": 67,
+          "goals_prevented": "0.04",
+          "shots_on_target": 3,
           "goalkeeper_saves": 1,
-          "shots_inside_box": 8,
-          "shots_off_target": 5,
-          "final_third_phase": "75/110 (68)",
-          "shots_outside_box": 5,
-          "big_chances_missed": 1,
-          "big_chances_scored": 4,
-          "final_third_entries": 54,
-          "errors_lead_to_a_shot": 2,
-          "fouled_in_final_third": 5,
-          "touches_in_penalty_area": 26
+          "shots_inside_box": 9,
+          "shots_off_target": 7,
+          "final_third_phase": "102/127 (80)",
+          "shots_outside_box": 3,
+          "big_chances_missed": 3,
+          "final_third_entries": 61,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 18
         }
       },
       "ai_preview": {
-        "text": "**Zulte Waregem's home fortress vs a La Louvière side limping through the season** — this one's got a clear pecking order written all over it. 🔴\n\nWaregem's on a roll with three wins in their last five and absolutely dismantled La Louvière 2-0 away just weeks ago. The visitors, meanwhile, are bleeding goals (0-2, 0-3, 0-1 in recent outings) and looking lost defensively. This is a mismatch waiting to happen.\n\nKey storylines:\n\n- **SV Zulte Waregem's** attack has teeth — S. Gavriel and A. Ementa know how to finish, and La Louvière's backline under Y. Okou and N. Gillot is fragile.\n- **RAAL La Louvière** desperately needs M. Belkheir back; losing him to ACL injury has gutted their stability.\n- Home dominance on repeat: Waregem hasn't lost at Elindus, and the head-to-head tilts heavily in their favor (1W, 2D).\n\nExpected lineups:\n\n- **SV Zulte Waregem**: B. Gabriel, Y. Cappelle, L. Willen, J. Kiilerich, B. Nyssen, E. Lofolomo, D. Asare, T. Claes, J. Opoku, A. Ementa, S. Gavriel\n- **RAAL La Louvière**: M. H. Peano, N. Gillot, Y. Okou, M. Maisonneuve, J. Liongola, S. Gueulette, S. Lahssaini, J. Ito, J. Afriyie, P. M. Fall, B. Soumaré\n\nPrediction:\n\n**Zulte Waregem 2–0 La Louvière**. Clear edge to the hosts; La Louvière's leaky defense won't survive another clinic.",
-        "generated_at": "2026-04-26T11:52:42.711424+00:00"
+        "text": "**Marseille host Nice in a clash where form tells very different stories.** OM are limping after back-to-back defeats, while Nice have steadied the ship with a clean sheet against Lille. 🔵\n\nOM's injury crisis is real — five players out, including midfield lynchpin **Kondogbia** — yet they've got the firepower in **Aubameyang** and **Greenwood** to punish. Nice sit deeper and tighter, but their attack through **Wahi** and **Cho** remains functional.\n\nKey storylines:\n\n- **Aubameyang and Greenwood** carry OM's attacking load with injuries decimating midfield depth\n- **Nice's defensive solidity** (two clean sheets in last three) will test Marseille's patience at the Velodrome\n- **Sanson and Oppong** need to control the tempo for Nice against OM's creative outlets\n\nExpected lineups:\n\n- **Olympique de Marseille**: Rulli, Pavard, Balerdi, Medina, Emerson, Hojbjerg, Weah, Aubameyang, Timber, Greenwood, Kadmiri\n- **Nice**: Diouf, Bard, Mendy, Bah, Oppong, Clauss, Sanson, Wahi, Boudaoui, Cho, Boudache\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Marseille 2–0 Nice.** OM's talent edges out Nice's caution at home, but injuries mean it stays scrappy.",
+        "generated_at": "2026-04-26T11:53:03.137255+00:00"
       }
     },
     "prediction": {
-      "id": 3145,
+      "id": 3146,
       "event": {
-        "id": 9910,
+        "id": 7121,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
+          "id": 9,
+          "name": "Brasileirão Serie A",
           "country": "Brazil",
           "is_women": false,
           "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
+            "id": 28,
+            "name": "Brasileiro Serie A 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
+          "id": 28,
+          "name": "Brasileiro Serie A 2026",
           "year": 2026
         },
-        "home_team": "Operário-PR",
-        "away_team": "Fortaleza",
+        "home_team": "Red Bull Bragantino",
+        "away_team": "Palmeiras",
         "home_team_obj": {
-          "id": 828,
-          "name": "Operário-PR",
-          "short_name": "Operário-PR",
+          "id": 168,
+          "name": "Red Bull Bragantino",
+          "short_name": "RB Bragantino",
           "country": "Brazil",
           "coach": {
-            "name": "Luizinho Lopes",
-            "shortName": "L. Lopes"
+            "name": "Vagner Mancini",
+            "shortName": "V. Mancini"
           },
           "venue": {
-            "id": 621,
-            "name": "Estádio Germano Krüger",
-            "city": "Ponta Grossa",
+            "id": 165,
+            "name": "Estádio Nabi Abi Chedid",
+            "city": "Bragança Paulista",
             "country": "Brazil",
-            "capacity": 10632
+            "capacity": 15010
           }
         },
         "away_team_obj": {
-          "id": 152,
-          "name": "Fortaleza",
-          "short_name": "Fortaleza",
+          "id": 162,
+          "name": "Palmeiras",
+          "short_name": "Palmeiras",
           "country": "Brazil",
           "coach": {
-            "name": "Thiago Carpini",
-            "shortName": "T. Carpini"
+            "name": "Abel Ferreira",
+            "shortName": "A. Ferreira"
           },
           "venue": {
-            "id": 150,
-            "name": "Estádio Governador Plácido Castelo",
-            "city": "Fortaleza",
+            "id": 159,
+            "name": "Allianz Parque",
+            "city": "São Paulo",
             "country": "Brazil",
-            "capacity": 63904
+            "capacity": 43713
           }
         },
-        "event_date": "2026-04-27T01:00:00+04:00",
-        "round_number": 6,
+        "event_date": "2026-04-27T01:30:00+04:00",
+        "round_number": 13,
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -341,77 +391,153 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.5,
-        "odds_draw": 2.85,
-        "odds_away": 3,
-        "odds_over_15": 1.5,
-        "odds_over_25": 2.5,
-        "odds_over_35": 5,
-        "odds_under_15": 2.5,
-        "odds_under_25": 1.5,
-        "odds_under_35": 1.17,
-        "odds_btts_yes": 2.1,
-        "odds_btts_no": 1.67,
-        "odds_dc_12": null,
+        "odds_home": 2.9,
+        "odds_draw": 3.1,
+        "odds_away": 2.77,
+        "odds_over_15": 1.41,
+        "odds_over_25": 2.26,
+        "odds_over_35": 4.2,
+        "odds_under_15": 3.1,
+        "odds_under_25": 1.7,
+        "odds_under_35": 1.27,
+        "odds_btts_yes": 1.87,
+        "odds_btts_no": 1.86,
+        "odds_dc_12": 1.39,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "referee": {
-          "name": "Jefferson Ferreira de Moraes",
+          "name": "Joao Vitor Gobi",
           "country": "Brazil",
-          "redCards": 25,
-          "yellowCards": 358
+          "redCards": 13,
+          "yellowCards": 262
         },
         "home_coach": {
-          "id": 161,
-          "name": "Luizinho Lopes",
-          "short_name": "L. Lopes",
-          "country": "Brazil",
-          "profile": "defensive",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
-        },
-        "away_coach": {
-          "id": 120,
-          "name": "Thiago Carpini",
-          "short_name": "T. Carpini",
+          "id": 164,
+          "name": "Vagner Mancini",
+          "short_name": "V. Mancini",
           "country": "Brazil",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.5068251462176783,
-          "defensive_line": "high",
+          "pressing_intensity": 0.5066576041035539,
+          "defensive_line": "mid",
           "top_styles": [
             "anti_football",
-            "terrorist_fb"
+            "heritage"
+          ]
+        },
+        "away_coach": {
+          "id": 162,
+          "name": "Abel Ferreira",
+          "short_name": "A. Ferreira",
+          "country": "Portugal",
+          "profile": "attacking",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.6153555097205747,
+          "defensive_line": "high",
+          "top_styles": [
+            "wing_play",
+            "heritage"
           ]
         },
         "unavailable_players": {
-          "home": [],
-          "away": [
+          "home": [
             {
-              "name": "Gabriel Fuentes",
+              "name": "Alix Vinicius",
+              "status": "suspended",
+              "reason": "Yellow card accumulation suspension",
+              "expected_return": "2026-04-28"
+            },
+            {
+              "name": "Davi Gomes",
               "status": "injured",
               "reason": "",
               "expected_return": null
             },
             {
-              "name": "João Ricardo",
+              "name": "Eduardo Sasha",
               "status": "injured",
               "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Fabrício",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Fernando",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Guzmán Rodríguez",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Henry Mosquera",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "José Herrera",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Vanderlan",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            }
+          ],
+          "away": [
+            {
+              "name": "Jefté",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Joaquín Piquerez",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Murilo",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Paulinho",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Vitor Roque",
+              "status": "injured",
+              "reason": "Ankle Injury",
               "expected_return": null
             }
           ]
         },
         "venue": {
-          "id": 621,
-          "name": "Estádio Germano Krüger",
-          "city": "Ponta Grossa",
+          "id": 1156,
+          "name": "Estádio Cícero de Souza Marques",
+          "city": "Bragança Paulista",
           "country": "Brazil",
-          "capacity": 10632
+          "capacity": 12000
         },
         "incidents": null,
         "live_stats": null,
@@ -420,26 +546,26 @@
         "momentum": null,
         "average_positions": null,
         "ai_preview": {
-          "text": "**Fortaleza are rolling, but Operário host in a potential banana-skin matchup** — the visitors arrive as Serie B form-kings (4W in five), yet the home side's been solid and could fancy their chances here. 🔥\n\nFortaleza are **flying high in the league**, having won four of their last five and scored freely (two wins by multi-goal margins). Operário, meanwhile, have been **steady but cautious**, racking up three draws and relying on their home fortress at Germano Krüger.\n\nKey storylines:\n\n- **Fortaleza's attacking depth** (J. Miritello, L. Sasha, L. Crispim all capable) faces an Operário backline anchored by Miranda and Moraes Júnior who've kept two clean sheets in three\n- **Missing firepower for Fortaleza** (G. Fuentes and J. Ricardo out) could blunt what's been a lethal front line\n- **Home draw tendency** — Operário's three draws at Germano Krüger suggest they're a stubborn outfit to break down\n\nExpected lineups:\n\n- **Operário-PR**: Vágner, J. Cuenú, Miranda, Moraes Júnior, G. Boschilia, Mikael, Aylon, V. Diniz, Pablo, C. Dantas\n- **Fortaleza**: Brenno, L. Gazal, E. Brítez, Maílton, M. Júnior, T. Pochettino, Luiz Fernando, L. Sasha, L. Crispim, J. Miritello, P. Baya\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction:\n\n**0-1 Fortaleza** — Fortaleza edge it despite the injuries, but don't expect a goal-fest. 📍",
-          "generated_at": "2026-04-26T11:53:44.973265+00:00"
+          "text": "**Red Bull Bragantino hosts Palmeiras in a classic David vs Goliath showdown** — the hosts are flying but face a decimated visitor looking to keep pace at the top. 🔥\n\nBragantino's rolled through their last stretch with three straight wins, while Palmeiras have been nearly flawless (4W, 1D). The head-to-head is dead even, but injuries could be the real deciding factor here — both squads are running on fumes in their backlines.\n\nKey storylines:\n\n- **Red Bull Bragantino's attacking form** has been sharp; expect G. Girotto and J. N. Coelho to control the midfield tempo against a stretched Palmeiras setup\n- **Palmeiras' defensive crisis** with Murilo, J. Piquerez, and Jefté all sidelined means A. Gabriel and G. Gomez will earn their wages today\n- **Model leans Bragantino**, but both offenses have teeth — this could stay tight\n\nExpected lineups:\n\n- **Red Bull Bragantino**: T. Volpi, G. Marques, J. Capixaba, Eduardo, R. Augusto, L. Barbosa, G. Girotto, J. N. Coelho, M. Fernandes, I. Pitta, Y. Leles\n- **Palmeiras**: C. Miguel, A. Giay, G. Gomez, A. Gabriel, Khellven, M. Freitas, A. Pereira, J. López, Allan, R. Sosa, Luighi\n\nBest picks:\n\n- **Total Goals Under 3.5**: Both teams have injury issues that could clog the midfield; expect a cagey affair\n\nPrediction: **2-1 Bragantino**. Home advantage and form give the edge, but Palmeiras won't roll over.",
+          "generated_at": "2026-04-26T11:53:52.458902+00:00"
         }
       },
-      "created_at": "2026-04-20T06:20:17.294732+04:00",
-      "prob_home_win": 56.37344796416879,
-      "prob_draw": 26.094027481793514,
-      "prob_away_win": 17.5325245540377,
+      "created_at": "2026-04-20T06:20:17.528918+04:00",
+      "prob_home_win": 53.36996691277764,
+      "prob_draw": 30.069927841825134,
+      "prob_away_win": 16.56010524539722,
       "predicted_result": "H",
-      "expected_home_goals": 1.5049550000000003,
-      "expected_away_goals": 0.708105,
-      "prob_over_15": 29.289880724413585,
-      "prob_over_25": 22.71587526410053,
-      "prob_over_35": 14.465388601256446,
-      "prob_btts_yes": 21.28622117424488,
-      "confidence": 56.37344796416879,
+      "expected_home_goals": 1.245795,
+      "expected_away_goals": 0.5553925,
+      "prob_over_15": 60.93421656416241,
+      "prob_over_25": 49.77304254419765,
+      "prob_over_35": 20.58532237901286,
+      "prob_btts_yes": 52.91840043466569,
+      "confidence": 53.36996691277764,
       "model_version": "v5.0",
       "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 56.37344796416879,
+      "favorite_prob": 53.36996691277764,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
