@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T11:43:57.472Z",
+  "generatedAt": "2026-04-26T13:20:00.617Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,263 +21,372 @@
   ],
   "samples": {
     "event": {
-      "id": 9818,
+      "id": 1409,
       "league": {
-        "id": 36,
-        "name": "Liga F",
-        "country": "Spain",
-        "is_women": true,
+        "id": 4,
+        "name": "Serie A",
+        "country": "Italy",
+        "is_women": false,
         "current_season": {
-          "id": 295,
-          "name": "Liga F Moeve 25/26",
+          "id": 358,
+          "name": "Serie A 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 295,
-        "name": "Liga F Moeve 25/26",
+        "id": 358,
+        "name": "Serie A 25/26",
         "year": 2025
       },
-      "home_team": "Real Club Deportivo de la Coruña",
-      "away_team": "Alhama Club de Fútbol",
+      "home_team": "Fiorentina",
+      "away_team": "Sassuolo",
       "home_team_obj": {
-        "id": 915,
-        "name": "Real Club Deportivo de la Coruña",
-        "short_name": "Deportivo",
-        "country": "Spain",
+        "id": 68,
+        "name": "Fiorentina",
+        "short_name": "Fiorentina",
+        "country": "Italy",
         "coach": {
-          "name": "Fran Alonso",
-          "shortName": "F. Alonso"
+          "name": "Paolo Vanoli",
+          "shortName": "P. Vanoli"
         },
         "venue": {
-          "id": 696,
-          "name": "Cidade Deportiva de Abegondo",
-          "city": "Abegondo",
-          "country": "Spain",
-          "capacity": 1000
+          "id": 68,
+          "name": "Stadio Artemio Franchi",
+          "city": "Florence",
+          "country": "Italy",
+          "capacity": 43147
         }
       },
       "away_team_obj": {
-        "id": 918,
-        "name": "Alhama Club de Fútbol",
-        "short_name": "Alhama CF",
-        "country": "Spain",
+        "id": 61,
+        "name": "Sassuolo",
+        "short_name": "Sassuolo",
+        "country": "Italy",
         "coach": {
-          "name": "Randri Garcia",
-          "shortName": "R. Garcia"
+          "name": "Fabio Grosso",
+          "shortName": "F. Grosso"
         },
         "venue": {
-          "id": 698,
-          "name": "Deportivo del Guadalentín",
-          "city": "Murcia",
-          "country": "Spain",
-          "capacity": 1500
+          "id": 61,
+          "name": "Mapei Stadium",
+          "city": "Reggio Emilia",
+          "country": "Italy",
+          "capacity": 21584
         }
       },
-      "event_date": "2026-04-26T14:00:00+04:00",
-      "round_number": 26,
+      "event_date": "2026-04-26T14:30:00+04:00",
+      "round_number": 34,
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 2,
-      "away_score": 2,
-      "home_score_ht": 2,
-      "away_score_ht": 1,
-      "current_minute": 81,
-      "period": "2T",
-      "odds_home": 1.6,
-      "odds_draw": 3.7,
-      "odds_away": 4.5,
-      "odds_over_15": null,
-      "odds_over_25": null,
-      "odds_over_35": null,
-      "odds_under_15": null,
-      "odds_under_25": null,
-      "odds_under_35": null,
-      "odds_btts_yes": null,
-      "odds_btts_no": null,
-      "odds_dc_12": null,
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 2.9,
+      "odds_draw": 1.95,
+      "odds_away": 5.1,
+      "odds_over_15": 3.75,
+      "odds_over_25": 9.5,
+      "odds_over_35": 14.5,
+      "odds_under_15": 1.25,
+      "odds_under_25": 1.04,
+      "odds_under_35": 1.06,
+      "odds_btts_yes": 6.25,
+      "odds_btts_no": 1.12,
+      "odds_dc_12": 1.85,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 1.72,
+      "away_xg_live": 0.87,
       "penalty_shootout": null,
       "referee": {
-        "name": "Elisabet Calvo Valentin",
-        "country": "Spain",
-        "redCards": 0,
-        "yellowCards": 34
+        "name": "Livio Marinelli",
+        "country": "Italy",
+        "redCards": 39,
+        "yellowCards": 977
       },
       "home_coach": {
-        "id": 361,
-        "name": "Fran Alonso",
-        "short_name": "F. Alonso",
-        "country": "Spain",
+        "id": 278,
+        "name": "Paolo Vanoli",
+        "short_name": "P. Vanoli",
+        "country": "Italy",
         "profile": "balanced",
         "preferred_formation": "4-3-3",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "pressing_intensity": 0.31806412467609535,
+        "defensive_line": "high",
+        "top_styles": [
+          "ball_dominant",
+          "tiki_taka"
+        ]
       },
       "away_coach": {
-        "id": 215,
-        "name": "Randri Garcia",
-        "short_name": "R. Garcia",
-        "country": "Spain",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 235,
+        "name": "Fabio Grosso",
+        "short_name": "F. Grosso",
+        "country": "Italy",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.20902994074028658,
+        "defensive_line": "high",
+        "top_styles": [
+          "terrorist_fb",
+          "park_the_bus"
+        ]
       },
-      "unavailable_players": null,
+      "unavailable_players": {
+        "home": [
+          {
+            "name": "Fabiano Parisi",
+            "status": "injured",
+            "reason": "Knock Injury",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Manor Solomon",
+            "status": "doubtful",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-04-28"
+          },
+          {
+            "name": "Marin Pongračić",
+            "status": "suspended",
+            "reason": "yellow_card_accumulation_suspension",
+            "expected_return": "2026-04-26"
+          },
+          {
+            "name": "Moise Kean",
+            "status": "doubtful",
+            "reason": "Physical Discomfort",
+            "expected_return": "2026-05-09"
+          },
+          {
+            "name": "Niccolò Fortini",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-05-11"
+          },
+          {
+            "name": "Nicolò Fagioli",
+            "status": "doubtful",
+            "reason": "Gastrointestinal Discomfort",
+            "expected_return": "2026-05-03"
+          },
+          {
+            "name": "Robin Gosens",
+            "status": "injured",
+            "reason": "Thigh Injury",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Tariq Lamptey",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-04-29"
+          }
+        ],
+        "away": [
+          {
+            "name": "Daniel Boloca",
+            "status": "injured",
+            "reason": "Meniscus Injury",
+            "expected_return": "2026-05-10"
+          },
+          {
+            "name": "Domenico Berardi",
+            "status": "suspended",
+            "reason": "red_card_suspension",
+            "expected_return": "2026-04-26"
+          },
+          {
+            "name": "Edoardo Pieragnolo",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-04-30"
+          },
+          {
+            "name": "Fali Candé",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": "2026-04-30"
+          },
+          {
+            "name": "Filippo Romagna",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-05-20"
+          }
+        ]
+      },
       "venue": {
-        "id": 696,
-        "name": "Cidade Deportiva de Abegondo",
-        "city": "Abegondo",
-        "country": "Spain",
-        "capacity": 1000
+        "id": 68,
+        "name": "Stadio Artemio Franchi",
+        "city": "Florence",
+        "country": "Italy",
+        "capacity": 43147
       },
       "live_stats": {
         "away": {
-          "duels": 58,
+          "duels": 42,
           "fouls": 12,
-          "passes": 142,
-          "crosses": "3/13 (23)",
-          "tackles": 18,
-          "dribbles": "0/3 (0)",
+          "passes": 466,
+          "crosses": "4/8 (50)",
+          "tackles": 10,
+          "dribbles": "1/6 (17)",
           "offsides": 1,
-          "throw_ins": 21,
-          "clearances": 17,
-          "free_kicks": 9,
-          "goal_kicks": 5,
-          "long_balls": "27/65 (42)",
-          "recoveries": 30,
-          "big_chances": 1,
+          "big_saves": 1,
+          "throw_ins": 10,
+          "clearances": 26,
+          "free_kicks": 13,
+          "goal_kicks": 9,
+          "long_balls": "19/38 (50)",
+          "recoveries": 41,
+          "big_chances": 0,
           "high_claims": 1,
-          "tackles_won": 94,
-          "total_saves": 7,
-          "total_shots": 5,
-          "aerial_duels": "9/13 (69)",
-          "corner_kicks": 3,
-          "dispossessed": 3,
-          "ground_duels": "25/46 (54)",
+          "tackles_won": 50,
+          "total_saves": 4,
+          "total_shots": 11,
+          "aerial_duels": "10/16 (63)",
+          "corner_kicks": 4,
+          "dispossessed": 9,
+          "ground_duels": "21/57 (37)",
           "hit_woodwork": 1,
           "yellow_cards": 1,
-          "blocked_shots": 0,
+          "blocked_shots": 5,
           "interceptions": 7,
-          "total_tackles": 18,
-          "accurate_passes": 69,
-          "ball_possession": 30,
-          "shots_on_target": 2,
-          "goalkeeper_saves": 7,
-          "shots_inside_box": 5,
-          "shots_off_target": 3,
-          "final_third_phase": "23/61 (38)",
-          "shots_outside_box": 0,
-          "big_chances_scored": 1,
-          "final_third_entries": 55,
-          "fouled_in_final_third": 0,
+          "through_balls": 0,
+          "total_tackles": 10,
+          "expected_goals": "0.87",
+          "accurate_passes": 408,
+          "ball_possession": 51,
+          "goals_prevented": "0.42",
+          "shots_on_target": 1,
+          "goalkeeper_saves": 4,
+          "shots_inside_box": 6,
+          "shots_off_target": 5,
+          "final_third_phase": "81/118 (69)",
+          "shots_outside_box": 5,
+          "big_chances_missed": 0,
+          "final_third_entries": 45,
+          "errors_lead_to_a_shot": 0,
+          "fouled_in_final_third": 3,
           "touches_in_penalty_area": 14
         },
         "home": {
-          "duels": 45,
-          "fouls": 9,
-          "passes": 351,
-          "crosses": "3/14 (21)",
-          "tackles": 7,
-          "dribbles": "4/10 (40)",
+          "duels": 58,
+          "fouls": 13,
+          "passes": 425,
+          "crosses": "7/26 (27)",
+          "tackles": 15,
+          "dribbles": "9/17 (53)",
           "offsides": 1,
-          "throw_ins": 21,
-          "clearances": 16,
+          "big_saves": 0,
+          "throw_ins": 12,
+          "clearances": 14,
           "free_kicks": 12,
-          "goal_kicks": 6,
-          "long_balls": "26/50 (52)",
-          "recoveries": 29,
-          "big_chances": 0,
-          "high_claims": 5,
-          "tackles_won": 100,
-          "total_saves": 1,
-          "total_shots": 13,
-          "aerial_duels": "4/12 (33)",
-          "corner_kicks": 8,
-          "dispossessed": 11,
-          "ground_duels": "22/46 (48)",
+          "goal_kicks": 7,
+          "long_balls": "19/35 (54)",
+          "recoveries": 36,
+          "big_chances": 3,
+          "high_claims": 0,
+          "tackles_won": 67,
+          "total_saves": 2,
+          "total_shots": 22,
+          "aerial_duels": "6/16 (38)",
+          "corner_kicks": 7,
+          "dispossessed": 2,
+          "ground_duels": "36/57 (63)",
           "hit_woodwork": 0,
           "yellow_cards": 2,
-          "blocked_shots": 1,
+          "blocked_shots": 5,
           "interceptions": 3,
-          "total_tackles": 7,
-          "accurate_passes": 288,
-          "ball_possession": 70,
-          "shots_on_target": 9,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 8,
-          "shots_off_target": 3,
-          "final_third_phase": "51/87 (59)",
-          "shots_outside_box": 5,
-          "big_chances_scored": 0,
-          "final_third_entries": 52,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 15
+          "through_balls": 1,
+          "total_tackles": 15,
+          "expected_goals": "1.70",
+          "accurate_passes": 372,
+          "ball_possession": 49,
+          "goals_prevented": "0.45",
+          "shots_on_target": 5,
+          "goalkeeper_saves": 2,
+          "shots_inside_box": 13,
+          "shots_off_target": 12,
+          "final_third_phase": "112/141 (79)",
+          "shots_outside_box": 9,
+          "big_chances_missed": 3,
+          "final_third_entries": 47,
+          "errors_lead_to_a_shot": 1,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 43
         }
       },
       "ai_preview": {
-        "text": "**Deportivo de la Coruña host Alhama in a clash where one team's fighting for mid-table respectability and the other is basically already relegated.** 🔴\n\nDepor are limping along at 2W-3L over five, while Alhama have bottled five straight — including a 5-1 hammering at home to Real Sociedad. The visitors won their last H2H, but that's ancient history in a season this bleak for them.\n\nKey storylines:\n\n- **Depor's attack** needs to click: E. Pizarro, B. Latorre, and A. Marín have underperformed relative to their placement\n- **Alhama's defensive shape** (5-3-2) is desperate damage control against a superior opponent\n- **Depor's midfield control** via L. M. González and P. Gutiérrez should dominate possession and tempo\n\nExpected lineups:\n\n- **Real Club Deportivo de la Coruña**: I. Pereira, R. G. Yagüe, V. Martínez, M. Barth, S. Ortíz, L. M. González, P. Gutiérrez, O. Rodríguez, B. Latorre, E. Pizarro, A. Marín\n- **Alhama Club de Fútbol**: S. Belotto, C. Castiñeyras, J. Caravaca, N. Martinez, A. Santamaría, A. Zumárraga, A. Velázquez, Y. R. Ramos, Estefa, R. P. Saez, M. Gestera\n\nPrediction:\n\n**Depor 2-0 Alhama** — the hosts should roll through a team in free fall. 📍",
-        "generated_at": "2026-04-26T09:28:49.064100+00:00"
+        "text": "**Fiorentina's red-hot form meets Sassuolo's inconsistency** in a clash where Florence should have the edge at home. The hosts are riding a **3W-2D streak** while Sassuolo's wobbled between wins and losses. 🔴\n\nViola have momentum and a packed injury list that somehow hasn't derailed them. Sassuolo, missing Berardi to suspension, will scrape together what they can on the road.\n\nKey storylines:\n\n- **Fiorentina's defense holds steady** despite absences from Parisi, Gosens, and Lamptey — Ranieri, Comuzzo, and Rugani anchor the backline\n- **Kean and Guðmundsson** carry the creative burden in attack for the hosts\n- **Sassuolo chasing consistency** with Pinamonti and Laurienté up front, but Boloca's injury weakens the midfield engine\n\nExpected lineups:\n\n- **Fiorentina:** D. De Gea, L. Ranieri, P. Comuzzo, D. Rugani, L. Balbo, Dodô, R. Mandragora, C. Ndour, A. Guðmundsson, M. Kean, J. Fazzini\n- **Sassuolo:** A. Murić, U. Garcia, J. Idzes, S. Walukiewicz, T. Muharemović, I. Koné, K. Thorstvedt, N. Matić, A. Laurienté, A. Pinamonti, A. Fadera\n\nPrediction:\n\n**Fiorentina 2-1 Sassuolo.** Viola have the lean at home with form and firepower on their side. 📍",
+        "generated_at": "2026-04-26T09:29:04.019089+00:00"
       }
     },
     "prediction": {
-      "id": 3195,
+      "id": 3114,
       "event": {
-        "id": 204232,
+        "id": 1734,
         "league": {
-          "id": 38,
-          "name": "Segunda División",
-          "country": "Spain",
+          "id": 5,
+          "name": "Bundesliga",
+          "country": "Germany",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 228,
+            "name": "Bundesliga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
-        "season": null,
-        "home_team": "Córdoba",
-        "away_team": "Sporting Gijón",
+        "season": {
+          "id": 228,
+          "name": "Bundesliga 25/26",
+          "year": 2025
+        },
+        "home_team": "VfB Stuttgart",
+        "away_team": "SV Werder Bremen",
         "home_team_obj": {
-          "id": 1265,
-          "name": "Córdoba",
-          "short_name": "Córdoba",
-          "country": "Spain",
+          "id": 84,
+          "name": "VfB Stuttgart",
+          "short_name": "Stuttgart",
+          "country": "Germany",
           "coach": {
-            "name": "Iván Ania",
-            "shortName": "I. Ania"
+            "name": "Sebastian Hoeneß",
+            "shortName": "S. Hoeneß"
           },
           "venue": {
-            "id": 732,
-            "name": "Estadio Nuevo Arcángel",
-            "city": "Cordoba",
-            "country": "Spain",
-            "capacity": 21384
+            "id": 82,
+            "name": "MHP Arena",
+            "city": "Stuttgart",
+            "country": "Germany",
+            "capacity": 60449
           }
         },
         "away_team_obj": {
-          "id": 1267,
-          "name": "Sporting Gijón",
-          "short_name": "Sporting",
-          "country": "Spain",
+          "id": 88,
+          "name": "SV Werder Bremen",
+          "short_name": "Bremen",
+          "country": "Germany",
           "coach": {
-            "name": "Borja Jiménez",
-            "shortName": "B. Jiménez"
+            "name": "Daniel Thioune",
+            "shortName": "D. Thioune"
           },
           "venue": {
-            "id": 734,
-            "name": "El Molinón",
-            "city": "Gijon",
-            "country": "Spain",
-            "capacity": 30000
+            "id": 86,
+            "name": "Weserstadion",
+            "city": "Bremen",
+            "country": "Germany",
+            "capacity": 42100
           }
         },
-        "event_date": "2026-04-26T16:00:00+04:00",
-        "round_number": 37,
+        "event_date": "2026-04-26T17:30:00+04:00",
+        "round_number": 31,
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -286,97 +395,533 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.15,
-        "odds_draw": 3.6,
-        "odds_away": 3,
-        "odds_over_15": 1.2,
-        "odds_over_25": 1.7,
-        "odds_over_35": 2.62,
-        "odds_under_15": 4.33,
-        "odds_under_25": 2.1,
-        "odds_under_35": 1.44,
-        "odds_btts_yes": 1.57,
-        "odds_btts_no": 2.25,
-        "odds_dc_12": null,
+        "odds_home": 1.57,
+        "odds_draw": 4.6,
+        "odds_away": 5.75,
+        "odds_over_15": 1.12,
+        "odds_over_25": 1.46,
+        "odds_over_35": 2.11,
+        "odds_under_15": 6,
+        "odds_under_25": 2.75,
+        "odds_under_35": 1.74,
+        "odds_btts_yes": 1.55,
+        "odds_btts_no": 2.4,
+        "odds_dc_12": 1.23,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
-        "referee": null,
+        "referee": {
+          "name": "Christian Dingert",
+          "country": "Germany",
+          "redCards": 37,
+          "yellowCards": 1649
+        },
         "home_coach": {
-          "id": 814,
-          "name": "Iván Ania",
-          "short_name": "I. Ania",
-          "country": "Spain",
-          "profile": "balanced",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 283,
+          "name": "Sebastian Hoeneß",
+          "short_name": "S. Hoeneß",
+          "country": "Germany",
+          "profile": "attacking",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.5761986351581083,
+          "defensive_line": "high",
+          "top_styles": [
+            "chaos_football",
+            "chaos_ball"
+          ]
         },
         "away_coach": {
-          "id": 824,
-          "name": "Borja Jiménez",
-          "short_name": "B. Jiménez",
-          "country": "Spain",
+          "id": 241,
+          "name": "Daniel Thioune",
+          "short_name": "D. Thioune",
+          "country": "Germany",
           "profile": "balanced",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.4887023520868914,
+          "defensive_line": "mid",
+          "top_styles": [
+            "chaos_ball",
+            "chaos_football"
+          ]
         },
         "unavailable_players": {
           "home": [
             {
-              "name": "Jan Salas",
+              "name": "Finn Jeltsch",
               "status": "injured",
-              "reason": "ACL Knee Injury",
-              "expected_return": "2026-10-15"
+              "reason": "Muscle Injury",
+              "expected_return": "2026-05-10"
+            },
+            {
+              "name": "Justin Diehl",
+              "status": "injured",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-05-10"
+            },
+            {
+              "name": "Lazar Jovanović",
+              "status": "injured",
+              "reason": "Back Injury",
+              "expected_return": "2026-05-10"
             }
           ],
-          "away": []
+          "away": [
+            {
+              "name": "Felix Agu",
+              "status": "injured",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-05-10"
+            },
+            {
+              "name": "Jens Stage",
+              "status": "doubtful",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-05-02"
+            },
+            {
+              "name": "Julián Malatini",
+              "status": "injured",
+              "reason": "Ankle Injury",
+              "expected_return": null
+            },
+            {
+              "name": "Karl Hein",
+              "status": "injured",
+              "reason": "Hand Injury",
+              "expected_return": null
+            },
+            {
+              "name": "Keke Topp",
+              "status": "injured",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": null
+            },
+            {
+              "name": "Leonardo Bittencourt",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-04-26"
+            },
+            {
+              "name": "Marco Grüll",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-04-26"
+            },
+            {
+              "name": "Maximilian Wöber",
+              "status": "injured",
+              "reason": "Calf Injury",
+              "expected_return": "2026-04-30"
+            },
+            {
+              "name": "Mitchell Weiser",
+              "status": "injured",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": "2026-05-20"
+            }
+          ]
         },
         "venue": {
-          "id": 732,
-          "name": "Estadio Nuevo Arcángel",
-          "city": "Cordoba",
-          "country": "Spain",
-          "capacity": 21384
+          "id": 82,
+          "name": "MHP Arena",
+          "city": "Stuttgart",
+          "country": "Germany",
+          "capacity": 60449
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "M. Backhaus",
+                "goals": 0,
+                "api_id": 1083390,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 2496,
+                "yellow_card": false,
+                "jersey_number": "30",
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "Y. Sugawara",
+                "goals": 0,
+                "api_id": 905347,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 2497,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "RM"
+                ]
+              },
+              {
+                "name": "A. Pieper",
+                "goals": 0,
+                "api_id": 851254,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 2498,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "RB"
+                ]
+              },
+              {
+                "name": "M. Friedl",
+                "goals": 0,
+                "api_id": 825771,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 2500,
+                "yellow_card": false,
+                "jersey_number": "32",
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "O. Deman",
+                "goals": 0,
+                "api_id": 960114,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 5226,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "C. Puertas",
+                "goals": 0,
+                "api_id": 916176,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2503,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "AM"
+                ]
+              },
+              {
+                "name": "S. Lynen",
+                "goals": 0,
+                "api_id": 826171,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2501,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Stage",
+                "goals": 0,
+                "api_id": 830142,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2502,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "J. Njinmah",
+                "goals": 0,
+                "api_id": 1005343,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 2515,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Milošević",
+                "goals": 0,
+                "api_id": 1154491,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8538,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "R. Schmid",
+                "goals": 0,
+                "api_id": 830127,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2504,
+                "yellow_card": false,
+                "jersey_number": "20",
+                "specific_position": "MID",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-3-3",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "A. Nübel",
+                "goals": 0,
+                "api_id": 584722,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 1609,
+                "yellow_card": false,
+                "jersey_number": "33",
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "L. Assignon",
+                "goals": 0,
+                "api_id": 1009334,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1628,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "L. Jaquez",
+                "goals": 0,
+                "api_id": 1127823,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 3119,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Chabot",
+                "goals": 0,
+                "api_id": 863271,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 1611,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Mittelstädt",
+                "goals": 0,
+                "api_id": 788949,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 1623,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "C. Andrés",
+                "goals": 0,
+                "api_id": 1464641,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1614,
+                "yellow_card": false,
+                "jersey_number": "30",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Stiller",
+                "goals": 0,
+                "api_id": 901882,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1622,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "B. E. Khannouss",
+                "goals": 0,
+                "api_id": 1126569,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1619,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "D. Undav",
+                "goals": 0,
+                "api_id": 794298,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 1620,
+                "yellow_card": false,
+                "jersey_number": "26",
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Leweling",
+                "goals": 0,
+                "api_id": 990201,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1621,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "E. Demirović",
+                "goals": 0,
+                "api_id": 878081,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 4516,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "confirmed": false
+        },
         "shotmap": null,
         "momentum": null,
         "average_positions": null,
         "ai_preview": {
-          "text": "**Córdoba's on a tear, but Sporting just knocked out a rival** — this Segunda División clash looks properly competitive, even if the hosts have momentum on their side. 🔴\n\nCórdoba are riding **3 wins in 5**, including impressive away scalps at Cultural Leonesa and Cádiz. Sporting Gijón have stumbled lately (2W 2L in their last five), though they did put three past Cádiz at home not long ago. The H2H leans Sporting's way historically, but form favors the Cordobans right now.\n\nKey storylines:\n\n- **Córdoba's attacking fluidity** has been the difference — they've scored in every recent outing with **Jacobo González** and **C. Carracedo** creating chances upfront\n- **Sporting's defensive solidity** will be tested; they've been leaky on the road, particularly after that Burgos loss\n- **J. Salas's absence** (ACL knee injury) means **Córdoba** lose defensive depth, which could leave them exposed on transitions\n\nExpected lineups:\n\n- **Córdoba**: I. Álvarez, Á. Martín, Rubén, C. Albarran, X. Sintes, I. Ruiz, M. Goti, D. Requena, C. Carracedo, A. Fuentes, Jacobo González\n- **Sporting Gijón**: R. Yanez, P. Vázquez, G. Rosas, D. Sánchez, B. Olivan, A. Corredera, J. Dubasin, C. Gelabert, J. Otero, D. Queipo, A. Ferrari\n\nPrediction:\n\n**Córdoba 2–1 Sporting Gijón** — home form and current rhythm give the hosts a slight edge in what looks like a proper coin flip. 🎲",
-          "generated_at": "2026-04-26T09:29:38.849809+00:00"
+          "text": "**Stuttgart are primed to punish a Bremen side that's bleeding injuries.** This feels like a home banker in the making. 🎯\n\nStuttgart's caught a decent run — two wins in five with that dominant 4-0 romp over Hamburg — while Bremen are spiraling with three losses in their last five. The visitors arrive at the MHP Arena missing five key players, including suspended L. Bittencourt. That's a mountain to climb away from home.\n\nKey storylines:\n\n- **E. Demirović and T. Tomás** lead Stuttgart's attack against a crippled Bremen backline that can't field enough bodies\n- **Stuttgart's home fortress** has shown teeth lately; Bremen have leaked goals all season\n- **Injury carnage** for Bremen means C. Puertas and Y. Sugawara are stretched thin trying to cover defensive gaps\n\nExpected lineups:\n\n- **VfB Stuttgart**: A. Nübel, J. Chabot, R. Hendriks, M. Mittelstädt, L. Jaquez, A. Stiller, C. Führich, D. Undav\n- **SV Werder Bremen**: M. Backhaus, S. Lynen, O. Deman, A. Pieper, Y. Sugawara, R. Schmid, C. Puertas, J. Stage\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Stuttgart 2–0 Bremen**. Bremen just don't have the personnel to hang here.",
+          "generated_at": "2026-04-26T11:49:39.346623+00:00"
         }
       },
-      "created_at": "2026-04-23T06:20:09.431155+04:00",
-      "prob_home_win": 37.84586182513938,
-      "prob_draw": 24.308276349721233,
-      "prob_away_win": 37.84586182513937,
+      "created_at": "2026-04-20T06:20:09.137709+04:00",
+      "prob_home_win": 52.72245005909198,
+      "prob_draw": 24.30211382933897,
+      "prob_away_win": 22.975436111569046,
       "predicted_result": "H",
-      "expected_home_goals": 1.5,
-      "expected_away_goals": 1.5,
-      "prob_over_15": 59.83310540098912,
-      "prob_over_25": 40.14673664789035,
-      "prob_over_35": 24.62476157175656,
-      "prob_btts_yes": 47.40839917779946,
-      "confidence": 37.84586182513938,
+      "expected_home_goals": 1.6721300000000001,
+      "expected_away_goals": 1.0158,
+      "prob_over_15": 87.8609648604008,
+      "prob_over_25": 77.0711893640524,
+      "prob_over_35": 44.7846337671537,
+      "prob_btts_yes": 62.37633224678647,
+      "confidence": 52.72245005909198,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 37.84586182513938,
+      "favorite_prob": 52.72245005909198,
       "favorite_recommend": false,
       "over_15_recommend": false,
-      "over_25_recommend": false,
+      "over_25_recommend": true,
       "over_35_recommend": false,
       "btts_recommend": false,
-      "winner_recommend": false
+      "winner_recommend": true
     },
     "league": {
       "id": 30,
