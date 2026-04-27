@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-04-27T16:09:48.006Z",
+  "generatedAt": "2026-04-27T17:50:05.518Z",
   "count": 50,
   "items": [
     {
-      "id": 3336,
-      "status": "finished",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Alanyaspor",
-      "awayTeam": "Samsunspor",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7680,
-      "status": "2nd_half",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "FC Metaloglobus București",
-      "awayTeam": "AFC Unirea 04 Slobozia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 202980,
-      "status": "2nd_half",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "PFK Montana 1921",
-      "awayTeam": "FK Dobrudzha Dobrich",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1408,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Cagliari",
@@ -47,85 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 46341,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Kalmar FF",
-      "awayTeam": "IF Elfsborg",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 202984,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Lokomotiv Sofia",
-      "awayTeam": "FK Septemvri Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3344,
-      "status": "notstarted",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Konyaspor",
-      "awayTeam": "Trabzonspor",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46343,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Örgryte IS",
-      "awayTeam": "Degerfors IF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3338,
-      "status": "notstarted",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Beşiktaş JK",
-      "awayTeam": "Fatih Karagümrük",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46339,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "AIK",
-      "awayTeam": "Malmö FF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8004,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Piast Gliwice",
-      "awayTeam": "MZKS Arka Gdynia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 46342,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Mjällby AIF",
@@ -136,7 +26,7 @@
     },
     {
       "id": 46340,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "BK Häcken",
@@ -146,8 +36,85 @@
       "marketCount": 0
     },
     {
+      "id": 3344,
+      "status": "halftime",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Konyaspor",
+      "awayTeam": "Trabzonspor",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3338,
+      "status": "halftime",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Beşiktaş JK",
+      "awayTeam": "Fatih Karagümrük",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46343,
+      "status": "halftime",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Örgryte IS",
+      "awayTeam": "Degerfors IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46341,
+      "status": "halftime",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Kalmar FF",
+      "awayTeam": "IF Elfsborg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 202984,
+      "status": "1st_half",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "Lokomotiv Sofia",
+      "awayTeam": "FK Septemvri Sofia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46339,
+      "status": "halftime",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "AIK",
+      "awayTeam": "Malmö FF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8004,
+      "status": "halftime",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Piast Gliwice",
+      "awayTeam": "MZKS Arka Gdynia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7676,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "FC Argeș Pitești",
@@ -201,23 +168,23 @@
       "marketCount": 0
     },
     {
-      "id": 340,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Manchester United",
-      "awayTeam": "Brentford",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1003,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Espanyol",
       "awayTeam": "Levante UD",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 340,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Brentford",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -267,23 +234,23 @@
       "marketCount": 0
     },
     {
-      "id": 4785,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Khaleej",
-      "awayTeam": "Al-Najma SC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4784,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Hilal",
       "awayTeam": "Damac FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4785,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Khaleej",
+      "awayTeam": "Al-Najma SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,23 +278,23 @@
       "marketCount": 0
     },
     {
-      "id": 9395,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Libertad",
-      "awayTeam": "Independiente del Valle",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9394,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "CA Lanús",
       "awayTeam": "LDU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9286,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Botafogo",
+      "awayTeam": "Club Independiente",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,12 +311,12 @@
       "marketCount": 0
     },
     {
-      "id": 9286,
+      "id": 9395,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Botafogo",
-      "awayTeam": "Club Independiente",
+      "homeTeam": "Libertad",
+      "awayTeam": "Independiente del Valle",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,17 +355,6 @@
       "marketCount": 0
     },
     {
-      "id": 9282,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Recoleta FC",
-      "awayTeam": "Deportivo Cuenca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9285,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -410,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 9399,
+      "id": 9282,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Club Sporting Cristal",
-      "awayTeam": "Junior Barranquilla",
+      "homeTeam": "Recoleta FC",
+      "awayTeam": "Deportivo Cuenca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,12 +399,12 @@
       "marketCount": 0
     },
     {
-      "id": 204843,
+      "id": 9399,
       "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Tokyo Verdy",
-      "awayTeam": "Kashima Antlers",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Club Sporting Cristal",
+      "awayTeam": "Junior Barranquilla",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -460,6 +416,17 @@
       "country": "Japan",
       "homeTeam": "Shimizu S-Pulse",
       "awayTeam": "V-Varen Nagasaki",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204843,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Tokyo Verdy",
+      "awayTeam": "Kashima Antlers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +515,39 @@
       "country": "Japan",
       "homeTeam": "Kashiwa Reysol",
       "awayTeam": "FC Tokyo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204691,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "Stade Tunisien",
+      "awayTeam": "JS Omrane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204694,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "US Monastir",
+      "awayTeam": "Avenir Sportif De Gabes",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204692,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "AS Soliman",
+      "awayTeam": "Club Africain",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
