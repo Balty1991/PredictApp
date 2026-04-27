@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T04:08:50.600Z",
+  "generatedAt": "2026-04-27T07:16:27.620Z",
   "count": 50,
   "items": [
     {
@@ -47,6 +47,28 @@
       "marketCount": 0
     },
     {
+      "id": 46340,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "BK Häcken",
+      "awayTeam": "IK Sirius",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8004,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Piast Gliwice",
+      "awayTeam": "MZKS Arka Gdynia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 3338,
       "status": "notstarted",
       "league": "Trendyol Super Lig",
@@ -69,45 +91,12 @@
       "marketCount": 0
     },
     {
-      "id": 8004,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Piast Gliwice",
-      "awayTeam": "MZKS Arka Gdynia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46343,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Örgryte IS",
-      "awayTeam": "Degerfors IF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 202984,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Lokomotiv Sofia",
       "awayTeam": "FK Septemvri Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46341,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Kalmar FF",
-      "awayTeam": "IF Elfsborg",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,12 +113,23 @@
       "marketCount": 0
     },
     {
-      "id": 46340,
+      "id": 46343,
       "status": "notstarted",
       "league": "Allsvenskan",
       "country": "Sweden",
-      "homeTeam": "BK Häcken",
-      "awayTeam": "IK Sirius",
+      "homeTeam": "Örgryte IS",
+      "awayTeam": "Degerfors IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46341,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Kalmar FF",
+      "awayTeam": "IF Elfsborg",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,23 +311,23 @@
       "marketCount": 0
     },
     {
-      "id": 9395,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Libertad",
-      "awayTeam": "Independiente del Valle",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9283,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "San Lorenzo",
       "awayTeam": "Santos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9286,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Botafogo",
+      "awayTeam": "Club Independiente",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 9286,
+      "id": 9395,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Botafogo",
-      "awayTeam": "Club Independiente",
+      "homeTeam": "Libertad",
+      "awayTeam": "Independiente del Valle",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,23 +465,23 @@
       "marketCount": 0
     },
     {
-      "id": 204846,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Avispa Fukuoka",
-      "awayTeam": "Sanfrecce Hiroshima",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204845,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "JEF United Chiba",
       "awayTeam": "Yokohama F. Marinos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204846,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Avispa Fukuoka",
+      "awayTeam": "Sanfrecce Hiroshima",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
