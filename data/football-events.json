@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-27T11:49:48.576Z",
+  "generatedAt": "2026-04-27T14:10:12.616Z",
   "count": 50,
   "items": [
     {
       "id": 3336,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Trendyol Super Lig",
       "country": "Turkey",
       "homeTeam": "Alanyaspor",
@@ -47,12 +47,34 @@
       "marketCount": 0
     },
     {
-      "id": 46341,
+      "id": 46342,
       "status": "notstarted",
       "league": "Allsvenskan",
       "country": "Sweden",
-      "homeTeam": "Kalmar FF",
-      "awayTeam": "IF Elfsborg",
+      "homeTeam": "Mjällby AIF",
+      "awayTeam": "Halmstads BK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46339,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "AIK",
+      "awayTeam": "Malmö FF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46343,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Örgryte IS",
+      "awayTeam": "Degerfors IF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -80,23 +102,23 @@
       "marketCount": 0
     },
     {
-      "id": 202984,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Lokomotiv Sofia",
-      "awayTeam": "FK Septemvri Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 3338,
       "status": "notstarted",
       "league": "Trendyol Super Lig",
       "country": "Turkey",
       "homeTeam": "Beşiktaş JK",
       "awayTeam": "Fatih Karagümrük",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46341,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Kalmar FF",
+      "awayTeam": "IF Elfsborg",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -113,34 +135,12 @@
       "marketCount": 0
     },
     {
-      "id": 46342,
+      "id": 202984,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Mjällby AIF",
-      "awayTeam": "Halmstads BK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46343,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Örgryte IS",
-      "awayTeam": "Degerfors IF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46339,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "AIK",
-      "awayTeam": "Malmö FF",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "Lokomotiv Sofia",
+      "awayTeam": "FK Septemvri Sofia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,23 +157,23 @@
       "marketCount": 0
     },
     {
-      "id": 204238,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Cádiz",
-      "awayTeam": "Las Palmas",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203829,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "RFC Liège",
       "awayTeam": "Lommel SK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204238,
+      "status": "notstarted",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Cádiz",
+      "awayTeam": "Las Palmas",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,23 +201,23 @@
       "marketCount": 0
     },
     {
-      "id": 1003,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Espanyol",
-      "awayTeam": "Levante UD",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 340,
       "status": "notstarted",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Manchester United",
       "awayTeam": "Brentford",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1003,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Levante UD",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -267,23 +267,23 @@
       "marketCount": 0
     },
     {
-      "id": 4784,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Hilal",
-      "awayTeam": "Damac FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4785,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Khaleej",
       "awayTeam": "Al-Najma SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4784,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Hilal",
+      "awayTeam": "Damac FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 9283,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "San Lorenzo",
-      "awayTeam": "Santos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9286,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -333,23 +322,34 @@
       "marketCount": 0
     },
     {
-      "id": 9394,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "CA Lanús",
-      "awayTeam": "LDU",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9395,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Libertad",
       "awayTeam": "Independiente del Valle",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9283,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "San Lorenzo",
+      "awayTeam": "Santos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9394,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "CA Lanús",
+      "awayTeam": "LDU",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,12 +377,12 @@
       "marketCount": 0
     },
     {
-      "id": 9285,
+      "id": 9397,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Millonarios",
-      "awayTeam": "São Paulo",
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Boca Juniors",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -399,12 +399,12 @@
       "marketCount": 0
     },
     {
-      "id": 9397,
+      "id": 9285,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Cruzeiro",
-      "awayTeam": "Boca Juniors",
+      "homeTeam": "Millonarios",
+      "awayTeam": "São Paulo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
