@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T09:39:27.162Z",
+  "generatedAt": "2026-04-27T11:49:48.576Z",
   "count": 50,
   "items": [
     {
@@ -9,17 +9,6 @@
       "country": "Turkey",
       "homeTeam": "Alanyaspor",
       "awayTeam": "Samsunspor",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 202980,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "PFK Montana 1921",
-      "awayTeam": "FK Dobrudzha Dobrich",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -36,34 +25,23 @@
       "marketCount": 0
     },
     {
+      "id": 202980,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "PFK Montana 1921",
+      "awayTeam": "FK Dobrudzha Dobrich",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1408,
       "status": "notstarted",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Cagliari",
       "awayTeam": "Atalanta",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46340,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "BK Häcken",
-      "awayTeam": "IK Sirius",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3338,
-      "status": "notstarted",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Beşiktaş JK",
-      "awayTeam": "Fatih Karagümrük",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -80,6 +58,28 @@
       "marketCount": 0
     },
     {
+      "id": 3344,
+      "status": "notstarted",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Konyaspor",
+      "awayTeam": "Trabzonspor",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46340,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "BK Häcken",
+      "awayTeam": "IK Sirius",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 202984,
       "status": "notstarted",
       "league": "Parva Liga",
@@ -91,23 +91,23 @@
       "marketCount": 0
     },
     {
+      "id": 3338,
+      "status": "notstarted",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Beşiktaş JK",
+      "awayTeam": "Fatih Karagümrük",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8004,
       "status": "notstarted",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "Piast Gliwice",
       "awayTeam": "MZKS Arka Gdynia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46339,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "AIK",
-      "awayTeam": "Malmö FF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,12 +135,12 @@
       "marketCount": 0
     },
     {
-      "id": 3344,
+      "id": 46339,
       "status": "notstarted",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Konyaspor",
-      "awayTeam": "Trabzonspor",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "AIK",
+      "awayTeam": "Malmö FF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 9395,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Libertad",
-      "awayTeam": "Independiente del Valle",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9283,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -350,6 +339,17 @@
       "country": "South America",
       "homeTeam": "CA Lanús",
       "awayTeam": "LDU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9395,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Libertad",
+      "awayTeam": "Independiente del Valle",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
