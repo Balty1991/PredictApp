@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T23:30:06.121Z",
+  "generatedAt": "2026-04-28T01:18:14.104Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,257 +21,129 @@
   ],
   "samples": {
     "event": {
-      "id": 203029,
+      "id": 4790,
       "league": {
-        "id": 34,
-        "name": "Brasileirão Serie B",
-        "country": "Brazil",
+        "id": 17,
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
         "is_women": false,
         "current_season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
+          "id": 339,
+          "name": "Saudi Pro League 25/26",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
         }
       },
-      "season": null,
-      "home_team": "Athletic Club",
-      "away_team": "Náutico",
+      "season": {
+        "id": 339,
+        "name": "Saudi Pro League 25/26",
+        "year": 2025
+      },
+      "home_team": "Al-Shabab",
+      "away_team": "Al-Fateh",
       "home_team_obj": {
-        "id": 843,
-        "name": "Athletic Club",
-        "short_name": "Athletic",
-        "country": "Brazil",
+        "id": 264,
+        "name": "Al-Shabab",
+        "short_name": "Al-Shabab",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Alexsandro de Souza",
-          "shortName": "Alex"
+          "name": "Noureddine Zekri",
+          "shortName": "N. Zekri"
         },
         "venue": {
-          "id": 635,
-          "name": "Estádio Joaquim Portugal",
-          "city": "São João del Rei",
-          "country": "Brazil",
-          "capacity": 8000
+          "id": 253,
+          "name": "SHG Arena",
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "capacity": 13536
         }
       },
       "away_team_obj": {
-        "id": 928,
-        "name": "Náutico",
-        "short_name": "Náutico",
-        "country": "Brazil",
+        "id": 268,
+        "name": "Al-Fateh",
+        "short_name": "Al-Fateh",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Helio Dos Anjos",
-          "shortName": "H. D. Anjos"
+          "name": "Jose Manuel Gomes",
+          "shortName": "J. M. Gomes"
         },
         "venue": {
-          "id": 708,
-          "name": "Aflitos",
-          "city": "Recife",
-          "country": "Brazil",
-          "capacity": 22856
+          "id": 257,
+          "name": "Prince Abdullah bin Jalawi Stadium",
+          "city": "Al-Ahsa",
+          "country": "Saudi Arabia",
+          "capacity": 19550
         }
       },
-      "event_date": "2026-04-28T02:00:00+04:00",
-      "round_number": 6,
+      "event_date": "2026-04-28T20:00:00+04:00",
+      "round_number": 30,
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 0,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 65,
-      "period": "2T",
-      "odds_home": null,
-      "odds_draw": null,
-      "odds_away": null,
-      "odds_over_15": null,
-      "odds_over_25": null,
-      "odds_over_35": null,
-      "odds_under_15": null,
-      "odds_under_25": null,
-      "odds_under_35": null,
-      "odds_btts_yes": null,
-      "odds_btts_no": null,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 1.73,
+      "odds_draw": 4,
+      "odds_away": 3.8,
+      "odds_over_15": 1.17,
+      "odds_over_25": 1.53,
+      "odds_over_35": 2.25,
+      "odds_under_15": 5,
+      "odds_under_25": 2.4,
+      "odds_under_35": 1.57,
+      "odds_btts_yes": 1.53,
+      "odds_btts_no": 2.38,
       "odds_dc_12": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.53,
-      "away_xg_live": 0.65,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
-      "referee": {
-        "name": "Lucas Paulo Torezin",
-        "country": "Brazil",
-        "redCards": 12,
-        "yellowCards": 351
-      },
+      "referee": null,
       "home_coach": {
-        "id": 155,
-        "name": "Alexsandro de Souza",
-        "short_name": "Alex",
-        "country": "Brazil",
-        "profile": "attacking",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 432,
+        "name": "Noureddine Zekri",
+        "short_name": "N. Zekri",
+        "country": "Algeria",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.5542967787606609,
+        "defensive_line": "mid",
+        "top_styles": [
+          "no_midfield",
+          "park_the_bus"
+        ]
       },
       "away_coach": {
-        "id": 137,
-        "name": "Helio Dos Anjos",
-        "short_name": "H. D. Anjos",
-        "country": "Brazil",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 415,
+        "name": "Jose Manuel Gomes",
+        "short_name": "J. M. Gomes",
+        "country": "Portugal",
+        "profile": "balanced",
+        "preferred_formation": "3-4-1-2",
+        "pressing_intensity": 0.8653567985381734,
+        "defensive_line": "mid",
+        "top_styles": [
+          "gegenpressing",
+          "low_counter"
+        ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Diogo Batista de Souza",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-04-29"
-          },
-          {
-            "name": "Jhonatan",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Jota",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-04-29"
-          },
-          {
-            "name": "Lucas Belezi",
-            "status": "suspended",
-            "reason": "Red card suspension",
-            "expected_return": "2026-04-29"
-          },
-          {
-            "name": "Max",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Rodrigo Gelado",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Sidimar",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ],
-        "away": []
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 635,
-        "name": "Estádio Joaquim Portugal",
-        "city": "São João del Rei",
-        "country": "Brazil",
-        "capacity": 8000
+        "id": 253,
+        "name": "SHG Arena",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "capacity": 13536
       },
-      "live_stats": {
-        "away": {
-          "duels": 47,
-          "fouls": 13,
-          "passes": 242,
-          "crosses": "4/9 (44)",
-          "tackles": 13,
-          "dribbles": "3/7 (43)",
-          "offsides": 0,
-          "big_saves": 1,
-          "throw_ins": 16,
-          "clearances": 20,
-          "free_kicks": 7,
-          "goal_kicks": 1,
-          "long_balls": "19/32 (59)",
-          "recoveries": 38,
-          "big_chances": 0,
-          "tackles_won": 77,
-          "total_saves": 4,
-          "total_shots": 6,
-          "aerial_duels": "4/6 (67)",
-          "corner_kicks": 2,
-          "dispossessed": 8,
-          "ground_duels": "23/52 (44)",
-          "hit_woodwork": 0,
-          "yellow_cards": 2,
-          "blocked_shots": 3,
-          "interceptions": 9,
-          "total_tackles": 13,
-          "expected_goals": "0.65",
-          "accurate_passes": 196,
-          "ball_possession": 43,
-          "goals_prevented": "0.92",
-          "shots_on_target": 0,
-          "goalkeeper_saves": 4,
-          "shots_inside_box": 5,
-          "shots_off_target": 3,
-          "final_third_phase": "41/63 (65)",
-          "shots_outside_box": 1,
-          "big_chances_missed": 0,
-          "final_third_entries": 31,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 10
-        },
-        "home": {
-          "duels": 53,
-          "fouls": 7,
-          "passes": 313,
-          "crosses": "2/18 (11)",
-          "tackles": 12,
-          "dribbles": "4/10 (40)",
-          "offsides": 3,
-          "big_saves": 0,
-          "throw_ins": 26,
-          "clearances": 11,
-          "free_kicks": 13,
-          "goal_kicks": 4,
-          "long_balls": "17/33 (52)",
-          "recoveries": 34,
-          "big_chances": 3,
-          "tackles_won": 50,
-          "total_saves": 0,
-          "total_shots": 7,
-          "aerial_duels": "2/6 (33)",
-          "corner_kicks": 6,
-          "dispossessed": 8,
-          "ground_duels": "29/53 (55)",
-          "hit_woodwork": 1,
-          "yellow_cards": 2,
-          "blocked_shots": 1,
-          "interceptions": 10,
-          "total_tackles": 12,
-          "expected_goals": "0.53",
-          "accurate_passes": 267,
-          "ball_possession": 57,
-          "goals_prevented": "0.00",
-          "shots_on_target": 4,
-          "goalkeeper_saves": 0,
-          "shots_inside_box": 3,
-          "shots_off_target": 2,
-          "final_third_phase": "58/89 (65)",
-          "shots_outside_box": 4,
-          "big_chances_missed": 3,
-          "final_third_entries": 36,
-          "fouled_in_final_third": 3,
-          "touches_in_penalty_area": 11
-        }
-      },
+      "live_stats": null,
       "ai_preview": {
-        "text": "**Athletic Club's looking to bounce back at home, but Náutico just snatched a win and won't roll over easy.** 🔥 A tight Série B scrap brewing in São João del Rei.\n\nAthletic Club have wobbled—two losses in their last three—yet they've got the home crowd behind them. Náutico are streaky, flipping between form and funk; they carved out a 1-0 win last time but got battered 0-3 before that. Both squads need the points.\n\nKey storylines:\n\n- **Athletic Club's missing firepower** with D. B. d. Souza and Jota both suspended, leaning on K. Rodrigues and Ruan Assis to generate chances\n- **Náutico's Derek leads the line** against a host-team defense that's been vulnerable but improving with recent wins over CRB\n- **Midfield battle** between Athletic's Ian Luccas and G. Cabezas versus Náutico's Wenderson and Juninho could set the tone\n\nExpected lineups:\n\n- **Athletic Club**: Luan Polli, Zeca, Jhonathan, G. Indio, M. Henrique, Ian Luccas, G. Cabezas, K. Rodrigues, Ruan Assis, R. Tavares, O. Otusanya\n- **Náutico**: Muriel, Yuri, Mateus Silva, Betão, M. Ribeiro, Wenderson, Juninho, Vinícius, Dodô, F. Saraiva, Derek\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction: **Athletic Club 2–1 Náutico** — slight home edge with both teams capable of finding the net once. ⚽",
-        "generated_at": "2026-04-26T22:45:23.381587+00:00"
+        "text": "**Al-Shabab's home comfort against a struggling Al-Fateh — the Riyadh club should be licking their lips here** 🎯 The hosts have won their last two at the SHG Arena and won't be intimidated by visitors stuck in a rut.\n\nAl-Shabab's form is solid: three draws mixed with a win and a loss over five games. Al-Fateh, meanwhile, are wobbling badly—just one win in their last five with three losses, including back-to-back defeats to Al-Okhdood and Al-Hilal. History tilts toward Shabab too, who beat Fateh in their last head-to-head.\n\nKey storylines:\n\n- **Al-Shabab's midfield engine** anchored by J. Brownhill and V. Sierro should control the tempo against a leaky Al-Fateh setup\n- **C. Junior and Y. Carrasco** attacking the wings could expose Al-Fateh's struggling backline, with J. Fernandes and M. Saadane vulnerable\n- **A. Hamdallah** leads Shabab's charge up front and should find space in a Fateh defense that's conceded in three straight\n\nExpected lineups:\n\n- **Al-Shabab**: M. Grohe, S. Y. Balobaid, W. Hoedt, A. Albulayhi, M. Al-Thani, J. Brownhill, V. Sierro, Y. Carrasco, Y. Adli, C. Junior, A. Hamdallah\n- **Al-Fateh**: F. Pacheco, M. Saadane, J. Fernandes, A. Alswealem, S. Baattia, Z. Youssef, S. Bendebka, M. Vargas, A. Al-Anazi, F. Zubaidi, F. A. Abdulwahed\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Al-Shabab 2–0 Al-Fateh** — a routine home win with the slight edge firmly on the hosts.",
+        "generated_at": "2026-04-27T16:45:18.966900+00:00"
       }
     },
     "prediction": {
@@ -367,11 +239,11 @@
           "country": "Algeria",
           "profile": "balanced",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.5583776614853257,
+          "pressing_intensity": 0.5542967787606609,
           "defensive_line": "mid",
           "top_styles": [
-            "park_the_bus",
-            "no_midfield"
+            "no_midfield",
+            "park_the_bus"
           ]
         },
         "away_coach": {
@@ -381,11 +253,11 @@
           "country": "Portugal",
           "profile": "balanced",
           "preferred_formation": "3-4-1-2",
-          "pressing_intensity": 0.9277351152339717,
+          "pressing_intensity": 0.8653567985381734,
           "defensive_line": "mid",
           "top_styles": [
             "gegenpressing",
-            "high_press"
+            "low_counter"
           ]
         },
         "unavailable_players": null,
