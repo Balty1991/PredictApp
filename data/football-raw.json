@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T14:15:10.377Z",
+  "generatedAt": "2026-04-29T16:15:18.827Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -55,13 +55,13 @@
       "round_number": 27,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "status": "2nd_half",
+      "home_score": 1,
+      "away_score": 2,
+      "home_score_ht": 1,
+      "away_score_ht": 1,
+      "current_minute": 81,
+      "period": "2T",
       "odds_home": 1.51,
       "odds_draw": 3.8,
       "odds_away": 8.2,
@@ -111,46 +111,65 @@
       }
     },
     "prediction": {
-      "id": 3255,
+      "id": 3204,
       "event": {
-        "id": 204694,
+        "id": 4787,
         "league": {
-          "id": 47,
-          "name": "Tunisian Ligue Professionnelle 1",
-          "country": "Tunisia",
+          "id": 17,
+          "name": "Saudi Pro League",
+          "country": "Saudi Arabia",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 339,
+            "name": "Saudi Pro League 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
-        "season": null,
-        "home_team": "US Monastir",
-        "away_team": "Avenir Sportif De Gabes",
+        "season": {
+          "id": 339,
+          "name": "Saudi Pro League 25/26",
+          "year": 2025
+        },
+        "home_team": "Al-Nassr",
+        "away_team": "Al-Ahli",
         "home_team_obj": {
-          "id": 602,
-          "name": "US Monastir",
-          "short_name": "Monastir",
-          "country": "Tunisia",
+          "id": 267,
+          "name": "Al-Nassr",
+          "short_name": "Al-Nassr",
+          "country": "Saudi Arabia",
           "coach": {
-            "name": "Tareq Jaraya",
-            "shortName": "T. Jaraya"
+            "name": "Jorge Jesus",
+            "shortName": "J. Jesus"
           },
           "venue": {
-            "id": 479,
-            "name": "Stade Mustapha Ben Jannet",
-            "city": "Monastir",
-            "country": "Tunisia",
-            "capacity": 20000
+            "id": 256,
+            "name": "Al-Awwal Park",
+            "city": "Riyadh",
+            "country": "Saudi Arabia",
+            "capacity": 25000
           }
         },
         "away_team_obj": {
-          "id": 1898,
-          "name": "Avenir Sportif De Gabes",
-          "short_name": "AS Gabès",
-          "country": "Tunisia",
-          "coach": null,
-          "venue": null
+          "id": 258,
+          "name": "Al-Ahli",
+          "short_name": "Al-Ahli",
+          "country": "Saudi Arabia",
+          "coach": {
+            "name": "Matthias Jaissle",
+            "shortName": "M. Jaissle"
+          },
+          "venue": {
+            "id": 248,
+            "name": "Alinma Stadium",
+            "city": "Jeddah",
+            "country": "Saudi Arabia",
+            "capacity": 64200
+          }
         },
-        "event_date": "2026-04-29T18:30:00+04:00",
-        "round_number": 27,
+        "event_date": "2026-04-29T22:00:00+04:00",
+        "round_number": 30,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -160,17 +179,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.36,
-        "odds_draw": 4.5,
-        "odds_away": 12.2,
-        "odds_over_15": 1.47,
-        "odds_over_25": 2.38,
-        "odds_over_35": 4.5,
-        "odds_under_15": 2.875,
-        "odds_under_25": 1.615,
-        "odds_under_35": 1.222,
-        "odds_btts_yes": 3.04,
-        "odds_btts_no": 1.37,
+        "odds_home": 1.77,
+        "odds_draw": 4.3,
+        "odds_away": 4.2,
+        "odds_over_15": 1.18,
+        "odds_over_25": 1.54,
+        "odds_over_35": 2.3,
+        "odds_under_15": 5.5,
+        "odds_under_25": 2.55,
+        "odds_under_35": 1.632,
+        "odds_btts_yes": 1.55,
+        "odds_btts_no": 2.48,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -178,7 +197,7 @@
         "penalty_shootout": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 221,
+        "travel_distance_km": 832,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -186,29 +205,45 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 681,
-          "name": "Tareq Jaraya",
-          "short_name": "T. Jaraya",
-          "country": "Tunisia",
-          "profile": "defensive",
+          "id": 197,
+          "name": "Jorge Jesus",
+          "short_name": "J. Jesus",
+          "country": "Portugal",
+          "profile": "attacking",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.7015110024568897,
+          "defensive_line": "low",
+          "top_styles": [
+            "false_9",
+            "heritage"
+          ]
         },
-        "away_coach": null,
+        "away_coach": {
+          "id": 281,
+          "name": "Matthias Jaissle",
+          "short_name": "M. Jaissle",
+          "country": "Germany",
+          "profile": "attacking",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.7516931105484175,
+          "defensive_line": "mid",
+          "top_styles": [
+            "low_block",
+            "counter"
+          ]
+        },
         "unavailable_players": null,
         "venue": {
-          "id": 479,
-          "name": "Stade Mustapha Ben Jannet",
-          "city": "Monastir",
-          "country": "Tunisia",
-          "capacity": 20000,
-          "latitude": null,
-          "longitude": null,
+          "id": 256,
+          "name": "Al-Awwal Park",
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "capacity": 25000,
+          "latitude": 24.729335,
+          "longitude": 46.623977,
           "pitch_x": null,
           "pitch_y": null,
-          "built_year": null
+          "built_year": 2015
         },
         "incidents": null,
         "live_stats": null,
@@ -220,73 +255,75 @@
         "jerseys": {
           "away": {
             "GK": {
+              "base": "c8c8ff",
+              "real": true,
+              "type": "long_sleeves",
+              "number": "ffffff",
+              "sleeve": "9696ff"
+            },
+            "player": {
               "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "ffffff"
-            },
-            "player": {
-              "base": "0033ff",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "000000"
+              "number": "00520e",
+              "sleeve": "017e21",
+              "sleevelong": "fcfcfc"
             }
           },
           "home": {
             "GK": {
-              "base": "efc131",
-              "real": false,
+              "base": "60c960",
+              "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
+              "number": "ffffff",
+              "sleeve": "00ff33"
             },
             "player": {
-              "base": "D8D8D8",
-              "real": false,
+              "base": "ffff00",
+              "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
+              "number": "000099",
+              "sleeve": "ffff00",
+              "sleevelong": "ffff00"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 1,
-            "sentence": "Monastir haven't won in their last 4 games."
+            "type_id": 24,
+            "sentence": "Al Nassr's home record this season: 13-0-1."
           },
           {
-            "type_id": 1,
-            "sentence": "Gabes haven't won in their last 7 games."
+            "type_id": 25,
+            "sentence": "Cristiano Ronaldo is Al Nassr's top scorer with 24 goals. Ivan Toney has scored 27 times for Al Ahli Saudi."
           },
           {
-            "type_id": 2,
-            "sentence": "When playing at home, Monastir have not lost to Gabes in their last 3 encounters."
+            "type_id": 25,
+            "sentence": "Marcelo Brozovic has more yellow cards (7) than any other player at Al Nassr. Enzo Millot has collected 8 for Al Ahli Saudi."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Monastir hosting a struggling Gabes side in Tunisia's top flight — lean into the slow-burn vibes.** 🟡 Both teams are stuck in a defensive rut, so don't expect a goalfest Wednesday afternoon.\n\nMonastir's mixed form (1W-3D-1L) has them leaning on draws and the occasional shutout at home, though they got battered 0-2 away to Ben Guerdane last time. Gabes are in free fall — three losses in their last five with only draws to show for it, and they've shipped goals against every big side they've faced.\n\nKey storylines:\n\n- **US Monastir** holding serve at home but struggling for killer instinct in attack\n- **Avenir Sportif De Gabes** on a rough patch, winless in five with defense looking shaky\n- Both teams will likely sit deep; this screams low-scoring territory\n\nExpected lineups:\n\n- **US Monastir**: A. Slimene, A. B. Mohamed, M. Miladi, R. Chikhaoui, Y. Herch, A. Yaakoubi, C. E. Djebali, M. Ganouni\n- **Avenir Sportif De Gabes**: A. Chouaya, N. Helali, R. Yaakoubi, F. B. Ammar, M. Bidani, H. Jmal, M. A. Belghith, H. Teka\n\nBest picks:\n\n- **Total Goals 2.5**: Under 2.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction: **1-0 Monastir**. Coin flip edge; lean slight home advantage in a defensive slog. 📍",
-          "generated_at": "2026-04-28T14:45:38.549098+00:00"
+          "text": "**Al-Nassr are absolutely rolling** — five straight wins and they're hosting a wounded Al-Ahli side that just dropped 3 at home to Al-Qadsiah. This is a clash of momentum titans 🔥\n\nAl-Nassr's offensive firepower is relentless. Al-Ahli have been shaky defensively, especially away, and they'll need to steady the ship. The Saudi title race is heating up and this fixture could be a statement moment.\n\nKey storylines:\n\n- **Al-Nassr's perfect run** keeps them in the mix; they've scored 5+ goals in one of their last three matches\n- **Al-Ahli's recent wobble** — one loss, one draw in their last two outings means they can't afford another slip\n- **Ronaldo and R. Mahrez** will be the focal points for their respective attacks in what promises to be an open affair\n\nExpected lineups:\n\n- **Al-Nassr**: Bento, J. Félix, M. Simakan, A. Al-Amri, N. Boushal, S. Mane, M. Brozovic, K. Coman, C. Ronaldo, A. Al-Hamdan\n- **Al-Ahli**: E. Mendy, Z. Hawsawi, R. Ibañez, A. Majrashi, Z. Aljohani, F. Kessie, W. Galeno, I. Toney, R. Mahrez\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Al-Nassr 2–1 Al-Ahli**. The model favors Al-Nassr and their form is just too hot to fade right now 📈",
+          "generated_at": "2026-04-28T18:45:25.983793+00:00"
         }
       },
-      "created_at": "2026-04-24T06:20:31.915412+04:00",
-      "prob_home_win": 34.66131913014057,
-      "prob_draw": 33.4405514469369,
-      "prob_away_win": 31.898129422922523,
+      "created_at": "2026-04-23T06:20:14.544373+04:00",
+      "prob_home_win": 57.425907397205336,
+      "prob_draw": 21.51691157206104,
+      "prob_away_win": 21.057181030733624,
       "predicted_result": "H",
-      "expected_home_goals": 0.8999999999999999,
-      "expected_away_goals": 0.8500000000000001,
-      "prob_over_15": 22.390319879780403,
-      "prob_over_25": 16.694000827323748,
-      "prob_over_35": 13.304049635358137,
-      "prob_btts_yes": 16.897695600626648,
-      "confidence": 34.66131913014057,
+      "expected_home_goals": 1.99464,
+      "expected_away_goals": 1.12701,
+      "prob_over_15": 79.39002778549113,
+      "prob_over_25": 47.36542176564626,
+      "prob_over_35": 44.46352225987539,
+      "prob_btts_yes": 45.738667809439846,
+      "confidence": 57.425907397205336,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 34.66131913014057,
+      "favorite_prob": 57.425907397205336,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
