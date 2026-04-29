@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T16:15:18.827Z",
+  "generatedAt": "2026-04-29T17:58:38.389Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,93 +21,327 @@
   ],
   "samples": {
     "event": {
-      "id": 204691,
+      "id": 4789,
       "league": {
-        "id": 47,
-        "name": "Tunisian Ligue Professionnelle 1",
-        "country": "Tunisia",
+        "id": 17,
+        "name": "Saudi Pro League",
+        "country": "Saudi Arabia",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 339,
+          "name": "Saudi Pro League 25/26",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
+        }
       },
-      "season": null,
-      "home_team": "Stade Tunisien",
-      "away_team": "JS Omrane",
+      "season": {
+        "id": 339,
+        "name": "Saudi Pro League 25/26",
+        "year": 2025
+      },
+      "home_team": "Al-Riyadh",
+      "away_team": "Al-Qadsiah",
       "home_team_obj": {
-        "id": 1911,
-        "name": "Stade Tunisien",
-        "short_name": "S. Tunisien",
-        "country": "Tunisia",
-        "coach": null,
-        "venue": null
+        "id": 263,
+        "name": "Al-Riyadh",
+        "short_name": "Al-Riyadh",
+        "country": "Saudi Arabia",
+        "coach": {
+          "name": "Maurício Dulac",
+          "shortName": "M. Dulac"
+        },
+        "venue": {
+          "id": 252,
+          "name": "Prince Turki bin Abdul Aziz Stadium",
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "capacity": 15000
+        }
       },
       "away_team_obj": {
-        "id": 1907,
-        "name": "JS Omrane",
-        "short_name": "JS Omrane",
-        "country": "Tunisia",
+        "id": 272,
+        "name": "Al-Qadsiah",
+        "short_name": "Al-Qadsiah",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Amine Beji",
-          "shortName": "A. Beji"
+          "name": "Brendan Rodgers",
+          "shortName": "B. Rodgers"
         },
-        "venue": null
+        "venue": {
+          "id": 260,
+          "name": "Prince Saud bin Jalawi Stadium",
+          "city": "Khobar",
+          "country": "Saudi Arabia",
+          "capacity": 15000
+        }
       },
-      "event_date": "2026-04-29T17:30:00+04:00",
-      "round_number": 27,
+      "event_date": "2026-04-29T20:00:00+04:00",
+      "round_number": 30,
       "round_name": "",
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 1,
-      "away_score": 2,
-      "home_score_ht": 1,
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 4,
+      "home_score_ht": 0,
       "away_score_ht": 1,
-      "current_minute": 81,
-      "period": "2T",
-      "odds_home": 1.51,
-      "odds_draw": 3.8,
-      "odds_away": 8.2,
-      "odds_over_15": 1.55,
-      "odds_over_25": 2.65,
-      "odds_over_35": 5.25,
-      "odds_under_15": 2.5,
-      "odds_under_25": 1.48,
-      "odds_under_35": 1.167,
-      "odds_btts_yes": 2.9,
-      "odds_btts_no": 1.43,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 6.25,
+      "odds_draw": 4.99,
+      "odds_away": 1.5,
+      "odds_over_15": 1.16,
+      "odds_over_25": 1.48,
+      "odds_over_35": 2.2,
+      "odds_under_15": 6,
+      "odds_under_25": 2.7,
+      "odds_under_35": 1.7,
+      "odds_btts_yes": 1.613,
+      "odds_btts_no": 2.311,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 1.05,
+      "away_xg_live": 4.6,
       "penalty_shootout": null,
-      "is_local_derby": null,
+      "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": null,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
-      "referee": null,
-      "home_coach": null,
+      "referee": {
+        "id": 162,
+        "name": "Branco Godinho, Luis Miguel",
+        "country": "Portugal",
+        "nationality_a3": "PRT",
+        "birthdate": "1992-12-17",
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": null,
+        "career_yellow_cards": null,
+        "career_red_cards": null
+      },
+      "home_coach": {
+        "id": 431,
+        "name": "Maurício Dulac",
+        "short_name": "M. Dulac",
+        "country": "Brazil",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.2880882135793349,
+        "defensive_line": "mid",
+        "top_styles": [
+          "cross_pray",
+          "terrorist_fb"
+        ]
+      },
       "away_coach": {
-        "id": 1269,
-        "name": "Amine Beji",
-        "short_name": "A. Beji",
-        "country": "Tunisia",
-        "profile": "defensive",
-        "preferred_formation": "3-5-2",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 434,
+        "name": "Brendan Rodgers",
+        "short_name": "B. Rodgers",
+        "country": "Northern Ireland",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.6838320030329759,
+        "defensive_line": "mid",
+        "top_styles": [
+          "wing_play",
+          "heritage"
+        ]
       },
       "unavailable_players": null,
-      "venue": null,
-      "live_stats": null,
-      "jerseys": null,
-      "funfacts": null,
-      "sr_stats": null,
+      "venue": {
+        "id": 252,
+        "name": "Prince Turki bin Abdul Aziz Stadium",
+        "city": "Riyadh",
+        "country": "Saudi Arabia",
+        "capacity": 15000,
+        "latitude": 24.6475,
+        "longitude": 46.550556,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
+      "live_stats": {
+        "away": {
+          "duels": 60,
+          "fouls": 8,
+          "passes": 626,
+          "crosses": "10/25 (40%)",
+          "punches": 1,
+          "tackles": 15,
+          "dribbles": "6/9 (67%)",
+          "offsides": 4,
+          "big_saves": 0,
+          "throw_ins": 23,
+          "clearances": 16,
+          "free_kicks": 16,
+          "goal_kicks": 7,
+          "long_balls": "37/52 (71%)",
+          "recoveries": 57,
+          "big_chances": 6,
+          "high_claims": 0,
+          "tackles_won": 60,
+          "total_saves": 1,
+          "total_shots": 24,
+          "aerial_duels": "8/13 (62%)",
+          "corner_kicks": 11,
+          "dispossessed": 7,
+          "ground_duels": "35/57 (61%)",
+          "hit_woodwork": 0,
+          "yellow_cards": 1,
+          "blocked_shots": 8,
+          "interceptions": 3,
+          "through_balls": 2,
+          "total_tackles": 15,
+          "expected_goals": 3.97,
+          "accurate_passes": 555,
+          "ball_possession": 67,
+          "goals_prevented": 0.19,
+          "shots_on_target": 9,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 19,
+          "shots_off_target": 7,
+          "final_third_phase": "173/216 (80%)",
+          "shots_outside_box": 5,
+          "big_chances_missed": 3,
+          "big_chances_scored": 3,
+          "final_third_entries": 77,
+          "errors_lead_to_a_shot": 0,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 56
+        },
+        "home": {
+          "duels": 40,
+          "fouls": 16,
+          "passes": 299,
+          "crosses": "3/11 (27%)",
+          "punches": 0,
+          "tackles": 10,
+          "dribbles": "4/13 (31%)",
+          "offsides": 0,
+          "big_saves": 2,
+          "throw_ins": 11,
+          "clearances": 19,
+          "free_kicks": 8,
+          "goal_kicks": 14,
+          "long_balls": "36/71 (51%)",
+          "recoveries": 47,
+          "big_chances": 0,
+          "high_claims": 1,
+          "tackles_won": 50,
+          "total_saves": 5,
+          "total_shots": 8,
+          "aerial_duels": "6/13 (46%)",
+          "corner_kicks": 3,
+          "dispossessed": 6,
+          "ground_duels": "22/57 (39%)",
+          "hit_woodwork": 1,
+          "yellow_cards": 2,
+          "blocked_shots": 2,
+          "interceptions": 11,
+          "through_balls": 0,
+          "total_tackles": 10,
+          "expected_goals": 1.05,
+          "accurate_passes": 227,
+          "ball_possession": 33,
+          "goals_prevented": 0.27,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 5,
+          "shots_inside_box": 7,
+          "shots_off_target": 5,
+          "final_third_phase": "33/61 (54%)",
+          "shots_outside_box": 1,
+          "big_chances_missed": 0,
+          "big_chances_scored": 0,
+          "final_third_entries": 40,
+          "errors_lead_to_a_shot": 1,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 15
+        }
+      },
+      "jerseys": {
+        "away": {
+          "GK": {
+            "base": "18e24a",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "999999"
+          },
+          "player": {
+            "base": "f72d39",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "f72d39",
+            "sleevelong": "f72d39"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "9696ff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "9696ff"
+          },
+          "player": {
+            "base": "ff0000",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000000",
+            "sleevelong": "000000",
+            "horizontalstripes": "000000"
+          }
+        }
+      },
+      "funfacts": [
+        {
+          "type_id": 25,
+          "sentence": "Mamadou Sylla is Al-Riyadh's top scorer with 8 goals. Julian Quinones has scored 26 times for Al Qadsiah."
+        },
+        {
+          "type_id": 25,
+          "sentence": "Mohammed Al-Kaibari has more yellow cards (7) than any other player at Al-Riyadh. Nahitan Nandez has collected 7 for Al Qadsiah."
+        },
+        {
+          "type_id": 23,
+          "sentence": "Last season's matches: 2-1 (Al-Riyadh at home) and 1-0 (Al Qadsiah at home)."
+        }
+      ],
+      "sr_stats": {
+        "attack": {
+          "away": 101,
+          "home": 69
+        },
+        "ball_safe": {
+          "away": 68,
+          "home": 82
+        },
+        "attack_pct": {
+          "away": 28,
+          "home": 30
+        },
+        "ball_safe_pct": {
+          "away": 24,
+          "home": 44
+        },
+        "dangerous_attack": {
+          "away": 62,
+          "home": 21
+        },
+        "dangerous_attack_pct": {
+          "away": 48,
+          "home": 26
+        }
+      },
       "ai_preview": {
-        "text": "**Stade Tunisien's draw machine meets JS Omrane's hot-and-cold streak** — one team can't stop tying, the other can't find consistency. This shapes up as a low-key midweek affair in Tunisia's top flight. ⚽\n\nStade Tunisien's last five have been a snoozefest: four draws and a loss, zero wins. JS Omrane flipped the script with back-to-back victories, but promptly lost twice. The hosts edge this on form, but neither side screams \"let's score goals.\"\n\nKey storylines:\n\n- **Stade Tunisien** desperately needs a W to snap the draw curse, while **JS Omrane** are hunting revenge after a rough patch\n- **P. A. Diop** and the Stade attack will test **O. Hanzouli** and a compact Omrane defense\n- Midfield control via **A. Saihi** and **B. Camara** could unlock a cagey contest\n\nExpected lineups:\n\n- **Stade Tunisien**: A. Dkhili, M. Jelassi, M. Sahraoui, M. I. Riahi, S. Sghaier, A. Saihi, B. Camara, P. A. Diop\n- **JS Omrane**: O. Hanzouli, K. Othmani, M. Souissi, O. Zouaghi, H. Kouki, S. Hammami, A. C. Chinonso, A. B. Amor\n\nBest picks:\n\n- **Total Goals Under 2.5**: Under 2.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction: **Stade Tunisien 1–0 JS Omrane**. Slight lean to the hosts edging this tight, low-scoring clash. 🎯",
-        "generated_at": "2026-04-28T13:45:26.450459+00:00"
+        "text": "**Al-Riyadh hosting Al-Qadsiah in a mid-table Saudi Pro League clash** — nothing screams urgency, but both sides are hunting consistency. 🏆\n\nAl-Riyadh's form is choppy: two wins sandwiched around draws and losses. Al-Qadsiah, meanwhile, have been steadier (2W 2D 1L), with recent draws showing defensive solidity. Head-to-head? Al-Qadsiah took the last meeting, which gives them psychological edge here.\n\nKey storylines:\n\n- **Al-Riyadh's attacking trio** of Tozé, E. Sali, and L. Antunes will need to click if they're going to break down an organized Al-Qadsiah back three anchored by G. Álvarez and N. Fernández.\n- **Al-Qadsiah's midfield stability** through J. Weigl and N. Nandez could control tempo — both sides have won recent matches, so the battle in the middle will decide this.\n- **M. Retegui up front** remains a constant threat for the visitors, fresh off competitive action.\n\nExpected lineups:\n\n- **Al-Riyadh**: M. Borjan, M. Al-Khaibari, S. Gonzalez, Y. Barbet, V. Lekhal, T. Okou, Tozé, E. Sali\n- **Al-Qadsiah**: K. Casteels, N. Fernández, G. Álvarez, J. Weigl, N. Nandez, J. Quiñones, M. Retegui\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**1-1 draw** leans slightly away, but Al-Qadsiah's recent poise edges them here. 🤝",
+        "generated_at": "2026-04-28T16:45:26.050619+00:00"
       }
     },
     "prediction": {
@@ -173,8 +407,8 @@
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
-        "home_score": null,
-        "away_score": null,
+        "home_score": 0,
+        "away_score": 0,
         "home_score_ht": null,
         "away_score_ht": null,
         "current_minute": null,
@@ -198,12 +432,23 @@
         "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": 832,
-        "weather_code": null,
+        "weather_code": 2,
         "wind_speed": null,
         "temperature_c": null,
-        "pitch_condition": null,
+        "pitch_condition": 1,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 122,
+          "name": "Lambrechts, Erik",
+          "country": "Belgium",
+          "nationality_a3": "BEL",
+          "birthdate": "1984-09-17",
+          "yellowCards": 0,
+          "redCards": 0,
+          "career_games": null,
+          "career_yellow_cards": null,
+          "career_red_cards": null
+        },
         "home_coach": {
           "id": 197,
           "name": "Jorge Jesus",
@@ -247,7 +492,792 @@
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "E. Mendy",
+                "goals": 0,
+                "api_id": 845074,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 8110,
+                "yellow_card": false,
+                "jersey_number": "16",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "A. Majrashi",
+                "goals": 0,
+                "api_id": 917035,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8111,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "M. Demiral",
+                "goals": 0,
+                "api_id": 806968,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8112,
+                "yellow_card": false,
+                "jersey_number": "28",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "R. Ibañez",
+                "goals": 0,
+                "api_id": 888949,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8113,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "Z. Hawsawi",
+                "goals": 0,
+                "api_id": 1398854,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8125,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "V. A. Edoa",
+                "goals": 0,
+                "api_id": 1154611,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8115,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "Z. Aljohani",
+                "goals": 0,
+                "api_id": 1048372,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8118,
+                "yellow_card": false,
+                "jersey_number": "30",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "F. Kessié",
+                "goals": 0,
+                "api_id": 359226,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8117,
+                "yellow_card": false,
+                "jersey_number": "79",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "R. Mahrez",
+                "goals": 0,
+                "api_id": 158213,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8116,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
+              },
+              {
+                "name": "I. Toney",
+                "goals": 0,
+                "api_id": 290927,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8120,
+                "yellow_card": false,
+                "jersey_number": "17",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "W. Galeno",
+                "goals": 0,
+                "api_id": 845754,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8119,
+                "yellow_card": false,
+                "jersey_number": "13",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW"
+                ]
+              }
+            ],
+            "formation": "4-3-3",
+            "substitutes": [
+              {
+                "name": "A. A. Sanbi",
+                "goals": 0,
+                "api_id": 1066728,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 8124,
+                "yellow_card": false,
+                "jersey_number": "1",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "Y. Madani",
+                "goals": 0,
+                "api_id": 1928081,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8126,
+                "yellow_card": false,
+                "jersey_number": "60",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "R. Hamed",
+                "goals": 0,
+                "api_id": 1429251,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8304,
+                "yellow_card": false,
+                "jersey_number": "46",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "M. Abdulrahman",
+                "goals": 0,
+                "api_id": 1133141,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8123,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "M. Bakor",
+                "goals": 0,
+                "api_id": 1854314,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8114,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "S. Aboulshamat",
+                "goals": 0,
+                "api_id": 1429250,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8128,
+                "yellow_card": false,
+                "jersey_number": "47",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "E. A. Muwallad",
+                "goals": 0,
+                "api_id": 1521467,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8121,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM"
+                ]
+              },
+              {
+                "name": "S. Abdullah",
+                "goals": 0,
+                "api_id": 2111236,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 21330,
+                "yellow_card": false,
+                "jersey_number": "49",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "F. Al-Buraikan",
+                "goals": 0,
+                "api_id": 893307,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8122,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ]
+          },
+          "home": {
+            "players": [
+              {
+                "name": "Bento",
+                "goals": 0,
+                "api_id": 1016104,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 8321,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "N. Boushal",
+                "goals": 0,
+                "api_id": 986400,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7882,
+                "yellow_card": false,
+                "jersey_number": "12",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "LB"
+                ]
+              },
+              {
+                "name": "M. Simakan",
+                "goals": 0,
+                "api_id": 945063,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7873,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "A. Al-Amri",
+                "goals": 0,
+                "api_id": 881831,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7886,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "I. Martínez",
+                "goals": 0,
+                "api_id": 173883,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7874,
+                "yellow_card": false,
+                "jersey_number": "26",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "K. Coman",
+                "goals": 0,
+                "api_id": 280441,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8245,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "RW",
+                  "RM"
+                ]
+              },
+              {
+                "name": "A. Al-Khaibari",
+                "goals": 0,
+                "api_id": 867179,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7883,
+                "yellow_card": false,
+                "jersey_number": "17",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. Brozović",
+                "goals": 0,
+                "api_id": 108800,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7878,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "S. Mané",
+                "goals": 0,
+                "api_id": 217704,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7879,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "LM"
+                ]
+              },
+              {
+                "name": "J. Félix",
+                "goals": 0,
+                "api_id": 851671,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 7881,
+                "yellow_card": false,
+                "jersey_number": "79",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM",
+                  "LW",
+                  "ST"
+                ]
+              },
+              {
+                "name": "C. Ronaldo",
+                "goals": 0,
+                "api_id": 750,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 7880,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ],
+            "formation": "4-4-2",
+            "substitutes": [
+              {
+                "name": "A. Al-Otaibi",
+                "goals": 0,
+                "api_id": 2111193,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": null,
+                "yellow_card": false,
+                "jersey_number": "53",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Al-Ghannam",
+                "goals": 0,
+                "api_id": 830126,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7872,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "S. Al-Nasser",
+                "goals": 0,
+                "api_id": 1118494,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8332,
+                "yellow_card": false,
+                "jersey_number": "96",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "S. Alnajdi",
+                "goals": 0,
+                "api_id": 1475427,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 7885,
+                "yellow_card": false,
+                "jersey_number": "83",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "N. A. Sharari",
+                "goals": 0,
+                "api_id": 923040,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8247,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "RB"
+                ]
+              },
+              {
+                "name": "A. Yahya",
+                "goals": 0,
+                "api_id": 1130539,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7875,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW",
+                  "LB"
+                ]
+              },
+              {
+                "name": "A. Al-Hassan",
+                "goals": 0,
+                "api_id": 925947,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7884,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "A. Ghareeb",
+                "goals": 0,
+                "api_id": 1014447,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8246,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW"
+                ]
+              },
+              {
+                "name": "A. Al-Hamdan",
+                "goals": 0,
+                "api_id": 915991,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8256,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST",
+                  "AM"
+                ]
+              }
+            ]
+          },
+          "confirmed": true
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
