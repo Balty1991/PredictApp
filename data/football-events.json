@@ -1,65 +1,10 @@
 {
-  "generatedAt": "2026-04-29T01:19:59.495Z",
+  "generatedAt": "2026-04-29T04:56:49.429Z",
   "count": 50,
   "items": [
     {
-      "id": 9396,
-      "status": "2nd_half",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Universidad Central",
-      "awayTeam": "Rosario Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9284,
-      "status": "2nd_half",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Barracas Central",
-      "awayTeam": "Audax Italiano",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9397,
-      "status": "1st_half",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Cruzeiro",
-      "awayTeam": "Boca Juniors",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9285,
-      "status": "halftime",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Millonarios",
-      "awayTeam": "São Paulo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9282,
-      "status": "1st_half",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Recoleta FC",
-      "awayTeam": "Deportivo Cuenca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9399,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Club Sporting Cristal",
@@ -69,19 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 9287,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "O'Higgins",
-      "awayTeam": "Boston River",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9398,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Deportes Tolima",
@@ -91,23 +25,34 @@
       "marketCount": 0
     },
     {
-      "id": 204844,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Shimizu S-Pulse",
-      "awayTeam": "V-Varen Nagasaki",
+      "id": 9287,
+      "status": "finished",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "O'Higgins",
+      "awayTeam": "Boston River",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
       "id": 204843,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Tokyo Verdy",
       "awayTeam": "Kashima Antlers",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204844,
+      "status": "halftime",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Shimizu S-Pulse",
+      "awayTeam": "V-Varen Nagasaki",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 204852,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Mito Hollyhock",
-      "awayTeam": "Machida Zelvia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204851,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Kashiwa Reysol",
       "awayTeam": "FC Tokyo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204852,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Mito Hollyhock",
+      "awayTeam": "Machida Zelvia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +157,12 @@
       "marketCount": 0
     },
     {
-      "id": 204693,
+      "id": 204692,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "ES Métlaoui",
-      "awayTeam": "Etoile Sportive Du Sahel",
+      "homeTeam": "AS Soliman",
+      "awayTeam": "Club Africain",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,12 +179,12 @@
       "marketCount": 0
     },
     {
-      "id": 204692,
+      "id": 204693,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "AS Soliman",
-      "awayTeam": "Club Africain",
+      "homeTeam": "ES Métlaoui",
+      "awayTeam": "Etoile Sportive Du Sahel",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,12 +245,12 @@
       "marketCount": 0
     },
     {
-      "id": 9401,
+      "id": 9288,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Mirassol",
-      "awayTeam": "Club Always Ready",
+      "homeTeam": "Juventud de Las Piedras",
+      "awayTeam": "Academia Puerto Cabello",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -333,12 +278,12 @@
       "marketCount": 0
     },
     {
-      "id": 9288,
+      "id": 9401,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Juventud de Las Piedras",
-      "awayTeam": "Academia Puerto Cabello",
+      "homeTeam": "Mirassol",
+      "awayTeam": "Club Always Ready",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,12 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 9404,
+      "id": 9291,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Cerro Porteño",
-      "awayTeam": "Palmeiras",
+      "homeTeam": "Cienciano",
+      "awayTeam": "Atlético Mineiro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -399,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 9291,
+      "id": 9404,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Cienciano",
-      "awayTeam": "Atlético Mineiro",
+      "homeTeam": "Cerro Porteño",
+      "awayTeam": "Palmeiras",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -421,17 +366,6 @@
       "marketCount": 0
     },
     {
-      "id": 204697,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "JS Kairouanaise",
-      "awayTeam": "US Ben Guerdane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204695,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
@@ -443,12 +377,12 @@
       "marketCount": 0
     },
     {
-      "id": 204698,
+      "id": 204697,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "Olympique Béja",
-      "awayTeam": "CA Bizertin",
+      "homeTeam": "JS Kairouanaise",
+      "awayTeam": "US Ben Guerdane",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -460,6 +394,17 @@
       "country": "Tunisia",
       "homeTeam": "Espérance Tunis",
       "awayTeam": "CS Sfaxien",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204698,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "Olympique Béja",
+      "awayTeam": "CA Bizertin",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,6 +454,28 @@
       "marketCount": 0
     },
     {
+      "id": 9406,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Bolívar",
+      "awayTeam": "Fluminense",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9294,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Carabobo FC",
+      "awayTeam": "Blooming",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9407,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -531,23 +498,56 @@
       "marketCount": 0
     },
     {
-      "id": 9406,
+      "id": 9408,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Bolívar",
-      "awayTeam": "Fluminense",
+      "homeTeam": "Corinthians",
+      "awayTeam": "Peñarol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 9294,
+      "id": 9295,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Carabobo FC",
-      "awayTeam": "Blooming",
+      "homeTeam": "Tigre",
+      "awayTeam": "América de Cali",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9296,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Red Bull Bragantino",
+      "awayTeam": "River Plate",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9409,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Independiente Medellín",
+      "awayTeam": "Cusco FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9297,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Alianza Atlético de Sullana",
+      "awayTeam": "Macará",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
