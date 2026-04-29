@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T11:44:11.479Z",
+  "generatedAt": "2026-04-29T14:15:10.377Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -62,17 +62,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 1.54,
-      "odds_draw": 3.5,
-      "odds_away": 8.75,
-      "odds_over_15": 1.57,
-      "odds_over_25": 2.7,
+      "odds_home": 1.51,
+      "odds_draw": 3.8,
+      "odds_away": 8.2,
+      "odds_over_15": 1.55,
+      "odds_over_25": 2.65,
       "odds_over_35": 5.25,
-      "odds_under_15": 2.4,
-      "odds_under_25": 1.45,
+      "odds_under_15": 2.5,
+      "odds_under_25": 1.48,
       "odds_under_35": 1.167,
       "odds_btts_yes": 2.9,
-      "odds_btts_no": 1.42,
+      "odds_btts_no": 1.43,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -111,9 +111,9 @@
       }
     },
     "prediction": {
-      "id": 3253,
+      "id": 3255,
       "event": {
-        "id": 204691,
+        "id": 204694,
         "league": {
           "id": 47,
           "name": "Tunisian Ligue Professionnelle 1",
@@ -122,28 +122,34 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Stade Tunisien",
-        "away_team": "JS Omrane",
+        "home_team": "US Monastir",
+        "away_team": "Avenir Sportif De Gabes",
         "home_team_obj": {
-          "id": 1911,
-          "name": "Stade Tunisien",
-          "short_name": "S. Tunisien",
+          "id": 602,
+          "name": "US Monastir",
+          "short_name": "Monastir",
+          "country": "Tunisia",
+          "coach": {
+            "name": "Tareq Jaraya",
+            "shortName": "T. Jaraya"
+          },
+          "venue": {
+            "id": 479,
+            "name": "Stade Mustapha Ben Jannet",
+            "city": "Monastir",
+            "country": "Tunisia",
+            "capacity": 20000
+          }
+        },
+        "away_team_obj": {
+          "id": 1898,
+          "name": "Avenir Sportif De Gabes",
+          "short_name": "AS Gabès",
           "country": "Tunisia",
           "coach": null,
           "venue": null
         },
-        "away_team_obj": {
-          "id": 1907,
-          "name": "JS Omrane",
-          "short_name": "JS Omrane",
-          "country": "Tunisia",
-          "coach": {
-            "name": "Amine Beji",
-            "shortName": "A. Beji"
-          },
-          "venue": null
-        },
-        "event_date": "2026-04-29T17:30:00+04:00",
+        "event_date": "2026-04-29T18:30:00+04:00",
         "round_number": 27,
         "round_name": "",
         "group_name": null,
@@ -154,45 +160,56 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.54,
-        "odds_draw": 3.5,
-        "odds_away": 8.75,
-        "odds_over_15": 1.57,
-        "odds_over_25": 2.7,
-        "odds_over_35": 5.25,
-        "odds_under_15": 2.4,
-        "odds_under_25": 1.45,
-        "odds_under_35": 1.167,
-        "odds_btts_yes": 2.9,
-        "odds_btts_no": 1.42,
+        "odds_home": 1.36,
+        "odds_draw": 4.5,
+        "odds_away": 12.2,
+        "odds_over_15": 1.47,
+        "odds_over_25": 2.38,
+        "odds_over_35": 4.5,
+        "odds_under_15": 2.875,
+        "odds_under_25": 1.615,
+        "odds_under_35": 1.222,
+        "odds_btts_yes": 3.04,
+        "odds_btts_no": 1.37,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
+        "travel_distance_km": 221,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": null,
-        "home_coach": null,
-        "away_coach": {
-          "id": 1269,
-          "name": "Amine Beji",
-          "short_name": "A. Beji",
+        "home_coach": {
+          "id": 681,
+          "name": "Tareq Jaraya",
+          "short_name": "T. Jaraya",
           "country": "Tunisia",
           "profile": "defensive",
-          "preferred_formation": "3-5-2",
+          "preferred_formation": "4-4-2",
           "pressing_intensity": null,
           "defensive_line": "",
           "top_styles": []
         },
+        "away_coach": null,
         "unavailable_players": null,
-        "venue": null,
+        "venue": {
+          "id": 479,
+          "name": "Stade Mustapha Ben Jannet",
+          "city": "Monastir",
+          "country": "Tunisia",
+          "capacity": 20000,
+          "latitude": null,
+          "longitude": null,
+          "pitch_x": null,
+          "pitch_y": null,
+          "built_year": null
+        },
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -200,30 +217,76 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "ffffff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "ffffff"
+            },
+            "player": {
+              "base": "0033ff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "000000"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "efc131",
+              "real": false,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "333333"
+            },
+            "player": {
+              "base": "D8D8D8",
+              "real": false,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "D8D8D8"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Monastir haven't won in their last 4 games."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Gabes haven't won in their last 7 games."
+          },
+          {
+            "type_id": 2,
+            "sentence": "When playing at home, Monastir have not lost to Gabes in their last 3 encounters."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Stade Tunisien's draw machine meets JS Omrane's hot-and-cold streak** — one team can't stop tying, the other can't find consistency. This shapes up as a low-key midweek affair in Tunisia's top flight. ⚽\n\nStade Tunisien's last five have been a snoozefest: four draws and a loss, zero wins. JS Omrane flipped the script with back-to-back victories, but promptly lost twice. The hosts edge this on form, but neither side screams \"let's score goals.\"\n\nKey storylines:\n\n- **Stade Tunisien** desperately needs a W to snap the draw curse, while **JS Omrane** are hunting revenge after a rough patch\n- **P. A. Diop** and the Stade attack will test **O. Hanzouli** and a compact Omrane defense\n- Midfield control via **A. Saihi** and **B. Camara** could unlock a cagey contest\n\nExpected lineups:\n\n- **Stade Tunisien**: A. Dkhili, M. Jelassi, M. Sahraoui, M. I. Riahi, S. Sghaier, A. Saihi, B. Camara, P. A. Diop\n- **JS Omrane**: O. Hanzouli, K. Othmani, M. Souissi, O. Zouaghi, H. Kouki, S. Hammami, A. C. Chinonso, A. B. Amor\n\nBest picks:\n\n- **Total Goals Under 2.5**: Under 2.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction: **Stade Tunisien 1–0 JS Omrane**. Slight lean to the hosts edging this tight, low-scoring clash. 🎯",
-          "generated_at": "2026-04-28T13:45:26.450459+00:00"
+          "text": "**Monastir hosting a struggling Gabes side in Tunisia's top flight — lean into the slow-burn vibes.** 🟡 Both teams are stuck in a defensive rut, so don't expect a goalfest Wednesday afternoon.\n\nMonastir's mixed form (1W-3D-1L) has them leaning on draws and the occasional shutout at home, though they got battered 0-2 away to Ben Guerdane last time. Gabes are in free fall — three losses in their last five with only draws to show for it, and they've shipped goals against every big side they've faced.\n\nKey storylines:\n\n- **US Monastir** holding serve at home but struggling for killer instinct in attack\n- **Avenir Sportif De Gabes** on a rough patch, winless in five with defense looking shaky\n- Both teams will likely sit deep; this screams low-scoring territory\n\nExpected lineups:\n\n- **US Monastir**: A. Slimene, A. B. Mohamed, M. Miladi, R. Chikhaoui, Y. Herch, A. Yaakoubi, C. E. Djebali, M. Ganouni\n- **Avenir Sportif De Gabes**: A. Chouaya, N. Helali, R. Yaakoubi, F. B. Ammar, M. Bidani, H. Jmal, M. A. Belghith, H. Teka\n\nBest picks:\n\n- **Total Goals 2.5**: Under 2.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction: **1-0 Monastir**. Coin flip edge; lean slight home advantage in a defensive slog. 📍",
+          "generated_at": "2026-04-28T14:45:38.549098+00:00"
         }
       },
-      "created_at": "2026-04-24T06:20:30.670206+04:00",
-      "prob_home_win": 45.39315473878549,
-      "prob_draw": 29.998354382626058,
-      "prob_away_win": 24.608490878588444,
+      "created_at": "2026-04-24T06:20:31.915412+04:00",
+      "prob_home_win": 34.66131913014057,
+      "prob_draw": 33.4405514469369,
+      "prob_away_win": 31.898129422922523,
       "predicted_result": "H",
-      "expected_home_goals": 1.2,
-      "expected_away_goals": 0.8,
-      "prob_over_15": 11.236439163036776,
-      "prob_over_25": 16.58296277518494,
-      "prob_over_35": 13.178990619082759,
-      "prob_btts_yes": 18.914891021446415,
-      "confidence": 45.39315473878549,
+      "expected_home_goals": 0.8999999999999999,
+      "expected_away_goals": 0.8500000000000001,
+      "prob_over_15": 22.390319879780403,
+      "prob_over_25": 16.694000827323748,
+      "prob_over_35": 13.304049635358137,
+      "prob_btts_yes": 16.897695600626648,
+      "confidence": 34.66131913014057,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "0-0",
       "favorite": "H",
-      "favorite_prob": 45.39315473878549,
+      "favorite_prob": 34.66131913014057,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
