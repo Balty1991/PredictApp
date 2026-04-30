@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T04:12:11.978Z",
+  "generatedAt": "2026-04-30T07:10:06.239Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,332 +21,128 @@
   ],
   "samples": {
     "event": {
-      "id": 9405,
+      "id": 204695,
       "league": {
-        "id": 32,
-        "name": "Copa Libertadores",
-        "country": "South America",
+        "id": 47,
+        "name": "Tunisian Ligue Professionnelle 1",
+        "country": "Tunisia",
         "is_women": false,
-        "current_season": {
-          "id": 96,
-          "name": "CONMEBOL Libertadores 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 96,
-        "name": "CONMEBOL Libertadores 2026",
-        "year": 2026
-      },
-      "home_team": "Universitario de Deportes",
-      "away_team": "Nacional",
+      "season": null,
+      "home_team": "Avenir Sportif De La Marsa",
+      "away_team": "ES Zarzis",
       "home_team_obj": {
-        "id": 782,
-        "name": "Universitario de Deportes",
-        "short_name": "Universitario",
-        "country": "Peru",
-        "coach": {
-          "name": "Jorge Araujo",
-          "shortName": "J. Araujo"
-        },
-        "venue": {
-          "id": 581,
-          "name": "Estadio Monumental",
-          "city": "Lima",
-          "country": "Peru",
-          "capacity": 80093
-        }
+        "id": 1900,
+        "name": "Avenir Sportif De La Marsa",
+        "short_name": "Marsa",
+        "country": "Tunisia",
+        "coach": null,
+        "venue": null
       },
       "away_team_obj": {
-        "id": 784,
-        "name": "Nacional",
-        "short_name": "Nacional",
-        "country": "Uruguay",
-        "coach": {
-          "name": "Jorge Bava",
-          "shortName": "J. Bava"
-        },
-        "venue": {
-          "id": 583,
-          "name": "Gran Parque Central",
-          "city": "Montevideo",
-          "country": "Uruguay",
-          "capacity": 37000
-        }
+        "id": 1906,
+        "name": "ES Zarzis",
+        "short_name": "Zarzis",
+        "country": "Tunisia",
+        "coach": null,
+        "venue": null
       },
-      "event_date": "2026-04-30T06:00:00+04:00",
-      "round_number": 3,
+      "event_date": "2026-04-30T18:30:00+04:00",
+      "round_number": 27,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 4,
-      "away_score": 2,
-      "home_score_ht": 2,
-      "away_score_ht": 1,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 2.45,
-      "odds_draw": 3.1,
-      "odds_away": 3.4,
-      "odds_over_15": 1.54,
-      "odds_over_25": 2.55,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 2.37,
+      "odds_draw": 3,
+      "odds_away": 3.2,
+      "odds_over_15": 1.55,
+      "odds_over_25": 2.62,
       "odds_over_35": 5,
-      "odds_under_15": 2.66,
-      "odds_under_25": 1.55,
-      "odds_under_35": 1.2,
-      "odds_btts_yes": 2.1,
-      "odds_btts_no": 1.76,
+      "odds_under_15": 2.4,
+      "odds_under_25": 1.47,
+      "odds_under_35": 1.16,
+      "odds_btts_yes": 2.18,
+      "odds_btts_no": 1.65,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 2.17,
-      "away_xg_live": 1.43,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
-      "weather_code": 2,
+      "travel_distance_km": 384,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 227,
-        "name": "Benitez, Carlos P.",
-        "country": "Paraguay",
-        "nationality_a3": "PRY",
-        "birthdate": null,
-        "yellowCards": 0,
-        "redCards": 0,
-        "career_games": null,
-        "career_yellow_cards": null,
-        "career_red_cards": null
-      },
-      "home_coach": {
-        "id": 1363,
-        "name": "Jorge Araujo",
-        "short_name": "J. Araujo",
-        "country": "Peru",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
-      "away_coach": {
-        "id": 509,
-        "name": "Jorge Bava",
-        "short_name": "J. Bava",
-        "country": "Uruguay",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Andy Polo",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Lisandro Alzugaray",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Martin Perez Guedes",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Matías Di Benedetto",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ],
-        "away": []
-      },
-      "venue": {
-        "id": 581,
-        "name": "Estadio Monumental",
-        "city": "Lima",
-        "country": "Peru",
-        "capacity": 80093,
-        "latitude": -12.055791,
-        "longitude": -76.936122,
-        "pitch_x": 105,
-        "pitch_y": 70,
-        "built_year": 1975
-      },
-      "live_stats": {
-        "away": {
-          "duels": 53,
-          "fouls": 8,
-          "passes": 295,
-          "crosses": "6/17 (35%)",
-          "tackles": 12,
-          "dribbles": "4/12 (33%)",
-          "offsides": 0,
-          "big_saves": 1,
-          "red_cards": 1,
-          "throw_ins": 19,
-          "clearances": 19,
-          "free_kicks": 15,
-          "goal_kicks": 5,
-          "long_balls": "34/66 (52%)",
-          "recoveries": 45,
-          "big_chances": 3,
-          "high_claims": 1,
-          "tackles_won": 67,
-          "total_saves": 5,
-          "total_shots": 11,
-          "aerial_duels": "26/42 (62%)",
-          "corner_kicks": 5,
-          "dispossessed": 16,
-          "ground_duels": "31/65 (48%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 4,
-          "blocked_shots": 2,
-          "interceptions": 8,
-          "through_balls": 0,
-          "total_tackles": 12,
-          "expected_goals": 1.41,
-          "accurate_passes": 223,
-          "ball_possession": 44,
-          "goals_prevented": -0.35,
-          "shots_on_target": 6,
-          "goalkeeper_saves": 5,
-          "shots_inside_box": 9,
-          "shots_off_target": 3,
-          "final_third_phase": "77/118 (65%)",
-          "shots_outside_box": 2,
-          "big_chances_missed": 1,
-          "big_chances_scored": 2,
-          "final_third_entries": 70,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 15
-        },
-        "home": {
-          "duels": 47,
-          "fouls": 16,
-          "passes": 371,
-          "crosses": "4/19 (21%)",
-          "tackles": 24,
-          "dribbles": "3/11 (27%)",
-          "offsides": 2,
-          "big_saves": 0,
-          "red_cards": 0,
-          "throw_ins": 15,
-          "clearances": 21,
-          "free_kicks": 8,
-          "goal_kicks": 2,
-          "long_balls": "27/56 (48%)",
-          "recoveries": 53,
-          "big_chances": 8,
-          "high_claims": 0,
-          "tackles_won": 75,
-          "total_saves": 4,
-          "total_shots": 14,
-          "aerial_duels": "16/42 (38%)",
-          "corner_kicks": 6,
-          "dispossessed": 4,
-          "ground_duels": "34/65 (52%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 4,
-          "blocked_shots": 1,
-          "interceptions": 9,
-          "through_balls": 1,
-          "total_tackles": 24,
-          "expected_goals": 2.05,
-          "accurate_passes": 293,
-          "ball_possession": 56,
-          "goals_prevented": 0.6,
-          "shots_on_target": 9,
-          "goalkeeper_saves": 4,
-          "shots_inside_box": 9,
-          "shots_off_target": 4,
-          "final_third_phase": "73/110 (66%)",
-          "shots_outside_box": 5,
-          "big_chances_missed": 4,
-          "big_chances_scored": 4,
-          "final_third_entries": 69,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 23
-        }
-      },
+      "referee": null,
+      "home_coach": null,
+      "away_coach": null,
+      "unavailable_players": null,
+      "venue": null,
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "0957ae",
-            "real": true,
+            "base": "efc131",
+            "real": false,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff"
+            "number": "000000",
+            "sleeve": "333333"
           },
           "player": {
-            "base": "e01b1a",
+            "base": "ff0000",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "1d3467",
-            "sleevelong": "e31b1b"
+            "number": "000000",
+            "sleeve": "000066",
+            "stripes": "ffff00"
           }
         },
         "home": {
           "GK": {
-            "base": "21f9dd",
-            "real": true,
+            "base": "efc131",
+            "real": false,
             "type": "short_sleeves",
-            "number": "e5ddd9",
-            "sleeve": "000000"
+            "number": "000000",
+            "sleeve": "333333"
           },
           "player": {
-            "base": "e7d7cf",
+            "base": "ffff00",
             "real": true,
             "type": "short_sleeves",
-            "number": "9d0d29",
-            "sleeve": "6d5924"
+            "number": "dd0000",
+            "sleeve": "ffff33",
+            "stripes": "66ff00"
           }
         }
       },
-      "funfacts": null,
-      "sr_stats": {
-        "attack": {
-          "away": 85,
-          "home": 87
+      "funfacts": [
+        {
+          "type_id": 2,
+          "sentence": "When playing at home, Avenir Marsa have not lost to Zarzis in their last 6 encounters."
         },
-        "ball_safe": {
-          "away": 69,
-          "home": 79
+        {
+          "type_id": 26,
+          "sentence": "A year ago, Zarzis were number 5 in the table with 47 points. Now they are number 10 with 29 points."
         },
-        "attack_pct": {
-          "away": 38,
-          "home": 23
-        },
-        "ball_safe_pct": {
-          "away": 29,
-          "home": 36
-        },
-        "dangerous_attack": {
-          "away": 42,
-          "home": 44
-        },
-        "dangerous_attack_pct": {
-          "away": 33,
-          "home": 41
+        {
+          "type_id": 1,
+          "sentence": "Zarzis haven't lost in their last 5 games."
         }
-      },
+      ],
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Universitario's depth is seriously tested, and Nacional rolls into Lima looking dangerous.** The hosts are down four key players and scraped a blank at home last time out — not exactly confidence-inspiring form. 🔴\n\nUni's injury crisis (A. Polo, L. Alzugaray, M. Perez Guedes, M. D. Benedetto all out) means a rebuilt backline, while **Nacional just hammered Deportes Tolima 3-1** and showed they can fire on the road too. This is textbook trap material for the home side.\n\nKey storylines:\n\n- **Universitario's defensive crisis** — four absentees mean C. Fara, A. Santamaria and the full-back pairing have to hold the line against Nacional's attacking threat\n- **Nacional's momentum** — they've won one and drawn one since the campaign opened; M. Gómez and B. Barcia up front look sharp\n- **Lima's fortress tested** — Estadio Monumental usually favors the hosts, but Nacional have the form and firepower to wreck that narrative\n\nExpected lineups:\n\n- **Universitario de Deportes**: M. Vargas, W. Riveros, C. Fara, A. Santamaria, C. Inga, J. Carabalí, J. Concha, J. Castillo, H. Calcaterra, A. Valera, J. Rivera\n- **Nacional**: I. Suárez, N. Rodriguez, S. Coates, T. Viera, P. Calione, N. Lodeiro, L. Boggio, L. Rodríguez, J. C. D. l. Santos, M. Gómez, B. Barcia\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Nacional 2–0 Universitario.** The visitors have the edge in form and fitness; Uni's injury list is just too long to overcome on the night. ⚪",
-        "generated_at": "2026-04-29T02:45:23.215120+00:00"
+        "text": "**The Marsa faithful fancy a W, but Zarzis are built different.** One team's desperate for three; the other's happy grinding out points. 🏟️\n\nAvenir's in rough shape—three losses in five with just one win to show for it. Zarzis, meanwhile, are the definition of steady: four draws and a win, sitting pretty on an unbeaten run. The home crowd could matter here, but Zarzis' defensive nous might be too much to crack.\n\nKey storylines:\n\n- **Avenir Sportif De La Marsa** chasing a spark after back-to-back road defeats; need **F. Ifia** and **R. H. Gneba** to finally click upfront\n- **ES Zarzis** unbeaten in five with a fortress mentality; **P. M. Diallo** anchoring a stubborn backline\n- Head-to-head edge goes Avenir's way from their last meeting, but recent form screams Zarzis stability\n\nExpected lineups:\n\n- **Avenir Sportif De La Marsa**: S. Helal, K. Hammemi, Y. Arfaoui, M. A. Chaouch, O. Jebali, M. A. Khaloui, O. Adejoh, A. Traidi, F. Neji, R. H. Gneba, F. Ifia\n- **ES Zarzis**: H. Ghanmi, J. Belkilani, P. M. Diallo, G. Mahersi, M. Sghaier, A. Tajouri, D. R. Nyengue, A. M. Yassine, D. Onyemuchara, M. Rahmani, A. B. Dhiaf\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-0 Avenir** — slight home lean, but don't be shocked by a cagey, low-scoring affair. ⚽",
+        "generated_at": "2026-04-29T14:45:19.685270+00:00"
       }
     },
     "prediction": {
