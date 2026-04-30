@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T07:10:06.239Z",
+  "generatedAt": "2026-04-30T09:35:28.849Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 204695,
+      "id": 204696,
       "league": {
         "id": 47,
         "name": "Tunisian Ligue Professionnelle 1",
@@ -30,22 +30,28 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Avenir Sportif De La Marsa",
-      "away_team": "ES Zarzis",
+      "home_team": "Espérance Tunis",
+      "away_team": "CS Sfaxien",
       "home_team_obj": {
-        "id": 1900,
-        "name": "Avenir Sportif De La Marsa",
-        "short_name": "Marsa",
+        "id": 591,
+        "name": "Espérance Tunis",
+        "short_name": "Espérance",
         "country": "Tunisia",
-        "coach": null,
+        "coach": {
+          "name": "Patrice Beaumelle",
+          "shortName": "P. Beaumelle"
+        },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1906,
-        "name": "ES Zarzis",
-        "short_name": "Zarzis",
+        "id": 1905,
+        "name": "CS Sfaxien",
+        "short_name": "CS Sfaxien",
         "country": "Tunisia",
-        "coach": null,
+        "coach": {
+          "name": "Mohamed Kouki",
+          "shortName": "M. Kouki"
+        },
         "venue": null
       },
       "event_date": "2026-04-30T18:30:00+04:00",
@@ -59,17 +65,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 2.37,
-      "odds_draw": 3,
-      "odds_away": 3.2,
-      "odds_over_15": 1.55,
-      "odds_over_25": 2.62,
+      "odds_home": 1.82,
+      "odds_draw": 3.3,
+      "odds_away": 4.91,
+      "odds_over_15": 1.5,
+      "odds_over_25": 2.5,
       "odds_over_35": 5,
-      "odds_under_15": 2.4,
-      "odds_under_25": 1.47,
-      "odds_under_35": 1.16,
-      "odds_btts_yes": 2.18,
-      "odds_btts_no": 1.65,
+      "odds_under_15": 2.5,
+      "odds_under_25": 1.49,
+      "odds_under_35": 1.17,
+      "odds_btts_yes": 2.3,
+      "odds_btts_no": 1.58,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -77,72 +83,95 @@
       "penalty_shootout": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 384,
+      "travel_distance_km": 240,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": null,
-      "home_coach": null,
-      "away_coach": null,
+      "home_coach": {
+        "id": 543,
+        "name": "Patrice Beaumelle",
+        "short_name": "P. Beaumelle",
+        "country": "France",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.38647173849499095,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "low_block"
+        ]
+      },
+      "away_coach": {
+        "id": 1268,
+        "name": "Mohamed Kouki",
+        "short_name": "M. Kouki",
+        "country": "Tunisia",
+        "profile": "defensive",
+        "preferred_formation": "3-4-1-2",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
+      },
       "unavailable_players": null,
       "venue": null,
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "efc131",
-            "real": false,
+            "base": "333333",
+            "real": true,
             "type": "short_sleeves",
             "number": "000000",
             "sleeve": "333333"
+          },
+          "player": {
+            "base": "000000",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000066",
+            "horizontalstripes": "ffffff"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "ff00f1",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffe800",
+            "sleeve": "e800ff"
           },
           "player": {
             "base": "ff0000",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "000066",
-            "stripes": "ffff00"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "ffff00",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "dd0000",
-            "sleeve": "ffff33",
-            "stripes": "66ff00"
+            "sleeve": "000000",
+            "stripes": "eca00c"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "When playing at home, Avenir Marsa have not lost to Zarzis in their last 6 encounters."
-        },
-        {
-          "type_id": 26,
-          "sentence": "A year ago, Zarzis were number 5 in the table with 47 points. Now they are number 10 with 29 points."
-        },
-        {
           "type_id": 1,
-          "sentence": "Zarzis haven't lost in their last 5 games."
+          "sentence": "Esperance Tunis haven't won in their last 5 games."
+        },
+        {
+          "type_id": 2,
+          "sentence": "Sfaxien haven't won any of their last 3 games against Esperance Tunis."
+        },
+        {
+          "type_id": 2,
+          "sentence": "When playing at home, Esperance Tunis have not lost to Sfaxien in their last 17 encounters."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**The Marsa faithful fancy a W, but Zarzis are built different.** One team's desperate for three; the other's happy grinding out points. 🏟️\n\nAvenir's in rough shape—three losses in five with just one win to show for it. Zarzis, meanwhile, are the definition of steady: four draws and a win, sitting pretty on an unbeaten run. The home crowd could matter here, but Zarzis' defensive nous might be too much to crack.\n\nKey storylines:\n\n- **Avenir Sportif De La Marsa** chasing a spark after back-to-back road defeats; need **F. Ifia** and **R. H. Gneba** to finally click upfront\n- **ES Zarzis** unbeaten in five with a fortress mentality; **P. M. Diallo** anchoring a stubborn backline\n- Head-to-head edge goes Avenir's way from their last meeting, but recent form screams Zarzis stability\n\nExpected lineups:\n\n- **Avenir Sportif De La Marsa**: S. Helal, K. Hammemi, Y. Arfaoui, M. A. Chaouch, O. Jebali, M. A. Khaloui, O. Adejoh, A. Traidi, F. Neji, R. H. Gneba, F. Ifia\n- **ES Zarzis**: H. Ghanmi, J. Belkilani, P. M. Diallo, G. Mahersi, M. Sghaier, A. Tajouri, D. R. Nyengue, A. M. Yassine, D. Onyemuchara, M. Rahmani, A. B. Dhiaf\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-0 Avenir** — slight home lean, but don't be shocked by a cagey, low-scoring affair. ⚽",
-        "generated_at": "2026-04-29T14:45:19.685270+00:00"
+        "text": "**Espérance's slump meets Sfaxien's hot streak** — and honestly, the narrative writes itself. 🔥 The table-toppers are struggling hard, while their visitors are rolling.\n\nEspérance have drawn and lost their last few, scraping draws against Bizertin and Zarzis while getting humbled away to Sundowns. Meanwhile **CS Sfaxien** are unbeaten in their last five with three wins, including back-to-backs at home against Stade Tunisien and Jendouba Sport. That's the kind of form that travels.\n\nKey storylines:\n\n- **Espérance's form crisis** could hand the initiative to a Sfaxien side playing with genuine momentum\n- **J. Diarra** and **K. Boualia** need to spark something offensively for the hosts — they're misfiring\n- **CS Sfaxien's defensive discipline** (3-4-1 shape) has been sharp; expect them to frustrate and counter\n\nExpected lineups:\n\n- **Espérance Tunis**: B. B. Said, H. Jelassi, M. Tougai, M. Ben Hmida, I. Keita, O. Ogbelu, H. Teka, F. Danho, A. Konaté, K. Boualia, J. Diarra\n- **CS Sfaxien**: M. H. Gaaloul, H. Mathlouthi, H. Baccar, K. Mondeko, R. Derbali, F. Sekkouhi, A. Taifour, N. Karoui, M. Aidi, O. B. Ali, E. A. Ogbole\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-1 or 1-1** — Sfaxien have the slight edge here, but don't expect a goalfest. Espérance will scrap, but they're not clicking right now.",
+        "generated_at": "2026-04-29T14:45:25.052063+00:00"
       }
     },
     "prediction": {
