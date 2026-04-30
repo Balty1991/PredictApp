@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-04-30T17:51:54.917Z",
+  "generatedAt": "2026-04-30T19:42:10.959Z",
   "count": 50,
   "items": [
     {
-      "id": 4788,
-      "status": "2nd_half",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Okhdood",
-      "awayTeam": "Al-Ettifaq",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4786,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Kholood",
@@ -26,7 +15,7 @@
     },
     {
       "id": 202973,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Europa League",
       "country": "Europe",
       "homeTeam": "Sporting Braga",
@@ -37,33 +26,11 @@
     },
     {
       "id": 202972,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Europa League",
       "country": "Europe",
       "homeTeam": "Nottingham Forest",
       "awayTeam": "Aston Villa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9293,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Vasco da Gama",
-      "awayTeam": "Olimpia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9407,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Independiente Rivadavia",
-      "awayTeam": "Deportivo La Guaira",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -80,6 +47,17 @@
       "marketCount": 0
     },
     {
+      "id": 9293,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Vasco da Gama",
+      "awayTeam": "Olimpia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9406,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -91,12 +69,12 @@
       "marketCount": 0
     },
     {
-      "id": 9408,
+      "id": 9407,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Corinthians",
-      "awayTeam": "Peñarol",
+      "homeTeam": "Independiente Rivadavia",
+      "awayTeam": "Deportivo La Guaira",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -108,6 +86,17 @@
       "country": "South America",
       "homeTeam": "Tigre",
       "awayTeam": "América de Cali",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9408,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Corinthians",
+      "awayTeam": "Peñarol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,23 +146,23 @@
       "marketCount": 0
     },
     {
-      "id": 205749,
-      "status": "notstarted",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Dalian Yingbo FC",
-      "awayTeam": "Chongqing Tonglianglong FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205750,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Henan FC",
       "awayTeam": "Liaoning Tieren FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205749,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Dalian Yingbo FC",
+      "awayTeam": "Chongqing Tonglianglong FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 9142,
-      "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "Cercle Brugge",
-      "awayTeam": "SV Zulte Waregem",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10289,
       "status": "notstarted",
       "league": "Scottish Premiership",
@@ -344,23 +322,23 @@
       "marketCount": 0
     },
     {
+      "id": 9142,
+      "status": "notstarted",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "Cercle Brugge",
+      "awayTeam": "SV Zulte Waregem",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1423,
       "status": "notstarted",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Pisa",
       "awayTeam": "Lecce",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204241,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Zaragoza",
-      "awayTeam": "Granada",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,45 +366,23 @@
       "marketCount": 0
     },
     {
+      "id": 204241,
+      "status": "notstarted",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Real Zaragoza",
+      "awayTeam": "Granada",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 204853,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Fagiano Okayama",
       "awayTeam": "Sanfrecce Hiroshima",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204854,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "FC Tokyo",
-      "awayTeam": "Kawasaki Frontale",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204855,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Yokohama F. Marinos",
-      "awayTeam": "Mito Hollyhock",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205044,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Ulsan HD",
-      "awayTeam": "Pohang Steelers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,12 +399,45 @@
       "marketCount": 0
     },
     {
+      "id": 204855,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Yokohama F. Marinos",
+      "awayTeam": "Mito Hollyhock",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 204856,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Kyoto Sanga FC",
       "awayTeam": "Shimizu S-Pulse",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204854,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "FC Tokyo",
+      "awayTeam": "Kawasaki Frontale",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205044,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Ulsan HD",
+      "awayTeam": "Pohang Steelers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Bulgaria",
       "homeTeam": "Beroe Stara Zagora",
       "awayTeam": "Slavia Sofia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3922,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Millwall",
+      "awayTeam": "Oxford United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
