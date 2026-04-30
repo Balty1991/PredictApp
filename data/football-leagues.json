@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T16:04:33.233Z",
+  "generatedAt": "2026-04-30T17:51:54.917Z",
   "count": 48,
   "items": [
     {
@@ -106,7 +106,14 @@
     {
       "id": 52,
       "name": "Chinese Super League",
-      "country": "China"
+      "country": "China",
+      "season": {
+        "id": 1040,
+        "name": "Chinese Super League 2026",
+        "year": 2026,
+        "start_date": "2026-01-01",
+        "end_date": "2026-12-31"
+      }
     },
     {
       "id": 41,
