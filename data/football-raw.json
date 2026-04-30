@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T11:43:44.583Z",
+  "generatedAt": "2026-04-30T14:12:08.124Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 204696,
+      "id": 204698,
       "league": {
         "id": 47,
         "name": "Tunisian Ligue Professionnelle 1",
@@ -30,27 +30,24 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Espérance Tunis",
-      "away_team": "CS Sfaxien",
+      "home_team": "Olympique Béja",
+      "away_team": "CA Bizertin",
       "home_team_obj": {
-        "id": 591,
-        "name": "Espérance Tunis",
-        "short_name": "Espérance",
+        "id": 1910,
+        "name": "Olympique Béja",
+        "short_name": "Béja",
         "country": "Tunisia",
-        "coach": {
-          "name": "Patrice Beaumelle",
-          "shortName": "P. Beaumelle"
-        },
+        "coach": null,
         "venue": null
       },
       "away_team_obj": {
-        "id": 1905,
-        "name": "CS Sfaxien",
-        "short_name": "CS Sfaxien",
+        "id": 1902,
+        "name": "CA Bizertin",
+        "short_name": "Bizertin",
         "country": "Tunisia",
         "coach": {
-          "name": "Mohamed Kouki",
-          "shortName": "M. Kouki"
+          "name": "Chiheb Ellili",
+          "shortName": "C. Ellili"
         },
         "venue": null
       },
@@ -65,17 +62,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 1.82,
-      "odds_draw": 3.3,
-      "odds_away": 4.91,
-      "odds_over_15": 1.5,
-      "odds_over_25": 2.5,
-      "odds_over_35": 5,
-      "odds_under_15": 2.5,
-      "odds_under_25": 1.49,
-      "odds_under_35": 1.17,
+      "odds_home": 2.8,
+      "odds_draw": 2.85,
+      "odds_away": 2.72,
+      "odds_over_15": 1.62,
+      "odds_over_25": 2.87,
+      "odds_over_35": 6,
+      "odds_under_15": 2.25,
+      "odds_under_25": 1.39,
+      "odds_under_35": 1.12,
       "odds_btts_yes": 2.3,
-      "odds_btts_no": 1.58,
+      "odds_btts_no": 1.57,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -83,34 +80,21 @@
       "penalty_shootout": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 240,
+      "travel_distance_km": 86,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": null,
-      "home_coach": {
-        "id": 543,
-        "name": "Patrice Beaumelle",
-        "short_name": "P. Beaumelle",
-        "country": "France",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.38647173849499095,
-        "defensive_line": "mid",
-        "top_styles": [
-          "terrorist_fb",
-          "low_block"
-        ]
-      },
+      "home_coach": null,
       "away_coach": {
-        "id": 1268,
-        "name": "Mohamed Kouki",
-        "short_name": "M. Kouki",
+        "id": 1265,
+        "name": "Chiheb Ellili",
+        "short_name": "C. Ellili",
         "country": "Tunisia",
         "profile": "defensive",
-        "preferred_formation": "3-4-1-2",
+        "preferred_formation": "4-2-3-1",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
@@ -132,46 +116,45 @@
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "000066",
-            "horizontalstripes": "ffffff"
+            "sleeve": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "ff00f1",
+            "base": "009900",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffe800",
-            "sleeve": "e800ff"
+            "number": "ffffff",
+            "sleeve": "009900",
+            "horizontalstripes": "003300"
           },
           "player": {
-            "base": "ff0000",
-            "real": true,
+            "base": "D8D8D8",
+            "real": false,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "000000",
-            "stripes": "eca00c"
+            "sleeve": "D8D8D8"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 26,
+          "sentence": "A year ago, Olympique de Beja were number 9 in the table with 28 points. Now they are number 13 with 25 points."
+        },
+        {
           "type_id": 1,
-          "sentence": "Esperance Tunis haven't won in their last 5 games."
+          "sentence": "Bizertin haven't lost in their last 9 games."
         },
         {
-          "type_id": 2,
-          "sentence": "Sfaxien haven't won any of their last 3 games against Esperance Tunis."
-        },
-        {
-          "type_id": 2,
-          "sentence": "When playing at home, Esperance Tunis have not lost to Sfaxien in their last 17 encounters."
+          "type_id": 6,
+          "sentence": "During the last 6 meetings with Olympique de Beja playing at home, Olympique de Beja have won 0 times, there have been 5 draws while Bizertin have won 1 times. The goal difference is 1-0 in favour of Bizertin."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Espérance's slump meets Sfaxien's hot streak** — and honestly, the narrative writes itself. 🔥 The table-toppers are struggling hard, while their visitors are rolling.\n\nEspérance have drawn and lost their last few, scraping draws against Bizertin and Zarzis while getting humbled away to Sundowns. Meanwhile **CS Sfaxien** are unbeaten in their last five with three wins, including back-to-backs at home against Stade Tunisien and Jendouba Sport. That's the kind of form that travels.\n\nKey storylines:\n\n- **Espérance's form crisis** could hand the initiative to a Sfaxien side playing with genuine momentum\n- **J. Diarra** and **K. Boualia** need to spark something offensively for the hosts — they're misfiring\n- **CS Sfaxien's defensive discipline** (3-4-1 shape) has been sharp; expect them to frustrate and counter\n\nExpected lineups:\n\n- **Espérance Tunis**: B. B. Said, H. Jelassi, M. Tougai, M. Ben Hmida, I. Keita, O. Ogbelu, H. Teka, F. Danho, A. Konaté, K. Boualia, J. Diarra\n- **CS Sfaxien**: M. H. Gaaloul, H. Mathlouthi, H. Baccar, K. Mondeko, R. Derbali, F. Sekkouhi, A. Taifour, N. Karoui, M. Aidi, O. B. Ali, E. A. Ogbole\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-1 or 1-1** — Sfaxien have the slight edge here, but don't expect a goalfest. Espérance will scrap, but they're not clicking right now.",
-        "generated_at": "2026-04-29T14:45:25.052063+00:00"
+        "text": "**Béja's looking for three at home, but Bizertin's draw machine might have other plans.** 🇹🇳 This is a classic clash of contrasting form — one side chasing wins, the other content to grind out stalemates.\n\nOlympique Béja have found their groove at the Stade Okba, hammering Etoile Sportive Du Sahel 3-1 last time out. But CA Bizertin arrive in a completely different mood: four straight draws have them defensive-minded and hard to break down. That's a nasty matchup for a team needing the three points.\n\nKey storylines:\n\n- **Olympique Béja's home fortress** vs a Bizertin side that's basically turned draws into an art form — expect Béja to press early and hard.\n- **CA Bizertin's wall defense** anchored by **M. Hanzouli** and the back line could frustrate Béja's attacking unit, particularly if **H. Houiji** and **H. Gafsi** can't find service early.\n- Last H2H went Bizertin's way — home turnaround narrative lurks here.\n\nExpected lineups:\n\n- **Olympique Béja**: A. Krir, M. B. Rajeh, C. Camara, I. Chelghoumi, K. B. Oueda, F. Fadhli, A. Sidibé, H. Houiji\n- **CA Bizertin**: M. Hanzouli, A. Guesmi, M. Doukali, A. Dridi, A. Amri, O. N. Ayinde, Z. Berrima\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Béja 2–1 Bizertin.** Slim home edge with Bizertin's lockdown defense keeping it tight. 🎯",
+        "generated_at": "2026-04-29T14:45:31.243947+00:00"
       }
     },
     "prediction": {
