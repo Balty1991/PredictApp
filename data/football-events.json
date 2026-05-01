@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-05-01T18:39:49.382Z",
+  "generatedAt": "2026-05-01T20:08:46.692Z",
   "count": 50,
   "items": [
     {
-      "id": 204240,
-      "status": "finished",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Deportivo La Coruña",
-      "awayTeam": "Leganés",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3349,
-      "status": "2nd_half",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Gaziantep FK",
-      "awayTeam": "Beşiktaş JK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 202987,
-      "status": "2nd_half",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "FK Dobrudzha Dobrich",
-      "awayTeam": "Lokomotiv Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7689,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "FK Csíkszereda Miercurea Ciuc",
@@ -48,7 +15,7 @@
     },
     {
       "id": 206653,
-      "status": "1st_half",
+      "status": "inprogress",
       "league": "Eredivisie",
       "country": "Netherlands",
       "homeTeam": "RKC Waalwijk",
@@ -59,7 +26,7 @@
     },
     {
       "id": 8009,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "Legia Warszawa",
@@ -69,19 +36,8 @@
       "marketCount": 0
     },
     {
-      "id": 9142,
-      "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "Cercle Brugge",
-      "awayTeam": "SV Zulte Waregem",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10289,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Scottish Premiership",
       "country": "Scotland",
       "homeTeam": "Livingston",
@@ -91,8 +47,19 @@
       "marketCount": 0
     },
     {
+      "id": 9142,
+      "status": "2nd_half",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "Cercle Brugge",
+      "awayTeam": "SV Zulte Waregem",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1423,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Pisa",
@@ -102,19 +69,8 @@
       "marketCount": 0
     },
     {
-      "id": 204241,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Zaragoza",
-      "awayTeam": "Granada",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 350,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Leeds United",
@@ -125,11 +81,22 @@
     },
     {
       "id": 1025,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Girona FC",
       "awayTeam": "Mallorca",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204241,
+      "status": "2nd_half",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Real Zaragoza",
+      "awayTeam": "Granada",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 204854,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "FC Tokyo",
-      "awayTeam": "Kawasaki Frontale",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205041,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "FC Seoul",
       "awayTeam": "Gimcheon Sangmu FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204854,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "FC Tokyo",
+      "awayTeam": "Kawasaki Frontale",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,17 +190,6 @@
       "marketCount": 0
     },
     {
-      "id": 205046,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Incheon United",
-      "awayTeam": "Gangwon FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205049,
       "status": "notstarted",
       "league": "K League 1",
@@ -245,12 +201,12 @@
       "marketCount": 0
     },
     {
-      "id": 9825,
+      "id": 205046,
       "status": "notstarted",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "FC Badalona",
-      "awayTeam": "Athletic Club",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Incheon United",
+      "awayTeam": "Gangwon FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -278,12 +234,12 @@
       "marketCount": 0
     },
     {
-      "id": 205754,
+      "id": 9825,
       "status": "notstarted",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Qingdao Hainiu",
-      "awayTeam": "Shanghai Port",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "FC Badalona",
+      "awayTeam": "Athletic Club",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,12 +256,23 @@
       "marketCount": 0
     },
     {
-      "id": 3919,
+      "id": 205754,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Qingdao Hainiu",
+      "awayTeam": "Shanghai Port",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3927,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Derby County",
-      "awayTeam": "Sheffield United",
+      "homeTeam": "Watford",
+      "awayTeam": "Coventry City",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,34 +289,12 @@
       "marketCount": 0
     },
     {
-      "id": 3928,
+      "id": 3919,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Wrexham",
-      "awayTeam": "Middlesbrough",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3926,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Swansea City",
-      "awayTeam": "Charlton Athletic",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3925,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Sheffield Wednesday",
-      "awayTeam": "West Bromwich Albion",
+      "homeTeam": "Derby County",
+      "awayTeam": "Sheffield United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,6 +322,39 @@
       "marketCount": 0
     },
     {
+      "id": 3925,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Sheffield Wednesday",
+      "awayTeam": "West Bromwich Albion",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3926,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Swansea City",
+      "awayTeam": "Charlton Athletic",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3918,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Bristol City",
+      "awayTeam": "Stoke City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 3922,
       "status": "notstarted",
       "league": "Championship",
@@ -388,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 3927,
+      "id": 3928,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
-      "homeTeam": "Watford",
-      "awayTeam": "Coventry City",
+      "homeTeam": "Wrexham",
+      "awayTeam": "Middlesbrough",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -421,34 +399,12 @@
       "marketCount": 0
     },
     {
-      "id": 3918,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Bristol City",
-      "awayTeam": "Stoke City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205755,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Zhejiang",
       "awayTeam": "Shenzhen Peng City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7690,
-      "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "SC Oțelul Galați",
-      "awayTeam": "FC Metaloglobus București",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,6 +432,17 @@
       "marketCount": 0
     },
     {
+      "id": 7690,
+      "status": "notstarted",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "SC Oțelul Galați",
+      "awayTeam": "FC Metaloglobus București",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 205756,
       "status": "notstarted",
       "league": "Chinese Super League",
@@ -498,23 +465,23 @@
       "marketCount": 0
     },
     {
-      "id": 46344,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Degerfors IF",
-      "awayTeam": "BK Häcken",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1426,
       "status": "notstarted",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Udinese",
       "awayTeam": "Torino",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46344,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Degerfors IF",
+      "awayTeam": "BK Häcken",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -531,12 +498,34 @@
       "marketCount": 0
     },
     {
-      "id": 1743,
+      "id": 1739,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
-      "homeTeam": "SV Werder Bremen",
-      "awayTeam": "FC Augsburg",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Hamburger SV",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1744,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "VfB Stuttgart",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 202986,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "Botev Vratsa",
+      "awayTeam": "FK Spartak Varna",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Germany",
       "homeTeam": "1. FC Union Berlin",
       "awayTeam": "1. FC Köln",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1740,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "1. FC Heidenheim",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
