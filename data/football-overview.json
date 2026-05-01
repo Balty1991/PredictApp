@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T15:33:38.995Z",
+  "generatedAt": "2026-05-01T17:03:59.628Z",
   "cards": [
     {
       "label": "Evenimente",
@@ -32,7 +32,7 @@
     "[events] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[events] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 502 Bad Gateway via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+    "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
