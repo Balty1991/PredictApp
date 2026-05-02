@@ -1,76 +1,10 @@
 {
-  "generatedAt": "2026-05-02T17:54:23.495Z",
+  "generatedAt": "2026-05-02T19:09:57.199Z",
   "count": 50,
   "items": [
     {
-      "id": 2050,
-      "status": "finished",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "Paris Saint-Germain",
-      "awayTeam": "Lorient",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4795,
-      "status": "finished",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Fateh",
-      "awayTeam": "Neom SC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10241,
-      "status": "2nd_half",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Winterthur",
-      "awayTeam": "FC Zürich",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1419,
-      "status": "2nd_half",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Como",
-      "awayTeam": "Napoli",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10240,
-      "status": "finished",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Lausanne-Sport",
-      "awayTeam": "FC Luzern",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 202989,
-      "status": "2nd_half",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Levski Sofia",
-      "awayTeam": "FC CSKA 1948 Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4801,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Damac FC",
@@ -81,7 +15,7 @@
     },
     {
       "id": 9145,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "RC Sporting Charleroi",
@@ -91,52 +25,8 @@
       "marketCount": 0
     },
     {
-      "id": 9829,
-      "status": "2nd_half",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "Sevilla FC",
-      "awayTeam": "Real Madrid",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1022,
-      "status": "2nd_half",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Deportivo Alavés",
-      "awayTeam": "Athletic Club",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 344,
-      "status": "2nd_half",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Arsenal",
-      "awayTeam": "Fulham",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204243,
-      "status": "2nd_half",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "CD Castellón",
-      "awayTeam": "Córdoba",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9212,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "Asteras Aktor",
@@ -147,7 +37,7 @@
     },
     {
       "id": 1737,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Bundesliga",
       "country": "Germany",
       "homeTeam": "Bayer 04 Leverkusen",
@@ -157,8 +47,52 @@
       "marketCount": 0
     },
     {
+      "id": 1022,
+      "status": "finished",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Athletic Club",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9829,
+      "status": "finished",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "Sevilla FC",
+      "awayTeam": "Real Madrid",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 344,
+      "status": "finished",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Arsenal",
+      "awayTeam": "Fulham",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204243,
+      "status": "finished",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "CD Castellón",
+      "awayTeam": "Córdoba",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 3034,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Eredivisie",
       "country": "Netherlands",
       "homeTeam": "FC Groningen",
@@ -169,7 +103,7 @@
     },
     {
       "id": 665,
-      "status": "halftime",
+      "status": "finished",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
       "homeTeam": "Famalicão",
@@ -179,30 +113,8 @@
       "marketCount": 0
     },
     {
-      "id": 3352,
-      "status": "halftime",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Samsunspor",
-      "awayTeam": "Galatasaray",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3353,
-      "status": "halftime",
-      "league": "Trendyol Super Lig",
-      "country": "Turkey",
-      "homeTeam": "Trabzonspor",
-      "awayTeam": "Göztepe",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 3348,
-      "status": "halftime",
+      "status": "finished",
       "league": "Trendyol Super Lig",
       "country": "Turkey",
       "homeTeam": "Fenerbahçe",
@@ -213,7 +125,7 @@
     },
     {
       "id": 5060,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Toronto FC",
@@ -223,8 +135,19 @@
       "marketCount": 0
     },
     {
+      "id": 3353,
+      "status": "finished",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Trabzonspor",
+      "awayTeam": "Göztepe",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 2045,
-      "status": "halftime",
+      "status": "finished",
       "league": "Ligue 1",
       "country": "France",
       "homeTeam": "Metz",
@@ -234,8 +157,19 @@
       "marketCount": 0
     },
     {
+      "id": 3352,
+      "status": "finished",
+      "league": "Trendyol Super Lig",
+      "country": "Turkey",
+      "homeTeam": "Samsunspor",
+      "awayTeam": "Galatasaray",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7684,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "FC Universitatea Cluj",
@@ -246,7 +180,7 @@
     },
     {
       "id": 3032,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Eredivisie",
       "country": "Netherlands",
       "homeTeam": "AFC Ajax",
@@ -257,7 +191,7 @@
     },
     {
       "id": 4797,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Hazem",
@@ -268,7 +202,7 @@
     },
     {
       "id": 206655,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "Lommel SK",
@@ -279,7 +213,7 @@
     },
     {
       "id": 8012,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "Motor Lublin",
@@ -290,7 +224,7 @@
     },
     {
       "id": 5059,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Sporting Kansas City",
@@ -301,7 +235,7 @@
     },
     {
       "id": 10242,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Super League",
       "country": "Switzerland",
       "homeTeam": "Basel",
@@ -311,19 +245,8 @@
       "marketCount": 0
     },
     {
-      "id": 1417,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Atalanta",
-      "awayTeam": "Genoa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9146,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "Sint-Truidense VV",
@@ -333,41 +256,19 @@
       "marketCount": 0
     },
     {
-      "id": 7125,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Botafogo",
-      "awayTeam": "Remo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3038,
-      "status": "notstarted",
-      "league": "Eredivisie",
-      "country": "Netherlands",
-      "homeTeam": "NEC Nijmegen",
-      "awayTeam": "SC Telstar",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204244,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Eibar",
-      "awayTeam": "Málaga CF",
+      "id": 1417,
+      "status": "1st_half",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Genoa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
       "id": 1026,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Osasuna",
@@ -377,8 +278,19 @@
       "marketCount": 0
     },
     {
+      "id": 204244,
+      "status": "1st_half",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Eibar",
+      "awayTeam": "Málaga CF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9917,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Botafogo-SP",
@@ -388,8 +300,30 @@
       "marketCount": 0
     },
     {
+      "id": 3038,
+      "status": "1st_half",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "NEC Nijmegen",
+      "awayTeam": "SC Telstar",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7125,
+      "status": "1st_half",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Botafogo",
+      "awayTeam": "Remo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 2047,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Ligue 1",
       "country": "France",
       "homeTeam": "Nice",
@@ -476,28 +410,6 @@
       "marketCount": 0
     },
     {
-      "id": 5065,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Atlanta United",
-      "awayTeam": "CF Montréal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9919,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Fortaleza",
-      "awayTeam": "Goiás",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5063,
       "status": "notstarted",
       "league": "MLS",
@@ -520,12 +432,34 @@
       "marketCount": 0
     },
     {
+      "id": 9919,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Fortaleza",
+      "awayTeam": "Goiás",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7124,
       "status": "notstarted",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Athletico",
       "awayTeam": "Grêmio",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5065,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Atlanta United",
+      "awayTeam": "CF Montréal",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +482,72 @@
       "country": "Brazil",
       "homeTeam": "Cruzeiro",
       "awayTeam": "Atlético Mineiro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5068,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Chicago Fire",
+      "awayTeam": "FC Cincinnati",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5069,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Houston Dynamo",
+      "awayTeam": "Colorado Rapids",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206657,
+      "status": "notstarted",
+      "league": "Liga MX Clausura",
+      "country": "Mexico",
+      "homeTeam": "Tigres UANL",
+      "awayTeam": "CD Guadalajara",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5070,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "San Diego FC",
+      "awayTeam": "Los Angeles FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5071,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "LA Galaxy",
+      "awayTeam": "Vancouver Whitecaps",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206658,
+      "status": "notstarted",
+      "league": "Liga MX Clausura",
+      "country": "Mexico",
+      "homeTeam": "Atlas FC",
+      "awayTeam": "Cruz Azul",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
