@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-02T22:07:53.177Z",
+  "generatedAt": "2026-05-02T23:11:32.518Z",
   "count": 50,
   "items": [
     {
-      "id": 667,
-      "status": "finished",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "FC Porto",
-      "awayTeam": "FC Alverca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5061,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Real Salt Lake",
@@ -25,19 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 9918,
-      "status": "1st_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Cuiabá",
-      "awayTeam": "Criciúma",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7133,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Vitória",
@@ -47,8 +25,19 @@
       "marketCount": 0
     },
     {
+      "id": 9918,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Cuiabá",
+      "awayTeam": "Criciúma",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7131,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Palmeiras",
@@ -80,17 +69,6 @@
       "marketCount": 0
     },
     {
-      "id": 5067,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New England Revolution",
-      "awayTeam": "Charlotte FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5066,
       "status": "notstarted",
       "league": "MLS",
@@ -113,12 +91,23 @@
       "marketCount": 0
     },
     {
-      "id": 5063,
+      "id": 7124,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Athletico",
+      "awayTeam": "Grêmio",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5067,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
-      "homeTeam": "Philadelphia Union",
-      "awayTeam": "Nashville SC",
+      "homeTeam": "New England Revolution",
+      "awayTeam": "Charlotte FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,12 +124,12 @@
       "marketCount": 0
     },
     {
-      "id": 7124,
+      "id": 5063,
       "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Athletico",
-      "awayTeam": "Grêmio",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Philadelphia Union",
+      "awayTeam": "Nashville SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,23 +300,23 @@
       "marketCount": 0
     },
     {
-      "id": 1418,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Bologna",
-      "awayTeam": "Cagliari",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 202990,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Arda Kardzhali",
       "awayTeam": "Cherno More Varna",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1418,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Bologna",
+      "awayTeam": "Cagliari",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,6 +344,39 @@
       "marketCount": 0
     },
     {
+      "id": 1021,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Elche",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10243,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "FC Sion",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46347,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Malmö FF",
+      "awayTeam": "Mjällby AIF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 204245,
       "status": "notstarted",
       "league": "Segunda División",
@@ -372,39 +394,6 @@
       "country": "Sweden",
       "homeTeam": "Hammarby IF",
       "awayTeam": "Västerås SK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10243,
-      "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC St. Gallen 1879",
-      "awayTeam": "FC Sion",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1021,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Celta Vigo",
-      "awayTeam": "Elche",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 46347,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Malmö FF",
-      "awayTeam": "Mjällby AIF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,6 +432,17 @@
       "marketCount": 0
     },
     {
+      "id": 346,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Crystal Palace",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 2044,
       "status": "notstarted",
       "league": "Ligue 1",
@@ -460,17 +460,6 @@
       "country": "Italy",
       "homeTeam": "Sassuolo",
       "awayTeam": "Milan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 346,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Bournemouth",
-      "awayTeam": "Crystal Palace",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,6 +487,17 @@
       "marketCount": 0
     },
     {
+      "id": 9196,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "APO Levadiakos",
+      "awayTeam": "NPS Volos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9148,
       "status": "notstarted",
       "league": "Pro League",
@@ -520,17 +520,6 @@
       "marketCount": 0
     },
     {
-      "id": 9196,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "APO Levadiakos",
-      "awayTeam": "NPS Volos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1024,
       "status": "notstarted",
       "league": "La Liga",
@@ -548,6 +537,17 @@
       "country": "Spain",
       "homeTeam": "Sporting Gijón",
       "awayTeam": "AD Ceuta",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 351,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Liverpool FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
