@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-03T22:08:00.403Z",
+  "generatedAt": "2026-05-03T23:11:45.731Z",
   "count": 50,
   "items": [
     {
-      "id": 669,
-      "status": "finished",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Rio Ave",
-      "awayTeam": "Gil Vicente",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9921,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Sport Recife",
@@ -26,7 +15,7 @@
     },
     {
       "id": 7126,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Chapecoense",
@@ -36,30 +25,8 @@
       "marketCount": 0
     },
     {
-      "id": 5073,
-      "status": "1st_half",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Austin FC",
-      "awayTeam": "St.Louis City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7129,
-      "status": "1st_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Internacional",
-      "awayTeam": "Fluminense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9915,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Atlético Goianiense",
@@ -69,8 +36,30 @@
       "marketCount": 0
     },
     {
+      "id": 7129,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Internacional",
+      "awayTeam": "Fluminense",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5073,
+      "status": "2nd_half",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Austin FC",
+      "awayTeam": "St.Louis City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206659,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Liga MX Clausura",
       "country": "Mexico",
       "homeTeam": "Club América",
@@ -80,12 +69,12 @@
       "marketCount": 0
     },
     {
-      "id": 7130,
+      "id": 9914,
       "status": "notstarted",
-      "league": "Brasileirão Serie A",
+      "league": "Brasileirão Serie B",
       "country": "Brazil",
-      "homeTeam": "Mirassol",
-      "awayTeam": "Corinthians",
+      "homeTeam": "América Mineiro",
+      "awayTeam": "CRB",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -102,12 +91,12 @@
       "marketCount": 0
     },
     {
-      "id": 9914,
+      "id": 7130,
       "status": "notstarted",
-      "league": "Brasileirão Serie B",
+      "league": "Brasileirão Serie A",
       "country": "Brazil",
-      "homeTeam": "América Mineiro",
-      "awayTeam": "CRB",
+      "homeTeam": "Mirassol",
+      "awayTeam": "Corinthians",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,23 +179,23 @@
       "marketCount": 0
     },
     {
-      "id": 8014,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Radomiak Radom",
-      "awayTeam": "KS Lechia Gdańsk",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 46350,
       "status": "notstarted",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Djurgårdens IF",
       "awayTeam": "IFK Göteborg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8014,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Radomiak Radom",
+      "awayTeam": "KS Lechia Gdańsk",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,23 +212,23 @@
       "marketCount": 0
     },
     {
-      "id": 4798,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Ittihad",
-      "awayTeam": "Al-Kholood",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4794,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Ettifaq",
       "awayTeam": "Al-Najma SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4798,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Ittihad",
+      "awayTeam": "Al-Kholood",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -267,23 +256,23 @@
       "marketCount": 0
     },
     {
-      "id": 1028,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Sevilla",
-      "awayTeam": "Real Sociedad",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 349,
       "status": "notstarted",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Everton",
       "awayTeam": "Manchester City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1028,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Sevilla",
+      "awayTeam": "Real Sociedad",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,23 +300,23 @@
       "marketCount": 0
     },
     {
-      "id": 205058,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Jeonbuk Hyundai Motors",
-      "awayTeam": "Gwangju FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205056,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Bucheon FC 1995",
       "awayTeam": "Jeju SK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205058,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Jeonbuk Hyundai Motors",
+      "awayTeam": "Gwangju FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,6 +487,17 @@
       "marketCount": 0
     },
     {
+      "id": 9298,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Juventud de Las Piedras",
+      "awayTeam": "Atlético Mineiro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9411,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -509,12 +509,12 @@
       "marketCount": 0
     },
     {
-      "id": 9298,
+      "id": 9299,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Juventud de Las Piedras",
-      "awayTeam": "Atlético Mineiro",
+      "homeTeam": "Club Independiente",
+      "awayTeam": "Caracas F.C.",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -531,12 +531,12 @@
       "marketCount": 0
     },
     {
-      "id": 9299,
+      "id": 9413,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Club Independiente",
-      "awayTeam": "Caracas F.C.",
+      "homeTeam": "Universidad Central",
+      "awayTeam": "Independiente del Valle",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
