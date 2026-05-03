@@ -1,54 +1,10 @@
 {
-  "generatedAt": "2026-05-03T11:50:46.221Z",
+  "generatedAt": "2026-05-03T13:24:49.558Z",
   "count": 50,
   "items": [
     {
-      "id": 9823,
-      "status": "2nd_half",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "Club Atlético de Madrid",
-      "awayTeam": "SD Eibar",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9828,
-      "status": "2nd_half",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "Real Club Deportivo de la Coruña",
-      "awayTeam": "Real Sociedad",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8008,
-      "status": "2nd_half",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "GKS Katowice",
-      "awayTeam": "Bruk-Bet Termalica Nieciecza",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3036,
-      "status": "2nd_half",
-      "league": "Eredivisie",
-      "country": "Netherlands",
-      "homeTeam": "FC Volendam",
-      "awayTeam": "SC Heerenveen",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1418,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Bologna",
@@ -59,7 +15,7 @@
     },
     {
       "id": 202990,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Arda Kardzhali",
@@ -70,7 +26,7 @@
     },
     {
       "id": 10293,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Scottish Premiership",
       "country": "Scotland",
       "homeTeam": "Hibernian",
@@ -81,7 +37,7 @@
     },
     {
       "id": 9147,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "KV Mechelen",
@@ -91,19 +47,8 @@
       "marketCount": 0
     },
     {
-      "id": 204245,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Racing Club",
-      "awayTeam": "Huesca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 46347,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Malmö FF",
@@ -113,8 +58,19 @@
       "marketCount": 0
     },
     {
+      "id": 204245,
+      "status": "2nd_half",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Real Racing Club",
+      "awayTeam": "Huesca",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 46346,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Hammarby IF",
@@ -125,7 +81,7 @@
     },
     {
       "id": 10243,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Super League",
       "country": "Switzerland",
       "homeTeam": "FC St. Gallen 1879",
@@ -136,7 +92,7 @@
     },
     {
       "id": 1021,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Celta Vigo",
@@ -146,19 +102,8 @@
       "marketCount": 0
     },
     {
-      "id": 3039,
-      "status": "notstarted",
-      "league": "Eredivisie",
-      "country": "Netherlands",
-      "homeTeam": "PEC Zwolle",
-      "awayTeam": "Heracles Almelo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 3037,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Eredivisie",
       "country": "Netherlands",
       "homeTeam": "Fortuna Sittard",
@@ -168,8 +113,19 @@
       "marketCount": 0
     },
     {
+      "id": 3039,
+      "status": "halftime",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "PEC Zwolle",
+      "awayTeam": "Heracles Almelo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8016,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "Zagłębie Lubin",
@@ -179,19 +135,8 @@
       "marketCount": 0
     },
     {
-      "id": 1425,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Sassuolo",
-      "awayTeam": "Milan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 2044,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Ligue 1",
       "country": "France",
       "homeTeam": "Lille",
@@ -201,8 +146,19 @@
       "marketCount": 0
     },
     {
+      "id": 1425,
+      "status": "1st_half",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Milan",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 346,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Bournemouth",
@@ -213,7 +169,7 @@
     },
     {
       "id": 202991,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Botev Plovdiv",
@@ -229,6 +185,17 @@
       "country": "Germany",
       "homeTeam": "FC St. Pauli",
       "awayTeam": "1. FSV Mainz 05",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9196,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "APO Levadiakos",
+      "awayTeam": "NPS Volos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,28 +223,6 @@
       "marketCount": 0
     },
     {
-      "id": 9196,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "APO Levadiakos",
-      "awayTeam": "NPS Volos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204246,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Sporting Gijón",
-      "awayTeam": "AD Ceuta",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1024,
       "status": "notstarted",
       "league": "La Liga",
@@ -289,45 +234,12 @@
       "marketCount": 0
     },
     {
-      "id": 10244,
+      "id": 204246,
       "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Lugano",
-      "awayTeam": "BSC Young Boys",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 351,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Manchester United",
-      "awayTeam": "Liverpool FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 663,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Casa Pia",
-      "awayTeam": "Tondela",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10245,
-      "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "Grasshopper Club Zürich",
-      "awayTeam": "Servette FC",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Sporting Gijón",
+      "awayTeam": "AD Ceuta",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,6 +267,50 @@
       "marketCount": 0
     },
     {
+      "id": 351,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Liverpool FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10244,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Lugano",
+      "awayTeam": "BSC Young Boys",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 663,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Casa Pia",
+      "awayTeam": "Tondela",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10245,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "Servette FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 3040,
       "status": "notstarted",
       "league": "Eredivisie",
@@ -377,34 +333,12 @@
       "marketCount": 0
     },
     {
-      "id": 8774,
+      "id": 8775,
       "status": "notstarted",
       "league": "Nigeria Premier Football League",
       "country": "Nigeria",
-      "homeTeam": "Kun Khalifat FC",
-      "awayTeam": "Kano Pillars",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8777,
-      "status": "notstarted",
-      "league": "Nigeria Premier Football League",
-      "country": "Nigeria",
-      "homeTeam": "Shooting Stars",
-      "awayTeam": "Nasarawa United",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8778,
-      "status": "notstarted",
-      "league": "Nigeria Premier Football League",
-      "country": "Nigeria",
-      "homeTeam": "Warri Wolves FC",
-      "awayTeam": "Plateau United",
+      "homeTeam": "Niger Tornadoes",
+      "awayTeam": "Kwara United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -421,12 +355,12 @@
       "marketCount": 0
     },
     {
-      "id": 8775,
+      "id": 8777,
       "status": "notstarted",
       "league": "Nigeria Premier Football League",
       "country": "Nigeria",
-      "homeTeam": "Niger Tornadoes",
-      "awayTeam": "Kwara United",
+      "homeTeam": "Shooting Stars",
+      "awayTeam": "Nasarawa United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -438,17 +372,6 @@
       "country": "Nigeria",
       "homeTeam": "Barau FC",
       "awayTeam": "El Kanemi Warriors",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8771,
-      "status": "notstarted",
-      "league": "Nigeria Premier Football League",
-      "country": "Nigeria",
-      "homeTeam": "Bendel Insurance FC",
-      "awayTeam": "Katsina United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -471,6 +394,39 @@
       "country": "Nigeria",
       "homeTeam": "Enyimba",
       "awayTeam": "Remo Stars",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8774,
+      "status": "notstarted",
+      "league": "Nigeria Premier Football League",
+      "country": "Nigeria",
+      "homeTeam": "Kun Khalifat FC",
+      "awayTeam": "Kano Pillars",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8778,
+      "status": "notstarted",
+      "league": "Nigeria Premier Football League",
+      "country": "Nigeria",
+      "homeTeam": "Warri Wolves FC",
+      "awayTeam": "Plateau United",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8771,
+      "status": "notstarted",
+      "league": "Nigeria Premier Football League",
+      "country": "Nigeria",
+      "homeTeam": "Bendel Insurance FC",
+      "awayTeam": "Katsina United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +504,50 @@
       "country": "Saudi Arabia",
       "homeTeam": "Al-Shabab",
       "awayTeam": "Al-Taawoun",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1422,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Juventus",
+      "awayTeam": "Hellas Verona",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9194,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "PAOK",
+      "awayTeam": "Olympiacos FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 202992,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "CSKA Sofia",
+      "awayTeam": "Ludogorets",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1027,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Real Betis",
+      "awayTeam": "Real Oviedo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
