@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-04T16:52:56.947Z",
+  "generatedAt": "2026-05-04T18:20:25.597Z",
   "count": 50,
   "items": [
     {
-      "id": 348,
-      "status": "finished",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Chelsea",
-      "awayTeam": "Nottingham Forest",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7686,
-      "status": "finished",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "AFC Unirea 04 Slobozia",
-      "awayTeam": "FC Hermannstadt",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4796,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Fayha",
@@ -36,19 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 10294,
-      "status": "1st_half",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Heart of Midlothian",
-      "awayTeam": "Rangers",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1420,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Cremonese",
@@ -58,19 +25,19 @@
       "marketCount": 0
     },
     {
-      "id": 46350,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Djurgårdens IF",
-      "awayTeam": "IFK Göteborg",
+      "id": 10294,
+      "status": "2nd_half",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Heart of Midlothian",
+      "awayTeam": "Rangers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
       "id": 46351,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Halmstads BK",
@@ -81,7 +48,7 @@
     },
     {
       "id": 8014,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "Radomiak Radom",
@@ -91,8 +58,19 @@
       "marketCount": 0
     },
     {
+      "id": 46350,
+      "status": "2nd_half",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Djurgårdens IF",
+      "awayTeam": "IFK Göteborg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7683,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "FC Rapid București",
@@ -102,23 +80,23 @@
       "marketCount": 0
     },
     {
-      "id": 4798,
-      "status": "notstarted",
+      "id": 4794,
+      "status": "1st_half",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
-      "homeTeam": "Al-Ittihad",
-      "awayTeam": "Al-Kholood",
+      "homeTeam": "Al-Ettifaq",
+      "awayTeam": "Al-Najma SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 4794,
-      "status": "notstarted",
+      "id": 4798,
+      "status": "1st_half",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
-      "homeTeam": "Al-Ettifaq",
-      "awayTeam": "Al-Najma SC",
+      "homeTeam": "Al-Ittihad",
+      "awayTeam": "Al-Kholood",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -146,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 349,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Everton",
-      "awayTeam": "Manchester City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1028,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Sevilla",
       "awayTeam": "Real Sociedad",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 349,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester City",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +190,12 @@
       "marketCount": 0
     },
     {
-      "id": 205061,
+      "id": 205062,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
-      "homeTeam": "Gangwon FC",
-      "awayTeam": "Pohang Steelers",
+      "homeTeam": "Gimcheon Sangmu FC",
+      "awayTeam": "Ulsan HD",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,12 +212,12 @@
       "marketCount": 0
     },
     {
-      "id": 205062,
+      "id": 205061,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
-      "homeTeam": "Gimcheon Sangmu FC",
-      "awayTeam": "Ulsan HD",
+      "homeTeam": "Gangwon FC",
+      "awayTeam": "Pohang Steelers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,6 +344,17 @@
       "marketCount": 0
     },
     {
+      "id": 9410,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Club Sporting Cristal",
+      "awayTeam": "Palmeiras",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9300,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -377,23 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 9299,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Club Independiente",
-      "awayTeam": "Caracas F.C.",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9410,
+      "id": 9411,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Club Sporting Cristal",
-      "awayTeam": "Palmeiras",
+      "homeTeam": "Rosario Central",
+      "awayTeam": "Libertad",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,12 +388,12 @@
       "marketCount": 0
     },
     {
-      "id": 9411,
+      "id": 9299,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Rosario Central",
-      "awayTeam": "Libertad",
+      "homeTeam": "Club Independiente",
+      "awayTeam": "Caracas F.C.",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,23 +421,23 @@
       "marketCount": 0
     },
     {
-      "id": 9301,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Academia Puerto Cabello",
-      "awayTeam": "Cienciano",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9414,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Club Always Ready",
       "awayTeam": "CA Lanús",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9301,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Academia Puerto Cabello",
+      "awayTeam": "Cienciano",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,6 +487,17 @@
       "marketCount": 0
     },
     {
+      "id": 204866,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Nagoya Grampus",
+      "awayTeam": "Gamba Osaka",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 204865,
       "status": "notstarted",
       "league": "J1 League",
@@ -520,12 +509,12 @@
       "marketCount": 0
     },
     {
-      "id": 204866,
+      "id": 204867,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
-      "homeTeam": "Nagoya Grampus",
-      "awayTeam": "Gamba Osaka",
+      "homeTeam": "FC Tokyo",
+      "awayTeam": "JEF United Chiba",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +531,23 @@
       "marketCount": 0
     },
     {
-      "id": 204867,
+      "id": 204869,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
-      "homeTeam": "FC Tokyo",
-      "awayTeam": "JEF United Chiba",
+      "homeTeam": "Kashima Antlers",
+      "awayTeam": "Mito Hollyhock",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204870,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Machida Zelvia",
+      "awayTeam": "Yokohama F. Marinos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
