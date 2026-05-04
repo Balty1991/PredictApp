@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T07:36:56.666Z",
+  "generatedAt": "2026-05-04T10:19:47.646Z",
   "count": 50,
   "items": [
     {
@@ -58,6 +58,17 @@
       "marketCount": 0
     },
     {
+      "id": 46350,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Djurgårdens IF",
+      "awayTeam": "IFK Göteborg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 46351,
       "status": "notstarted",
       "league": "Allsvenskan",
@@ -80,17 +91,6 @@
       "marketCount": 0
     },
     {
-      "id": 46350,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "Djurgårdens IF",
-      "awayTeam": "IFK Göteborg",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7683,
       "status": "notstarted",
       "league": "Superliga",
@@ -102,23 +102,23 @@
       "marketCount": 0
     },
     {
-      "id": 4798,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Ittihad",
-      "awayTeam": "Al-Kholood",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4794,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Ettifaq",
       "awayTeam": "Al-Najma SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4798,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Ittihad",
+      "awayTeam": "Al-Kholood",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,23 +377,12 @@
       "marketCount": 0
     },
     {
-      "id": 9300,
+      "id": 9298,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Deportivo Riestra",
-      "awayTeam": "Grêmio",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9299,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Club Independiente",
-      "awayTeam": "Caracas F.C.",
+      "homeTeam": "Juventud de Las Piedras",
+      "awayTeam": "Atlético Mineiro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,23 +399,23 @@
       "marketCount": 0
     },
     {
-      "id": 9298,
+      "id": 9299,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Juventud de Las Piedras",
-      "awayTeam": "Atlético Mineiro",
+      "homeTeam": "Club Independiente",
+      "awayTeam": "Caracas F.C.",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 9412,
+      "id": 9300,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Barcelona SC Guayaquil",
-      "awayTeam": "Boca Juniors",
+      "homeTeam": "Deportivo Riestra",
+      "awayTeam": "Grêmio",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,6 +432,17 @@
       "marketCount": 0
     },
     {
+      "id": 9412,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Barcelona SC Guayaquil",
+      "awayTeam": "Boca Juniors",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9414,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -454,23 +454,23 @@
       "marketCount": 0
     },
     {
-      "id": 9301,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Academia Puerto Cabello",
-      "awayTeam": "Cienciano",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9302,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Recoleta FC",
       "awayTeam": "Santos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9301,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Academia Puerto Cabello",
+      "awayTeam": "Cienciano",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
