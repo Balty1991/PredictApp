@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-04T12:10:49.455Z",
+  "generatedAt": "2026-05-04T14:39:20.272Z",
   "count": 50,
   "items": [
     {
       "id": 348,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Chelsea",
@@ -15,7 +15,7 @@
     },
     {
       "id": 7686,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "AFC Unirea 04 Slobozia",
@@ -146,23 +146,23 @@
       "marketCount": 0
     },
     {
-      "id": 349,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Everton",
-      "awayTeam": "Manchester City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 1028,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Sevilla",
       "awayTeam": "Real Sociedad",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 349,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Everton",
+      "awayTeam": "Manchester City",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,6 +212,17 @@
       "marketCount": 0
     },
     {
+      "id": 205061,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Gangwon FC",
+      "awayTeam": "Pohang Steelers",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 205062,
       "status": "notstarted",
       "league": "K League 1",
@@ -229,17 +240,6 @@
       "country": "South Korea",
       "homeTeam": "Daejeon Hana Citizen",
       "awayTeam": "Incheon United",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205061,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Gangwon FC",
-      "awayTeam": "Pohang Steelers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 9410,
+      "id": 9298,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Club Sporting Cristal",
-      "awayTeam": "Palmeiras",
+      "homeTeam": "Juventud de Las Piedras",
+      "awayTeam": "Atlético Mineiro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,23 +388,12 @@
       "marketCount": 0
     },
     {
-      "id": 9411,
+      "id": 9410,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Rosario Central",
-      "awayTeam": "Libertad",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9298,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Juventud de Las Piedras",
-      "awayTeam": "Atlético Mineiro",
+      "homeTeam": "Club Sporting Cristal",
+      "awayTeam": "Palmeiras",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -416,6 +405,17 @@
       "country": "South America",
       "homeTeam": "Deportivo Riestra",
       "awayTeam": "Grêmio",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9411,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Rosario Central",
+      "awayTeam": "Libertad",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -454,23 +454,23 @@
       "marketCount": 0
     },
     {
-      "id": 9302,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Recoleta FC",
-      "awayTeam": "Santos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9301,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Academia Puerto Cabello",
       "awayTeam": "Cienciano",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9302,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Recoleta FC",
+      "awayTeam": "Santos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,17 +509,6 @@
       "marketCount": 0
     },
     {
-      "id": 204865,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Avispa Fukuoka",
-      "awayTeam": "Kyoto Sanga FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204866,
       "status": "notstarted",
       "league": "J1 League",
@@ -531,12 +520,12 @@
       "marketCount": 0
     },
     {
-      "id": 204867,
+      "id": 204865,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
-      "homeTeam": "FC Tokyo",
-      "awayTeam": "JEF United Chiba",
+      "homeTeam": "Avispa Fukuoka",
+      "awayTeam": "Kyoto Sanga FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Japan",
       "homeTeam": "Sanfrecce Hiroshima",
       "awayTeam": "Vissel Kobe",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204867,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "FC Tokyo",
+      "awayTeam": "JEF United Chiba",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
