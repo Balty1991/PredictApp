@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T23:00:22.869Z",
+  "generatedAt": "2026-05-05T01:12:14.759Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,92 +21,70 @@
   ],
   "samples": {
     "event": {
-      "id": 9923,
+      "id": 205058,
       "league": {
-        "id": 34,
-        "name": "Brasileirão Serie B",
-        "country": "Brazil",
+        "id": 50,
+        "name": "K League 1",
+        "country": "South Korea",
         "is_women": false,
-        "current_season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 52,
-        "name": "Brasileiro Serie B 2026",
-        "year": 2026
-      },
-      "home_team": "Vila Nova FC",
-      "away_team": "Athletic Club",
+      "season": null,
+      "home_team": "Jeonbuk Hyundai Motors",
+      "away_team": "Gwangju FC",
       "home_team_obj": {
-        "id": 826,
-        "name": "Vila Nova FC",
-        "short_name": "Vila Nova",
-        "country": "Brazil",
+        "id": 1954,
+        "name": "Jeonbuk Hyundai Motors",
+        "short_name": "Jeonbuk",
+        "country": "South Korea",
         "coach": {
-          "name": "Guto Ferreira",
-          "shortName": "G. Ferreira"
+          "name": "Jeong-yong Jung",
+          "shortName": "J. Jung"
         },
-        "venue": {
-          "id": 619,
-          "name": "Estádio Onésio Brasileiro Alvarenga",
-          "city": "Goiânia",
-          "country": "Brazil",
-          "capacity": 11788
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 843,
-        "name": "Athletic Club",
-        "short_name": "Athletic",
-        "country": "Brazil",
+        "id": 1957,
+        "name": "Gwangju FC",
+        "short_name": "Gwangju",
+        "country": "South Korea",
         "coach": {
-          "name": "Alexsandro de Souza",
-          "shortName": "Alex"
+          "name": "Jeong-Gyu Lee",
+          "shortName": "J. Lee"
         },
-        "venue": {
-          "id": 635,
-          "name": "Estádio Joaquim Portugal",
-          "city": "São João del Rei",
-          "country": "Brazil",
-          "capacity": 8000
-        }
+        "venue": null
       },
-      "event_date": "2026-05-05T02:00:00+04:00",
-      "round_number": 7,
+      "event_date": "2026-05-05T09:00:00+04:00",
+      "round_number": 12,
       "round_name": "",
       "group_name": null,
-      "status": "halftime",
-      "home_score": 0,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 45,
-      "period": "HT",
-      "odds_home": 1.83,
-      "odds_draw": 3.5,
-      "odds_away": 4.81,
-      "odds_over_15": 1.42,
-      "odds_over_25": 2.25,
-      "odds_over_35": 4.07,
-      "odds_under_15": 3,
-      "odds_under_25": 1.69,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 2.1,
-      "odds_btts_no": 1.77,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 1.39,
+      "odds_draw": 4.75,
+      "odds_away": 9.62,
+      "odds_over_15": 1.33,
+      "odds_over_25": 2,
+      "odds_over_35": 3.48,
+      "odds_under_15": 3.5,
+      "odds_under_25": 1.875,
+      "odds_under_35": 1.333,
+      "odds_btts_yes": 2.32,
+      "odds_btts_no": 1.62,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.41,
-      "away_xg_live": 0.07,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 84,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -114,279 +92,79 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 135,
-        "name": "Guto Ferreira",
-        "short_name": "G. Ferreira",
-        "country": "Brazil",
-        "profile": "defensive",
+        "id": 1311,
+        "name": "Jeong-yong Jung",
+        "short_name": "J. Jung",
+        "country": "South Korea",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.7502716900511939,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.49148985970574793,
+        "defensive_line": "high",
         "top_styles": [
-          "anti_football",
-          "man_press"
+          "ball_dominant",
+          "total_football"
         ]
       },
       "away_coach": {
-        "id": 155,
-        "name": "Alexsandro de Souza",
-        "short_name": "Alex",
-        "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.4678493139420338,
-        "defensive_line": "high",
+        "id": 1314,
+        "name": "Jeong-Gyu Lee",
+        "short_name": "J. Lee",
+        "country": "South Korea",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.15013372573427652,
+        "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
+          "chaos_ball",
           "anti_football"
         ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Emerson Urso",
-            "status": "injured",
-            "reason": "Ankle/Foot Injury",
-            "expected_return": "2026-06-15"
-          }
-        ],
-        "away": [
-          {
-            "name": "Jhonatan",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Max",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Rodrigo Gelado",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Ronaldo Tavares",
-            "status": "injured",
-            "reason": "ACL Knee Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Sidimar",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 619,
-        "name": "Estádio Onésio Brasileiro Alvarenga",
-        "city": "Goiânia",
-        "country": "Brazil",
-        "capacity": 11788,
-        "latitude": -16.673542,
-        "longitude": -49.237703,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+        "id": 1125,
+        "name": "Jeonju World Cup Stadium",
+        "city": "Jeonju",
+        "country": "South Korea",
+        "capacity": 42477,
+        "latitude": 35.868111,
+        "longitude": 127.064444,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2001
       },
-      "live_stats": {
-        "away": {
-          "duels": 56,
-          "fouls": 10,
-          "passes": 122,
-          "crosses": "1/2 (50%)",
-          "tackles": 14,
-          "dribbles": "1/2 (50%)",
-          "big_saves": 1,
-          "throw_ins": 7,
-          "clearances": 18,
-          "free_kicks": 9,
-          "goal_kicks": 3,
-          "long_balls": "12/31 (39%)",
-          "recoveries": 25,
-          "high_claims": 0,
-          "tackles_won": 57,
-          "total_saves": 3,
-          "total_shots": 1,
-          "aerial_duels": "3/7 (43%)",
-          "corner_kicks": 0,
-          "dispossessed": 4,
-          "ground_duels": "24/41 (59%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 0,
-          "interceptions": 5,
-          "total_tackles": 14,
-          "expected_goals": 0.07,
-          "accurate_passes": 89,
-          "ball_possession": 31,
-          "goals_prevented": 0.63,
-          "shots_on_target": 1,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 1,
-          "shots_off_target": 0,
-          "final_third_phase": "6/21 (29%)",
-          "shots_outside_box": 0,
-          "final_third_entries": 19,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 1
-        },
-        "home": {
-          "duels": 46,
-          "fouls": 9,
-          "passes": 264,
-          "crosses": "3/15 (20%)",
-          "tackles": 5,
-          "dribbles": "2/11 (18%)",
-          "big_saves": 0,
-          "throw_ins": 12,
-          "clearances": 4,
-          "free_kicks": 10,
-          "goal_kicks": 2,
-          "long_balls": "12/23 (52%)",
-          "recoveries": 28,
-          "high_claims": 1,
-          "tackles_won": 100,
-          "total_saves": 1,
-          "total_shots": 12,
-          "aerial_duels": "4/6 (67%)",
-          "corner_kicks": 6,
-          "dispossessed": 5,
-          "ground_duels": "18/42 (43%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 1,
-          "blocked_shots": 7,
-          "interceptions": 2,
-          "total_tackles": 5,
-          "expected_goals": 0.41,
-          "accurate_passes": 227,
-          "ball_possession": 69,
-          "goals_prevented": 0.07,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 3,
-          "shots_off_target": 2,
-          "final_third_phase": "56/80 (70%)",
-          "shots_outside_box": 9,
-          "final_third_entries": 36,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 11
-        },
-        "first_half": {
-          "away": {
-            "duels": 56,
-            "fouls": 10,
-            "passes": 122,
-            "crosses": "1/2 (50%)",
-            "tackles": 14,
-            "dribbles": "1/2 (50%)",
-            "throw_ins": 7,
-            "clearances": 18,
-            "free_kicks": 9,
-            "goal_kicks": 3,
-            "long_balls": "12/31 (39%)",
-            "recoveries": 25,
-            "tackles_won": 57,
-            "total_saves": 3,
-            "total_shots": 1,
-            "aerial_duels": "3/7 (43%)",
-            "corner_kicks": 0,
-            "dispossessed": 4,
-            "ground_duels": "24/41 (59%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 0,
-            "interceptions": 5,
-            "total_tackles": 14,
-            "expected_goals": 0.07,
-            "accurate_passes": 89,
-            "ball_possession": 31,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 3,
-            "shots_inside_box": 1,
-            "shots_off_target": 0,
-            "shots_outside_box": 0,
-            "final_third_entries": 19,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 46,
-            "fouls": 9,
-            "passes": 264,
-            "crosses": "3/15 (20%)",
-            "tackles": 5,
-            "dribbles": "2/11 (18%)",
-            "throw_ins": 12,
-            "clearances": 4,
-            "free_kicks": 10,
-            "goal_kicks": 2,
-            "long_balls": "12/23 (52%)",
-            "recoveries": 28,
-            "tackles_won": 100,
-            "total_saves": 1,
-            "total_shots": 12,
-            "aerial_duels": "4/6 (67%)",
-            "corner_kicks": 6,
-            "dispossessed": 5,
-            "ground_duels": "18/42 (43%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 1,
-            "blocked_shots": 7,
-            "interceptions": 2,
-            "total_tackles": 5,
-            "expected_goals": 0.41,
-            "accurate_passes": 227,
-            "ball_possession": 69,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 3,
-            "shots_off_target": 2,
-            "shots_outside_box": 9,
-            "final_third_entries": 36,
-            "fouled_in_final_third": 2
-          }
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "942cb3",
-            "real": true,
-            "type": "long_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
-          },
-          "player": {
-            "base": "ffffff",
+            "base": "c1abdf",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000",
-            "stripes": "000000",
-            "sleevelong": "ffffff"
+            "number": "0d0d0d",
+            "sleeve": "080808"
+          },
+          "player": {
+            "base": "e9ad17",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "7d2525",
+            "sleeve": "0d0d0d",
+            "sleevelong": "e9ad17"
           }
         },
         "home": {
           "GK": {
-            "base": "7a47bb",
+            "base": "a4b0f9",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "161616"
+            "sleeve": "9aa8f4"
           },
           "player": {
-            "base": "ff0000",
+            "base": "9ed485",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "7c0204",
-            "sleevelong": "ff0000"
+            "number": "0d0d0d",
+            "sleeve": "a1d387"
           }
         }
       },
@@ -396,9 +174,9 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 3510,
+      "id": 3511,
       "event": {
-        "id": 205056,
+        "id": 205058,
         "league": {
           "id": 50,
           "name": "K League 1",
@@ -407,27 +185,27 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Bucheon FC 1995",
-        "away_team": "Jeju SK",
+        "home_team": "Jeonbuk Hyundai Motors",
+        "away_team": "Gwangju FC",
         "home_team_obj": {
-          "id": 1955,
-          "name": "Bucheon FC 1995",
-          "short_name": "Bucheon",
+          "id": 1954,
+          "name": "Jeonbuk Hyundai Motors",
+          "short_name": "Jeonbuk",
           "country": "South Korea",
           "coach": {
-            "name": "Young-Min Lee",
-            "shortName": "Y. Lee"
+            "name": "Jeong-yong Jung",
+            "shortName": "J. Jung"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 1956,
-          "name": "Jeju SK",
-          "short_name": "Jeju",
+          "id": 1957,
+          "name": "Gwangju FC",
+          "short_name": "Gwangju",
           "country": "South Korea",
           "coach": {
-            "name": "Sergio Costa",
-            "shortName": "S. Costa"
+            "name": "Jeong-Gyu Lee",
+            "shortName": "J. Lee"
           },
           "venue": null
         },
@@ -442,17 +220,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.52,
-        "odds_draw": 3.2,
-        "odds_away": 2.96,
-        "odds_over_15": 1.48,
-        "odds_over_25": 2.4,
-        "odds_over_35": 4.57,
-        "odds_under_15": 2.83,
-        "odds_under_25": 1.615,
-        "odds_under_35": 1.222,
-        "odds_btts_yes": 2.02,
-        "odds_btts_no": 1.793,
+        "odds_home": 1.39,
+        "odds_draw": 4.75,
+        "odds_away": 9.62,
+        "odds_over_15": 1.33,
+        "odds_over_25": 2,
+        "odds_over_35": 3.48,
+        "odds_under_15": 3.5,
+        "odds_under_25": 1.875,
+        "odds_under_35": 1.333,
+        "odds_btts_yes": 2.32,
+        "odds_btts_no": 1.62,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -461,7 +239,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 475,
+        "travel_distance_km": 84,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -469,45 +247,45 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1312,
-          "name": "Young-Min Lee",
-          "short_name": "Y. Lee",
+          "id": 1311,
+          "name": "Jeong-yong Jung",
+          "short_name": "J. Jung",
           "country": "South Korea",
-          "profile": "defensive",
-          "preferred_formation": "3-4-3",
-          "pressing_intensity": 0.17658578248784962,
-          "defensive_line": "mid",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.49148985970574793,
+          "defensive_line": "high",
           "top_styles": [
-            "park_the_bus",
-            "terrorist_fb"
+            "ball_dominant",
+            "total_football"
           ]
         },
         "away_coach": {
-          "id": 1313,
-          "name": "Sergio Costa",
-          "short_name": "S. Costa",
-          "country": "",
+          "id": 1314,
+          "name": "Jeong-Gyu Lee",
+          "short_name": "J. Lee",
+          "country": "South Korea",
           "profile": "defensive",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.22288370101431015,
-          "defensive_line": "high",
+          "pressing_intensity": 0.15013372573427652,
+          "defensive_line": "mid",
           "top_styles": [
-            "terrorist_fb",
-            "park_the_bus"
+            "chaos_ball",
+            "anti_football"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1129,
-          "name": "Bucheon Stadium",
-          "city": "Bucheon",
+          "id": 1125,
+          "name": "Jeonju World Cup Stadium",
+          "city": "Jeonju",
           "country": "South Korea",
-          "capacity": 35545,
-          "latitude": 37.502551,
-          "longitude": 126.799044,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "capacity": 42477,
+          "latitude": 35.868111,
+          "longitude": 127.064444,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 2001
         },
         "incidents": null,
         "live_stats": null,
@@ -519,34 +297,35 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "233434",
+              "base": "c1abdf",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff"
+              "number": "0d0d0d",
+              "sleeve": "080808"
             },
             "player": {
-              "base": "fda704",
+              "base": "e9ad17",
               "real": true,
               "type": "short_sleeves",
-              "number": "4a307a",
-              "sleeve": "fda704"
+              "number": "7d2525",
+              "sleeve": "0d0d0d",
+              "sleevelong": "e9ad17"
             }
           },
           "home": {
             "GK": {
-              "base": "276d4f",
+              "base": "a4b0f9",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "faf9f9"
+              "sleeve": "9aa8f4"
             },
             "player": {
-              "base": "990000",
+              "base": "9ed485",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "990000"
+              "number": "0d0d0d",
+              "sleeve": "a1d387"
             }
           }
         },
@@ -555,22 +334,22 @@
         "ai_preview": null,
         "live_websocket": true
       },
-      "created_at": "2026-04-29T06:20:08.330610+04:00",
-      "prob_home_win": 21.587007456919046,
-      "prob_draw": 30.419787253731318,
-      "prob_away_win": 47.993205289349646,
-      "predicted_result": "A",
-      "expected_home_goals": 0.7,
-      "expected_away_goals": 1.2,
-      "prob_over_15": 44.97740383760534,
-      "prob_over_25": 27.47441093516832,
-      "prob_over_35": 15.309805705799997,
-      "prob_btts_yes": 33.22127210266886,
-      "confidence": 47.993205289349646,
+      "created_at": "2026-04-29T06:20:08.895274+04:00",
+      "prob_home_win": 62.24930632931866,
+      "prob_draw": 19.74795081113688,
+      "prob_away_win": 18.002742859544465,
+      "predicted_result": "H",
+      "expected_home_goals": 2.2,
+      "expected_away_goals": 1.1,
+      "prob_over_15": 84.91403163359519,
+      "prob_over_25": 68.61509885790838,
+      "prob_over_35": 33.546022730670174,
+      "prob_btts_yes": 46.3743756132503,
+      "confidence": 62.24930632931866,
       "model_version": "v5.0",
-      "most_likely_score": "0-1",
-      "favorite": "A",
-      "favorite_prob": 47.993205289349646,
+      "most_likely_score": "2-1",
+      "favorite": "H",
+      "favorite_prob": 62.24930632931866,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
