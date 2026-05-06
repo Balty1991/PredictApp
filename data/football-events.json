@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-06T21:16:31.719Z",
+  "generatedAt": "2026-05-06T22:25:52.611Z",
   "count": 50,
   "items": [
     {
-      "id": 202971,
-      "status": "finished",
-      "league": "Champions League",
-      "country": "Europe",
-      "homeTeam": "FC Bayern München",
-      "awayTeam": "Paris Saint-Germain",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9415,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Cusco FC",
-      "awayTeam": "Estudiantes de La Plata",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9305,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Audax Italiano",
@@ -37,7 +15,7 @@
     },
     {
       "id": 9304,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Montevideo City Torque",
@@ -48,7 +26,7 @@
     },
     {
       "id": 9416,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Deportivo La Guaira",
@@ -58,8 +36,19 @@
       "marketCount": 0
     },
     {
+      "id": 9415,
+      "status": "1st_half",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Cusco FC",
+      "awayTeam": "Estudiantes de La Plata",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 5352,
-      "status": "postponed",
+      "status": "cancelled",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "New York City FC",
@@ -91,23 +80,23 @@
       "marketCount": 0
     },
     {
-      "id": 9417,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Independiente Rivadavia",
-      "awayTeam": "Fluminense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9308,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Botafogo",
       "awayTeam": "Racing Club",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9417,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Independiente Rivadavia",
+      "awayTeam": "Fluminense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 9420,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Universidad Católica",
-      "awayTeam": "Cruzeiro",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9419,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Deportes Tolima",
       "awayTeam": "Nacional",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9420,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Universidad Católica",
+      "awayTeam": "Cruzeiro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,23 +190,23 @@
       "marketCount": 0
     },
     {
-      "id": 9310,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Boston River",
-      "awayTeam": "Millonarios",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9422,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Mirassol",
       "awayTeam": "LDU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9310,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Boston River",
+      "awayTeam": "Millonarios",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -245,23 +234,23 @@
       "marketCount": 0
     },
     {
-      "id": 9313,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Carabobo FC",
-      "awayTeam": "River Plate",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9424,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Independiente Medellín",
       "awayTeam": "Flamengo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9313,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Carabobo FC",
+      "awayTeam": "River Plate",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,17 +289,6 @@
       "marketCount": 0
     },
     {
-      "id": 206712,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "Olympique Béja",
-      "awayTeam": "JS Omrane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206711,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
@@ -339,6 +317,17 @@
       "country": "Tunisia",
       "homeTeam": "Stade Tunisien",
       "awayTeam": "US Ben Guerdane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206712,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "Olympique Béja",
+      "awayTeam": "JS Omrane",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "South Korea",
       "homeTeam": "Gimcheon Sangmu FC",
       "awayTeam": "Incheon United",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9834,
+      "status": "notstarted",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "RCD Espanyol de Barcelona",
+      "awayTeam": "FC Badalona",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
