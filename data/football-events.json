@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-07T19:48:38.649Z",
+  "generatedAt": "2026-05-07T21:09:29.575Z",
   "count": 50,
   "items": [
     {
-      "id": 4817,
-      "status": "2nd_half",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Shabab",
-      "awayTeam": "Al-Nassr",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206879,
-      "status": "2nd_half",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "RS Berkane",
-      "awayTeam": "Union Touarga Sport",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 202974,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Europa League",
       "country": "Europe",
       "homeTeam": "Aston Villa",
@@ -37,7 +15,7 @@
     },
     {
       "id": 202975,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Europa League",
       "country": "Europe",
       "homeTeam": "SC Freiburg",
@@ -48,44 +26,11 @@
     },
     {
       "id": 206880,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "AS FAR Rabat",
       "awayTeam": "Olympic Safi",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9311,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "O'Higgins",
-      "awayTeam": "São Paulo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9422,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Mirassol",
-      "awayTeam": "LDU",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9421,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Club Atlético Platense",
-      "awayTeam": "Peñarol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -102,6 +47,39 @@
       "marketCount": 0
     },
     {
+      "id": 9421,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Club Atlético Platense",
+      "awayTeam": "Peñarol",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9422,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Mirassol",
+      "awayTeam": "LDU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9311,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "O'Higgins",
+      "awayTeam": "São Paulo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9423,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -113,23 +91,23 @@
       "marketCount": 0
     },
     {
-      "id": 9313,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Carabobo FC",
-      "awayTeam": "River Plate",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9424,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Independiente Medellín",
       "awayTeam": "Flamengo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9313,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Carabobo FC",
+      "awayTeam": "River Plate",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,23 +157,23 @@
       "marketCount": 0
     },
     {
-      "id": 206713,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "Stade Tunisien",
-      "awayTeam": "US Ben Guerdane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206712,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
       "homeTeam": "Olympique Béja",
       "awayTeam": "JS Omrane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206710,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "AS Soliman",
+      "awayTeam": "Avenir Sportif De Gabes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +190,12 @@
       "marketCount": 0
     },
     {
-      "id": 206710,
+      "id": 206713,
       "status": "notstarted",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "AS Soliman",
-      "awayTeam": "Avenir Sportif De Gabes",
+      "homeTeam": "Stade Tunisien",
+      "awayTeam": "US Ben Guerdane",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,17 +234,6 @@
       "marketCount": 0
     },
     {
-      "id": 7691,
-      "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "CFR 1907 Cluj",
-      "awayTeam": "Universitatea Craiova",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206881,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -278,12 +245,23 @@
       "marketCount": 0
     },
     {
-      "id": 1747,
+      "id": 7691,
       "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Eintracht Frankfurt",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "CFR 1907 Cluj",
+      "awayTeam": "Universitatea Craiova",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206674,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Arbroath",
+      "awayTeam": "Dunfermline Athletic",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,12 +289,12 @@
       "marketCount": 0
     },
     {
-      "id": 206674,
+      "id": 1747,
       "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Arbroath",
-      "awayTeam": "Dunfermline Athletic",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Eintracht Frankfurt",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -333,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 2058,
-      "status": "notstarted",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "RC Lens",
-      "awayTeam": "Nantes",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9153,
       "status": "notstarted",
       "league": "Pro League",
@@ -355,12 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 206669,
+      "id": 2058,
       "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Hull City",
-      "awayTeam": "Millwall",
+      "league": "Ligue 1",
+      "country": "France",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Nantes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,6 +344,17 @@
       "marketCount": 0
     },
     {
+      "id": 206669,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Hull City",
+      "awayTeam": "Millwall",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206882,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -388,23 +366,23 @@
       "marketCount": 0
     },
     {
-      "id": 205064,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Jeju SK",
-      "awayTeam": "FC Seoul",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204873,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Mito Hollyhock",
       "awayTeam": "Urawa Red Diamonds",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205064,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Jeju SK",
+      "awayTeam": "FC Seoul",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,23 +421,23 @@
       "marketCount": 0
     },
     {
-      "id": 9834,
-      "status": "notstarted",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "RCD Espanyol de Barcelona",
-      "awayTeam": "FC Badalona",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205067,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Daejeon Hana Citizen",
       "awayTeam": "Pohang Steelers",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9834,
+      "status": "notstarted",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "RCD Espanyol de Barcelona",
+      "awayTeam": "FC Badalona",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -487,23 +465,23 @@
       "marketCount": 0
     },
     {
-      "id": 206670,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Middlesbrough",
-      "awayTeam": "Southampton",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 358,
       "status": "notstarted",
       "league": "Premier League",
       "country": "England",
       "homeTeam": "Liverpool FC",
       "awayTeam": "Chelsea",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206670,
+      "status": "notstarted",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Middlesbrough",
+      "awayTeam": "Southampton",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +526,28 @@
       "country": "Spain",
       "homeTeam": "Elche",
       "awayTeam": "Deportivo Alavés",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8024,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Widzew Łódź",
+      "awayTeam": "KS Lechia Gdańsk",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1427,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Udinese",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
