@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T20:35:36.692Z",
+  "generatedAt": "2026-05-08T22:03:16.422Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 206881,
+      "id": 206882,
       "league": {
         "id": 53,
         "name": "Botola Pro",
@@ -30,52 +30,52 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Olympique Dcheira",
-      "away_team": "Union Sportive Yacoub El Mansour",
+      "home_team": "Kawkab Athletic Club Marrakech",
+      "away_team": "Renaissance Zemamra",
       "home_team_obj": {
-        "id": 2063,
-        "name": "Olympique Dcheira",
-        "short_name": "",
+        "id": 2065,
+        "name": "Kawkab Athletic Club Marrakech",
+        "short_name": "KACM",
         "country": "Morocco",
         "coach": {
-          "name": "Abderrahim Saïdi",
-          "shortName": "A. Saïdi"
+          "name": "Hicham Dmiai",
+          "shortName": "H. Dmiai"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2068,
-        "name": "Union Sportive Yacoub El Mansour",
-        "short_name": "USYM",
+        "id": 2072,
+        "name": "Renaissance Zemamra",
+        "short_name": "Renaissance Zemamra",
         "country": "Morocco",
         "coach": {
-          "name": "Mehdi El Jabri",
-          "shortName": "M. E. Jabri"
+          "name": "Mohamed Fakhir",
+          "shortName": "M. Fakhir"
         },
         "venue": null
       },
-      "event_date": "2026-05-08T22:00:00+04:00",
+      "event_date": "2026-05-09T00:00:00+04:00",
       "round_number": 19,
       "round_name": "",
       "group_name": null,
       "status": "finished",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 2,
       "home_score_ht": 1,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 2.72,
-      "odds_draw": 3.28,
-      "odds_away": 2.38,
-      "odds_over_15": 1.28,
-      "odds_over_25": 1.86,
-      "odds_over_35": 3.12,
-      "odds_under_15": 3.35,
-      "odds_under_25": 1.85,
-      "odds_under_35": 1.31,
-      "odds_btts_yes": 1.7,
-      "odds_btts_no": 2.03,
+      "odds_home": 13.22,
+      "odds_draw": 3.53,
+      "odds_away": 2.93,
+      "odds_over_15": 1.72,
+      "odds_over_25": 2.97,
+      "odds_over_35": 6.73,
+      "odds_under_15": 2.03,
+      "odds_under_25": 1.34,
+      "odds_under_35": 1.09,
+      "odds_btts_yes": 2.5,
+      "odds_btts_no": 1.48,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -84,7 +84,7 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 123,
       "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,9 +92,9 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1481,
-        "name": "Abderrahim Saïdi",
-        "short_name": "A. Saïdi",
+        "id": 1483,
+        "name": "Hicham Dmiai",
+        "short_name": "H. Dmiai",
         "country": "Morocco",
         "profile": "",
         "preferred_formation": "",
@@ -103,9 +103,9 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1486,
-        "name": "Mehdi El Jabri",
-        "short_name": "M. E. Jabri",
+        "id": 1490,
+        "name": "Mohamed Fakhir",
+        "short_name": "M. Fakhir",
         "country": "Morocco",
         "profile": "",
         "preferred_formation": "",
@@ -126,73 +126,73 @@
             "sleeve": "333333"
           },
           "player": {
-            "base": "585858",
-            "real": false,
+            "base": "fffb12",
+            "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "585858"
+            "number": "000000",
+            "sleeve": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "cccccc",
+            "base": "00ffff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "00ffcc"
+          },
+          "player": {
+            "base": "660099",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
             "sleeve": "000000"
-          },
-          "player": {
-            "base": "D8D8D8",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "Olymp. Dcheira haven't won in their last 7 games."
-        },
-        {
-          "type_id": 2,
-          "sentence": "US Yacoub Mansour haven't won any of their last 3 games against Olymp. Dcheira."
+          "type_id": 24,
+          "sentence": "Kawkab Marrakech's home record this season: 3-4-1."
         },
         {
           "type_id": 24,
-          "sentence": "Olymp. Dcheira's home record this season: 1-2-6."
+          "sentence": "Renaissance Zemamra's away record this season: 3-0-6."
+        },
+        {
+          "type_id": 26,
+          "sentence": "A year ago, Renaissance Zemamra were number 3 in the table with 31 points. Now they are number 11 with 16 points."
         }
       ],
       "sr_stats": {
         "attack": {
           "away": 92,
-          "home": 56
+          "home": 88
         },
         "ball_safe": {
-          "away": 57,
-          "home": 64
+          "away": 79,
+          "home": 76
         },
         "attack_pct": {
-          "away": 37,
-          "home": 34
+          "away": 28,
+          "home": 31
         },
         "ball_safe_pct": {
-          "away": 30,
-          "home": 52
+          "away": 52,
+          "home": 46
         },
         "dangerous_attack": {
-          "away": 60,
-          "home": 25
+          "away": 34,
+          "home": 34
         },
         "dangerous_attack_pct": {
-          "away": 33,
-          "home": 14
+          "away": 20,
+          "home": 23
         }
       },
       "ai_preview": {
-        "text": "**Dcheira's in free fall, but Yacoub El Mansour isn't exactly cruising.** This is a classic clash between a team hemorrhaging wins and one barely staying afloat. 🔴\n\nOlympique Dcheira have lost all five of their last matches—**0W 0D 5L** is genuinely brutal. Union Sportive Yacoub El Mansour, meanwhile, have at least found a pulse with a win over Wydad Casablanca, though they're mixing wins with draws and losses. The question: can the visitors capitalize on Dcheira's malaise, or will desperation create chaos?\n\nKey storylines:\n\n- **Olympique Dcheira** desperately need any result to snap a five-match losing streak that's dragging them down the table.\n- **Union Sportive Yacoub El Mansour's** mixed form (1W 2D 2L) keeps them competitive, but consistency is the enemy.\n- H2H edge slightly favors **Olympique Dcheira** (1-0 in their last clash), though form tells a different story.\n\nExpected lineups:\n\n- **Olympique Dcheira**: M. Idar, H. A. Brahim, A. Aboujemaa, H. J. Allah, Y. E. Khafi, M. E. Gouj, B. Amzili, H. Saoud, Y. Jabrane, A. Benaadi, R. Abardi\n- **Union Sportive Yacoub El Mansour**: I. Sayad, Z. Marour, N. Azzoubairi, A. Zine, H. Mrabet, A. Khalloufi, S. Ahannach, M. Balouk, Z. Fati, A. Jabroun, M. Boussanane\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw** feels like the likeliest outcome—Dcheira scrape a point they desperately need, Yacoub El Mansour don't lose. Lean toward the visitors on a slight edge. ⚪",
-        "generated_at": "2026-05-08T02:45:49.587784+00:00"
+        "text": "**Kawkab's flying high, and Zemamra's leaky defence just might be the perfect punching bag.** This Botola Pro matchup has all the makings of a statement home win. 🎯\n\nKawkab are on an absolute tear — three wins and two draws in their last five, including a clean sheet against Wydad. Zemamra, meanwhile, have dropped points in two of their last three and shipped multiple goals in their defeats. The form gap is real.\n\nKey storylines:\n\n- **Kawkab's attacking depth** with **S. Cissé** and **Y. E. Bahraoui** up front will test a Zemamra backline that's been shaky of late\n- **H. Fassoukh** anchoring Kawkab's left flank has been solid; Zemamra's **A. Badaoui** will need to keep pace\n- Last H2H ended level, but Kawkab's current momentum suggests they won't settle for a draw this time\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Smaali, H. Fassoukh, G. Claude, H. Rafa, S. Cissé\n- **Renaissance Zemamra**: M. Fakhr, J. Ajako, B. Soufi, R. A. Boughima, A. Badaoui, N. M. Tahiri, F. E. Yazid, Z. Ghailan\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kawkab 2–0 Zemamra**. Home side edges it with a clean sheet; Zemamra's recent struggles make them easy prey. 🔴",
+        "generated_at": "2026-05-08T02:46:03.914368+00:00"
       },
       "live_websocket": true
     },
@@ -243,17 +243,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.6,
-        "odds_draw": 3.23,
-        "odds_away": 2.05,
+        "odds_home": 3.44,
+        "odds_draw": 3.19,
+        "odds_away": 2.13,
         "odds_over_15": 1.38,
-        "odds_over_25": 2.18,
+        "odds_over_25": 2.19,
         "odds_over_35": 3.89,
-        "odds_under_15": 2.88,
-        "odds_under_25": 1.64,
+        "odds_under_15": 2.86,
+        "odds_under_25": 1.63,
         "odds_under_35": 1.23,
-        "odds_btts_yes": 1.94,
-        "odds_btts_no": 1.79,
+        "odds_btts_yes": 1.91,
+        "odds_btts_no": 1.81,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
