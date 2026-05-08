@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T22:03:16.422Z",
+  "generatedAt": "2026-05-08T23:30:41.853Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,61 +21,61 @@
   ],
   "samples": {
     "event": {
-      "id": 206882,
+      "id": 205064,
       "league": {
-        "id": 53,
-        "name": "Botola Pro",
-        "country": "Morocco",
+        "id": 50,
+        "name": "K League 1",
+        "country": "South Korea",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Kawkab Athletic Club Marrakech",
-      "away_team": "Renaissance Zemamra",
+      "home_team": "Jeju SK",
+      "away_team": "FC Seoul",
       "home_team_obj": {
-        "id": 2065,
-        "name": "Kawkab Athletic Club Marrakech",
-        "short_name": "KACM",
-        "country": "Morocco",
+        "id": 1956,
+        "name": "Jeju SK",
+        "short_name": "Jeju",
+        "country": "South Korea",
         "coach": {
-          "name": "Hicham Dmiai",
-          "shortName": "H. Dmiai"
+          "name": "Sergio Costa",
+          "shortName": "S. Costa"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2072,
-        "name": "Renaissance Zemamra",
-        "short_name": "Renaissance Zemamra",
-        "country": "Morocco",
+        "id": 1949,
+        "name": "FC Seoul",
+        "short_name": "FC Seoul",
+        "country": "South Korea",
         "coach": {
-          "name": "Mohamed Fakhir",
-          "shortName": "M. Fakhir"
+          "name": "Gi Dong Kim",
+          "shortName": "G. D. Kim"
         },
         "venue": null
       },
-      "event_date": "2026-05-09T00:00:00+04:00",
-      "round_number": 19,
+      "event_date": "2026-05-09T09:00:00+04:00",
+      "round_number": 13,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 1,
-      "away_score": 2,
-      "home_score_ht": 1,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 13.22,
-      "odds_draw": 3.53,
-      "odds_away": 2.93,
-      "odds_over_15": 1.72,
-      "odds_over_25": 2.97,
-      "odds_over_35": 6.73,
-      "odds_under_15": 2.03,
-      "odds_under_25": 1.34,
-      "odds_under_35": 1.09,
-      "odds_btts_yes": 2.5,
-      "odds_btts_no": 1.48,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 3.44,
+      "odds_draw": 3.19,
+      "odds_away": 2.13,
+      "odds_over_15": 1.38,
+      "odds_over_25": 2.19,
+      "odds_over_35": 3.89,
+      "odds_under_15": 2.86,
+      "odds_under_25": 1.63,
+      "odds_under_35": 1.23,
+      "odds_btts_yes": 1.91,
+      "odds_btts_no": 1.81,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -84,115 +84,108 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 123,
-      "weather_code": 1,
+      "travel_distance_km": 483,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1483,
-        "name": "Hicham Dmiai",
-        "short_name": "H. Dmiai",
-        "country": "Morocco",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1313,
+        "name": "Sergio Costa",
+        "short_name": "S. Costa",
+        "country": "",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.21298307107104447,
+        "defensive_line": "high",
+        "top_styles": [
+          "terrorist_fb",
+          "park_the_bus"
+        ]
       },
       "away_coach": {
-        "id": 1490,
-        "name": "Mohamed Fakhir",
-        "short_name": "M. Fakhir",
-        "country": "Morocco",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1306,
+        "name": "Gi Dong Kim",
+        "short_name": "G. D. Kim",
+        "country": "South Korea",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.6073260138049188,
+        "defensive_line": "mid",
+        "top_styles": [
+          "high_press",
+          "tiki_taka"
+        ]
       },
       "unavailable_players": null,
-      "venue": null,
+      "venue": {
+        "id": 1126,
+        "name": "Jeju World Cup Stadium ",
+        "city": "Seogwipo",
+        "country": "South Korea",
+        "capacity": 35657,
+        "latitude": 33.246139,
+        "longitude": 126.509206,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": 2001
+      },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "fffb12",
+            "base": "eae956",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "ffffff"
+            "number": "010101",
+            "sleeve": "0d0d0d"
+          },
+          "player": {
+            "base": "d82e36",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "f7f7f7",
+            "stripes": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "00ffff",
+            "base": "233434",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "00ffcc"
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "660099",
+            "base": "fda704",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
+            "number": "4a307a",
+            "sleeve": "fda704"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 24,
-          "sentence": "Kawkab Marrakech's home record this season: 3-4-1."
-        },
-        {
-          "type_id": 24,
-          "sentence": "Renaissance Zemamra's away record this season: 3-0-6."
+          "sentence": "Seoul's away record this season: 5-1-0."
         },
         {
           "type_id": 26,
-          "sentence": "A year ago, Renaissance Zemamra were number 3 in the table with 31 points. Now they are number 11 with 16 points."
+          "sentence": "A year ago, Seoul were number 8 in the table with 13 points. Now they are number 1 with 25 points."
+        },
+        {
+          "type_id": 1,
+          "sentence": "Seoul have lost none of their last 5 away matches."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 92,
-          "home": 88
-        },
-        "ball_safe": {
-          "away": 79,
-          "home": 76
-        },
-        "attack_pct": {
-          "away": 28,
-          "home": 31
-        },
-        "ball_safe_pct": {
-          "away": 52,
-          "home": 46
-        },
-        "dangerous_attack": {
-          "away": 34,
-          "home": 34
-        },
-        "dangerous_attack_pct": {
-          "away": 20,
-          "home": 23
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Kawkab's flying high, and Zemamra's leaky defence just might be the perfect punching bag.** This Botola Pro matchup has all the makings of a statement home win. 🎯\n\nKawkab are on an absolute tear — three wins and two draws in their last five, including a clean sheet against Wydad. Zemamra, meanwhile, have dropped points in two of their last three and shipped multiple goals in their defeats. The form gap is real.\n\nKey storylines:\n\n- **Kawkab's attacking depth** with **S. Cissé** and **Y. E. Bahraoui** up front will test a Zemamra backline that's been shaky of late\n- **H. Fassoukh** anchoring Kawkab's left flank has been solid; Zemamra's **A. Badaoui** will need to keep pace\n- Last H2H ended level, but Kawkab's current momentum suggests they won't settle for a draw this time\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Smaali, H. Fassoukh, G. Claude, H. Rafa, S. Cissé\n- **Renaissance Zemamra**: M. Fakhr, J. Ajako, B. Soufi, R. A. Boughima, A. Badaoui, N. M. Tahiri, F. E. Yazid, Z. Ghailan\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kawkab 2–0 Zemamra**. Home side edges it with a clean sheet; Zemamra's recent struggles make them easy prey. 🔴",
-        "generated_at": "2026-05-08T02:46:03.914368+00:00"
+        "text": "**Jeju and Seoul are deadlocked on form — both 2W-1D-2L — but one team's got recent history on its side.** Seoul swept the head-to-head last time out, and that edge might matter on Jeju's home turf. 🏟️\n\nBoth squads are trading wins and losses at almost identical rates. Jeju had a solid away win at Bucheon but got thumped at home by Jeonbuk. Seoul bounced back from a shocker vs Gimcheon with a road victory at Gangwon. Classic mid-table shuffle energy.\n\nKey storylines:\n\n- **Emerson Ramon and Italo** lead Jeju's attack, but they'll face a Seoul defense anchored by **J. Ros and C. Jun** who've seen enough chances this season\n- **P. Klimala's finishing** will be crucial for Seoul — he's their spearhead alongside **L. Ruiz** in a familiar 4-4-2\n- Both teams lean on midfield balance; **H. Babec and S. Jeong** vs **I. Yu and J. Kim** could swing possession\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** 🤝\n\nLean towards a cagey draw — both defenses tightened recently, and Seoul's edge isn't quite enough to break through at sea level.",
+        "generated_at": "2026-05-08T05:45:26.261615+00:00"
       },
       "live_websocket": true
     },
