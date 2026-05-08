@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-08T14:04:08.371Z",
+  "generatedAt": "2026-05-08T16:00:01.725Z",
   "count": 50,
   "items": [
     {
       "id": 202998,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Lokomotiv Plovdiv",
@@ -15,7 +15,7 @@
     },
     {
       "id": 206710,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
       "homeTeam": "AS Soliman",
@@ -25,30 +25,19 @@
       "marketCount": 0
     },
     {
-      "id": 7698,
-      "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "UTA Arad",
-      "awayTeam": "FK Csíkszereda Miercurea Ciuc",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206711,
-      "status": "notstarted",
+      "id": 206713,
+      "status": "halftime",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "JS Kairouanaise",
-      "awayTeam": "US Monastir",
+      "homeTeam": "Stade Tunisien",
+      "awayTeam": "US Ben Guerdane",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
       "id": 206712,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
       "homeTeam": "Olympique Béja",
@@ -58,12 +47,23 @@
       "marketCount": 0
     },
     {
-      "id": 206713,
-      "status": "notstarted",
+      "id": 206711,
+      "status": "halftime",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
-      "homeTeam": "Stade Tunisien",
-      "awayTeam": "US Ben Guerdane",
+      "homeTeam": "JS Kairouanaise",
+      "awayTeam": "US Monastir",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7698,
+      "status": "halftime",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "UTA Arad",
+      "awayTeam": "FK Csíkszereda Miercurea Ciuc",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
