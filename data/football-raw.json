@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T23:30:41.853Z",
+  "generatedAt": "2026-05-09T03:37:29.214Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,41 +21,41 @@
   ],
   "samples": {
     "event": {
-      "id": 205064,
+      "id": 204873,
       "league": {
-        "id": 50,
-        "name": "K League 1",
-        "country": "South Korea",
+        "id": 49,
+        "name": "J1 League",
+        "country": "Japan",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Jeju SK",
-      "away_team": "FC Seoul",
+      "home_team": "Mito Hollyhock",
+      "away_team": "Urawa Red Diamonds",
       "home_team_obj": {
-        "id": 1956,
-        "name": "Jeju SK",
-        "short_name": "Jeju",
-        "country": "South Korea",
+        "id": 1947,
+        "name": "Mito Hollyhock",
+        "short_name": "Mito Hollyhock",
+        "country": "Japan",
         "coach": {
-          "name": "Sergio Costa",
-          "shortName": "S. Costa"
+          "name": "Daisuke Kimori",
+          "shortName": "D. Kimori"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1949,
-        "name": "FC Seoul",
-        "short_name": "FC Seoul",
-        "country": "South Korea",
+        "id": 1935,
+        "name": "Urawa Red Diamonds",
+        "short_name": "Urawa Reds",
+        "country": "Japan",
         "coach": {
-          "name": "Gi Dong Kim",
-          "shortName": "G. D. Kim"
+          "name": "Tatsuya Tanaka",
+          "shortName": "T. Tanaka"
         },
         "venue": null
       },
       "event_date": "2026-05-09T09:00:00+04:00",
-      "round_number": 13,
+      "round_number": 16,
       "round_name": "",
       "group_name": null,
       "status": "notstarted",
@@ -65,16 +65,16 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 3.44,
-      "odds_draw": 3.19,
-      "odds_away": 2.13,
-      "odds_over_15": 1.38,
-      "odds_over_25": 2.19,
-      "odds_over_35": 3.89,
-      "odds_under_15": 2.86,
-      "odds_under_25": 1.63,
+      "odds_home": 3.82,
+      "odds_draw": 3.3,
+      "odds_away": 1.98,
+      "odds_over_15": 1.37,
+      "odds_over_25": 2.15,
+      "odds_over_35": 3.85,
+      "odds_under_15": 2.92,
+      "odds_under_25": 1.66,
       "odds_under_35": 1.23,
-      "odds_btts_yes": 1.91,
+      "odds_btts_yes": 1.92,
       "odds_btts_no": 1.81,
       "actual_home_xg": null,
       "actual_away_xg": null,
@@ -84,7 +84,7 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 483,
+      "travel_distance_km": null,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,100 +92,97 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1313,
-        "name": "Sergio Costa",
-        "short_name": "S. Costa",
-        "country": "",
-        "profile": "defensive",
+        "id": 1304,
+        "name": "Daisuke Kimori",
+        "short_name": "D. Kimori",
+        "country": "Japan",
+        "profile": "balanced",
         "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.21298307107104447,
-        "defensive_line": "high",
+        "pressing_intensity": 0.40696948042688946,
+        "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "park_the_bus"
+          "chaos_ball",
+          "chaos_football"
         ]
       },
       "away_coach": {
-        "id": 1306,
-        "name": "Gi Dong Kim",
-        "short_name": "G. D. Kim",
-        "country": "South Korea",
-        "profile": "attacking",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.6073260138049188,
-        "defensive_line": "mid",
-        "top_styles": [
-          "high_press",
-          "tiki_taka"
-        ]
+        "id": 1472,
+        "name": "Tatsuya Tanaka",
+        "short_name": "T. Tanaka",
+        "country": "Japan",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1126,
-        "name": "Jeju World Cup Stadium ",
-        "city": "Seogwipo",
-        "country": "South Korea",
-        "capacity": 35657,
-        "latitude": 33.246139,
-        "longitude": 126.509206,
+        "id": 1116,
+        "name": "K's Denki Stadium Mito",
+        "city": "Mito",
+        "country": "Japan",
+        "capacity": 12000,
+        "latitude": 36.345342,
+        "longitude": 140.412375,
         "pitch_x": null,
         "pitch_y": null,
-        "built_year": 2001
+        "built_year": null
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "eae956",
+            "base": "428e47",
             "real": true,
             "type": "short_sleeves",
-            "number": "010101",
-            "sleeve": "0d0d0d"
+            "number": "f0f0f0",
+            "sleeve": "4a8d49"
           },
           "player": {
-            "base": "d82e36",
+            "base": "ca0202",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "f7f7f7",
-            "stripes": "000000"
+            "sleeve": "000000",
+            "sleevelong": "ca0202"
           }
         },
         "home": {
           "GK": {
-            "base": "233434",
+            "base": "d1382d",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "ffffff"
+            "sleeve": "d1392c"
           },
           "player": {
-            "base": "fda704",
+            "base": "3574c3",
             "real": true,
             "type": "short_sleeves",
-            "number": "4a307a",
-            "sleeve": "fda704"
+            "number": "ffffff",
+            "sleeve": "231f34"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 24,
-          "sentence": "Seoul's away record this season: 5-1-0."
+          "sentence": "Mito H's home record this season: 2-4-0."
         },
         {
-          "type_id": 26,
-          "sentence": "A year ago, Seoul were number 8 in the table with 13 points. Now they are number 1 with 25 points."
+          "type_id": 25,
+          "sentence": "Arata Watanabe is Mito H's top scorer with 4 goals. Hidano Renji has scored 4 times for Urawa."
         },
         {
-          "type_id": 1,
-          "sentence": "Seoul have lost none of their last 5 away matches."
+          "type_id": 25,
+          "sentence": "Danilo Cardoso has more yellow cards (4) than any other player at Mito H. Matheus Savio has collected 4 for Urawa."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Jeju and Seoul are deadlocked on form — both 2W-1D-2L — but one team's got recent history on its side.** Seoul swept the head-to-head last time out, and that edge might matter on Jeju's home turf. 🏟️\n\nBoth squads are trading wins and losses at almost identical rates. Jeju had a solid away win at Bucheon but got thumped at home by Jeonbuk. Seoul bounced back from a shocker vs Gimcheon with a road victory at Gangwon. Classic mid-table shuffle energy.\n\nKey storylines:\n\n- **Emerson Ramon and Italo** lead Jeju's attack, but they'll face a Seoul defense anchored by **J. Ros and C. Jun** who've seen enough chances this season\n- **P. Klimala's finishing** will be crucial for Seoul — he's their spearhead alongside **L. Ruiz** in a familiar 4-4-2\n- Both teams lean on midfield balance; **H. Babec and S. Jeong** vs **I. Yu and J. Kim** could swing possession\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** 🤝\n\nLean towards a cagey draw — both defenses tightened recently, and Seoul's edge isn't quite enough to break through at sea level.",
-        "generated_at": "2026-05-08T05:45:26.261615+00:00"
+        "text": "**Mito's got the edge at home, but Urawa just steamrolled everyone in sight.** This one's a classic form-vs-venue clash in round 16. 🔥\n\nMito sit on a decent run (1W 2D in last five) with home comfort at K's Denki Stadium, while **Urawa are cooking** — three straight wins and shutouts against Kawasaki and JEF United. The Red Diamonds took the H2H last time around, but playing away is a different beast.\n\nKey storylines:\n\n- **Mito's midfield** (Yamashita, Osaki, Nagao) will need to control tempo and limit Urawa's possession — they've been sloppy defensively on the road\n- **Urawa's attacking trio** of Sávio, Onaiwu, and Watanabe have been lethal, but Mito's back line (Itakura, Danilo Cardoso, Fofana) showed grit in the 2-2 draw vs Machida\n- Home form and set-piece opportunities could be Mito's route to points against a team that thrives on transitions\n\nExpected lineups:\n\n- **Mito Hollyhock**: K. Nishikawa, K. Itakura, Danilo Cardoso, M. Fofana, T. Mase, K. Osaki, Y. Yamashita, Y. Nagao, M. Leiria, A. Watanabe, K. Tada\n- **Urawa Red Diamonds**: S. Nishikawa, K. Nemoto, Y. Miyamoto, H. Ishihara, Y. Naganuma, T. Kaneko, M. Sávio, A. Onaiwu, R. Watanabe, R. Hidano, K. Yasui\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Mito's home form gives them a lean, but Urawa's defense is solid; both sides likely cancel each other out.",
+        "generated_at": "2026-05-09T02:45:17.824735+00:00"
       },
       "live_websocket": true
     },
@@ -236,12 +233,12 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.44,
-        "odds_draw": 3.19,
-        "odds_away": 2.13,
+        "odds_home": 3.36,
+        "odds_draw": 3.12,
+        "odds_away": 2.18,
         "odds_over_15": 1.38,
-        "odds_over_25": 2.19,
-        "odds_over_35": 3.89,
+        "odds_over_25": 2.2,
+        "odds_over_35": 3.91,
         "odds_under_15": 2.86,
         "odds_under_25": 1.63,
         "odds_under_35": 1.23,
@@ -361,8 +358,8 @@
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Jeju and Seoul are deadlocked on form — both 2W-1D-2L — but one team's got recent history on its side.** Seoul swept the head-to-head last time out, and that edge might matter on Jeju's home turf. 🏟️\n\nBoth squads are trading wins and losses at almost identical rates. Jeju had a solid away win at Bucheon but got thumped at home by Jeonbuk. Seoul bounced back from a shocker vs Gimcheon with a road victory at Gangwon. Classic mid-table shuffle energy.\n\nKey storylines:\n\n- **Emerson Ramon and Italo** lead Jeju's attack, but they'll face a Seoul defense anchored by **J. Ros and C. Jun** who've seen enough chances this season\n- **P. Klimala's finishing** will be crucial for Seoul — he's their spearhead alongside **L. Ruiz** in a familiar 4-4-2\n- Both teams lean on midfield balance; **H. Babec and S. Jeong** vs **I. Yu and J. Kim** could swing possession\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** 🤝\n\nLean towards a cagey draw — both defenses tightened recently, and Seoul's edge isn't quite enough to break through at sea level.",
-          "generated_at": "2026-05-08T05:45:26.261615+00:00"
+          "text": "**Jeju's looking to turn home advantage into points, but Seoul's the favorite in this one.** 📍 Both sides are grinding through mid-table form with identical 2W-1D-2L records over five, though Seoul holds the recent H2H edge.\n\nJeju's been solid at the Jeju World Cup Stadium, but they'll need to impose themselves early. Seoul's inconsistency—swinging from 2-1 wins to 2-3 home defeats—makes them vulnerable. The midfield battle between Jeju's Emerson Ramon and Seoul's H. Babec could set the tone.\n\nKey storylines:\n\n- **Seoul's defensive shape** under pressure; they've leaked goals at home recently and Jeju's strikers **G. Paulauskas** and **K. Jun-Ha** will test them\n- **Jeju's home record** vs Seoul's road pedigree—can the islanders capitalize on their pitch advantage\n- Low-scoring trend emerging: both teams combining for modest goal tallies in recent outings\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Jun-Ha, G. Paulauskas, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, M. Song, J. Son, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** This has coin-flip written all over it, but the defensive frailties on both sides suggest a cagey, lower-scoring affair. 🎯",
+          "generated_at": "2026-05-09T02:45:12.364478+00:00"
         },
         "live_websocket": true
       },
