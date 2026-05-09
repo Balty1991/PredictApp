@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T03:37:29.214Z",
+  "generatedAt": "2026-05-09T06:22:04.369Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,61 +21,61 @@
   ],
   "samples": {
     "event": {
-      "id": 204873,
+      "id": 205064,
       "league": {
-        "id": 49,
-        "name": "J1 League",
-        "country": "Japan",
+        "id": 50,
+        "name": "K League 1",
+        "country": "South Korea",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Mito Hollyhock",
-      "away_team": "Urawa Red Diamonds",
+      "home_team": "Jeju SK",
+      "away_team": "FC Seoul",
       "home_team_obj": {
-        "id": 1947,
-        "name": "Mito Hollyhock",
-        "short_name": "Mito Hollyhock",
-        "country": "Japan",
+        "id": 1956,
+        "name": "Jeju SK",
+        "short_name": "Jeju",
+        "country": "South Korea",
         "coach": {
-          "name": "Daisuke Kimori",
-          "shortName": "D. Kimori"
+          "name": "Sergio Costa",
+          "shortName": "S. Costa"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1935,
-        "name": "Urawa Red Diamonds",
-        "short_name": "Urawa Reds",
-        "country": "Japan",
+        "id": 1949,
+        "name": "FC Seoul",
+        "short_name": "FC Seoul",
+        "country": "South Korea",
         "coach": {
-          "name": "Tatsuya Tanaka",
-          "shortName": "T. Tanaka"
+          "name": "Gi Dong Kim",
+          "shortName": "G. D. Kim"
         },
         "venue": null
       },
       "event_date": "2026-05-09T09:00:00+04:00",
-      "round_number": 16,
+      "round_number": 13,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 3.82,
-      "odds_draw": 3.3,
-      "odds_away": 1.98,
-      "odds_over_15": 1.37,
-      "odds_over_25": 2.15,
-      "odds_over_35": 3.85,
-      "odds_under_15": 2.92,
-      "odds_under_25": 1.66,
-      "odds_under_35": 1.23,
-      "odds_btts_yes": 1.92,
-      "odds_btts_no": 1.81,
+      "status": "2nd_half",
+      "home_score": 2,
+      "away_score": 1,
+      "home_score_ht": 1,
+      "away_score_ht": 0,
+      "current_minute": 59,
+      "period": "2T",
+      "odds_home": 3.16,
+      "odds_draw": 3.1,
+      "odds_away": 2.45,
+      "odds_over_15": 1.38,
+      "odds_over_25": 2.21,
+      "odds_over_35": 4.1,
+      "odds_under_15": 2.94,
+      "odds_under_25": 1.62,
+      "odds_under_35": 1.22,
+      "odds_btts_yes": 1.87,
+      "odds_btts_no": 1.88,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -84,146 +84,185 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 483,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 114,
+        "name": "Choi, Cheol-Jun",
+        "country": "Republic of Korea",
+        "nationality_a3": "KOR",
+        "birthdate": null,
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": null,
+        "career_yellow_cards": null,
+        "career_red_cards": null
+      },
       "home_coach": {
-        "id": 1304,
-        "name": "Daisuke Kimori",
-        "short_name": "D. Kimori",
-        "country": "Japan",
-        "profile": "balanced",
+        "id": 1313,
+        "name": "Sergio Costa",
+        "short_name": "S. Costa",
+        "country": "",
+        "profile": "defensive",
         "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.40696948042688946,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.21298307107104447,
+        "defensive_line": "high",
         "top_styles": [
-          "chaos_ball",
-          "chaos_football"
+          "terrorist_fb",
+          "park_the_bus"
         ]
       },
       "away_coach": {
-        "id": 1472,
-        "name": "Tatsuya Tanaka",
-        "short_name": "T. Tanaka",
-        "country": "Japan",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1306,
+        "name": "Gi Dong Kim",
+        "short_name": "G. D. Kim",
+        "country": "South Korea",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.6073260138049188,
+        "defensive_line": "mid",
+        "top_styles": [
+          "high_press",
+          "tiki_taka"
+        ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1116,
-        "name": "K's Denki Stadium Mito",
-        "city": "Mito",
-        "country": "Japan",
-        "capacity": 12000,
-        "latitude": 36.345342,
-        "longitude": 140.412375,
+        "id": 1126,
+        "name": "Jeju World Cup Stadium ",
+        "city": "Seogwipo",
+        "country": "South Korea",
+        "capacity": 35657,
+        "latitude": 33.246139,
+        "longitude": 126.509206,
         "pitch_x": null,
         "pitch_y": null,
-        "built_year": null
+        "built_year": 2001
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "428e47",
+            "base": "eae956",
             "real": true,
             "type": "short_sleeves",
-            "number": "f0f0f0",
-            "sleeve": "4a8d49"
+            "number": "010101",
+            "sleeve": "0d0d0d"
           },
           "player": {
-            "base": "ca0202",
+            "base": "d82e36",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "000000",
-            "sleevelong": "ca0202"
+            "sleeve": "f7f7f7",
+            "stripes": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "d1382d",
+            "base": "233434",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "d1392c"
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "3574c3",
+            "base": "fda704",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "231f34"
+            "number": "4a307a",
+            "sleeve": "fda704"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 24,
-          "sentence": "Mito H's home record this season: 2-4-0."
+          "sentence": "Seoul's away record this season: 5-1-0."
         },
         {
-          "type_id": 25,
-          "sentence": "Arata Watanabe is Mito H's top scorer with 4 goals. Hidano Renji has scored 4 times for Urawa."
+          "type_id": 26,
+          "sentence": "A year ago, Seoul were number 8 in the table with 13 points. Now they are number 1 with 25 points."
         },
         {
-          "type_id": 25,
-          "sentence": "Danilo Cardoso has more yellow cards (4) than any other player at Mito H. Matheus Savio has collected 4 for Urawa."
+          "type_id": 1,
+          "sentence": "Seoul have lost none of their last 5 away matches."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 65,
+          "home": 32
+        },
+        "ball_safe": {
+          "away": 45,
+          "home": 34
+        },
+        "attack_pct": {
+          "away": 39,
+          "home": 22
+        },
+        "ball_safe_pct": {
+          "away": 22,
+          "home": 41
+        },
+        "dangerous_attack": {
+          "away": 33,
+          "home": 16
+        },
+        "dangerous_attack_pct": {
+          "away": 39,
+          "home": 37
+        }
+      },
       "ai_preview": {
-        "text": "**Mito's got the edge at home, but Urawa just steamrolled everyone in sight.** This one's a classic form-vs-venue clash in round 16. 🔥\n\nMito sit on a decent run (1W 2D in last five) with home comfort at K's Denki Stadium, while **Urawa are cooking** — three straight wins and shutouts against Kawasaki and JEF United. The Red Diamonds took the H2H last time around, but playing away is a different beast.\n\nKey storylines:\n\n- **Mito's midfield** (Yamashita, Osaki, Nagao) will need to control tempo and limit Urawa's possession — they've been sloppy defensively on the road\n- **Urawa's attacking trio** of Sávio, Onaiwu, and Watanabe have been lethal, but Mito's back line (Itakura, Danilo Cardoso, Fofana) showed grit in the 2-2 draw vs Machida\n- Home form and set-piece opportunities could be Mito's route to points against a team that thrives on transitions\n\nExpected lineups:\n\n- **Mito Hollyhock**: K. Nishikawa, K. Itakura, Danilo Cardoso, M. Fofana, T. Mase, K. Osaki, Y. Yamashita, Y. Nagao, M. Leiria, A. Watanabe, K. Tada\n- **Urawa Red Diamonds**: S. Nishikawa, K. Nemoto, Y. Miyamoto, H. Ishihara, Y. Naganuma, T. Kaneko, M. Sávio, A. Onaiwu, R. Watanabe, R. Hidano, K. Yasui\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Mito's home form gives them a lean, but Urawa's defense is solid; both sides likely cancel each other out.",
-        "generated_at": "2026-05-09T02:45:17.824735+00:00"
+        "text": "**Jeju's looking to turn home advantage into points, but Seoul's the favorite in this one.** 📍 Both sides are grinding through mid-table form with identical 2W-1D-2L records over five, though Seoul holds the recent H2H edge.\n\nJeju's been solid at the Jeju World Cup Stadium, but they'll need to impose themselves early. Seoul's inconsistency—swinging from 2-1 wins to 2-3 home defeats—makes them vulnerable. The midfield battle between Jeju's Emerson Ramon and Seoul's H. Babec could set the tone.\n\nKey storylines:\n\n- **Seoul's defensive shape** under pressure; they've leaked goals at home recently and Jeju's strikers **G. Paulauskas** and **K. Jun-Ha** will test them\n- **Jeju's home record** vs Seoul's road pedigree—can the islanders capitalize on their pitch advantage\n- Low-scoring trend emerging: both teams combining for modest goal tallies in recent outings\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Jun-Ha, G. Paulauskas, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, M. Song, J. Son, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** This has coin-flip written all over it, but the defensive frailties on both sides suggest a cagey, lower-scoring affair. 🎯",
+        "generated_at": "2026-05-09T02:45:12.364478+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 3615,
+      "id": 3617,
       "event": {
-        "id": 205064,
+        "id": 204874,
         "league": {
-          "id": 50,
-          "name": "K League 1",
-          "country": "South Korea",
+          "id": 49,
+          "name": "J1 League",
+          "country": "Japan",
           "is_women": false,
           "current_season": null
         },
         "season": null,
-        "home_team": "Jeju SK",
-        "away_team": "FC Seoul",
+        "home_team": "Cerezo Osaka",
+        "away_team": "V-Varen Nagasaki",
         "home_team_obj": {
-          "id": 1956,
-          "name": "Jeju SK",
-          "short_name": "Jeju",
-          "country": "South Korea",
+          "id": 1938,
+          "name": "Cerezo Osaka",
+          "short_name": "Cerezo Osaka",
+          "country": "Japan",
           "coach": {
-            "name": "Sergio Costa",
-            "shortName": "S. Costa"
+            "name": "Arthur Papas",
+            "shortName": "A. Papas"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 1949,
-          "name": "FC Seoul",
-          "short_name": "FC Seoul",
-          "country": "South Korea",
+          "id": 1932,
+          "name": "V-Varen Nagasaki",
+          "short_name": "Nagasaki",
+          "country": "Japan",
           "coach": {
-            "name": "Gi Dong Kim",
-            "shortName": "G. D. Kim"
+            "name": "Takuya Takagi",
+            "shortName": "T. Takagi"
           },
           "venue": null
         },
-        "event_date": "2026-05-09T09:00:00+04:00",
-        "round_number": 13,
+        "event_date": "2026-05-09T11:00:00+04:00",
+        "round_number": 16,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -233,17 +272,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.36,
-        "odds_draw": 3.12,
-        "odds_away": 2.18,
-        "odds_over_15": 1.38,
-        "odds_over_25": 2.2,
-        "odds_over_35": 3.91,
-        "odds_under_15": 2.86,
-        "odds_under_25": 1.63,
-        "odds_under_35": 1.23,
-        "odds_btts_yes": 1.91,
-        "odds_btts_no": 1.81,
+        "odds_home": 1.7,
+        "odds_draw": 3.85,
+        "odds_away": 4.49,
+        "odds_over_15": 1.21,
+        "odds_over_25": 1.69,
+        "odds_over_35": 2.67,
+        "odds_under_15": 4.09,
+        "odds_under_25": 2.11,
+        "odds_under_35": 1.43,
+        "odds_btts_yes": 1.67,
+        "odds_btts_no": 2.09,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -252,53 +291,74 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 483,
+        "travel_distance_km": 545,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 82,
+          "name": "Nagamine, Koki",
+          "country": "Japan",
+          "nationality_a3": "JPN",
+          "birthdate": null,
+          "yellowCards": 0,
+          "redCards": 0,
+          "career_games": null,
+          "career_yellow_cards": null,
+          "career_red_cards": null
+        },
         "home_coach": {
-          "id": 1313,
-          "name": "Sergio Costa",
-          "short_name": "S. Costa",
-          "country": "",
-          "profile": "defensive",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.21298307107104447,
-          "defensive_line": "high",
+          "id": 1295,
+          "name": "Arthur Papas",
+          "short_name": "A. Papas",
+          "country": "Australia",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.6040069144278857,
+          "defensive_line": "mid",
           "top_styles": [
-            "terrorist_fb",
-            "park_the_bus"
+            "chaos_ball",
+            "chaos_football"
           ]
         },
         "away_coach": {
-          "id": 1306,
-          "name": "Gi Dong Kim",
-          "short_name": "G. D. Kim",
-          "country": "South Korea",
-          "profile": "attacking",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.6073260138049188,
-          "defensive_line": "mid",
+          "id": 1289,
+          "name": "Takuya Takagi",
+          "short_name": "T. Takagi",
+          "country": "Japan",
+          "profile": "balanced",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.4215997477882203,
+          "defensive_line": "high",
           "top_styles": [
-            "high_press",
-            "tiki_taka"
+            "no_midfield",
+            "total_football"
           ]
         },
-        "unavailable_players": null,
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Vitor Bueno",
+              "status": "injured",
+              "reason": "Calf Injury",
+              "expected_return": null
+            }
+          ],
+          "away": []
+        },
         "venue": {
-          "id": 1126,
-          "name": "Jeju World Cup Stadium ",
-          "city": "Seogwipo",
-          "country": "South Korea",
-          "capacity": 35657,
-          "latitude": 33.246139,
-          "longitude": 126.509206,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": 2001
+          "id": 1118,
+          "name": "Yodokou Sakura Stadium ",
+          "city": "Osaka",
+          "country": "Japan",
+          "capacity": 25000,
+          "latitude": 34.615339,
+          "longitude": 135.516572,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 1964
         },
         "incidents": null,
         "live_stats": null,
@@ -310,75 +370,75 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "eae956",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "010101",
-              "sleeve": "0d0d0d"
-            },
-            "player": {
-              "base": "d82e36",
+              "base": "fdd2ed",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "f7f7f7",
-              "stripes": "000000"
+              "sleeve": "ea662b"
+            },
+            "player": {
+              "base": "005cb9",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "005cb9",
+              "sleevelong": "005cb9"
             }
           },
           "home": {
             "GK": {
-              "base": "233434",
+              "base": "000000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "ffffff"
+              "sleeve": "de3a5f"
             },
             "player": {
-              "base": "fda704",
+              "base": "ce0063",
               "real": true,
               "type": "short_sleeves",
-              "number": "4a307a",
-              "sleeve": "fda704"
+              "number": "ffffff",
+              "sleeve": "1e2d56"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 24,
-            "sentence": "Seoul's away record this season: 5-1-0."
+            "sentence": "Cerezo's home record this season: 1-4-2."
           },
           {
-            "type_id": 26,
-            "sentence": "A year ago, Seoul were number 8 in the table with 13 points. Now they are number 1 with 25 points."
+            "type_id": 24,
+            "sentence": "V-Varen's away record this season: 3-0-4."
           },
           {
             "type_id": 1,
-            "sentence": "Seoul have lost none of their last 5 away matches."
+            "sentence": "Cerezo have won 3 home matches in a row."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Jeju's looking to turn home advantage into points, but Seoul's the favorite in this one.** 📍 Both sides are grinding through mid-table form with identical 2W-1D-2L records over five, though Seoul holds the recent H2H edge.\n\nJeju's been solid at the Jeju World Cup Stadium, but they'll need to impose themselves early. Seoul's inconsistency—swinging from 2-1 wins to 2-3 home defeats—makes them vulnerable. The midfield battle between Jeju's Emerson Ramon and Seoul's H. Babec could set the tone.\n\nKey storylines:\n\n- **Seoul's defensive shape** under pressure; they've leaked goals at home recently and Jeju's strikers **G. Paulauskas** and **K. Jun-Ha** will test them\n- **Jeju's home record** vs Seoul's road pedigree—can the islanders capitalize on their pitch advantage\n- Low-scoring trend emerging: both teams combining for modest goal tallies in recent outings\n\nExpected lineups:\n\n- **Jeju SK**: D. J. Kim, J. Celestine, M. Jang, R. Kim, Emerson Ramon, I. Yu, Italo, K. Jun-Ha, G. Paulauskas, K. Shin-jin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, H. Babec, S. Jeong, M. Song, J. Son, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** This has coin-flip written all over it, but the defensive frailties on both sides suggest a cagey, lower-scoring affair. 🎯",
-          "generated_at": "2026-05-09T02:45:12.364478+00:00"
+          "text": "**Cerezo Osaka's back at home, and they're looking to snap out of draw hell against a Nagasaki side that can't quite get rolling.** 🏟️ The hosts have been stuck in neutral lately — three draws in five — while the visitors showed some teeth with two wins but also dropped points to Nagoya. This one's got \"cagey\" written all over it.\n\n**Cerezo** need to tighten up in midfield and convert chances; **Nagasaki** will be hoping their recent attacking spark carries over, but they're missing consistency. The absence of **Vitor Bueno** for Cerezo limits their depth up front, so expect more of a grind than a goal fest.\n\nKey storylines:\n\n- **K. Nakamura** and the Cerezo defense face a **Nagasaki** side that's scored in two of their last three\n- **S. Tanaka** and **N. Ishiwatari** tasked with controlling the midfield battle\n- **T. Santana** and **M. Jesus** looking to exploit any gaps in the Cerezo backline\n\nExpected lineups:\n\n- **Cerezo Osaka**: K. Nakamura, S. Hatanaka, R. Inoue, A. Ohata, H. Okuda, S. Tanaka, N. Ishiwatari, S. Sakuragawa, M. Shibayama, W. Kanemoto, K. Yengi\n- **V-Varen Nagasaki**: G. Masaaki, Eduardo, M. Sekiguchi, A. Ikki, Y. Egawa, Y. Hotaru, M. Hasegawa, Y. Shunya, T. Santana, M. Jesus, Y. Ryogo\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Cerezo Osaka 1–0 V-Varen Nagasaki**. Slight edge to the hosts on home soil, but it's a tight affair. 📍",
+          "generated_at": "2026-05-09T02:45:23.283461+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-03T06:20:06.327303+04:00",
-      "prob_home_win": 18.68809816906636,
-      "prob_draw": 27.53005828495566,
-      "prob_away_win": 53.78184354597798,
-      "predicted_result": "A",
-      "expected_home_goals": 0.7,
-      "expected_away_goals": 1.4,
-      "prob_over_15": 62.43048335345572,
-      "prob_over_25": 40.350263876832656,
-      "prob_over_35": 17.996316102593504,
-      "prob_btts_yes": 44.969675115605654,
-      "confidence": 53.78184354597798,
+      "created_at": "2026-05-03T06:20:07.578287+04:00",
+      "prob_home_win": 48.326574847454886,
+      "prob_draw": 28.702803048999233,
+      "prob_away_win": 22.97062210354588,
+      "predicted_result": "H",
+      "expected_home_goals": 1.2999999999999998,
+      "expected_away_goals": 0.8,
+      "prob_over_15": 73.89793177236592,
+      "prob_over_25": 43.66840602559172,
+      "prob_over_35": 18.564416316257923,
+      "prob_btts_yes": 56.63884850223469,
+      "confidence": 48.326574847454886,
       "model_version": "v5.0",
-      "most_likely_score": "0-1",
-      "favorite": "A",
-      "favorite_prob": 53.78184354597798,
+      "most_likely_score": "1-0",
+      "favorite": "H",
+      "favorite_prob": 48.326574847454886,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
