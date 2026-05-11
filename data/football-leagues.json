@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T16:06:36.213Z",
+  "generatedAt": "2026-05-11T18:18:58.686Z",
   "count": 50,
   "items": [
     {
@@ -445,6 +445,11 @@
       }
     },
     {
+      "id": 56,
+      "name": "Suomen Cup",
+      "country": "Finland"
+    },
+    {
       "id": 15,
       "name": "Super League",
       "country": "Switzerland",
@@ -484,18 +489,6 @@
       "id": 47,
       "name": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia"
-    },
-    {
-      "id": 27,
-      "name": "World Cup 2026",
-      "country": "International",
-      "season": {
-        "id": 188,
-        "name": "World Cup 2026",
-        "year": 2026,
-        "start_date": "2026-01-01",
-        "end_date": "2026-12-31"
-      }
     }
   ]
 }
