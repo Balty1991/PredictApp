@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-11T21:50:40.198Z",
+  "generatedAt": "2026-05-11T23:00:08.417Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
-    "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
+    "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/?sport=football",
     "leaguesUrl": "https://sports.bzzoiro.com/api/leagues/",
     "eventsAuth": "token",
     "predictionsAuth": "token",
@@ -15,588 +15,193 @@
     "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 502 Bad Gateway via token @ https://sports.bzzoiro.com/api/predictions/ :: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+    "[predictions] 401 Unauthorized via api-key-auth @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via query-api_key @ https://sports.bzzoiro.com/api/predictions/?api_key=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via query-apikey @ https://sports.bzzoiro.com/api/predictions/?apikey=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via query-key @ https://sports.bzzoiro.com/api/predictions/?key=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via query-token @ https://sports.bzzoiro.com/api/predictions/?token=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[predictions] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}"
   ],
   "samples": {
     "event": {
-      "id": 362,
+      "id": 206890,
       "league": {
-        "id": 1,
-        "name": "Premier League",
-        "country": "England",
+        "id": 53,
+        "name": "Botola Pro",
+        "country": "Morocco",
         "is_women": false,
-        "current_season": {
-          "id": 337,
-          "name": "Premier League 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 337,
-        "name": "Premier League 25/26",
-        "year": 2025
-      },
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Leeds United",
+      "season": null,
+      "home_team": "Renaissance Zemamra",
+      "away_team": "Olympique Dcheira",
       "home_team_obj": {
-        "id": 9,
-        "name": "Tottenham Hotspur",
-        "short_name": "Tottenham",
-        "country": "England",
+        "id": 2072,
+        "name": "Renaissance Zemamra",
+        "short_name": "Renaissance Zemamra",
+        "country": "Morocco",
         "coach": {
-          "name": "Roberto De Zerbi",
-          "shortName": "R. D. Zerbi"
+          "name": "Mohamed Fakhir",
+          "shortName": "M. Fakhir"
         },
-        "venue": {
-          "id": 9,
-          "name": "Tottenham Hotspur Stadium",
-          "city": "London",
-          "country": "England",
-          "capacity": 62850
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 19,
-        "name": "Leeds United",
-        "short_name": "Leeds",
-        "country": "England",
+        "id": 2063,
+        "name": "Olympique Dcheira",
+        "short_name": "",
+        "country": "Morocco",
         "coach": {
-          "name": "Daniel Farke",
-          "shortName": "D. Farke"
+          "name": "Abderrahim Saïdi",
+          "shortName": "A. Saïdi"
         },
-        "venue": {
-          "id": 19,
-          "name": "Elland Road",
-          "city": "Leeds",
-          "country": "England",
-          "capacity": 37890
-        }
+        "venue": null
       },
-      "event_date": "2026-05-11T23:00:00+04:00",
-      "round_number": 36,
+      "event_date": "2026-05-12T00:00:00+04:00",
+      "round_number": 20,
       "round_name": "",
       "group_name": null,
       "status": "finished",
-      "home_score": 1,
-      "away_score": 1,
+      "home_score": 0,
+      "away_score": 0,
       "home_score_ht": 0,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 2.59,
-      "odds_draw": 3.5,
-      "odds_away": 5.28,
-      "odds_over_15": 1.23,
-      "odds_over_25": 2.2,
-      "odds_over_35": 3.77,
-      "odds_under_15": 4.13,
-      "odds_under_25": 1.9,
-      "odds_under_35": 1.36,
-      "odds_btts_yes": 1.68,
-      "odds_btts_no": 2.24,
+      "odds_home": 3.12,
+      "odds_draw": 3,
+      "odds_away": 5.71,
+      "odds_over_15": 2.35,
+      "odds_over_25": 3.08,
+      "odds_over_35": 4.06,
+      "odds_under_15": 2.53,
+      "odds_under_25": 1.52,
+      "odds_under_35": 1.2,
+      "odds_btts_yes": 3.06,
+      "odds_btts_no": 1.61,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 1.35,
-      "away_xg_live": 1.29,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 263,
+      "travel_distance_km": 264,
       "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": 1,
       "attendance": null,
-      "referee": {
-        "id": 17,
-        "name": "Gillett, Jarred",
-        "country": "Australia",
-        "nationality_a3": "AUS",
-        "birthdate": null,
-        "yellowCards": 1337,
-        "redCards": 28,
-        "career_games": null,
-        "career_yellow_cards": null,
-        "career_red_cards": null
-      },
+      "referee": null,
       "home_coach": {
-        "id": 563,
-        "name": "Roberto De Zerbi",
-        "short_name": "R. D. Zerbi",
-        "country": "Italy",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.6215704917327174,
-        "defensive_line": "mid",
-        "top_styles": [
-          "set_piece",
-          "chaos_ball"
-        ]
+        "id": 1490,
+        "name": "Mohamed Fakhir",
+        "short_name": "M. Fakhir",
+        "country": "Morocco",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 561,
-        "name": "Daniel Farke",
-        "short_name": "D. Farke",
-        "country": "Germany",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.5004687584927843,
-        "defensive_line": "low",
-        "top_styles": [
-          "park_the_bus",
-          "low_block"
-        ]
+        "id": 1481,
+        "name": "Abderrahim Saïdi",
+        "short_name": "A. Saïdi",
+        "country": "Morocco",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Ben Davies",
-            "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": "2026-05-31"
-          },
-          {
-            "name": "Dejan Kulusevski",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-05-31"
-          },
-          {
-            "name": "Destiny Udogie",
-            "status": "doubtful",
-            "reason": "Strain Injury",
-            "expected_return": "2026-05-18"
-          },
-          {
-            "name": "Dominic Solanke",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "Guglielmo Vicario",
-            "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "James Maddison",
-            "status": "injured",
-            "reason": "Cruciate Ligament Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Mohammed Kudus",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-07-20"
-          },
-          {
-            "name": "Pape Matar Sarr",
-            "status": "doubtful",
-            "reason": "Shoulder Injury",
-            "expected_return": "2026-05-18"
-          },
-          {
-            "name": "Xavi Simons",
-            "status": "injured",
-            "reason": "Cruciate Ligament Injury",
-            "expected_return": "2027-01-10"
-          }
-        ],
-        "away": [
-          {
-            "name": "Gabriel Gudmundsson",
-            "status": "injured",
-            "reason": "Hamstring Injury",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "Ilia Gruev",
-            "status": "injured",
-            "reason": "Meniscus Injury",
-            "expected_return": "2026-07-20"
-          },
-          {
-            "name": "Jaka Bijol",
-            "status": "doubtful",
-            "reason": "Hip Injury",
-            "expected_return": "2026-05-16"
-          },
-          {
-            "name": "Jayden Bogle",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Noah Okafor",
-            "status": "injured",
-            "reason": "Calf Injury",
-            "expected_return": "2026-05-31"
-          },
-          {
-            "name": "Pascal Struijk",
-            "status": "doubtful",
-            "reason": "Hip Injury",
-            "expected_return": "2026-05-26"
-          }
-        ]
-      },
-      "venue": {
-        "id": 9,
-        "name": "Tottenham Hotspur Stadium",
-        "city": "London",
-        "country": "England",
-        "capacity": 62850,
-        "latitude": 51.6042,
-        "longitude": 0.0662,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 2019
-      },
-      "live_stats": {
-        "away": {
-          "duels": 48,
-          "fouls": 7,
-          "passes": 334,
-          "crosses": "6/14 (43%)",
-          "punches": 3,
-          "tackles": 24,
-          "dribbles": "3/15 (20%)",
-          "offsides": 3,
-          "big_saves": 0,
-          "throw_ins": 16,
-          "clearances": 40,
-          "free_kicks": 11,
-          "goal_kicks": 15,
-          "long_balls": "20/54 (37%)",
-          "recoveries": 39,
-          "big_chances": 4,
-          "tackles_won": 75,
-          "total_saves": 1,
-          "total_shots": 12,
-          "aerial_duels": "16/38 (42%)",
-          "corner_kicks": 2,
-          "dispossessed": 11,
-          "ground_duels": "38/75 (51%)",
-          "hit_woodwork": 2,
-          "yellow_cards": 1,
-          "blocked_shots": 1,
-          "interceptions": 8,
-          "total_tackles": 24,
-          "expected_goals": 1.29,
-          "accurate_passes": 239,
-          "ball_possession": 44,
-          "goals_prevented": -0.49,
-          "shots_on_target": 4,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 7,
-          "shots_off_target": 7,
-          "final_third_phase": "51/93 (55%)",
-          "shots_outside_box": 5,
-          "big_chances_missed": 3,
-          "big_chances_scored": 1,
-          "final_third_entries": 66,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 13
-        },
-        "home": {
-          "duels": 52,
-          "fouls": 12,
-          "passes": 416,
-          "crosses": "8/26 (31%)",
-          "punches": 0,
-          "tackles": 23,
-          "dribbles": "8/17 (47%)",
-          "offsides": 1,
-          "big_saves": 1,
-          "throw_ins": 18,
-          "clearances": 19,
-          "free_kicks": 7,
-          "goal_kicks": 6,
-          "long_balls": "21/50 (42%)",
-          "recoveries": 47,
-          "big_chances": 2,
-          "tackles_won": 61,
-          "total_saves": 3,
-          "total_shots": 15,
-          "aerial_duels": "22/38 (58%)",
-          "corner_kicks": 11,
-          "dispossessed": 15,
-          "ground_duels": "37/75 (49%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 3,
-          "blocked_shots": 5,
-          "interceptions": 12,
-          "total_tackles": 23,
-          "expected_goals": 1.3,
-          "accurate_passes": 332,
-          "ball_possession": 56,
-          "goals_prevented": 1.05,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 12,
-          "shots_off_target": 7,
-          "final_third_phase": "80/118 (68%)",
-          "shots_outside_box": 3,
-          "big_chances_missed": 2,
-          "big_chances_scored": 0,
-          "final_third_entries": 48,
-          "errors_lead_to_a_shot": 2,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 34
-        },
-        "first_half": {
-          "away": {
-            "duels": 49,
-            "fouls": 4,
-            "passes": 138,
-            "crosses": "2/4 (50%)",
-            "tackles": 14,
-            "dribbles": "1/9 (11%)",
-            "offsides": 2,
-            "throw_ins": 6,
-            "clearances": 21,
-            "free_kicks": 2,
-            "goal_kicks": 11,
-            "long_balls": "7/21 (33%)",
-            "recoveries": 20,
-            "big_chances": 1,
-            "tackles_won": 64,
-            "total_saves": 1,
-            "total_shots": 3,
-            "aerial_duels": "10/14 (71%)",
-            "corner_kicks": 1,
-            "dispossessed": 8,
-            "ground_duels": "17/41 (41%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 0,
-            "blocked_shots": 0,
-            "interceptions": 6,
-            "total_tackles": 14,
-            "expected_goals": 0.14,
-            "accurate_passes": 98,
-            "ball_possession": 38,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 2,
-            "shots_off_target": 2,
-            "shots_outside_box": 1,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 26,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 51,
-            "fouls": 2,
-            "passes": 213,
-            "crosses": "6/15 (40%)",
-            "tackles": 16,
-            "dribbles": "4/8 (50%)",
-            "offsides": 1,
-            "throw_ins": 9,
-            "clearances": 7,
-            "free_kicks": 4,
-            "goal_kicks": 3,
-            "long_balls": "8/24 (33%)",
-            "recoveries": 23,
-            "big_chances": 1,
-            "tackles_won": 56,
-            "total_saves": 1,
-            "total_shots": 10,
-            "aerial_duels": "4/14 (29%)",
-            "corner_kicks": 6,
-            "dispossessed": 10,
-            "ground_duels": "24/41 (59%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 4,
-            "interceptions": 4,
-            "total_tackles": 16,
-            "expected_goals": 0.82,
-            "accurate_passes": 168,
-            "ball_possession": 62,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 8,
-            "shots_off_target": 4,
-            "shots_outside_box": 2,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 22,
-            "fouled_in_final_third": 1
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 47,
-            "fouls": 3,
-            "passes": 196,
-            "crosses": "4/10 (40%)",
-            "tackles": 10,
-            "dribbles": "2/6 (33%)",
-            "offsides": 1,
-            "throw_ins": 10,
-            "clearances": 19,
-            "free_kicks": 9,
-            "goal_kicks": 4,
-            "long_balls": "13/33 (39%)",
-            "recoveries": 19,
-            "big_chances": 3,
-            "tackles_won": 90,
-            "total_saves": 0,
-            "total_shots": 9,
-            "aerial_duels": "6/24 (25%)",
-            "corner_kicks": 1,
-            "dispossessed": 3,
-            "ground_duels": "21/34 (62%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 1,
-            "blocked_shots": 1,
-            "interceptions": 2,
-            "total_tackles": 10,
-            "expected_goals": 1.15,
-            "accurate_passes": 141,
-            "ball_possession": 49,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 5,
-            "shots_off_target": 5,
-            "shots_outside_box": 4,
-            "big_chances_missed": 2,
-            "big_chances_scored": 1,
-            "final_third_entries": 40,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 53,
-            "fouls": 10,
-            "passes": 203,
-            "crosses": "2/11 (18%)",
-            "tackles": 7,
-            "dribbles": "4/9 (44%)",
-            "offsides": 0,
-            "throw_ins": 9,
-            "clearances": 12,
-            "free_kicks": 3,
-            "goal_kicks": 3,
-            "long_balls": "13/26 (50%)",
-            "recoveries": 24,
-            "big_chances": 1,
-            "tackles_won": 71,
-            "total_saves": 2,
-            "total_shots": 5,
-            "aerial_duels": "18/24 (75%)",
-            "corner_kicks": 5,
-            "dispossessed": 5,
-            "ground_duels": "13/34 (38%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 2,
-            "blocked_shots": 1,
-            "interceptions": 8,
-            "total_tackles": 7,
-            "expected_goals": 0.48,
-            "accurate_passes": 164,
-            "ball_possession": 51,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 4,
-            "shots_off_target": 3,
-            "shots_outside_box": 1,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 26,
-            "fouled_in_final_third": 0
-          }
-        }
-      },
+      "unavailable_players": null,
+      "venue": null,
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "467cd2",
+            "base": "cccccc",
             "real": true,
             "type": "short_sleeves",
-            "number": "f1f0ea",
-            "sleeve": "a5c2e9",
-            "sleevelong": "a5c2e9"
+            "number": "ffffff",
+            "sleeve": "000000"
           },
           "player": {
-            "base": "3050b8",
+            "base": "336600",
             "real": true,
             "type": "short_sleeves",
-            "number": "ebcc2d",
-            "sleeve": "ebecf0",
-            "sleevelong": "3251b6"
+            "number": "ffffff",
+            "sleeve": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "fcae02",
-            "real": true,
+            "base": "efc131",
+            "real": false,
             "type": "short_sleeves",
-            "number": "fff7fa",
-            "sleeve": "ce0083"
+            "number": "000000",
+            "sleeve": "333333"
           },
           "player": {
-            "base": "ffffff",
-            "real": true,
+            "base": "D8D8D8",
+            "real": false,
             "type": "short_sleeves",
-            "number": "e1430e",
-            "sleeve": "ffffff"
+            "number": "000000",
+            "sleeve": "D8D8D8"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "Leeds United haven't won any of their last 5 games against Tottenham."
-        },
-        {
-          "type_id": 2,
-          "sentence": "When playing at home, Tottenham have not lost to Leeds United in their last 7 encounters."
+          "type_id": 1,
+          "sentence": "Olymp. Dcheira haven't won in their last 8 games."
         },
         {
           "type_id": 24,
-          "sentence": "Tottenham's home record this season: 2-5-10."
+          "sentence": "Renaissance Zemamra's home record this season: 2-4-3."
+        },
+        {
+          "type_id": 26,
+          "sentence": "A year ago, Renaissance Zemamra were number 3 in the table with 34 points. Now they are number 10 with 19 points."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 80,
-          "home": 94
+          "away": 78,
+          "home": 102
         },
         "ball_safe": {
-          "away": 69,
-          "home": 76
+          "away": 72,
+          "home": 70
         },
         "attack_pct": {
-          "away": 19,
-          "home": 23
+          "away": 29,
+          "home": 32
         },
         "ball_safe_pct": {
-          "away": 64,
-          "home": 36
+          "away": 49,
+          "home": 47
         },
         "dangerous_attack": {
-          "away": 45,
-          "home": 57
+          "away": 43,
+          "home": 53
         },
         "dangerous_attack_pct": {
-          "away": 17,
-          "home": 41
+          "away": 22,
+          "home": 21
         }
       },
       "ai_preview": {
-        "text": "**Leeds are quietly clicking at the right time, and Spurs are absolutely ravaged by injury.** This could be the upset Monday night needs. 🔥\n\nTottenham sit mid-table form with a draw mixed in, while Leeds have won three of their last five and look sharp. The Lilywhites are without five starters — including their keeper — which tilts this one decisively.\n\nKey storylines:\n\n- **Spurs' injury crisis** means makeshift lineups; A. Kinský in goal and C. Gallagher in midfield aren't the usual architects\n- **Leeds' momentum** has them dangerous on the road after back-to-back solid results, with W. Gnonto and D. Calvert-Lewin up top\n- **Head-to-head gap closing** — Leeds have lost the last seven meetings but this feels different with Spurs depleted\n\nExpected lineups:\n\n- **Tottenham Hotspur**: A. Kinský, P. Porro, K. Danso, C. Romero, M. van de Ven, C. Gallagher, A. Gray, M. Tel, Richarlison, R. Kolo Muani\n- **Leeds United**: K. Darlow, J. Justin, P. Struijk, J. Bijol, J. Bogle, E. Ampadu, A. Tanaka, B. Aaronson, D. Calvert-Lewin, L. Nmecha, W. Gnonto\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**2-1 Leeds.** Model leans United to exploit Spurs' stretched squad. 👊",
-        "generated_at": "2026-05-11T01:45:52.320367+00:00"
+        "text": "**Renaissance Zemamra are rolling, and Olympique Dcheira are in freefall.** This matchup has \"home team takes care of business\" written all over it. 🎯\n\nRenaissance just beat Wydad at home and are 3-2 in their last five; Dcheira, meanwhile, are 0-4-1 and leaking goals left and right. The head-to-head also favors the hosts decisively.\n\nKey storylines:\n\n- **Renaissance's attacking form** has them clicking — three wins in five with wins over quality sides like Wydad\n- **Dcheira's defensive breakdown** is brutal, losing four of the last five and conceding in every defeat\n- **Home dominance** — Renaissance have the edge in familiarity and momentum at their ground\n\nExpected lineups:\n\n- **Renaissance Zemamra**: M. Fakhr, J. Ajako, R. A. Boughima, B. Soufi, A. Badaoui, N. M. Tahiri, F. E. Yazid, A. E. Hamzaoui, A. E. Bajjani, Z. Ghailan, T. Alachbili\n- **Olympique Dcheira**: M. Idar, H. A. Brahim, A. Aboujemaa, H. J. Allah, C. Keita, M. E. Gouj, B. Amzili, H. Saoud, Y. Jabrane, A. Benaadi, M. Abba\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Renaissance Zemamra 2–0 Olympique Dcheira**. Hosts should cruise past a struggling side. 💪",
+        "generated_at": "2026-05-11T02:45:42.076365+00:00"
       },
       "live_websocket": true
     },
