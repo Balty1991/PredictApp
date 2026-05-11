@@ -1,65 +1,10 @@
 {
-  "generatedAt": "2026-05-10T23:28:56.422Z",
+  "generatedAt": "2026-05-11T01:26:37.381Z",
   "count": 50,
   "items": [
     {
-      "id": 5086,
-      "status": "finished",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New York City FC",
-      "awayTeam": "Columbus Crew",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9925,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Avaí",
-      "awayTeam": "Fortaleza",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7140,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Mirassol",
-      "awayTeam": "Chapecoense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7142,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Santos",
-      "awayTeam": "Red Bull Bragantino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7136,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Corinthians",
-      "awayTeam": "São Paulo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7139,
-      "status": "halftime",
+      "status": "finished",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Grêmio",
@@ -70,7 +15,7 @@
     },
     {
       "id": 9929,
-      "status": "halftime",
+      "status": "finished",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Grêmio Novorizontino",
@@ -80,19 +25,8 @@
       "marketCount": 0
     },
     {
-      "id": 5087,
-      "status": "1st_half",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Minnesota United",
-      "awayTeam": "Austin FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206663,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Liga MX Clausura",
       "country": "Mexico",
       "homeTeam": "CF Pachuca",
@@ -102,8 +36,19 @@
       "marketCount": 0
     },
     {
+      "id": 5087,
+      "status": "finished",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Minnesota United",
+      "awayTeam": "Austin FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7143,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Vasco da Gama",
@@ -114,7 +59,7 @@
     },
     {
       "id": 5088,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Los Angeles FC",
@@ -125,7 +70,7 @@
     },
     {
       "id": 206664,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Liga MX Clausura",
       "country": "Mexico",
       "homeTeam": "Pumas UNAM",
@@ -201,12 +146,12 @@
       "marketCount": 0
     },
     {
-      "id": 7696,
+      "id": 206889,
       "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "FCSB",
-      "awayTeam": "AFC Unirea 04 Slobozia",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Union Sportive Yacoub El Mansour",
+      "awayTeam": "Kawkab Athletic Club Marrakech",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,12 +168,12 @@
       "marketCount": 0
     },
     {
-      "id": 206889,
+      "id": 7696,
       "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Union Sportive Yacoub El Mansour",
-      "awayTeam": "Kawkab Athletic Club Marrakech",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "FCSB",
+      "awayTeam": "AFC Unirea 04 Slobozia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,23 +201,23 @@
       "marketCount": 0
     },
     {
-      "id": 362,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Tottenham Hotspur",
-      "awayTeam": "Leeds United",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206671,
       "status": "notstarted",
       "league": "Championship",
       "country": "England",
       "homeTeam": "Millwall",
       "awayTeam": "Hull City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 362,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Tottenham Hotspur",
+      "awayTeam": "Leeds United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -289,28 +234,6 @@
       "marketCount": 0
     },
     {
-      "id": 676,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Gil Vicente",
-      "awayTeam": "FC Arouca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 679,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Tondela",
-      "awayTeam": "Moreirense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 680,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -322,23 +245,12 @@
       "marketCount": 0
     },
     {
-      "id": 678,
+      "id": 679,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "Santa Clara",
-      "awayTeam": "CD Nacional",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 677,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Rio Ave",
-      "awayTeam": "Sporting CP",
+      "homeTeam": "Tondela",
+      "awayTeam": "Moreirense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,23 +278,45 @@
       "marketCount": 0
     },
     {
+      "id": 677,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Rio Ave",
+      "awayTeam": "Sporting CP",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 676,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Gil Vicente",
+      "awayTeam": "FC Arouca",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 678,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Santa Clara",
+      "awayTeam": "CD Nacional",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206890,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Renaissance Zemamra",
       "awayTeam": "Olympique Dcheira",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205070,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Gangwon FC",
-      "awayTeam": "Daejeon Hana Citizen",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -405,6 +339,17 @@
       "country": "South Korea",
       "homeTeam": "Gwangju FC",
       "awayTeam": "FC Seoul",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205070,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Gangwon FC",
+      "awayTeam": "Daejeon Hana Citizen",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -531,12 +476,12 @@
       "marketCount": 0
     },
     {
-      "id": 10254,
+      "id": 207171,
       "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "Servette FC",
-      "awayTeam": "FC Lausanne-Sport",
+      "league": "Ligue 1",
+      "country": "France",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "Rodez AF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +493,61 @@
       "country": "Switzerland",
       "homeTeam": "Grasshopper Club Zürich",
       "awayTeam": "FC Winterthur",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10252,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC Zürich",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10254,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Lausanne-Sport",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10303,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Kilmarnock",
+      "awayTeam": "Dundee FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10302,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Dundee United",
+      "awayTeam": "Livingston",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207160,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Dunfermline Athletic",
+      "awayTeam": "Partick Thistle",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
