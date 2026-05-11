@@ -1,84 +1,7 @@
 {
-  "generatedAt": "2026-05-11T01:26:37.381Z",
+  "generatedAt": "2026-05-11T05:39:54.944Z",
   "count": 50,
   "items": [
-    {
-      "id": 7139,
-      "status": "finished",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Grêmio",
-      "awayTeam": "Flamengo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9929,
-      "status": "finished",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Grêmio Novorizontino",
-      "awayTeam": "Botafogo-SP",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206663,
-      "status": "finished",
-      "league": "Liga MX Clausura",
-      "country": "Mexico",
-      "homeTeam": "CF Pachuca",
-      "awayTeam": "CD Toluca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5087,
-      "status": "finished",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Minnesota United",
-      "awayTeam": "Austin FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7143,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Vasco da Gama",
-      "awayTeam": "Athletico",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5088,
-      "status": "1st_half",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Los Angeles FC",
-      "awayTeam": "Houston Dynamo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206664,
-      "status": "1st_half",
-      "league": "Liga MX Clausura",
-      "country": "Mexico",
-      "homeTeam": "Pumas UNAM",
-      "awayTeam": "Club América",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
     {
       "id": 7695,
       "status": "notstarted",
@@ -113,12 +36,12 @@
       "marketCount": 0
     },
     {
-      "id": 8018,
+      "id": 46359,
       "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Cracovia",
-      "awayTeam": "Radomiak Radom",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "IK Sirius",
+      "awayTeam": "Örgryte IS",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,23 +58,12 @@
       "marketCount": 0
     },
     {
-      "id": 46359,
+      "id": 8018,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "IK Sirius",
-      "awayTeam": "Örgryte IS",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206889,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Union Sportive Yacoub El Mansour",
-      "awayTeam": "Kawkab Athletic Club Marrakech",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Cracovia",
+      "awayTeam": "Radomiak Radom",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,6 +91,17 @@
       "marketCount": 0
     },
     {
+      "id": 206889,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Union Sportive Yacoub El Mansour",
+      "awayTeam": "Kawkab Athletic Club Marrakech",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 204260,
       "status": "notstarted",
       "league": "Segunda División",
@@ -201,12 +124,12 @@
       "marketCount": 0
     },
     {
-      "id": 206671,
+      "id": 1037,
       "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Millwall",
-      "awayTeam": "Hull City",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Rayo Vallecano",
+      "awayTeam": "Girona FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,23 +146,12 @@
       "marketCount": 0
     },
     {
-      "id": 1037,
+      "id": 206671,
       "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Rayo Vallecano",
-      "awayTeam": "Girona FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 680,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Vitória SC",
-      "awayTeam": "Casa Pia",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Millwall",
+      "awayTeam": "Hull City",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,23 +168,12 @@
       "marketCount": 0
     },
     {
-      "id": 674,
+      "id": 680,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "CF Estrela Amadora",
-      "awayTeam": "Famalicão",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 673,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Benfica",
-      "awayTeam": "Sporting Braga",
+      "homeTeam": "Vitória SC",
+      "awayTeam": "Casa Pia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -289,6 +190,17 @@
       "marketCount": 0
     },
     {
+      "id": 678,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Santa Clara",
+      "awayTeam": "CD Nacional",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 676,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -300,12 +212,23 @@
       "marketCount": 0
     },
     {
-      "id": 678,
+      "id": 673,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
-      "homeTeam": "Santa Clara",
-      "awayTeam": "CD Nacional",
+      "homeTeam": "Benfica",
+      "awayTeam": "Sporting Braga",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 674,
+      "status": "notstarted",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "CF Estrela Amadora",
+      "awayTeam": "Famalicão",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -399,23 +322,23 @@
       "marketCount": 0
     },
     {
-      "id": 10264,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "Asteras Aktor",
-      "awayTeam": "MGS Panserraikos",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9220,
       "status": "notstarted",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "AE Kifisia",
       "awayTeam": "APS Atromitos Athinon",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10264,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "Asteras Aktor",
+      "awayTeam": "MGS Panserraikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -487,17 +410,6 @@
       "marketCount": 0
     },
     {
-      "id": 10253,
-      "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "Grasshopper Club Zürich",
-      "awayTeam": "FC Winterthur",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10252,
       "status": "notstarted",
       "league": "Super League",
@@ -509,12 +421,45 @@
       "marketCount": 0
     },
     {
+      "id": 10253,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "FC Winterthur",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 10254,
       "status": "notstarted",
       "league": "Super League",
       "country": "Switzerland",
       "homeTeam": "Servette FC",
       "awayTeam": "FC Lausanne-Sport",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207160,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Dunfermline Athletic",
+      "awayTeam": "Partick Thistle",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10301,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Aberdeen",
+      "awayTeam": "St. Mirren",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +487,67 @@
       "marketCount": 0
     },
     {
-      "id": 207160,
+      "id": 206672,
       "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Dunfermline Athletic",
-      "awayTeam": "Partick Thistle",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Southampton",
+      "awayTeam": "Middlesbrough",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1046,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Osasuna",
+      "awayTeam": "Atlético Madrid",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9598,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Internacional",
+      "awayTeam": "Athletic Club",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206697,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Londrina",
+      "awayTeam": "São Bernardo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9599,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Fluminense",
+      "awayTeam": "Operário-PR",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9600,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Cruzeiro",
+      "awayTeam": "Goiás",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0

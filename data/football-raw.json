@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T01:26:37.380Z",
+  "generatedAt": "2026-05-11T05:39:54.943Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,616 +21,205 @@
   ],
   "samples": {
     "event": {
-      "id": 7139,
+      "id": 7695,
       "league": {
-        "id": 9,
-        "name": "Brasileirão Serie A",
-        "country": "Brazil",
+        "id": 23,
+        "name": "Superliga",
+        "country": "Romania",
         "is_women": false,
         "current_season": {
-          "id": 28,
-          "name": "Brasileiro Serie A 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
+          "id": 374,
+          "name": "Superliga 25/26",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 28,
-        "name": "Brasileiro Serie A 2026",
-        "year": 2026
+        "id": 374,
+        "name": "Superliga 25/26",
+        "year": 2025
       },
-      "home_team": "Grêmio",
-      "away_team": "Flamengo",
+      "home_team": "FC Metaloglobus București",
+      "away_team": "FC Hermannstadt",
       "home_team_obj": {
-        "id": 154,
-        "name": "Grêmio",
-        "short_name": "Grêmio",
-        "country": "Brazil",
+        "id": 354,
+        "name": "FC Metaloglobus București",
+        "short_name": "Metaloglobus",
+        "country": "Romania",
         "coach": {
-          "name": "Luís Castro",
-          "shortName": "L. Castro"
+          "name": "Florin Daniel Bratu",
+          "shortName": "F. D. Bratu"
         },
         "venue": {
-          "id": 152,
-          "name": "Arena do Grêmio",
-          "city": "Porto Alegre",
-          "country": "Brazil",
-          "capacity": 60540
+          "id": 334,
+          "name": "Stadionul Metaloglobus",
+          "city": "Bucharest",
+          "country": "Romania",
+          "capacity": 1000
         }
       },
       "away_team_obj": {
-        "id": 160,
-        "name": "Flamengo",
-        "short_name": "Flamengo",
-        "country": "Brazil",
+        "id": 360,
+        "name": "FC Hermannstadt",
+        "short_name": "Hermannstadt",
+        "country": "Romania",
         "coach": {
-          "name": "José Barros",
-          "shortName": "J. Barros"
+          "name": "Dorinel Munteanu",
+          "shortName": "D. Munteanu"
         },
-        "venue": null
+        "venue": {
+          "id": 340,
+          "name": "Municipal Sibiu",
+          "city": "Sibiu",
+          "country": "Romania",
+          "capacity": 12300
+        }
       },
-      "event_date": "2026-05-11T02:30:00+04:00",
-      "round_number": 15,
+      "event_date": "2026-05-11T19:00:00+04:00",
+      "round_number": 8,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 0,
-      "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 9.09,
-      "odds_draw": 3.97,
-      "odds_away": 1.85,
-      "odds_over_15": 1.62,
-      "odds_over_25": 2.93,
-      "odds_over_35": 4.42,
-      "odds_under_15": 2.8,
-      "odds_under_25": 1.61,
-      "odds_under_35": 1.22,
-      "odds_btts_yes": 2.57,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 6.34,
+      "odds_draw": 4.26,
+      "odds_away": 1.45,
+      "odds_over_15": 1.26,
+      "odds_over_25": 1.81,
+      "odds_over_35": 3,
+      "odds_under_15": 3.56,
+      "odds_under_25": 1.93,
+      "odds_under_35": 1.34,
+      "odds_btts_yes": 1.99,
       "odds_btts_no": 1.74,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.26,
-      "away_xg_live": 2.71,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 1118,
-      "weather_code": 1,
+      "travel_distance_km": 219,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 170,
-        "name": "de Oliveira Lacerda, Davi",
-        "country": "Brazil",
-        "nationality_a3": "BRA",
-        "birthdate": null,
-        "yellowCards": 398,
-        "redCards": 9,
+        "id": 1488,
+        "name": "Petrescu, Radu Marian",
+        "country": "Romania",
+        "nationality_a3": "ROU",
+        "birthdate": "1982-11-12",
+        "yellowCards": 0,
+        "redCards": 0,
         "career_games": null,
         "career_yellow_cards": null,
         "career_red_cards": null
       },
       "home_coach": {
-        "id": 163,
-        "name": "Luís Castro",
-        "short_name": "L. Castro",
-        "country": "Portugal",
-        "profile": "balanced",
+        "id": 374,
+        "name": "Florin Daniel Bratu",
+        "short_name": "F. D. Bratu",
+        "country": "Romania",
+        "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.49865508700060485,
+        "pressing_intensity": 0.5218318055582017,
         "defensive_line": "high",
         "top_styles": [
-          "ball_dominant",
-          "total_football"
+          "terrorist_fb",
+          "gegenpressing"
         ]
       },
       "away_coach": {
-        "id": 165,
-        "name": "Leonardo Jardim",
-        "short_name": "L. Jardim",
-        "country": "Portugal",
-        "profile": "attacking",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5344200112288681,
-        "defensive_line": "mid",
+        "id": 228,
+        "name": "Dorinel Munteanu",
+        "short_name": "D. Munteanu",
+        "country": "Romania",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.38733688008188827,
+        "defensive_line": "high",
         "top_styles": [
-          "heritage",
-          "positional"
+          "cross_pray",
+          "set_piece"
         ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Arthur",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Francis Amuzu",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Gustavo Martins",
-            "status": "suspended",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "João Pedro",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Juan Nardoni",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Marlon",
-            "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": "2026-08-21"
-          },
-          {
-            "name": "Mathias Villasanti",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Riquelme Freitas",
-            "status": "suspended",
-            "reason": "Red card suspension",
-            "expected_return": "2026-05-12"
-          },
-          {
-            "name": "Roger",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Walter Kannemann",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Willian",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ],
-        "away": [
-          {
-            "name": "Alex Sandro",
-            "status": "suspended",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Erick Pulgar",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Everton",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Giorgian de Arrascaeta",
-            "status": "injured",
-            "reason": "Shoulder Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Guillermo Varela",
-            "status": "doubtful",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Jorginho",
-            "status": "injured",
-            "reason": "Calf Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Léo Pereira",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Lucas Paquetá",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Nicolás de la Cruz",
-            "status": "doubtful",
-            "reason": "Tired",
-            "expected_return": null
-          },
-          {
-            "name": "Saúl Ñíguez",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Wallace Yan",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 152,
-        "name": "Arena do Grêmio",
-        "city": "Porto Alegre",
-        "country": "Brazil",
-        "capacity": 60540,
-        "latitude": -29.973444,
-        "longitude": -51.194403,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 2012
+        "id": 334,
+        "name": "Stadionul Metaloglobus",
+        "city": "Bucharest",
+        "country": "Romania",
+        "capacity": 1000,
+        "latitude": 44.442417,
+        "longitude": 26.18425,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
-      "live_stats": {
-        "away": {
-          "duels": 51,
-          "fouls": 9,
-          "passes": 703,
-          "crosses": "3/22 (14%)",
-          "punches": 0,
-          "tackles": 14,
-          "dribbles": "8/13 (62%)",
-          "throw_ins": 18,
-          "clearances": 17,
-          "free_kicks": 10,
-          "goal_kicks": 5,
-          "long_balls": "21/37 (57%)",
-          "recoveries": 54,
-          "big_chances": 3,
-          "tackles_won": 64,
-          "total_saves": 2,
-          "total_shots": 20,
-          "aerial_duels": "7/18 (39%)",
-          "corner_kicks": 6,
-          "dispossessed": 6,
-          "ground_duels": "32/58 (55%)",
-          "hit_woodwork": 2,
-          "yellow_cards": 3,
-          "blocked_shots": 5,
-          "interceptions": 5,
-          "through_balls": 1,
-          "total_tackles": 14,
-          "expected_goals": 2.71,
-          "accurate_passes": 626,
-          "ball_possession": 67,
-          "goals_prevented": 0.04,
-          "shots_on_target": 5,
-          "goalkeeper_saves": 2,
-          "shots_inside_box": 14,
-          "shots_off_target": 10,
-          "final_third_phase": "219/269 (81%)",
-          "shots_outside_box": 6,
-          "big_chances_missed": 2,
-          "big_chances_scored": 1,
-          "final_third_entries": 67,
-          "errors_lead_to_a_shot": 1,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 34
-        },
-        "home": {
-          "duels": 47,
-          "fouls": 10,
-          "passes": 329,
-          "crosses": "1/12 (8%)",
-          "punches": 1,
-          "tackles": 12,
-          "dribbles": "7/12 (58%)",
-          "throw_ins": 15,
-          "clearances": 37,
-          "free_kicks": 9,
-          "goal_kicks": 9,
-          "long_balls": "26/53 (49%)",
-          "recoveries": 52,
-          "big_chances": 0,
-          "tackles_won": 50,
-          "total_saves": 4,
-          "total_shots": 6,
-          "aerial_duels": "9/17 (53%)",
-          "corner_kicks": 0,
-          "dispossessed": 10,
-          "ground_duels": "27/60 (45%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 1,
-          "interceptions": 14,
-          "through_balls": 0,
-          "total_tackles": 12,
-          "expected_goals": 0.26,
-          "accurate_passes": 266,
-          "ball_possession": 33,
-          "goals_prevented": 0.54,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 4,
-          "shots_inside_box": 2,
-          "shots_off_target": 2,
-          "final_third_phase": "50/71 (70%)",
-          "shots_outside_box": 4,
-          "big_chances_missed": 0,
-          "big_chances_scored": 0,
-          "final_third_entries": 36,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 7
-        },
-        "first_half": {
-          "away": {
-            "duels": 38,
-            "fouls": 6,
-            "passes": 328,
-            "crosses": "1/11 (9%)",
-            "tackles": 3,
-            "dribbles": "3/7 (43%)",
-            "throw_ins": 15,
-            "clearances": 3,
-            "free_kicks": 6,
-            "goal_kicks": 4,
-            "long_balls": "11/24 (46%)",
-            "recoveries": 21,
-            "big_chances": 0,
-            "tackles_won": 67,
-            "total_saves": 1,
-            "total_shots": 11,
-            "aerial_duels": "4/14 (29%)",
-            "corner_kicks": 4,
-            "dispossessed": 3,
-            "ground_duels": "12/28 (43%)",
-            "hit_woodwork": 2,
-            "yellow_cards": 2,
-            "blocked_shots": 2,
-            "interceptions": 3,
-            "through_balls": 0,
-            "total_tackles": 3,
-            "expected_goals": 0.57,
-            "accurate_passes": 287,
-            "ball_possession": 74,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 7,
-            "shots_off_target": 7,
-            "shots_outside_box": 4,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 31,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 57,
-            "fouls": 6,
-            "passes": 114,
-            "crosses": "1/3 (33%)",
-            "tackles": 7,
-            "dribbles": "4/5 (80%)",
-            "throw_ins": 6,
-            "clearances": 21,
-            "free_kicks": 6,
-            "goal_kicks": 6,
-            "long_balls": "7/22 (32%)",
-            "recoveries": 21,
-            "big_chances": 0,
-            "tackles_won": 71,
-            "total_saves": 2,
-            "total_shots": 4,
-            "aerial_duels": "8/13 (62%)",
-            "corner_kicks": 0,
-            "dispossessed": 3,
-            "ground_duels": "16/29 (55%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 0,
-            "interceptions": 6,
-            "through_balls": 0,
-            "total_tackles": 7,
-            "expected_goals": 0.13,
-            "accurate_passes": 83,
-            "ball_possession": 26,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 1,
-            "shots_off_target": 2,
-            "shots_outside_box": 3,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 15,
-            "fouled_in_final_third": 1
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 68,
-            "fouls": 3,
-            "passes": 375,
-            "crosses": "2/11 (18%)",
-            "tackles": 11,
-            "dribbles": "5/6 (83%)",
-            "throw_ins": 3,
-            "clearances": 14,
-            "free_kicks": 4,
-            "goal_kicks": 1,
-            "long_balls": "10/13 (77%)",
-            "recoveries": 33,
-            "big_chances": 3,
-            "tackles_won": 64,
-            "total_saves": 1,
-            "total_shots": 9,
-            "aerial_duels": "3/4 (75%)",
-            "corner_kicks": 2,
-            "dispossessed": 3,
-            "ground_duels": "20/30 (67%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 3,
-            "interceptions": 2,
-            "through_balls": 1,
-            "total_tackles": 11,
-            "expected_goals": 2.14,
-            "accurate_passes": 339,
-            "ball_possession": 63,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 7,
-            "shots_off_target": 3,
-            "shots_outside_box": 2,
-            "big_chances_missed": 2,
-            "big_chances_scored": 1,
-            "final_third_entries": 36,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 34,
-            "fouls": 4,
-            "passes": 215,
-            "crosses": "0/9 (0%)",
-            "tackles": 5,
-            "dribbles": "3/7 (43%)",
-            "throw_ins": 9,
-            "clearances": 16,
-            "free_kicks": 3,
-            "goal_kicks": 3,
-            "long_balls": "19/31 (61%)",
-            "recoveries": 31,
-            "big_chances": 0,
-            "tackles_won": 20,
-            "total_saves": 2,
-            "total_shots": 2,
-            "aerial_duels": "1/4 (25%)",
-            "corner_kicks": 0,
-            "dispossessed": 7,
-            "ground_duels": "11/31 (35%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 8,
-            "through_balls": 0,
-            "total_tackles": 5,
-            "expected_goals": 0.13,
-            "accurate_passes": 183,
-            "ball_possession": 37,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 1,
-            "shots_off_target": 0,
-            "shots_outside_box": 1,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 21,
-            "fouled_in_final_third": 0
-          }
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "00c3d7",
+            "base": "f8de55",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "ffffff"
+            "sleeve": "d18f1c",
+            "sleevelong": "e6a025"
           },
           "player": {
-            "base": "ab1b10",
+            "base": "ff0000",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "000000",
-            "sleevelong": "000000",
-            "horizontalstripes": "000000"
+            "sleeve": "141414"
           }
         },
         "home": {
           "GK": {
-            "base": "f2e407",
+            "base": "000000",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "010033"
+            "number": "fafafa",
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "b8edff",
+            "base": "e4e6ec",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff",
-            "stripes": "000000",
-            "sleevelong": "b8edff"
+            "number": "fd9a50",
+            "sleeve": "fb9956"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 1,
+          "sentence": "Metaloglobus haven't won in their last 5 games."
+        },
+        {
           "type_id": 24,
-          "sentence": "Gremio's home record this season: 4-2-0."
+          "sentence": "Hermannstadt's away record this season: 0-2-2."
         },
         {
           "type_id": 25,
-          "sentence": "Carlos Vinicius is Gremio's top scorer with 7 goals. Pedro has scored 8 times for Flamengo."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Gremio haven't lost in their last 5 games."
+          "sentence": "Yassine Zakir is Metaloglobus's top scorer with 7 goals. Aurelian Ionut Chitu has scored 9 times for Hermannstadt."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 117,
-          "home": 70
-        },
-        "ball_safe": {
-          "away": 69,
-          "home": 73
-        },
-        "attack_pct": {
-          "away": 29,
-          "home": 24
-        },
-        "ball_safe_pct": {
-          "away": 35,
-          "home": 58
-        },
-        "dangerous_attack": {
-          "away": 82,
-          "home": 38
-        },
-        "dangerous_attack_pct": {
-          "away": 36,
-          "home": 18
-        }
+      "sr_stats": null,
+      "ai_preview": {
+        "text": "**Stalemate city heads to breaking point.** Metaloglobus and Hermannstadt are both running on fumes — one hasn't won in five, the other scraped a single W from the same stretch. 📉\n\nBoth sides are heavy on the draw, with Hermannstadt's last three reads like a goalless gallery and Metaloglobus leaking chances left and right. This fixture screams tight, low-rhythm stuff — but the model reckons **Metaloglobus edges it at home**.\n\nKey storylines:\n\n- **Metaloglobus** desperate to break their winless streak; playing on familiar turf could be the spark they need\n- **Hermannstadt's** rock-solid defense (three straight games without conceding a goal) meets an attack that's misfired all month\n- Both teams have drawn twice in their H2H history — expect another chess match unless someone blinks first\n\nExpected lineups:\n\n- **FC Metaloglobus București**: G. Gavrilas, A. Sava, A. Camara, O. Pasagić, A. Țîrlea, D. Sabater, B. Carvalho, E. Fernandes, F. Purece\n- **FC Hermannstadt**: D. Lazar, I. Bârstan, B. Chorbadzhiyski, A. Karo, T. Căpuşă, A. Ivanov, E. Florescu, Jair, D. Politic\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**1-1 draw**, but the lean is Metaloglobus nicking this at home. 🏠",
+        "generated_at": "2026-05-11T01:45:13.317577+00:00"
       },
-      "ai_preview": null,
       "live_websocket": true
     },
     "prediction": {
@@ -702,16 +291,16 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 6.21,
-        "odds_draw": 4.21,
+        "odds_home": 6.34,
+        "odds_draw": 4.26,
         "odds_away": 1.45,
         "odds_over_15": 1.26,
         "odds_over_25": 1.81,
-        "odds_over_35": 3.01,
-        "odds_under_15": 3.54,
+        "odds_over_35": 3,
+        "odds_under_15": 3.56,
         "odds_under_25": 1.93,
         "odds_under_35": 1.34,
-        "odds_btts_yes": 1.98,
+        "odds_btts_yes": 1.99,
         "odds_btts_no": 1.74,
         "actual_home_xg": null,
         "actual_away_xg": null,
@@ -727,7 +316,18 @@
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 1488,
+          "name": "Petrescu, Radu Marian",
+          "country": "Romania",
+          "nationality_a3": "ROU",
+          "birthdate": "1982-11-12",
+          "yellowCards": 0,
+          "redCards": 0,
+          "career_games": null,
+          "career_yellow_cards": null,
+          "career_red_cards": null
+        },
         "home_coach": {
           "id": 374,
           "name": "Florin Daniel Bratu",
@@ -827,8 +427,8 @@
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Metaloglobus and Hermannstadt square off in a dead-rubber showdown** — both teams stuck in neutral, neither side pulling away. 🔴\n\nMetaloglobus are winless in five (2D, 3L) and leaking goals on the road, while Hermannstadt aren't much better: a solitary win in their last five with draws piling up. Both sides love a stalemate — their last two head-to-heads ended 0-0 and 1-1. This has all the makings of a grinding midfield battle.\n\nKey storylines:\n\n- **Metaloglobus need to stop the bleeding** — they've lost three of their last five away from home, so staying solid at Stadionul Metaloglobus matters\n- **Hermannstadt's draw addiction** — three draws in five games shows a team content to not lose, which could make this tight\n- **Attacking depth test** — Jair and C. Neguț will be tasked with breaking down a side desperate for three points\n\nExpected lineups:\n\n- **FC Metaloglobus București**: G. Gavrilas, A. Sava, A. Camara, O. Pasagić, B. Carvalho, E. Fernandes, F. Purece, D. Huiban\n- **FC Hermannstadt**: D. Lazar, I. Bârstan, B. Chorbadzhiyski, T. Căpuşă, A. Ivanov, E. Florescu, Jair, C. Neguț\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**2-1 Metaloglobus.** Slight lean to the hosts — they'll have just enough edge at home to scrape past a defensive Hermannstadt side. ⚪",
-          "generated_at": "2026-05-10T15:45:27.806894+00:00"
+          "text": "**Stalemate city heads to breaking point.** Metaloglobus and Hermannstadt are both running on fumes — one hasn't won in five, the other scraped a single W from the same stretch. 📉\n\nBoth sides are heavy on the draw, with Hermannstadt's last three reads like a goalless gallery and Metaloglobus leaking chances left and right. This fixture screams tight, low-rhythm stuff — but the model reckons **Metaloglobus edges it at home**.\n\nKey storylines:\n\n- **Metaloglobus** desperate to break their winless streak; playing on familiar turf could be the spark they need\n- **Hermannstadt's** rock-solid defense (three straight games without conceding a goal) meets an attack that's misfired all month\n- Both teams have drawn twice in their H2H history — expect another chess match unless someone blinks first\n\nExpected lineups:\n\n- **FC Metaloglobus București**: G. Gavrilas, A. Sava, A. Camara, O. Pasagić, A. Țîrlea, D. Sabater, B. Carvalho, E. Fernandes, F. Purece\n- **FC Hermannstadt**: D. Lazar, I. Bârstan, B. Chorbadzhiyski, A. Karo, T. Căpuşă, A. Ivanov, E. Florescu, Jair, D. Politic\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**1-1 draw**, but the lean is Metaloglobus nicking this at home. 🏠",
+          "generated_at": "2026-05-11T01:45:13.317577+00:00"
         },
         "live_websocket": true
       },
