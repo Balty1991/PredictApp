@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T10:06:06.611Z",
+  "generatedAt": "2026-05-12T12:25:28.878Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -58,24 +58,24 @@
       "round_number": 14,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 2.31,
-      "odds_draw": 3.05,
-      "odds_away": 3.19,
-      "odds_over_15": 1.42,
-      "odds_over_25": 2.3,
-      "odds_over_35": 4.23,
-      "odds_under_15": 2.72,
-      "odds_under_25": 1.58,
-      "odds_under_35": 1.2,
-      "odds_btts_yes": 1.96,
-      "odds_btts_no": 1.76,
+      "status": "finished",
+      "home_score": 2,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 2.2,
+      "odds_draw": 3.56,
+      "odds_away": 11.96,
+      "odds_over_15": 1.69,
+      "odds_over_25": 2.58,
+      "odds_over_35": 4.75,
+      "odds_under_15": 2.61,
+      "odds_under_25": 1.55,
+      "odds_under_35": 1.19,
+      "odds_btts_yes": 2.54,
+      "odds_btts_no": 1.72,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -85,10 +85,10 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": 169,
-      "weather_code": null,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
@@ -182,7 +182,32 @@
           "sentence": "A year ago, Daejeon Citizen were number 1 in the table with 24 points. Now they are number 5 with 16 points."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 75,
+          "home": 103
+        },
+        "ball_safe": {
+          "away": 83,
+          "home": 66
+        },
+        "attack_pct": {
+          "away": 26,
+          "home": 34
+        },
+        "ball_safe_pct": {
+          "away": 57,
+          "home": 28
+        },
+        "dangerous_attack": {
+          "away": 25,
+          "home": 62
+        },
+        "dangerous_attack_pct": {
+          "away": 17,
+          "home": 38
+        }
+      },
       "ai_preview": {
         "text": "**Gangwon's looking to flex at home, and Daejeon just got hammered 0-2 by Pohang** — this could be a statement day for the hosts. 🏟️\n\nGangwon's on a solid run (2W-2D-1L) with some grit, while Daejeon's form is all over the map — they demolished Gwangju 5-0 but then got dismantled by Pohang. The swing between those performances is wild. Head-to-head edge goes to **Gangwon**, who took the last meeting.\n\nKey storylines:\n\n- **Gangwon's defense** anchored by K. Joon-hyuk and M. Tuci will need to stay sharp against the unpredictable Daejeon attack\n- **G. Ludwigson** and M. Ishida are Daejeon's attacking spark, but consistency is their kryptonite\n- Home advantage at Gangneung Stadium favors **Gangwon's midfield control** through D. Kim and Y. Lee\n\nExpected lineups:\n\n- **Gangwon FC**: C. Park, K. Joon-hyuk, M. Tuci, G. Lee, D. Kim, Y. Lee, J. H. Mo, M. Seo, B. Choi, K. Do-Hyun\n- **Daejeon Hana Citizen**: L. Chang-geun, J. Seong-Kwon, M. Kim, M. D. Kim, K. Bong-Soo, V. Bobsin, J. Victor, G. Ludwigson, M. Ishida, M. K. Ju\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction:\n\n**Gangwon 1-0 Daejeon.** Model leans home; expect a tight, controlled performance. ⚽",
         "generated_at": "2026-05-12T02:45:14.231527+00:00"
@@ -190,43 +215,61 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 3835,
+      "id": 3837,
       "event": {
-        "id": 205072,
+        "id": 203005,
         "league": {
-          "id": 50,
-          "name": "K League 1",
-          "country": "South Korea",
+          "id": 22,
+          "name": "Parva Liga",
+          "country": "Bulgaria",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 321,
+            "name": "Parva Liga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
         "season": null,
-        "home_team": "Incheon United",
-        "away_team": "Pohang Steelers",
+        "home_team": "Cherno More Varna",
+        "away_team": "Lokomotiv Plovdiv",
         "home_team_obj": {
-          "id": 1948,
-          "name": "Incheon United",
-          "short_name": "Incheon Utd",
-          "country": "South Korea",
+          "id": 342,
+          "name": "Cherno More Varna",
+          "short_name": "Cherno More",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Jung-Hwan Yoon",
-            "shortName": "J. Yoon"
+            "name": "Ilian Iliev",
+            "shortName": "I. Iliev"
           },
-          "venue": null
+          "venue": {
+            "id": 322,
+            "name": "Ticha Stadium",
+            "city": "Varna",
+            "country": "Bulgaria",
+            "capacity": 6250
+          }
         },
         "away_team_obj": {
-          "id": 1953,
-          "name": "Pohang Steelers",
-          "short_name": "",
-          "country": "South Korea",
+          "id": 350,
+          "name": "Lokomotiv Plovdiv",
+          "short_name": "Lokomotiv Plovdiv",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Tae-Ha Park",
-            "shortName": "T. Park"
+            "name": "Dušan Kosič",
+            "shortName": "D. Kosič"
           },
-          "venue": null
+          "venue": {
+            "id": 330,
+            "name": "Lokomotiv Stadium",
+            "city": "Plovdiv",
+            "country": "Bulgaria",
+            "capacity": 13850
+          }
         },
-        "event_date": "2026-05-12T14:30:00+04:00",
-        "round_number": 14,
+        "event_date": "2026-05-12T18:45:00+04:00",
+        "round_number": 4,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -236,17 +279,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.14,
-        "odds_draw": 2.9,
-        "odds_away": 2.43,
-        "odds_over_15": 1.54,
-        "odds_over_25": 2.66,
-        "odds_over_35": 5.23,
-        "odds_under_15": 2.35,
-        "odds_under_25": 1.44,
-        "odds_under_35": 1.14,
-        "odds_btts_yes": 2.17,
-        "odds_btts_no": 1.63,
+        "odds_home": 1.91,
+        "odds_draw": 3.13,
+        "odds_away": 4.11,
+        "odds_over_15": 1.42,
+        "odds_over_25": 2.29,
+        "odds_over_35": 4.2,
+        "odds_under_15": 2.67,
+        "odds_under_25": 1.57,
+        "odds_under_35": 1.2,
+        "odds_btts_yes": 2.04,
+        "odds_btts_no": 1.7,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -255,53 +298,64 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 294,
+        "travel_distance_km": 286,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 1493,
+          "name": "Arsov, Stoyan",
+          "country": "Bulgaria",
+          "nationality_a3": "BGR",
+          "birthdate": null,
+          "yellowCards": 0,
+          "redCards": 0,
+          "career_games": null,
+          "career_yellow_cards": null,
+          "career_red_cards": null
+        },
         "home_coach": {
-          "id": 1305,
-          "name": "Jung-Hwan Yoon",
-          "short_name": "J. Yoon",
-          "country": "South Korea",
-          "profile": "balanced",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.35995768006812834,
-          "defensive_line": "low",
+          "id": 365,
+          "name": "Ilian Iliev",
+          "short_name": "I. Iliev",
+          "country": "Bulgaria",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.3170338200220396,
+          "defensive_line": "mid",
           "top_styles": [
-            "set_piece",
+            "low_block",
             "park_the_bus"
           ]
         },
         "away_coach": {
-          "id": 1310,
-          "name": "Tae-Ha Park",
-          "short_name": "T. Park",
-          "country": "South Korea",
-          "profile": "defensive",
-          "preferred_formation": "4-1-4-1",
-          "pressing_intensity": 0.377609130667948,
+          "id": 193,
+          "name": "Dušan Kosič",
+          "short_name": "D. Kosič",
+          "country": "Slovenia",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.28967952255053453,
           "defensive_line": "mid",
           "top_styles": [
-            "set_piece",
-            "territory"
+            "terrorist_fb",
+            "anti_football"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1122,
-          "name": "Incheon Football Stadium",
-          "city": "Incheon",
-          "country": "South Korea",
-          "capacity": 20891,
-          "latitude": 37.465666,
-          "longitude": 126.643572,
+          "id": 322,
+          "name": "Ticha Stadium",
+          "city": "Varna",
+          "country": "Bulgaria",
+          "capacity": 6250,
+          "latitude": 43.215833,
+          "longitude": 27.931389,
           "pitch_x": null,
           "pitch_y": null,
-          "built_year": 2012
+          "built_year": 1968
         },
         "incidents": null,
         "live_stats": null,
@@ -313,76 +367,77 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "ffea19",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "0d0d0d",
-              "sleeve": "0d0d0d"
-            },
-            "player": {
-              "base": "db132c",
+              "base": "f45542",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "191619",
-              "sleevelong": "121111"
+              "sleeve": "f5eeea"
+            },
+            "player": {
+              "base": "080808",
+              "real": true,
+              "type": "short_sleeves",
+              "split": "fcf8f8",
+              "number": "f8f7f7",
+              "sleeve": "030303",
+              "sleevelong": "121212"
             }
           },
           "home": {
             "GK": {
-              "base": "bbad27",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "050505",
-              "sleeve": "0d0d0d"
-            },
-            "player": {
-              "base": "194ec7",
+              "base": "fae500",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "fcfcfc",
-              "stripes": "000000"
+              "sleeve": "e5ff58"
+            },
+            "player": {
+              "base": "ffffff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "03883e",
+              "horizontalstripes": "03883e"
             }
           }
         },
         "funfacts": [
           {
+            "type_id": 24,
+            "sentence": "Lok Plovdiv's away record this season: 4-9-3."
+          },
+          {
             "type_id": 25,
-            "sentence": "Stefan Mugosa is Incheon Utd's top scorer with 7 goals. Lee Ho-Jae has scored 6 times for Pohang Steelers."
+            "sentence": "Georgi Lazarov is Varna's top scorer with 8 goals. Joel Zwarts has scored 6 times for Lok Plovdiv."
           },
           {
-            "type_id": 22,
-            "sentence": "Incheon Utd's last home win against Pohang Steelers was in 2017."
-          },
-          {
-            "type_id": 6,
-            "sentence": "During the last 29 meetings with Incheon Utd playing at home, Incheon Utd have won 7 times, there have been 9 draws while Pohang Steelers have won 13 times. The goal difference is 40-28 in favour of Pohang Steelers."
+            "type_id": 1,
+            "sentence": "Lok Plovdiv have lost none of their last 5 away matches."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Incheon and Pohang both rolling, but this one screams tight and cagey.** Two teams in great form clash at the Incheon Football Stadium with little to separate them on paper — exactly the recipe for a low-scoring affair. 🔒\n\nBoth squads are 3W-1D-1L over their last stretch, and their head-to-head is basically a stalemate (1D). Incheon's showing defensive chops with a 3-0 shutout recently, while Pohang's been equally miserly away from home. This has \"0-0 or 1-1\" written all over it.\n\nKey storylines:\n\n- **Incheon's defense** has tightened up nicely — only conceded once in five games\n- **Pohang's away record** is pristine; three wins on the road with solid control\n- **Midfield battle** between Incheon's **M. J. Lee** and **C. Y. Lee** versus Pohang's **H. Seo-woong** and **S. Kim** will decide tempo and space\n\nExpected lineups:\n\n- **Incheon United**: D. H. Kim, J. Fernández, K. Park, J. Y. Lee, K. Myung-Sun, S. Jae-Min, M. J. Lee, C. Y. Lee, G. Fernandes, S. Mugoša, D. Lee\n- **Pohang Steelers**: I. Hwang, J. Eo, P. Chan-Yong, K. Ye-Sung, H. Hyeon-Seo, S. Kim, H. Seo-woong, H. Kim, J. Rocha, S. Y. Ki, L. Ho-jae\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw** — both defenses hold firm, one goal apiece. 📍",
-          "generated_at": "2026-05-12T02:45:19.618281+00:00"
+          "text": "**Cherno More Varna hosts Lokomotiv Plovdiv in a midweek showdown where **recent history strongly favors the home side** — they've won the last meeting and hold a 3-2 edge in head-to-head.** Both sides are locked in identical form (2W-2D-1L), so this is a genuine toss-up on paper. 🔄\n\nVarna's defensive solidity stands out: they've kept two clean sheets in their last five and beat Lokomotiv 1-0 away just recently. Plovdiv counters with back-to-back wins (2-0 shutouts), but that loss to Varna at home is nagging. Expect a tight, cagey affair.\n\nKey storylines:\n\n- **Cherno More Varna** riding home-field advantage and a winning record vs. this opponent — P. Iliev's backline has been miserly\n- **Lokomotiv Plovdiv** chasing revenge after their recent 0-1 home loss, with sharp attacking duo of J. Zwarts and S. Idriz\n- Both teams' identical form creates a true coin flip, but the model leans toward a low-scoring game\n\nExpected lineups:\n\n- **Cherno More Varna**: P. Iliev, R. Stefanov, V. Drobarov, A. Donchev, T. Panov, B. Beyhan, A. Calcan, C. Sidney, D. Tonev, G. Lazarov, J. Padilla\n- **Lokomotiv Plovdiv**: B. Milosavljević, L. Ryan, T. Pavlov, A. Cova, M. Ruskov, I. Ivanov, P. Umarbaev, J. Zwarts, S. Idriz, Z. Dinev, A. Velev\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n- **Total Goals 1.5**: Under 1.5 goals\n\nPrediction: **1-0 Varna** — slight lean on the hosts capitalizing on home comfort and recent form against this foe.",
+          "generated_at": "2026-05-12T01:45:15.298312+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-06T06:20:16.048588+04:00",
-      "prob_home_win": 33.08778503309927,
-      "prob_draw": 25.24340278503298,
-      "prob_away_win": 41.66881218186774,
-      "predicted_result": "A",
-      "expected_home_goals": 1.1,
-      "expected_away_goals": 1.4,
-      "prob_over_15": 60.290719328435436,
-      "prob_over_25": 35.07096623515981,
-      "prob_over_35": 13.802076357810716,
-      "prob_btts_yes": 39.57644575904817,
-      "confidence": 41.66881218186774,
+      "created_at": "2026-05-06T06:20:17.171687+04:00",
+      "prob_home_win": 34.91340379595493,
+      "prob_draw": 33.65409794642253,
+      "prob_away_win": 31.432498257622537,
+      "predicted_result": "H",
+      "expected_home_goals": 0.6,
+      "expected_away_goals": 0.5720000000000001,
+      "prob_over_15": 58.87293476121873,
+      "prob_over_25": 37.579221984537725,
+      "prob_over_35": 12.263348832475634,
+      "prob_btts_yes": 26.68960144840606,
+      "confidence": 34.91340379595493,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 41.66881218186774,
+      "most_likely_score": "0-0",
+      "favorite": "H",
+      "favorite_prob": 34.91340379595493,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
