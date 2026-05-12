@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-12T15:23:58.374Z",
+  "generatedAt": "2026-05-12T17:34:47.212Z",
   "count": 50,
   "items": [
     {
-      "id": 207394,
-      "status": "2nd_half",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "Inter Turku",
-      "awayTeam": "JS Hercules",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203005,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Cherno More Varna",
@@ -26,7 +15,7 @@
     },
     {
       "id": 207395,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Suomen Cup",
       "country": "Finland",
       "homeTeam": "SJK",
@@ -37,7 +26,7 @@
     },
     {
       "id": 207158,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Tunisian Ligue Professionnelle 1",
       "country": "Tunisia",
       "homeTeam": "JS Omrane",
@@ -47,19 +36,8 @@
       "marketCount": 0
     },
     {
-      "id": 9220,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "AE Kifisia",
-      "awayTeam": "APS Atromitos Athinon",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10264,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "Asteras Aktor",
@@ -70,7 +48,7 @@
     },
     {
       "id": 9222,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "GFS Panetolikos",
@@ -80,8 +58,19 @@
       "marketCount": 0
     },
     {
+      "id": 9220,
+      "status": "2nd_half",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "AE Kifisia",
+      "awayTeam": "APS Atromitos Athinon",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207396,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Suomen Cup",
       "country": "Finland",
       "homeTeam": "PK-35",
@@ -92,7 +81,7 @@
     },
     {
       "id": 4805,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Kholood",
@@ -103,7 +92,7 @@
     },
     {
       "id": 1041,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "La Liga",
       "country": "Spain",
       "homeTeam": "Celta Vigo",
@@ -114,22 +103,11 @@
     },
     {
       "id": 203006,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Botev Plovdiv",
       "awayTeam": "Arda Kardzhali",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1047,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Real Betis",
-      "awayTeam": "Elche",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -146,23 +124,12 @@
       "marketCount": 0
     },
     {
-      "id": 207171,
+      "id": 1047,
       "status": "notstarted",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "Red Star FC",
-      "awayTeam": "Rodez AF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10252,
-      "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Luzern",
-      "awayTeam": "FC Zürich",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Real Betis",
+      "awayTeam": "Elche",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,6 +146,17 @@
       "marketCount": 0
     },
     {
+      "id": 207171,
+      "status": "notstarted",
+      "league": "Ligue 1",
+      "country": "France",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "Rodez AF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 10253,
       "status": "notstarted",
       "league": "Super League",
@@ -190,12 +168,12 @@
       "marketCount": 0
     },
     {
-      "id": 10302,
+      "id": 10252,
       "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Dundee United",
-      "awayTeam": "Livingston",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC Zürich",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -229,6 +207,17 @@
       "country": "Scotland",
       "homeTeam": "Kilmarnock",
       "awayTeam": "Dundee FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10302,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Dundee United",
+      "awayTeam": "Livingston",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,6 +311,17 @@
       "marketCount": 0
     },
     {
+      "id": 205073,
+      "status": "notstarted",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Bucheon FC 1995",
+      "awayTeam": "Jeonbuk Hyundai Motors",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 205074,
       "status": "notstarted",
       "league": "K League 1",
@@ -339,17 +339,6 @@
       "country": "South Korea",
       "homeTeam": "Ulsan HD",
       "awayTeam": "Jeju SK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205073,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Bucheon FC 1995",
-      "awayTeam": "Jeonbuk Hyundai Motors",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,6 +399,39 @@
       "marketCount": 0
     },
     {
+      "id": 206897,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "ES Zarzis",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207403,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "HIFK Fotboll",
+      "awayTeam": "JäPS",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207401,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "VPS",
+      "awayTeam": "ÅIFK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207400,
       "status": "notstarted",
       "league": "Suomen Cup",
@@ -432,17 +454,6 @@
       "marketCount": 0
     },
     {
-      "id": 207402,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "EPS",
-      "awayTeam": "FC Haka",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207398,
       "status": "notstarted",
       "league": "Suomen Cup",
@@ -454,45 +465,12 @@
       "marketCount": 0
     },
     {
-      "id": 207404,
+      "id": 207402,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "KäPa",
-      "awayTeam": "MyPa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206897,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "CA Bizertin",
-      "awayTeam": "ES Zarzis",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207401,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "VPS",
-      "awayTeam": "ÅIFK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207403,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "HIFK Fotboll",
-      "awayTeam": "JäPS",
+      "homeTeam": "EPS",
+      "awayTeam": "FC Haka",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,12 +487,12 @@
       "marketCount": 0
     },
     {
-      "id": 207406,
+      "id": 207404,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "VJS",
-      "awayTeam": "FF Jaro",
+      "homeTeam": "KäPa",
+      "awayTeam": "MyPa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -537,6 +515,28 @@
       "country": "Finland",
       "homeTeam": "IFK Mariehamn",
       "awayTeam": "PuiU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207406,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "VJS",
+      "awayTeam": "FF Jaro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8011,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "MZKS Arka Gdynia",
+      "awayTeam": "Górnik Zabrze",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
