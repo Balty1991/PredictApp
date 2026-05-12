@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T17:34:47.210Z",
+  "generatedAt": "2026-05-12T20:01:40.952Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 203005,
+      "id": 203006,
       "league": {
         "id": 22,
         "name": "Parva Liga",
@@ -36,64 +36,64 @@
         }
       },
       "season": null,
-      "home_team": "Cherno More Varna",
-      "away_team": "Lokomotiv Plovdiv",
+      "home_team": "Botev Plovdiv",
+      "away_team": "Arda Kardzhali",
       "home_team_obj": {
-        "id": 342,
-        "name": "Cherno More Varna",
-        "short_name": "Cherno More",
+        "id": 344,
+        "name": "Botev Plovdiv",
+        "short_name": "Botev Plovdiv",
         "country": "Bulgaria",
         "coach": {
-          "name": "Ilian Iliev",
-          "shortName": "I. Iliev"
+          "name": "Lachezar Baltanov",
+          "shortName": "L. Baltanov"
         },
         "venue": {
-          "id": 322,
-          "name": "Ticha Stadium",
-          "city": "Varna",
+          "id": 324,
+          "name": "Hristo Botev Stadium",
+          "city": "Plovdiv",
           "country": "Bulgaria",
-          "capacity": 6250
+          "capacity": 18700
         }
       },
       "away_team_obj": {
-        "id": 350,
-        "name": "Lokomotiv Plovdiv",
-        "short_name": "Lokomotiv Plovdiv",
+        "id": 340,
+        "name": "Arda Kardzhali",
+        "short_name": "Arda",
         "country": "Bulgaria",
         "coach": {
-          "name": "Dušan Kosič",
-          "shortName": "D. Kosič"
+          "name": "Alexander Tunchev",
+          "shortName": "A. Tunchev"
         },
         "venue": {
-          "id": 330,
-          "name": "Lokomotiv Stadium",
-          "city": "Plovdiv",
+          "id": 320,
+          "name": "Arena Arda",
+          "city": "Kardzhali",
           "country": "Bulgaria",
-          "capacity": 13850
+          "capacity": 11114
         }
       },
-      "event_date": "2026-05-12T18:45:00+04:00",
+      "event_date": "2026-05-12T21:15:00+04:00",
       "round_number": 4,
       "round_name": "",
       "group_name": null,
       "status": "finished",
-      "home_score": 2,
-      "away_score": 0,
-      "home_score_ht": 1,
+      "home_score": 1,
+      "away_score": 2,
+      "home_score_ht": 0,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 2,
-      "odds_draw": 4.07,
-      "odds_away": 10.82,
-      "odds_over_15": 1.48,
-      "odds_over_25": 2.91,
-      "odds_over_35": 4.77,
-      "odds_under_15": 2.54,
-      "odds_under_25": 1.48,
-      "odds_under_35": 1.18,
-      "odds_btts_yes": 2.47,
-      "odds_btts_no": 1.66,
+      "odds_home": 3.1,
+      "odds_draw": 2.97,
+      "odds_away": 2.4,
+      "odds_over_15": 1.53,
+      "odds_over_25": 2.52,
+      "odds_over_35": 3.91,
+      "odds_under_15": 2.97,
+      "odds_under_25": 1.67,
+      "odds_under_35": 1.26,
+      "odds_btts_yes": 2.08,
+      "odds_btts_no": 1.89,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -102,15 +102,15 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 286,
-      "weather_code": 3,
+      "travel_distance_km": 75,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": 1,
       "attendance": null,
       "referee": {
-        "id": 1493,
-        "name": "Arsov, Stoyan",
+        "id": 50,
+        "name": "Nedyalkov Kirov, Todor",
         "country": "Bulgaria",
         "nationality_a3": "BGR",
         "birthdate": null,
@@ -121,190 +121,184 @@
         "career_red_cards": null
       },
       "home_coach": {
-        "id": 365,
-        "name": "Ilian Iliev",
-        "short_name": "I. Iliev",
+        "id": 255,
+        "name": "Lachezar Baltanov",
+        "short_name": "L. Baltanov",
         "country": "Bulgaria",
-        "profile": "defensive",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.3170338200220396,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.26285001711926625,
+        "defensive_line": "high",
         "top_styles": [
-          "low_block",
-          "park_the_bus"
+          "chaos_ball",
+          "moments_fc"
         ]
       },
       "away_coach": {
-        "id": 193,
-        "name": "Dušan Kosič",
-        "short_name": "D. Kosič",
-        "country": "Slovenia",
+        "id": 221,
+        "name": "Alexander Tunchev",
+        "short_name": "A. Tunchev",
+        "country": "Bulgaria",
         "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.28967952255053453,
+        "pressing_intensity": 0.30931116018418037,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "moments_fc",
+          "inverted_fb"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 322,
-        "name": "Ticha Stadium",
-        "city": "Varna",
+        "id": 324,
+        "name": "Hristo Botev Stadium",
+        "city": "Plovdiv",
         "country": "Bulgaria",
-        "capacity": 6250,
-        "latitude": 43.215833,
-        "longitude": 27.931389,
+        "capacity": 18700,
+        "latitude": 42.140128,
+        "longitude": 24.764428,
         "pitch_x": null,
         "pitch_y": null,
-        "built_year": 1968
+        "built_year": null
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "f45542",
+            "base": "ff1900",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "f5eeea"
+            "number": "141414",
+            "sleeve": "000000"
           },
           "player": {
-            "base": "080808",
+            "base": "a5eaf8",
             "real": true,
             "type": "short_sleeves",
-            "split": "fcf8f8",
-            "number": "f8f7f7",
-            "sleeve": "030303",
-            "sleevelong": "121212"
+            "number": "424176",
+            "sleeve": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "fae500",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "e5ff58"
-          },
-          "player": {
             "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "03883e",
-            "horizontalstripes": "03883e"
+            "sleeve": "fdfcfc"
+          },
+          "player": {
+            "base": "000000",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "dab33d",
+            "sleeve": "000000",
+            "sleevelong": "000000"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 24,
-          "sentence": "Lok Plovdiv's away record this season: 4-9-3."
+          "type_id": 1,
+          "sentence": "Arda Kardzhali haven't won in their last 5 games."
         },
         {
           "type_id": 25,
-          "sentence": "Georgi Lazarov is Varna's top scorer with 8 goals. Joel Zwarts has scored 6 times for Lok Plovdiv."
+          "sentence": "Franklin Geovane De Santana Chagas is Botev Plovdiv's top scorer with 8 goals. Birsent Karageren has scored 7 times for Arda Kardzhali."
         },
         {
-          "type_id": 1,
-          "sentence": "Lok Plovdiv have lost none of their last 5 away matches."
+          "type_id": 25,
+          "sentence": "Enock Kwateng has more yellow cards (7) than any other player at Botev Plovdiv. Svetoslav Kovachev has collected 7 for Arda Kardzhali."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 80,
-          "home": 78
+          "away": 87,
+          "home": 97
         },
         "ball_safe": {
-          "away": 87,
-          "home": 83
+          "away": 103,
+          "home": 85
         },
         "attack_pct": {
-          "away": 28,
-          "home": 25
+          "away": 20,
+          "home": 28
         },
         "ball_safe_pct": {
-          "away": 51,
-          "home": 52
+          "away": 54,
+          "home": 37
         },
         "dangerous_attack": {
-          "away": 65,
-          "home": 58
+          "away": 47,
+          "home": 67
         },
         "dangerous_attack_pct": {
-          "away": 21,
-          "home": 23
+          "away": 26,
+          "home": 35
         }
       },
       "ai_preview": {
-        "text": "**Cherno More Varna hosts Lokomotiv Plovdiv in a midweek showdown where **recent history strongly favors the home side** — they've won the last meeting and hold a 3-2 edge in head-to-head.** Both sides are locked in identical form (2W-2D-1L), so this is a genuine toss-up on paper. 🔄\n\nVarna's defensive solidity stands out: they've kept two clean sheets in their last five and beat Lokomotiv 1-0 away just recently. Plovdiv counters with back-to-back wins (2-0 shutouts), but that loss to Varna at home is nagging. Expect a tight, cagey affair.\n\nKey storylines:\n\n- **Cherno More Varna** riding home-field advantage and a winning record vs. this opponent — P. Iliev's backline has been miserly\n- **Lokomotiv Plovdiv** chasing revenge after their recent 0-1 home loss, with sharp attacking duo of J. Zwarts and S. Idriz\n- Both teams' identical form creates a true coin flip, but the model leans toward a low-scoring game\n\nExpected lineups:\n\n- **Cherno More Varna**: P. Iliev, R. Stefanov, V. Drobarov, A. Donchev, T. Panov, B. Beyhan, A. Calcan, C. Sidney, D. Tonev, G. Lazarov, J. Padilla\n- **Lokomotiv Plovdiv**: B. Milosavljević, L. Ryan, T. Pavlov, A. Cova, M. Ruskov, I. Ivanov, P. Umarbaev, J. Zwarts, S. Idriz, Z. Dinev, A. Velev\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n- **Total Goals 1.5**: Under 1.5 goals\n\nPrediction: **1-0 Varna** — slight lean on the hosts capitalizing on home comfort and recent form against this foe.",
-        "generated_at": "2026-05-12T01:45:15.298312+00:00"
+        "text": "**Botev's looking to pile on the pain** — they hammered Arda 2-0 at home last time out, and now they get another crack at the visitors in Plovdiv. Arda are limping along with just one win in five and a brutal head-to-head record against these guys. 🔴\n\nBotev have mixed form (2W-1D-2L) but own this fixture, while Arda have crumbled lately, especially in away matches where they've shipped goals. The hosts smell blood.\n\nKey storylines:\n\n- **Botev's home dominance** — they've carved up Arda twice already this season, and Plovdiv is fortress territory\n- **Arda's road troubles** — 0-2 losses to Lokomotiv and Botev away show defensive fragility on their travels\n- **Low-scoring lean** — both sides have been cagey in recent clashes, expect a tense affair\n\nExpected lineups:\n\n- **Botev Plovdiv**: D. Naumov, N. Soldo, A. Conte, B. Chibuike Hein, T. Nedelev, C. A. López, P. Igor, E. Rodríguez, F. Mascote, W. C. Oluebube\n- **Arda Kardzhali**: A. Gospodinov, C. Huseinov, G. Cascardo, D. Velkovski, S. Yusein, B. Karagaren, L. Kotev, I. D. Akintola, W. Samaké, P. Luan\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Botev Plovdiv 2–0 Arda Kardzhali** — the hosts have a clear edge in form, home turf, and history here. ⚪",
+        "generated_at": "2026-05-12T01:45:47.877932+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 3845,
+      "id": 3855,
       "event": {
-        "id": 1047,
+        "id": 206697,
         "league": {
-          "id": 3,
-          "name": "La Liga",
-          "country": "Spain",
+          "id": 34,
+          "name": "Brasileirão Serie B",
+          "country": "Brazil",
           "is_women": false,
           "current_season": {
-            "id": 294,
-            "name": "LaLiga 25/26",
-            "year": 2025,
-            "start_date": "2025-07-01",
-            "end_date": "2026-06-30"
+            "id": 52,
+            "name": "Brasileiro Serie B 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
           }
         },
-        "season": {
-          "id": 294,
-          "name": "LaLiga 25/26",
-          "year": 2025
-        },
-        "home_team": "Real Betis",
-        "away_team": "Elche",
+        "season": null,
+        "home_team": "Londrina",
+        "away_team": "São Bernardo",
         "home_team_obj": {
-          "id": 56,
-          "name": "Real Betis",
-          "short_name": "Real Betis",
-          "country": "Spain",
+          "id": 821,
+          "name": "Londrina",
+          "short_name": "Londrina",
+          "country": "Brazil",
           "coach": {
-            "name": "Manuel Pellegrini",
-            "shortName": "M. Pellegrini"
+            "name": "Allan Rodrigo Aal",
+            "shortName": "A. R. Aal"
           },
           "venue": {
-            "id": 56,
-            "name": "Benito Villamarin",
-            "city": "Seville",
-            "country": "Spain",
-            "capacity": 60721
+            "id": 614,
+            "name": "Estádio Jacy Scaff",
+            "city": "Londrina",
+            "country": "Brazil",
+            "capacity": 36056
           }
         },
         "away_team_obj": {
-          "id": 55,
-          "name": "Elche",
-          "short_name": "Elche",
-          "country": "Spain",
+          "id": 841,
+          "name": "São Bernardo",
+          "short_name": "São Bernardo",
+          "country": "Brazil",
           "coach": {
-            "name": "Eder Sarabia",
-            "shortName": "E. Sarabia "
+            "name": "Ricardo Catalá",
+            "shortName": "R. Catalá"
           },
           "venue": {
-            "id": 55,
-            "name": "Estadio Martínez Valero",
-            "city": "Elche",
-            "country": "Spain",
-            "capacity": 31388
+            "id": 633,
+            "name": "Estádio Primeiro de Maio",
+            "city": "São Bernardo do Campo",
+            "country": "Brazil",
+            "capacity": 15759
           }
         },
-        "event_date": "2026-05-12T22:00:00+04:00",
-        "round_number": 36,
+        "event_date": "2026-05-13T02:30:00+04:00",
+        "round_number": 8,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -314,17 +308,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.63,
-        "odds_draw": 4.21,
-        "odds_away": 5.02,
-        "odds_over_15": 1.17,
-        "odds_over_25": 1.57,
-        "odds_over_35": 2.39,
-        "odds_under_15": 4.8,
-        "odds_under_25": 2.38,
-        "odds_under_35": 1.56,
-        "odds_btts_yes": 1.61,
-        "odds_btts_no": 2.25,
+        "odds_home": 2.25,
+        "odds_draw": 2.87,
+        "odds_away": 3.49,
+        "odds_over_15": 1.45,
+        "odds_over_25": 2.42,
+        "odds_over_35": 4.41,
+        "odds_under_15": 2.57,
+        "odds_under_25": 1.52,
+        "odds_under_35": 1.18,
+        "odds_btts_yes": 2,
+        "odds_btts_no": 1.74,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -333,927 +327,97 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 479,
+        "travel_distance_km": null,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1284,
-          "name": "Diaz de Mera Escuderos, Isidro",
-          "country": "Spain",
-          "nationality_a3": "ESP",
+          "id": 1487,
+          "name": "Lima Barbosa, Maguielson",
+          "country": "Brazil",
+          "nationality_a3": "BRA",
           "birthdate": null,
-          "yellowCards": 1242,
-          "redCards": 40,
+          "yellowCards": 254,
+          "redCards": 11,
           "career_games": null,
           "career_yellow_cards": null,
           "career_red_cards": null
         },
         "home_coach": {
-          "id": 287,
-          "name": "Manuel Pellegrini",
-          "short_name": "M. Pellegrini",
-          "country": "Chile",
-          "profile": "attacking",
+          "id": 138,
+          "name": "Allan Rodrigo Aal",
+          "short_name": "A. R. Aal",
+          "country": "Brazil",
+          "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.52348698303491,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.5938432864382552,
+          "defensive_line": "high",
           "top_styles": [
-            "chaos_ball",
-            "inverted_fb"
+            "set_piece",
+            "cross_pray"
           ]
         },
         "away_coach": {
-          "id": 206,
-          "name": "Eder Sarabia",
-          "short_name": "E. Sarabia ",
-          "country": "Spain",
-          "profile": "balanced",
-          "preferred_formation": "3-5-2",
-          "pressing_intensity": 0.8444198224195716,
+          "id": 160,
+          "name": "Ricardo Catalá",
+          "short_name": "R. Catalá",
+          "country": "Brazil",
+          "profile": "defensive",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.38753492496430514,
           "defensive_line": "mid",
           "top_styles": [
-            "tiki_taka",
-            "territory"
+            "low_block",
+            "park_the_bus"
           ]
         },
         "unavailable_players": {
           "home": [
             {
-              "name": "Aitor Ruibal",
+              "name": "Iago Teles",
               "status": "suspended",
-              "reason": "yellow_or_red_card_suspension",
-              "expected_return": "2026-05-12"
+              "reason": "Yellow card accumulation suspension",
+              "expected_return": "2026-05-14"
             },
             {
-              "name": "Angel Ortiz",
-              "status": "doubtful",
-              "reason": "Muscle Injury",
-              "expected_return": "2026-05-27"
-            },
-            {
-              "name": "Diego Llorente",
-              "status": "doubtful",
-              "reason": "Physical Discomfort",
-              "expected_return": "2026-05-26"
-            },
-            {
-              "name": "Marc Bartra",
+              "name": "Thalis Cantanhede",
               "status": "injured",
-              "reason": "Foot Injury",
-              "expected_return": "2026-05-31"
-            },
-            {
-              "name": "Natan",
-              "status": "doubtful",
               "reason": "Muscle Injury",
-              "expected_return": "2026-05-26"
-            },
-            {
-              "name": "Ricardo Rodríguez",
-              "status": "doubtful",
-              "reason": "Physical Discomfort",
-              "expected_return": "2026-05-26"
+              "expected_return": null
             }
           ],
           "away": [
             {
-              "name": "Adam Boayar",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": "2026-05-31"
-            },
-            {
-              "name": "Rafa Mir",
-              "status": "doubtful",
-              "reason": "Hamstring Injury",
-              "expected_return": "2026-05-27"
-            },
-            {
-              "name": "Yago Santiago",
+              "name": "Matheus Salustiano",
               "status": "injured",
               "reason": "Knee Injury",
-              "expected_return": null
+              "expected_return": "2027-01-01"
+            },
+            {
+              "name": "Rodrigo Andrade",
+              "status": "injured",
+              "reason": "ACL Knee Injury",
+              "expected_return": "2027-01-01"
             }
           ]
         },
         "venue": {
-          "id": 1136,
-          "name": "Estadio de la Cartuja",
-          "city": "Seville",
-          "country": "Spain",
-          "capacity": 70000,
-          "latitude": 37.417223,
-          "longitude": -6.004737,
+          "id": 1223,
+          "name": "Estadio Vitorino Goncalves Dias",
+          "city": "Londrina",
+          "country": "Brazil",
+          "capacity": 13000,
+          "latitude": -23.308623,
+          "longitude": -51.151983,
           "pitch_x": null,
           "pitch_y": null,
-          "built_year": 1999
+          "built_year": null
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "M. Dituro",
-                "goals": 0,
-                "api_id": 556884,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 2774,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "B. Sangaré",
-                "goals": 0,
-                "api_id": 1542721,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1079,
-                "yellow_card": false,
-                "jersey_number": "42",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "D. Affengruber",
-                "goals": 0,
-                "api_id": 988672,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 2761,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "L. Pétrot",
-                "goals": 0,
-                "api_id": 827504,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 2762,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "H. Fort",
-                "goals": 0,
-                "api_id": 1402908,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2759,
-                "yellow_card": false,
-                "jersey_number": "39",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Febas",
-                "goals": 0,
-                "api_id": 286167,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2765,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Aguado",
-                "goals": 0,
-                "api_id": 1014595,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2770,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "G. Villar",
-                "goals": 0,
-                "api_id": 914765,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 3352,
-                "yellow_card": false,
-                "jersey_number": "12",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "G. Valera",
-                "goals": 0,
-                "api_id": 962710,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2763,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "G. Diangana",
-                "goals": 0,
-                "api_id": 848512,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 2764,
-                "yellow_card": false,
-                "jersey_number": "19",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Silva",
-                "goals": 0,
-                "api_id": 190159,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 2768,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "3-5-2",
-            "substitutes": [
-              {
-                "name": "I. Peña",
-                "goals": 0,
-                "api_id": 794949,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 2758,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "V. Chust",
-                "goals": 0,
-                "api_id": 855831,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 3817,
-                "yellow_card": false,
-                "jersey_number": "23",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "P. Bigas",
-                "goals": 0,
-                "api_id": 141832,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 2778,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Pedrosa",
-                "goals": 0,
-                "api_id": 928672,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 2771,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Donald",
-                "goals": 0,
-                "api_id": 1094758,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 2777,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "F. Redondo",
-                "goals": 0,
-                "api_id": 1117026,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2779,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Josan",
-                "goals": 0,
-                "api_id": 808955,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 4126,
-                "yellow_card": false,
-                "jersey_number": "17",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Neto",
-                "goals": 0,
-                "api_id": 1100646,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2766,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "L. Cepeda",
-                "goals": 0,
-                "api_id": 1126447,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 8886,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Piera",
-                "goals": 0,
-                "api_id": 1526566,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 31437,
-                "yellow_card": false,
-                "jersey_number": "46",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "T. Morente",
-                "goals": 0,
-                "api_id": 605374,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1820,
-                "yellow_card": false,
-                "jersey_number": "15",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "Á. Rodriguez",
-                "goals": 0,
-                "api_id": 1154587,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 2767,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ]
-          },
-          "home": {
-            "players": [
-              {
-                "name": "Á. Valles",
-                "goals": 0,
-                "api_id": 964983,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 1568,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "H. Bellerín",
-                "goals": 0,
-                "api_id": 188365,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 3849,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "D. Llorente",
-                "goals": 0,
-                "api_id": 305278,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1587,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "V. Gómez",
-                "goals": 0,
-                "api_id": 1186010,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1572,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Firpo",
-                "goals": 0,
-                "api_id": 914835,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1586,
-                "yellow_card": false,
-                "jersey_number": "23",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "P. Fornals",
-                "goals": 0,
-                "api_id": 816763,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1576,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Amrabat",
-                "goals": 0,
-                "api_id": 359272,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2985,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Antony",
-                "goals": 0,
-                "api_id": 958380,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2986,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "G. Lo Celso",
-                "goals": 0,
-                "api_id": 798835,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 3850,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Ezzalzouli",
-                "goals": 0,
-                "api_id": 1011375,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1577,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. Hernández",
-                "goals": 0,
-                "api_id": 887055,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1578,
-                "yellow_card": false,
-                "jersey_number": "19",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-2-3-1",
-            "substitutes": [
-              {
-                "name": "P. López",
-                "goals": 0,
-                "api_id": 548848,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 4331,
-                "yellow_card": false,
-                "jersey_number": "25",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "Adrián",
-                "goals": 0,
-                "api_id": 50539,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 1585,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. D. Roa",
-                "goals": 0,
-                "api_id": 1974237,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 5196,
-                "yellow_card": false,
-                "jersey_number": "33",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "Natan",
-                "goals": 0,
-                "api_id": 1015287,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1571,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Riquelme",
-                "goals": 0,
-                "api_id": 989113,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1581,
-                "yellow_card": false,
-                "jersey_number": "17",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Altimira",
-                "goals": 0,
-                "api_id": 1137814,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1579,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "N. Deossa",
-                "goals": 0,
-                "api_id": 1129401,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1574,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Roca",
-                "goals": 0,
-                "api_id": 847128,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1573,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Á. Fidalgo",
-                "goals": 0,
-                "api_id": 838629,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 9008,
-                "yellow_card": false,
-                "jersey_number": "15",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "Isco",
-                "goals": 0,
-                "api_id": 103417,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 2987,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. Ávila",
-                "goals": 0,
-                "api_id": 789381,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1583,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. Bakambu",
-                "goals": 0,
-                "api_id": 115665,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1588,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ]
-          },
-          "confirmed": true
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -1261,75 +425,76 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "01b2cb",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "030202",
-              "sleeve": "8aebea"
-            },
-            "player": {
-              "base": "080808",
+              "base": "068706",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "0b692d"
+              "sleeve": "00cc00"
+            },
+            "player": {
+              "base": "e6d100",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "3a3a3a",
+              "sleeve": "003300"
             }
           },
           "home": {
             "GK": {
-              "base": "795331",
+              "base": "af498b",
               "real": true,
               "type": "short_sleeves",
-              "number": "e97f21",
-              "sleeve": "b0afac"
+              "number": "ffffff",
+              "sleeve": "5d5d5d"
             },
             "player": {
               "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "0d0d0d",
+              "number": "000000",
               "sleeve": "ffffff",
-              "stripes": "127638"
+              "stripes": "63aee3",
+              "sleevelong": "63aee3"
             }
           }
         },
         "funfacts": [
           {
+            "type_id": 1,
+            "sentence": "Londrina haven't won in their last 6 games."
+          },
+          {
             "type_id": 24,
-            "sentence": "Elche's away record this season: 1-4-12."
+            "sentence": "Londrina's home record this season: 0-2-1."
           },
           {
-            "type_id": 25,
-            "sentence": "Cucho Hernandez is Real Betis's top scorer with 10 goals. Andre Silva has scored 10 times for Elche."
-          },
-          {
-            "type_id": 25,
-            "sentence": "Natan has more yellow cards (7) than any other player at Real Betis. Aleix Febas has collected 9 for Elche."
+            "type_id": 24,
+            "sentence": "Sao Bernardo's away record this season: 2-1-0."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Real Betis are heavy favorites at home, but Elche have quietly found their form** — this could be a proper scrap in Seville. 🔥\n\nBetis are patchy (2W-2D-1L), while Elche have won 3 of their last 5; the visitors won't roll over. Historically Betis dominate the head-to-head (4 wins in 9), but nothing's guaranteed down the stretch.\n\nKey storylines:\n\n- **Real Betis** are missing key defenders Ruibal and Bartra, which could expose their backline against Elche's improving attack\n- **Elche's** recent form (3 wins in 5) suggests they're peaking at exactly the right moment in the season\n- Both teams have found the net regularly lately — this has all the hallmarks of an open, attacking affair\n\nExpected lineups:\n\n- **Real Betis**: Á. Valles, H. Bellerín, V. Gómez, Natan, D. Llorente, P. Fornals, C. Hernández, S. Amrabat, C. Ávila, C. Bakambu\n- **Elche**: M. Dituro, D. Affengruber, L. Pétrot, B. Sangaré, P. Bigas, V. Chust, A. Febas, G. Valera, M. Aguado, A. Silva, T. Morente\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Real Betis 2-1 Elche**. Betis' home advantage and history edge it, but Elche will make them sweat. 💪",
-          "generated_at": "2026-05-12T01:45:58.312604+00:00"
+          "text": "**São Bernardo is rolling, and Londrina is desperately clinging to life.** This is a classic David vs. Goliath moment in Serie B where form absolutely matters. 🔥\n\nLondrina haven't won in five and are leaking goals left and right — three straight defeats before that draw with Ceará. Meanwhile, São Bernardo just demolished Náutico 3-0 and have won four of their last five. The home crowd might help, but this feels like a visitor's night.\n\nKey storylines:\n\n- **São Bernardo's attacking edge** with Pedrinho, D. Amorim, and P. Vitor clicking in rhythm against a shaky Londrina backline\n- **Londrina's depleted midfield** — losing Iago to suspension and T. Cantanhede to injury leaves thin resources for control\n- **Can Gilberto and C. Rafael spark anything** up top, or will Londrina stay toothless?\n\nExpected lineups:\n\n- **Londrina**: Kozlinski, Y. Lincoln, W. Reis, Weverton, Kevyn, L. Marques, A. Luiz, B. Santos, C. Rafael, E. Rodriguez, Gilberto\n- **São Bernardo**: A. Alves, Augusto, Pará, R. Ferreira, H. Maciel, Romisson, D. Miraíma, Foguinho, P. Vitor, D. Amorim, Pedrinho\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**São Bernardo 2–0 Londrina**. The visitors have too much momentum and too many bodies in the right places. Londrina just can't match this right now. 👊",
+          "generated_at": "2026-05-12T01:46:56.390139+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-06T06:20:22.352848+04:00",
-      "prob_home_win": 46.32259646119533,
-      "prob_draw": 31.18787846251287,
-      "prob_away_win": 22.489525076291798,
-      "predicted_result": "H",
-      "expected_home_goals": 1.2192500000000002,
-      "expected_away_goals": 1.0844399999999998,
-      "prob_over_15": 78.30914081161431,
-      "prob_over_25": 57.45679992956444,
-      "prob_over_35": 25.748009453995667,
-      "prob_btts_yes": 57.902822028658086,
-      "confidence": 46.32259646119533,
+      "created_at": "2026-05-06T06:20:28.638014+04:00",
+      "prob_home_win": 15.288427509732216,
+      "prob_draw": 19.700365695411115,
+      "prob_away_win": 65.01120679485666,
+      "predicted_result": "A",
+      "expected_home_goals": 1.10377,
+      "expected_away_goals": 1.35129,
+      "prob_over_15": 57.67607694158631,
+      "prob_over_25": 41.13144661886499,
+      "prob_over_35": 17.953527928220815,
+      "prob_btts_yes": 39.93658726059331,
+      "confidence": 65.01120679485666,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
-      "favorite": "H",
-      "favorite_prob": 46.32259646119533,
+      "favorite": "A",
+      "favorite_prob": 65.01120679485666,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
