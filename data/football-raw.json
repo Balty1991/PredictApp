@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T07:24:09.376Z",
+  "generatedAt": "2026-05-12T10:06:06.611Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 205072,
+      "id": 205070,
       "league": {
         "id": 50,
         "name": "K League 1",
@@ -30,27 +30,27 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Incheon United",
-      "away_team": "Pohang Steelers",
+      "home_team": "Gangwon FC",
+      "away_team": "Daejeon Hana Citizen",
       "home_team_obj": {
-        "id": 1948,
-        "name": "Incheon United",
-        "short_name": "Incheon Utd",
+        "id": 1951,
+        "name": "Gangwon FC",
+        "short_name": "Gangwon",
         "country": "South Korea",
         "coach": {
-          "name": "Jung-Hwan Yoon",
-          "shortName": "J. Yoon"
+          "name": "Kyung-ho Chung",
+          "shortName": "K. Chung"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1953,
-        "name": "Pohang Steelers",
-        "short_name": "",
+        "id": 1958,
+        "name": "Daejeon Hana Citizen",
+        "short_name": "Daejeon Hana",
         "country": "South Korea",
         "coach": {
-          "name": "Tae-Ha Park",
-          "shortName": "T. Park"
+          "name": "Sun-hong Hwang",
+          "shortName": "Seon-hong Hwang"
         },
         "venue": null
       },
@@ -65,17 +65,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 2.66,
-      "odds_draw": 3,
-      "odds_away": 2.71,
-      "odds_over_15": 1.44,
-      "odds_over_25": 2.35,
-      "odds_over_35": 4.36,
-      "odds_under_15": 2.64,
-      "odds_under_25": 1.55,
-      "odds_under_35": 1.19,
-      "odds_btts_yes": 1.95,
-      "odds_btts_no": 1.78,
+      "odds_home": 2.31,
+      "odds_draw": 3.05,
+      "odds_away": 3.19,
+      "odds_over_15": 1.42,
+      "odds_over_25": 2.3,
+      "odds_over_35": 4.23,
+      "odds_under_15": 2.72,
+      "odds_under_25": 1.58,
+      "odds_under_35": 1.2,
+      "odds_btts_yes": 1.96,
+      "odds_btts_no": 1.76,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -84,7 +84,7 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 294,
+      "travel_distance_km": 169,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,101 +92,100 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1305,
-        "name": "Jung-Hwan Yoon",
-        "short_name": "J. Yoon",
+        "id": 1308,
+        "name": "Kyung-ho Chung",
+        "short_name": "K. Chung",
         "country": "South Korea",
-        "profile": "balanced",
+        "profile": "defensive",
         "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.35995768006812834,
-        "defensive_line": "low",
+        "pressing_intensity": 0.7646638790827027,
+        "defensive_line": "mid",
         "top_styles": [
-          "set_piece",
-          "park_the_bus"
+          "gegenpressing",
+          "high_press"
         ]
       },
       "away_coach": {
-        "id": 1310,
-        "name": "Tae-Ha Park",
-        "short_name": "T. Park",
+        "id": 1315,
+        "name": "Sun-hong Hwang",
+        "short_name": "Seon-hong Hwang",
         "country": "South Korea",
-        "profile": "defensive",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.377609130667948,
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.452750738939703,
         "defensive_line": "mid",
         "top_styles": [
-          "set_piece",
-          "territory"
+          "chaos_ball",
+          "positional"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1122,
-        "name": "Incheon Football Stadium",
-        "city": "Incheon",
+        "id": 1132,
+        "name": "Gangneung Stadium",
+        "city": "Gangneung",
         "country": "South Korea",
-        "capacity": 20891,
-        "latitude": 37.465666,
-        "longitude": 126.643572,
+        "capacity": 22333,
+        "latitude": 37.773647,
+        "longitude": 128.897625,
         "pitch_x": null,
         "pitch_y": null,
-        "built_year": 2012
+        "built_year": 1980
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "ffea19",
+            "base": "fbee6d",
             "real": true,
             "type": "short_sleeves",
-            "number": "0d0d0d",
-            "sleeve": "0d0d0d"
+            "number": "3aa89e",
+            "sleeve": "4ca79d"
           },
           "player": {
-            "base": "db132c",
+            "base": "256c61",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "191619",
-            "sleevelong": "121111"
+            "sleeve": "ca1730"
           }
         },
         "home": {
           "GK": {
-            "base": "bbad27",
+            "base": "bfee8f",
             "real": true,
             "type": "short_sleeves",
-            "number": "050505",
-            "sleeve": "0d0d0d"
+            "number": "000000",
+            "sleeve": "030303"
           },
           "player": {
-            "base": "194ec7",
+            "base": "e62f30",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "fcfcfc",
-            "stripes": "000000"
+            "sleeve": "000000",
+            "sleevelong": "e42c35"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 2,
+          "sentence": "When playing at home, Gangwon have not lost to Daejeon Citizen in their last 4 encounters."
+        },
+        {
           "type_id": 25,
-          "sentence": "Stefan Mugosa is Incheon Utd's top scorer with 7 goals. Lee Ho-Jae has scored 6 times for Pohang Steelers."
+          "sentence": "Lee You-hyeon has more yellow cards (5) than any other player at Gangwon. Cho Sung-gwon has collected 5 for Daejeon Citizen."
         },
         {
-          "type_id": 22,
-          "sentence": "Incheon Utd's last home win against Pohang Steelers was in 2017."
-        },
-        {
-          "type_id": 6,
-          "sentence": "During the last 29 meetings with Incheon Utd playing at home, Incheon Utd have won 7 times, there have been 9 draws while Pohang Steelers have won 13 times. The goal difference is 40-28 in favour of Pohang Steelers."
+          "type_id": 26,
+          "sentence": "A year ago, Daejeon Citizen were number 1 in the table with 24 points. Now they are number 5 with 16 points."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Incheon and Pohang both rolling, but this one screams tight and cagey.** Two teams in great form clash at the Incheon Football Stadium with little to separate them on paper — exactly the recipe for a low-scoring affair. 🔒\n\nBoth squads are 3W-1D-1L over their last stretch, and their head-to-head is basically a stalemate (1D). Incheon's showing defensive chops with a 3-0 shutout recently, while Pohang's been equally miserly away from home. This has \"0-0 or 1-1\" written all over it.\n\nKey storylines:\n\n- **Incheon's defense** has tightened up nicely — only conceded once in five games\n- **Pohang's away record** is pristine; three wins on the road with solid control\n- **Midfield battle** between Incheon's **M. J. Lee** and **C. Y. Lee** versus Pohang's **H. Seo-woong** and **S. Kim** will decide tempo and space\n\nExpected lineups:\n\n- **Incheon United**: D. H. Kim, J. Fernández, K. Park, J. Y. Lee, K. Myung-Sun, S. Jae-Min, M. J. Lee, C. Y. Lee, G. Fernandes, S. Mugoša, D. Lee\n- **Pohang Steelers**: I. Hwang, J. Eo, P. Chan-Yong, K. Ye-Sung, H. Hyeon-Seo, S. Kim, H. Seo-woong, H. Kim, J. Rocha, S. Y. Ki, L. Ho-jae\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw** — both defenses hold firm, one goal apiece. 📍",
-        "generated_at": "2026-05-12T02:45:19.618281+00:00"
+        "text": "**Gangwon's looking to flex at home, and Daejeon just got hammered 0-2 by Pohang** — this could be a statement day for the hosts. 🏟️\n\nGangwon's on a solid run (2W-2D-1L) with some grit, while Daejeon's form is all over the map — they demolished Gwangju 5-0 but then got dismantled by Pohang. The swing between those performances is wild. Head-to-head edge goes to **Gangwon**, who took the last meeting.\n\nKey storylines:\n\n- **Gangwon's defense** anchored by K. Joon-hyuk and M. Tuci will need to stay sharp against the unpredictable Daejeon attack\n- **G. Ludwigson** and M. Ishida are Daejeon's attacking spark, but consistency is their kryptonite\n- Home advantage at Gangneung Stadium favors **Gangwon's midfield control** through D. Kim and Y. Lee\n\nExpected lineups:\n\n- **Gangwon FC**: C. Park, K. Joon-hyuk, M. Tuci, G. Lee, D. Kim, Y. Lee, J. H. Mo, M. Seo, B. Choi, K. Do-Hyun\n- **Daejeon Hana Citizen**: L. Chang-geun, J. Seong-Kwon, M. Kim, M. D. Kim, K. Bong-Soo, V. Bobsin, J. Victor, G. Ludwigson, M. Ishida, M. K. Ju\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction:\n\n**Gangwon 1-0 Daejeon.** Model leans home; expect a tight, controlled performance. ⚽",
+        "generated_at": "2026-05-12T02:45:14.231527+00:00"
       },
       "live_websocket": true
     },
@@ -237,17 +236,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.66,
-        "odds_draw": 3,
-        "odds_away": 2.71,
-        "odds_over_15": 1.44,
-        "odds_over_25": 2.35,
-        "odds_over_35": 4.36,
-        "odds_under_15": 2.64,
-        "odds_under_25": 1.55,
-        "odds_under_35": 1.19,
-        "odds_btts_yes": 1.95,
-        "odds_btts_no": 1.78,
+        "odds_home": 3.14,
+        "odds_draw": 2.9,
+        "odds_away": 2.43,
+        "odds_over_15": 1.54,
+        "odds_over_25": 2.66,
+        "odds_over_35": 5.23,
+        "odds_under_15": 2.35,
+        "odds_under_25": 1.44,
+        "odds_under_35": 1.14,
+        "odds_btts_yes": 2.17,
+        "odds_btts_no": 1.63,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
