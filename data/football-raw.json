@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-11T23:00:08.417Z",
+  "generatedAt": "2026-05-12T00:07:50.662Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
-    "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/?sport=football",
+    "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
     "leaguesUrl": "https://sports.bzzoiro.com/api/leagues/",
     "eventsAuth": "token",
     "predictionsAuth": "token",
@@ -15,76 +15,67 @@
     "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 502 Bad Gateway via token @ https://sports.bzzoiro.com/api/predictions/ :: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
-    "[predictions] 401 Unauthorized via api-key-auth @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via query-api_key @ https://sports.bzzoiro.com/api/predictions/?api_key=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via query-apikey @ https://sports.bzzoiro.com/api/predictions/?apikey=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via query-key @ https://sports.bzzoiro.com/api/predictions/?key=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via query-token @ https://sports.bzzoiro.com/api/predictions/?token=7a22fffa7ed9de01720e1e1f6bee2c417eef8e6d :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[predictions] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/predictions/?sport=football :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[leagues] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/leagues/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}"
   ],
   "samples": {
     "event": {
-      "id": 206890,
+      "id": 205071,
       "league": {
-        "id": 53,
-        "name": "Botola Pro",
-        "country": "Morocco",
+        "id": 50,
+        "name": "K League 1",
+        "country": "South Korea",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Renaissance Zemamra",
-      "away_team": "Olympique Dcheira",
+      "home_team": "Gwangju FC",
+      "away_team": "FC Seoul",
       "home_team_obj": {
-        "id": 2072,
-        "name": "Renaissance Zemamra",
-        "short_name": "Renaissance Zemamra",
-        "country": "Morocco",
+        "id": 1957,
+        "name": "Gwangju FC",
+        "short_name": "Gwangju",
+        "country": "South Korea",
         "coach": {
-          "name": "Mohamed Fakhir",
-          "shortName": "M. Fakhir"
+          "name": "Jeong-Gyu Lee",
+          "shortName": "J. Lee"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2063,
-        "name": "Olympique Dcheira",
-        "short_name": "",
-        "country": "Morocco",
+        "id": 1949,
+        "name": "FC Seoul",
+        "short_name": "FC Seoul",
+        "country": "South Korea",
         "coach": {
-          "name": "Abderrahim Saïdi",
-          "shortName": "A. Saïdi"
+          "name": "Gi Dong Kim",
+          "shortName": "G. D. Kim"
         },
         "venue": null
       },
-      "event_date": "2026-05-12T00:00:00+04:00",
-      "round_number": 20,
+      "event_date": "2026-05-12T14:30:00+04:00",
+      "round_number": 14,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 0,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 3.12,
-      "odds_draw": 3,
-      "odds_away": 5.71,
-      "odds_over_15": 2.35,
-      "odds_over_25": 3.08,
-      "odds_over_35": 4.06,
-      "odds_under_15": 2.53,
-      "odds_under_25": 1.52,
-      "odds_under_35": 1.2,
-      "odds_btts_yes": 3.06,
-      "odds_btts_no": 1.61,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 7.77,
+      "odds_draw": 4.45,
+      "odds_away": 1.39,
+      "odds_over_15": 1.28,
+      "odds_over_25": 1.87,
+      "odds_over_35": 3.18,
+      "odds_under_15": 3.43,
+      "odds_under_25": 1.86,
+      "odds_under_35": 1.32,
+      "odds_btts_yes": 2.17,
+      "odds_btts_no": 1.63,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -93,115 +84,109 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 264,
-      "weather_code": 1,
+      "travel_distance_km": 271,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1490,
-        "name": "Mohamed Fakhir",
-        "short_name": "M. Fakhir",
-        "country": "Morocco",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1314,
+        "name": "Jeong-Gyu Lee",
+        "short_name": "J. Lee",
+        "country": "South Korea",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.1545662543301065,
+        "defensive_line": "mid",
+        "top_styles": [
+          "anti_football",
+          "terrorist_fb"
+        ]
       },
       "away_coach": {
-        "id": 1481,
-        "name": "Abderrahim Saïdi",
-        "short_name": "A. Saïdi",
-        "country": "Morocco",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1306,
+        "name": "Gi Dong Kim",
+        "short_name": "G. D. Kim",
+        "country": "South Korea",
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.6120446523700391,
+        "defensive_line": "mid",
+        "top_styles": [
+          "set_piece",
+          "tiki_taka"
+        ]
       },
       "unavailable_players": null,
-      "venue": null,
+      "venue": {
+        "id": 1130,
+        "name": "Gwangju Football Stadium",
+        "city": "Gwangju",
+        "country": "South Korea",
+        "capacity": 10007,
+        "latitude": 35.130895,
+        "longitude": 126.874949,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "cccccc",
+            "base": "eae956",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
+            "number": "010101",
+            "sleeve": "0d0d0d"
           },
           "player": {
-            "base": "336600",
+            "base": "d82e36",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "ffffff"
+            "sleeve": "f7f7f7",
+            "stripes": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "efc131",
-            "real": false,
+            "base": "c1abdf",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
+            "number": "0d0d0d",
+            "sleeve": "080808"
           },
           "player": {
-            "base": "D8D8D8",
-            "real": false,
+            "base": "e9ad17",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "number": "7d2525",
+            "sleeve": "0d0d0d",
+            "sleevelong": "e9ad17"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 1,
-          "sentence": "Olymp. Dcheira haven't won in their last 8 games."
+          "sentence": "Gwangju haven't won in their last 10 games."
+        },
+        {
+          "type_id": 2,
+          "sentence": "Gwangju haven't won any of their last 3 games against Seoul."
         },
         {
           "type_id": 24,
-          "sentence": "Renaissance Zemamra's home record this season: 2-4-3."
-        },
-        {
-          "type_id": 26,
-          "sentence": "A year ago, Renaissance Zemamra were number 3 in the table with 34 points. Now they are number 10 with 19 points."
+          "sentence": "Seoul's away record this season: 5-1-0."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 78,
-          "home": 102
-        },
-        "ball_safe": {
-          "away": 72,
-          "home": 70
-        },
-        "attack_pct": {
-          "away": 29,
-          "home": 32
-        },
-        "ball_safe_pct": {
-          "away": 49,
-          "home": 47
-        },
-        "dangerous_attack": {
-          "away": 43,
-          "home": 53
-        },
-        "dangerous_attack_pct": {
-          "away": 22,
-          "home": 21
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Renaissance Zemamra are rolling, and Olympique Dcheira are in freefall.** This matchup has \"home team takes care of business\" written all over it. 🎯\n\nRenaissance just beat Wydad at home and are 3-2 in their last five; Dcheira, meanwhile, are 0-4-1 and leaking goals left and right. The head-to-head also favors the hosts decisively.\n\nKey storylines:\n\n- **Renaissance's attacking form** has them clicking — three wins in five with wins over quality sides like Wydad\n- **Dcheira's defensive breakdown** is brutal, losing four of the last five and conceding in every defeat\n- **Home dominance** — Renaissance have the edge in familiarity and momentum at their ground\n\nExpected lineups:\n\n- **Renaissance Zemamra**: M. Fakhr, J. Ajako, R. A. Boughima, B. Soufi, A. Badaoui, N. M. Tahiri, F. E. Yazid, A. E. Hamzaoui, A. E. Bajjani, Z. Ghailan, T. Alachbili\n- **Olympique Dcheira**: M. Idar, H. A. Brahim, A. Aboujemaa, H. J. Allah, C. Keita, M. E. Gouj, B. Amzili, H. Saoud, Y. Jabrane, A. Benaadi, M. Abba\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Renaissance Zemamra 2–0 Olympique Dcheira**. Hosts should cruise past a struggling side. 💪",
-        "generated_at": "2026-05-11T02:45:42.076365+00:00"
+        "text": "**Gwangju's in freefall, but Seoul's wobbling too** — this is a clash between a team hemorrhaging goals and one that can't quite string wins together. 🔴\n\nGwangju have lost four of their last five and shipped 9 goals in two games; Seoul are 2W-2L in their last five with patchy form. The visitors have the edge on paper and just beat Gwangju head-to-head, but neither side screams confidence right now.\n\nKey storylines:\n\n- **Gwangju's defensive crisis** continues to spiral — conceding five at home to Daejeon is rock bottom\n- **Seoul's inconsistency** means they can't capitalize on a weakened opponent; they've drawn blanks and lost to weaker sides recently\n- **Goals should flow** in a match where Gwangju are leaky and Seoul have attacking teeth with P. Klimala and L. Ruiz\n\nExpected lineups:\n\n- **Gwangju FC**: K. M. Kim, Y. Kim, J. Kim, Y. Ahn, M. Moon, Y. Je-ho, J. Jeong, S. J. Ju, Seung-un Ha, C. M. Shin\n- **FC Seoul**: G. Sung-yun, J. Ros, C. Jun, K. Jin-su, Y. Al-Arab, H. Babec, S. Jeong, M. Song, J. Son, P. Klimala, L. Ruiz\n\nBest picks:\n\n- **Total Goals Over 1.5**: Over 1.5 goals\n\nPrediction:\n\n**FC Seoul 2–1 Gwangju FC** — Seoul's slight edge and Gwangju's soft backline points to a visiting win, though nothing's certain in this form graveyard. ⚽",
+        "generated_at": "2026-05-11T10:45:20.573677+00:00"
       },
       "live_websocket": true
     },
@@ -283,13 +268,13 @@
           "name": "Kyung-ho Chung",
           "short_name": "K. Chung",
           "country": "South Korea",
-          "profile": "balanced",
+          "profile": "defensive",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.7629234536925948,
+          "pressing_intensity": 0.7646638790827027,
           "defensive_line": "mid",
           "top_styles": [
             "gegenpressing",
-            "cross_pray"
+            "high_press"
           ]
         },
         "away_coach": {
@@ -299,11 +284,11 @@
           "country": "South Korea",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.41317531794352946,
-          "defensive_line": "high",
+          "pressing_intensity": 0.452750738939703,
+          "defensive_line": "mid",
           "top_styles": [
             "chaos_ball",
-            "ball_dominant"
+            "positional"
           ]
         },
         "unavailable_players": null,
