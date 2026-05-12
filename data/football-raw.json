@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T12:25:28.878Z",
+  "generatedAt": "2026-05-12T15:23:58.373Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,255 +21,157 @@
   ],
   "samples": {
     "event": {
-      "id": 205070,
+      "id": 207394,
       "league": {
-        "id": 50,
-        "name": "K League 1",
-        "country": "South Korea",
+        "id": 56,
+        "name": "Suomen Cup",
+        "country": "Finland",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Gangwon FC",
-      "away_team": "Daejeon Hana Citizen",
+      "home_team": "Inter Turku",
+      "away_team": "JS Hercules",
       "home_team_obj": {
-        "id": 1951,
-        "name": "Gangwon FC",
-        "short_name": "Gangwon",
-        "country": "South Korea",
+        "id": 2098,
+        "name": "Inter Turku",
+        "short_name": "Inter",
+        "country": "Finland",
         "coach": {
-          "name": "Kyung-ho Chung",
-          "shortName": "K. Chung"
+          "name": "Vesa Vasara",
+          "shortName": "V. Vasara"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1958,
-        "name": "Daejeon Hana Citizen",
-        "short_name": "Daejeon Hana",
-        "country": "South Korea",
-        "coach": {
-          "name": "Sun-hong Hwang",
-          "shortName": "Seon-hong Hwang"
-        },
+        "id": 2133,
+        "name": "JS Hercules",
+        "short_name": "",
+        "country": "Finland",
+        "coach": null,
         "venue": null
       },
-      "event_date": "2026-05-12T14:30:00+04:00",
-      "round_number": 14,
+      "event_date": "2026-05-12T18:00:00+04:00",
+      "round_number": 5,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 2,
+      "status": "2nd_half",
+      "home_score": 6,
       "away_score": 0,
-      "home_score_ht": 0,
+      "home_score_ht": 3,
       "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 2.2,
-      "odds_draw": 3.56,
-      "odds_away": 11.96,
-      "odds_over_15": 1.69,
-      "odds_over_25": 2.58,
-      "odds_over_35": 4.75,
-      "odds_under_15": 2.61,
-      "odds_under_25": 1.55,
-      "odds_under_35": 1.19,
-      "odds_btts_yes": 2.54,
-      "odds_btts_no": 1.72,
+      "current_minute": 66,
+      "period": "2T",
+      "odds_home": 1.02,
+      "odds_draw": 14.68,
+      "odds_away": 31.18,
+      "odds_over_15": 1.02,
+      "odds_over_25": 1.06,
+      "odds_over_35": 1.2,
+      "odds_under_15": 15.88,
+      "odds_under_25": 5.47,
+      "odds_under_35": 3.36,
+      "odds_btts_yes": 3.11,
+      "odds_btts_no": 1.22,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
-      "travel_distance_km": 169,
-      "weather_code": 1,
+      "travel_distance_km": null,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1308,
-        "name": "Kyung-ho Chung",
-        "short_name": "K. Chung",
-        "country": "South Korea",
+        "id": 1528,
+        "name": "Vesa Vasara",
+        "short_name": "V. Vasara",
+        "country": "Finland",
         "profile": "defensive",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.7646638790827027,
-        "defensive_line": "mid",
-        "top_styles": [
-          "gegenpressing",
-          "high_press"
-        ]
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "away_coach": {
-        "id": 1315,
-        "name": "Sun-hong Hwang",
-        "short_name": "Seon-hong Hwang",
-        "country": "South Korea",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.452750738939703,
-        "defensive_line": "mid",
-        "top_styles": [
-          "chaos_ball",
-          "positional"
-        ]
-      },
+      "away_coach": null,
       "unavailable_players": null,
-      "venue": {
-        "id": 1132,
-        "name": "Gangneung Stadium",
-        "city": "Gangneung",
-        "country": "South Korea",
-        "capacity": 22333,
-        "latitude": 37.773647,
-        "longitude": 128.897625,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": 1980
-      },
+      "venue": null,
       "live_stats": null,
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "fbee6d",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "3aa89e",
-            "sleeve": "4ca79d"
-          },
-          "player": {
-            "base": "256c61",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ca1730"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "bfee8f",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "030303"
-          },
-          "player": {
-            "base": "e62f30",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000",
-            "sleevelong": "e42c35"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 2,
-          "sentence": "When playing at home, Gangwon have not lost to Daejeon Citizen in their last 4 encounters."
-        },
-        {
-          "type_id": 25,
-          "sentence": "Lee You-hyeon has more yellow cards (5) than any other player at Gangwon. Cho Sung-gwon has collected 5 for Daejeon Citizen."
-        },
-        {
-          "type_id": 26,
-          "sentence": "A year ago, Daejeon Citizen were number 1 in the table with 24 points. Now they are number 5 with 16 points."
-        }
-      ],
-      "sr_stats": {
-        "attack": {
-          "away": 75,
-          "home": 103
-        },
-        "ball_safe": {
-          "away": 83,
-          "home": 66
-        },
-        "attack_pct": {
-          "away": 26,
-          "home": 34
-        },
-        "ball_safe_pct": {
-          "away": 57,
-          "home": 28
-        },
-        "dangerous_attack": {
-          "away": 25,
-          "home": 62
-        },
-        "dangerous_attack_pct": {
-          "away": 17,
-          "home": 38
-        }
-      },
+      "jerseys": null,
+      "funfacts": null,
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Gangwon's looking to flex at home, and Daejeon just got hammered 0-2 by Pohang** — this could be a statement day for the hosts. 🏟️\n\nGangwon's on a solid run (2W-2D-1L) with some grit, while Daejeon's form is all over the map — they demolished Gwangju 5-0 but then got dismantled by Pohang. The swing between those performances is wild. Head-to-head edge goes to **Gangwon**, who took the last meeting.\n\nKey storylines:\n\n- **Gangwon's defense** anchored by K. Joon-hyuk and M. Tuci will need to stay sharp against the unpredictable Daejeon attack\n- **G. Ludwigson** and M. Ishida are Daejeon's attacking spark, but consistency is their kryptonite\n- Home advantage at Gangneung Stadium favors **Gangwon's midfield control** through D. Kim and Y. Lee\n\nExpected lineups:\n\n- **Gangwon FC**: C. Park, K. Joon-hyuk, M. Tuci, G. Lee, D. Kim, Y. Lee, J. H. Mo, M. Seo, B. Choi, K. Do-Hyun\n- **Daejeon Hana Citizen**: L. Chang-geun, J. Seong-Kwon, M. Kim, M. D. Kim, K. Bong-Soo, V. Bobsin, J. Victor, G. Ludwigson, M. Ishida, M. K. Ju\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction:\n\n**Gangwon 1-0 Daejeon.** Model leans home; expect a tight, controlled performance. ⚽",
-        "generated_at": "2026-05-12T02:45:14.231527+00:00"
+        "text": "**Suomen Cup carnival time** — Inter Turku roll in as heavy favorites against Hercules, but Cup football's weird enough to keep things spicy. 🎭\n\nInter have been solid lately (3W-1D-1L), though that loss to Gnistan showed they're not untouchable. Hercules look genuinely threatening in their tier, hammering lower-division sides with ruthless efficiency (4-1, 10-0). The gap in league strength matters, but knockout footy doesn't care about spreadsheets.\n\nKey storylines:\n\n- **Inter Turku's defense** (Niska, Kangasniemi, Kuittinen, Granlund) faces a genuinely clinical Hercules attack that's been prolific\n- **Midfield battle** — Ahiabu and Yli-Kokko need to control tempo against Hercules' energetic press\n- **Cup upset brewing?** Hercules have shown they can score goals at will; one slip from Inter and this gets interesting fast\n\nExpected lineups:\n\n- **Inter Turku**: Huuhtanen, Niska, Kangasniemi, Kuittinen, Granlund, Ahiabu, Yli-Kokko, Kiiskilä, Essomba, Conteh, Tuominen\n- **JS Hercules**: Taavettila, Jauhiainen, Jibrin, Riihiaho, Keskitalo, Pähti, Karppelin, Huitsi, Aliyu, Salmela, Kurvinen\n\nPrediction:\n\n**Inter Turku 2–1 JS Hercules**\n\nHercules keep it tight but Inter's league experience edges it. A classic Cup scare that doesn't quite land.",
+        "generated_at": "2026-05-12T02:45:30.769922+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 3837,
+      "id": 3838,
       "event": {
-        "id": 203005,
+        "id": 9220,
         "league": {
-          "id": 22,
-          "name": "Parva Liga",
-          "country": "Bulgaria",
+          "id": 24,
+          "name": "Stoiximan Super League",
+          "country": "Greece",
           "is_women": false,
           "current_season": {
-            "id": 321,
-            "name": "Parva Liga 25/26",
+            "id": 364,
+            "name": "Super League 25/26",
             "year": 2025,
             "start_date": "2025-07-01",
             "end_date": "2026-06-30"
           }
         },
-        "season": null,
-        "home_team": "Cherno More Varna",
-        "away_team": "Lokomotiv Plovdiv",
+        "season": {
+          "id": 364,
+          "name": "Super League 25/26",
+          "year": 2025
+        },
+        "home_team": "AE Kifisia",
+        "away_team": "APS Atromitos Athinon",
         "home_team_obj": {
-          "id": 342,
-          "name": "Cherno More Varna",
-          "short_name": "Cherno More",
-          "country": "Bulgaria",
+          "id": 324,
+          "name": "AE Kifisia",
+          "short_name": "Kifisia",
+          "country": "Greece",
           "coach": {
-            "name": "Ilian Iliev",
-            "shortName": "I. Iliev"
+            "name": "Sebastián Leto",
+            "shortName": "S. Leto"
           },
           "venue": {
-            "id": 322,
-            "name": "Ticha Stadium",
-            "city": "Varna",
-            "country": "Bulgaria",
-            "capacity": 6250
+            "id": 310,
+            "name": "Municipal Kifisia Stadium Zirineio",
+            "city": "Kifisia",
+            "country": "Greece",
+            "capacity": 3000
           }
         },
         "away_team_obj": {
-          "id": 350,
-          "name": "Lokomotiv Plovdiv",
-          "short_name": "Lokomotiv Plovdiv",
-          "country": "Bulgaria",
+          "id": 330,
+          "name": "APS Atromitos Athinon",
+          "short_name": "Atromitos",
+          "country": "Greece",
           "coach": {
-            "name": "Dušan Kosič",
-            "shortName": "D. Kosič"
+            "name": "Dušan Kerkez",
+            "shortName": "D. Kerkez"
           },
           "venue": {
-            "id": 330,
-            "name": "Lokomotiv Stadium",
-            "city": "Plovdiv",
-            "country": "Bulgaria",
-            "capacity": 13850
+            "id": 315,
+            "name": "Peristeri Stadium",
+            "city": "Peristeri",
+            "country": "Greece",
+            "capacity": 10000
           }
         },
-        "event_date": "2026-05-12T18:45:00+04:00",
-        "round_number": 4,
+        "event_date": "2026-05-12T20:00:00+04:00",
+        "round_number": 8,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -279,17 +181,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.91,
-        "odds_draw": 3.13,
-        "odds_away": 4.11,
-        "odds_over_15": 1.42,
-        "odds_over_25": 2.29,
-        "odds_over_35": 4.2,
-        "odds_under_15": 2.67,
-        "odds_under_25": 1.57,
-        "odds_under_35": 1.2,
-        "odds_btts_yes": 2.04,
-        "odds_btts_no": 1.7,
+        "odds_home": 2.59,
+        "odds_draw": 3.14,
+        "odds_away": 2.71,
+        "odds_over_15": 1.3,
+        "odds_over_25": 1.98,
+        "odds_over_35": 3.36,
+        "odds_under_15": 3.3,
+        "odds_under_25": 1.79,
+        "odds_under_35": 1.29,
+        "odds_btts_yes": 1.73,
+        "odds_btts_no": 2,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -298,17 +200,17 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 286,
+        "travel_distance_km": null,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1493,
-          "name": "Arsov, Stoyan",
-          "country": "Bulgaria",
-          "nationality_a3": "BGR",
+          "id": 1395,
+          "name": "Fotias, Vassilis",
+          "country": "Greece",
+          "nationality_a3": "GRC",
           "birthdate": null,
           "yellowCards": 0,
           "redCards": 0,
@@ -317,45 +219,45 @@
           "career_red_cards": null
         },
         "home_coach": {
-          "id": 365,
-          "name": "Ilian Iliev",
-          "short_name": "I. Iliev",
-          "country": "Bulgaria",
-          "profile": "defensive",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.3170338200220396,
+          "id": 233,
+          "name": "Sebastián Leto",
+          "short_name": "S. Leto",
+          "country": "Argentina",
+          "profile": "balanced",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.5131982956366894,
           "defensive_line": "mid",
           "top_styles": [
-            "low_block",
-            "park_the_bus"
+            "anti_football",
+            "terrorist_fb"
           ]
         },
         "away_coach": {
-          "id": 193,
-          "name": "Dušan Kosič",
-          "short_name": "D. Kosič",
-          "country": "Slovenia",
+          "id": 302,
+          "name": "Dušan Kerkez",
+          "short_name": "D. Kerkez",
+          "country": "Bosnia & Herzegovina",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.28967952255053453,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.44088287720529656,
+          "defensive_line": "high",
           "top_styles": [
-            "terrorist_fb",
-            "anti_football"
+            "anti_football",
+            "ball_dominant"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 322,
-          "name": "Ticha Stadium",
-          "city": "Varna",
-          "country": "Bulgaria",
-          "capacity": 6250,
-          "latitude": 43.215833,
-          "longitude": 27.931389,
+          "id": 147,
+          "name": "Apostolos Nikolaidis Stadium",
+          "city": "Athens",
+          "country": "Greece",
+          "capacity": 16620,
+          "latitude": 37.987169,
+          "longitude": 23.754194,
           "pitch_x": null,
           "pitch_y": null,
-          "built_year": 1968
+          "built_year": null
         },
         "incidents": null,
         "live_stats": null,
@@ -367,77 +269,73 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "f45542",
+              "base": "fff272",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "151413",
+              "sleeve": "fff272"
+            },
+            "player": {
+              "base": "0000ff",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "f5eeea"
-            },
-            "player": {
-              "base": "080808",
-              "real": true,
-              "type": "short_sleeves",
-              "split": "fcf8f8",
-              "number": "f8f7f7",
-              "sleeve": "030303",
-              "sleevelong": "121212"
+              "sleeve": "ffffff",
+              "sleevelong": "0000ff"
             }
           },
           "home": {
             "GK": {
-              "base": "fae500",
+              "base": "ff0000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "e5ff58"
+              "sleeve": "ff0000",
+              "sleevelong": "ff0000"
             },
             "player": {
-              "base": "ffffff",
+              "base": "242d3b",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "03883e",
-              "horizontalstripes": "03883e"
+              "number": "ffffff",
+              "sleeve": "242d3b",
+              "sleevelong": "242d3b"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 24,
-            "sentence": "Lok Plovdiv's away record this season: 4-9-3."
-          },
-          {
             "type_id": 25,
-            "sentence": "Georgi Lazarov is Varna's top scorer with 8 goals. Joel Zwarts has scored 6 times for Lok Plovdiv."
+            "sentence": "Jorge Pombo is Kifisia's top scorer with 9 goals. Makana Baku has scored 7 times for Atromitos Athinon."
           },
           {
             "type_id": 1,
-            "sentence": "Lok Plovdiv have lost none of their last 5 away matches."
+            "sentence": "Kifisia haven't lost in their last 6 games."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Cherno More Varna hosts Lokomotiv Plovdiv in a midweek showdown where **recent history strongly favors the home side** — they've won the last meeting and hold a 3-2 edge in head-to-head.** Both sides are locked in identical form (2W-2D-1L), so this is a genuine toss-up on paper. 🔄\n\nVarna's defensive solidity stands out: they've kept two clean sheets in their last five and beat Lokomotiv 1-0 away just recently. Plovdiv counters with back-to-back wins (2-0 shutouts), but that loss to Varna at home is nagging. Expect a tight, cagey affair.\n\nKey storylines:\n\n- **Cherno More Varna** riding home-field advantage and a winning record vs. this opponent — P. Iliev's backline has been miserly\n- **Lokomotiv Plovdiv** chasing revenge after their recent 0-1 home loss, with sharp attacking duo of J. Zwarts and S. Idriz\n- Both teams' identical form creates a true coin flip, but the model leans toward a low-scoring game\n\nExpected lineups:\n\n- **Cherno More Varna**: P. Iliev, R. Stefanov, V. Drobarov, A. Donchev, T. Panov, B. Beyhan, A. Calcan, C. Sidney, D. Tonev, G. Lazarov, J. Padilla\n- **Lokomotiv Plovdiv**: B. Milosavljević, L. Ryan, T. Pavlov, A. Cova, M. Ruskov, I. Ivanov, P. Umarbaev, J. Zwarts, S. Idriz, Z. Dinev, A. Velev\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n- **Total Goals 1.5**: Under 1.5 goals\n\nPrediction: **1-0 Varna** — slight lean on the hosts capitalizing on home comfort and recent form against this foe.",
-          "generated_at": "2026-05-12T01:45:15.298312+00:00"
+          "text": "**Kifisia rolls into town looking to keep the vibes high** — they're unbeaten in their last five and Atromitos are leaky at the back right now. 🔥\n\nKifisia have won 3 of their last 6 head-to-heads, but Atromitos fired a warning shot with recent wins despite a couple of heavy losses. Both teams play the kind of football that can swing either way on any given night.\n\nKey storylines:\n\n- **AE Kifisia** riding a two-win, three-draw streak — clean sheets and tight defending are the calling card\n- **APS Atromitos Athinon** flaky recently, bouncing between dominant wins and heavy defeats with no draws to steady the ship\n- Midfield battle will decide it: **Pombo** and **Roukounakis** against **Baku** and **Moutoussamy** could set the tone for the whole match\n\nExpected lineups:\n\n- **AE Kifisia**: M. Ramírez, D. Chouchoumis, A. Petkov, C. Konaté, J. Pokorný, J. Pombo, K. Roukounakis, R. Pérez, L. Amani, A. Christopoulos, D. Theodoridis\n- **APS Atromitos Athinon**: L. Gugeshashvili, D. Stavropoulos, M. Mountes, J. Uronen, Mansur, M. Baku, S. Moutoussamy, P. Tsantilas, P. Michorl, G. Tzovaras, T. v. Weert\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kifisia 1-0 Atromitos** — the model favors Kifisia and their defensive shape holds firm against a team still finding rhythm. ⚪",
+          "generated_at": "2026-05-12T01:45:21.494011+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-06T06:20:17.171687+04:00",
-      "prob_home_win": 34.91340379595493,
-      "prob_draw": 33.65409794642253,
-      "prob_away_win": 31.432498257622537,
+      "created_at": "2026-05-06T06:20:17.939259+04:00",
+      "prob_home_win": 43.12154595595503,
+      "prob_draw": 29.032688949476153,
+      "prob_away_win": 27.845765094568815,
       "predicted_result": "H",
-      "expected_home_goals": 0.6,
-      "expected_away_goals": 0.5720000000000001,
-      "prob_over_15": 58.87293476121873,
-      "prob_over_25": 37.579221984537725,
-      "prob_over_35": 12.263348832475634,
-      "prob_btts_yes": 26.68960144840606,
-      "confidence": 34.91340379595493,
+      "expected_home_goals": 1.6436000000000002,
+      "expected_away_goals": 1.25312,
+      "prob_over_15": 66.60121775628753,
+      "prob_over_25": 35.70542356395485,
+      "prob_over_35": 19.135297784924347,
+      "prob_btts_yes": 51.63966583041485,
+      "confidence": 43.12154595595503,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 34.91340379595493,
+      "favorite_prob": 43.12154595595503,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
