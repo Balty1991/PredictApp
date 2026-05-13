@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-13T08:17:32.739Z",
+  "generatedAt": "2026-05-13T11:10:10.616Z",
   "count": 50,
   "items": [
     {
-      "id": 204842,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Vissel Kobe",
-      "awayTeam": "Kyoto Sanga FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204841,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Machida Zelvia",
@@ -25,8 +14,30 @@
       "marketCount": 0
     },
     {
+      "id": 204842,
+      "status": "2nd_half",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Vissel Kobe",
+      "awayTeam": "Kyoto Sanga FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205073,
+      "status": "1st_half",
+      "league": "K League 1",
+      "country": "South Korea",
+      "homeTeam": "Bucheon FC 1995",
+      "awayTeam": "Jeonbuk Hyundai Motors",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 205075,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Ulsan HD",
@@ -37,22 +48,11 @@
     },
     {
       "id": 205074,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "FC Anyang",
       "awayTeam": "Gimcheon Sangmu FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205073,
-      "status": "notstarted",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Bucheon FC 1995",
-      "awayTeam": "Jeonbuk Hyundai Motors",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -113,56 +113,12 @@
       "marketCount": 0
     },
     {
-      "id": 207398,
+      "id": 207402,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "Pallo-Iirot",
-      "awayTeam": "Ilves",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206897,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "CA Bizertin",
-      "awayTeam": "ES Zarzis",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206896,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "Avenir Sportif De Gabes",
-      "awayTeam": "Stade Tunisien",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207399,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "MP",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207400,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "Turun Palloseura",
-      "awayTeam": "HJS",
+      "homeTeam": "EPS",
+      "awayTeam": "FC Haka",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,23 +135,23 @@
       "marketCount": 0
     },
     {
-      "id": 207402,
+      "id": 206896,
       "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "EPS",
-      "awayTeam": "FC Haka",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "Avenir Sportif De Gabes",
+      "awayTeam": "Stade Tunisien",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 207403,
+      "id": 207398,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "HIFK Fotboll",
-      "awayTeam": "JäPS",
+      "homeTeam": "Pallo-Iirot",
+      "awayTeam": "Ilves",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,12 +168,45 @@
       "marketCount": 0
     },
     {
-      "id": 207407,
+      "id": 207403,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "PuiU",
+      "homeTeam": "HIFK Fotboll",
+      "awayTeam": "JäPS",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207400,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "Turun Palloseura",
+      "awayTeam": "HJS",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207399,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "FC Lahti",
+      "awayTeam": "MP",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206897,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "ES Zarzis",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,12 +223,34 @@
       "marketCount": 0
     },
     {
+      "id": 207407,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "PuiU",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207406,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
       "homeTeam": "VJS",
       "awayTeam": "FF Jaro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8011,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "MZKS Arka Gdynia",
+      "awayTeam": "Górnik Zabrze",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,12 +267,12 @@
       "marketCount": 0
     },
     {
-      "id": 8011,
+      "id": 9208,
       "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "MZKS Arka Gdynia",
-      "awayTeam": "Górnik Zabrze",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "Olympiacos FC",
+      "awayTeam": "Panathinaikos FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -289,23 +300,12 @@
       "marketCount": 0
     },
     {
-      "id": 9208,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "Olympiacos FC",
-      "awayTeam": "Panathinaikos FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1043,
+      "id": 1050,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Espanyol",
-      "awayTeam": "Athletic Club",
+      "homeTeam": "Villarreal",
+      "awayTeam": "Sevilla",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,12 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 1050,
+      "id": 1043,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Villarreal",
-      "awayTeam": "Sevilla",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Athletic Club",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 10306,
+      "id": 10305,
       "status": "notstarted",
       "league": "Scottish Premiership",
       "country": "Scotland",
-      "homeTeam": "Rangers",
-      "awayTeam": "Hibernian",
+      "homeTeam": "Motherwell",
+      "awayTeam": "Celtic",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,23 +388,12 @@
       "marketCount": 0
     },
     {
-      "id": 202967,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Manchester City",
-      "awayTeam": "Crystal Palace",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10305,
+      "id": 10306,
       "status": "notstarted",
       "league": "Scottish Premiership",
       "country": "Scotland",
-      "homeTeam": "Motherwell",
-      "awayTeam": "Celtic",
+      "homeTeam": "Rangers",
+      "awayTeam": "Hibernian",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,12 +421,12 @@
       "marketCount": 0
     },
     {
-      "id": 1044,
+      "id": 202967,
       "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Getafe",
-      "awayTeam": "Mallorca",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Manchester City",
+      "awayTeam": "Crystal Palace",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -454,12 +443,12 @@
       "marketCount": 0
     },
     {
-      "id": 9602,
+      "id": 1044,
       "status": "notstarted",
-      "league": "Copa do Brasil",
-      "country": "Brazil",
-      "homeTeam": "Vasco da Gama",
-      "awayTeam": "Paysandu SC",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Getafe",
+      "awayTeam": "Mallorca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -471,6 +460,17 @@
       "country": "Brazil",
       "homeTeam": "Juventude",
       "awayTeam": "São Paulo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9602,
+      "status": "notstarted",
+      "league": "Copa do Brasil",
+      "country": "Brazil",
+      "homeTeam": "Vasco da Gama",
+      "awayTeam": "Paysandu SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,34 +498,23 @@
       "marketCount": 0
     },
     {
+      "id": 5094,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "CF Montréal",
+      "awayTeam": "Portland Timbers",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 5092,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "New York Red Bulls",
       "awayTeam": "Columbus Crew",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5093,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New England Revolution",
-      "awayTeam": "Nashville SC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5095,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "DC United",
-      "awayTeam": "Chicago Fire",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +531,23 @@
       "marketCount": 0
     },
     {
-      "id": 9604,
+      "id": 5093,
       "status": "notstarted",
-      "league": "Copa do Brasil",
-      "country": "Brazil",
-      "homeTeam": "Mirassol",
-      "awayTeam": "Red Bull Bragantino",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "New England Revolution",
+      "awayTeam": "Nashville SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5091,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Orlando City SC",
+      "awayTeam": "Philadelphia Union",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
