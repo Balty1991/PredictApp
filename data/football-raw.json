@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T05:28:06.330Z",
+  "generatedAt": "2026-05-13T08:17:32.738Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 204841,
+      "id": 204842,
       "league": {
         "id": 49,
         "name": "J1 League",
@@ -30,27 +30,27 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Machida Zelvia",
-      "away_team": "Tokyo Verdy",
+      "home_team": "Vissel Kobe",
+      "away_team": "Kyoto Sanga FC",
       "home_team_obj": {
-        "id": 1929,
-        "name": "Machida Zelvia",
-        "short_name": "Machida Z",
+        "id": 1931,
+        "name": "Vissel Kobe",
+        "short_name": "Vissel Kobe",
         "country": "Japan",
         "coach": {
-          "name": "Go Kuroda",
-          "shortName": "G. Kuroda"
+          "name": "Michael Skibbe",
+          "shortName": "M. Skibbe"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 1946,
-        "name": "Tokyo Verdy",
-        "short_name": "Tokyo Verdy",
+        "id": 1930,
+        "name": "Kyoto Sanga FC",
+        "short_name": "Kyoto Sanga",
         "country": "Japan",
         "coach": {
-          "name": "Hiroshi Jofuku",
-          "shortName": "H. Jofuku"
+          "name": "Gwi-jae Jo",
+          "shortName": "G. Jo"
         },
         "venue": null
       },
@@ -65,17 +65,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 1.86,
-      "odds_draw": 3.17,
-      "odds_away": 4.67,
-      "odds_over_15": 1.52,
-      "odds_over_25": 2.55,
-      "odds_over_35": 4.97,
-      "odds_under_15": 2.43,
-      "odds_under_25": 1.47,
-      "odds_under_35": 1.15,
-      "odds_btts_yes": 2.27,
-      "odds_btts_no": 1.58,
+      "odds_home": 1.82,
+      "odds_draw": 3.45,
+      "odds_away": 4.32,
+      "odds_over_15": 1.31,
+      "odds_over_25": 1.96,
+      "odds_over_35": 3.36,
+      "odds_under_15": 3.28,
+      "odds_under_25": 1.79,
+      "odds_under_35": 1.29,
+      "odds_btts_yes": 1.84,
+      "odds_btts_no": 1.88,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -84,7 +84,7 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 11,
+      "travel_distance_km": 62,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,95 +92,101 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1286,
-        "name": "Go Kuroda",
-        "short_name": "G. Kuroda",
-        "country": "Japan",
+        "id": 1288,
+        "name": "Michael Skibbe",
+        "short_name": "M. Skibbe",
+        "country": "Germany",
         "profile": "balanced",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.22260116432293736,
-        "defensive_line": "low",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.6768792849699024,
+        "defensive_line": "mid",
         "top_styles": [
-          "park_the_bus",
-          "low_block"
+          "high_press",
+          "gegenpressing"
         ]
       },
       "away_coach": {
-        "id": 1303,
-        "name": "Hiroshi Jofuku",
-        "short_name": "H. Jofuku",
-        "country": "Japan",
+        "id": 1287,
+        "name": "Gwi-jae Jo",
+        "short_name": "G. Jo",
+        "country": "South Korea",
         "profile": "balanced",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.2951145268829244,
-        "defensive_line": "high",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.6745507565872138,
+        "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "total_football"
+          "high_press",
+          "gegenpressing"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1110,
-        "name": "Machida Stadium",
-        "city": "Tokyo",
+        "id": 1109,
+        "name": "Noevir Stadium Kobe",
+        "city": "Kobe",
         "country": "Japan",
-        "capacity": 15320,
-        "latitude": 35.548669,
-        "longitude": 139.446639,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+        "capacity": 30132,
+        "latitude": 34.6568109,
+        "longitude": 135.1696229,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2001
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "ffd565",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "00b300",
-            "sleeve": "000033"
-          },
-          "player": {
-            "base": "028f62",
+            "base": "0998ff",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "050505"
+            "sleeve": "1a1a1a"
+          },
+          "player": {
+            "base": "ac5592",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "121212"
           }
         },
         "home": {
           "GK": {
-            "base": "5c96ee",
+            "base": "6ea9ad",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "ffffff"
+            "sleeve": "75a8ac",
+            "stripes": "2c434a"
           },
           "player": {
-            "base": "1c356a",
+            "base": "6d142a",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "c0b97b"
+            "sleeve": "000000",
+            "stripes": "000000"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "Machida Z have won 4 home matches in a row."
+          "type_id": 24,
+          "sentence": "Kobe's home record this season: 5-2-1."
         },
         {
-          "type_id": 6,
-          "sentence": "During the last 12 meetings with Machida Z playing at home, Machida Z have won 5 times, there have been 4 draws while Tokyo V have won 3 times. The goal difference is 20-15 in favour of Machida Z."
+          "type_id": 25,
+          "sentence": "Ren Komatsu is Kobe's top scorer with 4 goals. Marco Tulio has scored 5 times for Kyoto Sanga."
+        },
+        {
+          "type_id": 25,
+          "sentence": "Yosuke Ideguchi has more yellow cards (5) than any other player at Kobe. Henrique Trevisan has collected 5 for Kyoto Sanga."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Machida on a roll, Verdy looking to bounce back** — this is a clash between one of J1's hottest teams and a side that's dropped two straight. 🔥\n\nZelvia's unbeaten run (3W2D) has them firing offensively, with back-to-back clean sheets against Chiba and Yokohama. Verdy's kept it tighter at home but got exposed away; they'll need to tighten up in midfield against Machida's rhythm.\n\nKey storylines:\n\n- **Erik** and **S. Na** have been Machida's creative spark — Verdy's back three will face constant pressure from those two operating high\n- **K. Morita** and **N. Hayashi** must shield Verdy's defense and disrupt Machida's build-up play to avoid another defensive meltdown\n- This fixture ended 1-1 last time; both sides have the shape to keep it compact, even if Machida are the clear form side\n\nExpected lineups:\n\n- **Machida Zelvia**: K. Tani, G. Shoji, Y. Nakayama, H. Mae, N. Lavi, Y. Soma, S. Na, Erik, and others\n- **Tokyo Verdy**: Y. Nagasawa, R. Inoue, K. Suzuki, K. Morita, R. Hirakawa, Y. Matsuhashi, I. Kumatoriya, and others\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Machida 2-0 Tokyo Verdy** — Zelvia's defensive solidity and attacking flow give them the edge at home. 📋",
-        "generated_at": "2026-05-13T02:45:15.768556+00:00"
+        "text": "**Vissel Kobe welcome Kyoto Sanga in a clash between two teams desperately hunting form.** Both sides are struggling — Kobe just copped a 5-0 hammering, while Kyoto hasn't won in five. 🔴\n\nKobe's at home and should have the edge here despite the recent shellacking, but neither team's exactly dripping with confidence. Kyoto's been leaky defensively and can't buy a win; Kobe at least have a win in their last five and the Noevir Stadium advantage.\n\nKey storylines:\n\n- **Vissel Kobe's attack** needs to click after getting picked apart at Gamba — **Y. Osako** and **D. Sasaki** must sharpen up\n- **Kyoto's backline** is stretched thin; **H. Trevisan** and the defense will face serious pressure from Kobe's front three\n- Home form becomes crucial — Kobe should be fancied here but can't afford another collapse\n\nExpected lineups:\n\n- **Vissel Kobe**: D. Maekawa, K. Nagato, Thuler, T. Yamakawa, R. Hirose, Y. Ideguchi, Y. Goke, T. Ogihara, Y. Muto, D. Sasaki, Y. Osako\n- **Kyoto Sanga FC**: G. Ota, Y. Suzuki, H. Trevisan, H. Sugai, K. Sato, S. Yoon, J. Pedro, M. Okugawa, M. Túlio, T. Matsuda, Rafael Elias\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Vissel Kobe 2–1 Kyoto Sanga FC** — Kobe's home edge tips it their way, but it'll be scrappier than you'd hope. 📍",
+        "generated_at": "2026-05-13T02:45:21.386194+00:00"
       },
       "live_websocket": true
     },
@@ -231,17 +237,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.71,
-        "odds_draw": 3.61,
-        "odds_away": 4.81,
-        "odds_over_15": 1.3,
-        "odds_over_25": 1.94,
-        "odds_over_35": 3.34,
-        "odds_under_15": 3.32,
-        "odds_under_25": 1.8,
-        "odds_under_35": 1.3,
-        "odds_btts_yes": 1.88,
-        "odds_btts_no": 1.83,
+        "odds_home": 1.82,
+        "odds_draw": 3.45,
+        "odds_away": 4.32,
+        "odds_over_15": 1.31,
+        "odds_over_25": 1.96,
+        "odds_over_35": 3.36,
+        "odds_under_15": 3.28,
+        "odds_under_25": 1.79,
+        "odds_under_35": 1.29,
+        "odds_btts_yes": 1.84,
+        "odds_btts_no": 1.88,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
