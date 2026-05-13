@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-12T23:07:50.295Z",
+  "generatedAt": "2026-05-13T01:24:18.553Z",
   "count": 50,
   "items": [
     {
       "id": 9598,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Internacional",
@@ -15,7 +15,7 @@
     },
     {
       "id": 206697,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Londrina",
@@ -26,7 +26,7 @@
     },
     {
       "id": 9600,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Cruzeiro",
@@ -37,22 +37,11 @@
     },
     {
       "id": 9599,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Fluminense",
       "awayTeam": "Operário-PR",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204842,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Vissel Kobe",
-      "awayTeam": "Kyoto Sanga FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -64,6 +53,17 @@
       "country": "Japan",
       "homeTeam": "Machida Zelvia",
       "awayTeam": "Tokyo Verdy",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204842,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Vissel Kobe",
+      "awayTeam": "Kyoto Sanga FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 9211,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "NPS Volos",
-      "awayTeam": "Aris Thessaloniki",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9210,
       "status": "notstarted",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "APO Levadiakos",
       "awayTeam": "OFI Crete",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9211,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "NPS Volos",
+      "awayTeam": "Aris Thessaloniki",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,34 +157,12 @@
       "marketCount": 0
     },
     {
-      "id": 206896,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "Avenir Sportif De Gabes",
-      "awayTeam": "Stade Tunisien",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207402,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
       "homeTeam": "EPS",
       "awayTeam": "FC Haka",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206897,
-      "status": "notstarted",
-      "league": "Tunisian Ligue Professionnelle 1",
-      "country": "Tunisia",
-      "homeTeam": "CA Bizertin",
-      "awayTeam": "ES Zarzis",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,12 +179,12 @@
       "marketCount": 0
     },
     {
-      "id": 207401,
+      "id": 206896,
       "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "VPS",
-      "awayTeam": "ÅIFK",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "Avenir Sportif De Gabes",
+      "awayTeam": "Stade Tunisien",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,12 +201,34 @@
       "marketCount": 0
     },
     {
+      "id": 207403,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "HIFK Fotboll",
+      "awayTeam": "JäPS",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207398,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
       "homeTeam": "Pallo-Iirot",
       "awayTeam": "Ilves",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206897,
+      "status": "notstarted",
+      "league": "Tunisian Ligue Professionnelle 1",
+      "country": "Tunisia",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "ES Zarzis",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -245,12 +245,12 @@
       "marketCount": 0
     },
     {
-      "id": 207403,
+      "id": 207401,
       "status": "notstarted",
       "league": "Suomen Cup",
       "country": "Finland",
-      "homeTeam": "HIFK Fotboll",
-      "awayTeam": "JäPS",
+      "homeTeam": "VPS",
+      "awayTeam": "ÅIFK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -267,17 +267,6 @@
       "marketCount": 0
     },
     {
-      "id": 207407,
-      "status": "notstarted",
-      "league": "Suomen Cup",
-      "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "PuiU",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207406,
       "status": "notstarted",
       "league": "Suomen Cup",
@@ -289,12 +278,12 @@
       "marketCount": 0
     },
     {
-      "id": 8011,
+      "id": 207407,
       "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "MZKS Arka Gdynia",
-      "awayTeam": "Górnik Zabrze",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "PuiU",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,12 +300,12 @@
       "marketCount": 0
     },
     {
-      "id": 9208,
+      "id": 8011,
       "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "Olympiacos FC",
-      "awayTeam": "Panathinaikos FC",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "MZKS Arka Gdynia",
+      "awayTeam": "Górnik Zabrze",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -333,6 +322,17 @@
       "marketCount": 0
     },
     {
+      "id": 9208,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "Olympiacos FC",
+      "awayTeam": "Panathinaikos FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9209,
       "status": "notstarted",
       "league": "Stoiximan Super League",
@@ -344,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 1050,
+      "id": 1043,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Villarreal",
-      "awayTeam": "Sevilla",
+      "homeTeam": "Espanyol",
+      "awayTeam": "Athletic Club",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 1043,
+      "id": 1050,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Espanyol",
-      "awayTeam": "Athletic Club",
+      "homeTeam": "Villarreal",
+      "awayTeam": "Sevilla",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,12 +410,12 @@
       "marketCount": 0
     },
     {
-      "id": 205203,
+      "id": 10306,
       "status": "notstarted",
-      "league": "Coppa Italia",
-      "country": "Italy",
-      "homeTeam": "Lazio",
-      "awayTeam": "Inter",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Rangers",
+      "awayTeam": "Hibernian",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,17 +432,6 @@
       "marketCount": 0
     },
     {
-      "id": 10306,
-      "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Rangers",
-      "awayTeam": "Hibernian",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10305,
       "status": "notstarted",
       "league": "Scottish Premiership",
@@ -454,23 +443,34 @@
       "marketCount": 0
     },
     {
-      "id": 9100,
-      "status": "notstarted",
-      "league": "Ligue 1",
-      "country": "France",
-      "homeTeam": "RC Lens",
-      "awayTeam": "Paris Saint-Germain",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10304,
       "status": "notstarted",
       "league": "Scottish Premiership",
       "country": "Scotland",
       "homeTeam": "Heart of Midlothian",
       "awayTeam": "Falkirk FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205203,
+      "status": "notstarted",
+      "league": "Coppa Italia",
+      "country": "Italy",
+      "homeTeam": "Lazio",
+      "awayTeam": "Inter",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9100,
+      "status": "notstarted",
+      "league": "Ligue 1",
+      "country": "France",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Paris Saint-Germain",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +542,12 @@
       "marketCount": 0
     },
     {
-      "id": 5093,
+      "id": 5094,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
-      "homeTeam": "New England Revolution",
-      "awayTeam": "Nashville SC",
+      "homeTeam": "CF Montréal",
+      "awayTeam": "Portland Timbers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
