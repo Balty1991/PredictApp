@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-14T21:19:18.457Z",
+  "generatedAt": "2026-05-14T22:37:23.971Z",
   "count": 50,
   "items": [
     {
-      "id": 1048,
-      "status": "2nd_half",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Real Madrid",
-      "awayTeam": "Real Oviedo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9608,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Chapecoense",
@@ -26,7 +15,7 @@
     },
     {
       "id": 9610,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Atlético Goianiense",
@@ -37,7 +26,7 @@
     },
     {
       "id": 9609,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Confiança",
@@ -48,7 +37,7 @@
     },
     {
       "id": 9611,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa do Brasil",
       "country": "Brazil",
       "homeTeam": "Corinthians",
@@ -102,23 +91,23 @@
       "marketCount": 0
     },
     {
-      "id": 205774,
-      "status": "notstarted",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Shanghai Port",
-      "awayTeam": "Zhejiang",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205773,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Henan FC",
       "awayTeam": "Shenzhen Peng City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205774,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Shanghai Port",
+      "awayTeam": "Zhejiang",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,6 +201,17 @@
       "marketCount": 0
     },
     {
+      "id": 8028,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "MKS Korona Kielce",
+      "awayTeam": "Widzew Łódź",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207422,
       "status": "notstarted",
       "league": "Ligue 1",
@@ -229,17 +229,6 @@
       "country": "Spain",
       "homeTeam": "CD Castellón",
       "awayTeam": "Cádiz",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8028,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "MKS Korona Kielce",
-      "awayTeam": "Widzew Łódź",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,23 +366,23 @@
       "marketCount": 0
     },
     {
-      "id": 10309,
-      "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Hibernian",
-      "awayTeam": "Motherwell",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10308,
       "status": "notstarted",
       "league": "Scottish Premiership",
       "country": "Scotland",
       "homeTeam": "Falkirk FC",
       "awayTeam": "Rangers",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10309,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Hibernian",
+      "awayTeam": "Motherwell",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,23 +399,23 @@
       "marketCount": 0
     },
     {
-      "id": 204270,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Sociedad B U21",
-      "awayTeam": "Mirandés",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205780,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Yunnan Yukun",
       "awayTeam": "Shanghai Shenhua",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204270,
+      "status": "notstarted",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Real Sociedad B U21",
+      "awayTeam": "Mirandés",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -454,12 +443,12 @@
       "marketCount": 0
     },
     {
-      "id": 203013,
+      "id": 203014,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
-      "homeTeam": "FC CSKA 1948 Sofia",
-      "awayTeam": "Ludogorets",
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "CSKA Sofia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,12 +465,12 @@
       "marketCount": 0
     },
     {
-      "id": 203014,
+      "id": 203013,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
-      "homeTeam": "Levski Sofia",
-      "awayTeam": "CSKA Sofia",
+      "homeTeam": "FC CSKA 1948 Sofia",
+      "awayTeam": "Ludogorets",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,6 +487,17 @@
       "marketCount": 0
     },
     {
+      "id": 1761,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "RB Leipzig",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1762,
       "status": "notstarted",
       "league": "Bundesliga",
@@ -509,34 +509,23 @@
       "marketCount": 0
     },
     {
-      "id": 1756,
+      "id": 1760,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
-      "homeTeam": "Bayer 04 Leverkusen",
-      "awayTeam": "Hamburger SV",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "VfL Wolfsburg",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 1757,
+      "id": 1755,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
-      "homeTeam": "Borussia M'gladbach",
-      "awayTeam": "TSG Hoffenheim",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1758,
-      "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "Eintracht Frankfurt",
-      "awayTeam": "VfB Stuttgart",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "FC Augsburg",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Germany",
       "homeTeam": "FC Bayern München",
       "awayTeam": "1. FC Köln",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1756,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "Hamburger SV",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
