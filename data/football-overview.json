@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T13:00:35.596Z",
+  "generatedAt": "2026-05-14T15:41:57.714Z",
   "cards": [
     {
       "label": "Evenimente",
@@ -13,7 +13,7 @@
     },
     {
       "label": "Live acum",
-      "value": 0,
+      "value": 1,
       "meta": "calculat din statusul meciurilor"
     },
     {
@@ -29,7 +29,7 @@
   ],
   "errors": [
     "[events] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[events] 502 Bad Gateway via x-api-key @ https://sports.bzzoiro.com/api/events/ :: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+    "[events] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[events] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
