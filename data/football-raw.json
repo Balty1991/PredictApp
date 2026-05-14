@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T10:58:23.624Z",
+  "generatedAt": "2026-05-14T13:00:35.595Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -10,7 +10,7 @@
   },
   "errors": [
     "[events] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
-    "[events] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
+    "[events] 502 Bad Gateway via x-api-key @ https://sports.bzzoiro.com/api/events/ :: <html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.24.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
     "[events] 401 Unauthorized via apikey-header @ https://sports.bzzoiro.com/api/events/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via bearer @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
     "[predictions] 401 Unauthorized via x-api-key @ https://sports.bzzoiro.com/api/predictions/ :: {\"error\":true,\"status\":401,\"detail\":\"Authentication credentials were not provided.\"}",
@@ -76,24 +76,24 @@
       "round_number": 5,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 1,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 1.89,
-      "odds_draw": 3.37,
-      "odds_away": 3.78,
-      "odds_over_15": 1.27,
-      "odds_over_25": 1.84,
-      "odds_over_35": 3.03,
-      "odds_under_15": 3.48,
-      "odds_under_25": 1.89,
-      "odds_under_35": 1.34,
-      "odds_btts_yes": 1.73,
-      "odds_btts_no": 2.01,
+      "current_minute": 42,
+      "period": "1T",
+      "odds_home": 1.72,
+      "odds_draw": 2.72,
+      "odds_away": 3.11,
+      "odds_over_15": 1.19,
+      "odds_over_25": 1.85,
+      "odds_over_35": 2.85,
+      "odds_under_15": 2.5,
+      "odds_under_25": 1.74,
+      "odds_under_35": 1.25,
+      "odds_btts_yes": 1.64,
+      "odds_btts_no": 1.81,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -210,7 +210,32 @@
           "sentence": "Yoan Baurenski has more yellow cards (7) than any other player at Septemvri Sofia. Damian Yordanov has collected 10 for Spartak Varna."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 32,
+          "home": 18
+        },
+        "ball_safe": {
+          "away": 20,
+          "home": 29
+        },
+        "attack_pct": {
+          "away": 33,
+          "home": 23
+        },
+        "ball_safe_pct": {
+          "away": 37,
+          "home": 51
+        },
+        "dangerous_attack": {
+          "away": 20,
+          "home": 18
+        },
+        "dangerous_attack_pct": {
+          "away": 30,
+          "home": 26
+        }
+      },
       "ai_preview": {
         "text": "**Septemvri's draw-heavy run meets Spartak's inconsistency** in a matchup that screams \"cagey midfield battle\" 🔒 Both teams are struggling to string wins together, so expect a cautious affair.\n\nSeptemvri have drawn four of their last five — basically living in 1-1 purgatory. Spartak won one but lost two, so they're hardly convincing either. This has all the hallmarks of a low-scoring scrap between two sides just trying not to lose.\n\nKey storylines:\n\n- **Spartak's recent edge** over Septemvri in H2H (2 wins in the last 4) gives them slight confidence, but form tells a different story\n- **Septemvri's predictable draws** suggest they'll set up compactly and dare Spartak to break them down at the Dragalevtsi\n- **Both midfields anchored** by Baurenski and Marinov — whoever controls possession here probably wins the day\n\nExpected lineups:\n\n- **FK Septemvri Sofia**: N. Krastev, D. Ivkić, V. Ozornwafor, M. Hristov, Y. Baurenski, A. Abou, B. Fourrier, S. Stojanović, F. Mattoir, F. Herard\n- **FK Spartak Varna**: M. Kovalyov, B. Ivanov, M. Jurić-Petrašilo, T. Marinov, Xandy, J. Lopes, D. Yordanov, G. Stojanovski, T. Chunchukov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw** leans the coin flip way — both teams are too cautious to open up. 🤝",
         "generated_at": "2026-05-14T01:45:32.774665+00:00"
@@ -218,61 +243,65 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 3917,
+      "id": 3919,
       "event": {
-        "id": 203010,
+        "id": 10255,
         "league": {
-          "id": 22,
-          "name": "Parva Liga",
-          "country": "Bulgaria",
+          "id": 15,
+          "name": "Super League",
+          "country": "Switzerland",
           "is_women": false,
           "current_season": {
-            "id": 321,
-            "name": "Parva Liga 25/26",
+            "id": 371,
+            "name": "Super League 25/26",
             "year": 2025,
             "start_date": "2025-07-01",
             "end_date": "2026-06-30"
           }
         },
-        "season": null,
-        "home_team": "FK Septemvri Sofia",
-        "away_team": "FK Spartak Varna",
+        "season": {
+          "id": 371,
+          "name": "Super League 25/26",
+          "year": 2025
+        },
+        "home_team": "Basel",
+        "away_team": "FC St. Gallen 1879",
         "home_team_obj": {
-          "id": 343,
-          "name": "FK Septemvri Sofia",
-          "short_name": "Septemvri",
-          "country": "Bulgaria",
+          "id": 137,
+          "name": "Basel",
+          "short_name": "Basel",
+          "country": "Switzerland",
           "coach": {
-            "name": "Hristo Arangelov",
-            "shortName": "H. Arangelov"
+            "name": "Stephan Lichtsteiner",
+            "shortName": "S. Lichtsteiner"
           },
           "venue": {
-            "id": 323,
-            "name": "Dragalevtsi Stadium",
-            "city": "Sofia",
-            "country": "Bulgaria",
-            "capacity": 2000
+            "id": 135,
+            "name": "St. Jakob-Park",
+            "city": "Basel",
+            "country": "Switzerland",
+            "capacity": 37994
           }
         },
         "away_team_obj": {
-          "id": 352,
-          "name": "FK Spartak Varna",
-          "short_name": "Spartak Varna",
-          "country": "Bulgaria",
+          "id": 248,
+          "name": "FC St. Gallen 1879",
+          "short_name": "St. Gallen",
+          "country": "Switzerland",
           "coach": {
-            "name": "Gjoko Hadzievski",
-            "shortName": "G. Hadzievski"
+            "name": "Enrico Maassen",
+            "shortName": "E. Maassen"
           },
           "venue": {
-            "id": 332,
-            "name": "Stadion Spartak",
-            "city": "Varna",
-            "country": "Bulgaria",
-            "capacity": 8000
+            "id": 239,
+            "name": "Kybunpark",
+            "city": "St.Gallen",
+            "country": "Switzerland",
+            "capacity": 19456
           }
         },
-        "event_date": "2026-05-14T16:15:00+04:00",
-        "round_number": 5,
+        "event_date": "2026-05-14T18:30:00+04:00",
+        "round_number": 37,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -282,17 +311,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.89,
-        "odds_draw": 3.37,
-        "odds_away": 3.78,
-        "odds_over_15": 1.27,
-        "odds_over_25": 1.84,
-        "odds_over_35": 3.03,
-        "odds_under_15": 3.48,
-        "odds_under_25": 1.89,
-        "odds_under_35": 1.34,
-        "odds_btts_yes": 1.73,
-        "odds_btts_no": 2.01,
+        "odds_home": 2.62,
+        "odds_draw": 3.65,
+        "odds_away": 2.39,
+        "odds_over_15": 1.14,
+        "odds_over_25": 1.47,
+        "odds_over_35": 2.15,
+        "odds_under_15": 5.29,
+        "odds_under_25": 2.54,
+        "odds_under_35": 1.65,
+        "odds_btts_yes": 1.42,
+        "odds_btts_no": 2.7,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -301,64 +330,86 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 381,
+        "travel_distance_km": 128,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1340,
-          "name": "Grebencharski, Marian",
-          "country": "",
-          "nationality_a3": "",
+          "id": 126,
+          "name": "Fahndrich, Lukas",
+          "country": "Switzerland",
+          "nationality_a3": "CHE",
           "birthdate": null,
-          "yellowCards": 53,
-          "redCards": 1,
+          "yellowCards": 1317,
+          "redCards": 26,
           "career_games": null,
           "career_yellow_cards": null,
           "career_red_cards": null
         },
         "home_coach": {
-          "id": 458,
-          "name": "Hristo Arangelov",
-          "short_name": "H. Arangelov",
-          "country": "Bulgaria",
-          "profile": "defensive",
+          "id": 309,
+          "name": "Stephan Lichtsteiner",
+          "short_name": "S. Lichtsteiner",
+          "country": "Switzerland",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.17119172981518033,
+          "pressing_intensity": 0.6974926345649226,
           "defensive_line": "mid",
           "top_styles": [
-            "chaos_ball",
-            "vibes_fc"
+            "wing_play",
+            "gegenpressing"
           ]
         },
         "away_coach": {
-          "id": 256,
-          "name": "Gjoko Hadzievski",
-          "short_name": "G. Hadzievski",
-          "country": "",
-          "profile": "defensive",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.09987986584624325,
-          "defensive_line": "mid",
+          "id": 462,
+          "name": "Enrico Maassen",
+          "short_name": "E. Maassen",
+          "country": "Germany",
+          "profile": "attacking",
+          "preferred_formation": "3-1-4-2",
+          "pressing_intensity": 0.62050190141714,
+          "defensive_line": "low",
           "top_styles": [
-            "park_the_bus",
-            "terrorist_fb"
+            "man_press",
+            "chaos_football"
           ]
         },
-        "unavailable_players": null,
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Evann Senaya",
+              "status": "injured",
+              "reason": "Unknown",
+              "expected_return": null
+            },
+            {
+              "name": "Finn van Breemen",
+              "status": "doubtful",
+              "reason": "Knee Injury",
+              "expected_return": "2026-05-18"
+            },
+            {
+              "name": "Marwin Hitz",
+              "status": "injured",
+              "reason": "Foot Injury",
+              "expected_return": null
+            }
+          ],
+          "away": []
+        },
         "venue": {
-          "id": 323,
-          "name": "Dragalevtsi Stadium",
-          "city": "Sofia",
-          "country": "Bulgaria",
-          "capacity": 2000,
-          "latitude": 42.637082,
-          "longitude": 23.309153,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "id": 135,
+          "name": "St. Jakob-Park",
+          "city": "Basel",
+          "country": "Switzerland",
+          "capacity": 37994,
+          "latitude": 47.54159995249771,
+          "longitude": 7.620056050155293,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 2001
         },
         "incidents": null,
         "live_stats": null,
@@ -370,74 +421,76 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "ffdf00",
+              "base": "f1009d",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "221e1e"
+              "sleeve": "85a8d4"
             },
             "player": {
-              "base": "1e5e9c",
+              "base": "23845d",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "1e5e9c"
+              "sleeve": "fafafa"
             }
           },
           "home": {
             "GK": {
-              "base": "000000",
+              "base": "67ff9e",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
+              "number": "393f3f",
               "sleeve": "ffffff"
             },
             "player": {
-              "base": "7f1c30",
+              "base": "813e42",
               "real": true,
               "type": "short_sleeves",
-              "number": "7da8c3",
-              "sleeve": "800000"
+              "number": "fefdfb",
+              "sleeve": "f04a3c",
+              "stripes": "222548",
+              "sleevelong": "000000"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 1,
-            "sentence": "Septemvri Sofia haven't won in their last 5 games."
+            "type_id": 2,
+            "sentence": "When playing at home, Basel have not lost to St. Gallen in their last 7 encounters."
           },
           {
             "type_id": 24,
-            "sentence": "Spartak Varna's away record this season: 1-8-7."
+            "sentence": "St. Gallen's away record this season: 9-7-2."
           },
           {
             "type_id": 25,
-            "sentence": "Yoan Baurenski has more yellow cards (7) than any other player at Septemvri Sofia. Damian Yordanov has collected 10 for Spartak Varna."
+            "sentence": "Xherdan Shaqiri is Basel's top scorer with 11 goals. Alessandro Vogt has scored 15 times for St. Gallen."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Septemvri's draw-heavy run meets Spartak's inconsistency** in a matchup that screams \"cagey midfield battle\" 🔒 Both teams are struggling to string wins together, so expect a cautious affair.\n\nSeptemvri have drawn four of their last five — basically living in 1-1 purgatory. Spartak won one but lost two, so they're hardly convincing either. This has all the hallmarks of a low-scoring scrap between two sides just trying not to lose.\n\nKey storylines:\n\n- **Spartak's recent edge** over Septemvri in H2H (2 wins in the last 4) gives them slight confidence, but form tells a different story\n- **Septemvri's predictable draws** suggest they'll set up compactly and dare Spartak to break them down at the Dragalevtsi\n- **Both midfields anchored** by Baurenski and Marinov — whoever controls possession here probably wins the day\n\nExpected lineups:\n\n- **FK Septemvri Sofia**: N. Krastev, D. Ivkić, V. Ozornwafor, M. Hristov, Y. Baurenski, A. Abou, B. Fourrier, S. Stojanović, F. Mattoir, F. Herard\n- **FK Spartak Varna**: M. Kovalyov, B. Ivanov, M. Jurić-Petrašilo, T. Marinov, Xandy, J. Lopes, D. Yordanov, G. Stojanovski, T. Chunchukov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw** leans the coin flip way — both teams are too cautious to open up. 🤝",
-          "generated_at": "2026-05-14T01:45:32.774665+00:00"
+          "text": "**Basel's season is slipping away, and St. Gallen are the ones with momentum.** The visitors have won two of their last three, while Basel have stumbled through recent weeks — a **0–3 hammering from Young Boys** last time out set a grim tone. 🔴\n\nBasel's form has been patchy at best, with just one win in five. St. Gallen, meanwhile, are clicking, including an impressive **2–1 away win over Young Boys**. The h2h favors the visitors too — two wins in the last three meetings.\n\nKey storylines:\n\n- **Basel's defensive frailty** under pressure: the backline (Daniliuc, Rüegg, Vouilloz) needs to hold firm against St. Gallen's attacking threat\n- **St. Gallen's ruthless efficiency**: three wins in five games show a side peaking at the right time\n- **Missing firepower for Basel**: with Hitz out, goalkeeper depth is a concern, and Senaya's absence stings further\n\nExpected lineups:\n\n- **Basel**: M. Salvi, N. Vouilloz, F. Daniliuc, K. Rüegg, D. Schmid, Metinho, B. Traore, G. Koloto, L. Leroy, J. Duranville, I. Salah\n- **FC St. Gallen 1879**: L. A. Zigi, J. Stanić, T. Gaal, C. N. Kleine-Bekel, L. Daschner, C. Okoroji, L. Görtler, H. Vandermersch, A. Balde, A. Vogt, C. Boukhalfa\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n- **Both Teams to Score**: BTTS Yes\n\nPrediction: **St. Gallen 2–1 Basel** — the visitors have the edge in form and should catch a wobbling Basel at home.",
+          "generated_at": "2026-05-14T01:45:55.037603+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-08T06:20:09.607647+04:00",
-      "prob_home_win": 34.50523389585608,
-      "prob_draw": 39.41559410411252,
-      "prob_away_win": 26.079172000031413,
-      "predicted_result": "D",
-      "expected_home_goals": 0.532,
-      "expected_away_goals": 1.3,
-      "prob_over_15": 58.91759717908872,
-      "prob_over_25": 37.73017120273614,
-      "prob_over_35": 16.191879250891496,
-      "prob_btts_yes": 44.807949222401774,
-      "confidence": 39.41559410411252,
+      "created_at": "2026-05-08T06:20:10.165552+04:00",
+      "prob_home_win": 28.458536238199184,
+      "prob_draw": 24.324748944044238,
+      "prob_away_win": 47.21671481775658,
+      "predicted_result": "A",
+      "expected_home_goals": 1.67849,
+      "expected_away_goals": 1.5407000000000002,
+      "prob_over_15": 85.60210194083069,
+      "prob_over_25": 73.22207824432859,
+      "prob_over_35": 51.3675326322958,
+      "prob_btts_yes": 79.14390850179385,
+      "confidence": 47.21671481775658,
       "model_version": "v5.0",
-      "most_likely_score": "0-1",
-      "favorite": "H",
-      "favorite_prob": 34.50523389585608,
+      "most_likely_score": "1-1",
+      "favorite": "A",
+      "favorite_prob": 47.21671481775658,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
