@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-05-16T09:12:19.117Z",
+  "generatedAt": "2026-05-16T10:46:11.835Z",
   "count": 50,
   "items": [
     {
-      "id": 204885,
-      "status": "inprogress",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Urawa Red Diamonds",
-      "awayTeam": "FC Tokyo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205076,
-      "status": "2nd_half",
-      "league": "K League 1",
-      "country": "South Korea",
-      "homeTeam": "Daejeon Hana Citizen",
-      "awayTeam": "FC Seoul",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204886,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Yokohama F. Marinos",
@@ -37,7 +15,7 @@
     },
     {
       "id": 205077,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Incheon United",
@@ -80,23 +58,23 @@
       "marketCount": 0
     },
     {
-      "id": 10308,
-      "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Falkirk FC",
-      "awayTeam": "Rangers",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10307,
       "status": "notstarted",
       "league": "Scottish Premiership",
       "country": "Scotland",
       "homeTeam": "Celtic",
       "awayTeam": "Heart of Midlothian",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10308,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Falkirk FC",
+      "awayTeam": "Rangers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -113,23 +91,23 @@
       "marketCount": 0
     },
     {
-      "id": 206971,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "SK Brann",
-      "awayTeam": "KFUM Oslo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204270,
       "status": "notstarted",
       "league": "Segunda División",
       "country": "Spain",
       "homeTeam": "Real Sociedad B U21",
       "awayTeam": "Mirandés",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206971,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "SK Brann",
+      "awayTeam": "KFUM Oslo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -168,17 +146,6 @@
       "marketCount": 0
     },
     {
-      "id": 203014,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Levski Sofia",
-      "awayTeam": "CSKA Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 46361,
       "status": "notstarted",
       "league": "Allsvenskan",
@@ -190,12 +157,34 @@
       "marketCount": 0
     },
     {
+      "id": 203014,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "Levski Sofia",
+      "awayTeam": "CSKA Sofia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 46360,
       "status": "notstarted",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "GAIS",
       "awayTeam": "Degerfors IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1754,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "1. FSV Mainz 05",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,6 +212,28 @@
       "marketCount": 0
     },
     {
+      "id": 1755,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "FC Augsburg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1760,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "VfL Wolfsburg",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1756,
       "status": "notstarted",
       "league": "Bundesliga",
@@ -245,23 +256,12 @@
       "marketCount": 0
     },
     {
-      "id": 1754,
+      "id": 1761,
       "status": "notstarted",
       "league": "Bundesliga",
       "country": "Germany",
-      "homeTeam": "1. FC Heidenheim",
-      "awayTeam": "1. FSV Mainz 05",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1760,
-      "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "FC St. Pauli",
-      "awayTeam": "VfL Wolfsburg",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "RB Leipzig",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -278,23 +278,12 @@
       "marketCount": 0
     },
     {
-      "id": 1755,
+      "id": 206975,
       "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "1. FC Union Berlin",
-      "awayTeam": "FC Augsburg",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1761,
-      "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "SC Freiburg",
-      "awayTeam": "RB Leipzig",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Rosenborg BK",
+      "awayTeam": "Aalesunds FK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,23 +311,12 @@
       "marketCount": 0
     },
     {
-      "id": 206975,
+      "id": 206973,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
-      "homeTeam": "Rosenborg BK",
-      "awayTeam": "Aalesunds FK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206974,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Molde FK",
-      "awayTeam": "Kristiansund BK",
+      "homeTeam": "Lillestrøm SK",
+      "awayTeam": "Sandefjord Fotball",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 206976,
+      "id": 9159,
       "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Viking FK",
-      "awayTeam": "IK Start",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "RC Sporting Charleroi",
+      "awayTeam": "KVC Westerlo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,23 +366,23 @@
       "marketCount": 0
     },
     {
-      "id": 206973,
+      "id": 206976,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
-      "homeTeam": "Lillestrøm SK",
-      "awayTeam": "Sandefjord Fotball",
+      "homeTeam": "Viking FK",
+      "awayTeam": "IK Start",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 9159,
+      "id": 206974,
       "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "RC Sporting Charleroi",
-      "awayTeam": "KVC Westerlo",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Molde FK",
+      "awayTeam": "Kristiansund BK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,17 +410,6 @@
       "marketCount": 0
     },
     {
-      "id": 687,
-      "status": "notstarted",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Moreirense",
-      "awayTeam": "AVS - Futebol SAD",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 686,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -454,12 +421,12 @@
       "marketCount": 0
     },
     {
-      "id": 7706,
+      "id": 687,
       "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "FK Csíkszereda Miercurea Ciuc",
-      "awayTeam": "FC Botoșani",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Moreirense",
+      "awayTeam": "AVS - Futebol SAD",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,12 +443,12 @@
       "marketCount": 0
     },
     {
-      "id": 203016,
+      "id": 7706,
       "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Botev Plovdiv",
-      "awayTeam": "Cherno More Varna",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "FK Csíkszereda Miercurea Ciuc",
+      "awayTeam": "FC Botoșani",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,45 +465,12 @@
       "marketCount": 0
     },
     {
-      "id": 10260,
+      "id": 9225,
       "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Zürich",
-      "awayTeam": "Servette FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207219,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "AC Oulu",
-      "awayTeam": "Turun Palloseura",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 10259,
-      "status": "notstarted",
-      "league": "Super League",
-      "country": "Switzerland",
-      "homeTeam": "FC Winterthur",
-      "awayTeam": "FC Luzern",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 203015,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Arda Kardzhali",
-      "awayTeam": "Lokomotiv Plovdiv",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "MGS Panserraikos",
+      "awayTeam": "GFS Panetolikos",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +482,72 @@
       "country": "Greece",
       "homeTeam": "AEL Novibet",
       "awayTeam": "APS Atromitos Athinon",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10260,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "Servette FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206676,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Ireland",
+      "awayTeam": "Grenada",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206977,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Bodø/Glimt",
+      "awayTeam": "Tromsø IL",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10258,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "Grasshopper Club Zürich",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207220,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IF Gnistan",
+      "awayTeam": "FF Jaro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10259,
+      "status": "notstarted",
+      "league": "Super League",
+      "country": "Switzerland",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "FC Luzern",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
