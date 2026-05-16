@@ -1,54 +1,10 @@
 {
-  "generatedAt": "2026-05-16T21:25:55.664Z",
+  "generatedAt": "2026-05-16T22:24:57.037Z",
   "count": 50,
   "items": [
     {
-      "id": 9161,
-      "status": "finished",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "Sint-Truidense VV",
-      "awayTeam": "KAA Gent",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9942,
-      "status": "finished",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "São Bernardo",
-      "awayTeam": "América Mineiro",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9939,
-      "status": "finished",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Operário-PR",
-      "awayTeam": "Náutico",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 689,
-      "status": "2nd_half",
-      "league": "Liga Portugal Betclic",
-      "country": "Portugal",
-      "homeTeam": "Sporting CP",
-      "awayTeam": "Gil Vicente",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 683,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
       "homeTeam": "Estoril Praia",
@@ -58,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 689,
+      "status": "finished",
+      "league": "Liga Portugal Betclic",
+      "country": "Portugal",
+      "homeTeam": "Sporting CP",
+      "awayTeam": "Gil Vicente",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 684,
-      "status": "2nd_half",
+      "status": "finished",
       "league": "Liga Portugal Betclic",
       "country": "Portugal",
       "homeTeam": "Famalicão",
@@ -70,7 +37,7 @@
     },
     {
       "id": 5107,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "CF Montréal",
@@ -80,19 +47,8 @@
       "marketCount": 0
     },
     {
-      "id": 7150,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Internacional",
-      "awayTeam": "Vasco da Gama",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7145,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Atlético Mineiro",
@@ -103,7 +59,7 @@
     },
     {
       "id": 9938,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Goiás",
@@ -113,8 +69,19 @@
       "marketCount": 0
     },
     {
+      "id": 7150,
+      "status": "halftime",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Internacional",
+      "awayTeam": "Vasco da Gama",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7149,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Brasileirão Serie A",
       "country": "Brazil",
       "homeTeam": "Fluminense",
@@ -135,34 +102,12 @@
       "marketCount": 0
     },
     {
-      "id": 5105,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New York Red Bulls",
-      "awayTeam": "New York City FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5103,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Philadelphia Union",
       "awayTeam": "Columbus Crew",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 5108,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "New England Revolution",
-      "awayTeam": "Minnesota United",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,12 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 5109,
+      "id": 5108,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
-      "homeTeam": "DC United",
-      "awayTeam": "St.Louis City",
+      "homeTeam": "New England Revolution",
+      "awayTeam": "Minnesota United",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5105,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "New York Red Bulls",
+      "awayTeam": "New York City FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,6 +157,17 @@
       "marketCount": 0
     },
     {
+      "id": 5109,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "DC United",
+      "awayTeam": "St.Louis City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 7151,
       "status": "notstarted",
       "league": "Brasileirão Serie A",
@@ -212,23 +179,23 @@
       "marketCount": 0
     },
     {
-      "id": 5110,
-      "status": "notstarted",
-      "league": "MLS",
-      "country": "USA",
-      "homeTeam": "Houston Dynamo",
-      "awayTeam": "Vancouver Whitecaps",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5111,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Austin FC",
       "awayTeam": "Sporting Kansas City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 5110,
+      "status": "notstarted",
+      "league": "MLS",
+      "country": "USA",
+      "homeTeam": "Houston Dynamo",
+      "awayTeam": "Vancouver Whitecaps",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,23 +289,23 @@
       "marketCount": 0
     },
     {
-      "id": 204891,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Kyoto Sanga FC",
-      "awayTeam": "Sanfrecce Hiroshima",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204890,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Cerezo Osaka",
       "awayTeam": "Nagoya Grampus",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204891,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Kyoto Sanga FC",
+      "awayTeam": "Sanfrecce Hiroshima",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,67 +333,12 @@
       "marketCount": 0
     },
     {
-      "id": 1442,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Juventus",
-      "awayTeam": "Fiorentina",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1443,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Pisa",
-      "awayTeam": "SSC Napoli",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1444,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "AS Roma",
-      "awayTeam": "Lazio",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204892,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Kawasaki Frontale",
-      "awayTeam": "Machida Zelvia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205080,
       "status": "notstarted",
       "league": "K League 1",
       "country": "South Korea",
       "homeTeam": "Bucheon FC 1995",
       "awayTeam": "Pohang Steelers",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1439,
-      "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Como",
-      "awayTeam": "Parma",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,12 +355,67 @@
       "marketCount": 0
     },
     {
+      "id": 1443,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Pisa",
+      "awayTeam": "SSC Napoli",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1442,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Juventus",
+      "awayTeam": "Fiorentina",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 1440,
       "status": "notstarted",
       "league": "Serie A",
       "country": "Italy",
       "homeTeam": "Genoa",
       "awayTeam": "Milan",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204892,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Kawasaki Frontale",
+      "awayTeam": "Machida Zelvia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1444,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "AS Roma",
+      "awayTeam": "Lazio",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1439,
+      "status": "notstarted",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Como",
+      "awayTeam": "Parma",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,23 +432,23 @@
       "marketCount": 0
     },
     {
-      "id": 371,
-      "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Manchester United",
-      "awayTeam": "Nottingham Forest",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9162,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "RSC Anderlecht",
       "awayTeam": "KV Mechelen",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 371,
+      "status": "notstarted",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Manchester United",
+      "awayTeam": "Nottingham Forest",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -520,23 +487,12 @@
       "marketCount": 0
     },
     {
-      "id": 3057,
+      "id": 3058,
       "status": "notstarted",
       "league": "Eredivisie",
       "country": "Netherlands",
-      "homeTeam": "SC Heerenveen",
-      "awayTeam": "AFC Ajax",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 3056,
-      "status": "notstarted",
-      "league": "Eredivisie",
-      "country": "Netherlands",
-      "homeTeam": "PSV Eindhoven",
-      "awayTeam": "FC Twente",
+      "homeTeam": "Sparta Rotterdam",
+      "awayTeam": "Excelsior",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +504,50 @@
       "country": "Netherlands",
       "homeTeam": "NEC Nijmegen",
       "awayTeam": "Go Ahead Eagles",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3051,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "FC Utrecht",
+      "awayTeam": "Fortuna Sittard",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3052,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "FC Volendam",
+      "awayTeam": "SC Telstar",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3057,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "SC Heerenveen",
+      "awayTeam": "AFC Ajax",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 3050,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "AZ Alkmaar",
+      "awayTeam": "NAC Breda",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
