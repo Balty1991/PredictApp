@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-05-18T16:29:51.230Z",
+  "generatedAt": "2026-05-18T18:21:27.063Z",
   "count": 50,
   "items": [
     {
-      "id": 207221,
-      "status": "2nd_half",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "VPS",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205193,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "FK Dobrudzha Dobrich",
-      "awayTeam": "Botev Vratsa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205195,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "PFK Montana 1921",
-      "awayTeam": "FK Spartak Varna",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205192,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Beroe Stara Zagora",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 205195,
+      "status": "finished",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "PFK Montana 1921",
+      "awayTeam": "FK Spartak Varna",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 205194,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Lokomotiv Sofia",
@@ -58,8 +36,19 @@
       "marketCount": 0
     },
     {
+      "id": 205193,
+      "status": "2nd_half",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "FK Dobrudzha Dobrich",
+      "awayTeam": "Botev Vratsa",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8029,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Ekstraklasa",
       "country": "Poland",
       "homeTeam": "MZKS Arka Gdynia",
@@ -70,7 +59,7 @@
     },
     {
       "id": 46367,
-      "status": "notstarted",
+      "status": "interrupted",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Örgryte IS",
@@ -81,7 +70,7 @@
     },
     {
       "id": 46366,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Djurgårdens IF",
@@ -91,30 +80,8 @@
       "marketCount": 0
     },
     {
-      "id": 7703,
-      "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "FC Farul Constanța",
-      "awayTeam": "FC Metaloglobus București",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7704,
-      "status": "notstarted",
-      "league": "Superliga",
-      "country": "Romania",
-      "homeTeam": "FC Hermannstadt",
-      "awayTeam": "FCSB",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 7705,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "FC Petrolul Ploiești",
@@ -125,7 +92,7 @@
     },
     {
       "id": 7702,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "AFC Unirea 04 Slobozia",
@@ -135,8 +102,30 @@
       "marketCount": 0
     },
     {
+      "id": 7704,
+      "status": "1st_half",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "FC Hermannstadt",
+      "awayTeam": "FCSB",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7703,
+      "status": "halftime",
+      "league": "Superliga",
+      "country": "Romania",
+      "homeTeam": "FC Farul Constanța",
+      "awayTeam": "FC Metaloglobus București",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207451,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Super League",
       "country": "Switzerland",
       "homeTeam": "FC Aarau",
@@ -234,12 +223,12 @@
       "marketCount": 0
     },
     {
-      "id": 9166,
+      "id": 366,
       "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "RC Sporting Charleroi",
-      "awayTeam": "Oud-Heverlee Leuven",
+      "league": "Premier League",
+      "country": "England",
+      "homeTeam": "Bournemouth",
+      "awayTeam": "Manchester City",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,12 +245,12 @@
       "marketCount": 0
     },
     {
-      "id": 366,
+      "id": 9166,
       "status": "notstarted",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Bournemouth",
-      "awayTeam": "Manchester City",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "RC Sporting Charleroi",
+      "awayTeam": "Oud-Heverlee Leuven",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -273,6 +262,28 @@
       "country": "England",
       "homeTeam": "Chelsea",
       "awayTeam": "Tottenham Hotspur",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9315,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Audax Italiano",
+      "awayTeam": "Barracas Central",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9314,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Montevideo City Torque",
+      "awayTeam": "Deportivo Riestra",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,34 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 9314,
+      "id": 9429,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
+      "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "Montevideo City Torque",
-      "awayTeam": "Deportivo Riestra",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9315,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Audax Italiano",
-      "awayTeam": "Barracas Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9316,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Boston River",
-      "awayTeam": "O'Higgins",
+      "homeTeam": "Independiente Santa Fe",
+      "awayTeam": "Club Atlético Platense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 9429,
+      "id": 9316,
       "status": "notstarted",
-      "league": "Copa Libertadores",
+      "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Independiente Santa Fe",
-      "awayTeam": "Club Atlético Platense",
+      "homeTeam": "Boston River",
+      "awayTeam": "O'Higgins",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -399,23 +388,23 @@
       "marketCount": 0
     },
     {
-      "id": 9319,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Deportivo Cuenca",
-      "awayTeam": "Recoleta FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9318,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "América de Cali",
       "awayTeam": "Tigre",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9319,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Deportivo Cuenca",
+      "awayTeam": "Recoleta FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,23 +432,23 @@
       "marketCount": 0
     },
     {
-      "id": 205787,
-      "status": "notstarted",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Chongqing Tonglianglong FC",
-      "awayTeam": "Yunnan Yukun",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205788,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Zhejiang",
       "awayTeam": "Shandong Taishan",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205787,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Chongqing Tonglianglong FC",
+      "awayTeam": "Yunnan Yukun",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,23 +487,23 @@
       "marketCount": 0
     },
     {
-      "id": 206969,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "IK Start",
-      "awayTeam": "Bodø/Glimt",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207223,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Kuopion Palloseura",
       "awayTeam": "FF Jaro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206969,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "IK Start",
+      "awayTeam": "Bodø/Glimt",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "Sweden",
       "homeTeam": "GAIS",
       "awayTeam": "Hammarby IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206918,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Lillestrøm SK",
+      "awayTeam": "Kristiansund BK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
