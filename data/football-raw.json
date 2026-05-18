@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T12:39:07.810Z",
+  "generatedAt": "2026-05-18T16:29:51.229Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -58,24 +58,24 @@
       "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 2.32,
-      "odds_draw": 3.09,
-      "odds_away": 3.08,
-      "odds_over_15": 1.38,
-      "odds_over_25": 2.19,
-      "odds_over_35": 3.93,
-      "odds_under_15": 2.86,
-      "odds_under_25": 1.63,
-      "odds_under_35": 1.22,
-      "odds_btts_yes": 1.89,
-      "odds_btts_no": 1.83,
+      "status": "2nd_half",
+      "home_score": 1,
+      "away_score": 1,
+      "home_score_ht": 1,
+      "away_score_ht": 1,
+      "current_minute": 61,
+      "period": "2T",
+      "odds_home": 2.26,
+      "odds_draw": 2.71,
+      "odds_away": 2.69,
+      "odds_over_15": 1.33,
+      "odds_over_25": 1.79,
+      "odds_over_35": 3.04,
+      "odds_under_15": 2.77,
+      "odds_under_25": 1.55,
+      "odds_under_35": 1.17,
+      "odds_btts_yes": 1.79,
+      "odds_btts_no": 1.79,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -137,112 +137,147 @@
       "live_websocket": false
     },
     "prediction": {
-      "id": 4175,
+      "id": 4176,
       "event": {
-        "id": 207221,
+        "id": 205195,
         "league": {
-          "id": 55,
-          "name": "Veikkausliiga",
-          "country": "Finland",
+          "id": 22,
+          "name": "Parva Liga",
+          "country": "Bulgaria",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 321,
+            "name": "Parva Liga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
         "season": null,
-        "home_team": "FC Lahti",
-        "away_team": "VPS",
+        "home_team": "PFK Montana 1921",
+        "away_team": "FK Spartak Varna",
         "home_team_obj": {
-          "id": 2101,
-          "name": "FC Lahti",
-          "short_name": "Lahti",
-          "country": "Finland",
+          "id": 349,
+          "name": "PFK Montana 1921",
+          "short_name": "Montana",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Gonçalo Pereira",
-            "shortName": "G. Pereira"
+            "name": "Atanas Atanasov",
+            "shortName": "A. Atanasov"
           },
-          "venue": null
+          "venue": {
+            "id": 329,
+            "name": "Ogosta Stadium",
+            "city": "Montana",
+            "country": "Bulgaria",
+            "capacity": 8000
+          }
         },
         "away_team_obj": {
-          "id": 2093,
-          "name": "VPS",
-          "short_name": "VPS",
-          "country": "Finland",
+          "id": 352,
+          "name": "FK Spartak Varna",
+          "short_name": "Spartak Varna",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Jussi Nuorela",
-            "shortName": "J. Nuorela"
+            "name": "Gjoko Hadzievski",
+            "shortName": "G. Hadzievski"
           },
-          "venue": null
+          "venue": {
+            "id": 332,
+            "name": "Stadion Spartak",
+            "city": "Varna",
+            "country": "Bulgaria",
+            "capacity": 8000
+          }
         },
-        "event_date": "2026-05-18T19:00:00+04:00",
-        "round_number": null,
+        "event_date": "2026-05-18T20:30:00+04:00",
+        "round_number": 6,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
-        "home_score": null,
-        "away_score": null,
+        "home_score": 0,
+        "away_score": 0,
         "home_score_ht": null,
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.32,
-        "odds_draw": 3.09,
-        "odds_away": 3.08,
-        "odds_over_15": 1.38,
-        "odds_over_25": 2.19,
-        "odds_over_35": 3.93,
-        "odds_under_15": 2.86,
-        "odds_under_25": 1.63,
-        "odds_under_35": 1.22,
-        "odds_btts_yes": 1.89,
-        "odds_btts_no": 1.83,
+        "odds_home": 9.09,
+        "odds_draw": 4.88,
+        "odds_away": 1.28,
+        "odds_over_15": 1.25,
+        "odds_over_25": 1.75,
+        "odds_over_35": 2.82,
+        "odds_under_15": 3.71,
+        "odds_under_25": 1.99,
+        "odds_under_35": 1.39,
+        "odds_btts_yes": 2.2,
+        "odds_btts_no": 1.61,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
+        "travel_distance_km": 381,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 709,
+          "name": "Nikola Popov",
+          "country": "Bulgaria",
+          "nationality_a3": "BGR",
+          "birthdate": null,
+          "yellowCards": 0,
+          "redCards": 0,
+          "career_games": null,
+          "career_yellow_cards": 1368,
+          "career_red_cards": 24
+        },
         "home_coach": {
-          "id": 1531,
-          "name": "Gonçalo Pereira",
-          "short_name": "G. Pereira",
-          "country": "Portugal",
-          "profile": "balanced",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 222,
+          "name": "Atanas Atanasov",
+          "short_name": "A. Atanasov",
+          "country": "Bulgaria",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.14277175835085515,
+          "defensive_line": "high",
+          "top_styles": [
+            "terrorist_fb",
+            "park_the_bus"
+          ]
         },
         "away_coach": {
-          "id": 1523,
-          "name": "Jussi Nuorela",
-          "short_name": "J. Nuorela",
-          "country": "Finland",
-          "profile": "attacking",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 256,
+          "name": "Gjoko Hadzievski",
+          "short_name": "G. Hadzievski",
+          "country": "",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.09987986584624325,
+          "defensive_line": "mid",
+          "top_styles": [
+            "park_the_bus",
+            "terrorist_fb"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1300,
-          "name": "Lahti Stadium",
-          "city": "Lahti",
-          "country": "Finland",
-          "capacity": 14500,
-          "latitude": null,
-          "longitude": null,
+          "id": 329,
+          "name": "Ogosta Stadium",
+          "city": "Montana",
+          "country": "Bulgaria",
+          "capacity": 8000,
+          "latitude": 43.398611,
+          "longitude": 23.225278,
           "pitch_x": null,
           "pitch_y": null,
-          "built_year": null
+          "built_year": 1965
         },
         "incidents": null,
         "live_stats": null,
@@ -251,31 +286,79 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "ffdf00",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "221e1e"
+            },
+            "player": {
+              "base": "1e5e9c",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "1e5e9c"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "da120e",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "f6f6f6"
+            },
+            "player": {
+              "base": "fcfcfc",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "030303",
+              "sleeve": "1c5395",
+              "squares": "1d4b89",
+              "sleevelong": "1c5395"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Montana haven't won in their last 4 games."
+          },
+          {
+            "type_id": 2,
+            "sentence": "Montana haven't won any of their last 3 games against Spartak Varna."
+          },
+          {
+            "type_id": 24,
+            "sentence": "Spartak Varna's away record this season: 1-8-7."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**VPS rolling hot, but Lahti's home turf could throw a wrench in the works.** The visitors have won four of their last five (including that ridiculous 7-0 thrashing), while Lahti's mixed form at home gives them just enough credibility to make this interesting. 🔥\n\nLahti's keeping things tight at Lahti Stadium with three wins in five, but VPS's attacking firepower is genuinely scary right now. The question is whether Lahti can weather the storm or if the visitors just steamroll through.\n\nKey storylines:\n\n- **VPS's offense vs Lahti's home defense** — the visitors are scoring for fun, but Lahti's mixed results at home suggest they won't roll over\n- **Midfield battle** — **E. Andersson** and crew need to disrupt VPS's rhythm early, or this gets ugly fast\n- **Set-piece threat** — both sides will be hunting moments; one lapse could decide it\n\nExpected lineups:\n\n- **FC Lahti**: O. Maukonen, N. G. Dantas, J. Müller, R. Sans, R. Yapi, Y. Cassubie, E. Andersson, M. Ferreira, M. Sarr, N. Barbosa, A. Lindholm\n- **VPS**: M. Jalloh, E. Okereke, L. Mané, V. Rönnberg, M. Haukioja, J. Turfkruier, P. Lima, S. Lindholm, J. Muzinga, L. Smyth, S. v. Duivenbooden\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**VPS 2-1 Lahti.** Model leans visitors, but Lahti's home edge keeps it close. 📍",
-          "generated_at": "2026-05-18T02:45:18.918376+00:00"
+          "text": "**Montana's drawing habit meets Spartak's slump** — this could be a tactical chess match where neither side's in peak form, but one has to crack first. 🎲\n\n**Montana** are the steadier outfit here, picking up 3 draws from their last 5 and proving tough to break down at home. **Spartak Varna**, meanwhile, have looked shaky with just 1 win in their last 5 and are winless in their last two outings — they're also 0-2 down in the head-to-head.\n\nKey storylines:\n\n- **Montana's 3-4-3 shape** is built for control at Ogosta; expect **D. Carmona** and **A. Todorov** to anchor midfield against **Spartak's** counter ambitions\n- **Spartak** need urgency but lack momentum — **G. Stojanovski** is their creative outlet, but **Spartak's** back four led by **D. Krastev** has leaked goals lately\n- Home advantage tilts slightly toward **Montana**, who've drawn 3 of their last 5; **Spartak's** road woes suggest a low-scoring affair\n\nExpected lineups:\n\n- **PFK Montana 1921**: M. Rosa, D. Burov, I. Markov, K. Iliev, D. Carmona, A. Todorov, B. Dimitrov, I. B. Muhammad\n- **FK Spartak Varna**: M. Kovalyov, A. Granchov, D. Krastev, J. Lopes, G. Stojanovski, T. Chunchukov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 1.5**: Under 1.5 goals\n\nPrediction:\n\n**1-1 draw** feels like the path of least resistance — both teams lean defensive, and Spartak's form screams \"grind it out.\"",
+          "generated_at": "2026-05-18T01:45:32.334707+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-05-12T06:20:11.184024+04:00",
-      "prob_home_win": 29.502388755490376,
-      "prob_draw": 28.872422745854102,
-      "prob_away_win": 41.62518849865552,
-      "predicted_result": "A",
-      "expected_home_goals": 1.062,
-      "expected_away_goals": 1.626,
-      "prob_over_15": 49.67683122110702,
-      "prob_over_25": 24.767176993578673,
-      "prob_over_35": 15.31574067544273,
-      "prob_btts_yes": 37.1841197641275,
-      "confidence": 41.62518849865552,
+      "created_at": "2026-05-12T06:20:11.556312+04:00",
+      "prob_home_win": 37.000372354406295,
+      "prob_draw": 37.224489029625644,
+      "prob_away_win": 25.775138615968064,
+      "predicted_result": "D",
+      "expected_home_goals": 0.732,
+      "expected_away_goals": 0.9,
+      "prob_over_15": 58.878806827459385,
+      "prob_over_25": 37.68982085987206,
+      "prob_over_35": 14.451138367266752,
+      "prob_btts_yes": 40.15400611787048,
+      "confidence": 37.224489029625644,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 41.62518849865552,
+      "most_likely_score": "0-0",
+      "favorite": "H",
+      "favorite_prob": 37.000372354406295,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
