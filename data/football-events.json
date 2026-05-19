@@ -1,76 +1,10 @@
 {
-  "generatedAt": "2026-05-19T21:03:41.338Z",
+  "generatedAt": "2026-05-19T22:45:59.429Z",
   "count": 50,
   "items": [
     {
-      "id": 9165,
-      "status": "finished",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "KVC Westerlo",
-      "awayTeam": "Standard Liège",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 366,
-      "status": "finished",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Bournemouth",
-      "awayTeam": "Manchester City",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9166,
-      "status": "finished",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "RC Sporting Charleroi",
-      "awayTeam": "Oud-Heverlee Leuven",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9164,
-      "status": "finished",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "KRC Genk",
-      "awayTeam": "Royal Antwerp FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206650,
-      "status": "2nd_half",
-      "league": "Premier League",
-      "country": "England",
-      "homeTeam": "Chelsea",
-      "awayTeam": "Tottenham Hotspur",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9428,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Rosario Central",
-      "awayTeam": "Universidad Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9427,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Fluminense",
@@ -80,19 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 9426,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Coquimbo Unido",
-      "awayTeam": "Deportes Tolima",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9315,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Audax Italiano",
@@ -102,12 +25,56 @@
       "marketCount": 0
     },
     {
+      "id": 9428,
+      "status": "1st_half",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Rosario Central",
+      "awayTeam": "Universidad Central",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9426,
+      "status": "1st_half",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Coquimbo Unido",
+      "awayTeam": "Deportes Tolima",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9314,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Montevideo City Torque",
       "awayTeam": "Deportivo Riestra",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9430,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Club Always Ready",
+      "awayTeam": "Mirassol",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9429,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Independiente Santa Fe",
+      "awayTeam": "Club Atlético Platense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,28 +102,6 @@
       "marketCount": 0
     },
     {
-      "id": 9429,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Independiente Santa Fe",
-      "awayTeam": "Club Atlético Platense",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9430,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Club Always Ready",
-      "awayTeam": "Mirassol",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9431,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -179,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 9318,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "América de Cali",
-      "awayTeam": "Tigre",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9319,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Deportivo Cuenca",
       "awayTeam": "Recoleta FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9318,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "América de Cali",
+      "awayTeam": "Tigre",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -278,23 +223,23 @@
       "marketCount": 0
     },
     {
-      "id": 207223,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Kuopion Palloseura",
-      "awayTeam": "FF Jaro",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206969,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
       "homeTeam": "IK Start",
       "awayTeam": "Bodø/Glimt",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207223,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Kuopion Palloseura",
+      "awayTeam": "FF Jaro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,17 +267,6 @@
       "marketCount": 0
     },
     {
-      "id": 46420,
-      "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "GAIS",
-      "awayTeam": "Hammarby IF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206918,
       "status": "notstarted",
       "league": "Eliteserien",
@@ -344,12 +278,12 @@
       "marketCount": 0
     },
     {
-      "id": 4825,
+      "id": 46420,
       "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Najma SC",
-      "awayTeam": "Al-Shabab",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "GAIS",
+      "awayTeam": "Hammarby IF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -361,6 +295,17 @@
       "country": "Norway",
       "homeTeam": "Aalesunds FK",
       "awayTeam": "SK Brann",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4825,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Najma SC",
+      "awayTeam": "Al-Shabab",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -399,17 +344,6 @@
       "marketCount": 0
     },
     {
-      "id": 9320,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Santos",
-      "awayTeam": "San Lorenzo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9321,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -421,12 +355,12 @@
       "marketCount": 0
     },
     {
-      "id": 9323,
+      "id": 9320,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Grêmio",
-      "awayTeam": "Palestino",
+      "homeTeam": "Santos",
+      "awayTeam": "San Lorenzo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -438,6 +372,17 @@
       "country": "South America",
       "homeTeam": "Club Independiente",
       "awayTeam": "Botafogo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9323,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Grêmio",
+      "awayTeam": "Palestino",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,23 +410,23 @@
       "marketCount": 0
     },
     {
-      "id": 9436,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "LDU",
-      "awayTeam": "CA Lanús",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9435,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Palmeiras",
       "awayTeam": "Cerro Porteño",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9436,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "LDU",
+      "awayTeam": "CA Lanús",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -531,6 +476,17 @@
       "marketCount": 0
     },
     {
+      "id": 9227,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "APS Atromitos Athinon",
+      "awayTeam": "MGS Panserraikos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9228,
       "status": "notstarted",
       "league": "Stoiximan Super League",
@@ -548,6 +504,50 @@
       "country": "Greece",
       "homeTeam": "AE Kifisia",
       "awayTeam": "AEL Novibet",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207463,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "AFC Ajax",
+      "awayTeam": "FC Groningen",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46416,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "IF Elfsborg",
+      "awayTeam": "Mjällby AIF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4828,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Neom SC",
+      "awayTeam": "Al-Ettifaq",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4827,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Riyadh",
+      "awayTeam": "Al-Okhdood",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
