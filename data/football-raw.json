@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:09:52.513Z",
+  "generatedAt": "2026-05-19T01:31:07.648Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,565 +21,176 @@
   ],
   "samples": {
     "event": {
-      "id": 9940,
+      "id": 205782,
       "league": {
-        "id": 34,
-        "name": "Brasileirão Serie B",
-        "country": "Brazil",
+        "id": 52,
+        "name": "Chinese Super League",
+        "country": "China",
         "is_women": false,
         "current_season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
+          "id": 1040,
+          "name": "Chinese Super League 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 52,
-        "name": "Brasileiro Serie B 2026",
+        "id": 1040,
+        "name": "Chinese Super League 2026",
         "year": 2026
       },
-      "home_team": "Ponte Preta",
-      "away_team": "Londrina",
+      "home_team": "Tianjin Jinmen Tiger",
+      "away_team": "Henan FC",
       "home_team_obj": {
-        "id": 844,
-        "name": "Ponte Preta",
-        "short_name": "Ponte Preta",
-        "country": "Brazil",
+        "id": 2033,
+        "name": "Tianjin Jinmen Tiger",
+        "short_name": "Jinmen Tiger",
+        "country": "China",
         "coach": {
-          "name": "Rodrigo Santana",
-          "shortName": "R. Santana"
+          "name": "Yu Genwei",
+          "shortName": "Y. Genwei"
         },
-        "venue": {
-          "id": 636,
-          "name": "Moisés Lucarelli",
-          "city": "Campinas",
-          "country": "Brazil",
-          "capacity": 19728
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 821,
-        "name": "Londrina",
-        "short_name": "Londrina",
-        "country": "Brazil",
+        "id": 2038,
+        "name": "Henan FC",
+        "short_name": "Henan",
+        "country": "China",
         "coach": {
-          "name": "Rogério Micale",
-          "shortName": "R. Micale"
+          "name": "Daniel Ramos",
+          "shortName": "D. Ramos"
         },
-        "venue": {
-          "id": 614,
-          "name": "Estádio Jacy Scaff",
-          "city": "Londrina",
-          "country": "Brazil",
-          "capacity": 36056
-        }
+        "venue": null
       },
-      "event_date": "2026-05-19T02:00:00+04:00",
-      "round_number": 9,
+      "event_date": "2026-05-19T15:35:00+04:00",
+      "round_number": 13,
       "round_name": "",
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 0,
-      "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 1,
-      "current_minute": 47,
-      "period": "2T",
-      "odds_home": 2.4,
-      "odds_draw": 2.68,
-      "odds_away": 2.81,
-      "odds_over_15": 1.44,
-      "odds_over_25": 2.5,
-      "odds_over_35": 4.49,
-      "odds_under_15": 2.45,
-      "odds_under_25": 1.49,
-      "odds_under_35": 1.15,
-      "odds_btts_yes": 1.96,
-      "odds_btts_no": 1.66,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 2.86,
+      "odds_draw": 3.12,
+      "odds_away": 2.47,
+      "odds_over_15": 1.36,
+      "odds_over_25": 2.12,
+      "odds_over_35": 3.76,
+      "odds_under_15": 2.99,
+      "odds_under_25": 1.67,
+      "odds_under_35": 1.24,
+      "odds_btts_yes": 1.84,
+      "odds_btts_no": 1.9,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.51,
-      "away_xg_live": 1.06,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 424,
+      "travel_distance_km": 580,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 538,
-        "name": "Thaillan Azevedo Gomes",
-        "country": "Brazil",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 45,
-        "redCards": 3,
-        "career_games": null,
-        "career_yellow_cards": 45,
-        "career_red_cards": 3
-      },
+      "referee": null,
       "home_coach": {
-        "id": 148,
-        "name": "Rodrigo Santana",
-        "short_name": "R. Santana",
-        "country": "Brazil",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5039201593090332,
-        "defensive_line": "high",
-        "top_styles": [
-          "anti_football",
-          "terrorist_fb"
-        ]
-      },
-      "away_coach": {
-        "id": 1568,
-        "name": "Rogério Micale",
-        "short_name": "R. Micale",
-        "country": "Brazil",
-        "profile": "",
-        "preferred_formation": "",
+        "id": 1379,
+        "name": "Yu Genwei",
+        "short_name": "Y. Genwei",
+        "country": "China",
+        "profile": "balanced",
+        "preferred_formation": "5-4-1",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Bryan Borges",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-05-20"
-          },
-          {
-            "name": "David Braz",
-            "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          },
-          {
-            "name": "David da Hora",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Diego Porfirio",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Elvis",
-            "status": "doubtful",
-            "reason": "Ankle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Murilo",
-            "status": "doubtful",
-            "reason": "Virus",
-            "expected_return": null
-          },
-          {
-            "name": "Rodrigo Saravia",
-            "status": "doubtful",
-            "reason": "Unknown",
-            "expected_return": null
-          },
-          {
-            "name": "William Pottker",
-            "status": "doubtful",
-            "reason": "Hamstring",
-            "expected_return": null
-          }
-        ],
-        "away": [
-          {
-            "name": "Gilberto",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Heron",
-            "status": "doubtful",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Kevyn",
-            "status": "doubtful",
-            "reason": "Unknown",
-            "expected_return": null
-          },
-          {
-            "name": "Thalis Cantanhede",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Wallace Reis",
-            "status": "doubtful",
-            "reason": "Knock",
-            "expected_return": null
-          },
-          {
-            "name": "Yago Lincoln",
-            "status": "suspended",
-            "reason": "Yellow card accumulation suspension",
-            "expected_return": "2026-05-20"
-          }
-        ]
+      "away_coach": {
+        "id": 1384,
+        "name": "Daniel Ramos",
+        "short_name": "D. Ramos",
+        "country": "Portugal",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
+      "unavailable_players": null,
       "venue": {
-        "id": 636,
-        "name": "Moisés Lucarelli",
-        "city": "Campinas",
-        "country": "Brazil",
-        "capacity": 19728,
-        "latitude": -22.913611,
-        "longitude": -47.051389,
+        "id": 1240,
+        "name": "TEDA Football Stadium",
+        "city": "Tianjin",
+        "country": "China",
+        "capacity": 35680,
+        "latitude": 39.122603,
+        "longitude": 117.198029,
         "pitch_x": null,
         "pitch_y": null,
-        "built_year": null
+        "built_year": 2006
       },
-      "live_stats": {
-        "away": {
-          "duels": 59,
-          "fouls": 6,
-          "passes": 207,
-          "crosses": "1/6 (17%)",
-          "punches": 2,
-          "tackles": 7,
-          "dribbles": "3/5 (60%)",
-          "offsides": 0,
-          "big_saves": 2,
-          "throw_ins": 5,
-          "clearances": 32,
-          "free_kicks": 9,
-          "goal_kicks": 5,
-          "long_balls": "12/27 (44%)",
-          "recoveries": 30,
-          "big_chances": 2,
-          "high_claims": 1,
-          "tackles_won": 57,
-          "total_saves": 3,
-          "total_shots": 9,
-          "aerial_duels": "8/13 (62%)",
-          "corner_kicks": 3,
-          "ground_duels": "19/32 (59%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 0,
-          "blocked_shots": 3,
-          "interceptions": 4,
-          "total_tackles": 7,
-          "expected_goals": 1.06,
-          "accurate_passes": 170,
-          "ball_possession": 50,
-          "goals_prevented": 0.19,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 5,
-          "shots_off_target": 3,
-          "final_third_phase": "38/56 (68%)",
-          "shots_outside_box": 4,
-          "big_chances_missed": 1,
-          "big_chances_scored": 1,
-          "final_third_entries": 27,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 10
-        },
-        "home": {
-          "duels": 41,
-          "fouls": 9,
-          "passes": 184,
-          "crosses": "3/27 (11%)",
-          "punches": 1,
-          "tackles": 2,
-          "dribbles": "6/13 (46%)",
-          "offsides": 1,
-          "big_saves": 1,
-          "throw_ins": 12,
-          "clearances": 8,
-          "free_kicks": 5,
-          "goal_kicks": 7,
-          "long_balls": "7/18 (39%)",
-          "recoveries": 25,
-          "big_chances": 0,
-          "high_claims": 0,
-          "tackles_won": 50,
-          "total_saves": 2,
-          "total_shots": 10,
-          "aerial_duels": "5/13 (38%)",
-          "corner_kicks": 9,
-          "ground_duels": "14/33 (42%)",
-          "hit_woodwork": 2,
-          "yellow_cards": 1,
-          "blocked_shots": 3,
-          "interceptions": 4,
-          "total_tackles": 2,
-          "expected_goals": 0.51,
-          "accurate_passes": 154,
-          "ball_possession": 50,
-          "goals_prevented": -0.38,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 2,
-          "shots_inside_box": 4,
-          "shots_off_target": 4,
-          "final_third_phase": "44/58 (76%)",
-          "shots_outside_box": 6,
-          "big_chances_missed": 0,
-          "big_chances_scored": 0,
-          "final_third_entries": 34,
-          "errors_lead_to_a_shot": 1,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 15
-        },
-        "first_half": {
-          "away": {
-            "duels": 60,
-            "fouls": 5,
-            "passes": 195,
-            "crosses": "1/6 (17%)",
-            "tackles": 7,
-            "dribbles": "3/5 (60%)",
-            "offsides": 0,
-            "throw_ins": 4,
-            "clearances": 32,
-            "free_kicks": 9,
-            "goal_kicks": 5,
-            "long_balls": "11/26 (42%)",
-            "recoveries": 28,
-            "big_chances": 1,
-            "tackles_won": 57,
-            "total_saves": 3,
-            "total_shots": 7,
-            "aerial_duels": "8/13 (62%)",
-            "corner_kicks": 3,
-            "ground_duels": "19/32 (59%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 2,
-            "interceptions": 4,
-            "total_tackles": 7,
-            "expected_goals": 0.65,
-            "accurate_passes": 160,
-            "ball_possession": 51,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 3,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 3,
-            "big_chances_missed": 0,
-            "big_chances_scored": 1,
-            "final_third_entries": 24,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 40,
-            "fouls": 9,
-            "passes": 171,
-            "crosses": "3/27 (11%)",
-            "tackles": 2,
-            "dribbles": "6/13 (46%)",
-            "offsides": 1,
-            "throw_ins": 12,
-            "clearances": 8,
-            "free_kicks": 5,
-            "goal_kicks": 6,
-            "long_balls": "7/15 (47%)",
-            "recoveries": 24,
-            "big_chances": 0,
-            "tackles_won": 50,
-            "total_saves": 2,
-            "total_shots": 10,
-            "aerial_duels": "5/13 (38%)",
-            "corner_kicks": 9,
-            "ground_duels": "13/32 (41%)",
-            "hit_woodwork": 2,
-            "yellow_cards": 1,
-            "blocked_shots": 3,
-            "interceptions": 4,
-            "total_tackles": 2,
-            "expected_goals": 0.51,
-            "accurate_passes": 144,
-            "ball_possession": 49,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 4,
-            "shots_off_target": 4,
-            "shots_outside_box": 6,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 32,
-            "fouled_in_final_third": 1
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 0,
-            "fouls": 1,
-            "passes": 12,
-            "crosses": "0/0 (0%)",
-            "tackles": 0,
-            "offsides": 0,
-            "throw_ins": 1,
-            "clearances": 0,
-            "free_kicks": 0,
-            "goal_kicks": 0,
-            "long_balls": "1/1 (100%)",
-            "recoveries": 2,
-            "big_chances": 1,
-            "tackles_won": 0,
-            "total_saves": 0,
-            "total_shots": 2,
-            "corner_kicks": 0,
-            "ground_duels": "0/0 (0%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 0,
-            "total_tackles": 0,
-            "expected_goals": 0.41,
-            "accurate_passes": 10,
-            "ball_possession": 48,
-            "shots_on_target": 0,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 1,
-            "shots_off_target": 1,
-            "shots_outside_box": 1,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 3,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 100,
-            "fouls": 0,
-            "passes": 13,
-            "crosses": "0/0 (0%)",
-            "tackles": 0,
-            "offsides": 0,
-            "throw_ins": 0,
-            "clearances": 0,
-            "free_kicks": 1,
-            "goal_kicks": 1,
-            "long_balls": "0/3 (0%)",
-            "recoveries": 1,
-            "big_chances": 0,
-            "tackles_won": 0,
-            "total_saves": 0,
-            "total_shots": 0,
-            "corner_kicks": 0,
-            "ground_duels": "1/1 (100%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 0,
-            "interceptions": 0,
-            "total_tackles": 0,
-            "expected_goals": 0,
-            "accurate_passes": 10,
-            "ball_possession": 52,
-            "shots_on_target": 0,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 0,
-            "shots_off_target": 0,
-            "shots_outside_box": 0,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 2,
-            "fouled_in_final_third": 0
-          }
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "af498b",
+            "base": "1d1d1d",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "f8f1f1",
+            "sleeve": "4f5552"
+          },
+          "player": {
+            "base": "d90000",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "5d5d5d"
-          },
-          "player": {
-            "base": "1ed4f7",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "e00e0e",
-            "sleeve": "ffffff",
-            "stripes": "f8f8fb"
+            "sleeve": "334840",
+            "sleevelong": "d90000"
           }
         },
         "home": {
           "GK": {
-            "base": "151413",
+            "base": "249461",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "020202"
+            "sleeve": "249461"
           },
           "player": {
-            "base": "ffffff",
+            "base": "7f65bc",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "ffffff",
-            "sleevelong": "ffffff"
+            "number": "ddc364",
+            "sleeve": "4d3286",
+            "sleevelong": "7f65bc"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "Londrina haven't won in their last 6 games."
+          "type_id": 2,
+          "sentence": "Henan haven't won any of their last 4 games against Tianjin Jinmen Tiger."
         },
         {
           "type_id": 2,
-          "sentence": "When playing at home, Ponte Preta have not lost to Londrina in their last 3 encounters."
+          "sentence": "When playing at home, Tianjin Jinmen Tiger have not lost to Henan in their last 9 encounters."
         },
         {
-          "type_id": 25,
-          "sentence": "William Pottker is Ponte Preta's top scorer with 2 goals. Bruno Santos de Oliveira has scored 3 times for Londrina."
+          "type_id": 24,
+          "sentence": "Tianjin Jinmen Tiger's home record this season: 0-3-2."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 35,
-          "home": 55
-        },
-        "ball_safe": {
-          "away": 41,
-          "home": 39
-        },
-        "attack_pct": {
-          "away": 23,
-          "home": 21
-        },
-        "ball_safe_pct": {
-          "away": 58,
-          "home": 34
-        },
-        "dangerous_attack": {
-          "away": 19,
-          "home": 37
-        },
-        "dangerous_attack_pct": {
-          "away": 19,
-          "home": 45
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Ponte Preta's looking to keep rolling, but Londrina are in freefall** — this should be a straightforward home win in Campinas. 🔴\n\nPonte have found some groove with 2 wins in their last 5, though they've shipped goals aplenty. Londrina are a total mess: winless in five with only one draw to show for it, and they're missing key bodies to suspension and injury.\n\nKey storylines:\n\n- **Ponte Preta** need to convert their home advantage into three points and build momentum after beating América Mineiro\n- **Londrina's injury woes** (T. Cantanhede out, Y. Lincoln suspended) leave them desperately thin in midfield\n- **B. Lopes and Brandão** vs a leaky Londrina defense that's conceded 3+ in back-to-back losses\n\nExpected lineups:\n\n- **Ponte Preta**: D. Silva, M. Silva, Kevyson, L. Cunha, Thalys, André, D. Tavares, William Pottker, R. de Souza, Brandão, B. Lopes\n- **Londrina**: Kozlinski, Weverton, Rafael Monteiro, G. Lacerda, Kevyn, L. Marques, A. Luiz, Iago, C. Rafael, B. Santos, E. Rodriguez\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Ponte Preta 2–0 Londrina**. The hosts have the edge at home; Londrina just aren't competing right now. ⚪",
-        "generated_at": "2026-05-18T01:46:25.129783+00:00"
+        "text": "**Tianjin's home fortress meets Henan's hot-and-cold form** — this one's got dead-even energy written all over it. 📊\n\nJinmen Tiger are stuck in a rut (1W 3D 1L), but that home record against Henan speaks volumes: five wins in the last six H2H. Henan just beat Shenzhen but got hammered by Chengdu the game before, so they're streaky at best.\n\nKey storylines:\n\n- **Tianjin's home dominance** vs a fragile Henan side that struggles on the road\n- **Henan's attacking threats** — **Gustavo** and **B. Nazário** need to impose themselves or it gets ugly\n- **Jinmen's creaky form** means even at home, they're no guarantee\n\nExpected lineups:\n\n- **Tianjin Jinmen Tiger**: Y. Bingliang, D. Ba, F. Yang, A. C. Querejeta, X. Wang, X. Weijun, B. Xadas, J. G. Ciscar, Q. Wang, A. Quiles\n- **Henan FC**: G. Wang, Lucão, I. Maidana, H. Ruifeng, Y. Shinar, S. Wang, Y. Zhong, Gustavo, B. Nazário, J. Mboula, C. Yin\n\nPrediction:\n\n**Tianjin Jinmen Tiger 1–0 Henan FC** — Tianjin's home edge and historical dominance push them over the line, but Henan's inconsistency keeps it tight. 🔥",
+        "generated_at": "2026-05-18T11:45:18.934818+00:00"
       },
       "live_websocket": true
     },
@@ -641,15 +252,15 @@
         "current_minute": null,
         "period": "",
         "odds_home": 2.86,
-        "odds_draw": 3.13,
-        "odds_away": 2.46,
-        "odds_over_15": 1.35,
-        "odds_over_25": 2.1,
-        "odds_over_35": 3.74,
-        "odds_under_15": 3.02,
-        "odds_under_25": 1.68,
+        "odds_draw": 3.12,
+        "odds_away": 2.47,
+        "odds_over_15": 1.36,
+        "odds_over_25": 2.12,
+        "odds_over_35": 3.76,
+        "odds_under_15": 2.99,
+        "odds_under_25": 1.67,
         "odds_under_35": 1.24,
-        "odds_btts_yes": 1.83,
+        "odds_btts_yes": 1.84,
         "odds_btts_no": 1.9,
         "actual_home_xg": null,
         "actual_away_xg": null,
