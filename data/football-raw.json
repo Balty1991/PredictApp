@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T16:52:16.214Z",
+  "generatedAt": "2026-05-19T19:06:11.724Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,329 +21,506 @@
   ],
   "samples": {
     "event": {
-      "id": 9164,
+      "id": 366,
       "league": {
-        "id": 14,
-        "name": "Pro League",
-        "country": "Belgium",
+        "id": 1,
+        "name": "Premier League",
+        "country": "England",
         "is_women": false,
         "current_season": {
-          "id": 338,
-          "name": "Pro League 25/26",
+          "id": 337,
+          "name": "Premier League 25/26",
           "year": 2025,
           "start_date": "2025-07-01",
           "end_date": "2026-06-30"
         }
       },
       "season": {
-        "id": 338,
-        "name": "Pro League 25/26",
+        "id": 337,
+        "name": "Premier League 25/26",
         "year": 2025
       },
-      "home_team": "KRC Genk",
-      "away_team": "Royal Antwerp FC",
+      "home_team": "Bournemouth",
+      "away_team": "Manchester City",
       "home_team_obj": {
-        "id": 146,
-        "name": "KRC Genk",
-        "short_name": "Genk",
-        "country": "Belgium",
+        "id": 2,
+        "name": "Bournemouth",
+        "short_name": "Bournemouth",
+        "country": "England",
         "coach": {
-          "name": "Nicky Hayen",
-          "shortName": "N. Hayen"
+          "name": "Andoni Iraola",
+          "shortName": "A. Iraola"
         },
         "venue": {
-          "id": 144,
-          "name": "Cegeka Arena",
-          "city": "Genk",
-          "country": "Belgium",
-          "capacity": 24956
+          "id": 2,
+          "name": "Vitality Stadium",
+          "city": "Bournemouth",
+          "country": "England",
+          "capacity": 11307
         }
       },
       "away_team_obj": {
-        "id": 233,
-        "name": "Royal Antwerp FC",
-        "short_name": "Royal Antwerp",
-        "country": "Belgium",
+        "id": 12,
+        "name": "Manchester City",
+        "short_name": "Man City",
+        "country": "England",
         "coach": {
-          "name": "Joseph Oosting",
-          "shortName": "J. Oosting"
+          "name": "Pep Guardiola",
+          "shortName": "P. Guardiola"
         },
         "venue": {
-          "id": 225,
-          "name": "Bosuilstadion",
-          "city": "Antwerp",
-          "country": "Belgium",
-          "capacity": 21000
+          "id": 12,
+          "name": "Etihad Stadium",
+          "city": "Manchester",
+          "country": "England",
+          "capacity": 53400
         }
       },
       "event_date": "2026-05-19T22:30:00+04:00",
-      "round_number": 9,
+      "round_number": 37,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 0,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 1.48,
-      "odds_draw": 4.46,
-      "odds_away": 6.11,
-      "odds_over_15": 1.18,
-      "odds_over_25": 1.58,
-      "odds_over_35": 2.41,
-      "odds_under_15": 4.59,
-      "odds_under_25": 2.32,
-      "odds_under_35": 1.52,
-      "odds_btts_yes": 1.7,
-      "odds_btts_no": 2.06,
+      "current_minute": 35,
+      "period": "1T",
+      "odds_home": 3.99,
+      "odds_draw": 3.55,
+      "odds_away": 1.52,
+      "odds_over_15": 1.14,
+      "odds_over_25": 1.49,
+      "odds_over_35": 2.22,
+      "odds_under_15": 3.77,
+      "odds_under_25": 2.18,
+      "odds_under_35": 1.48,
+      "odds_btts_yes": 1.52,
+      "odds_btts_no": 2.07,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.58,
+      "away_xg_live": 0.36,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 78,
+      "travel_distance_km": 307,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 294,
-        "name": "Bram Van Driessche",
-        "country": "Belgium",
+        "id": 369,
+        "name": "Anthony Taylor",
+        "country": "England",
         "nationality_a3": "",
         "birthdate": null,
-        "yellowCards": 1203,
-        "redCards": 28,
+        "yellowCards": 2472,
+        "redCards": 67,
         "career_games": null,
-        "career_yellow_cards": 1198,
-        "career_red_cards": 27
+        "career_yellow_cards": 2454,
+        "career_red_cards": 67
       },
       "home_coach": {
-        "id": 200,
-        "name": "Nicky Hayen",
-        "short_name": "N. Hayen",
-        "country": "Belgium",
+        "id": 547,
+        "name": "Andoni Iraola",
+        "short_name": "A. Iraola",
+        "country": "Spain",
         "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.7037680289582049,
-        "defensive_line": "mid",
-        "top_styles": [
-          "positional",
-          "tiki_taka"
-        ]
-      },
-      "away_coach": {
-        "id": 199,
-        "name": "Joseph Oosting",
-        "short_name": "J. Oosting",
-        "country": "Netherlands",
-        "profile": "balanced",
-        "preferred_formation": "3-4-1-2",
-        "pressing_intensity": 0.8921913742661705,
+        "pressing_intensity": 0.6371880045094436,
         "defensive_line": "mid",
         "top_styles": [
           "gegenpressing",
           "high_press"
         ]
       },
+      "away_coach": {
+        "id": 559,
+        "name": "Pep Guardiola",
+        "short_name": "P. Guardiola",
+        "country": "Spain",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.527323188525922,
+        "defensive_line": "high",
+        "top_styles": [
+          "ball_dominant",
+          "tiki_taka"
+        ]
+      },
       "unavailable_players": {
         "home": [
           {
-            "name": "Daan Heymans",
-            "status": "doubtful",
-            "reason": "Hamstring",
-            "expected_return": null
-          },
-          {
-            "name": "Ibrahima Sory Bangoura",
+            "name": "Álex Jiménez",
             "status": "injured",
-            "reason": "Head Injury",
-            "expected_return": "2026-05-24"
+            "reason": "club_decision",
+            "expected_return": "2026-05-19"
           },
           {
-            "name": "Konstantinos Karetsas",
-            "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Noah Adedeji-Sternberg",
-            "status": "injured",
-            "reason": "Hamstring",
-            "expected_return": "2026-05-24"
-          },
-          {
-            "name": "Yaimar Medina",
+            "name": "Julio Soler",
             "status": "injured",
             "reason": "Muscle Injury",
-            "expected_return": "2026-05-20"
+            "expected_return": "2026-05-31"
+          },
+          {
+            "name": "Justin Kluivert",
+            "status": "doubtful",
+            "reason": "Knee Surgery",
+            "expected_return": "2026-05-23"
+          },
+          {
+            "name": "Lewis Cook",
+            "status": "doubtful",
+            "reason": "Hamstring Injury",
+            "expected_return": "2026-06-02"
+          },
+          {
+            "name": "Ryan Christie",
+            "status": "suspended",
+            "reason": "red_card_suspension",
+            "expected_return": "2026-05-24"
           }
         ],
         "away": [
           {
-            "name": "Bjorn Engels",
-            "status": "injured",
-            "reason": "Achilles Tendon Rupture",
-            "expected_return": "2026-05-24"
+            "name": "Abdukodir Khusanov",
+            "status": "doubtful",
+            "reason": "Knock Injury",
+            "expected_return": "2026-05-28"
           },
           {
-            "name": "Gerard Vandeplas",
+            "name": "Joško Gvardiol",
             "status": "injured",
-            "reason": "Ankle Injury",
-            "expected_return": null
+            "reason": "Broken Leg",
+            "expected_return": "2026-05-31"
           },
           {
-            "name": "Mauricio Benitez",
-            "status": "injured",
-            "reason": "Hamstring",
-            "expected_return": null
+            "name": "Rodri",
+            "status": "doubtful",
+            "reason": "Physical Discomfort",
+            "expected_return": "2026-05-31"
           },
           {
-            "name": "Youssef Hamdaoui",
+            "name": "Rúben Dias",
             "status": "injured",
-            "reason": "Knock",
-            "expected_return": "2026-05-24"
+            "reason": "Hamstring Injury",
+            "expected_return": "2026-05-20"
           }
         ]
       },
       "venue": {
-        "id": 144,
-        "name": "Cegeka Arena",
-        "city": "Genk",
-        "country": "Belgium",
-        "capacity": 24956,
-        "latitude": 51.005,
-        "longitude": 5.533333,
+        "id": 2,
+        "name": "Vitality Stadium",
+        "city": "Bournemouth",
+        "country": "England",
+        "capacity": 11307,
+        "latitude": 50.735278,
+        "longitude": -1.838333,
         "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 1990
+        "pitch_y": 78,
+        "built_year": 1910
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 61,
+          "fouls": 2,
+          "passes": 247,
+          "crosses": "1/5 (20%)",
+          "tackles": 3,
+          "dribbles": "4/7 (57%)",
+          "offsides": 1,
+          "throw_ins": 5,
+          "clearances": 7,
+          "free_kicks": 5,
+          "goal_kicks": 2,
+          "long_balls": "10/19 (53%)",
+          "recoveries": 20,
+          "big_chances": 0,
+          "tackles_won": 100,
+          "total_saves": 0,
+          "total_shots": 5,
+          "aerial_duels": "3/3 (100%)",
+          "corner_kicks": 2,
+          "dispossessed": 3,
+          "ground_duels": "11/20 (55%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 1,
+          "interceptions": 3,
+          "total_tackles": 3,
+          "expected_goals": 0.36,
+          "accurate_passes": 226,
+          "ball_possession": 58,
+          "goals_prevented": 0,
+          "shots_on_target": 3,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 3,
+          "shots_off_target": 1,
+          "final_third_phase": "53/66 (80%)",
+          "shots_outside_box": 2,
+          "big_chances_missed": 0,
+          "final_third_entries": 22,
+          "touches_in_penalty_area": 10
+        },
+        "home": {
+          "duels": 39,
+          "fouls": 5,
+          "passes": 176,
+          "crosses": "2/6 (33%)",
+          "tackles": 6,
+          "dribbles": "1/2 (50%)",
+          "offsides": 0,
+          "throw_ins": 8,
+          "clearances": 7,
+          "free_kicks": 2,
+          "goal_kicks": 3,
+          "long_balls": "4/17 (24%)",
+          "recoveries": 17,
+          "big_chances": 1,
+          "tackles_won": 33,
+          "total_saves": 2,
+          "total_shots": 1,
+          "aerial_duels": "0/3 (0%)",
+          "corner_kicks": 1,
+          "dispossessed": 2,
+          "ground_duels": "9/20 (45%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "interceptions": 0,
+          "total_tackles": 6,
+          "expected_goals": 0.58,
+          "accurate_passes": 149,
+          "ball_possession": 42,
+          "goals_prevented": 0.62,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 2,
+          "shots_inside_box": 1,
+          "shots_off_target": 1,
+          "final_third_phase": "27/36 (75%)",
+          "shots_outside_box": 0,
+          "big_chances_missed": 1,
+          "final_third_entries": 14,
+          "touches_in_penalty_area": 6
+        },
+        "first_half": {
+          "away": {
+            "duels": 61,
+            "fouls": 2,
+            "passes": 247,
+            "crosses": "1/5 (20%)",
+            "tackles": 3,
+            "dribbles": "4/7 (57%)",
+            "offsides": 1,
+            "throw_ins": 5,
+            "clearances": 7,
+            "free_kicks": 5,
+            "goal_kicks": 2,
+            "long_balls": "10/19 (53%)",
+            "recoveries": 20,
+            "big_chances": 0,
+            "tackles_won": 100,
+            "total_saves": 0,
+            "total_shots": 5,
+            "aerial_duels": "3/3 (100%)",
+            "corner_kicks": 2,
+            "dispossessed": 3,
+            "ground_duels": "11/20 (55%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 1,
+            "interceptions": 3,
+            "total_tackles": 3,
+            "expected_goals": 0.36,
+            "accurate_passes": 226,
+            "ball_possession": 58,
+            "shots_on_target": 3,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 3,
+            "shots_off_target": 1,
+            "shots_outside_box": 2,
+            "big_chances_missed": 0,
+            "final_third_entries": 22
+          },
+          "home": {
+            "duels": 39,
+            "fouls": 5,
+            "passes": 176,
+            "crosses": "2/6 (33%)",
+            "tackles": 6,
+            "dribbles": "1/2 (50%)",
+            "offsides": 0,
+            "throw_ins": 8,
+            "clearances": 7,
+            "free_kicks": 2,
+            "goal_kicks": 3,
+            "long_balls": "4/17 (24%)",
+            "recoveries": 17,
+            "big_chances": 1,
+            "tackles_won": 33,
+            "total_saves": 2,
+            "total_shots": 1,
+            "aerial_duels": "0/3 (0%)",
+            "corner_kicks": 1,
+            "dispossessed": 2,
+            "ground_duels": "9/20 (45%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "total_tackles": 6,
+            "expected_goals": 0.58,
+            "accurate_passes": 149,
+            "ball_possession": 42,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 2,
+            "shots_inside_box": 1,
+            "shots_off_target": 1,
+            "shots_outside_box": 0,
+            "big_chances_missed": 1,
+            "final_third_entries": 14
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "d5ff00",
+            "base": "008b48",
             "real": true,
             "type": "short_sleeves",
-            "number": "fafafa",
-            "sleeve": "020202"
+            "number": "feb139",
+            "sleeve": "017c42"
           },
           "player": {
-            "base": "ce3030",
+            "base": "abd1f5",
             "real": true,
             "type": "short_sleeves",
-            "number": "141414",
+            "number": "000000",
             "sleeve": "ffffff",
-            "sleevelong": "ce3030"
+            "sleevelong": "abd1f5"
           }
         },
         "home": {
           "GK": {
-            "base": "f7a327",
+            "base": "3598a2",
             "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "f5d245",
-            "sleevelong": "f6cb33"
+            "type": "long_sleeves",
+            "number": "182d3f",
+            "sleeve": "182d3f"
           },
           "player": {
-            "base": "3986e8",
+            "base": "ff0000",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "f9fafb",
-            "stripes": "2540b4",
-            "sleevelong": "3885e7"
+            "number": "dbb85e",
+            "sleeve": "dbb85e",
+            "stripes": "000000",
+            "sleevelong": "000000"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 2,
+          "sentence": "Bournemouth haven't won any of their last 3 games against Manchester City."
+        },
+        {
+          "type_id": 24,
+          "sentence": "Bournemouth's home record this season: 7-9-2."
+        },
+        {
           "type_id": 25,
-          "sentence": "Daan Heymans is Genk's top scorer with 10 goals. Vincent Janssen has scored 10 times for Royal Antwerp."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Genk haven't lost in any of their last 7 home matches."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Royal Antwerp have lost 3 matches in a row."
+          "sentence": "Eli Junior Kroupi is Bournemouth's top scorer with 12 goals. Erling Haaland has scored 26 times for Manchester City."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 28,
+          "home": 31
+        },
+        "ball_safe": {
+          "away": 33,
+          "home": 31
+        },
+        "attack_pct": {
+          "away": 25,
+          "home": 26
+        },
+        "ball_safe_pct": {
+          "away": 52,
+          "home": 58
+        },
+        "dangerous_attack": {
+          "away": 14,
+          "home": 11
+        },
+        "dangerous_attack_pct": {
+          "away": 23,
+          "home": 16
+        }
+      },
       "ai_preview": {
-        "text": "**Genk's looking to punish a wobbly Antwerp side** — the hosts have won their last game and sit comfortably at home, while the visitors are in freefall with three losses in their last five. 📊\n\nGenk's mixing solid draws with a big 3-0 win, but Antwerp? They just got hammered 5-0 by Standard and are leaking goals everywhere. The H2H is tight (1-1-1), but form tells the real story here.\n\nKey storylines:\n\n- **Genk's attack** with J. Erabi and R. Mirisola needs to capitalize on a fragile Antwerp backline that's conceded 9 in three games\n- **Antwerp's missing pieces** — B. Engels out with an Achilles injury, G. Vandeplas sidelined too — means D. Foulon and crew are stretched thin defensively\n- **Home comfort for Cegeka Arena** — Genk thrive here after that 3-0 romp vs Westerlo, while Antwerp's away form is dire\n\nExpected lineups:\n\n- **KRC Genk**: L. Brughmans, M. Smets, Z. E. Ouahdi, J. N. Kongolo, Kayembe, B. Heynen, J. Ito, A. Bibout, D. Heymans, R. Mirisola, J. Erabi\n- **Royal Antwerp FC**: T. B. Nozawa, Y. Tsunashima, Z. Van Den Bosch, E. Tuypens, G. Bijl, D. Praet, C. Scott, D. Foulon\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Genk 2–0 Antwerp** — the model leans Genk, and the form gap is just too wide. 🎯",
-        "generated_at": "2026-05-19T01:45:27.590678+00:00"
+        "text": "**Bournemouth host a Manchester City side that's basically untouchable in h2h — but both teams are rolling hot right now.** 🔥 This is a title-race sprint finish where Bournemouth's surprise form meets City's relentless consistency.\n\nThe Cherries are on a **4W-1D streak** with clean sheets piling up, while **City's** defensive record is similarly pristine. Bournemouth won't roll over, but City's pedigree and h2h dominance (9 wins in 10) tells you where the money should flow.\n\nKey storylines:\n\n- **Bournemouth's momentum play**: Four wins in five — they're fighting hard to finish strong, but this is the highest ceiling opposition they'll face down the stretch.\n- **City without depth at the back**: J. Gvardiol and R. Dias both out leaves gaps; M. Guéhi and N. O'Reilly have work to do.\n- **Rayan and E. Haaland's duel**: Bournemouth's midfield will try to press, but City's lethal counter with **Haaland** and **J. Doku** is the real threat.\n\nExpected lineups:\n\n- **Bournemouth**: Đ. Petrović, J. Hill, A. Truffert, M. Senesi, A. Smith, A. Scott, M. Tavernier, Rayan, E. J. Kroupi, Evanilson, A. Adli\n- **Manchester City**: G. Donnarumma, M. Nunes, M. Guéhi, N. O'Reilly, R. Aït-Nouri, B. Silva, A. Semenyo, E. Haaland, J. Doku, O. Marmoush, R. Cherki\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction: **City 2–0 Bournemouth**. City's class shows in the end — slight edge despite Bournemouth's grit. 💙",
+        "generated_at": "2026-05-19T01:45:33.390199+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4194,
+      "id": 4195,
       "event": {
-        "id": 9166,
+        "id": 206650,
         "league": {
-          "id": 14,
-          "name": "Pro League",
-          "country": "Belgium",
+          "id": 1,
+          "name": "Premier League",
+          "country": "England",
           "is_women": false,
           "current_season": {
-            "id": 338,
-            "name": "Pro League 25/26",
+            "id": 337,
+            "name": "Premier League 25/26",
             "year": 2025,
             "start_date": "2025-07-01",
             "end_date": "2026-06-30"
           }
         },
-        "season": {
-          "id": 338,
-          "name": "Pro League 25/26",
-          "year": 2025
-        },
-        "home_team": "RC Sporting Charleroi",
-        "away_team": "Oud-Heverlee Leuven",
+        "season": null,
+        "home_team": "Chelsea",
+        "away_team": "Tottenham Hotspur",
         "home_team_obj": {
-          "id": 243,
-          "name": "RC Sporting Charleroi",
-          "short_name": "Charleroi",
-          "country": "Belgium",
+          "id": 13,
+          "name": "Chelsea",
+          "short_name": "Chelsea",
+          "country": "England",
           "coach": {
-            "name": "Mario Kohnen",
-            "shortName": "M. Kohnen"
+            "name": "Calum McFarlane",
+            "shortName": "C. McFarlane"
           },
           "venue": {
-            "id": 234,
-            "name": "Stade du Pays de Charleroi",
-            "city": "Charleroi",
-            "country": "Belgium",
-            "capacity": 15000
+            "id": 13,
+            "name": "Stamford Bridge",
+            "city": "London",
+            "country": "England",
+            "capacity": 40341
           }
         },
         "away_team_obj": {
-          "id": 242,
-          "name": "Oud-Heverlee Leuven",
-          "short_name": "OH Leuven",
-          "country": "Belgium",
+          "id": 9,
+          "name": "Tottenham Hotspur",
+          "short_name": "Tottenham",
+          "country": "England",
           "coach": {
-            "name": "Felice Mazzu",
-            "shortName": "F. Mazzu"
+            "name": "Roberto De Zerbi",
+            "shortName": "R. D. Zerbi"
           },
           "venue": {
-            "id": 233,
-            "name": "The King Power AT Den Dreef Stadium",
-            "city": "Heverlee",
-            "country": "Belgium",
-            "capacity": 10020
+            "id": 9,
+            "name": "Tottenham Hotspur Stadium",
+            "city": "London",
+            "country": "England",
+            "capacity": 62850
           }
         },
-        "event_date": "2026-05-19T22:30:00+04:00",
-        "round_number": 9,
+        "event_date": "2026-05-19T23:15:00+04:00",
+        "round_number": 37,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -353,128 +530,742 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.61,
-        "odds_draw": 4.2,
-        "odds_away": 4.98,
-        "odds_over_15": 1.16,
-        "odds_over_25": 1.53,
-        "odds_over_35": 2.3,
-        "odds_under_15": 4.86,
-        "odds_under_25": 2.41,
-        "odds_under_35": 1.58,
-        "odds_btts_yes": 1.59,
-        "odds_btts_no": 2.26,
+        "odds_home": 2.25,
+        "odds_draw": 3.33,
+        "odds_away": 3.3,
+        "odds_over_15": 1.28,
+        "odds_over_25": 1.89,
+        "odds_over_35": 3.14,
+        "odds_under_15": 3.61,
+        "odds_under_25": 1.9,
+        "odds_under_35": 1.34,
+        "odds_btts_yes": 1.68,
+        "odds_btts_no": 2.11,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": true,
         "is_neutral_ground": null,
-        "travel_distance_km": 53,
+        "travel_distance_km": 16,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 255,
-          "name": "Bert Put",
-          "country": "Belgium",
+          "id": 427,
+          "name": "Stuart Attwell",
+          "country": "England",
           "nationality_a3": "",
           "birthdate": null,
-          "yellowCards": 677,
-          "redCards": 21,
+          "yellowCards": 1551,
+          "redCards": 41,
           "career_games": null,
-          "career_yellow_cards": 664,
-          "career_red_cards": 21
+          "career_yellow_cards": 1541,
+          "career_red_cards": 41
         },
         "home_coach": {
-          "id": 426,
-          "name": "Mario Kohnen",
-          "short_name": "M. Kohnen",
-          "country": "",
-          "profile": "balanced",
+          "id": 1232,
+          "name": "Calum McFarlane",
+          "short_name": "C. McFarlane",
+          "country": "England",
+          "profile": "attacking",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.5252232714409772,
+          "pressing_intensity": 0.5967518261751387,
           "defensive_line": "mid",
           "top_styles": [
-            "cross_pray",
-            "wing_play"
+            "tiki_taka",
+            "chaos_ball"
           ]
         },
         "away_coach": {
-          "id": 279,
-          "name": "Felice Mazzu",
-          "short_name": "F. Mazzu",
-          "country": "Belgium",
+          "id": 563,
+          "name": "Roberto De Zerbi",
+          "short_name": "R. D. Zerbi",
+          "country": "Italy",
           "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.6216281681455735,
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.6396240931424435,
           "defensive_line": "mid",
           "top_styles": [
-            "set_piece",
-            "anti_football"
+            "gegenpressing",
+            "set_piece"
           ]
         },
         "unavailable_players": {
           "home": [
             {
-              "name": "Amine Boukamir",
-              "status": "injured",
-              "reason": "Ankle Injury",
-              "expected_return": null
+              "name": "Alejandro Garnacho",
+              "status": "doubtful",
+              "reason": "Knock Injury",
+              "expected_return": "2026-05-30"
             },
             {
-              "name": "Massamba Sow",
+              "name": "Estêvão",
               "status": "injured",
-              "reason": "Achilles Tendon Rupture",
-              "expected_return": null
+              "reason": "Hamstring Injury",
+              "expected_return": "2026-05-31"
             },
             {
-              "name": "Parfait Guiagon",
+              "name": "Filip Jørgensen",
+              "status": "doubtful",
+              "reason": "Groin Injury",
+              "expected_return": "2026-05-19"
+            },
+            {
+              "name": "Jamie Gittens",
               "status": "injured",
-              "reason": "Thigh Injury",
-              "expected_return": null
+              "reason": "Hamstring Injury",
+              "expected_return": "2026-05-31"
+            },
+            {
+              "name": "Jesse Derry",
+              "status": "injured",
+              "reason": "Head Injury",
+              "expected_return": "2026-05-25"
+            },
+            {
+              "name": "João Pedro",
+              "status": "doubtful",
+              "reason": "Hamstring Injury",
+              "expected_return": "2026-06-03"
+            },
+            {
+              "name": "Levi Colwill",
+              "status": "doubtful",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": "2026-05-19"
+            },
+            {
+              "name": "Mykhaylo Mudryk",
+              "status": "injured",
+              "reason": "doping_violation",
+              "expected_return": "2030-04-30"
+            },
+            {
+              "name": "Pedro Neto",
+              "status": "doubtful",
+              "reason": "Knock Injury",
+              "expected_return": "2026-05-30"
+            },
+            {
+              "name": "Reece James",
+              "status": "doubtful",
+              "reason": "Hamstring Injury",
+              "expected_return": "2026-05-19"
+            },
+            {
+              "name": "Robert Sánchez",
+              "status": "doubtful",
+              "reason": "Concussion",
+              "expected_return": "2026-05-31"
             }
           ],
           "away": [
             {
-              "name": "Abdoul Karim Traoré",
-              "status": "doubtful",
-              "reason": "Unknown",
-              "expected_return": null
+              "name": "Ben Davies",
+              "status": "injured",
+              "reason": "Ankle Injury",
+              "expected_return": "2026-05-31"
             },
             {
-              "name": "Noe Dussenne",
+              "name": "Dejan Kulusevski",
               "status": "injured",
               "reason": "Knee Injury",
-              "expected_return": "2026-05-24"
+              "expected_return": "2026-05-31"
             },
             {
-              "name": "Óscar Gil",
+              "name": "Dominic Solanke",
               "status": "injured",
-              "reason": "Unknown",
-              "expected_return": null
+              "reason": "Hamstring Injury",
+              "expected_return": "2026-05-31"
+            },
+            {
+              "name": "Guglielmo Vicario",
+              "status": "doubtful",
+              "reason": "Groin Injury",
+              "expected_return": "2026-06-03"
+            },
+            {
+              "name": "James Maddison",
+              "status": "injured",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": "2026-06-10"
+            },
+            {
+              "name": "Mohammed Kudus",
+              "status": "injured",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-07-20"
+            },
+            {
+              "name": "Xavi Simons",
+              "status": "injured",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": "2027-01-10"
             }
           ]
         },
         "venue": {
-          "id": 234,
-          "name": "Stade du Pays de Charleroi",
-          "city": "Charleroi",
-          "country": "Belgium",
-          "capacity": 15000,
-          "latitude": 50.414644,
-          "longitude": 4.453765,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 1939
+          "id": 13,
+          "name": "Stamford Bridge",
+          "city": "London",
+          "country": "England",
+          "capacity": 40341,
+          "latitude": 51.481579,
+          "longitude": -0.191094,
+          "pitch_x": 103,
+          "pitch_y": 67,
+          "built_year": 1877
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "A. Kinský",
+                "goals": 0,
+                "api_id": 1031251,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 734,
+                "yellow_card": false,
+                "jersey_number": "31",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "P. Porro",
+                "goals": 0,
+                "api_id": 913654,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 719,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. Danso",
+                "goals": 0,
+                "api_id": 794953,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 721,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. van de Ven",
+                "goals": 0,
+                "api_id": 998247,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 736,
+                "yellow_card": false,
+                "jersey_number": "37",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "D. Udogie",
+                "goals": 0,
+                "api_id": 983572,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 722,
+                "yellow_card": false,
+                "jersey_number": "13",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "R. Bentancur",
+                "goals": 0,
+                "api_id": 791190,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 723,
+                "yellow_card": false,
+                "jersey_number": "30",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Palhinha",
+                "goals": 0,
+                "api_id": 364612,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 737,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "R. Kolo Muani",
+                "goals": 0,
+                "api_id": 871706,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 728,
+                "yellow_card": false,
+                "jersey_number": "39",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "C. Gallagher",
+                "goals": 0,
+                "api_id": 904970,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 772,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Tel",
+                "goals": 0,
+                "api_id": 1048888,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 731,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "Richarlison",
+                "goals": 0,
+                "api_id": 840217,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 730,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": [
+              {
+                "name": "G. Vicario",
+                "goals": 0,
+                "api_id": 553606,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 718,
+                "yellow_card": false,
+                "jersey_number": "1",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "R. Drăguşin",
+                "goals": 0,
+                "api_id": 997103,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 5635,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "D. Spence",
+                "goals": 0,
+                "api_id": 945798,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 735,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "Souza",
+                "goals": 0,
+                "api_id": 1482340,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 211,
+                "yellow_card": false,
+                "jersey_number": "38",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "Y. Bissouma",
+                "goals": 0,
+                "api_id": 844842,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8590,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Maddison",
+                "goals": 0,
+                "api_id": 356398,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 30733,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Gray",
+                "goals": 0,
+                "api_id": 1142335,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 732,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "L. Bergvall",
+                "goals": 0,
+                "api_id": 1391251,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 726,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "P. Sarr",
+                "goals": 0,
+                "api_id": 1002711,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 724,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              }
+            ]
+          },
+          "home": {
+            "players": [
+              {
+                "name": "R. Sánchez",
+                "goals": 0,
+                "api_id": 920546,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 382,
+                "yellow_card": false,
+                "jersey_number": "1",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "W. Fofana",
+                "goals": 0,
+                "api_id": 923894,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 1344,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Acheampong",
+                "goals": 0,
+                "api_id": 1403050,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 399,
+                "yellow_card": false,
+                "jersey_number": "34",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Hato",
+                "goals": 0,
+                "api_id": 1153079,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 401,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Cucurella",
+                "goals": 0,
+                "api_id": 794939,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 386,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Santos",
+                "goals": 0,
+                "api_id": 1105779,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 388,
+                "yellow_card": false,
+                "jersey_number": "17",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Caicedo",
+                "goals": 0,
+                "api_id": 987650,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1345,
+                "yellow_card": false,
+                "jersey_number": "25",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "C. Palmer",
+                "goals": 0,
+                "api_id": 982780,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 395,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "E. Fernández",
+                "goals": 0,
+                "api_id": 974505,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 387,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "P. Neto",
+                "goals": 0,
+                "api_id": 879349,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 394,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "L. Delap",
+                "goals": 0,
+                "api_id": 997087,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 392,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "confirmed": true
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -482,78 +1273,75 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "366a8d",
-              "real": true,
-              "type": "long_sleeves",
-              "number": "c81e1e",
-              "sleeve": "396e93"
-            },
-            "player": {
-              "base": "3a422a",
+              "base": "fcae02",
               "real": true,
               "type": "short_sleeves",
-              "number": "a7ac43",
-              "sleeve": "21291b",
-              "stripes": "0f170b",
-              "sleevelong": "3a422b"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "000000",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "dbd236"
+              "number": "fff7fa",
+              "sleeve": "ce0083"
             },
             "player": {
               "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "171717",
-              "sleeve": "0a0400",
-              "stripes": "000000",
-              "sleevelong": "ffffff"
+              "number": "e1430e",
+              "sleeve": "ffffff"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "f57b00",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "fafafa",
+              "sleeve": "ff8d00"
+            },
+            "player": {
+              "base": "1532c1",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "1532c1",
+              "sleevelong": "1532c1"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 25,
-            "sentence": "Parfait Guiagon is Royal Charleroi's top scorer with 9 goals. Sory Kaba has scored 6 times for Leuven."
+            "type_id": 2,
+            "sentence": "Tottenham haven't won any of their last 5 games against Chelsea."
+          },
+          {
+            "type_id": 2,
+            "sentence": "When playing at home, Chelsea have not lost to Tottenham in their last 10 encounters."
           },
           {
             "type_id": 25,
-            "sentence": "Aiham Ousou has more yellow cards (11) than any other player at Royal Charleroi. Oscar Gil has collected 12 for Leuven."
-          },
-          {
-            "type_id": 1,
-            "sentence": "Royal Charleroi haven't lost in their last 4 games."
+            "sentence": "Joao Pedro is Chelsea's top scorer with 15 goals. Richarlison has scored 10 times for Tottenham."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Charleroi's on a roll, but Leuven just shocked Antwerp** — this could get spicy. 🔥\n\nCharleroi are riding **3 wins in their last 5** with clean sheets at home, while Leuven are wobbling at **1 win in 5** after that stunning 3-0 demolition of Royal Antwerp. The head-to-head is dead even, so expect a tight one.\n\nKey storylines:\n\n- **Charleroi's home fortress** has them unbeaten recently with **L. Blum** and **A. Colassin** clicking up front\n- **Leuven's fragility**: swinging wildly between a 3-0 win and a 1-2 loss, missing key defender **N. Dussenne** (knee)\n- **E. Camara** running midfield for Charleroi will be crucial to controlling tempo against an inconsistent visitor\n\nExpected lineups:\n\n- **RC Sporting Charleroi**: M. Koné, A. Ousou, C. Keita, M. Nzita, K. V. D. Kerkhof, A. Bernier, E. Camara, A. Scheidler, Y. Titraoui, A. Colassin, L. Blum\n- **Oud-Heverlee Leuven**: T. Leysen, E. Pletinckx, R. Nyakossi, T. Akimoto, T. Ominami, D. Opoku, H. Teklab, Y. Maziz\n\nPrediction:\n\n**Charleroi 2–1 Leuven**. Home side edges it on current form and depth; expect Leuven to steal one but not enough. 📊",
-          "generated_at": "2026-05-19T01:45:16.852019+00:00"
+          "text": "**Chelsea's wobble meets Spurs' uptick** — and you couldn't script a more interesting closing stretch battle. 🔥 Both sides hunting for momentum heading into the final week of the season.\n\nChelsea's picked up just one win in five, dropping points at home to City and getting torn apart by Nottingham Forest. Tottenham, meanwhile, have steadied the ship with two wins in their last five and a strong away record. The visitors have a **clear edge in form**.\n\nKey storylines:\n\n- **Chelsea's injury pile** keeps mounting — Estêvão, Gittens, Derry, and Mudryk all out leaves Mauricio Pochettino's attacking depth tested\n- **Tottenham's injury crisis is even worse**, missing Davies, Kulusevski, Maddison, Kudus, and Simons, yet they're still playing better football\n- **Chelsea's home record under pressure** — Stamford Bridge hasn't been a fortress lately, and Spurs smell blood\n\nExpected lineups:\n\n- **Chelsea**: R. Sánchez, M. Cucurella, M. Gusto, J. Hato, W. Fofana, M. Caicedo, E. Fernández, L. Delap, C. Palmer, J. Pedro, A. Garnacho\n- **Tottenham Hotspur**: A. Kinský, P. Porro, K. Danso, C. Romero, M. van de Ven, C. Gallagher, A. Gray, M. Tel, R. Bentancur, Richarlison, R. Kolo Muani\n\nPrediction:\n\n**Tottenham 1-1 Chelsea**. A coin flip, but Spurs' form gives them the slight lean despite injury chaos.",
+          "generated_at": "2026-05-19T01:45:39.402808+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-13T06:20:11.113690+04:00",
-      "prob_home_win": 58.91577517142851,
-      "prob_draw": 22.037082157194668,
-      "prob_away_win": 19.047142671376825,
-      "predicted_result": "H",
-      "expected_home_goals": 1.43458,
-      "expected_away_goals": 1.0781899999999998,
-      "prob_over_15": 77.81084176420154,
-      "prob_over_25": 63.48234709393371,
-      "prob_over_35": 24.730623503659068,
-      "prob_btts_yes": 56.53922471710226,
-      "confidence": 58.91577517142851,
+      "created_at": "2026-05-13T06:20:11.420515+04:00",
+      "prob_home_win": 29.10330297794792,
+      "prob_draw": 28.481858667244726,
+      "prob_away_win": 42.41483835480736,
+      "predicted_result": "A",
+      "expected_home_goals": 1.2127999999999999,
+      "expected_away_goals": 1.19085,
+      "prob_over_15": 66.91771540565095,
+      "prob_over_25": 44.0064309433196,
+      "prob_over_35": 29.450711789331656,
+      "prob_btts_yes": 53.11768203600633,
+      "confidence": 42.41483835480736,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
-      "favorite": "H",
-      "favorite_prob": 58.91577517142851,
+      "favorite": "A",
+      "favorite_prob": 42.41483835480736,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
