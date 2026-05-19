@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T10:24:54.565Z",
+  "generatedAt": "2026-05-19T13:41:57.537Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -68,24 +68,24 @@
       "round_number": 13,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 3.05,
-      "odds_draw": 2.93,
-      "odds_away": 2.46,
-      "odds_over_15": 1.49,
-      "odds_over_25": 2.46,
-      "odds_over_35": 4.77,
-      "odds_under_15": 2.52,
-      "odds_under_25": 1.5,
-      "odds_under_35": 1.17,
-      "odds_btts_yes": 2.04,
-      "odds_btts_no": 1.71,
+      "status": "finished",
+      "home_score": 1,
+      "away_score": 2,
+      "home_score_ht": 0,
+      "away_score_ht": 1,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 13.42,
+      "odds_draw": 4.02,
+      "odds_away": 1.94,
+      "odds_over_15": 1.45,
+      "odds_over_25": 2.29,
+      "odds_over_35": 4.88,
+      "odds_under_15": 2.58,
+      "odds_under_25": 1.81,
+      "odds_under_35": 1.16,
+      "odds_btts_yes": 2.07,
+      "odds_btts_no": 1.69,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -95,12 +95,23 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": 580,
-      "weather_code": null,
+      "weather_code": 2,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 1575,
+        "name": "He, Kai",
+        "country": "China",
+        "nationality_a3": "CHN",
+        "birthdate": null,
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": null,
+        "career_yellow_cards": null,
+        "career_red_cards": null
+      },
       "home_coach": {
         "id": 1379,
         "name": "Yu Genwei",
@@ -136,7 +147,254 @@
         "pitch_y": null,
         "built_year": 2006
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 49,
+          "fouls": 13,
+          "passes": 378,
+          "crosses": "4/11 (36%)",
+          "tackles": 10,
+          "dribbles": "1/8 (13%)",
+          "offsides": 1,
+          "throw_ins": 26,
+          "clearances": 31,
+          "free_kicks": 13,
+          "goal_kicks": 7,
+          "long_balls": "22/64 (34%)",
+          "recoveries": 42,
+          "big_chances": 2,
+          "high_claims": 1,
+          "tackles_won": 60,
+          "total_saves": 1,
+          "total_shots": 8,
+          "aerial_duels": "22/39 (56%)",
+          "corner_kicks": 1,
+          "dispossessed": 5,
+          "ground_duels": "24/55 (44%)",
+          "hit_woodwork": 0,
+          "yellow_cards": 2,
+          "blocked_shots": 1,
+          "interceptions": 6,
+          "total_tackles": 10,
+          "accurate_passes": 293,
+          "ball_possession": 49,
+          "shots_on_target": 3,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 5,
+          "shots_off_target": 4,
+          "final_third_phase": "58/102 (57%)",
+          "shots_outside_box": 3,
+          "big_chances_missed": 0,
+          "big_chances_scored": 2,
+          "final_third_entries": 59,
+          "errors_lead_to_a_goal": 0,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 13
+        },
+        "home": {
+          "duels": 51,
+          "fouls": 14,
+          "passes": 375,
+          "crosses": "4/19 (21%)",
+          "tackles": 12,
+          "dribbles": "7/14 (50%)",
+          "offsides": 1,
+          "throw_ins": 30,
+          "clearances": 25,
+          "free_kicks": 13,
+          "goal_kicks": 5,
+          "long_balls": "28/69 (41%)",
+          "recoveries": 45,
+          "big_chances": 1,
+          "high_claims": 0,
+          "tackles_won": 75,
+          "total_saves": 1,
+          "total_shots": 9,
+          "aerial_duels": "17/39 (44%)",
+          "corner_kicks": 4,
+          "dispossessed": 3,
+          "ground_duels": "31/55 (56%)",
+          "hit_woodwork": 1,
+          "yellow_cards": 2,
+          "blocked_shots": 2,
+          "interceptions": 5,
+          "total_tackles": 12,
+          "accurate_passes": 290,
+          "ball_possession": 51,
+          "shots_on_target": 3,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 5,
+          "shots_off_target": 4,
+          "final_third_phase": "58/99 (59%)",
+          "shots_outside_box": 4,
+          "big_chances_missed": 1,
+          "big_chances_scored": 0,
+          "final_third_entries": 63,
+          "errors_lead_to_a_goal": 1,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 11
+        },
+        "first_half": {
+          "away": {
+            "duels": 49,
+            "fouls": 4,
+            "passes": 238,
+            "crosses": "2/6 (33%)",
+            "tackles": 7,
+            "dribbles": "1/4 (25%)",
+            "offsides": 0,
+            "throw_ins": 19,
+            "clearances": 13,
+            "free_kicks": 4,
+            "goal_kicks": 1,
+            "long_balls": "9/25 (36%)",
+            "recoveries": 27,
+            "big_chances": 1,
+            "tackles_won": 43,
+            "total_saves": 0,
+            "total_shots": 6,
+            "aerial_duels": "7/13 (54%)",
+            "corner_kicks": 1,
+            "dispossessed": 2,
+            "ground_duels": "12/26 (46%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 4,
+            "total_tackles": 7,
+            "accurate_passes": 196,
+            "ball_possession": 52,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 4,
+            "shots_off_target": 4,
+            "shots_outside_box": 2,
+            "big_chances_missed": 0,
+            "big_chances_scored": 1,
+            "final_third_entries": 34,
+            "fouled_in_final_third": 0
+          },
+          "home": {
+            "duels": 51,
+            "fouls": 4,
+            "passes": 216,
+            "crosses": "1/5 (20%)",
+            "tackles": 5,
+            "dribbles": "5/10 (50%)",
+            "offsides": 0,
+            "throw_ins": 17,
+            "clearances": 17,
+            "free_kicks": 4,
+            "goal_kicks": 4,
+            "long_balls": "15/40 (38%)",
+            "recoveries": 25,
+            "big_chances": 0,
+            "tackles_won": 100,
+            "total_saves": 1,
+            "total_shots": 2,
+            "aerial_duels": "6/13 (46%)",
+            "corner_kicks": 1,
+            "dispossessed": 2,
+            "ground_duels": "14/26 (54%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 1,
+            "interceptions": 4,
+            "total_tackles": 5,
+            "accurate_passes": 167,
+            "ball_possession": 48,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 0,
+            "shots_off_target": 1,
+            "shots_outside_box": 2,
+            "big_chances_missed": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 31,
+            "fouled_in_final_third": 0
+          }
+        },
+        "second_half": {
+          "away": {
+            "duels": 49,
+            "fouls": 9,
+            "passes": 140,
+            "crosses": "2/5 (40%)",
+            "tackles": 3,
+            "dribbles": "0/4 (0%)",
+            "offsides": 1,
+            "throw_ins": 7,
+            "clearances": 18,
+            "free_kicks": 9,
+            "goal_kicks": 6,
+            "long_balls": "13/39 (33%)",
+            "recoveries": 15,
+            "big_chances": 1,
+            "tackles_won": 100,
+            "total_saves": 1,
+            "total_shots": 2,
+            "aerial_duels": "15/26 (58%)",
+            "corner_kicks": 0,
+            "dispossessed": 3,
+            "ground_duels": "12/29 (41%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 1,
+            "blocked_shots": 1,
+            "interceptions": 2,
+            "total_tackles": 3,
+            "accurate_passes": 97,
+            "ball_possession": 45,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 1,
+            "shots_off_target": 0,
+            "shots_outside_box": 1,
+            "big_chances_missed": 0,
+            "big_chances_scored": 1,
+            "final_third_entries": 25,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 51,
+            "fouls": 10,
+            "passes": 159,
+            "crosses": "3/14 (21%)",
+            "tackles": 7,
+            "dribbles": "2/4 (50%)",
+            "offsides": 1,
+            "throw_ins": 13,
+            "clearances": 8,
+            "free_kicks": 9,
+            "goal_kicks": 1,
+            "long_balls": "13/29 (45%)",
+            "recoveries": 20,
+            "big_chances": 1,
+            "tackles_won": 57,
+            "total_saves": 0,
+            "total_shots": 7,
+            "aerial_duels": "11/26 (42%)",
+            "corner_kicks": 3,
+            "dispossessed": 1,
+            "ground_duels": "17/29 (59%)",
+            "hit_woodwork": 1,
+            "yellow_cards": 2,
+            "blocked_shots": 1,
+            "interceptions": 1,
+            "total_tackles": 7,
+            "accurate_passes": 123,
+            "ball_possession": 55,
+            "shots_on_target": 3,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 5,
+            "shots_off_target": 3,
+            "shots_outside_box": 2,
+            "big_chances_missed": 1,
+            "big_chances_scored": 0,
+            "final_third_entries": 32,
+            "fouled_in_final_third": 2
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
@@ -187,7 +445,32 @@
           "sentence": "Tianjin Jinmen Tiger's home record this season: 0-3-2."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 72,
+          "home": 71
+        },
+        "ball_safe": {
+          "away": 65,
+          "home": 65
+        },
+        "attack_pct": {
+          "away": 32,
+          "home": 32
+        },
+        "ball_safe_pct": {
+          "away": 44,
+          "home": 33
+        },
+        "dangerous_attack": {
+          "away": 30,
+          "home": 39
+        },
+        "dangerous_attack_pct": {
+          "away": 24,
+          "home": 35
+        }
+      },
       "ai_preview": {
         "text": "**Tianjin's home turf against a streaky Henan side—this one's wide open.** 🎲 Both teams are running hot and cold, and the TEDA Stadium could go either way.\n\nTianjin's been leaky lately (mixed D form), but they absolutely own the head-to-head record at 5 wins in the last six. Henan grabbed a win last time out but just got hammered 3-0 by Chengdu, so consistency is the real problem here.\n\nKey storylines:\n\n- **Tianjin's home fortress** vs a Henan team that's unpredictable on the road\n- **Quiles and A. Quiles** leading the Tianjin attack against a Henan backline featuring **Lucão and I. Maidana**\n- Henan's midfield (**S. Wang, Y. Zhong**) needs to wrestle control or Tianjin's press will suffocate them\n\nExpected lineups:\n\n- **Tianjin Jinmen Tiger**: Y. Bingliang, D. Ba, F. Yang, A. C. Querejeta, X. Wang, X. Weijun, B. Xadas, J. G. Ciscar, J. Huang, Q. Wang, A. Quiles\n- **Henan FC**: G. Wang, Lucão, I. Maidana, H. Ruifeng, Y. Shinar, S. Wang, Y. Zhong, Gustavo, B. Nazário, J. Mboula, C. Yin\n\nPrediction:\n\n**2-1 Tianjin.** Home edge and that brutal H2H record push Tianjin over the line, but Henan stays dangerous.",
         "generated_at": "2026-05-19T02:45:13.833756+00:00"
@@ -195,53 +478,65 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4187,
+      "id": 4194,
       "event": {
-        "id": 205782,
+        "id": 9166,
         "league": {
-          "id": 52,
-          "name": "Chinese Super League",
-          "country": "China",
+          "id": 14,
+          "name": "Pro League",
+          "country": "Belgium",
           "is_women": false,
           "current_season": {
-            "id": 1040,
-            "name": "Chinese Super League 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
+            "id": 338,
+            "name": "Pro League 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
           }
         },
         "season": {
-          "id": 1040,
-          "name": "Chinese Super League 2026",
-          "year": 2026
+          "id": 338,
+          "name": "Pro League 25/26",
+          "year": 2025
         },
-        "home_team": "Tianjin Jinmen Tiger",
-        "away_team": "Henan FC",
+        "home_team": "RC Sporting Charleroi",
+        "away_team": "Oud-Heverlee Leuven",
         "home_team_obj": {
-          "id": 2033,
-          "name": "Tianjin Jinmen Tiger",
-          "short_name": "Jinmen Tiger",
-          "country": "China",
+          "id": 243,
+          "name": "RC Sporting Charleroi",
+          "short_name": "Charleroi",
+          "country": "Belgium",
           "coach": {
-            "name": "Yu Genwei",
-            "shortName": "Y. Genwei"
+            "name": "Mario Kohnen",
+            "shortName": "M. Kohnen"
           },
-          "venue": null
+          "venue": {
+            "id": 234,
+            "name": "Stade du Pays de Charleroi",
+            "city": "Charleroi",
+            "country": "Belgium",
+            "capacity": 15000
+          }
         },
         "away_team_obj": {
-          "id": 2038,
-          "name": "Henan FC",
-          "short_name": "Henan",
-          "country": "China",
+          "id": 242,
+          "name": "Oud-Heverlee Leuven",
+          "short_name": "OH Leuven",
+          "country": "Belgium",
           "coach": {
-            "name": "Daniel Ramos",
-            "shortName": "D. Ramos"
+            "name": "Felice Mazzu",
+            "shortName": "F. Mazzu"
           },
-          "venue": null
+          "venue": {
+            "id": 233,
+            "name": "The King Power AT Den Dreef Stadium",
+            "city": "Heverlee",
+            "country": "Belgium",
+            "capacity": 10020
+          }
         },
-        "event_date": "2026-05-19T15:35:00+04:00",
-        "round_number": 13,
+        "event_date": "2026-05-19T22:30:00+04:00",
+        "round_number": 9,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -251,17 +546,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 3.05,
-        "odds_draw": 2.93,
-        "odds_away": 2.46,
-        "odds_over_15": 1.49,
-        "odds_over_25": 2.46,
-        "odds_over_35": 4.77,
-        "odds_under_15": 2.52,
-        "odds_under_25": 1.5,
-        "odds_under_35": 1.17,
-        "odds_btts_yes": 2.04,
-        "odds_btts_no": 1.71,
+        "odds_home": 1.63,
+        "odds_draw": 4.15,
+        "odds_away": 4.85,
+        "odds_over_15": 1.16,
+        "odds_over_25": 1.53,
+        "odds_over_35": 2.3,
+        "odds_under_15": 4.9,
+        "odds_under_25": 2.41,
+        "odds_under_35": 1.58,
+        "odds_btts_yes": 1.58,
+        "odds_btts_no": 2.27,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -270,47 +565,105 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 580,
+        "travel_distance_km": 53,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
-        "home_coach": {
-          "id": 1379,
-          "name": "Yu Genwei",
-          "short_name": "Y. Genwei",
-          "country": "China",
-          "profile": "balanced",
-          "preferred_formation": "5-4-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+        "referee": {
+          "id": 255,
+          "name": "Bert Put",
+          "country": "Belgium",
+          "nationality_a3": "",
+          "birthdate": null,
+          "yellowCards": 677,
+          "redCards": 21,
+          "career_games": null,
+          "career_yellow_cards": 664,
+          "career_red_cards": 21
         },
-        "away_coach": {
-          "id": 1384,
-          "name": "Daniel Ramos",
-          "short_name": "D. Ramos",
-          "country": "Portugal",
+        "home_coach": {
+          "id": 426,
+          "name": "Mario Kohnen",
+          "short_name": "M. Kohnen",
+          "country": "",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.5252232714409772,
+          "defensive_line": "mid",
+          "top_styles": [
+            "cross_pray",
+            "wing_play"
+          ]
         },
-        "unavailable_players": null,
+        "away_coach": {
+          "id": 279,
+          "name": "Felice Mazzu",
+          "short_name": "F. Mazzu",
+          "country": "Belgium",
+          "profile": "balanced",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.6216281681455735,
+          "defensive_line": "mid",
+          "top_styles": [
+            "set_piece",
+            "anti_football"
+          ]
+        },
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Amine Boukamir",
+              "status": "injured",
+              "reason": "Ankle Injury",
+              "expected_return": null
+            },
+            {
+              "name": "Massamba Sow",
+              "status": "injured",
+              "reason": "Achilles Tendon Rupture",
+              "expected_return": null
+            },
+            {
+              "name": "Parfait Guiagon",
+              "status": "injured",
+              "reason": "Thigh Injury",
+              "expected_return": null
+            }
+          ],
+          "away": [
+            {
+              "name": "Abdoul Karim Traoré",
+              "status": "doubtful",
+              "reason": "Unknown",
+              "expected_return": null
+            },
+            {
+              "name": "Noe Dussenne",
+              "status": "injured",
+              "reason": "Knee Injury",
+              "expected_return": "2026-05-24"
+            },
+            {
+              "name": "Óscar Gil",
+              "status": "injured",
+              "reason": "Unknown",
+              "expected_return": null
+            }
+          ]
+        },
         "venue": {
-          "id": 1240,
-          "name": "TEDA Football Stadium",
-          "city": "Tianjin",
-          "country": "China",
-          "capacity": 35680,
-          "latitude": 39.122603,
-          "longitude": 117.198029,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": 2006
+          "id": 234,
+          "name": "Stade du Pays de Charleroi",
+          "city": "Charleroi",
+          "country": "Belgium",
+          "capacity": 15000,
+          "latitude": 50.414644,
+          "longitude": 4.453765,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 1939
         },
         "incidents": null,
         "live_stats": null,
@@ -322,76 +675,78 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "1d1d1d",
+              "base": "366a8d",
               "real": true,
-              "type": "short_sleeves",
-              "number": "f8f1f1",
-              "sleeve": "4f5552"
+              "type": "long_sleeves",
+              "number": "c81e1e",
+              "sleeve": "396e93"
             },
             "player": {
-              "base": "d90000",
+              "base": "3a422a",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "334840",
-              "sleevelong": "d90000"
+              "number": "a7ac43",
+              "sleeve": "21291b",
+              "stripes": "0f170b",
+              "sleevelong": "3a422b"
             }
           },
           "home": {
             "GK": {
-              "base": "249461",
+              "base": "000000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "249461"
+              "sleeve": "dbd236"
             },
             "player": {
-              "base": "7f65bc",
+              "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "ddc364",
-              "sleeve": "4d3286",
-              "sleevelong": "7f65bc"
+              "number": "171717",
+              "sleeve": "0a0400",
+              "stripes": "000000",
+              "sleevelong": "ffffff"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 2,
-            "sentence": "Henan haven't won any of their last 4 games against Tianjin Jinmen Tiger."
+            "type_id": 25,
+            "sentence": "Parfait Guiagon is Royal Charleroi's top scorer with 9 goals. Sory Kaba has scored 6 times for Leuven."
           },
           {
-            "type_id": 2,
-            "sentence": "When playing at home, Tianjin Jinmen Tiger have not lost to Henan in their last 9 encounters."
+            "type_id": 25,
+            "sentence": "Aiham Ousou has more yellow cards (11) than any other player at Royal Charleroi. Oscar Gil has collected 12 for Leuven."
           },
           {
-            "type_id": 24,
-            "sentence": "Tianjin Jinmen Tiger's home record this season: 0-3-2."
+            "type_id": 1,
+            "sentence": "Royal Charleroi haven't lost in their last 4 games."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Tianjin's home turf against a streaky Henan side—this one's wide open.** 🎲 Both teams are running hot and cold, and the TEDA Stadium could go either way.\n\nTianjin's been leaky lately (mixed D form), but they absolutely own the head-to-head record at 5 wins in the last six. Henan grabbed a win last time out but just got hammered 3-0 by Chengdu, so consistency is the real problem here.\n\nKey storylines:\n\n- **Tianjin's home fortress** vs a Henan team that's unpredictable on the road\n- **Quiles and A. Quiles** leading the Tianjin attack against a Henan backline featuring **Lucão and I. Maidana**\n- Henan's midfield (**S. Wang, Y. Zhong**) needs to wrestle control or Tianjin's press will suffocate them\n\nExpected lineups:\n\n- **Tianjin Jinmen Tiger**: Y. Bingliang, D. Ba, F. Yang, A. C. Querejeta, X. Wang, X. Weijun, B. Xadas, J. G. Ciscar, J. Huang, Q. Wang, A. Quiles\n- **Henan FC**: G. Wang, Lucão, I. Maidana, H. Ruifeng, Y. Shinar, S. Wang, Y. Zhong, Gustavo, B. Nazário, J. Mboula, C. Yin\n\nPrediction:\n\n**2-1 Tianjin.** Home edge and that brutal H2H record push Tianjin over the line, but Henan stays dangerous.",
-          "generated_at": "2026-05-19T02:45:13.833756+00:00"
+          "text": "**Charleroi's on a roll, but Leuven just shocked Antwerp** — this could get spicy. 🔥\n\nCharleroi are riding **3 wins in their last 5** with clean sheets at home, while Leuven are wobbling at **1 win in 5** after that stunning 3-0 demolition of Royal Antwerp. The head-to-head is dead even, so expect a tight one.\n\nKey storylines:\n\n- **Charleroi's home fortress** has them unbeaten recently with **L. Blum** and **A. Colassin** clicking up front\n- **Leuven's fragility**: swinging wildly between a 3-0 win and a 1-2 loss, missing key defender **N. Dussenne** (knee)\n- **E. Camara** running midfield for Charleroi will be crucial to controlling tempo against an inconsistent visitor\n\nExpected lineups:\n\n- **RC Sporting Charleroi**: M. Koné, A. Ousou, C. Keita, M. Nzita, K. V. D. Kerkhof, A. Bernier, E. Camara, A. Scheidler, Y. Titraoui, A. Colassin, L. Blum\n- **Oud-Heverlee Leuven**: T. Leysen, E. Pletinckx, R. Nyakossi, T. Akimoto, T. Ominami, D. Opoku, H. Teklab, Y. Maziz\n\nPrediction:\n\n**Charleroi 2–1 Leuven**. Home side edges it on current form and depth; expect Leuven to steal one but not enough. 📊",
+          "generated_at": "2026-05-19T01:45:16.852019+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-13T06:20:08.325975+04:00",
-      "prob_home_win": 37.937024032027495,
-      "prob_draw": 38.166814143660304,
-      "prob_away_win": 23.896161824312202,
-      "predicted_result": "D",
-      "expected_home_goals": 1.6,
-      "expected_away_goals": 1.3,
-      "prob_over_15": 63.21461319071376,
-      "prob_over_25": 40.86526858421837,
-      "prob_over_35": 29.60022563425513,
-      "prob_btts_yes": 54.39862476062443,
-      "confidence": 38.166814143660304,
+      "created_at": "2026-05-13T06:20:11.113690+04:00",
+      "prob_home_win": 58.91577517142851,
+      "prob_draw": 22.037082157194668,
+      "prob_away_win": 19.047142671376825,
+      "predicted_result": "H",
+      "expected_home_goals": 1.43458,
+      "expected_away_goals": 1.0781899999999998,
+      "prob_over_15": 77.81084176420154,
+      "prob_over_25": 63.48234709393371,
+      "prob_over_35": 24.730623503659068,
+      "prob_btts_yes": 56.53922471710226,
+      "confidence": 58.91577517142851,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 37.937024032027495,
+      "favorite_prob": 58.91577517142851,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
