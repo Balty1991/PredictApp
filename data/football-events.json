@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-20T22:26:09.251Z",
+  "generatedAt": "2026-05-20T23:50:13.430Z",
   "count": 50,
   "items": [
     {
-      "id": 9433,
-      "status": "1st_half",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Nacional",
-      "awayTeam": "Universitario de Deportes",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9320,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Santos",
@@ -26,11 +15,22 @@
     },
     {
       "id": 9321,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Olimpia",
       "awayTeam": "Vasco da Gama",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9433,
+      "status": "2nd_half",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Nacional",
+      "awayTeam": "Universitario de Deportes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -58,23 +58,23 @@
       "marketCount": 0
     },
     {
+      "id": 9436,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "LDU",
+      "awayTeam": "CA Lanús",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9324,
       "status": "notstarted",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "River Plate",
       "awayTeam": "Red Bull Bragantino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9435,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Palmeiras",
-      "awayTeam": "Cerro Porteño",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -91,12 +91,12 @@
       "marketCount": 0
     },
     {
-      "id": 9436,
+      "id": 9435,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
-      "homeTeam": "LDU",
-      "awayTeam": "CA Lanús",
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Cerro Porteño",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,23 +124,23 @@
       "marketCount": 0
     },
     {
-      "id": 207474,
-      "status": "notstarted",
-      "league": "Coupe de Tunisie",
-      "country": "Tunisia",
-      "homeTeam": "BS Bouhajla",
-      "awayTeam": "Espérance Tunis",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205208,
       "status": "notstarted",
       "league": "Coupe de Tunisie",
       "country": "Tunisia",
       "homeTeam": "PS Sakiet Eddaïer",
       "awayTeam": "JS Omrane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207474,
+      "status": "notstarted",
+      "league": "Coupe de Tunisie",
+      "country": "Tunisia",
+      "homeTeam": "BS Bouhajla",
+      "awayTeam": "Espérance Tunis",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,6 +212,28 @@
       "marketCount": 0
     },
     {
+      "id": 4820,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Fayha",
+      "awayTeam": "Al-Hilal",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4824,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Kholood",
+      "awayTeam": "Al-Fateh",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 4828,
       "status": "notstarted",
       "league": "Saudi Pro League",
@@ -234,45 +256,12 @@
       "marketCount": 0
     },
     {
-      "id": 4820,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Fayha",
-      "awayTeam": "Al-Hilal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4821,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Hazem",
       "awayTeam": "Al-Taawoun",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4822,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Ittihad",
-      "awayTeam": "Al-Qadsiah",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4824,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Kholood",
-      "awayTeam": "Al-Fateh",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -289,34 +278,23 @@
       "marketCount": 0
     },
     {
+      "id": 4822,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Ittihad",
+      "awayTeam": "Al-Qadsiah",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207452,
       "status": "notstarted",
       "league": "Super League",
       "country": "Switzerland",
       "homeTeam": "Grasshopper Club Zürich",
       "awayTeam": "FC Aarau",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207460,
-      "status": "notstarted",
-      "league": "Bundesliga",
-      "country": "Germany",
-      "homeTeam": "VfL Wolfsburg",
-      "awayTeam": "SC Paderborn 07",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9169,
-      "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "RSC Anderlecht",
-      "awayTeam": "Sint-Truidense VV",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -339,6 +317,28 @@
       "country": "Belgium",
       "homeTeam": "KAA Gent",
       "awayTeam": "Royale Union Saint-Gilloise",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9169,
+      "status": "notstarted",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "RSC Anderlecht",
+      "awayTeam": "Sint-Truidense VV",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207460,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "SC Paderborn 07",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,17 +410,6 @@
       "marketCount": 0
     },
     {
-      "id": 9441,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Peñarol",
-      "awayTeam": "Corinthians",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9328,
       "status": "notstarted",
       "league": "Copa Sudamericana",
@@ -443,12 +432,12 @@
       "marketCount": 0
     },
     {
-      "id": 207472,
+      "id": 9441,
       "status": "notstarted",
-      "league": "Liga MX Clausura",
-      "country": "Mexico",
-      "homeTeam": "Cruz Azul",
-      "awayTeam": "Pumas UNAM",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Peñarol",
+      "awayTeam": "Corinthians",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -460,6 +449,17 @@
       "country": "South America",
       "homeTeam": "Macará",
       "awayTeam": "Alianza Atlético de Sullana",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207472,
+      "status": "notstarted",
+      "league": "Liga MX Clausura",
+      "country": "Mexico",
+      "homeTeam": "Cruz Azul",
+      "awayTeam": "Pumas UNAM",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -487,23 +487,23 @@
       "marketCount": 0
     },
     {
-      "id": 203021,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "FK Spartak Varna",
-      "awayTeam": "Lokomotiv Sofia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203019,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Botev Vratsa",
       "awayTeam": "Beroe Stara Zagora",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 203021,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "FK Spartak Varna",
+      "awayTeam": "Lokomotiv Sofia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
