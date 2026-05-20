@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T20:36:48.722Z",
+  "generatedAt": "2026-05-20T22:26:09.250Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,557 +21,457 @@
   ],
   "samples": {
     "event": {
-      "id": 4825,
+      "id": 9433,
       "league": {
-        "id": 17,
-        "name": "Saudi Pro League",
-        "country": "Saudi Arabia",
+        "id": 32,
+        "name": "Copa Libertadores",
+        "country": "South America",
         "is_women": false,
         "current_season": {
-          "id": 339,
-          "name": "Saudi Pro League 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 96,
+          "name": "CONMEBOL Libertadores 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 339,
-        "name": "Saudi Pro League 25/26",
-        "year": 2025
+        "id": 96,
+        "name": "CONMEBOL Libertadores 2026",
+        "year": 2026
       },
-      "home_team": "Al-Najma SC",
-      "away_team": "Al-Shabab",
+      "home_team": "Nacional",
+      "away_team": "Universitario de Deportes",
       "home_team_obj": {
-        "id": 273,
-        "name": "Al-Najma SC",
-        "short_name": "Al-Najma",
-        "country": "Saudi Arabia",
+        "id": 784,
+        "name": "Nacional",
+        "short_name": "Nacional",
+        "country": "Uruguay",
         "coach": {
-          "name": "Nestor El Maestro",
-          "shortName": "N. E. Maestro"
+          "name": "Jorge Bava",
+          "shortName": "J. Bava"
         },
         "venue": {
-          "id": 261,
-          "name": "Al-Najma Club Stadium",
-          "city": "Unaizah",
-          "country": "Saudi Arabia",
-          "capacity": 3000
+          "id": 583,
+          "name": "Gran Parque Central",
+          "city": "Montevideo",
+          "country": "Uruguay",
+          "capacity": 37000
         }
       },
       "away_team_obj": {
-        "id": 264,
-        "name": "Al-Shabab",
-        "short_name": "Al-Shabab",
-        "country": "Saudi Arabia",
+        "id": 782,
+        "name": "Universitario de Deportes",
+        "short_name": "Universitario",
+        "country": "Peru",
         "coach": {
-          "name": "Noureddine Zekri",
-          "shortName": "N. Zekri"
+          "name": "Héctor Cúper",
+          "shortName": "H. Cúper"
         },
         "venue": {
-          "id": 253,
-          "name": "SHG Arena",
-          "city": "Riyadh",
-          "country": "Saudi Arabia",
-          "capacity": 13536
+          "id": 581,
+          "name": "Estadio Monumental",
+          "city": "Lima",
+          "country": "Peru",
+          "capacity": 80093
         }
       },
-      "event_date": "2026-05-20T22:00:00+04:00",
-      "round_number": 34,
+      "event_date": "2026-05-21T02:00:00+04:00",
+      "round_number": 5,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 1,
+      "status": "1st_half",
+      "home_score": 0,
       "away_score": 0,
-      "home_score_ht": 1,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 4.69,
-      "odds_draw": 5.18,
-      "odds_away": 8.36,
-      "odds_over_15": 2.03,
-      "odds_over_25": 2.25,
-      "odds_over_35": 3.17,
-      "odds_under_15": 4.81,
-      "odds_under_25": 2.42,
-      "odds_under_35": 1.56,
-      "odds_btts_yes": 2.37,
-      "odds_btts_no": 2.17,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": 25,
+      "period": "1T",
+      "odds_home": 1.64,
+      "odds_draw": 2.84,
+      "odds_away": 3.67,
+      "odds_over_15": 1.31,
+      "odds_over_25": 1.83,
+      "odds_over_35": 3.62,
+      "odds_under_15": 2.6,
+      "odds_under_25": 1.49,
+      "odds_under_35": 1.22,
+      "odds_btts_yes": 1.73,
+      "odds_btts_no": 1.58,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 1.33,
-      "away_xg_live": 0.91,
+      "home_xg_live": 0.1,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 2,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 794,
-        "name": "Sami Ahmed Al-Jurays",
-        "country": "Saudi Arabia",
-        "nationality_a3": "KSA",
+        "id": 522,
+        "name": "Dario Herrera",
+        "country": "Argentina",
+        "nationality_a3": "ARG",
         "birthdate": null,
-        "yellowCards": 0,
-        "redCards": 0,
+        "yellowCards": 2524,
+        "redCards": 99,
         "career_games": null,
-        "career_yellow_cards": 108,
-        "career_red_cards": 6
+        "career_yellow_cards": 2502,
+        "career_red_cards": 96
       },
       "home_coach": {
-        "id": 198,
-        "name": "Nestor El Maestro",
-        "short_name": "N. E. Maestro",
-        "country": "England",
-        "profile": "defensive",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.4472308603672749,
-        "defensive_line": "mid",
-        "top_styles": [
-          "park_the_bus",
-          "terrorist_fb"
-        ]
+        "id": 509,
+        "name": "Jorge Bava",
+        "short_name": "J. Bava",
+        "country": "Uruguay",
+        "profile": "balanced",
+        "preferred_formation": "3-4-1-2",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 432,
-        "name": "Noureddine Zekri",
-        "short_name": "N. Zekri",
-        "country": "Algeria",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5095751789161812,
-        "defensive_line": "mid",
-        "top_styles": [
-          "park_the_bus",
-          "counter"
-        ]
+        "id": 1574,
+        "name": "Héctor Cúper",
+        "short_name": "H. Cúper",
+        "country": "Argentina",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Gonçalo Rodrigues",
-            "status": "suspended",
-            "reason": "red_card_suspension",
-            "expected_return": "2026-05-20"
+            "name": "Lucas Rodríguez",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
           }
         ],
-        "away": []
+        "away": [
+          {
+            "name": "Andy Polo",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Lisandro Alzugaray",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Martín Pérez Guedes",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          },
+          {
+            "name": "Matías Di Benedetto",
+            "status": "injured",
+            "reason": "",
+            "expected_return": null
+          }
+        ]
       },
       "venue": {
-        "id": 255,
-        "name": "Alinma Stadium",
-        "city": "Buraidah",
-        "country": "Saudi Arabia",
-        "capacity": 64040,
-        "latitude": 26.378889,
-        "longitude": 43.947778,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": 1983
+        "id": 583,
+        "name": "Gran Parque Central",
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "capacity": 37000,
+        "latitude": -34.884377,
+        "longitude": -56.158772,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 1900
       },
       "live_stats": {
         "away": {
-          "duels": 53,
-          "fouls": 10,
-          "passes": 442,
-          "crosses": "5/25 (20%)",
-          "tackles": 19,
-          "dribbles": "15/33 (45%)",
-          "offsides": 3,
-          "big_saves": 1,
-          "throw_ins": 18,
-          "clearances": 20,
-          "free_kicks": 13,
-          "goal_kicks": 6,
-          "long_balls": "25/41 (61%)",
-          "recoveries": 37,
-          "big_chances": 1,
-          "high_claims": 0,
-          "tackles_won": 63,
-          "total_saves": 3,
-          "total_shots": 7,
-          "aerial_duels": "10/18 (56%)",
-          "corner_kicks": 9,
-          "dispossessed": 6,
-          "ground_duels": "45/85 (53%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 2,
-          "blocked_shots": 1,
-          "interceptions": 5,
-          "total_tackles": 19,
-          "expected_goals": 0.91,
-          "accurate_passes": 384,
-          "ball_possession": 64,
-          "goals_prevented": -0.01,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 5,
-          "shots_off_target": 3,
-          "final_third_phase": "142/184 (77%)",
-          "shots_outside_box": 2,
-          "big_chances_missed": 1,
-          "big_chances_scored": 0,
-          "final_third_entries": 64,
-          "fouled_in_final_third": 4,
-          "touches_in_penalty_area": 25
+          "duels": 50,
+          "fouls": 1,
+          "passes": 98,
+          "crosses": "0/0 (0%)",
+          "tackles": 10,
+          "dribbles": "1/5 (20%)",
+          "throw_ins": 5,
+          "clearances": 8,
+          "free_kicks": 1,
+          "goal_kicks": 1,
+          "long_balls": "7/28 (25%)",
+          "recoveries": 17,
+          "tackles_won": 80,
+          "total_saves": 1,
+          "total_shots": 0,
+          "aerial_duels": "1/4 (25%)",
+          "corner_kicks": 0,
+          "dispossessed": 2,
+          "ground_duels": "12/22 (55%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "interceptions": 2,
+          "total_tackles": 10,
+          "expected_goals": 0,
+          "accurate_passes": 66,
+          "ball_possession": 45,
+          "goals_prevented": 0.04,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "7/17 (41%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 14,
+          "fouled_in_final_third": 0,
+          "touches_in_penalty_area": 0
         },
         "home": {
-          "duels": 47,
-          "fouls": 13,
-          "passes": 244,
-          "crosses": "2/15 (13%)",
-          "tackles": 24,
-          "dribbles": "6/11 (55%)",
-          "offsides": 2,
-          "big_saves": 0,
-          "throw_ins": 11,
-          "clearances": 28,
-          "free_kicks": 9,
-          "goal_kicks": 8,
-          "long_balls": "18/42 (43%)",
-          "recoveries": 45,
-          "big_chances": 2,
-          "high_claims": 3,
-          "tackles_won": 42,
-          "total_saves": 3,
-          "total_shots": 12,
-          "aerial_duels": "8/18 (44%)",
-          "corner_kicks": 8,
-          "dispossessed": 14,
-          "ground_duels": "40/85 (47%)",
+          "duels": 50,
+          "fouls": 1,
+          "passes": 108,
+          "crosses": "3/11 (27%)",
+          "tackles": 6,
+          "dribbles": "3/9 (33%)",
+          "throw_ins": 4,
+          "clearances": 1,
+          "free_kicks": 1,
+          "goal_kicks": 1,
+          "long_balls": "4/13 (31%)",
+          "recoveries": 19,
+          "tackles_won": 83,
+          "total_saves": 0,
+          "total_shots": 3,
+          "aerial_duels": "3/4 (75%)",
+          "corner_kicks": 2,
+          "dispossessed": 4,
+          "ground_duels": "10/22 (45%)",
           "hit_woodwork": 0,
-          "yellow_cards": 6,
-          "blocked_shots": 4,
-          "interceptions": 12,
-          "total_tackles": 24,
-          "expected_goals": 1.33,
-          "accurate_passes": 190,
-          "ball_possession": 36,
-          "goals_prevented": 0.81,
-          "shots_on_target": 4,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 9,
-          "shots_off_target": 4,
-          "final_third_phase": "49/73 (67%)",
-          "shots_outside_box": 3,
-          "big_chances_missed": 1,
-          "big_chances_scored": 1,
-          "final_third_entries": 43,
-          "fouled_in_final_third": 4,
-          "touches_in_penalty_area": 20
+          "blocked_shots": 1,
+          "interceptions": 3,
+          "total_tackles": 6,
+          "expected_goals": 0.1,
+          "accurate_passes": 84,
+          "ball_possession": 55,
+          "goals_prevented": 0,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 2,
+          "shots_off_target": 1,
+          "final_third_phase": "24/37 (65%)",
+          "shots_outside_box": 1,
+          "final_third_entries": 19,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 10
         },
         "first_half": {
           "away": {
-            "duels": 55,
-            "fouls": 6,
-            "passes": 228,
-            "crosses": "4/11 (36%)",
-            "tackles": 11,
-            "dribbles": "8/19 (42%)",
-            "offsides": 1,
-            "throw_ins": 8,
-            "clearances": 7,
-            "free_kicks": 6,
-            "goal_kicks": 4,
-            "long_balls": "12/19 (63%)",
-            "recoveries": 14,
-            "big_chances": 1,
-            "tackles_won": 64,
+            "duels": 50,
+            "fouls": 1,
+            "passes": 98,
+            "crosses": "0/0 (0%)",
+            "tackles": 10,
+            "dribbles": "1/5 (20%)",
+            "throw_ins": 5,
+            "clearances": 8,
+            "free_kicks": 1,
+            "goal_kicks": 1,
+            "long_balls": "7/28 (25%)",
+            "recoveries": 17,
+            "tackles_won": 80,
             "total_saves": 1,
-            "total_shots": 5,
-            "aerial_duels": "5/8 (63%)",
-            "corner_kicks": 6,
-            "dispossessed": 3,
-            "ground_duels": "25/47 (53%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 1,
-            "blocked_shots": 1,
-            "interceptions": 1,
-            "total_tackles": 11,
-            "expected_goals": 0.84,
-            "accurate_passes": 203,
-            "ball_possession": 62,
-            "shots_on_target": 2,
+            "total_shots": 0,
+            "aerial_duels": "1/4 (25%)",
+            "corner_kicks": 0,
+            "dispossessed": 2,
+            "ground_duels": "12/22 (55%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "interceptions": 2,
+            "total_tackles": 10,
+            "expected_goals": 0,
+            "accurate_passes": 66,
+            "ball_possession": 45,
+            "shots_on_target": 0,
             "goalkeeper_saves": 1,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 1,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 29,
-            "fouled_in_final_third": 2
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 14,
+            "fouled_in_final_third": 0
           },
           "home": {
-            "duels": 45,
-            "fouls": 6,
-            "passes": 134,
-            "crosses": "2/7 (29%)",
-            "tackles": 14,
-            "dribbles": "2/4 (50%)",
-            "offsides": 1,
-            "throw_ins": 6,
-            "clearances": 9,
-            "free_kicks": 5,
-            "goal_kicks": 3,
-            "long_balls": "9/19 (47%)",
+            "duels": 50,
+            "fouls": 1,
+            "passes": 108,
+            "crosses": "3/11 (27%)",
+            "tackles": 6,
+            "dribbles": "3/9 (33%)",
+            "throw_ins": 4,
+            "clearances": 1,
+            "free_kicks": 1,
+            "goal_kicks": 1,
+            "long_balls": "4/13 (31%)",
             "recoveries": 19,
-            "big_chances": 1,
-            "tackles_won": 43,
-            "total_saves": 2,
-            "total_shots": 6,
-            "aerial_duels": "3/8 (38%)",
-            "corner_kicks": 3,
-            "dispossessed": 9,
-            "ground_duels": "22/47 (47%)",
+            "tackles_won": 83,
+            "total_saves": 0,
+            "total_shots": 3,
+            "aerial_duels": "3/4 (75%)",
+            "corner_kicks": 2,
+            "dispossessed": 4,
+            "ground_duels": "10/22 (45%)",
             "hit_woodwork": 0,
-            "yellow_cards": 3,
-            "blocked_shots": 2,
-            "interceptions": 7,
-            "total_tackles": 14,
-            "expected_goals": 1.07,
-            "accurate_passes": 112,
-            "ball_possession": 38,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 5,
-            "shots_off_target": 2,
-            "shots_outside_box": 1,
-            "big_chances_missed": 0,
-            "big_chances_scored": 1,
-            "final_third_entries": 19,
-            "fouled_in_final_third": 4
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 52,
-            "fouls": 4,
-            "passes": 214,
-            "crosses": "1/14 (7%)",
-            "tackles": 8,
-            "dribbles": "7/14 (50%)",
-            "offsides": 2,
-            "throw_ins": 10,
-            "clearances": 13,
-            "free_kicks": 7,
-            "goal_kicks": 2,
-            "long_balls": "13/22 (59%)",
-            "recoveries": 23,
-            "big_chances": 0,
-            "tackles_won": 63,
-            "total_saves": 2,
-            "total_shots": 2,
-            "aerial_duels": "5/10 (50%)",
-            "corner_kicks": 3,
-            "dispossessed": 3,
-            "ground_duels": "20/38 (53%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 0,
-            "interceptions": 4,
-            "total_tackles": 8,
-            "expected_goals": 0.07,
-            "accurate_passes": 181,
-            "ball_possession": 66,
+            "blocked_shots": 1,
+            "interceptions": 3,
+            "total_tackles": 6,
+            "expected_goals": 0.1,
+            "accurate_passes": 84,
+            "ball_possession": 55,
             "shots_on_target": 1,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 1,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 2,
             "shots_off_target": 1,
             "shots_outside_box": 1,
-            "big_chances_missed": 0,
-            "big_chances_scored": 0,
-            "final_third_entries": 35,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 48,
-            "fouls": 7,
-            "passes": 110,
-            "crosses": "0/8 (0%)",
-            "tackles": 10,
-            "dribbles": "4/7 (57%)",
-            "offsides": 1,
-            "throw_ins": 5,
-            "clearances": 19,
-            "free_kicks": 4,
-            "goal_kicks": 5,
-            "long_balls": "9/23 (39%)",
-            "recoveries": 26,
-            "big_chances": 1,
-            "tackles_won": 40,
-            "total_saves": 1,
-            "total_shots": 6,
-            "aerial_duels": "5/10 (50%)",
-            "corner_kicks": 5,
-            "dispossessed": 5,
-            "ground_duels": "18/38 (47%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 3,
-            "blocked_shots": 2,
-            "interceptions": 5,
-            "total_tackles": 10,
-            "expected_goals": 0.25,
-            "accurate_passes": 78,
-            "ball_possession": 34,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 2,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 24,
-            "fouled_in_final_third": 0
+            "final_third_entries": 19,
+            "fouled_in_final_third": 1
           }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "6a6a6a",
+            "base": "21f9dd",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "00ffb3"
+            "number": "e5ddd9",
+            "sleeve": "000000"
           },
           "player": {
-            "base": "000000",
+            "base": "4e0510",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff",
-            "stripes": "000000",
-            "sleevelong": "000000"
+            "number": "deb4a9",
+            "sleeve": "452430",
+            "sleevelong": "4e0510"
           }
         },
         "home": {
           "GK": {
-            "base": "231cda",
+            "base": "0957ae",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
             "sleeve": "ffffff"
           },
           "player": {
-            "base": "D8D8D8",
-            "real": false,
+            "base": "ffffff",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "number": "cc0000",
+            "sleeve": "0033ff",
+            "sleevelong": "ffffff"
           }
         }
       },
-      "funfacts": [
-        {
-          "type_id": 1,
-          "sentence": "Al-Shabab haven't won in their last 6 games."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Al-Najma haven't won in their last 5 games."
-        },
-        {
-          "type_id": 24,
-          "sentence": "Al-Najma's home record this season: 2-4-10."
-        }
-      ],
+      "funfacts": null,
       "sr_stats": {
         "attack": {
-          "away": 82,
-          "home": 54
+          "away": 28,
+          "home": 30
         },
         "ball_safe": {
-          "away": 56,
-          "home": 58
+          "away": 33,
+          "home": 33
         },
         "attack_pct": {
-          "away": 29,
-          "home": 16
+          "away": 21,
+          "home": 36
         },
         "ball_safe_pct": {
-          "away": 32,
-          "home": 50
+          "away": 70,
+          "home": 33
         },
         "dangerous_attack": {
-          "away": 65,
-          "home": 32
+          "away": 7,
+          "home": 15
         },
         "dangerous_attack_pct": {
-          "away": 39,
-          "home": 34
+          "away": 9,
+          "home": 31
         }
       },
       "ai_preview": {
-        "text": "**Al-Najma's in freefall heading into this one, while Al-Shabab's hunting for consistency** — both teams need a spark badly. 🔥\n\nAl-Najma haven't won in five (0W-2D-3L) and shipped goals freely on the road. Al-Shabab's lurching between big wins and heavy defeats, but they've at least tasted victory recently. The H2H is locked at a draw apiece.\n\nKey storylines:\n\n- **Al-Najma's defensive frailty** — conceded two to Al-Fateh and four to Al-Nassr; **Al-Shabab's attackers** should smell blood here\n- **V. Braga** and the backline need to tighten up fast or this gets ugly\n- **M. Grohe** between the sticks for Al-Shabab, facing a side that's misfiring up front\n\nExpected lineups:\n\n- **Al-Najma SC**: V. Braga, S. Caetano, M. Al Fatil, A. Al-Hawsawi, K. Alsubaie, N. Donga, G. Rodrigues, F. Cardoso\n- **Al-Shabab**: M. Grohe, A. Al-Bulaihi, M. Al-Thani, W. Hoedt, Y. Adli, J. Brownhill, Y. Carrasco, A. Hamdallah\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Al-Shabab 2–1 Al-Najma.** Coin flip on the day, but Al-Shabab's attacking depth edges a leaky defense.",
-        "generated_at": "2026-05-20T01:45:50.351465+00:00"
+        "text": "**Revenge tour in Montevideo?** U de Deportes rolled Nacional 4-2 just weeks ago, but now they're back at Gran Parque Central where the hosts will be hungry to set the record straight. 🔥\n\nBoth sides are treading water in the Libertadores with matching 1W-1D-2L records, but U de Deportes is running on fumes — they're missing four key players to injury, including key defenders and attacking outlets. Nacional, down just **L. Rodríguez**, should have the fresher legs and home advantage on their side.\n\nKey storylines:\n\n- **Nacional's midfield dominance**: **N. Lodeiro** and the home side's engine room will have room to operate against an injury-ravaged U de Deportes backline anchored by **W. Riveros** and **A. Santamaría**\n- **U de Deportes' punch-and-move threat**: Even shorthanded, **A. Valera** and **E. Flores** showed clinical finishing in their 4-2 win; Nacional's **S. Coates** and **A. Rogel** need to stay sharp\n- **Low-scoring affair looming**: With U de Deportes' squad stretched thin, don't expect a repeat of that wild 4-2; this could be a cagier, tighter contest\n\nExpected lineups:\n\n- **Nacional**: L. Mejía, N. Rodríguez, S. Coates, A. Rogel, N. Lodeiro, L. Boggio, M. Gómez, B. Barcia\n- **Universitario de Deportes**: M. Vargas, C. Fara, W. Riveros, A. Santamaría, J. Carabalí, C. Inga, J. Castillo, A. Valera, E. Flores\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Nacional 2–1 Universitario de Deportes** — Home edge, injury toll, and a point to prove. Slight lean to the hosts.",
+        "generated_at": "2026-05-20T01:46:06.919400+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4222,
+      "id": 4226,
       "event": {
-        "id": 9433,
+        "id": 9322,
         "league": {
-          "id": 32,
-          "name": "Copa Libertadores",
+          "id": 33,
+          "name": "Copa Sudamericana",
           "country": "South America",
           "is_women": false,
           "current_season": {
-            "id": 96,
-            "name": "CONMEBOL Libertadores 2026",
+            "id": 114,
+            "name": "CONMEBOL Sudamericana 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 96,
-          "name": "CONMEBOL Libertadores 2026",
+          "id": 114,
+          "name": "CONMEBOL Sudamericana 2026",
           "year": 2026
         },
-        "home_team": "Nacional",
-        "away_team": "Universitario de Deportes",
+        "home_team": "Club Independiente",
+        "away_team": "Botafogo",
         "home_team_obj": {
-          "id": 784,
-          "name": "Nacional",
-          "short_name": "Nacional",
-          "country": "Uruguay",
+          "id": 732,
+          "name": "Club Independiente",
+          "short_name": "Independiente Petrolero",
+          "country": "Bolivia",
           "coach": {
-            "name": "Jorge Bava",
-            "shortName": "J. Bava"
+            "name": "Thiago Leitão",
+            "shortName": "T. Leitão"
           },
           "venue": {
-            "id": 583,
-            "name": "Gran Parque Central",
-            "city": "Montevideo",
-            "country": "Uruguay",
-            "capacity": 37000
+            "id": 538,
+            "name": "Estadio Olimpico Patria",
+            "city": "Sucre",
+            "country": "Bolivia",
+            "capacity": 32000
           }
         },
         "away_team_obj": {
-          "id": 782,
-          "name": "Universitario de Deportes",
-          "short_name": "Universitario",
-          "country": "Peru",
+          "id": 163,
+          "name": "Botafogo",
+          "short_name": "Botafogo",
+          "country": "Brazil",
           "coach": {
-            "name": "Héctor Cúper",
-            "shortName": "H. Cúper"
+            "name": "Franclim Carvalho",
+            "shortName": "F. Carvalho"
           },
           "venue": {
-            "id": 581,
-            "name": "Estadio Monumental",
-            "city": "Lima",
-            "country": "Peru",
-            "capacity": 80093
+            "id": 160,
+            "name": "Estádio Nilton Santos",
+            "city": "Rio de Janeiro",
+            "country": "Brazil",
+            "capacity": 46831
           }
         },
-        "event_date": "2026-05-21T02:00:00+04:00",
+        "event_date": "2026-05-21T04:00:00+04:00",
         "round_number": 5,
         "round_name": "",
         "group_name": null,
@@ -582,17 +482,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.67,
-        "odds_draw": 3.59,
-        "odds_away": 5.51,
-        "odds_over_15": 1.37,
-        "odds_over_25": 2.13,
-        "odds_over_35": 3.75,
-        "odds_under_15": 2.98,
-        "odds_under_25": 1.69,
-        "odds_under_35": 1.25,
-        "odds_btts_yes": 2.06,
-        "odds_btts_no": 1.7,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -608,86 +508,145 @@
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 522,
-          "name": "Dario Herrera",
-          "country": "Argentina",
-          "nationality_a3": "ARG",
+          "id": 499,
+          "name": "Guillermo Enrique Guerrero Alcivar",
+          "country": "Ecuador",
+          "nationality_a3": "ECU",
           "birthdate": null,
-          "yellowCards": 2524,
-          "redCards": 99,
+          "yellowCards": 1037,
+          "redCards": 35,
           "career_games": null,
-          "career_yellow_cards": 2502,
-          "career_red_cards": 96
+          "career_yellow_cards": 1027,
+          "career_red_cards": 34
         },
         "home_coach": {
-          "id": 509,
-          "name": "Jorge Bava",
-          "short_name": "J. Bava",
-          "country": "Uruguay",
-          "profile": "balanced",
-          "preferred_formation": "3-4-1-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 493,
+          "name": "Thiago Leitão",
+          "short_name": "T. Leitão",
+          "country": "Brazil",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.542093293169622,
+          "defensive_line": "high",
+          "top_styles": [
+            "ball_dominant",
+            "inverted_fb"
+          ]
         },
         "away_coach": {
-          "id": 1574,
-          "name": "Héctor Cúper",
-          "short_name": "H. Cúper",
-          "country": "Argentina",
-          "profile": "",
-          "preferred_formation": "",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 44,
+          "name": "Franclim Carvalho",
+          "short_name": "F. Carvalho",
+          "country": "Portugal",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.47224276736942583,
+          "defensive_line": "mid",
+          "top_styles": [
+            "false_9",
+            "heritage"
+          ]
         },
         "unavailable_players": {
-          "home": [
-            {
-              "name": "Lucas Rodríguez",
-              "status": "injured",
-              "reason": "",
-              "expected_return": null
-            }
-          ],
+          "home": [],
           "away": [
             {
-              "name": "Andy Polo",
+              "name": "Alexander Barboza",
               "status": "injured",
               "reason": "",
               "expected_return": null
             },
             {
-              "name": "Lisandro Alzugaray",
+              "name": "Alex Telles",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-05-23"
+            },
+            {
+              "name": "Allan",
+              "status": "injured",
+              "reason": "Thigh Injury",
+              "expected_return": null
+            },
+            {
+              "name": "Chris Ramos",
               "status": "injured",
               "reason": "",
               "expected_return": null
             },
             {
-              "name": "Martín Pérez Guedes",
+              "name": "Cristian Medina",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-05-23"
+            },
+            {
+              "name": "Danilo Oliveira",
+              "status": "injured",
+              "reason": "club_decision",
+              "expected_return": "2026-05-23"
+            },
+            {
+              "name": "Joaquín Correa",
               "status": "injured",
               "reason": "",
               "expected_return": null
             },
             {
-              "name": "Matías Di Benedetto",
+              "name": "Júnior Santos",
+              "status": "injured",
+              "reason": "Foot Injury",
+              "expected_return": "2026-07-10"
+            },
+            {
+              "name": "Kaio Pantaleão",
               "status": "injured",
               "reason": "",
               "expected_return": null
+            },
+            {
+              "name": "Marçal",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Mateo Ponte",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-05-23"
+            },
+            {
+              "name": "Matheus Martins",
+              "status": "injured",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-06-03"
+            },
+            {
+              "name": "Nathan Fernandes",
+              "status": "injured",
+              "reason": "",
+              "expected_return": null
+            },
+            {
+              "name": "Newton",
+              "status": "injured",
+              "reason": "Unknown",
+              "expected_return": "2026-06-10"
             }
           ]
         },
         "venue": {
-          "id": 583,
-          "name": "Gran Parque Central",
-          "city": "Montevideo",
-          "country": "Uruguay",
-          "capacity": 37000,
-          "latitude": -34.884377,
-          "longitude": -56.158772,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 1900
+          "id": 538,
+          "name": "Estadio Olimpico Patria",
+          "city": "Sucre",
+          "country": "Bolivia",
+          "capacity": 32000,
+          "latitude": -19.033656,
+          "longitude": -65.257851,
+          "pitch_x": null,
+          "pitch_y": null,
+          "built_year": 1992
         },
         "incidents": null,
         "live_stats": null,
@@ -699,63 +658,72 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "21f9dd",
+              "base": "579cf5",
               "real": true,
               "type": "short_sleeves",
-              "number": "e5ddd9",
-              "sleeve": "000000"
+              "number": "fafafa",
+              "sleeve": "121212"
             },
             "player": {
-              "base": "4e0510",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "deb4a9",
-              "sleeve": "452430",
-              "sleevelong": "4e0510"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "0957ae",
+              "base": "000000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
               "sleeve": "ffffff"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "f5fc6a",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "000000"
             },
             "player": {
               "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "cc0000",
-              "sleeve": "0033ff",
+              "number": "f5002d",
+              "sleeve": "f5002d",
+              "stripes": "f80d24",
               "sleevelong": "ffffff"
             }
           }
         },
-        "funfacts": null,
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Botafogo have a winning streak of 3 matches in Group E CONMEBOL Sudamericana."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Independiente Petrolero have a losing streak of 4 matches in Group E CONMEBOL Sudamericana."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Revenge tour in Montevideo?** U de Deportes rolled Nacional 4-2 just weeks ago, but now they're back at Gran Parque Central where the hosts will be hungry to set the record straight. 🔥\n\nBoth sides are treading water in the Libertadores with matching 1W-1D-2L records, but U de Deportes is running on fumes — they're missing four key players to injury, including key defenders and attacking outlets. Nacional, down just **L. Rodríguez**, should have the fresher legs and home advantage on their side.\n\nKey storylines:\n\n- **Nacional's midfield dominance**: **N. Lodeiro** and the home side's engine room will have room to operate against an injury-ravaged U de Deportes backline anchored by **W. Riveros** and **A. Santamaría**\n- **U de Deportes' punch-and-move threat**: Even shorthanded, **A. Valera** and **E. Flores** showed clinical finishing in their 4-2 win; Nacional's **S. Coates** and **A. Rogel** need to stay sharp\n- **Low-scoring affair looming**: With U de Deportes' squad stretched thin, don't expect a repeat of that wild 4-2; this could be a cagier, tighter contest\n\nExpected lineups:\n\n- **Nacional**: L. Mejía, N. Rodríguez, S. Coates, A. Rogel, N. Lodeiro, L. Boggio, M. Gómez, B. Barcia\n- **Universitario de Deportes**: M. Vargas, C. Fara, W. Riveros, A. Santamaría, J. Carabalí, C. Inga, J. Castillo, A. Valera, E. Flores\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Nacional 2–1 Universitario de Deportes** — Home edge, injury toll, and a point to prove. Slight lean to the hosts.",
-          "generated_at": "2026-05-20T01:46:06.919400+00:00"
+          "text": "**Botafogo rolls into Bolivia looking to keep the good vibes rolling** — they've already dismantled Independiente 3-0 on the road earlier this campaign, and that kind of dominance tends to linger. 🔥\n\nIndependiente are in freefall (0W in their last 5), while Botafogo have found some rhythm with two wins in five despite missing half their squad to injury. The rematch factor heavily favors the visitors here.\n\nKey storylines:\n\n- **Botafogo's injury crisis vs Independiente's collapse**: Neto and the back line have to navigate without A. Barboza, Allan, C. Ramos, J. Correa, and J. Santos, but they're still the form side.\n- **J. Cristaldo and T. Santos need a spark**: Independiente's attack has been toothless; they'll lean on pace and urgency to break through.\n- **The 3-0 ghost**: That earlier demolition hangs over this tie — Botafogo know they have Independiente's number.\n\nExpected lineups:\n\n- **Club Independiente**: J. Gutiérrez, F. Rodriguez, L. Palma, L. Montenegro, S. Torres, Willie, R. Cardozo, D. Rojas, T. Santos, R. R. González, J. Cristaldo\n- **Botafogo**: Neto, N. Ferraresi, Vitinho, Bastos, A. Telles, C. Medina, D. Oliveira, A. Cabral, Á. Montoro, K. Barría, A. Izaque\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Botafogo 2–0 Independiente**. Expect a controlled away performance; Independiente are too broken to trouble them twice. 🎯",
+          "generated_at": "2026-05-20T01:46:22.944039+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-14T06:20:35.256597+04:00",
-      "prob_home_win": 55.53424273318819,
-      "prob_draw": 22.884515135299445,
-      "prob_away_win": 21.581242131512365,
-      "predicted_result": "H",
-      "expected_home_goals": 0.9907625,
-      "expected_away_goals": 0.672,
-      "prob_over_15": 70.96204504122446,
-      "prob_over_25": 53.47914039300087,
-      "prob_over_35": 18.856986379300942,
-      "prob_btts_yes": 51.64893055576917,
-      "confidence": 55.53424273318819,
+      "created_at": "2026-05-14T06:20:40.381219+04:00",
+      "prob_home_win": 16.29922355208178,
+      "prob_draw": 21.627653577340368,
+      "prob_away_win": 62.073122870577855,
+      "predicted_result": "A",
+      "expected_home_goals": 2.55403,
+      "expected_away_goals": 1.8297708333333333,
+      "prob_over_15": 72.661721111222,
+      "prob_over_25": 31.169700049772782,
+      "prob_over_35": 38.79115050346319,
+      "prob_btts_yes": 67.0074278772966,
+      "confidence": 62.073122870577855,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
-      "favorite": "H",
-      "favorite_prob": 55.53424273318819,
+      "most_likely_score": "2-1",
+      "favorite": "A",
+      "favorite_prob": 62.073122870577855,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
