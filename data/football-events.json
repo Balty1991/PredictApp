@@ -1,40 +1,7 @@
 {
-  "generatedAt": "2026-05-20T04:47:55.309Z",
+  "generatedAt": "2026-05-20T08:30:25.213Z",
   "count": 50,
   "items": [
-    {
-      "id": 9319,
-      "status": "finished",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Deportivo Cuenca",
-      "awayTeam": "Recoleta FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9432,
-      "status": "finished",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Independiente del Valle",
-      "awayTeam": "Libertad",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9318,
-      "status": "finished",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "América de Cali",
-      "awayTeam": "Tigre",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
     {
       "id": 205785,
       "status": "notstarted",
@@ -146,6 +113,17 @@
       "marketCount": 0
     },
     {
+      "id": 46420,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "GAIS",
+      "awayTeam": "Hammarby IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207458,
       "status": "notstarted",
       "league": "Liga Portugal Betclic",
@@ -168,23 +146,12 @@
       "marketCount": 0
     },
     {
-      "id": 46420,
+      "id": 4825,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "GAIS",
-      "awayTeam": "Hammarby IF",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206970,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Aalesunds FK",
-      "awayTeam": "SK Brann",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Najma SC",
+      "awayTeam": "Al-Shabab",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,12 +168,12 @@
       "marketCount": 0
     },
     {
-      "id": 4825,
+      "id": 206970,
       "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Najma SC",
-      "awayTeam": "Al-Shabab",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Aalesunds FK",
+      "awayTeam": "SK Brann",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -218,6 +185,17 @@
       "country": "Europe",
       "homeTeam": "SC Freiburg",
       "awayTeam": "Aston Villa",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9433,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Nacional",
+      "awayTeam": "Universitario de Deportes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -240,17 +218,6 @@
       "country": "South America",
       "homeTeam": "Olimpia",
       "awayTeam": "Vasco da Gama",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9433,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Nacional",
-      "awayTeam": "Universitario de Deportes",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,23 +267,23 @@
       "marketCount": 0
     },
     {
-      "id": 9434,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Flamengo",
-      "awayTeam": "Estudiantes de La Plata",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9435,
       "status": "notstarted",
       "league": "Copa Libertadores",
       "country": "South America",
       "homeTeam": "Palmeiras",
       "awayTeam": "Cerro Porteño",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9434,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Flamengo",
+      "awayTeam": "Estudiantes de La Plata",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,23 +355,23 @@
       "marketCount": 0
     },
     {
-      "id": 9228,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "GFS Panetolikos",
-      "awayTeam": "Asteras Aktor",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9226,
       "status": "notstarted",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "AE Kifisia",
       "awayTeam": "AEL Novibet",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9228,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "GFS Panetolikos",
+      "awayTeam": "Asteras Aktor",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,12 +399,12 @@
       "marketCount": 0
     },
     {
-      "id": 4821,
+      "id": 4828,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
-      "homeTeam": "Al-Hazem",
-      "awayTeam": "Al-Taawoun",
+      "homeTeam": "Neom SC",
+      "awayTeam": "Al-Ettifaq",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -454,45 +421,12 @@
       "marketCount": 0
     },
     {
-      "id": 4827,
+      "id": 4821,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
-      "homeTeam": "Al-Riyadh",
-      "awayTeam": "Al-Okhdood",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4826,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Nassr",
-      "awayTeam": "Damac FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4824,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Kholood",
-      "awayTeam": "Al-Fateh",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4828,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Neom SC",
-      "awayTeam": "Al-Ettifaq",
+      "homeTeam": "Al-Hazem",
+      "awayTeam": "Al-Taawoun",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,6 +443,39 @@
       "marketCount": 0
     },
     {
+      "id": 4824,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Kholood",
+      "awayTeam": "Al-Fateh",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4826,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Nassr",
+      "awayTeam": "Damac FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4827,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Riyadh",
+      "awayTeam": "Al-Okhdood",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207452,
       "status": "notstarted",
       "league": "Super League",
@@ -520,12 +487,12 @@
       "marketCount": 0
     },
     {
-      "id": 9167,
+      "id": 9168,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
-      "homeTeam": "KAA Gent",
-      "awayTeam": "Royale Union Saint-Gilloise",
+      "homeTeam": "KV Mechelen",
+      "awayTeam": "Club Brugge KV",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +509,45 @@
       "marketCount": 0
     },
     {
-      "id": 9168,
+      "id": 9167,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
-      "homeTeam": "KV Mechelen",
-      "awayTeam": "Club Brugge KV",
+      "homeTeam": "KAA Gent",
+      "awayTeam": "Royale Union Saint-Gilloise",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207460,
+      "status": "notstarted",
+      "league": "Bundesliga",
+      "country": "Germany",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "SC Paderborn 07",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207449,
+      "status": "notstarted",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Partick Thistle",
+      "awayTeam": "St. Mirren",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207464,
+      "status": "notstarted",
+      "league": "Eredivisie",
+      "country": "Netherlands",
+      "homeTeam": "FC Utrecht",
+      "awayTeam": "SC Heerenveen",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
