@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T08:08:48.407Z",
+  "generatedAt": "2026-05-21T11:48:44.421Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 207474,
+      "id": 205208,
       "league": {
         "id": 48,
         "name": "Coupe de Tunisie",
@@ -30,27 +30,27 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "BS Bouhajla",
-      "away_team": "Espérance Tunis",
+      "home_team": "PS Sakiet Eddaïer",
+      "away_team": "JS Omrane",
       "home_team_obj": {
-        "id": 1925,
-        "name": "BS Bouhajla",
-        "short_name": "BS Bouhajla",
+        "id": 1912,
+        "name": "PS Sakiet Eddaïer",
+        "short_name": "PS Sakiet Eddaïer",
         "country": "Tunisia",
         "coach": {
-          "name": "Hassen Gabsi",
-          "shortName": "H. Gabsi"
+          "name": "Yosri Ben Kahla",
+          "shortName": "Y. B. Kahla"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 591,
-        "name": "Espérance Tunis",
-        "short_name": "Espérance",
+        "id": 1907,
+        "name": "JS Omrane",
+        "short_name": "JS Omrane",
         "country": "Tunisia",
         "coach": {
-          "name": "Christian Bracconi",
-          "shortName": "C. Bracconi"
+          "name": "Amine Beji",
+          "shortName": "A. Beji"
         },
         "venue": null
       },
@@ -65,17 +65,17 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 18.55,
-      "odds_draw": 5.31,
-      "odds_away": 1.18,
-      "odds_over_15": 1.32,
-      "odds_over_25": 1.99,
-      "odds_over_35": 3.44,
-      "odds_under_15": 2.97,
-      "odds_under_25": 1.7,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 3.64,
-      "odds_btts_no": 1.24,
+      "odds_home": 2.5,
+      "odds_draw": 2.98,
+      "odds_away": 2.64,
+      "odds_over_15": 1.39,
+      "odds_over_25": 2.19,
+      "odds_over_35": 4.01,
+      "odds_under_15": 2.68,
+      "odds_under_25": 1.57,
+      "odds_under_35": 1.19,
+      "odds_btts_yes": 1.89,
+      "odds_btts_no": 1.77,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -92,9 +92,9 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1283,
-        "name": "Hassen Gabsi",
-        "short_name": "H. Gabsi",
+        "id": 1272,
+        "name": "Yosri Ben Kahla",
+        "short_name": "Y. B. Kahla",
         "country": "",
         "profile": "",
         "preferred_formation": "",
@@ -103,17 +103,17 @@
         "top_styles": []
       },
       "away_coach": {
-        "id": 1571,
-        "name": "Christian Bracconi",
-        "short_name": "C. Bracconi",
-        "country": "France",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5482155391680503,
-        "defensive_line": "mid",
+        "id": 1269,
+        "name": "Amine Beji",
+        "short_name": "A. Beji",
+        "country": "Tunisia",
+        "profile": "defensive",
+        "preferred_formation": "3-5-2",
+        "pressing_intensity": null,
+        "defensive_line": "",
         "top_styles": [
-          "low_block",
-          "terrorist_fb"
+          "terrorist_fb",
+          "anti_football"
         ]
       },
       "unavailable_players": null,
@@ -123,8 +123,8 @@
       "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Espérance roll into the cup with serious momentum, but Bouhajla are fresh off back-to-back draws at home.** Classic underdog moment brewing? 🏆\n\nEspérance have rattled off three wins in their last five and look sharp, while Bouhajla are stuck in neutral — draws against AS Soliman and Union Ksour Essef suggest they're grinding but not converting. The visitors are clear favorites here.\n\nKey storylines:\n\n- **Espérance's attack** has clicked recently, firing 3+ goals in their last outing vs ES Métlaoui\n- **Bouhajla's home form** is solid defensively (1-1, 1-1) but offers little going forward\n- Cup knockout pressure favors the better-resourced side — **Espérance** have the pedigree to push through\n\nExpected lineups:\n\n- **Espérance Tunis**: B. B. Said, I. Keita, H. Jelassi, M. Ben Hmida, M. Tougai, A. Konaté, O. Ogbelu, F. Danho, Y. Sasse, A. Jebri, A. Diakite\n- **BS Bouhajla**: (XI not provided)\n\nPrediction:\n\n**Espérance 2-0 Bouhajla**\n\nEspérance should cruise through. Their form is too good, and Bouhajla lack the spark to trouble them. 🎯",
-        "generated_at": "2026-05-21T02:45:23.515649+00:00"
+        "text": "**PS Sakiet Eddaïer rolls into this Cup tie with real momentum**, while JS Omrane are limping in on a rough patch. The hosts smell blood, and Omrane will need to tighten up quick.\n\nSakiet just hammered FS Sahline 6-0 at home and showed they can put teams away. Omrane, meanwhile, have won just once in five and got roughed up by Espérance — this feels like a mismatch on paper.\n\nKey storylines:\n\n- **PS Sakiet's attacking form** is the story here — L. B. Dahnous and M. Naoui will have space if the midfield keeps ticking\n- **JS Omrane's back line** (H. Kouki, K. Othmani, M. Souissi in a 3-5-2) has leaked goals and won't relish facing a side this sharp\n- Cup competition brings chaos, but Sakiet's home advantage in a knockout feels decisive\n\nExpected lineups:\n\n- **PS Sakiet Eddaïer**: A. Saidi, H. Rebaii, H. E. Kar, C. Ghrab, H. B. Amer, H. Messadi, Z. Hamidi, A. Waili, L. B. Dahnous, S. Lingazou, M. Naoui\n- **JS Omrane**: M. Essid, H. Kouki, K. Othmani, M. Souissi, B. Touati, O. Belhay, A. Jouini, F. Mahdouani, G. B. Hamida, C. Zoughlami, M. Jammel\n\nPrediction:\n\n**Sakiet 3-1 Omrane** 🔥 — hosts lean on home form and Omrane's frailty to advance comfortably.",
+        "generated_at": "2026-05-21T02:45:18.947653+00:00"
       },
       "live_websocket": false
     },
@@ -197,17 +197,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.56,
+        "odds_home": 1.55,
         "odds_draw": 4.1,
-        "odds_away": 5.26,
-        "odds_over_15": 1.22,
-        "odds_over_25": 1.72,
-        "odds_over_35": 2.76,
-        "odds_under_15": 3.95,
-        "odds_under_25": 2.06,
+        "odds_away": 5.29,
+        "odds_over_15": 1.23,
+        "odds_over_25": 1.73,
+        "odds_over_35": 2.78,
+        "odds_under_15": 3.91,
+        "odds_under_25": 2.05,
         "odds_under_35": 1.41,
-        "odds_btts_yes": 1.79,
-        "odds_btts_no": 1.93,
+        "odds_btts_yes": 1.8,
+        "odds_btts_no": 1.92,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
