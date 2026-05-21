@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-21T11:48:44.422Z",
+  "generatedAt": "2026-05-21T15:41:39.365Z",
   "count": 50,
   "items": [
     {
       "id": 205208,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Coupe de Tunisie",
       "country": "Tunisia",
       "homeTeam": "PS Sakiet Eddaïer",
@@ -15,7 +15,7 @@
     },
     {
       "id": 207474,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Coupe de Tunisie",
       "country": "Tunisia",
       "homeTeam": "BS Bouhajla",
@@ -26,7 +26,7 @@
     },
     {
       "id": 9227,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Stoiximan Super League",
       "country": "Greece",
       "homeTeam": "APS Atromitos Athinon",
@@ -37,22 +37,11 @@
     },
     {
       "id": 207494,
-      "status": "notstarted",
+      "status": "postponed",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Qatar",
       "awayTeam": "Sudan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9228,
-      "status": "notstarted",
-      "league": "Stoiximan Super League",
-      "country": "Greece",
-      "homeTeam": "GFS Panetolikos",
-      "awayTeam": "Asteras Aktor",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -64,6 +53,17 @@
       "country": "Greece",
       "homeTeam": "AE Kifisia",
       "awayTeam": "AEL Novibet",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9228,
+      "status": "notstarted",
+      "league": "Stoiximan Super League",
+      "country": "Greece",
+      "homeTeam": "GFS Panetolikos",
+      "awayTeam": "Asteras Aktor",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -91,6 +91,39 @@
       "marketCount": 0
     },
     {
+      "id": 4828,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Neom SC",
+      "awayTeam": "Al-Ettifaq",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4822,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Ittihad",
+      "awayTeam": "Al-Qadsiah",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 4821,
+      "status": "notstarted",
+      "league": "Saudi Pro League",
+      "country": "Saudi Arabia",
+      "homeTeam": "Al-Hazem",
+      "awayTeam": "Al-Taawoun",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 4824,
       "status": "notstarted",
       "league": "Saudi Pro League",
@@ -113,17 +146,6 @@
       "marketCount": 0
     },
     {
-      "id": 4821,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Hazem",
-      "awayTeam": "Al-Taawoun",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4820,
       "status": "notstarted",
       "league": "Saudi Pro League",
@@ -135,34 +157,12 @@
       "marketCount": 0
     },
     {
-      "id": 4828,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Neom SC",
-      "awayTeam": "Al-Ettifaq",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 4827,
       "status": "notstarted",
       "league": "Saudi Pro League",
       "country": "Saudi Arabia",
       "homeTeam": "Al-Riyadh",
       "awayTeam": "Al-Okhdood",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 4822,
-      "status": "notstarted",
-      "league": "Saudi Pro League",
-      "country": "Saudi Arabia",
-      "homeTeam": "Al-Ittihad",
-      "awayTeam": "Al-Qadsiah",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,23 +190,23 @@
       "marketCount": 0
     },
     {
-      "id": 9169,
-      "status": "notstarted",
-      "league": "Pro League",
-      "country": "Belgium",
-      "homeTeam": "RSC Anderlecht",
-      "awayTeam": "Sint-Truidense VV",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9168,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
       "homeTeam": "KV Mechelen",
       "awayTeam": "Club Brugge KV",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9169,
+      "status": "notstarted",
+      "league": "Pro League",
+      "country": "Belgium",
+      "homeTeam": "RSC Anderlecht",
+      "awayTeam": "Sint-Truidense VV",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,17 +223,6 @@
       "marketCount": 0
     },
     {
-      "id": 207449,
-      "status": "notstarted",
-      "league": "Scottish Premiership",
-      "country": "Scotland",
-      "homeTeam": "Partick Thistle",
-      "awayTeam": "St. Mirren",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207464,
       "status": "notstarted",
       "league": "Eredivisie",
@@ -245,12 +234,12 @@
       "marketCount": 0
     },
     {
-      "id": 9325,
+      "id": 207449,
       "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Academia Puerto Cabello",
-      "awayTeam": "Juventud de Las Piedras",
+      "league": "Scottish Premiership",
+      "country": "Scotland",
+      "homeTeam": "Partick Thistle",
+      "awayTeam": "St. Mirren",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -262,6 +251,17 @@
       "country": "South America",
       "homeTeam": "Deportivo La Guaira",
       "awayTeam": "Independiente Rivadavia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9325,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Academia Puerto Cabello",
+      "awayTeam": "Juventud de Las Piedras",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,23 +322,23 @@
       "marketCount": 0
     },
     {
-      "id": 9329,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Macará",
-      "awayTeam": "Alianza Atlético de Sullana",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207472,
       "status": "notstarted",
       "league": "Liga MX Clausura",
       "country": "Mexico",
       "homeTeam": "Cruz Azul",
       "awayTeam": "Pumas UNAM",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9329,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Macará",
+      "awayTeam": "Alianza Atlético de Sullana",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,23 +366,23 @@
       "marketCount": 0
     },
     {
-      "id": 203020,
-      "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "FK Septemvri Sofia",
-      "awayTeam": "FK Dobrudzha Dobrich",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 203019,
       "status": "notstarted",
       "league": "Parva Liga",
       "country": "Bulgaria",
       "homeTeam": "Botev Vratsa",
       "awayTeam": "Beroe Stara Zagora",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 203020,
+      "status": "notstarted",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "FK Septemvri Sofia",
+      "awayTeam": "FK Dobrudzha Dobrich",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,23 +498,23 @@
       "marketCount": 0
     },
     {
-      "id": 204895,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Sanfrecce Hiroshima",
-      "awayTeam": "Nagoya Grampus",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 204894,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Avispa Fukuoka",
       "awayTeam": "Vissel Kobe",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 204895,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Sanfrecce Hiroshima",
+      "awayTeam": "Nagoya Grampus",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
