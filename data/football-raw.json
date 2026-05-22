@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T13:55:11.205Z",
+  "generatedAt": "2026-05-22T16:30:13.285Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 203022,
+      "id": 203020,
       "league": {
         "id": 22,
         "name": "Parva Liga",
@@ -40,64 +40,64 @@
         "name": "Parva Liga 25/26",
         "year": 2025
       },
-      "home_team": "Slavia Sofia",
-      "away_team": "PFK Montana 1921",
+      "home_team": "FK Septemvri Sofia",
+      "away_team": "FK Dobrudzha Dobrich",
       "home_team_obj": {
-        "id": 346,
-        "name": "Slavia Sofia",
-        "short_name": "Slavia",
+        "id": 343,
+        "name": "FK Septemvri Sofia",
+        "short_name": "Septemvri",
         "country": "Bulgaria",
         "coach": {
-          "name": "Ratko Dostanić",
-          "shortName": "R. Dostanić"
+          "name": "Hristo Arangelov",
+          "shortName": "H. Arangelov"
         },
         "venue": {
-          "id": 326,
-          "name": "Aleksandar Shalamanov Stadium",
+          "id": 323,
+          "name": "Dragalevtsi Stadium",
           "city": "Sofia",
           "country": "Bulgaria",
-          "capacity": 25556
+          "capacity": 2000
         }
       },
       "away_team_obj": {
-        "id": 349,
-        "name": "PFK Montana 1921",
-        "short_name": "Montana",
+        "id": 351,
+        "name": "FK Dobrudzha Dobrich",
+        "short_name": "Dobrudzha",
         "country": "Bulgaria",
         "coach": {
-          "name": "Atanas Atanasov",
-          "shortName": "A. Atanasov"
+          "name": "Yasen Petrov",
+          "shortName": "Y. Petrov"
         },
         "venue": {
-          "id": 329,
-          "name": "Ogosta Stadium",
-          "city": "Montana",
+          "id": 331,
+          "name": "Stadion Druzhba",
+          "city": "Dobrich",
           "country": "Bulgaria",
-          "capacity": 8000
+          "capacity": 12500
         }
       },
-      "event_date": "2026-05-22T16:30:00+04:00",
+      "event_date": "2026-05-22T19:00:00+04:00",
       "round_number": 7,
       "round_name": "",
       "group_name": null,
       "status": "2nd_half",
       "home_score": 1,
-      "away_score": 0,
+      "away_score": 1,
       "home_score_ht": 1,
       "away_score_ht": 0,
-      "current_minute": 62,
+      "current_minute": 72,
       "period": "2T",
-      "odds_home": 1.66,
-      "odds_draw": 2.49,
-      "odds_away": 2.26,
-      "odds_over_15": 1.2,
-      "odds_over_25": 1.59,
-      "odds_over_35": 2.58,
-      "odds_under_15": 3.08,
-      "odds_under_25": 1.71,
-      "odds_under_35": 1.3,
-      "odds_btts_yes": 1.55,
-      "odds_btts_no": 1.88,
+      "odds_home": 1.34,
+      "odds_draw": 2.98,
+      "odds_away": 4.63,
+      "odds_over_15": 1.23,
+      "odds_over_25": 1.84,
+      "odds_over_35": 3.68,
+      "odds_under_15": 2.53,
+      "odds_under_25": 1.61,
+      "odds_under_35": 1.24,
+      "odds_btts_yes": 2,
+      "odds_btts_no": 1.6,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -106,207 +106,207 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 81,
+      "travel_distance_km": 379,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 1776,
-        "name": "Mladenov Todorov, Kristiyan",
+        "id": 636,
+        "name": "Radoslav Gidzhenov",
         "country": "Bulgaria",
         "nationality_a3": "BGR",
         "birthdate": null,
         "yellowCards": 0,
         "redCards": 0,
         "career_games": null,
-        "career_yellow_cards": null,
-        "career_red_cards": null
+        "career_yellow_cards": 672,
+        "career_red_cards": 18
       },
       "home_coach": {
-        "id": 366,
-        "name": "Ratko Dostanić",
-        "short_name": "R. Dostanić",
-        "country": "Serbia",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.22981477511415954,
-        "defensive_line": "mid",
-        "top_styles": [
-          "terrorist_fb",
-          "no_midfield"
-        ]
-      },
-      "away_coach": {
-        "id": 222,
-        "name": "Atanas Atanasov",
-        "short_name": "A. Atanasov",
+        "id": 458,
+        "name": "Hristo Arangelov",
+        "short_name": "H. Arangelov",
         "country": "Bulgaria",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.14329531254091799,
+        "pressing_intensity": 0.16606697459510394,
+        "defensive_line": "mid",
+        "top_styles": [
+          "chaos_ball",
+          "terrorist_fb"
+        ]
+      },
+      "away_coach": {
+        "id": 391,
+        "name": "Yasen Petrov",
+        "short_name": "Y. Petrov",
+        "country": "Bulgaria",
+        "profile": "defensive",
+        "preferred_formation": "4-1-4-1",
+        "pressing_intensity": 0.3057222829019324,
         "defensive_line": "high",
         "top_styles": [
-          "terrorist_fb",
-          "park_the_bus"
+          "total_football",
+          "terrorist_fb"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 326,
-        "name": "Aleksandar Shalamanov Stadium",
+        "id": 323,
+        "name": "Dragalevtsi Stadium",
         "city": "Sofia",
         "country": "Bulgaria",
-        "capacity": 25556,
-        "latitude": 42.675361,
-        "longitude": 23.272028,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 1930
+        "capacity": 2000,
+        "latitude": 42.637082,
+        "longitude": 23.309153,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "da120e",
+            "base": "00deff",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "f6f6f6"
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "c0eb0d",
+            "base": "ece404",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "000000"
+            "sleeve": "ffffff",
+            "stripes": "16b37c"
           }
         },
         "home": {
           "GK": {
-            "base": "27e110",
+            "base": "000000",
             "real": true,
             "type": "short_sleeves",
-            "number": "fafafa",
-            "sleeve": "fcfcfc"
+            "number": "ffffff",
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "ffffff",
+            "base": "7f1c30",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "000000",
-            "sleevelong": "ffffff"
+            "number": "7da8c3",
+            "sleeve": "800000"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "Montana haven't won in their last 5 games."
-        },
-        {
           "type_id": 2,
-          "sentence": "When playing at home, Slavia Sofia have not lost to Montana in their last 12 encounters."
+          "sentence": "When playing at home, Septemvri Sofia have not lost to Dobrudzha in their last 7 encounters."
         },
         {
           "type_id": 24,
-          "sentence": "Montana's away record this season: 1-5-12."
+          "sentence": "Dobrudzha's away record this season: 1-3-14."
+        },
+        {
+          "type_id": 25,
+          "sentence": "Bertrand Fourrier is Septemvri Sofia's top scorer with 13 goals. Ivaylo Nikolaev Mihaylov has scored 6 times for Dobrudzha."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 75,
-          "home": 59
+          "away": 34,
+          "home": 38
         },
         "ball_safe": {
-          "away": 67,
-          "home": 59
+          "away": 52,
+          "home": 44
         },
         "attack_pct": {
-          "away": 25,
-          "home": 22
+          "away": 22,
+          "home": 27
         },
         "ball_safe_pct": {
           "away": 54,
-          "home": 53
+          "home": 46
         },
         "dangerous_attack": {
-          "away": 23,
-          "home": 20
+          "away": 34,
+          "home": 38
         },
         "dangerous_attack_pct": {
-          "away": 21,
-          "home": 25
+          "away": 24,
+          "home": 27
         }
       },
       "ai_preview": {
-        "text": "**Slavia Sofia hosting Montana in a Bulgarian slugfest where both teams are desperately searching for wins.** Neither side's exactly lighting it up right now 🔥\n\nSlavia's been awful on the road (0-2, 0-2, 1-2 in recent away games) but at least they've got home advantage here. Montana, meanwhile, can't seem to get over the line — three draws in their last five suggests they're leaky but hard to break down. The head-to-head favors Slavia slightly, though.\n\nKey storylines:\n\n- **Slavia's defensive frailty** has them conceding two-goal defeats; **L. Marin** and the back line need to tighten up badly\n- **Montana's draw-heavy form** shows they grind out stalemates; **V. Simeonov** in goal will be tested by Slavia's front four\n- Home-field desperation: **Slavia** have only won once in five, so expect intensity but likely sloppiness\n\nExpected lineups:\n\n- **Slavia Sofia**: I. Andonov, D. Ferraresso, L. Marin, L. Ivanov, N. Savić, I. Minchev, V. Yotov, E. Gogev\n- **PFK Montana 1921**: V. Simeonov, D. Carmona, D. Burov, I. Markov, J. Soares, K. Iliev, A. Todorov, A. Tsingaras\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Slavia edges the xG but Montana's defensive shape holds. Classic coin flip.",
-        "generated_at": "2026-05-22T01:45:23.465035+00:00"
+        "text": "**Septemvri's looking sharp at home, and Dobrudzha's struggling to string wins together** — this has all the makings of a Sofia blowout. 🔥\n\nSeptemvri are on a roll (2W, 2D in their last five), while Dobrudzha have won just once in their last five and lost three. The hosts showed real attacking bite with back-to-back shutouts, and they've got the head-to-head edge too.\n\nKey storylines:\n\n- **Septemvri's defensive solidity** has been the foundation — clean sheets against Spartak Varna and Beroe suggest they're hard to break down at Dragalevtsi\n- **Dobrudzha's inconsistency** — one win, three losses, and conceding problems make them vulnerable on the road\n- **E. Ribeiro and B. Fourrier** leading Septemvri's attack will fancy their chances against a leaky backline\n\nExpected lineups:\n\n- **FK Septemvri Sofia**: Y. Georgiev, D. Ivkić, S. Wade, G. Varbanov, M. Hristov, A. Abou, G. Ivanov, S. Stojanović, F. Herard, B. Fourrier, E. Ribeiro\n- **FK Dobrudzha Dobrich**: P. Pepelyashev, D. Pirgov, V. Oliveira, V. Kerchev, B. Kostov, A. Ramadan, D. M. Lovrić, D. Madaleno, D. Ressurreição, Tomás, G. Trifonov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n\nPrediction: **Septemvri 2–0 Dobrudzha**. Home edge and form advantage; lean to a tight, controlled performance.",
+        "generated_at": "2026-05-22T01:45:28.198528+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4258,
+      "id": 4341,
       "event": {
-        "id": 203020,
+        "id": 46371,
         "league": {
-          "id": 22,
-          "name": "Parva Liga",
-          "country": "Bulgaria",
+          "id": 26,
+          "name": "Allsvenskan",
+          "country": "Sweden",
           "is_women": false,
           "current_season": {
-            "id": 321,
-            "name": "Parva Liga 25/26",
-            "year": 2025,
-            "start_date": "2025-07-01",
-            "end_date": "2026-06-30"
+            "id": 9,
+            "name": "Allsvenskan 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 321,
-          "name": "Parva Liga 25/26",
-          "year": 2025
+          "id": 9,
+          "name": "Allsvenskan 2026",
+          "year": 2026
         },
-        "home_team": "FK Septemvri Sofia",
-        "away_team": "FK Dobrudzha Dobrich",
+        "home_team": "Djurgårdens IF",
+        "away_team": "IF Brommapojkarna",
         "home_team_obj": {
-          "id": 343,
-          "name": "FK Septemvri Sofia",
-          "short_name": "Septemvri",
-          "country": "Bulgaria",
+          "id": 436,
+          "name": "Djurgårdens IF",
+          "short_name": "Djurgården",
+          "country": "Sweden",
           "coach": {
-            "name": "Hristo Arangelov",
-            "shortName": "H. Arangelov"
+            "name": "Jani Honkavaara",
+            "shortName": "J. Honkavaara"
           },
           "venue": {
-            "id": 323,
-            "name": "Dragalevtsi Stadium",
-            "city": "Sofia",
-            "country": "Bulgaria",
-            "capacity": 2000
+            "id": 416,
+            "name": "3Arena",
+            "city": "Stockholm",
+            "country": "Sweden",
+            "capacity": 32000
           }
         },
         "away_team_obj": {
-          "id": 351,
-          "name": "FK Dobrudzha Dobrich",
-          "short_name": "Dobrudzha",
-          "country": "Bulgaria",
+          "id": 437,
+          "name": "IF Brommapojkarna",
+          "short_name": "Brommapojkarna",
+          "country": "Sweden",
           "coach": {
-            "name": "Yasen Petrov",
-            "shortName": "Y. Petrov"
+            "name": "Ulf Kristiansson",
+            "shortName": "U. Kristiansson"
           },
           "venue": {
-            "id": 331,
-            "name": "Stadion Druzhba",
-            "city": "Dobrich",
-            "country": "Bulgaria",
-            "capacity": 12500
+            "id": 417,
+            "name": "Grimsta IP",
+            "city": "Stockholm",
+            "country": "Sweden",
+            "capacity": 7343
           }
         },
-        "event_date": "2026-05-22T19:00:00+04:00",
-        "round_number": 7,
+        "event_date": "2026-05-22T21:00:00+04:00",
+        "round_number": 9,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -316,87 +316,507 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.28,
-        "odds_draw": 4.96,
-        "odds_away": 9.31,
-        "odds_over_15": 1.27,
-        "odds_over_25": 1.84,
-        "odds_over_35": 3.06,
-        "odds_under_15": 3.46,
-        "odds_under_25": 1.89,
-        "odds_under_35": 1.33,
-        "odds_btts_yes": 2.38,
-        "odds_btts_no": 1.52,
+        "odds_home": 1.46,
+        "odds_draw": 4.51,
+        "odds_away": 6.08,
+        "odds_over_15": 1.16,
+        "odds_over_25": 1.55,
+        "odds_over_35": 2.35,
+        "odds_under_15": 4.72,
+        "odds_under_25": 2.34,
+        "odds_under_35": 1.55,
+        "odds_btts_yes": 1.7,
+        "odds_btts_no": 2.05,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": true,
         "is_neutral_ground": null,
-        "travel_distance_km": 379,
+        "travel_distance_km": 15,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 636,
-          "name": "Radoslav Gidzhenov",
-          "country": "Bulgaria",
-          "nationality_a3": "BGR",
+          "id": 302,
+          "name": "Erik Mattsson",
+          "country": "Sweden",
+          "nationality_a3": "SWE",
           "birthdate": null,
-          "yellowCards": 0,
-          "redCards": 0,
+          "yellowCards": 286,
+          "redCards": 9,
           "career_games": null,
-          "career_yellow_cards": 672,
-          "career_red_cards": 18
+          "career_yellow_cards": 274,
+          "career_red_cards": 9
         },
         "home_coach": {
-          "id": 458,
-          "name": "Hristo Arangelov",
-          "short_name": "H. Arangelov",
-          "country": "Bulgaria",
-          "profile": "defensive",
+          "id": 584,
+          "name": "Jani Honkavaara",
+          "short_name": "J. Honkavaara",
+          "country": "Finland",
+          "profile": "attacking",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.16606697459510394,
+          "pressing_intensity": 0.6310279323517499,
           "defensive_line": "mid",
           "top_styles": [
             "chaos_ball",
-            "terrorist_fb"
+            "chaos_football"
           ]
         },
         "away_coach": {
-          "id": 391,
-          "name": "Yasen Petrov",
-          "short_name": "Y. Petrov",
-          "country": "Bulgaria",
-          "profile": "defensive",
-          "preferred_formation": "4-1-4-1",
-          "pressing_intensity": 0.3057222829019324,
-          "defensive_line": "high",
+          "id": 587,
+          "name": "Ulf Kristiansson",
+          "short_name": "U. Kristiansson",
+          "country": "Sweden",
+          "profile": "balanced",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.38845329427464825,
+          "defensive_line": "mid",
           "top_styles": [
-            "total_football",
+            "park_the_bus",
             "terrorist_fb"
           ]
         },
-        "unavailable_players": null,
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Nino Žugelj",
+              "status": "injured",
+              "reason": "Thigh Injury",
+              "expected_return": "2026-06-10"
+            },
+            {
+              "name": "Oskar Fallenius",
+              "status": "injured",
+              "reason": "Illness",
+              "expected_return": "2026-06-06"
+            }
+          ],
+          "away": [
+            {
+              "name": "Lukas Björklund",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-05-22"
+            },
+            {
+              "name": "Obilor Denzel Okeke",
+              "status": "injured",
+              "reason": "Unknown",
+              "expected_return": "2026-06-10"
+            }
+          ]
+        },
         "venue": {
-          "id": 323,
-          "name": "Dragalevtsi Stadium",
-          "city": "Sofia",
-          "country": "Bulgaria",
-          "capacity": 2000,
-          "latitude": 42.637082,
-          "longitude": 23.309153,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "id": 416,
+          "name": "3Arena",
+          "city": "Stockholm",
+          "country": "Sweden",
+          "capacity": 32000,
+          "latitude": 59.29323,
+          "longitude": 18.083299,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 2013
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "L. Cavallius",
+                "goals": 0,
+                "api_id": 1916816,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 16245,
+                "yellow_card": false,
+                "jersey_number": "1",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. T. Andersson",
+                "goals": 0,
+                "api_id": 876303,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 15962,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Simpson",
+                "goals": 0,
+                "api_id": 1503761,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 24882,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Troelsen",
+                "goals": 0,
+                "api_id": 1159436,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 24881,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "O. Zandén",
+                "goals": 0,
+                "api_id": 999117,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 15965,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. Barslund",
+                "goals": 0,
+                "api_id": 1083373,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 15968,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. Ackermann",
+                "goals": 0,
+                "api_id": 918807,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 15967,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. K. Hansen",
+                "goals": 0,
+                "api_id": 976386,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 3306,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "O. Berg",
+                "goals": 0,
+                "api_id": 793170,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2933,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Oppong",
+                "goals": 0,
+                "api_id": 2039287,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 15969,
+                "yellow_card": false,
+                "jersey_number": "33",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "D. Isso",
+                "goals": 0,
+                "api_id": 2063692,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 16310,
+                "yellow_card": false,
+                "jersey_number": "34",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "J. Rinne",
+                "goals": 0,
+                "api_id": 289025,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 16057,
+                "yellow_card": false,
+                "jersey_number": "35",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "P. Johansson",
+                "goals": 0,
+                "api_id": 181621,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 16186,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Tenho",
+                "goals": 0,
+                "api_id": 548286,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 16059,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Marques",
+                "goals": 0,
+                "api_id": 1022172,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 16141,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Larsson",
+                "goals": 0,
+                "api_id": 1198992,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 22677,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "H. Finndell",
+                "goals": 0,
+                "api_id": 856799,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16226,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Siltanen",
+                "goals": 0,
+                "api_id": 1464275,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16139,
+                "yellow_card": false,
+                "jersey_number": "20",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Anderson",
+                "goals": 0,
+                "api_id": 831247,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16140,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "B. Å. Hegland",
+                "goals": 0,
+                "api_id": 1200574,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16067,
+                "yellow_card": false,
+                "jersey_number": "16",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Okkels",
+                "goals": 0,
+                "api_id": 826066,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7139,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. S. Lien",
+                "goals": 0,
+                "api_id": 981284,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 22676,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "confirmed": false
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -404,75 +824,77 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "00deff",
+              "base": "f95205",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "ffffff"
+              "sleeve": "006600"
             },
             "player": {
-              "base": "ece404",
+              "base": "c81616",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "ffffff",
-              "stripes": "16b37c"
+              "sleeve": "cc0000",
+              "stripes": "000000",
+              "sleevelong": "cc0000"
             }
           },
           "home": {
             "GK": {
-              "base": "000000",
+              "base": "060708",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff"
+              "number": "fafafa",
+              "sleeve": "000000"
             },
             "player": {
-              "base": "7f1c30",
+              "base": "87b3db",
               "real": true,
               "type": "short_sleeves",
-              "number": "7da8c3",
-              "sleeve": "800000"
+              "number": "bcbbc4",
+              "sleeve": "0d153a",
+              "stripes": "282f52"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 2,
-            "sentence": "When playing at home, Septemvri Sofia have not lost to Dobrudzha in their last 7 encounters."
+            "sentence": "When playing at home, Djurgarden have not lost to Brommapojkarna in their last 5 encounters."
           },
           {
-            "type_id": 24,
-            "sentence": "Dobrudzha's away record this season: 1-3-14."
+            "type_id": 23,
+            "sentence": "Last season Djurgarden won both games against Brommapojkarna (1-0 at home and 1-0 away)."
           },
           {
-            "type_id": 25,
-            "sentence": "Bertrand Fourrier is Septemvri Sofia's top scorer with 13 goals. Ivaylo Nikolaev Mihaylov has scored 6 times for Dobrudzha."
+            "type_id": 6,
+            "sentence": "During the last 11 meetings with Djurgarden playing at home, Djurgarden have won 6 times, there have been 2 draws while Brommapojkarna have won 3 times. The goal difference is 14-10 in favour of Djurgarden."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Septemvri's looking sharp at home, and Dobrudzha's struggling to string wins together** — this has all the makings of a Sofia blowout. 🔥\n\nSeptemvri are on a roll (2W, 2D in their last five), while Dobrudzha have won just once in their last five and lost three. The hosts showed real attacking bite with back-to-back shutouts, and they've got the head-to-head edge too.\n\nKey storylines:\n\n- **Septemvri's defensive solidity** has been the foundation — clean sheets against Spartak Varna and Beroe suggest they're hard to break down at Dragalevtsi\n- **Dobrudzha's inconsistency** — one win, three losses, and conceding problems make them vulnerable on the road\n- **E. Ribeiro and B. Fourrier** leading Septemvri's attack will fancy their chances against a leaky backline\n\nExpected lineups:\n\n- **FK Septemvri Sofia**: Y. Georgiev, D. Ivkić, S. Wade, G. Varbanov, M. Hristov, A. Abou, G. Ivanov, S. Stojanović, F. Herard, B. Fourrier, E. Ribeiro\n- **FK Dobrudzha Dobrich**: P. Pepelyashev, D. Pirgov, V. Oliveira, V. Kerchev, B. Kostov, A. Ramadan, D. M. Lovrić, D. Madaleno, D. Ressurreição, Tomás, G. Trifonov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n\nPrediction: **Septemvri 2–0 Dobrudzha**. Home edge and form advantage; lean to a tight, controlled performance.",
-          "generated_at": "2026-05-22T01:45:28.198528+00:00"
+          "text": "**Djurgårdens rolls in as home favorites with a perfect head-to-head record**, and this fixture screams comfortable win for the Stockholm side. 🔵\n\nDjurgården's form is sharp — they've won 2 of their last 5 with a 6-0 drubbing of IFK Göteborg fresh in the mind. Brommapojkarna arrive hot too (3 wins in 5), but they're 0-6 all-time against this lot, and that's a heavy psychological anchor to shift.\n\nKey storylines:\n\n- **Djurgårdens** have been clinical at home, mixing dominant displays with some defensive wobbles — they'll lean on that tempo advantage\n- **Brommapojkarna** are punching above expectations this season but face the toughest test yet against Stockholm's high-intensity press\n- **Åslund** and **Asoro** lead Djurgården's attack and should find space against a Brommapojkarna side missing **Björklund** to suspension\n\nExpected lineups:\n\n- **Djurgårdens IF**: Rinne, Tenho, Johansson, Marques, Stahl, Siltanen, Hegland, Lien, Åslund, Asoro, Saeed\n- **IF Brommapojkarna**: Cavallius, Zandén, Andersson, Troelsen, Barslund, Berg, Ackermann, Camara, Oppong, Hansen, Okeke\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction: **Djurgårdens 3-1 Brommapojkarna**. The hosts have the edge in quality and history — expect them to control from kickoff. ⚽",
+          "generated_at": "2026-05-22T01:45:43.909994+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-16T06:20:09.605893+04:00",
-      "prob_home_win": 44.87398261969329,
-      "prob_draw": 33.3397913373844,
-      "prob_away_win": 21.786226042922312,
+      "created_at": "2026-05-18T06:20:16.262937+04:00",
+      "prob_home_win": 55.53424273318819,
+      "prob_draw": 22.884515135299445,
+      "prob_away_win": 21.581242131512365,
       "predicted_result": "H",
-      "expected_home_goals": 1,
-      "expected_away_goals": 0.8,
-      "prob_over_15": 59.084785553322504,
-      "prob_over_25": 37.585483642878565,
-      "prob_over_35": 11.776618011128443,
-      "prob_btts_yes": 38.035250982431236,
-      "confidence": 44.87398261969329,
+      "expected_home_goals": 2.1,
+      "expected_away_goals": 1.1,
+      "prob_over_15": 87.54724669777086,
+      "prob_over_25": 65.41794066019703,
+      "prob_over_35": 38.987855895510776,
+      "prob_btts_yes": 63.278227102465976,
+      "confidence": 55.53424273318819,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
+      "most_likely_score": "2-1",
       "favorite": "H",
-      "favorite_prob": 44.87398261969329,
+      "favorite_prob": 55.53424273318819,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
