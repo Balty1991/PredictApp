@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T07:58:58.410Z",
+  "generatedAt": "2026-05-22T11:13:29.149Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -58,24 +58,24 @@
       "round_number": 18,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 1,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 2.45,
-      "odds_draw": 3,
-      "odds_away": 3.01,
-      "odds_over_15": 1.45,
-      "odds_over_25": 2.4,
-      "odds_over_35": 4.5,
-      "odds_under_15": 2.6,
-      "odds_under_25": 1.54,
+      "current_minute": 39,
+      "period": "1T",
+      "odds_home": 2.14,
+      "odds_draw": 2.89,
+      "odds_away": 3.26,
+      "odds_over_15": 1.44,
+      "odds_over_25": 2.34,
+      "odds_over_35": 4.69,
+      "odds_under_15": 2.4,
+      "odds_under_25": 1.47,
       "odds_under_35": 1.18,
-      "odds_btts_yes": 1.98,
-      "odds_btts_no": 1.76,
+      "odds_btts_yes": 1.89,
+      "odds_btts_no": 1.6,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -90,7 +90,18 @@
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 392,
+        "name": "Futoshi Nakamura",
+        "country": "Japan",
+        "nationality_a3": "JPN",
+        "birthdate": null,
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": null,
+        "career_yellow_cards": 481,
+        "career_red_cards": 10
+      },
       "home_coach": {
         "id": 1286,
         "name": "Go Kuroda",
@@ -132,7 +143,148 @@
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 44,
+          "fouls": 4,
+          "passes": 257,
+          "crosses": "2/3 (67%)",
+          "tackles": 3,
+          "dribbles": "5/6 (83%)",
+          "throw_ins": 7,
+          "clearances": 9,
+          "free_kicks": 3,
+          "goal_kicks": 2,
+          "long_balls": "5/13 (38%)",
+          "recoveries": 20,
+          "tackles_won": 100,
+          "total_saves": 1,
+          "total_shots": 7,
+          "aerial_duels": "4/10 (40%)",
+          "corner_kicks": 0,
+          "dispossessed": 5,
+          "ground_duels": "11/24 (46%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 1,
+          "interceptions": 2,
+          "total_tackles": 3,
+          "accurate_passes": 227,
+          "ball_possession": 58,
+          "shots_on_target": 2,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 3,
+          "shots_off_target": 4,
+          "final_third_phase": "49/65 (75%)",
+          "shots_outside_box": 4,
+          "final_third_entries": 31,
+          "errors_lead_to_a_goal": 1,
+          "touches_in_penalty_area": 7
+        },
+        "home": {
+          "duels": 54,
+          "fouls": 3,
+          "passes": 185,
+          "crosses": "1/6 (17%)",
+          "tackles": 6,
+          "dribbles": "3/4 (75%)",
+          "throw_ins": 7,
+          "clearances": 8,
+          "free_kicks": 4,
+          "goal_kicks": 3,
+          "long_balls": "7/15 (47%)",
+          "recoveries": 18,
+          "tackles_won": 17,
+          "total_saves": 3,
+          "total_shots": 6,
+          "aerial_duels": "6/11 (55%)",
+          "corner_kicks": 2,
+          "dispossessed": 2,
+          "ground_duels": "13/24 (54%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 2,
+          "interceptions": 2,
+          "total_tackles": 6,
+          "accurate_passes": 159,
+          "ball_possession": 42,
+          "shots_on_target": 2,
+          "goalkeeper_saves": 3,
+          "shots_inside_box": 3,
+          "shots_off_target": 2,
+          "final_third_phase": "29/40 (73%)",
+          "shots_outside_box": 3,
+          "final_third_entries": 16,
+          "errors_lead_to_a_goal": 0,
+          "touches_in_penalty_area": 9
+        },
+        "first_half": {
+          "away": {
+            "duels": 44,
+            "fouls": 4,
+            "passes": 257,
+            "crosses": "2/3 (67%)",
+            "tackles": 3,
+            "dribbles": "5/6 (83%)",
+            "throw_ins": 7,
+            "clearances": 9,
+            "free_kicks": 3,
+            "goal_kicks": 2,
+            "long_balls": "5/13 (38%)",
+            "recoveries": 20,
+            "tackles_won": 100,
+            "total_saves": 1,
+            "total_shots": 7,
+            "aerial_duels": "4/10 (40%)",
+            "corner_kicks": 0,
+            "dispossessed": 5,
+            "ground_duels": "11/24 (46%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 1,
+            "interceptions": 2,
+            "total_tackles": 3,
+            "accurate_passes": 227,
+            "ball_possession": 58,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 3,
+            "shots_off_target": 4,
+            "shots_outside_box": 4,
+            "final_third_entries": 31
+          },
+          "home": {
+            "duels": 54,
+            "fouls": 3,
+            "passes": 185,
+            "crosses": "1/6 (17%)",
+            "tackles": 6,
+            "dribbles": "3/4 (75%)",
+            "throw_ins": 7,
+            "clearances": 8,
+            "free_kicks": 4,
+            "goal_kicks": 3,
+            "long_balls": "7/15 (47%)",
+            "recoveries": 18,
+            "tackles_won": 17,
+            "total_saves": 3,
+            "total_shots": 6,
+            "aerial_duels": "6/11 (55%)",
+            "corner_kicks": 2,
+            "dispossessed": 2,
+            "ground_duels": "13/24 (54%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 2,
+            "interceptions": 2,
+            "total_tackles": 6,
+            "accurate_passes": 159,
+            "ball_possession": 42,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 3,
+            "shots_inside_box": 3,
+            "shots_off_target": 2,
+            "shots_outside_box": 3,
+            "final_third_entries": 16
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
@@ -182,7 +334,32 @@
           "sentence": "Machida Z have won 5 home matches in a row."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 42,
+          "home": 37
+        },
+        "ball_safe": {
+          "away": 39,
+          "home": 40
+        },
+        "attack_pct": {
+          "away": 30,
+          "home": 26
+        },
+        "ball_safe_pct": {
+          "away": 58,
+          "home": 44
+        },
+        "dangerous_attack": {
+          "away": 17,
+          "home": 13
+        },
+        "dangerous_attack_pct": {
+          "away": 12,
+          "home": 30
+        }
+      },
       "ai_preview": {
         "text": "**Machida's resilience meets Urawa's hot streak** — this is a clash between a team that can't lose (five games unbeaten) and one that's quietly clicking into form. 🔥\n\nZelvia have drawn twice at home lately, grinding out results; Urawa just demolished Mito 4-1 away and haven't dropped points in five. The Red Diamonds look sharper right now, but Machida's solidity at Machida Stadium shouldn't be slept on.\n\nKey storylines:\n\n- **Urawa's attacking teeth** vs Zelvia's defensive unit — R. Hidano and H. Komori have been clinical, but G. Shoji and D. Okamura need to stay locked in\n- **Machida's set-piece threat** — Erik and S. Na have been their creative spark in compact fixtures\n- **Possession vs efficiency** — Urawa's tempo usually dominates; if Machida sit deep and hit on the counter, all bets are off\n\nExpected lineups:\n\n- **Machida Zelvia**: K. Tani, G. Shoji, D. Okamura, H. Nakamura, H. Mae, Erik, S. Na\n- **Urawa Red Diamonds**: S. Nishikawa, K. Nemoto, Y. Miyamoto, H. Ishihara, K. Yasui, R. Watanabe, H. Komori\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1–1** — Urawa edge on form, but Machida's home record keeps this tight. Slight edge to the hosts, but this feels like a draw.",
         "generated_at": "2026-05-21T10:45:27.220350+00:00"
@@ -190,43 +367,65 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4257,
+      "id": 4260,
       "event": {
-        "id": 204893,
+        "id": 203022,
         "league": {
-          "id": 49,
-          "name": "J1 League",
-          "country": "Japan",
+          "id": 22,
+          "name": "Parva Liga",
+          "country": "Bulgaria",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 321,
+            "name": "Parva Liga 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
+          }
         },
-        "season": null,
-        "home_team": "Machida Zelvia",
-        "away_team": "Urawa Red Diamonds",
+        "season": {
+          "id": 321,
+          "name": "Parva Liga 25/26",
+          "year": 2025
+        },
+        "home_team": "Slavia Sofia",
+        "away_team": "PFK Montana 1921",
         "home_team_obj": {
-          "id": 1929,
-          "name": "Machida Zelvia",
-          "short_name": "Machida Z",
-          "country": "Japan",
+          "id": 346,
+          "name": "Slavia Sofia",
+          "short_name": "Slavia",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Go Kuroda",
-            "shortName": "G. Kuroda"
+            "name": "Ratko Dostanić",
+            "shortName": "R. Dostanić"
           },
-          "venue": null
+          "venue": {
+            "id": 326,
+            "name": "Aleksandar Shalamanov Stadium",
+            "city": "Sofia",
+            "country": "Bulgaria",
+            "capacity": 25556
+          }
         },
         "away_team_obj": {
-          "id": 1935,
-          "name": "Urawa Red Diamonds",
-          "short_name": "Urawa Reds",
-          "country": "Japan",
+          "id": 349,
+          "name": "PFK Montana 1921",
+          "short_name": "Montana",
+          "country": "Bulgaria",
           "coach": {
-            "name": "Tatsuya Tanaka",
-            "shortName": "T. Tanaka"
+            "name": "Atanas Atanasov",
+            "shortName": "A. Atanasov"
           },
-          "venue": null
+          "venue": {
+            "id": 329,
+            "name": "Ogosta Stadium",
+            "city": "Montana",
+            "country": "Bulgaria",
+            "capacity": 8000
+          }
         },
-        "event_date": "2026-05-22T14:30:00+04:00",
-        "round_number": 18,
+        "event_date": "2026-05-22T16:30:00+04:00",
+        "round_number": 7,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -236,17 +435,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.45,
-        "odds_draw": 3,
-        "odds_away": 3.01,
-        "odds_over_15": 1.45,
-        "odds_over_25": 2.4,
-        "odds_over_35": 4.5,
-        "odds_under_15": 2.6,
-        "odds_under_25": 1.54,
-        "odds_under_35": 1.18,
-        "odds_btts_yes": 1.98,
-        "odds_btts_no": 1.76,
+        "odds_home": 1.62,
+        "odds_draw": 3.85,
+        "odds_away": 4.69,
+        "odds_over_15": 1.26,
+        "odds_over_25": 1.83,
+        "odds_over_35": 3.04,
+        "odds_under_15": 3.51,
+        "odds_under_25": 1.9,
+        "odds_under_35": 1.33,
+        "odds_btts_yes": 1.84,
+        "odds_btts_no": 1.87,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -255,7 +454,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
+        "travel_distance_km": 81,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -263,45 +462,45 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1286,
-          "name": "Go Kuroda",
-          "short_name": "G. Kuroda",
-          "country": "Japan",
+          "id": 366,
+          "name": "Ratko Dostanić",
+          "short_name": "R. Dostanić",
+          "country": "Serbia",
           "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.2260098119703694,
-          "defensive_line": "low",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.22981477511415954,
+          "defensive_line": "mid",
           "top_styles": [
-            "park_the_bus",
-            "low_block"
+            "terrorist_fb",
+            "no_midfield"
           ]
         },
         "away_coach": {
-          "id": 1472,
-          "name": "Tatsuya Tanaka",
-          "short_name": "T. Tanaka",
-          "country": "Japan",
-          "profile": "attacking",
+          "id": 222,
+          "name": "Atanas Atanasov",
+          "short_name": "A. Atanasov",
+          "country": "Bulgaria",
+          "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.3095791604710795,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.14329531254091799,
+          "defensive_line": "high",
           "top_styles": [
-            "positional",
-            "tiki_taka"
+            "terrorist_fb",
+            "park_the_bus"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1110,
-          "name": "Machida Stadium",
-          "city": "Tokyo",
-          "country": "Japan",
-          "capacity": 15320,
-          "latitude": 35.548669,
-          "longitude": 139.446639,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "id": 326,
+          "name": "Aleksandar Shalamanov Stadium",
+          "city": "Sofia",
+          "country": "Bulgaria",
+          "capacity": 25556,
+          "latitude": 42.675361,
+          "longitude": 23.272028,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 1930
         },
         "incidents": null,
         "live_stats": null,
@@ -313,75 +512,75 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "428e47",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "f0f0f0",
-              "sleeve": "4a8d49"
-            },
-            "player": {
-              "base": "ca0202",
+              "base": "da120e",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "000000",
-              "sleevelong": "ca0202"
+              "sleeve": "f6f6f6"
+            },
+            "player": {
+              "base": "c0eb0d",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "000000"
             }
           },
           "home": {
             "GK": {
-              "base": "5c96ee",
+              "base": "27e110",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff"
+              "number": "fafafa",
+              "sleeve": "fcfcfc"
             },
             "player": {
-              "base": "1c356a",
+              "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "c0b97b"
+              "number": "000000",
+              "sleeve": "000000",
+              "sleevelong": "ffffff"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 25,
-            "sentence": "Erik is Machida Z's top scorer with 6 goals. Hidano Renji has scored 4 times for Urawa."
-          },
-          {
-            "type_id": 25,
-            "sentence": "Daihachi Okamura has more yellow cards (4) than any other player at Machida Z. Matheus Savio has collected 4 for Urawa."
-          },
-          {
             "type_id": 1,
-            "sentence": "Machida Z have won 5 home matches in a row."
+            "sentence": "Montana haven't won in their last 5 games."
+          },
+          {
+            "type_id": 2,
+            "sentence": "When playing at home, Slavia Sofia have not lost to Montana in their last 12 encounters."
+          },
+          {
+            "type_id": 24,
+            "sentence": "Montana's away record this season: 1-5-12."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Machida's resilience meets Urawa's hot streak** — this is a clash between a team that can't lose (five games unbeaten) and one that's quietly clicking into form. 🔥\n\nZelvia have drawn twice at home lately, grinding out results; Urawa just demolished Mito 4-1 away and haven't dropped points in five. The Red Diamonds look sharper right now, but Machida's solidity at Machida Stadium shouldn't be slept on.\n\nKey storylines:\n\n- **Urawa's attacking teeth** vs Zelvia's defensive unit — R. Hidano and H. Komori have been clinical, but G. Shoji and D. Okamura need to stay locked in\n- **Machida's set-piece threat** — Erik and S. Na have been their creative spark in compact fixtures\n- **Possession vs efficiency** — Urawa's tempo usually dominates; if Machida sit deep and hit on the counter, all bets are off\n\nExpected lineups:\n\n- **Machida Zelvia**: K. Tani, G. Shoji, D. Okamura, H. Nakamura, H. Mae, Erik, S. Na\n- **Urawa Red Diamonds**: S. Nishikawa, K. Nemoto, Y. Miyamoto, H. Ishihara, K. Yasui, R. Watanabe, H. Komori\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1–1** — Urawa edge on form, but Machida's home record keeps this tight. Slight edge to the hosts, but this feels like a draw.",
-          "generated_at": "2026-05-21T10:45:27.220350+00:00"
+          "text": "**Slavia Sofia hosting Montana in a Bulgarian slugfest where both teams are desperately searching for wins.** Neither side's exactly lighting it up right now 🔥\n\nSlavia's been awful on the road (0-2, 0-2, 1-2 in recent away games) but at least they've got home advantage here. Montana, meanwhile, can't seem to get over the line — three draws in their last five suggests they're leaky but hard to break down. The head-to-head favors Slavia slightly, though.\n\nKey storylines:\n\n- **Slavia's defensive frailty** has them conceding two-goal defeats; **L. Marin** and the back line need to tighten up badly\n- **Montana's draw-heavy form** shows they grind out stalemates; **V. Simeonov** in goal will be tested by Slavia's front four\n- Home-field desperation: **Slavia** have only won once in five, so expect intensity but likely sloppiness\n\nExpected lineups:\n\n- **Slavia Sofia**: I. Andonov, D. Ferraresso, L. Marin, L. Ivanov, N. Savić, I. Minchev, V. Yotov, E. Gogev\n- **PFK Montana 1921**: V. Simeonov, D. Carmona, D. Burov, I. Markov, J. Soares, K. Iliev, A. Todorov, A. Tsingaras\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Slavia edges the xG but Montana's defensive shape holds. Classic coin flip.",
+          "generated_at": "2026-05-22T01:45:23.465035+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-16T06:20:09.001053+04:00",
-      "prob_home_win": 41.863504297291605,
-      "prob_draw": 31.103111790903853,
-      "prob_away_win": 27.03338391180452,
-      "predicted_result": "H",
-      "expected_home_goals": 1.2999999999999998,
-      "expected_away_goals": 1.5,
-      "prob_over_15": 75.50755122945321,
-      "prob_over_25": 39.824285956862646,
-      "prob_over_35": 18.566127309819183,
-      "prob_btts_yes": 55.136955202015045,
-      "confidence": 41.863504297291605,
+      "created_at": "2026-05-16T06:20:10.761194+04:00",
+      "prob_home_win": 35.16346310384004,
+      "prob_draw": 35.37645335065555,
+      "prob_away_win": 29.46008354550441,
+      "predicted_result": "D",
+      "expected_home_goals": 1.1,
+      "expected_away_goals": 1.2999999999999998,
+      "prob_over_15": 59.85636623595365,
+      "prob_over_25": 37.826223434792766,
+      "prob_over_35": 17.344517974208266,
+      "prob_btts_yes": 59.7292573222027,
+      "confidence": 35.37645335065555,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 41.863504297291605,
+      "favorite_prob": 35.16346310384004,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
