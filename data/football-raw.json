@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T21:44:21.423Z",
+  "generatedAt": "2026-05-22T23:08:18.805Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,583 +21,480 @@
   ],
   "samples": {
     "event": {
-      "id": 1449,
+      "id": 9952,
       "league": {
-        "id": 4,
-        "name": "Serie A",
-        "country": "Italy",
+        "id": 34,
+        "name": "Brasileirão Serie B",
+        "country": "Brazil",
         "is_women": false,
         "current_season": {
-          "id": 358,
-          "name": "Serie A 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 358,
-        "name": "Serie A 25/26",
-        "year": 2025
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
+        "year": 2026
       },
-      "home_team": "Fiorentina",
-      "away_team": "Atalanta",
+      "home_team": "Náutico",
+      "away_team": "Cuiabá",
       "home_team_obj": {
-        "id": 68,
-        "name": "Fiorentina",
-        "short_name": "Fiorentina",
-        "country": "Italy",
+        "id": 928,
+        "name": "Náutico",
+        "short_name": "Náutico",
+        "country": "Brazil",
         "coach": {
-          "name": "Paolo Vanoli",
-          "shortName": "P. Vanoli"
+          "name": "Helio Dos Anjos",
+          "shortName": "H. D. Anjos"
         },
         "venue": {
-          "id": 68,
-          "name": "Stadio Artemio Franchi",
-          "city": "Florence",
-          "country": "Italy",
-          "capacity": 43147
+          "id": 708,
+          "name": "Aflitos",
+          "city": "Recife",
+          "country": "Brazil",
+          "capacity": 22856
         }
       },
       "away_team_obj": {
-        "id": 71,
-        "name": "Atalanta",
-        "short_name": "Atalanta",
-        "country": "Italy",
+        "id": 863,
+        "name": "Cuiabá",
+        "short_name": "Cuiabá",
+        "country": "Brazil",
         "coach": {
-          "name": "Raffaele Palladino",
-          "shortName": "R. Palladino"
+          "name": "Eduardo Barros",
+          "shortName": "E. Barros"
         },
-        "venue": {
-          "id": 70,
-          "name": "New Balance Arena",
-          "city": "Bergamo",
-          "country": "Italy",
-          "capacity": 23439
-        }
+        "venue": null
       },
-      "event_date": "2026-05-22T22:45:00+04:00",
-      "round_number": 38,
+      "event_date": "2026-05-23T02:00:00+04:00",
+      "round_number": 10,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 1,
-      "away_score": 1,
-      "home_score_ht": 1,
+      "status": "halftime",
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
       "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 3.61,
-      "odds_draw": 3.34,
-      "odds_away": 2.53,
-      "odds_over_15": 1.26,
-      "odds_over_25": 1.74,
-      "odds_over_35": 3.29,
-      "odds_under_15": 4.38,
-      "odds_under_25": 2.23,
-      "odds_under_35": 1.5,
-      "odds_btts_yes": 1.59,
-      "odds_btts_no": 2.43,
+      "current_minute": 45,
+      "period": "HT",
+      "odds_home": 1.75,
+      "odds_draw": 2.72,
+      "odds_away": 4.2,
+      "odds_over_15": 1.54,
+      "odds_over_25": 2.34,
+      "odds_over_35": 4.14,
+      "odds_under_15": 2.36,
+      "odds_under_25": 1.37,
+      "odds_under_35": 1.11,
+      "odds_btts_yes": 2.09,
+      "odds_btts_no": 1.48,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.79,
-      "away_xg_live": 1.58,
+      "home_xg_live": 0.92,
+      "away_xg_live": 0.05,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 249,
-      "weather_code": 2,
+      "travel_distance_km": 2460,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 493,
-        "name": "Davide Massa",
-        "country": "Italy",
-        "nationality_a3": "ITA",
-        "birthdate": "1981-07-15",
-        "yellowCards": 331,
-        "redCards": 5,
-        "career_games": null,
-        "career_yellow_cards": 1761,
-        "career_red_cards": 51
+        "id": 1589,
+        "name": "Edina Alves Batista",
+        "country": "Brazil",
+        "nationality_a3": "BRA",
+        "birthdate": "1980-01-10",
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": 100,
+        "career_yellow_cards": 435,
+        "career_red_cards": 9
       },
       "home_coach": {
-        "id": 278,
-        "name": "Paolo Vanoli",
-        "short_name": "P. Vanoli",
-        "country": "Italy",
+        "id": 137,
+        "name": "Helio Dos Anjos",
+        "short_name": "H. D. Anjos",
+        "country": "Brazil",
         "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.3236105383858261,
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.7950010850751197,
         "defensive_line": "mid",
         "top_styles": [
-          "ball_dominant",
-          "tiki_taka"
+          "chaos_ball",
+          "chaos_football"
         ]
       },
       "away_coach": {
-        "id": 457,
-        "name": "Raffaele Palladino",
-        "short_name": "R. Palladino",
-        "country": "Italy",
-        "profile": "balanced",
+        "id": 121,
+        "name": "Eduardo Barros",
+        "short_name": "E. Barros",
+        "country": "Brazil",
+        "profile": "defensive",
         "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.5115989178816133,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.564394367143364,
+        "defensive_line": "high",
         "top_styles": [
-          "tiki_taka",
-          "false_9"
+          "terrorist_fb",
+          "anti_football"
         ]
       },
       "unavailable_players": {
         "home": [
           {
-            "name": "Fabiano Parisi",
+            "name": "Juninho",
             "status": "injured",
-            "reason": "Cruciate Ligament Injury",
-            "expected_return": "2026-11-10"
+            "reason": "MCL Knee Injury",
+            "expected_return": null
           },
           {
-            "name": "Luca Ranieri",
-            "status": "suspended",
-            "reason": "red_card_suspension",
-            "expected_return": "2026-05-22"
-          },
-          {
-            "name": "Moise Kean",
-            "status": "injured",
-            "reason": "Muscle Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Roberto Piccoli",
+            "name": "Leonai",
             "status": "doubtful",
+            "reason": "Thigh Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Paulo Sérgio",
+            "status": "injured",
             "reason": "Muscle Injury",
-            "expected_return": "2026-05-22"
+            "expected_return": null
           }
         ],
         "away": [
           {
-            "name": "Giorgio Scalvini",
+            "name": "Eliel",
             "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-01"
+            "reason": "Tired",
+            "expected_return": null
           },
           {
-            "name": "Lorenzo Bernasconi",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Odilon Kossounou",
-            "status": "injured",
+            "name": "Hernandes",
+            "status": "doubtful",
             "reason": "Muscle Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Luiz Otavio",
+            "status": "doubtful",
+            "reason": "Knee Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Vitor Mendes",
+            "status": "doubtful",
+            "reason": "Leg Injury",
             "expected_return": null
           }
         ]
       },
       "venue": {
-        "id": 68,
-        "name": "Stadio Artemio Franchi",
-        "city": "Florence",
-        "country": "Italy",
-        "capacity": 43147,
-        "latitude": 43.780822,
-        "longitude": 11.282258,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 1931
+        "id": 708,
+        "name": "Aflitos",
+        "city": "Recife",
+        "country": "Brazil",
+        "capacity": 22856,
+        "latitude": -8.040559,
+        "longitude": -34.896801,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
       "live_stats": {
         "away": {
-          "duels": 44,
-          "fouls": 14,
-          "passes": 608,
-          "crosses": "5/13 (38%)",
-          "tackles": 7,
-          "dribbles": "3/7 (43%)",
+          "duels": 52,
+          "fouls": 8,
+          "passes": 104,
+          "crosses": "1/2 (50%)",
+          "tackles": 13,
+          "dribbles": "3/4 (75%)",
           "offsides": 0,
           "big_saves": 1,
-          "throw_ins": 12,
+          "throw_ins": 13,
           "clearances": 14,
-          "free_kicks": 11,
-          "goal_kicks": 4,
-          "long_balls": "30/45 (67%)",
-          "recoveries": 45,
-          "big_chances": 2,
-          "high_claims": 1,
-          "tackles_won": 29,
-          "total_saves": 3,
-          "total_shots": 21,
-          "aerial_duels": "10/22 (45%)",
-          "corner_kicks": 3,
-          "dispossessed": 4,
-          "ground_duels": "21/48 (44%)",
+          "free_kicks": 5,
+          "goal_kicks": 6,
+          "long_balls": "4/26 (15%)",
+          "recoveries": 24,
+          "big_chances": 0,
+          "tackles_won": 69,
+          "total_saves": 1,
+          "total_shots": 3,
+          "aerial_duels": "1/4 (25%)",
+          "corner_kicks": 0,
+          "dispossessed": 3,
+          "ground_duels": "21/38 (55%)",
           "hit_woodwork": 0,
-          "yellow_cards": 2,
-          "blocked_shots": 3,
-          "interceptions": 10,
-          "total_tackles": 7,
-          "expected_goals": 1.58,
-          "accurate_passes": 548,
-          "ball_possession": 60,
-          "goals_prevented": -0.66,
-          "shots_on_target": 6,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 11,
-          "shots_off_target": 12,
-          "final_third_phase": "213/248 (86%)",
-          "shots_outside_box": 10,
-          "big_chances_missed": 2,
-          "final_third_entries": 51,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 41
+          "yellow_cards": 1,
+          "blocked_shots": 0,
+          "interceptions": 7,
+          "penalty_saves": 1,
+          "total_tackles": 13,
+          "expected_goals": 0.05,
+          "accurate_passes": 64,
+          "ball_possession": 25,
+          "goals_prevented": 0.87,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 1,
+          "shots_off_target": 2,
+          "final_third_phase": "10/31 (32%)",
+          "shots_outside_box": 2,
+          "big_chances_missed": 0,
+          "final_third_entries": 26,
+          "fouled_in_final_third": 0,
+          "touches_in_penalty_area": 2
         },
         "home": {
-          "duels": 56,
-          "fouls": 11,
-          "passes": 410,
-          "crosses": "5/9 (56%)",
-          "tackles": 8,
-          "dribbles": "6/10 (60%)",
-          "offsides": 4,
-          "big_saves": 3,
-          "throw_ins": 10,
-          "clearances": 22,
-          "free_kicks": 14,
-          "goal_kicks": 15,
-          "long_balls": "24/49 (49%)",
-          "recoveries": 35,
-          "big_chances": 2,
-          "high_claims": 0,
-          "tackles_won": 75,
-          "total_saves": 6,
-          "total_shots": 10,
-          "aerial_duels": "12/22 (55%)",
-          "corner_kicks": 3,
-          "dispossessed": 3,
-          "ground_duels": "27/48 (56%)",
+          "duels": 48,
+          "fouls": 5,
+          "passes": 292,
+          "crosses": "4/20 (20%)",
+          "tackles": 4,
+          "dribbles": "5/13 (38%)",
+          "offsides": 1,
+          "big_saves": 0,
+          "throw_ins": 9,
+          "clearances": 7,
+          "free_kicks": 7,
+          "goal_kicks": 3,
+          "long_balls": "10/18 (56%)",
+          "recoveries": 27,
+          "big_chances": 1,
+          "tackles_won": 50,
+          "total_saves": 1,
+          "total_shots": 5,
+          "aerial_duels": "3/4 (75%)",
+          "corner_kicks": 5,
+          "dispossessed": 5,
+          "ground_duels": "17/38 (45%)",
           "hit_woodwork": 0,
-          "yellow_cards": 0,
-          "blocked_shots": 2,
-          "interceptions": 9,
-          "total_tackles": 8,
-          "expected_goals": 0.79,
-          "accurate_passes": 350,
-          "ball_possession": 40,
-          "goals_prevented": 0.04,
-          "shots_on_target": 4,
-          "goalkeeper_saves": 6,
-          "shots_inside_box": 7,
+          "yellow_cards": 1,
+          "blocked_shots": 0,
+          "interceptions": 3,
+          "penalty_saves": 0,
+          "total_tackles": 4,
+          "expected_goals": 0.92,
+          "accurate_passes": 248,
+          "ball_possession": 75,
+          "goals_prevented": 0.07,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 3,
           "shots_off_target": 4,
-          "final_third_phase": "62/86 (72%)",
-          "shots_outside_box": 3,
-          "big_chances_missed": 2,
-          "final_third_entries": 37,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 20
+          "final_third_phase": "66/90 (73%)",
+          "shots_outside_box": 2,
+          "big_chances_missed": 1,
+          "final_third_entries": 30,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 11
         },
         "first_half": {
           "away": {
-            "duels": 43,
+            "duels": 52,
             "fouls": 8,
-            "passes": 323,
-            "crosses": "1/5 (20%)",
-            "tackles": 3,
-            "dribbles": "0/2 (0%)",
+            "passes": 104,
+            "crosses": "1/2 (50%)",
+            "tackles": 13,
+            "dribbles": "3/4 (75%)",
             "offsides": 0,
-            "throw_ins": 8,
-            "clearances": 11,
-            "free_kicks": 7,
-            "goal_kicks": 1,
-            "long_balls": "17/26 (65%)",
-            "recoveries": 23,
+            "throw_ins": 13,
+            "clearances": 14,
+            "free_kicks": 5,
+            "goal_kicks": 6,
+            "long_balls": "4/26 (15%)",
+            "recoveries": 24,
             "big_chances": 0,
-            "tackles_won": 33,
-            "total_saves": 0,
-            "total_shots": 9,
-            "aerial_duels": "5/13 (38%)",
+            "tackles_won": 69,
+            "total_saves": 1,
+            "total_shots": 3,
+            "aerial_duels": "1/4 (25%)",
             "corner_kicks": 0,
-            "dispossessed": 2,
-            "ground_duels": "10/22 (45%)",
+            "dispossessed": 3,
+            "ground_duels": "21/38 (55%)",
             "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 2,
-            "interceptions": 9,
-            "total_tackles": 3,
-            "expected_goals": 0.41,
-            "accurate_passes": 288,
-            "ball_possession": 59,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 1,
-            "shots_off_target": 4,
-            "shots_outside_box": 8,
-            "big_chances_missed": 0,
-            "final_third_entries": 28,
-            "fouled_in_final_third": 1
-          },
-          "home": {
-            "duels": 57,
-            "fouls": 7,
-            "passes": 224,
-            "crosses": "2/3 (67%)",
-            "tackles": 4,
-            "dribbles": "1/2 (50%)",
-            "offsides": 2,
-            "throw_ins": 5,
-            "clearances": 9,
-            "free_kicks": 8,
-            "goal_kicks": 7,
-            "long_balls": "13/27 (48%)",
-            "recoveries": 20,
-            "big_chances": 1,
-            "tackles_won": 75,
-            "total_saves": 3,
-            "total_shots": 4,
-            "aerial_duels": "8/13 (62%)",
-            "corner_kicks": 0,
-            "dispossessed": 2,
-            "ground_duels": "12/22 (55%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 8,
-            "total_tackles": 4,
-            "expected_goals": 0.37,
-            "accurate_passes": 183,
-            "ball_possession": 41,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 7,
+            "total_tackles": 13,
+            "expected_goals": 0.05,
+            "accurate_passes": 64,
+            "ball_possession": 25,
             "shots_on_target": 1,
-            "goalkeeper_saves": 3,
-            "shots_inside_box": 4,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 1,
             "shots_off_target": 2,
-            "shots_outside_box": 0,
-            "big_chances_missed": 1,
-            "final_third_entries": 18,
-            "fouled_in_final_third": 1
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 46,
-            "fouls": 6,
-            "passes": 285,
-            "crosses": "4/8 (50%)",
-            "tackles": 4,
-            "dribbles": "3/5 (60%)",
-            "offsides": 0,
-            "throw_ins": 4,
-            "clearances": 3,
-            "free_kicks": 4,
-            "goal_kicks": 3,
-            "long_balls": "13/19 (68%)",
-            "recoveries": 22,
-            "big_chances": 2,
-            "tackles_won": 25,
-            "total_saves": 3,
-            "total_shots": 12,
-            "aerial_duels": "5/9 (56%)",
-            "corner_kicks": 3,
-            "dispossessed": 2,
-            "ground_duels": "11/26 (42%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 2,
-            "blocked_shots": 1,
-            "interceptions": 1,
-            "total_tackles": 4,
-            "expected_goals": 1.16,
-            "accurate_passes": 260,
-            "ball_possession": 60,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 3,
-            "shots_inside_box": 10,
-            "shots_off_target": 8,
             "shots_outside_box": 2,
-            "big_chances_missed": 2,
-            "final_third_entries": 23,
+            "big_chances_missed": 0,
+            "final_third_entries": 26,
             "fouled_in_final_third": 0
           },
           "home": {
-            "duels": 54,
-            "fouls": 4,
-            "passes": 186,
-            "crosses": "3/6 (50%)",
+            "duels": 48,
+            "fouls": 5,
+            "passes": 292,
+            "crosses": "4/20 (20%)",
             "tackles": 4,
-            "dribbles": "5/8 (63%)",
-            "offsides": 2,
-            "throw_ins": 5,
-            "clearances": 13,
-            "free_kicks": 6,
-            "goal_kicks": 8,
-            "long_balls": "11/22 (50%)",
-            "recoveries": 15,
+            "dribbles": "5/13 (38%)",
+            "offsides": 1,
+            "throw_ins": 9,
+            "clearances": 7,
+            "free_kicks": 7,
+            "goal_kicks": 3,
+            "long_balls": "10/18 (56%)",
+            "recoveries": 27,
             "big_chances": 1,
-            "tackles_won": 75,
-            "total_saves": 3,
-            "total_shots": 6,
-            "aerial_duels": "4/9 (44%)",
-            "corner_kicks": 3,
-            "dispossessed": 1,
-            "ground_duels": "15/26 (58%)",
+            "tackles_won": 50,
+            "total_saves": 1,
+            "total_shots": 5,
+            "aerial_duels": "3/4 (75%)",
+            "corner_kicks": 5,
+            "dispossessed": 5,
+            "ground_duels": "17/38 (45%)",
             "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 1,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 3,
             "total_tackles": 4,
-            "expected_goals": 0.42,
-            "accurate_passes": 167,
-            "ball_possession": 40,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 3,
+            "expected_goals": 0.92,
+            "accurate_passes": 248,
+            "ball_possession": 75,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 1,
             "shots_inside_box": 3,
-            "shots_off_target": 2,
-            "shots_outside_box": 3,
+            "shots_off_target": 4,
+            "shots_outside_box": 2,
             "big_chances_missed": 1,
-            "final_third_entries": 19,
-            "fouled_in_final_third": 0
+            "final_third_entries": 30,
+            "fouled_in_final_third": 2
           }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "81b112",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "f7f3f3",
-            "sleeve": "b2ff93"
-          },
-          "player": {
-            "base": "0054a8",
+            "base": "60f23d",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "050505",
-            "stripes": "000000",
-            "sleevelong": "0054a8"
+            "sleeve": "25d70e"
+          },
+          "player": {
+            "base": "f8d706",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "00854f",
+            "sleeve": "00854f",
+            "sleevelong": "f8d706"
           }
         },
         "home": {
           "GK": {
-            "base": "962dfa",
+            "base": "006600",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "f2f1ed"
+            "sleeve": "006600"
           },
           "player": {
-            "base": "693586",
-            "real": true,
+            "base": "D8D8D8",
+            "real": false,
             "type": "short_sleeves",
-            "number": "fffdff",
-            "sleeve": "52375e"
+            "number": "000000",
+            "sleeve": "D8D8D8"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "When playing at home, Fiorentina have not lost to Atalanta in their last 5 encounters."
+          "type_id": 1,
+          "sentence": "Cuiaba haven't won in their last 4 games."
         },
         {
           "type_id": 24,
-          "sentence": "Fiorentina's home record this season: 4-8-6."
+          "sentence": "Cuiaba's away record this season: 1-3-0."
         },
         {
-          "type_id": 24,
-          "sentence": "Atalanta's away record this season: 6-7-5."
+          "type_id": 25,
+          "sentence": "Vinicius is Nautico's top scorer with 5 goals. Hernandes has scored 2 times for Cuiaba."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 79,
-          "home": 52
+          "away": 22,
+          "home": 61
         },
         "ball_safe": {
-          "away": 64,
-          "home": 67
+          "away": 31,
+          "home": 42
         },
         "attack_pct": {
-          "away": 23,
-          "home": 17
+          "away": 22,
+          "home": 25
         },
         "ball_safe_pct": {
-          "away": 41,
-          "home": 66
+          "away": 71,
+          "home": 30
         },
         "dangerous_attack": {
-          "away": 65,
-          "home": 27
+          "away": 7,
+          "home": 34
         },
         "dangerous_attack_pct": {
-          "away": 36,
-          "home": 17
+          "away": 7,
+          "home": 45
         }
       },
       "ai_preview": {
-        "text": "**Fiorentina host Atalanta in a dead-rubber finale**, but with both clubs fighting for midtable pride and European positioning still (technically) alive. 🎯 This is the kind of match where form goes out the window and emotion takes over.\n\nFiorentina just hammered Juventus 2-0 away but then got demolished 4-0 at Roma — total mood whiplash. Atalanta beat AC Milan 3-2 but lost at home to Bologna, so nobody's riding a wave here.\n\nKey storylines:\n\n- **De Gea** in goal for Fiorentina makes this feel like a proper final-day statement; Atalanta's **Carnesecchi** will be solid but this is the kind of game where one moment decides it\n- Fiorentina missing **Kean** up front is a blow, but **Guðmundsson** and **Harrison** can carry the load on the wings\n- **De Roon** and **Éderson** controlling Atalanta's midfield will be crucial against **Fagioli** and **Ndour**\n\nExpected lineups:\n\n- **Fiorentina**: De Gea, Pongračić, Rugani, Gosens, Dodô, Fagioli, Ndour, Guðmundsson, Harrison, Fazzini\n- **Atalanta**: Carnesecchi, Djimsiti, Kolašinac, Scalvini, de Roon, Éderson, Zappacosta, De Ketelaere, Raspadori, Krstović\n\nPrediction:\n\n**1-1 draw** feels like the math here — both teams have the firepower but neither looks sharp enough to dominate. Slight lean to Fiorentina's home advantage. ⚪",
-        "generated_at": "2026-05-22T01:45:57.363671+00:00"
+        "text": "**Náutico's red-hot form collides with Cuiabá's stubborn draw-machine** — one team's been lighting it up, the other's practically allergic to results. 🔥\n\nNáutico are rolling hard with three wins in five and some genuinely wild scorelines (6-2, 4-0). Cuiabá, meanwhile, are stuck in a rut: just one win across their last five games, drawing the other four. That's not great when you're chasing promotion.\n\nKey storylines:\n\n- **Náutico's attacking firepower** vs Cuiabá's leaky defense — can the hosts maintain their goal-spree momentum?\n- **Cuiabá's defensive solidity** — they've kept things tight in recent weeks (three 0-0s and a 1-1), but face the Pernambuco pressure cooker at Aflitos\n- **Missing depth on Náutico's wing** — injuries to Juninho and P. Sérgio mean rotation headaches, though the core XI still packs serious punch\n\nExpected lineups:\n\n- **Náutico**: Muriel, I. Fernandes, Mateus Silva, Yuri, Vinícius, Dodô, Derek, Wenderson, Rosa, Kevyn\n- **Cuiabá**: M. Carné, J. Basso, Marlon, Eric, Gabriel, C. Costa, Raul, Hernandes, Railan\n\nBest picks:\n\n- **Total Goals Under 3.5**: Despite Náutico's attacking form, Cuiabá's draw-heavy defensive culture should keep this tighter than the scoreline suggests\n\nPrediction: **Náutico 2–0 Cuiabá**. Home advantage + form gap = slight lean to the hosts. 🟡",
+        "generated_at": "2026-05-22T01:46:03.567865+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4264,
+      "id": 4268,
       "event": {
-        "id": 9952,
+        "id": 204895,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
-          "country": "Brazil",
+          "id": 49,
+          "name": "J1 League",
+          "country": "Japan",
           "is_women": false,
-          "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026
-        },
-        "home_team": "Náutico",
-        "away_team": "Cuiabá",
+        "season": null,
+        "home_team": "Sanfrecce Hiroshima",
+        "away_team": "Nagoya Grampus",
         "home_team_obj": {
-          "id": 928,
-          "name": "Náutico",
-          "short_name": "Náutico",
-          "country": "Brazil",
+          "id": 1933,
+          "name": "Sanfrecce Hiroshima",
+          "short_name": "Sanfrecce",
+          "country": "Japan",
           "coach": {
-            "name": "Helio Dos Anjos",
-            "shortName": "H. D. Anjos"
-          },
-          "venue": {
-            "id": 708,
-            "name": "Aflitos",
-            "city": "Recife",
-            "country": "Brazil",
-            "capacity": 22856
-          }
-        },
-        "away_team_obj": {
-          "id": 863,
-          "name": "Cuiabá",
-          "short_name": "Cuiabá",
-          "country": "Brazil",
-          "coach": {
-            "name": "Eduardo Barros",
-            "shortName": "E. Barros"
+            "name": "Bartosch Gaul",
+            "shortName": "B. Gaul"
           },
           "venue": null
         },
-        "event_date": "2026-05-23T02:00:00+04:00",
-        "round_number": 10,
+        "away_team_obj": {
+          "id": 1942,
+          "name": "Nagoya Grampus",
+          "short_name": "Nagoya",
+          "country": "Japan",
+          "coach": {
+            "name": "Mihailo Petrovic",
+            "shortName": "M. Petrovic"
+          },
+          "venue": null
+        },
+        "event_date": "2026-05-23T09:00:00+04:00",
+        "round_number": 18,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -607,17 +504,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.9,
-        "odds_draw": 2.98,
-        "odds_away": 4.68,
-        "odds_over_15": 1.56,
-        "odds_over_25": 2.68,
-        "odds_over_35": 5.35,
-        "odds_under_15": 2.32,
-        "odds_under_25": 1.43,
-        "odds_under_35": 1.14,
-        "odds_btts_yes": 2.31,
-        "odds_btts_no": 1.56,
+        "odds_home": 1.72,
+        "odds_draw": 3.85,
+        "odds_away": 4.37,
+        "odds_over_15": 1.21,
+        "odds_over_25": 1.66,
+        "odds_over_35": 2.61,
+        "odds_under_15": 4.17,
+        "odds_under_25": 2.15,
+        "odds_under_35": 1.44,
+        "odds_btts_yes": 1.65,
+        "odds_btts_no": 2.14,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -626,110 +523,52 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 2460,
+        "travel_distance_km": 443,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 1589,
-          "name": "Edina Alves Batista",
-          "country": "Brazil",
-          "nationality_a3": "BRA",
-          "birthdate": "1980-01-10",
-          "yellowCards": 0,
-          "redCards": 0,
-          "career_games": 100,
-          "career_yellow_cards": 435,
-          "career_red_cards": 9
-        },
+        "referee": null,
         "home_coach": {
-          "id": 137,
-          "name": "Helio Dos Anjos",
-          "short_name": "H. D. Anjos",
-          "country": "Brazil",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.7950010850751197,
-          "defensive_line": "mid",
+          "id": 1290,
+          "name": "Bartosch Gaul",
+          "short_name": "B. Gaul",
+          "country": "Germany",
+          "profile": "attacking",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.5328148111095012,
+          "defensive_line": "high",
           "top_styles": [
-            "chaos_ball",
-            "chaos_football"
+            "cross_pray",
+            "wing_play"
           ]
         },
         "away_coach": {
-          "id": 121,
-          "name": "Eduardo Barros",
-          "short_name": "E. Barros",
-          "country": "Brazil",
-          "profile": "defensive",
+          "id": 1299,
+          "name": "Mihailo Petrovic",
+          "short_name": "M. Petrovic",
+          "country": "Austria",
+          "profile": "attacking",
           "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.564394367143364,
-          "defensive_line": "high",
+          "pressing_intensity": 0.5644830379965026,
+          "defensive_line": "low",
           "top_styles": [
-            "terrorist_fb",
-            "anti_football"
+            "cross_pray",
+            "chaos_ball"
           ]
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Juninho",
-              "status": "injured",
-              "reason": "MCL Knee Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Leonai",
-              "status": "doubtful",
-              "reason": "Thigh Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Paulo Sérgio",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            }
-          ],
-          "away": [
-            {
-              "name": "Eliel",
-              "status": "doubtful",
-              "reason": "Tired",
-              "expected_return": null
-            },
-            {
-              "name": "Hernandes",
-              "status": "doubtful",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Luiz Otavio",
-              "status": "doubtful",
-              "reason": "Knee Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Vitor Mendes",
-              "status": "doubtful",
-              "reason": "Leg Injury",
-              "expected_return": null
-            }
-          ]
-        },
+        "unavailable_players": null,
         "venue": {
-          "id": 708,
-          "name": "Aflitos",
-          "city": "Recife",
-          "country": "Brazil",
-          "capacity": 22856,
-          "latitude": -8.040559,
-          "longitude": -34.896801,
-          "pitch_x": null,
-          "pitch_y": null,
+          "id": 1111,
+          "name": "Edion Peace Wing Hiroshima",
+          "city": "Hiroshima",
+          "country": "Japan",
+          "capacity": 28520,
+          "latitude": 34.4016217,
+          "longitude": 132.4532087,
+          "pitch_x": 105,
+          "pitch_y": 68,
           "built_year": null
         },
         "incidents": null,
@@ -742,75 +581,77 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "60f23d",
+              "base": "71b7e5",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "25d70e"
+              "sleeve": "3f79b1",
+              "sleevelong": "2d7ab3"
             },
             "player": {
-              "base": "f8d706",
+              "base": "efb536",
               "real": true,
               "type": "short_sleeves",
-              "number": "00854f",
-              "sleeve": "00854f",
-              "sleevelong": "f8d706"
+              "number": "0d0d0d",
+              "sleeve": "c31d14",
+              "sleevelong": "cc0000"
             }
           },
           "home": {
             "GK": {
-              "base": "006600",
+              "base": "59df17",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "fffa00"
+            },
+            "player": {
+              "base": "644ea5",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "006600"
-            },
-            "player": {
-              "base": "D8D8D8",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
+              "sleeve": "1e244c",
+              "sleevelong": "0f1750"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 1,
-            "sentence": "Cuiaba haven't won in their last 4 games."
+            "sentence": "Nagoya have a winning streak of 3 matches."
           },
           {
-            "type_id": 24,
-            "sentence": "Cuiaba's away record this season: 1-3-0."
+            "type_id": 1,
+            "sentence": "Nagoya have a winning streak of 3 matches in West J1 League."
           },
           {
-            "type_id": 25,
-            "sentence": "Vinicius is Nautico's top scorer with 5 goals. Hernandes has scored 2 times for Cuiaba."
+            "type_id": 6,
+            "sentence": "During the last 25 meetings with Hiroshima playing at home, Hiroshima have won 10 times, there have been 7 draws while Nagoya have won 8 times. The goal difference is 35-27 in favour of Hiroshima."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Náutico's red-hot form collides with Cuiabá's stubborn draw-machine** — one team's been lighting it up, the other's practically allergic to results. 🔥\n\nNáutico are rolling hard with three wins in five and some genuinely wild scorelines (6-2, 4-0). Cuiabá, meanwhile, are stuck in a rut: just one win across their last five games, drawing the other four. That's not great when you're chasing promotion.\n\nKey storylines:\n\n- **Náutico's attacking firepower** vs Cuiabá's leaky defense — can the hosts maintain their goal-spree momentum?\n- **Cuiabá's defensive solidity** — they've kept things tight in recent weeks (three 0-0s and a 1-1), but face the Pernambuco pressure cooker at Aflitos\n- **Missing depth on Náutico's wing** — injuries to Juninho and P. Sérgio mean rotation headaches, though the core XI still packs serious punch\n\nExpected lineups:\n\n- **Náutico**: Muriel, I. Fernandes, Mateus Silva, Yuri, Vinícius, Dodô, Derek, Wenderson, Rosa, Kevyn\n- **Cuiabá**: M. Carné, J. Basso, Marlon, Eric, Gabriel, C. Costa, Raul, Hernandes, Railan\n\nBest picks:\n\n- **Total Goals Under 3.5**: Despite Náutico's attacking form, Cuiabá's draw-heavy defensive culture should keep this tighter than the scoreline suggests\n\nPrediction: **Náutico 2–0 Cuiabá**. Home advantage + form gap = slight lean to the hosts. 🟡",
-          "generated_at": "2026-05-22T01:46:03.567865+00:00"
+          "text": "**Nagoya's got the edge here, but Hiroshima's been quietly solid at home.** This is a clash between a team riding recent wins and one that can't seem to find consistency. 🔥\n\nSanfrecce sit on **2W 2D 1L** over their last five, grinding out results with a mix of big wins and draws. Nagoya, though, have the better run — **3W 1D 1L** — though they got absolutely battered 1-6 by Cerezo Osaka recently, so form's a bit jagged. Head-to-head favor the visitors, who won the last meeting.\n\nKey storylines:\n\n- **Nagoya's attack vs Hiroshima's defense**: Grampus have been clinical at home (3-0, 2-1 wins), but Hiroshima's backline anchored by **S. Tsukasa** and **H. Araki** have held their shape well.\n- **Midfield control**: **T. Takamine** and **K. Mikuni** need to dominate for Nagoya; **A. Naoto** and **K. Hayao** will be the heartbeat for the home side.\n- **Striker form**: **Y. Yamagishi** and **K. Mutsuki** are the final word — both teams live and die by their finishing.\n\nExpected lineups:\n\n- **Sanfrecce Hiroshima**: O. Keisuke, S. Sho, S. Tsukasa, H. Araki, Y. Taichi, A. Naoto, K. Hayao, S. Nakamura, A. Suzuki, S. Nakamura, K. Mutsuki\n- **Nagoya Grampus**: D. Schmidt, H. Fujii, T. Hara, Y. Nogami, K. Mikuni, T. Takamine, S. Inagaki, K. Nakayama, Y. Kimura, R. Izumi, Y. Yamagishi\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Nagoya Grampus 2–1 Sanfrecce Hiroshima**. Grampus edge it on the road — slight favorite vibes. ⚽",
+          "generated_at": "2026-05-22T05:45:27.480341+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-16T06:20:13.158879+04:00",
-      "prob_home_win": 33.45278772592012,
-      "prob_draw": 35.119514735997946,
-      "prob_away_win": 31.427697538081944,
-      "predicted_result": "D",
-      "expected_home_goals": 0.88306,
-      "expected_away_goals": 0.804745,
-      "prob_over_15": 52.424721047415105,
-      "prob_over_25": 41.71325896767401,
-      "prob_over_35": 15.224000953227101,
-      "prob_btts_yes": 29.368903704794647,
-      "confidence": 35.119514735997946,
+      "created_at": "2026-05-17T06:20:16.796396+04:00",
+      "prob_home_win": 21.929040009947904,
+      "prob_draw": 27.85943327917123,
+      "prob_away_win": 50.211526710880875,
+      "predicted_result": "A",
+      "expected_home_goals": 1.2,
+      "expected_away_goals": 1.4,
+      "prob_over_15": 79.79347200453064,
+      "prob_over_25": 53.67574449211193,
+      "prob_over_35": 18.370571087840897,
+      "prob_btts_yes": 63.28747149691281,
+      "confidence": 50.211526710880875,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
-      "favorite": "H",
-      "favorite_prob": 33.45278772592012,
+      "most_likely_score": "1-1",
+      "favorite": "A",
+      "favorite_prob": 50.211526710880875,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
