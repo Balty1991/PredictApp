@@ -1,54 +1,10 @@
 {
-  "generatedAt": "2026-05-23T12:37:02.826Z",
+  "generatedAt": "2026-05-23T14:41:41.223Z",
   "count": 50,
   "items": [
     {
-      "id": 204898,
-      "status": "finished",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Kyoto Sanga FC",
-      "awayTeam": "V-Varen Nagasaki",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205789,
-      "status": "2nd_half",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Shanghai Port",
-      "awayTeam": "Tianjin Jinmen Tiger",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207225,
-      "status": "2nd_half",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Inter Turku",
-      "awayTeam": "Turun Palloseura",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205790,
-      "status": "halftime",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Beijing Guoan",
-      "awayTeam": "Henan FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205791,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Dalian Yingbo FC",
@@ -59,7 +15,7 @@
     },
     {
       "id": 46370,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Kalmar FF",
@@ -70,7 +26,7 @@
     },
     {
       "id": 46369,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Allsvenskan",
       "country": "Sweden",
       "homeTeam": "Halmstads BK",
@@ -80,19 +36,8 @@
       "marketCount": 0
     },
     {
-      "id": 207227,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Ilves",
-      "awayTeam": "IF Gnistan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207229,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "FF Jaro",
@@ -103,7 +48,7 @@
     },
     {
       "id": 207226,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Kuopion Palloseura",
@@ -114,7 +59,7 @@
     },
     {
       "id": 207228,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "SJK",
@@ -135,8 +80,19 @@
       "marketCount": 0
     },
     {
+      "id": 207227,
+      "status": "1st_half",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Ilves",
+      "awayTeam": "IF Gnistan",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207465,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Eredivisie",
       "country": "Netherlands",
       "homeTeam": "FC Volendam",
@@ -146,19 +102,8 @@
       "marketCount": 0
     },
     {
-      "id": 207505,
-      "status": "notstarted",
-      "league": "Championship",
-      "country": "England",
-      "homeTeam": "Hull City",
-      "awayTeam": "Middlesbrough",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207489,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Superliga",
       "country": "Romania",
       "homeTeam": "Chindia Târgoviște",
@@ -168,12 +113,45 @@
       "marketCount": 0
     },
     {
-      "id": 8041,
+      "id": 207505,
+      "status": "1st_half",
+      "league": "Championship",
+      "country": "England",
+      "homeTeam": "Hull City",
+      "awayTeam": "Middlesbrough",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8043,
       "status": "notstarted",
       "league": "Ekstraklasa",
       "country": "Poland",
-      "homeTeam": "Pogoń Szczecin",
-      "awayTeam": "GKS Katowice",
+      "homeTeam": "Widzew Łódź",
+      "awayTeam": "Piast Gliwice",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8038,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Jagiellonia Białystok",
+      "awayTeam": "Zagłębie Lubin",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8035,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Bruk-Bet Termalica Nieciecza",
+      "awayTeam": "KS Lechia Gdańsk",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,6 +168,17 @@
       "marketCount": 0
     },
     {
+      "id": 8041,
+      "status": "notstarted",
+      "league": "Ekstraklasa",
+      "country": "Poland",
+      "homeTeam": "Pogoń Szczecin",
+      "awayTeam": "GKS Katowice",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8039,
       "status": "notstarted",
       "league": "Ekstraklasa",
@@ -201,12 +190,12 @@
       "marketCount": 0
     },
     {
-      "id": 8042,
+      "id": 8036,
       "status": "notstarted",
       "league": "Ekstraklasa",
       "country": "Poland",
-      "homeTeam": "Raków Częstochowa",
-      "awayTeam": "MZKS Arka Gdynia",
+      "homeTeam": "Cracovia",
+      "awayTeam": "MKS Korona Kielce",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -224,7 +213,7 @@
     },
     {
       "id": 207413,
-      "status": "canceled",
+      "status": "postponed",
       "league": "Championship",
       "country": "England",
       "homeTeam": "Hull City",
@@ -234,45 +223,12 @@
       "marketCount": 0
     },
     {
-      "id": 8038,
+      "id": 8042,
       "status": "notstarted",
       "league": "Ekstraklasa",
       "country": "Poland",
-      "homeTeam": "Jagiellonia Białystok",
-      "awayTeam": "Zagłębie Lubin",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8036,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Cracovia",
-      "awayTeam": "MKS Korona Kielce",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8035,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Bruk-Bet Termalica Nieciecza",
-      "awayTeam": "KS Lechia Gdańsk",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8043,
-      "status": "notstarted",
-      "league": "Ekstraklasa",
-      "country": "Poland",
-      "homeTeam": "Widzew Łódź",
-      "awayTeam": "Piast Gliwice",
+      "homeTeam": "Raków Częstochowa",
+      "awayTeam": "MZKS Arka Gdynia",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,17 +278,6 @@
       "marketCount": 0
     },
     {
-      "id": 205204,
-      "status": "notstarted",
-      "league": "DFB Pokal",
-      "country": "Germany",
-      "homeTeam": "FC Bayern München",
-      "awayTeam": "VfB Stuttgart",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207477,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -344,23 +289,23 @@
       "marketCount": 0
     },
     {
-      "id": 1451,
+      "id": 205204,
       "status": "notstarted",
-      "league": "Serie A",
-      "country": "Italy",
-      "homeTeam": "Lazio",
-      "awayTeam": "Pisa",
+      "league": "DFB Pokal",
+      "country": "Germany",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "VfB Stuttgart",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 9171,
+      "id": 9170,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
-      "homeTeam": "Royal Antwerp FC",
-      "awayTeam": "KVC Westerlo",
+      "homeTeam": "Oud-Heverlee Leuven",
+      "awayTeam": "KRC Genk",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -388,45 +333,23 @@
       "marketCount": 0
     },
     {
-      "id": 9170,
+      "id": 9171,
       "status": "notstarted",
       "league": "Pro League",
       "country": "Belgium",
-      "homeTeam": "Oud-Heverlee Leuven",
-      "awayTeam": "KRC Genk",
+      "homeTeam": "Royal Antwerp FC",
+      "awayTeam": "KVC Westerlo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 1064,
+      "id": 1451,
       "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Getafe",
-      "awayTeam": "Osasuna",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1065,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Girona FC",
-      "awayTeam": "Elche",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 1062,
-      "status": "notstarted",
-      "league": "La Liga",
-      "country": "Spain",
-      "homeTeam": "Deportivo Alavés",
-      "awayTeam": "Rayo Vallecano",
+      "league": "Serie A",
+      "country": "Italy",
+      "homeTeam": "Lazio",
+      "awayTeam": "Pisa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -443,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 1068,
+      "id": 1061,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Real Madrid",
-      "awayTeam": "Athletic Club",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Sevilla",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -465,12 +388,12 @@
       "marketCount": 0
     },
     {
-      "id": 1067,
+      "id": 1065,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Real Betis",
-      "awayTeam": "Levante UD",
+      "homeTeam": "Girona FC",
+      "awayTeam": "Elche",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -487,6 +410,39 @@
       "marketCount": 0
     },
     {
+      "id": 1067,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Real Betis",
+      "awayTeam": "Levante UD",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1068,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Real Madrid",
+      "awayTeam": "Athletic Club",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 1062,
+      "status": "notstarted",
+      "league": "La Liga",
+      "country": "Spain",
+      "homeTeam": "Deportivo Alavés",
+      "awayTeam": "Rayo Vallecano",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9950,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -498,12 +454,23 @@
       "marketCount": 0
     },
     {
-      "id": 1061,
+      "id": 1064,
       "status": "notstarted",
       "league": "La Liga",
       "country": "Spain",
-      "homeTeam": "Celta Vigo",
-      "awayTeam": "Sevilla",
+      "homeTeam": "Getafe",
+      "awayTeam": "Osasuna",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7161,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "São Paulo",
+      "awayTeam": "Botafogo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -531,23 +498,56 @@
       "marketCount": 0
     },
     {
-      "id": 7161,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "São Paulo",
-      "awayTeam": "Botafogo",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 5125,
       "status": "notstarted",
       "league": "MLS",
       "country": "USA",
       "homeTeam": "Minnesota United",
       "awayTeam": "Real Salt Lake",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9949,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Fortaleza",
+      "awayTeam": "Londrina",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7158,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Grêmio",
+      "awayTeam": "Santos",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207626,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Loudoun United FC",
+      "awayTeam": "Detroit City FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7159,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Mirassol",
+      "awayTeam": "Fluminense",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
