@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T01:24:10.862Z",
+  "generatedAt": "2026-05-23T05:07:31.960Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,77 +21,61 @@
   ],
   "samples": {
     "event": {
-      "id": 9244,
+      "id": 204894,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": 49,
+        "name": "J1 League",
+        "country": "Japan",
         "is_women": false,
-        "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
-        "year": 2026
-      },
-      "home_team": "Mexico",
-      "away_team": "Ghana",
+      "season": null,
+      "home_team": "Avispa Fukuoka",
+      "away_team": "Vissel Kobe",
       "home_team_obj": {
-        "id": 451,
-        "name": "Mexico",
-        "short_name": "Mexico",
-        "country": "Mexico",
+        "id": 1940,
+        "name": "Avispa Fukuoka",
+        "short_name": "Fukuoka",
+        "country": "Japan",
         "coach": {
-          "name": "Javier Aguirre",
-          "shortName": "J. Aguirre"
+          "name": "Shinya Tsukahara",
+          "shortName": "S. Tsukahara"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 495,
-        "name": "Ghana",
-        "short_name": "Ghana",
-        "country": "Ghana",
+        "id": 1931,
+        "name": "Vissel Kobe",
+        "short_name": "Vissel Kobe",
+        "country": "Japan",
         "coach": {
-          "name": "Carlos Queiroz",
-          "shortName": "C. Queiroz"
+          "name": "Michael Skibbe",
+          "shortName": "M. Skibbe"
         },
-        "venue": {
-          "id": 448,
-          "name": "Accra Sports Stadium",
-          "city": "Accra",
-          "country": "Ghana",
-          "capacity": 40000
-        }
+        "venue": null
       },
-      "event_date": "2026-05-23T06:00:00+04:00",
-      "round_number": null,
+      "event_date": "2026-05-23T09:00:00+04:00",
+      "round_number": 18,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 0,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 1.3,
-      "odds_draw": 5.14,
-      "odds_away": 9.87,
-      "odds_over_15": 1.22,
-      "odds_over_25": 1.71,
-      "odds_over_35": 2.76,
-      "odds_under_15": 3.89,
-      "odds_under_25": 2.06,
-      "odds_under_35": 1.4,
-      "odds_btts_yes": 2.17,
-      "odds_btts_no": 1.62,
+      "current_minute": 2,
+      "period": "1T",
+      "odds_home": 4.21,
+      "odds_draw": 3.29,
+      "odds_away": 1.89,
+      "odds_over_15": 1.43,
+      "odds_over_25": 2.31,
+      "odds_over_35": 4.33,
+      "odds_under_15": 2.69,
+      "odds_under_25": 1.57,
+      "odds_under_35": 1.19,
+      "odds_btts_yes": 2.09,
+      "odds_btts_no": 1.67,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -100,100 +84,247 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 450,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 461,
+        "name": "Daichi Shiino",
+        "country": "Japan",
+        "nationality_a3": "JPN",
+        "birthdate": null,
+        "yellowCards": 0,
+        "redCards": 0,
+        "career_games": null,
+        "career_yellow_cards": 23,
+        "career_red_cards": 1
+      },
       "home_coach": {
-        "id": 128,
-        "name": "Javier Aguirre",
-        "short_name": "J. Aguirre",
-        "country": "Mexico",
-        "profile": "defensive",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.4680520485152988,
+        "id": 1297,
+        "name": "Shinya Tsukahara",
+        "short_name": "S. Tsukahara",
+        "country": "Japan",
+        "profile": "balanced",
+        "preferred_formation": "3-4-2-1",
+        "pressing_intensity": 0.2516095274168253,
         "defensive_line": "mid",
         "top_styles": [
-          "low_block",
-          "inverted_fb"
+          "no_midfield",
+          "terrorist_fb"
         ]
       },
       "away_coach": {
-        "id": 838,
-        "name": "Carlos Queiroz",
-        "short_name": "C. Queiroz",
-        "country": "Portugal",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1288,
+        "name": "Michael Skibbe",
+        "short_name": "M. Skibbe",
+        "country": "Germany",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.7028843569405556,
+        "defensive_line": "mid",
+        "top_styles": [
+          "high_press",
+          "gegenpressing"
+        ]
       },
       "unavailable_players": null,
-      "venue": null,
-      "live_stats": null,
+      "venue": {
+        "id": 1106,
+        "name": "Best Denki Stadium",
+        "city": "Fukuoka",
+        "country": "Japan",
+        "capacity": 22563,
+        "latitude": 33.585845,
+        "longitude": 130.460735,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
+      "live_stats": {
+        "away": {
+          "duels": 67,
+          "fouls": 1,
+          "passes": 8,
+          "crosses": "0/0 (0%)",
+          "clearances": 3,
+          "free_kicks": 0,
+          "long_balls": "1/3 (33%)",
+          "recoveries": 2,
+          "total_shots": 0,
+          "aerial_duels": "2/2 (100%)",
+          "ground_duels": "0/1 (0%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "accurate_passes": 4,
+          "ball_possession": 44,
+          "shots_on_target": 0,
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "3/4 (75%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 1,
+          "touches_in_penalty_area": 0
+        },
+        "home": {
+          "duels": 33,
+          "fouls": 0,
+          "passes": 8,
+          "crosses": "0/2 (0%)",
+          "clearances": 0,
+          "free_kicks": 1,
+          "long_balls": "1/3 (33%)",
+          "recoveries": 2,
+          "total_shots": 0,
+          "aerial_duels": "0/2 (0%)",
+          "ground_duels": "1/1 (100%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "accurate_passes": 4,
+          "ball_possession": 56,
+          "shots_on_target": 0,
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "2/5 (40%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 4,
+          "touches_in_penalty_area": 1
+        },
+        "first_half": {
+          "away": {
+            "duels": 67,
+            "fouls": 1,
+            "passes": 8,
+            "crosses": "0/0 (0%)",
+            "clearances": 3,
+            "free_kicks": 0,
+            "long_balls": "1/3 (33%)",
+            "recoveries": 2,
+            "total_shots": 0,
+            "aerial_duels": "2/2 (100%)",
+            "ground_duels": "0/1 (0%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "accurate_passes": 4,
+            "ball_possession": 44,
+            "shots_on_target": 0,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 1
+          },
+          "home": {
+            "duels": 33,
+            "fouls": 0,
+            "passes": 8,
+            "crosses": "0/2 (0%)",
+            "clearances": 0,
+            "free_kicks": 1,
+            "long_balls": "1/3 (33%)",
+            "recoveries": 2,
+            "total_shots": 0,
+            "aerial_duels": "0/2 (0%)",
+            "ground_duels": "1/1 (100%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "accurate_passes": 4,
+            "ball_possession": 56,
+            "shots_on_target": 0,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 4
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "f65b96",
+            "base": "6ea9ad",
             "real": true,
             "type": "short_sleeves",
-            "number": "0a0a0a",
-            "sleeve": "eaf3a1"
+            "number": "ffffff",
+            "sleeve": "75a8ac",
+            "stripes": "2c434a"
           },
           "player": {
-            "base": "ffffff",
+            "base": "6d142a",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "000000"
+            "number": "ffffff",
+            "sleeve": "000000",
+            "stripes": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "d54882",
-            "real": true,
-            "type": "long_sleeves",
-            "number": "ebebeb",
-            "sleeve": "c83f77"
-          },
-          "player": {
-            "base": "298b77",
+            "base": "0d0e0d",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "e70d0d"
+            "sleeve": "faf5f6"
+          },
+          "player": {
+            "base": "01206f",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "0e1736"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "Ghana haven't won any of their last 4 games against Mexico."
+          "type_id": 24,
+          "sentence": "Avispa's home record this season: 1-5-2."
         },
         {
-          "type_id": 1,
-          "sentence": "Mexico haven't lost in their last 5 games."
+          "type_id": 24,
+          "sentence": "Kobe's away record this season: 2-3-2."
         },
         {
-          "type_id": 1,
-          "sentence": "Ghana have lost 4 away matches in a row."
+          "type_id": 25,
+          "sentence": "Shosei Usui is Avispa's top scorer with 4 goals. Ren Komatsu has scored 4 times for Kobe."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 3,
+          "home": 3
+        },
+        "ball_safe": {
+          "away": 3,
+          "home": 3
+        },
+        "attack_pct": {
+          "away": 18,
+          "home": 44
+        },
+        "ball_safe_pct": {
+          "away": 82,
+          "home": 44
+        },
+        "dangerous_attack": {
+          "away": 0,
+          "home": 1
+        },
+        "dangerous_attack_pct": {
+          "away": 0,
+          "home": 12
+        }
+      },
       "ai_preview": {
-        "text": "**Mexico come in hot, but Ghana's spiraling — this should be a statement game for the hosts.** 🔥\n\nMexico are clicking with three wins in their last five, including a dominant 4-0 demolition of Iceland. Ghana, meanwhile, have won just once in five and got absolutely hammered 5-1 by Austria recently. On paper, this looks like a mismatch — but friendlies can be unpredictable.\n\nKey storylines:\n\n- **Mexico's attacking form** has been sharp; they'll be looking to break down a Ghana side that's conceded eight goals in their last three outings\n- **Ghana need to tighten up defensively** after leaking goals left and right in recent matches\n- This is a chance for **Mexico to build confidence** ahead of bigger competitions\n\nExpected lineups:\n\n- **Mexico**: Ochoa, Sánchez, Moreno, Araujo, Gallardo, Herrera, Álvarez, Martínez, Vega, Jiménez, Lozano\n- **Ghana**: Ati-Zigi, Seidu, Amoah, Lamptey, Mensah, Kudus, Iwobi, Issahaku, Bukari, Semenyo, Owusu\n\nPrediction:\n\n**Mexico 3-0 Ghana** — Mexico have the edge in form, fitness, and firepower. Ghana's defense is too porous right now. 🎯",
-        "generated_at": "2026-05-22T02:45:23.020229+00:00"
+        "text": "**Avispa's draw machine meets Kobe's inconsistency** — two sides stuck in neutral, both hunting for wins they desperately need. 🤖\n\nFukuoka's last five reads like a broken record: four draws and a loss. Kobe's slightly spicier, but that 3-0 hammering at home to Fagiano Okayama stings. Home advantage at Best Denki could be the tiebreaker here.\n\nKey storylines:\n\n- **Avispa's defensive solidity vs Kobe's shaky form** — Fukuoka hasn't lost in five, but can't break the draw curse; Kobe's wildly inconsistent at the back\n- **Diego and Y. Muto's creativity** against a well-drilled Fukuoka shape that's proven hard to crack\n- **S. Usui and K. Fujimoto feeding N. Shintaro** up front — Avispa's best attacking outlet in a low-scoring affair\n\nExpected lineups:\n\n- **Avispa Fukuoka**: K. Fujita, M. Yota, Y. Tsujioka, T. Oka, K. Yamawaki, K. Okuno, T. Miki, M. Shigemi\n- **Vissel Kobe**: D. Maekawa, G. Sakai, Thuler, Caetano, K. Nagato, Y. Ideguchi, Diego, Y. Muto\n\nPrediction:\n\n**1-1 draw** — both sides have the talent to hurt each other, but neither's firing on all cylinders. Coin flip vibes. ⚽",
+        "generated_at": "2026-05-23T02:45:24.260315+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4269,
+      "id": 4270,
       "event": {
-        "id": 204894,
+        "id": 204896,
         "league": {
           "id": 49,
           "name": "J1 League",
@@ -202,31 +333,31 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Avispa Fukuoka",
-        "away_team": "Vissel Kobe",
+        "home_team": "Kashima Antlers",
+        "away_team": "FC Tokyo",
         "home_team_obj": {
-          "id": 1940,
-          "name": "Avispa Fukuoka",
-          "short_name": "Fukuoka",
+          "id": 1937,
+          "name": "Kashima Antlers",
+          "short_name": "Kashima",
           "country": "Japan",
           "coach": {
-            "name": "Shinya Tsukahara",
-            "shortName": "S. Tsukahara"
+            "name": "Toru Oniki",
+            "shortName": "T. Oniki"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 1931,
-          "name": "Vissel Kobe",
-          "short_name": "Vissel Kobe",
+          "id": 1936,
+          "name": "FC Tokyo",
+          "short_name": "Tokyo",
           "country": "Japan",
           "coach": {
-            "name": "Michael Skibbe",
-            "shortName": "M. Skibbe"
+            "name": "Rikizo Matsuhashi",
+            "shortName": "R. Matsuhashi"
           },
           "venue": null
         },
-        "event_date": "2026-05-23T09:00:00+04:00",
+        "event_date": "2026-05-23T12:30:00+04:00",
         "round_number": 18,
         "round_name": "",
         "group_name": null,
@@ -237,17 +368,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 4.55,
-        "odds_draw": 3.4,
-        "odds_away": 1.8,
-        "odds_over_15": 1.41,
-        "odds_over_25": 2.25,
-        "odds_over_35": 4.17,
-        "odds_under_15": 2.77,
-        "odds_under_25": 1.6,
-        "odds_under_35": 1.21,
-        "odds_btts_yes": 2.08,
-        "odds_btts_no": 1.68,
+        "odds_home": 2.45,
+        "odds_draw": 3.19,
+        "odds_away": 2.84,
+        "odds_over_15": 1.37,
+        "odds_over_25": 2.13,
+        "odds_over_35": 3.86,
+        "odds_under_15": 2.94,
+        "odds_under_25": 1.67,
+        "odds_under_35": 1.24,
+        "odds_btts_yes": 1.85,
+        "odds_btts_no": 1.88,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -256,7 +387,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 450,
+        "travel_distance_km": 107,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -264,45 +395,45 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1297,
-          "name": "Shinya Tsukahara",
-          "short_name": "S. Tsukahara",
+          "id": 1294,
+          "name": "Toru Oniki",
+          "short_name": "T. Oniki",
           "country": "Japan",
-          "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.2516095274168253,
-          "defensive_line": "mid",
+          "profile": "attacking",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.5335820740405861,
+          "defensive_line": "high",
           "top_styles": [
-            "no_midfield",
-            "terrorist_fb"
+            "ball_dominant",
+            "total_football"
           ]
         },
         "away_coach": {
-          "id": 1288,
-          "name": "Michael Skibbe",
-          "short_name": "M. Skibbe",
-          "country": "Germany",
+          "id": 1293,
+          "name": "Rikizo Matsuhashi",
+          "short_name": "R. Matsuhashi",
+          "country": "Japan",
           "profile": "balanced",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.7028843569405556,
-          "defensive_line": "mid",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.39819724087280645,
+          "defensive_line": "high",
           "top_styles": [
-            "high_press",
-            "gegenpressing"
+            "total_football",
+            "ball_dominant"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1106,
-          "name": "Best Denki Stadium",
-          "city": "Fukuoka",
+          "id": 1113,
+          "name": "Kashima Soccer Stadium",
+          "city": "Kashima",
           "country": "Japan",
-          "capacity": 22563,
-          "latitude": 33.585845,
-          "longitude": 130.460735,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "capacity": 40728,
+          "latitude": 35.991744,
+          "longitude": 140.640525,
+          "pitch_x": 115,
+          "pitch_y": 78,
+          "built_year": 1993
         },
         "incidents": null,
         "live_stats": null,
@@ -314,76 +445,76 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "6ea9ad",
+              "base": "eef140",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "75a8ac",
-              "stripes": "2c434a"
+              "number": "000000",
+              "sleeve": "eef140"
             },
             "player": {
-              "base": "6d142a",
+              "base": "0033cc",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
               "sleeve": "000000",
-              "stripes": "000000"
+              "sleevelong": "0033cc"
             }
           },
           "home": {
             "GK": {
-              "base": "0d0e0d",
+              "base": "e8ff00",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "faf5f6"
+              "sleeve": "fbff14"
             },
             "player": {
-              "base": "01206f",
+              "base": "181b2e",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "0e1736"
+              "sleeve": "b02727",
+              "horizontalstripes": "b81b21"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 24,
-            "sentence": "Avispa's home record this season: 1-5-2."
+            "type_id": 2,
+            "sentence": "When playing at home, Kashima have not lost to Tokyo in their last 3 encounters."
           },
           {
             "type_id": 24,
-            "sentence": "Kobe's away record this season: 2-3-2."
+            "sentence": "Kashima's home record this season: 7-1-0."
           },
           {
-            "type_id": 25,
-            "sentence": "Shosei Usui is Avispa's top scorer with 4 goals. Ren Komatsu has scored 4 times for Kobe."
+            "type_id": 24,
+            "sentence": "Tokyo's away record this season: 5-3-0."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Avispa's draw machine meets a Kobe side desperately hunting form** — these two are miles apart in momentum, yet statistically this feels wide open. 🎲\n\nFukuoka can't stop drawing (four in their last five), while Kobe just took a battering 0-3 at home to Fagiano Okayama but found a win against Kyoto. The visitors have serious firepower with **Y. Muto** and **Y. Osako** upfront, but Fukuoka's backline — anchored by **K. Fujita** — knows how to grind.\n\nKey storylines:\n\n- **Avispa's draw curse**: can they finally break it, or does another stalemate beckon at Best Denki Stadium?\n- **Kobe's offensive depth**: **Y. Goke** and **Diego** orchestrating the midfield to unlock a leaky Fukuoka defense\n- **Set-piece warfare**: both teams lean on transitions and dead-ball chances — **T. Miki** and **K. Nagato** key distributors\n\nExpected lineups:\n\n- **Avispa Fukuoka**: K. Fujita, M. Yota, Y. Tsujioka, T. Oka, K. Yamawaki, K. Okuno, T. Miki, S. Usui\n- **Vissel Kobe**: D. Maekawa, G. Sakai, Thuler, Caetano, Y. Goke, Diego, Y. Muto, Y. Osako\n\nPrediction:\n\n**1-1** — coin flip feels right. Fukuoka gets another draw at home; Kobe flashes class but can't convert. 📍",
-          "generated_at": "2026-05-22T05:45:19.249293+00:00"
+          "text": "**Kashima roll into the weekend looking sharp, but Tokyo's hot streak is no joke** — this is a proper six-pointer in the middle of the J1 season. 🔥\n\nKashima have been ruthless at home lately (two big wins, one draw), while Tokyo just took a heavy loss to Chiba but bounced back with a win over Verdy. Both teams are hunting form, and the head-to-head is dead even with their last meeting ending goalless.\n\nKey storylines:\n\n- **Kashima's home dominance** puts them in the driver's seat — G. Shibasaki and Y. Matsumura have been key in their attacking flow\n- **Tokyo's shaky defense** (that 0-3 hammering to Chiba is fresh) will be tested hard by L. Ceará and Y. Suzuki up front\n- **Cagey matchup vibes** — last H2H was a 0-0, and both teams have shown they can grind out low-scoring results\n\nExpected lineups:\n\n- **Kashima Antlers**: T. Hayakawa, N. Ueda, K. Nono, T. H. Kim, K. Anzai, K. Misao, G. Shibasaki, Y. Higuchi\n- **FC Tokyo**: K. Seung-gyu, S. Muroya, K. Hashimoto, H. Inamura, A. Scholz, R. Sato, K. Tokiwa, K. Endo\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kashima 1–0 FC Tokyo** — home edge and Tokyo's recent defensive wobbles give Kashima a slight lean here. 💪",
+          "generated_at": "2026-05-23T02:45:30.691899+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-17T06:20:17.871799+04:00",
-      "prob_home_win": 31.88983711518784,
-      "prob_draw": 35.9443436826889,
-      "prob_away_win": 32.165819202123245,
-      "predicted_result": "D",
-      "expected_home_goals": 1.3,
-      "expected_away_goals": 0.8,
-      "prob_over_15": 74.03780228328955,
-      "prob_over_25": 43.95199271831882,
-      "prob_over_35": 18.483695385782855,
-      "prob_btts_yes": 72.59421960428594,
-      "confidence": 35.9443436826889,
+      "created_at": "2026-05-17T06:20:19.075116+04:00",
+      "prob_home_win": 48.16161868839281,
+      "prob_draw": 24.706695028630435,
+      "prob_away_win": 27.131686282976773,
+      "predicted_result": "H",
+      "expected_home_goals": 0.8999999999999999,
+      "expected_away_goals": 0.8999999999999999,
+      "prob_over_15": 73.38522716834602,
+      "prob_over_25": 34.276543213299455,
+      "prob_over_35": 18.57527131405627,
+      "prob_btts_yes": 50.890469521871054,
+      "confidence": 48.16161868839281,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
-      "favorite": "A",
-      "favorite_prob": 32.165819202123245,
+      "most_likely_score": "0-0",
+      "favorite": "H",
+      "favorite_prob": 48.16161868839281,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
