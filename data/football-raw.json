@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T20:10:43.328Z",
+  "generatedAt": "2026-05-25T21:45:57.230Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,491 +21,220 @@
   ],
   "samples": {
     "event": {
-      "id": 206986,
+      "id": 207450,
       "league": {
-        "id": 54,
-        "name": "Eliteserien",
-        "country": "Norway",
+        "id": 13,
+        "name": "Scottish Premiership",
+        "country": "Scotland",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 345,
+          "name": "Premiership 25/26",
+          "year": 2025,
+          "start_date": "2025-07-01",
+          "end_date": "2026-06-30"
+        }
       },
-      "season": null,
-      "home_team": "Sandefjord Fotball",
-      "away_team": "Fredrikstad FK",
+      "season": {
+        "id": 345,
+        "name": "Premiership 25/26",
+        "year": 2025
+      },
+      "home_team": "St. Mirren",
+      "away_team": "Partick Thistle",
       "home_team_obj": {
-        "id": 2085,
-        "name": "Sandefjord Fotball",
-        "short_name": "Sandefjord",
-        "country": "Norway",
+        "id": 230,
+        "name": "St. Mirren",
+        "short_name": "St Mirren",
+        "country": "Scotland",
         "coach": {
-          "name": "Andreas Tegstrom",
-          "shortName": "A. Tegstrom"
+          "name": "Craig McLeish",
+          "shortName": "C. McLeish"
+        },
+        "venue": {
+          "id": 222,
+          "name": "St. Mirren Park",
+          "city": "Paisley",
+          "country": "Scotland",
+          "capacity": 8000
+        }
+      },
+      "away_team_obj": {
+        "id": 2088,
+        "name": "Partick Thistle",
+        "short_name": "",
+        "country": "Scotland",
+        "coach": {
+          "name": "Mark Wilson",
+          "shortName": "M. Wilson"
         },
         "venue": null
       },
-      "away_team_obj": {
-        "id": 410,
-        "name": "Fredrikstad FK",
-        "short_name": "Fredrikstad",
-        "country": "Norway",
-        "coach": {
-          "name": "Casper Röjkjaer",
-          "shortName": "C. Röjkjaer"
-        },
-        "venue": {
-          "id": 391,
-          "name": "Fredrikstad Stadion",
-          "city": "Fredrikstad",
-          "country": "Norway",
-          "capacity": 13300
-        }
-      },
-      "event_date": "2026-05-25T21:15:00+04:00",
-      "round_number": 10,
-      "round_name": "",
+      "event_date": "2026-05-25T23:00:00+04:00",
+      "round_number": 29,
+      "round_name": "Final",
       "group_name": null,
       "status": "finished",
       "home_score": 1,
-      "away_score": 1,
+      "away_score": 0,
       "home_score_ht": 0,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 2.13,
-      "odds_draw": 3.51,
-      "odds_away": 3.19,
-      "odds_over_15": 1.22,
-      "odds_over_25": 1.7,
-      "odds_over_35": 2.69,
-      "odds_under_15": 4.08,
-      "odds_under_25": 2.09,
-      "odds_under_35": 1.43,
-      "odds_btts_yes": 1.6,
-      "odds_btts_no": 2.24,
-      "actual_home_xg": 0.87,
-      "actual_away_xg": 1.32,
-      "home_xg_live": 0.97,
-      "away_xg_live": 1.64,
+      "odds_home": 1.85,
+      "odds_draw": 3.34,
+      "odds_away": 4.32,
+      "odds_over_15": 1.35,
+      "odds_over_25": 2.12,
+      "odds_over_35": 3.71,
+      "odds_under_15": 2.99,
+      "odds_under_25": 1.69,
+      "odds_under_35": 1.25,
+      "odds_btts_yes": 1.93,
+      "odds_btts_no": 1.81,
+      "actual_home_xg": null,
+      "actual_away_xg": null,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": true,
+      "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 44,
+      "travel_distance_km": 12,
       "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": 1,
       "attendance": null,
-      "referee": {
-        "id": 1644,
-        "name": "Mohammad Usman Aslam",
-        "country": "Norway",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 681,
-        "redCards": 15,
-        "career_games": 187,
-        "career_yellow_cards": 681,
-        "career_red_cards": 15
-      },
+      "referee": null,
       "home_coach": {
-        "id": 1505,
-        "name": "Andreas Tegstrom",
-        "short_name": "A. Tegstrom",
-        "country": "Sweden",
+        "id": 257,
+        "name": "Craig McLeish",
+        "short_name": "C. McLeish",
+        "country": "",
         "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "preferred_formation": "3-5-2",
+        "pressing_intensity": 0.32704154531340934,
+        "defensive_line": "high",
+        "top_styles": [
+          "cross_pray",
+          "set_piece"
+        ]
       },
       "away_coach": {
-        "id": 1615,
-        "name": "Casper Röjkjaer",
-        "short_name": "C. Röjkjaer",
-        "country": "Denmark",
+        "id": 1512,
+        "name": "Mark Wilson",
+        "short_name": "M. Wilson",
+        "country": "Scotland",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Hakon Krogelien",
-            "status": "injured",
-            "reason": "Back Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Jakob Maslo Dunsby",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Zinedin Smajlović",
-            "status": "suspended",
-            "reason": "yellow_or_red_card_suspension",
-            "expected_return": "2026-05-25"
-          }
-        ],
-        "away": [
-          {
-            "name": "Johannes Núñez",
-            "status": "injured",
-            "reason": "Leg Injury",
-            "expected_return": "2026-06-10"
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 1290,
-        "name": "Jotun Arena",
-        "city": "Sandefjord",
-        "country": "Norway",
-        "capacity": 6582,
-        "latitude": 59.13725,
-        "longitude": 10.17969,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 2007
+        "id": 222,
+        "name": "St. Mirren Park",
+        "city": "Paisley",
+        "country": "Scotland",
+        "capacity": 8000,
+        "latitude": null,
+        "longitude": null,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
       "live_stats": {
         "away": {
-          "duels": 54,
-          "fouls": 12,
-          "passes": 471,
-          "crosses": "3/17 (18%)",
-          "punches": 2,
-          "tackles": 12,
-          "dribbles": "5/12 (42%)",
-          "offsides": 2,
-          "throw_ins": 16,
-          "clearances": 21,
-          "free_kicks": 12,
-          "goal_kicks": 2,
-          "long_balls": "20/46 (43%)",
-          "recoveries": 50,
-          "big_chances": 1,
-          "high_claims": 3,
-          "tackles_won": 67,
-          "total_saves": 1,
-          "total_shots": 18,
-          "aerial_duels": "20/29 (69%)",
-          "corner_kicks": 5,
-          "dispossessed": 11,
-          "ground_duels": "28/60 (47%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 3,
-          "blocked_shots": 6,
-          "interceptions": 6,
-          "through_balls": 1,
-          "total_tackles": 12,
-          "expected_goals": 1.64,
-          "accurate_passes": 400,
-          "ball_possession": 58,
-          "goals_prevented": -0.8,
-          "shots_on_target": 6,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 11,
-          "shots_off_target": 6,
-          "final_third_phase": "76/105 (72%)",
-          "shots_outside_box": 7,
-          "big_chances_scored": 1,
-          "final_third_entries": 64,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 22
+          "red_cards": 0,
+          "yellow_cards": 3
         },
         "home": {
-          "duels": 45,
-          "fouls": 12,
-          "passes": 347,
-          "crosses": "3/11 (27%)",
-          "punches": 1,
-          "tackles": 18,
-          "dribbles": "2/7 (29%)",
-          "offsides": 2,
-          "throw_ins": 14,
-          "clearances": 23,
-          "free_kicks": 12,
-          "goal_kicks": 7,
-          "long_balls": "29/71 (41%)",
-          "recoveries": 39,
-          "big_chances": 0,
-          "high_claims": 1,
-          "tackles_won": 72,
-          "total_saves": 5,
-          "total_shots": 9,
-          "aerial_duels": "9/29 (31%)",
-          "corner_kicks": 6,
-          "dispossessed": 7,
-          "ground_duels": "31/60 (52%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 2,
-          "blocked_shots": 5,
-          "interceptions": 8,
-          "through_balls": 0,
-          "total_tackles": 18,
-          "expected_goals": 0.97,
-          "accurate_passes": 265,
-          "ball_possession": 42,
-          "goals_prevented": -0.07,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 5,
-          "shots_inside_box": 5,
-          "shots_off_target": 1,
-          "final_third_phase": "54/85 (64%)",
-          "shots_outside_box": 4,
-          "big_chances_scored": 0,
-          "final_third_entries": 43,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 24
-        },
-        "first_half": {
-          "away": {
-            "duels": 60,
-            "fouls": 1,
-            "passes": 248,
-            "crosses": "0/7 (0%)",
-            "tackles": 7,
-            "dribbles": "2/7 (29%)",
-            "offsides": 1,
-            "throw_ins": 7,
-            "clearances": 13,
-            "free_kicks": 4,
-            "goal_kicks": 1,
-            "long_balls": "12/25 (48%)",
-            "recoveries": 26,
-            "big_chances": 0,
-            "tackles_won": 43,
-            "total_saves": 0,
-            "total_shots": 11,
-            "aerial_duels": "12/16 (75%)",
-            "corner_kicks": 4,
-            "dispossessed": 5,
-            "ground_duels": "12/24 (50%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 4,
-            "interceptions": 3,
-            "through_balls": 0,
-            "total_tackles": 7,
-            "expected_goals": 0.56,
-            "accurate_passes": 211,
-            "ball_possession": 54,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 5,
-            "shots_off_target": 5,
-            "shots_outside_box": 6,
-            "big_chances_scored": 0,
-            "final_third_entries": 40,
-            "fouled_in_final_third": 1
-          },
-          "home": {
-            "duels": 40,
-            "fouls": 4,
-            "passes": 206,
-            "crosses": "1/8 (13%)",
-            "tackles": 10,
-            "dribbles": "2/5 (40%)",
-            "offsides": 1,
-            "throw_ins": 9,
-            "clearances": 9,
-            "free_kicks": 1,
-            "goal_kicks": 4,
-            "long_balls": "18/39 (46%)",
-            "recoveries": 18,
-            "big_chances": 0,
-            "tackles_won": 70,
-            "total_saves": 2,
-            "total_shots": 5,
-            "aerial_duels": "4/16 (25%)",
-            "corner_kicks": 5,
-            "dispossessed": 4,
-            "ground_duels": "12/24 (50%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 4,
-            "interceptions": 4,
-            "through_balls": 0,
-            "total_tackles": 10,
-            "expected_goals": 0.6,
-            "accurate_passes": 165,
-            "ball_possession": 46,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 3,
-            "shots_off_target": 0,
-            "shots_outside_box": 2,
-            "big_chances_scored": 0,
-            "final_third_entries": 28,
-            "fouled_in_final_third": 0
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 49,
-            "fouls": 11,
-            "passes": 223,
-            "crosses": "3/10 (30%)",
-            "tackles": 5,
-            "dribbles": "3/5 (60%)",
-            "offsides": 1,
-            "throw_ins": 9,
-            "clearances": 8,
-            "free_kicks": 8,
-            "goal_kicks": 1,
-            "long_balls": "8/21 (38%)",
-            "recoveries": 24,
-            "big_chances": 1,
-            "tackles_won": 100,
-            "total_saves": 1,
-            "total_shots": 7,
-            "aerial_duels": "8/13 (62%)",
-            "corner_kicks": 1,
-            "dispossessed": 6,
-            "ground_duels": "16/36 (44%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 3,
-            "blocked_shots": 2,
-            "interceptions": 3,
-            "through_balls": 1,
-            "total_tackles": 5,
-            "expected_goals": 1.08,
-            "accurate_passes": 189,
-            "ball_possession": 62,
-            "shots_on_target": 4,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 6,
-            "shots_off_target": 1,
-            "shots_outside_box": 1,
-            "big_chances_scored": 1,
-            "final_third_entries": 24,
-            "fouled_in_final_third": 1
-          },
-          "home": {
-            "duels": 49,
-            "fouls": 8,
-            "passes": 141,
-            "crosses": "2/3 (67%)",
-            "tackles": 8,
-            "dribbles": "0/2 (0%)",
-            "offsides": 1,
-            "throw_ins": 5,
-            "clearances": 14,
-            "free_kicks": 11,
-            "goal_kicks": 3,
-            "long_balls": "11/32 (34%)",
-            "recoveries": 21,
-            "big_chances": 0,
-            "tackles_won": 75,
-            "total_saves": 3,
-            "total_shots": 4,
-            "aerial_duels": "5/13 (38%)",
-            "corner_kicks": 1,
-            "dispossessed": 3,
-            "ground_duels": "19/36 (53%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 2,
-            "blocked_shots": 1,
-            "interceptions": 4,
-            "through_balls": 0,
-            "total_tackles": 8,
-            "expected_goals": 0.37,
-            "accurate_passes": 100,
-            "ball_possession": 38,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 3,
-            "shots_inside_box": 2,
-            "shots_off_target": 1,
-            "shots_outside_box": 2,
-            "big_chances_scored": 0,
-            "final_third_entries": 15,
-            "fouled_in_final_third": 1
-          }
+          "red_cards": 0,
+          "yellow_cards": 2
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "dff129",
+            "base": "0000ff",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "86b6de"
+            "sleeve": "0000ff"
+          },
+          "player": {
+            "base": "c40000",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "ffff00",
+            "stripes": "ffff00"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "cc00cc",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000066"
           },
           "player": {
             "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "dd0000",
-            "sleeve": "ffffff"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "73ec5d",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "121212"
-          },
-          "player": {
-            "base": "0059b3",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "0080ff",
-            "sleevelong": "0059b3"
+            "number": "c11921",
+            "sleeve": "ffffff",
+            "stripes": "000000",
+            "sleevelong": "ffffff"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 2,
+          "sentence": "When playing at home, St. Mirren have not lost to Partick Thistle in their last 3 encounters."
+        },
+        {
           "type_id": 1,
-          "sentence": "Fredrikstad have lost 3 away matches in a row."
+          "sentence": "Partick Thistle haven't lost in their last 12 games."
         },
         {
-          "type_id": 6,
-          "sentence": "During the last 12 meetings with Sandefjord playing at home, Sandefjord have won 4 times, there have been 5 draws while Fredrikstad have won 3 times. The goal difference is 17-14 in favour of Sandefjord."
-        },
-        {
-          "type_id": 23,
-          "sentence": "Last season's matches: 0-0 (Sandefjord at home) and 3-1 (Fredrikstad at home)."
+          "type_id": 27,
+          "sentence": "The result of the first leg: Partick Thistle - St. Mirren 1-1."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 100,
+          "away": 73,
           "home": 67
         },
         "ball_safe": {
-          "away": 87,
-          "home": 88
+          "away": 68,
+          "home": 68
         },
         "attack_pct": {
-          "away": 30,
-          "home": 11
+          "away": 22,
+          "home": 21
         },
         "ball_safe_pct": {
-          "away": 41,
-          "home": 66
+          "away": 45,
+          "home": 51
         },
         "dangerous_attack": {
-          "away": 46,
-          "home": 24
+          "away": 50,
+          "home": 44
         },
         "dangerous_attack_pct": {
-          "away": 29,
-          "home": 23
+          "away": 33,
+          "home": 28
         }
       },
       "ai_preview": {
-        "text": "**Sandefjord welcome struggling Fredrikstad to a showdown that looks heavily tilted in the home side's favor.** The hosts have found some rhythm with back-to-back wins, while Fredrikstad's been a mess lately — just one win in their last five. 🔥\n\nSandefjord's recent form at home has been sharp: 2-0 over Kristiansund, 1-0 over Aalesund. Fredrikstad, meanwhile, are leaking goals on the road and haven't found consistency. Missing **J. Núñez** for the visitors won't help their attacking woes either.\n\nKey storylines:\n\n- **Sandefjord's home fortress** — two straight wins at Jotun Arena with clean sheets; this is where they thrive\n- **Fredrikstad's road troubles** — just one win in five and vulnerable to teams that press high\n- **Attacking depth for the hosts** — **E. Patoulidis, B. Berntsen, S. Mathisen** all looking dangerous in recent outings\n\nExpected lineups:\n\n- **Sandefjord Fotball**: E. Hadaya, X. Lambrix, V. W. Egeli, F. C. Pedersen, E. Pettersen, S. Mork, N. Möller, E. Patoulidis, B. Berntsen, S. Mathisen\n- **Fredrikstad FK**: M. Börsheim, U. Fredriksen, D. Eid, F. Holmé, J. Norbye, S. Rafn, R. Shein, L. Owusu, O. Öhlenschlaeger, S. Sørløkk\n\nBest picks:\n\n- **Over 1.5 Goals**: Over\n\nPrediction:\n\n**Sandefjord 2–0 Fredrikstad**. Home form + away collapse = comfortable night for the hosts.",
-        "generated_at": "2026-05-25T02:45:44.195715+00:00"
+        "text": "**These teams know each other well — they drew 1-1 just last month, and another stalemate feels oddly likely** 🔵\n\nSt. Mirren are wobbling (1W-2D-2L), while Partick Thistle have steadied the ship with form that includes only one loss across five. That said, both outfits seem to grind rather than dazzle.\n\nKey storylines:\n\n- **St. Mirren's attack** leans on **J. Ayunga** and **M. Mandron** to break through a Thistle side that's tightened up defensively\n- **Partick's recent uptick** owes much to balance — **A. Fitzpatrick** and **G. Mackay-Steven** orchestrating from midfield\n- The head-to-head draw last month suggests neither side has clear tactical leverage\n\nExpected lineups:\n\n- **St. Mirren**: S. George, M. Freckleton, A. Gogić, R. King, S. Tanser, M. Fraser, J. Devaney, A. Campbell, M. O'Hara, M. Mandron, J. Ayunga\n- **Partick Thistle**: J. Clarke, B. McPherson, C. Loughrey, C. Logan, L. Ashcroft, A. Fitzpatrick, G. Mackay-Steven, A. Samuel, K. Turner, T. Watt, L. Budinauckas\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction: **1-1** — both sides have the edge defensively right now, so expect another low-scoring scrap. 🎯",
+        "generated_at": "2026-05-25T01:46:07.463728+00:00"
       },
       "live_websocket": true
     },
@@ -578,17 +307,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.92,
-        "odds_draw": 3.1,
-        "odds_away": 4.24,
-        "odds_over_15": 1.48,
-        "odds_over_25": 2.47,
-        "odds_over_35": 4.77,
-        "odds_under_15": 2.5,
-        "odds_under_25": 1.51,
+        "odds_home": 2.08,
+        "odds_draw": 2.95,
+        "odds_away": 3.91,
+        "odds_over_15": 1.5,
+        "odds_over_25": 2.55,
+        "odds_over_35": 4.87,
+        "odds_under_15": 2.47,
+        "odds_under_25": 1.48,
         "odds_under_35": 1.16,
-        "odds_btts_yes": 2.17,
-        "odds_btts_no": 1.63,
+        "odds_btts_yes": 2.13,
+        "odds_btts_no": 1.65,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
