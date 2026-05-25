@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-25T21:45:57.230Z",
+  "generatedAt": "2026-05-25T23:11:41.087Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,283 +21,544 @@
   ],
   "samples": {
     "event": {
-      "id": 207450,
+      "id": 9947,
       "league": {
-        "id": 13,
-        "name": "Scottish Premiership",
-        "country": "Scotland",
+        "id": 34,
+        "name": "Brasileirão Serie B",
+        "country": "Brazil",
         "is_women": false,
         "current_season": {
-          "id": 345,
-          "name": "Premiership 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 345,
-        "name": "Premiership 25/26",
-        "year": 2025
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
+        "year": 2026
       },
-      "home_team": "St. Mirren",
-      "away_team": "Partick Thistle",
+      "home_team": "Botafogo-SP",
+      "away_team": "Athletic Club",
       "home_team_obj": {
-        "id": 230,
-        "name": "St. Mirren",
-        "short_name": "St Mirren",
-        "country": "Scotland",
+        "id": 927,
+        "name": "Botafogo-SP",
+        "short_name": "Botafogo-SP",
+        "country": "Brazil",
         "coach": {
-          "name": "Craig McLeish",
-          "shortName": "C. McLeish"
+          "name": "Cláudio Tencati",
+          "shortName": "C. Tencati"
         },
         "venue": {
-          "id": 222,
-          "name": "St. Mirren Park",
-          "city": "Paisley",
-          "country": "Scotland",
-          "capacity": 8000
+          "id": 707,
+          "name": "Estádio Santa Cruz",
+          "city": "Ribeirao Preto",
+          "country": "Brazil",
+          "capacity": 29292
         }
       },
       "away_team_obj": {
-        "id": 2088,
-        "name": "Partick Thistle",
-        "short_name": "",
-        "country": "Scotland",
+        "id": 843,
+        "name": "Athletic Club",
+        "short_name": "Athletic",
+        "country": "Brazil",
         "coach": {
-          "name": "Mark Wilson",
-          "shortName": "M. Wilson"
+          "name": "Alexsandro de Souza",
+          "shortName": "Alex"
         },
-        "venue": null
+        "venue": {
+          "id": 635,
+          "name": "Estádio Joaquim Portugal",
+          "city": "São João del Rei",
+          "country": "Brazil",
+          "capacity": 8000
+        }
       },
-      "event_date": "2026-05-25T23:00:00+04:00",
-      "round_number": 29,
-      "round_name": "Final",
+      "event_date": "2026-05-26T02:00:00+04:00",
+      "round_number": 10,
+      "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 1,
-      "away_score": 0,
+      "status": "2nd_half",
+      "home_score": 0,
+      "away_score": 1,
       "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 1.85,
-      "odds_draw": 3.34,
-      "odds_away": 4.32,
-      "odds_over_15": 1.35,
-      "odds_over_25": 2.12,
-      "odds_over_35": 3.71,
-      "odds_under_15": 2.99,
-      "odds_under_25": 1.69,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 1.93,
-      "odds_btts_no": 1.81,
+      "away_score_ht": 1,
+      "current_minute": 48,
+      "period": "2T",
+      "odds_home": 1.91,
+      "odds_draw": 2.53,
+      "odds_away": 3.06,
+      "odds_over_15": 1.42,
+      "odds_over_25": 2.16,
+      "odds_over_35": 4.24,
+      "odds_under_15": 2.23,
+      "odds_under_25": 1.36,
+      "odds_under_35": 1.13,
+      "odds_btts_yes": 1.94,
+      "odds_btts_no": 1.56,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.11,
+      "away_xg_live": 0.88,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 12,
-      "weather_code": 1,
+      "travel_distance_km": null,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 257,
-        "name": "Craig McLeish",
-        "short_name": "C. McLeish",
-        "country": "",
-        "profile": "defensive",
-        "preferred_formation": "3-5-2",
-        "pressing_intensity": 0.32704154531340934,
-        "defensive_line": "high",
+        "id": 133,
+        "name": "Cláudio Tencati",
+        "short_name": "C. Tencati",
+        "country": "Brazil",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.6830290552122015,
+        "defensive_line": "mid",
         "top_styles": [
-          "cross_pray",
-          "set_piece"
+          "set_piece",
+          "cross_pray"
         ]
       },
       "away_coach": {
-        "id": 1512,
-        "name": "Mark Wilson",
-        "short_name": "M. Wilson",
-        "country": "Scotland",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 155,
+        "name": "Alexsandro de Souza",
+        "short_name": "Alex",
+        "country": "Brazil",
+        "profile": "balanced",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.43848223871261516,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "anti_football"
+        ]
       },
-      "unavailable_players": null,
+      "unavailable_players": {
+        "home": [
+          {
+            "name": "Arthur Caíke",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Carlão",
+            "status": "injured",
+            "reason": "LCL Knee Injury",
+            "expected_return": "2027-01-01"
+          },
+          {
+            "name": "Jonathan",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-06-08"
+          },
+          {
+            "name": "Leandro Maciel",
+            "status": "injured",
+            "reason": "Muscle Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Wallace",
+            "status": "doubtful",
+            "reason": "Muscle Injury",
+            "expected_return": null
+          }
+        ],
+        "away": [
+          {
+            "name": "Ronaldo Tavares",
+            "status": "injured",
+            "reason": "ACL Knee Injury",
+            "expected_return": "2027-01-01"
+          }
+        ]
+      },
       "venue": {
-        "id": 222,
-        "name": "St. Mirren Park",
-        "city": "Paisley",
-        "country": "Scotland",
-        "capacity": 8000,
-        "latitude": null,
-        "longitude": null,
+        "id": 707,
+        "name": "Estádio Santa Cruz",
+        "city": "Ribeirao Preto",
+        "country": "Brazil",
+        "capacity": 29292,
+        "latitude": -21.2025,
+        "longitude": -47.789167,
         "pitch_x": null,
         "pitch_y": null,
         "built_year": null
       },
       "live_stats": {
         "away": {
-          "red_cards": 0,
-          "yellow_cards": 3
+          "duels": 52,
+          "fouls": 5,
+          "passes": 177,
+          "crosses": "3/8 (38%)",
+          "tackles": 8,
+          "dribbles": "3/6 (50%)",
+          "offsides": 1,
+          "throw_ins": 17,
+          "clearances": 9,
+          "free_kicks": 8,
+          "goal_kicks": 2,
+          "long_balls": "7/28 (25%)",
+          "recoveries": 22,
+          "big_chances": 1,
+          "tackles_won": 75,
+          "total_saves": 2,
+          "total_shots": 6,
+          "aerial_duels": "5/11 (45%)",
+          "corner_kicks": 1,
+          "dispossessed": 3,
+          "ground_duels": "19/34 (56%)",
+          "hit_woodwork": 1,
+          "yellow_cards": 1,
+          "blocked_shots": 2,
+          "interceptions": 5,
+          "total_tackles": 8,
+          "expected_goals": 0.87,
+          "accurate_passes": 131,
+          "ball_possession": 48,
+          "goals_prevented": 0.09,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 2,
+          "shots_inside_box": 5,
+          "shots_off_target": 3,
+          "final_third_phase": "28/44 (64%)",
+          "shots_outside_box": 1,
+          "big_chances_scored": 1,
+          "final_third_entries": 24,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 11
         },
         "home": {
-          "red_cards": 0,
-          "yellow_cards": 2
+          "duels": 48,
+          "fouls": 8,
+          "passes": 191,
+          "crosses": "1/7 (14%)",
+          "tackles": 6,
+          "dribbles": "4/7 (57%)",
+          "offsides": 2,
+          "throw_ins": 20,
+          "clearances": 11,
+          "free_kicks": 5,
+          "goal_kicks": 6,
+          "long_balls": "13/29 (45%)",
+          "recoveries": 20,
+          "big_chances": 0,
+          "tackles_won": 50,
+          "total_saves": 0,
+          "total_shots": 3,
+          "aerial_duels": "6/11 (55%)",
+          "corner_kicks": 2,
+          "dispossessed": 5,
+          "ground_duels": "16/35 (46%)",
+          "hit_woodwork": 0,
+          "yellow_cards": 3,
+          "blocked_shots": 1,
+          "interceptions": 5,
+          "total_tackles": 6,
+          "expected_goals": 0.11,
+          "accurate_passes": 151,
+          "ball_possession": 52,
+          "goals_prevented": -0.12,
+          "shots_on_target": 2,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 2,
+          "shots_off_target": 0,
+          "final_third_phase": "24/46 (52%)",
+          "shots_outside_box": 1,
+          "big_chances_scored": 0,
+          "final_third_entries": 26,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 3
+        },
+        "first_half": {
+          "away": {
+            "duels": 55,
+            "fouls": 5,
+            "passes": 170,
+            "crosses": "3/8 (38%)",
+            "tackles": 8,
+            "dribbles": "3/6 (50%)",
+            "offsides": 1,
+            "throw_ins": 17,
+            "clearances": 9,
+            "free_kicks": 8,
+            "goal_kicks": 1,
+            "long_balls": "6/26 (23%)",
+            "recoveries": 21,
+            "big_chances": 1,
+            "tackles_won": 75,
+            "total_saves": 2,
+            "total_shots": 6,
+            "aerial_duels": "5/10 (50%)",
+            "corner_kicks": 1,
+            "dispossessed": 3,
+            "ground_duels": "19/34 (56%)",
+            "hit_woodwork": 1,
+            "yellow_cards": 0,
+            "blocked_shots": 2,
+            "interceptions": 5,
+            "total_tackles": 8,
+            "expected_goals": 0.87,
+            "accurate_passes": 125,
+            "ball_possession": 49,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 2,
+            "shots_inside_box": 5,
+            "shots_off_target": 3,
+            "shots_outside_box": 1,
+            "big_chances_scored": 1,
+            "final_third_entries": 24,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 45,
+            "fouls": 8,
+            "passes": 176,
+            "crosses": "1/7 (14%)",
+            "tackles": 6,
+            "dribbles": "4/7 (57%)",
+            "offsides": 2,
+            "throw_ins": 20,
+            "clearances": 11,
+            "free_kicks": 5,
+            "goal_kicks": 6,
+            "long_balls": "11/27 (41%)",
+            "recoveries": 18,
+            "big_chances": 0,
+            "tackles_won": 50,
+            "total_saves": 0,
+            "total_shots": 3,
+            "aerial_duels": "5/10 (50%)",
+            "corner_kicks": 2,
+            "dispossessed": 5,
+            "ground_duels": "15/34 (44%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 3,
+            "blocked_shots": 1,
+            "interceptions": 5,
+            "total_tackles": 6,
+            "expected_goals": 0.11,
+            "accurate_passes": 139,
+            "ball_possession": 51,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 2,
+            "shots_off_target": 0,
+            "shots_outside_box": 1,
+            "big_chances_scored": 0,
+            "final_third_entries": 25,
+            "fouled_in_final_third": 1
+          }
+        },
+        "second_half": {
+          "away": {
+            "duels": 0,
+            "fouls": 0,
+            "passes": 7,
+            "crosses": "0/0 (0%)",
+            "tackles": 0,
+            "offsides": 0,
+            "throw_ins": 0,
+            "clearances": 0,
+            "free_kicks": 0,
+            "goal_kicks": 1,
+            "long_balls": "1/2 (50%)",
+            "recoveries": 1,
+            "big_chances": 0,
+            "tackles_won": 0,
+            "total_saves": 0,
+            "total_shots": 0,
+            "aerial_duels": "0/1 (0%)",
+            "corner_kicks": 0,
+            "dispossessed": 0,
+            "ground_duels": "0/0 (0%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "total_tackles": 0,
+            "expected_goals": 0,
+            "accurate_passes": 6,
+            "ball_possession": 32,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 0,
+            "fouled_in_final_third": 0
+          },
+          "home": {
+            "duels": 100,
+            "fouls": 0,
+            "passes": 15,
+            "crosses": "0/0 (0%)",
+            "tackles": 0,
+            "offsides": 0,
+            "throw_ins": 0,
+            "clearances": 0,
+            "free_kicks": 1,
+            "goal_kicks": 0,
+            "long_balls": "2/2 (100%)",
+            "recoveries": 2,
+            "big_chances": 0,
+            "tackles_won": 0,
+            "total_saves": 0,
+            "total_shots": 0,
+            "aerial_duels": "1/1 (100%)",
+            "corner_kicks": 0,
+            "dispossessed": 0,
+            "ground_duels": "1/1 (100%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "total_tackles": 0,
+            "expected_goals": 0,
+            "accurate_passes": 12,
+            "ball_possession": 68,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 1,
+            "fouled_in_final_third": 1
+          }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "0000ff",
+            "base": "942cb3",
             "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "0000ff"
+            "type": "long_sleeves",
+            "number": "ffffff",
+            "sleeve": "000000"
           },
           "player": {
-            "base": "c40000",
+            "base": "000000",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "ffff00",
-            "stripes": "ffff00"
+            "number": "ffffff",
+            "sleeve": "ffffff",
+            "sleevelong": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "cc00cc",
+            "base": "ff80dc",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "000066"
+            "sleeve": "ff3300"
           },
           "player": {
             "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "c11921",
-            "sleeve": "ffffff",
-            "stripes": "000000",
+            "number": "000000",
+            "sleeve": "ff0000",
             "sleevelong": "ffffff"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "When playing at home, St. Mirren have not lost to Partick Thistle in their last 3 encounters."
+          "type_id": 1,
+          "sentence": "Botafogo haven't won in their last 7 games."
         },
         {
           "type_id": 1,
-          "sentence": "Partick Thistle haven't lost in their last 12 games."
+          "sentence": "Athletic Club Sjdr haven't won in their last 7 games."
         },
         {
-          "type_id": 27,
-          "sentence": "The result of the first leg: Partick Thistle - St. Mirren 1-1."
+          "type_id": 25,
+          "sentence": "Everton Morelli Casimiro is Botafogo's top scorer with 5 goals. Ronaldo Tavares has scored 5 times for Athletic Club Sjdr."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 73,
-          "home": 67
+          "away": 33,
+          "home": 31
         },
         "ball_safe": {
-          "away": 68,
-          "home": 68
+          "away": 28,
+          "home": 26
         },
         "attack_pct": {
-          "away": 22,
-          "home": 21
+          "away": 29,
+          "home": 39
         },
         "ball_safe_pct": {
-          "away": 45,
-          "home": 51
+          "away": 44,
+          "home": 40
         },
         "dangerous_attack": {
-          "away": 50,
-          "home": 44
+          "away": 14,
+          "home": 16
         },
         "dangerous_attack_pct": {
-          "away": 33,
-          "home": 28
+          "away": 27,
+          "home": 21
         }
       },
       "ai_preview": {
-        "text": "**These teams know each other well — they drew 1-1 just last month, and another stalemate feels oddly likely** 🔵\n\nSt. Mirren are wobbling (1W-2D-2L), while Partick Thistle have steadied the ship with form that includes only one loss across five. That said, both outfits seem to grind rather than dazzle.\n\nKey storylines:\n\n- **St. Mirren's attack** leans on **J. Ayunga** and **M. Mandron** to break through a Thistle side that's tightened up defensively\n- **Partick's recent uptick** owes much to balance — **A. Fitzpatrick** and **G. Mackay-Steven** orchestrating from midfield\n- The head-to-head draw last month suggests neither side has clear tactical leverage\n\nExpected lineups:\n\n- **St. Mirren**: S. George, M. Freckleton, A. Gogić, R. King, S. Tanser, M. Fraser, J. Devaney, A. Campbell, M. O'Hara, M. Mandron, J. Ayunga\n- **Partick Thistle**: J. Clarke, B. McPherson, C. Loughrey, C. Logan, L. Ashcroft, A. Fitzpatrick, G. Mackay-Steven, A. Samuel, K. Turner, T. Watt, L. Budinauckas\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction: **1-1** — both sides have the edge defensively right now, so expect another low-scoring scrap. 🎯",
-        "generated_at": "2026-05-25T01:46:07.463728+00:00"
+        "text": "**Two injury-ravaged midtable sides slug it out in the Monday night lights** — Botafogo-SP and Athletic Club are both stuck in neutral, and frankly, neither squad looks sharp enough to force the issue. 🔒\n\nBoth teams are winless in their last five, trading draws and losses like nobody wants to take the wheel. Botafogo-SP have lost their last two away, while Athletic Club just can't string results together at home either. This has stalemate written all over it.\n\nKey storylines:\n\n- **Botafogo-SP** missing three defenders (Carlão, Jonathan, L. Maciel) means the backline of Vilar, P. Brey, Gabriel Inocêncio, and Pedrinho will be tested\n- **Athletic Club's** R. Tavares ACL injury leaves gaps in central defense; Luan Polli's save-rate in goal will be crucial\n- Both **offenses** have been toothless — if either can string together one quality chance through **Hygor** or **G. Moyses**, they might nick a winner\n\nExpected lineups:\n\n- **Botafogo-SP**: Jordan, Vilar, P. Brey, Gabriel Inocêncio, Pedrinho, E. Morelli, M. Sales, Kelvin, R. Gava, Z. Hugo, Hygor\n- **Athletic Club**: Luan Polli, Zeca, L. Belezi, G. Indio, Jhonathan, K. Rodrigues, Jota, J. Miguel, O. Otusanya, G. Moyses, Ruan Assis\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw**. Both defenses are depleted and fragile; one goal leaks through from each side, but nobody has enough craft to bury a winner. 🤝",
+        "generated_at": "2026-05-25T01:46:13.172425+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4432,
+      "id": 4438,
       "event": {
-        "id": 9947,
+        "id": 207456,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
-          "country": "Brazil",
+          "id": 56,
+          "name": "Suomen Cup",
+          "country": "Finland",
           "is_women": false,
-          "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026
-        },
-        "home_team": "Botafogo-SP",
-        "away_team": "Athletic Club",
+        "season": null,
+        "home_team": "SJK Akatemia",
+        "away_team": "SJK",
         "home_team_obj": {
-          "id": 927,
-          "name": "Botafogo-SP",
-          "short_name": "Botafogo-SP",
-          "country": "Brazil",
+          "id": 2111,
+          "name": "SJK Akatemia",
+          "short_name": "SJK Akatemia",
+          "country": "Finland",
           "coach": {
-            "name": "Cláudio Tencati",
-            "shortName": "C. Tencati"
+            "name": "Paulo Jorge Pedro Lopes",
+            "shortName": "P. J. P. Lopes"
           },
-          "venue": {
-            "id": 707,
-            "name": "Estádio Santa Cruz",
-            "city": "Ribeirao Preto",
-            "country": "Brazil",
-            "capacity": 29292
-          }
+          "venue": null
         },
         "away_team_obj": {
-          "id": 843,
-          "name": "Athletic Club",
-          "short_name": "Athletic",
-          "country": "Brazil",
+          "id": 2100,
+          "name": "SJK",
+          "short_name": "SJK",
+          "country": "Finland",
           "coach": {
-            "name": "Alexsandro de Souza",
-            "shortName": "Alex"
+            "name": "Jarkko Wiss",
+            "shortName": "J. Wiss"
           },
-          "venue": {
-            "id": 635,
-            "name": "Estádio Joaquim Portugal",
-            "city": "São João del Rei",
-            "country": "Brazil",
-            "capacity": 8000
-          }
+          "venue": null
         },
-        "event_date": "2026-05-26T02:00:00+04:00",
-        "round_number": 10,
+        "event_date": "2026-05-26T19:00:00+04:00",
+        "round_number": 6,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -307,24 +568,24 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.08,
-        "odds_draw": 2.95,
-        "odds_away": 3.91,
-        "odds_over_15": 1.5,
-        "odds_over_25": 2.55,
-        "odds_over_35": 4.87,
-        "odds_under_15": 2.47,
-        "odds_under_25": 1.48,
-        "odds_under_35": 1.16,
-        "odds_btts_yes": 2.13,
-        "odds_btts_no": 1.65,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
         "travel_distance_km": null,
         "weather_code": null,
@@ -334,87 +595,29 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 133,
-          "name": "Cláudio Tencati",
-          "short_name": "C. Tencati",
-          "country": "Brazil",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.6830290552122015,
-          "defensive_line": "mid",
-          "top_styles": [
-            "set_piece",
-            "cross_pray"
-          ]
+          "id": 1536,
+          "name": "Paulo Jorge Pedro Lopes",
+          "short_name": "P. J. P. Lopes",
+          "country": "Portugal",
+          "profile": "attacking",
+          "preferred_formation": "4-1-4-1",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 155,
-          "name": "Alexsandro de Souza",
-          "short_name": "Alex",
-          "country": "Brazil",
-          "profile": "balanced",
+          "id": 1530,
+          "name": "Jarkko Wiss",
+          "short_name": "J. Wiss",
+          "country": "Finland",
+          "profile": "attacking",
           "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.43848223871261516,
-          "defensive_line": "mid",
-          "top_styles": [
-            "terrorist_fb",
-            "anti_football"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Arthur Caíke",
-              "status": "doubtful",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Carlão",
-              "status": "injured",
-              "reason": "LCL Knee Injury",
-              "expected_return": "2027-01-01"
-            },
-            {
-              "name": "Jonathan",
-              "status": "injured",
-              "reason": "Knee Injury",
-              "expected_return": "2026-06-08"
-            },
-            {
-              "name": "Leandro Maciel",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Wallace",
-              "status": "doubtful",
-              "reason": "Muscle Injury",
-              "expected_return": null
-            }
-          ],
-          "away": [
-            {
-              "name": "Ronaldo Tavares",
-              "status": "injured",
-              "reason": "ACL Knee Injury",
-              "expected_return": "2027-01-01"
-            }
-          ]
-        },
-        "venue": {
-          "id": 707,
-          "name": "Estádio Santa Cruz",
-          "city": "Ribeirao Preto",
-          "country": "Brazil",
-          "capacity": 29292,
-          "latitude": -21.2025,
-          "longitude": -47.789167,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
-        },
+        "unavailable_players": null,
+        "venue": null,
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -422,79 +625,31 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "942cb3",
-              "real": true,
-              "type": "long_sleeves",
-              "number": "ffffff",
-              "sleeve": "000000"
-            },
-            "player": {
-              "base": "000000",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff",
-              "sleevelong": "ffffff"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "ff80dc",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ff3300"
-            },
-            "player": {
-              "base": "ffffff",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "ff0000",
-              "sleevelong": "ffffff"
-            }
-          }
-        },
-        "funfacts": [
-          {
-            "type_id": 1,
-            "sentence": "Botafogo haven't won in their last 7 games."
-          },
-          {
-            "type_id": 1,
-            "sentence": "Athletic Club Sjdr haven't won in their last 7 games."
-          },
-          {
-            "type_id": 25,
-            "sentence": "Everton Morelli Casimiro is Botafogo's top scorer with 5 goals. Ronaldo Tavares has scored 5 times for Athletic Club Sjdr."
-          }
-        ],
+        "jerseys": null,
+        "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Two injury-ravaged midtable sides slug it out in the Monday night lights** — Botafogo-SP and Athletic Club are both stuck in neutral, and frankly, neither squad looks sharp enough to force the issue. 🔒\n\nBoth teams are winless in their last five, trading draws and losses like nobody wants to take the wheel. Botafogo-SP have lost their last two away, while Athletic Club just can't string results together at home either. This has stalemate written all over it.\n\nKey storylines:\n\n- **Botafogo-SP** missing three defenders (Carlão, Jonathan, L. Maciel) means the backline of Vilar, P. Brey, Gabriel Inocêncio, and Pedrinho will be tested\n- **Athletic Club's** R. Tavares ACL injury leaves gaps in central defense; Luan Polli's save-rate in goal will be crucial\n- Both **offenses** have been toothless — if either can string together one quality chance through **Hygor** or **G. Moyses**, they might nick a winner\n\nExpected lineups:\n\n- **Botafogo-SP**: Jordan, Vilar, P. Brey, Gabriel Inocêncio, Pedrinho, E. Morelli, M. Sales, Kelvin, R. Gava, Z. Hugo, Hygor\n- **Athletic Club**: Luan Polli, Zeca, L. Belezi, G. Indio, Jhonathan, K. Rodrigues, Jota, J. Miguel, O. Otusanya, G. Moyses, Ruan Assis\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw**. Both defenses are depleted and fragile; one goal leaks through from each side, but nobody has enough craft to bury a winner. 🤝",
-          "generated_at": "2026-05-25T01:46:13.172425+00:00"
+          "text": "**SJK Akatemia are rolling hot, and they're about to take on their senior namesake in a Cup clash.** The academy side's **three straight wins** make them the heavy favorites here, while SJK's mixed league form (1W-2D-2L) has them vulnerable. 🏆\n\nAkatemia's attacking energy has been relentless — they've scored 7 in their last three games. SJK, meanwhile, just got hammered 3-1 at home by Inter Turku and look a bit frazzled. Cup ties are unpredictable, but the form gap is stark.\n\nKey storylines:\n\n- **SJK Akatemia's young guns** have momentum on their side with three dominant wins, vs a senior team struggling for consistency\n- **M. Abdu and A. Asumus** will be key playmakers for the academy side's pressing game\n- **R. Paunio** and SJK's backline face a relentless Akatemia attack that won't give them breathing room\n\nExpected lineups:\n\n- **SJK Akatemia**: N. Hasselman, O. Raiski, E. Salmivuori, I. Kangasniemi, T. Töllinen, J. Nikkilä, M. Abdu, A. Asumus, A. Piiroinen, T. Mustonen, L. Ouma\n- **SJK**: R. Paunio, O. Väistö, S. Chukwudi, K. Pires, S. G. Yussif, A. Wilson, M. Arsalo, A. Boström, E. Mastokangas, K. Paananen, Rangel\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**SJK Akatemia 2-0 SJK.** The model leans Akatemia, and their form + ruthless finishing should see them through. 📊",
+          "generated_at": "2026-05-25T15:45:22.174623+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-05-19T06:20:22.031163+04:00",
-      "prob_home_win": 30.16066994933106,
-      "prob_draw": 51.43016200960982,
-      "prob_away_win": 18.409168041059107,
-      "predicted_result": "D",
-      "expected_home_goals": 1.36164,
-      "expected_away_goals": 0.9068674999999999,
-      "prob_over_15": 81.27783345805813,
-      "prob_over_25": 40.954164537855185,
-      "prob_over_35": 20.242451860251634,
-      "prob_btts_yes": 65.06900196663405,
-      "confidence": 51.43016200960982,
+      "created_at": "2026-05-20T06:20:11.093423+04:00",
+      "prob_home_win": 43.82209203223167,
+      "prob_draw": 25.768895659644876,
+      "prob_away_win": 30.40901230812344,
+      "predicted_result": "H",
+      "expected_home_goals": 1.6666666666666667,
+      "expected_away_goals": 3.15,
+      "prob_over_15": 82.94721490238918,
+      "prob_over_25": 62.96421372483274,
+      "prob_over_35": 33.004341434379995,
+      "prob_btts_yes": 48.525556611601175,
+      "confidence": 43.82209203223167,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "1-3",
       "favorite": "H",
-      "favorite_prob": 30.16066994933106,
+      "favorite_prob": 43.82209203223167,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
