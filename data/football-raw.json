@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T12:24:51.326Z",
+  "generatedAt": "2026-05-27T16:24:55.040Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -64,13 +64,13 @@
       "round_number": 6,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "status": "halftime",
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_ht": 1,
+      "away_score_ht": 0,
+      "current_minute": 45,
+      "period": "HT",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -149,49 +149,59 @@
       "live_websocket": false
     },
     "prediction": {
-      "id": 4465,
+      "id": 4466,
       "event": {
-        "id": 207469,
+        "id": 206700,
         "league": {
-          "id": 56,
-          "name": "Suomen Cup",
-          "country": "Finland",
-          "is_women": false,
-          "current_season": null
-        },
-        "season": null,
-        "home_team": "Ilves",
-        "away_team": "Turun Palloseura",
-        "home_team_obj": {
-          "id": 417,
-          "name": "Ilves",
-          "short_name": "Ilves",
-          "country": "Finland",
-          "coach": {
-            "name": "Joni Lehtonen",
-            "shortName": "J. Lehtonen"
-          },
-          "venue": {
-            "id": 398,
-            "name": "Tammela Stadium",
-            "city": "Tampere",
-            "country": "Finland",
-            "capacity": 8077
+          "id": 36,
+          "name": "Liga F",
+          "country": "Spain",
+          "is_women": true,
+          "current_season": {
+            "id": 295,
+            "name": "Liga F Moeve 25/26",
+            "year": 2025,
+            "start_date": "2025-07-01",
+            "end_date": "2026-06-30"
           }
         },
-        "away_team_obj": {
-          "id": 2099,
-          "name": "Turun Palloseura",
-          "short_name": "TPS",
-          "country": "Finland",
+        "season": {
+          "id": 295,
+          "name": "Liga F Moeve 25/26",
+          "year": 2025
+        },
+        "home_team": "Fútbol Club Barcelona",
+        "away_team": "Real Sociedad",
+        "home_team_obj": {
+          "id": 917,
+          "name": "Fútbol Club Barcelona",
+          "short_name": "FC Barcelona",
+          "country": "Spain",
           "coach": {
-            "name": "Ivan Piñol Zoroa",
-            "shortName": "I. P. Zoroa"
+            "name": "Pere Romeu",
+            "shortName": "P. Romeu"
           },
           "venue": null
         },
-        "event_date": "2026-05-27T19:30:00+04:00",
-        "round_number": 6,
+        "away_team_obj": {
+          "id": 924,
+          "name": "Real Sociedad",
+          "short_name": "R. Sociedad",
+          "country": "Spain",
+          "coach": {
+            "name": "Arturo Ruiz",
+            "shortName": "A. Ruiz"
+          },
+          "venue": {
+            "id": 704,
+            "name": "Instalaciones de Zubieta",
+            "city": "San Sebastian",
+            "country": "Spain",
+            "capacity": 2500
+          }
+        },
+        "event_date": "2026-05-27T21:00:00+04:00",
+        "round_number": 29,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -201,73 +211,73 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": null,
-        "odds_draw": null,
-        "odds_away": null,
-        "odds_over_15": null,
-        "odds_over_25": null,
-        "odds_over_35": null,
-        "odds_under_15": null,
-        "odds_under_25": null,
-        "odds_under_35": null,
-        "odds_btts_yes": null,
-        "odds_btts_no": null,
+        "odds_home": 1.12,
+        "odds_draw": 7.91,
+        "odds_away": 14,
+        "odds_over_15": 1.06,
+        "odds_over_25": 1.25,
+        "odds_over_35": 1.65,
+        "odds_under_15": 8,
+        "odds_under_25": 3.53,
+        "odds_under_35": 2.07,
+        "odds_btts_yes": 1.91,
+        "odds_btts_no": 1.79,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
+        "travel_distance_km": 396,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 1883,
+          "name": "Maria Eugenia Gil Soriano",
+          "country": "Spain",
+          "nationality_a3": "",
+          "birthdate": null,
+          "yellowCards": 28,
+          "redCards": 1,
+          "career_games": 14,
+          "career_yellow_cards": 28,
+          "career_red_cards": 1
+        },
         "home_coach": {
-          "id": 634,
-          "name": "Joni Lehtonen",
-          "short_name": "J. Lehtonen",
-          "country": "Finland",
-          "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.13763269022518004,
+          "id": 34,
+          "name": "Pere Romeu",
+          "short_name": "P. Romeu",
+          "country": "Spain",
+          "profile": "attacking",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 1,
           "defensive_line": "mid",
           "top_styles": [
-            "chaos_ball",
-            "inverted_fb"
+            "high_press",
+            "gegenpressing"
           ]
         },
         "away_coach": {
-          "id": 1529,
-          "name": "Ivan Piñol Zoroa",
-          "short_name": "I. P. Zoroa",
+          "id": 216,
+          "name": "Arturo Ruiz",
+          "short_name": "A. Ruiz",
           "country": "Spain",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.1370998108727976,
+          "profile": "attacking",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.7104431324203473,
           "defensive_line": "mid",
           "top_styles": [
-            "moments_fc",
-            "counter"
+            "gegenpressing",
+            "high_press"
           ]
         },
         "unavailable_players": null,
-        "venue": {
-          "id": 398,
-          "name": "Tammela Stadium",
-          "city": "Tampere",
-          "country": "Finland",
-          "capacity": 8077,
-          "latitude": 61.500278,
-          "longitude": 23.785278,
-          "pitch_x": 105,
-          "pitch_y": 66,
-          "built_year": 1931
-        },
+        "venue": null,
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -275,31 +285,79 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "339900",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "339900"
+            },
+            "player": {
+              "base": "000000",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "0000ff",
+              "sleeve": "0033ff",
+              "stripes": "000000"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "62bb69",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "62bb69"
+            },
+            "player": {
+              "base": "262f42",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "262f42",
+              "stripes": "bf052e"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 2,
+            "sentence": "When playing at home, Barcelona have not lost to Real Sociedad in their last 12 encounters."
+          },
+          {
+            "type_id": 24,
+            "sentence": "Barcelona's home record this season: 14-0-0."
+          },
+          {
+            "type_id": 24,
+            "sentence": "Real Sociedad's away record this season: 9-4-1."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Suomen Cup round 6 clash**: Ilves host Turun Palloseura in a midweek cup showdown where form meets structure. 🏆\n\nIlves are the sharper side on paper — three wins in their last five — though they've leaked goals recently (conceded three to Inter Turku). TuPS arrive as underdogs but showed bite with a 3-0 demolition of HJS; consistency is their weak spot, though.\n\nKey storylines:\n\n- **Ilves' attacking depth** (Kanga, Hytönen, Riski) faces **TuPS' compact 4-2-3-1** anchored by Zaal and Könkkölä\n\n- **Set-piece control** could matter in a cup tie; Ilves' back-three (Kumpu, Rale, Pettersson) vs TuPS' four-line\n\n- **Cup hunger**: TuPS have stumbled in league play but historically cup runs can be a morale booster for mid-table sides\n\nExpected lineups:\n\n- **Ilves**: Krkalić, Rale, Kumpu, Pettersson, Wallius, Stjopin, Multala, Popovitch, Kanga, Hytönen, Riski\n\n- **Turun Palloseura**: Henriksson, Turkki, Hradecky, Sihvonen, Häggström, Zaal, Könkkölä, Vauhkonen, Juvanteny, Kauppila, Muzaci\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Ilves 2–0 TuPS** — home advantage and form give Ilves a slight edge, but expect a cautious cup affair. ⚪",
-          "generated_at": "2026-05-27T02:45:21.163708+00:00"
+          "text": "**Barcelona's on a rampage, and Real Sociedad just snuck past Madrid CFF** — one's firing on all cylinders, the other's riding a wave but still the clear underdog here. 🔥\n\nBarça's perfect run speaks for itself: five straight wins, including a 5-0 demolition of Levante and a 4-1 thrashing of Espanyol. Real Sociedad's solid (4W-1D), but they lost the head-to-head last time out, and Barcelona's attacking prowess is simply in another gear right now.\n\nKey storylines:\n\n- **S. Paralluelo and E. Pajor** leading Barça's relentless offense — this duo has been clinical\n- **Real Sociedad's defense** anchored by **C. Florentino and N. Aparicio** will need a perfect day to contain the home side\n- Barcelona's **K. Nazareth** controlling the midfield tempo, dictating play throughout\n\nExpected lineups:\n\n- **Fútbol Club Barcelona**: G. Font, C. J. Martinez, A. Cámara, I. Paredes, M. Torrejón, K. Nazareth, S. Schertenleib, C. S. Díaz, S. Paralluelo, E. Pajor, C. Hansen\n- **Real Sociedad**: J. Arrula, A. Aguirrezabala, C. Florentino, N. Aparicio, L. Rodríguez, I. Egiguren, P. Fernández, K. Cahynova, A. V. Moraza, C. Lavogez, L. Pardo\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Barcelona 3–1 Real Sociedad**. Barça's momentum is too strong; expect a dominant home showing with Real Sociedad nicking one on the counter.",
+          "generated_at": "2026-05-27T02:45:26.085940+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-05-21T06:20:17.442720+04:00",
-      "prob_home_win": 33.08778503309927,
-      "prob_draw": 25.24340278503298,
-      "prob_away_win": 41.66881218186774,
-      "predicted_result": "A",
-      "expected_home_goals": 2.5,
-      "expected_away_goals": 1.65,
-      "prob_over_15": 63.73769591931707,
-      "prob_over_25": 24.150395399244246,
-      "prob_over_35": 21.014226787231575,
-      "prob_btts_yes": 33.777111574124305,
-      "confidence": 41.66881218186774,
+      "created_at": "2026-05-21T06:20:19.016134+04:00",
+      "prob_home_win": 44.14774265370262,
+      "prob_draw": 25.217269661435303,
+      "prob_away_win": 30.634987684862065,
+      "predicted_result": "H",
+      "expected_home_goals": 2.4,
+      "expected_away_goals": 1.5,
+      "prob_over_15": 84.20276348679141,
+      "prob_over_25": 68.53614555275243,
+      "prob_over_35": 39.62635220227347,
+      "prob_btts_yes": 45.478886290346985,
+      "confidence": 44.14774265370262,
       "model_version": "v5.0",
       "most_likely_score": "2-1",
-      "favorite": "A",
-      "favorite_prob": 41.66881218186774,
+      "favorite": "H",
+      "favorite_prob": 44.14774265370262,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
