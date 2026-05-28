@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:48:11.960Z",
+  "generatedAt": "2026-05-28T12:35:06.675Z",
   "count": 50,
   "items": [
     {
@@ -80,6 +80,17 @@
       "marketCount": 0
     },
     {
+      "id": 9344,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "América de Cali",
+      "awayTeam": "Macará",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9457,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -97,17 +108,6 @@
       "country": "South America",
       "homeTeam": "Tigre",
       "awayTeam": "Alianza Atlético de Sullana",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9344,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "América de Cali",
-      "awayTeam": "Macará",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -135,12 +135,12 @@
       "marketCount": 0
     },
     {
-      "id": 207901,
+      "id": 207162,
       "status": "notstarted",
-      "league": "Parva Liga",
-      "country": "Bulgaria",
-      "homeTeam": "Ludogorets",
-      "awayTeam": "Lokomotiv Plovdiv",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "South Africa",
+      "awayTeam": "Nicaragua",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,12 +157,12 @@
       "marketCount": 0
     },
     {
-      "id": 207162,
+      "id": 207901,
       "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "South Africa",
-      "awayTeam": "Nicaragua",
+      "league": "Parva Liga",
+      "country": "Bulgaria",
+      "homeTeam": "Ludogorets",
+      "awayTeam": "Lokomotiv Plovdiv",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,23 +190,23 @@
       "marketCount": 0
     },
     {
-      "id": 206988,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Fredrikstad FK",
-      "awayTeam": "IK Start",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206989,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
       "homeTeam": "KFUM Oslo",
       "awayTeam": "Tromsø IL",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206988,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Fredrikstad FK",
+      "awayTeam": "IK Start",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,17 +432,6 @@
       "marketCount": 0
     },
     {
-      "id": 205801,
-      "status": "notstarted",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Chongqing Tonglianglong FC",
-      "awayTeam": "Beijing Guoan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9088,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -454,12 +443,12 @@
       "marketCount": 0
     },
     {
-      "id": 46378,
+      "id": 205801,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "GAIS",
-      "awayTeam": "Kalmar FF",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Chongqing Tonglianglong FC",
+      "awayTeam": "Beijing Guoan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -482,6 +471,17 @@
       "country": "Sweden",
       "homeTeam": "AIK",
       "awayTeam": "IK Sirius",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46378,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "GAIS",
+      "awayTeam": "Kalmar FF",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
