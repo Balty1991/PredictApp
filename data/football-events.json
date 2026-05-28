@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-05-27T22:57:35.820Z",
+  "generatedAt": "2026-05-28T00:08:05.399Z",
   "count": 50,
   "items": [
     {
-      "id": 9341,
-      "status": "halftime",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Vasco da Gama",
-      "awayTeam": "Barracas Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9334,
-      "status": "halftime",
+      "status": "finished",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Atlético Mineiro",
@@ -25,52 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 9335,
-      "status": "halftime",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Cienciano",
-      "awayTeam": "Juventud de Las Piedras",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9448,
-      "status": "halftime",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Independiente del Valle",
-      "awayTeam": "Rosario Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9340,
-      "status": "halftime",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Olimpia",
-      "awayTeam": "Audax Italiano",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9449,
-      "status": "halftime",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Libertad",
-      "awayTeam": "Universidad Central",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9338,
-      "status": "halftime",
+      "status": "finished",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Caracas F.C.",
@@ -81,7 +26,7 @@
     },
     {
       "id": 9339,
-      "status": "halftime",
+      "status": "finished",
       "league": "Copa Sudamericana",
       "country": "South America",
       "homeTeam": "Racing Club",
@@ -91,23 +36,67 @@
       "marketCount": 0
     },
     {
-      "id": 207636,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "SC Jacksonville",
-      "awayTeam": "San Antonio FC",
+      "id": 9341,
+      "status": "finished",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Vasco da Gama",
+      "awayTeam": "Barracas Central",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 9342,
-      "status": "notstarted",
+      "id": 9340,
+      "status": "finished",
       "league": "Copa Sudamericana",
       "country": "South America",
-      "homeTeam": "Red Bull Bragantino",
-      "awayTeam": "Carabobo FC",
+      "homeTeam": "Olimpia",
+      "awayTeam": "Audax Italiano",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9335,
+      "status": "finished",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Cienciano",
+      "awayTeam": "Juventud de Las Piedras",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9448,
+      "status": "finished",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Independiente del Valle",
+      "awayTeam": "Rosario Central",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9449,
+      "status": "finished",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Libertad",
+      "awayTeam": "Universidad Central",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207636,
+      "status": "1st_half",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "SC Jacksonville",
+      "awayTeam": "San Antonio FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -119,6 +108,39 @@
       "country": "South America",
       "homeTeam": "Bolívar",
       "awayTeam": "Independiente Rivadavia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9451,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Fluminense",
+      "awayTeam": "Deportivo La Guaira",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9453,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Peñarol",
+      "awayTeam": "Independiente Santa Fe",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9342,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Red Bull Bragantino",
+      "awayTeam": "Carabobo FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -141,28 +163,6 @@
       "country": "South America",
       "homeTeam": "River Plate",
       "awayTeam": "Blooming",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9453,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Peñarol",
-      "awayTeam": "Independiente Santa Fe",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9451,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Fluminense",
-      "awayTeam": "Deportivo La Guaira",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -234,28 +234,6 @@
       "marketCount": 0
     },
     {
-      "id": 9456,
-      "status": "notstarted",
-      "league": "Copa Libertadores",
-      "country": "South America",
-      "homeTeam": "Boca Juniors",
-      "awayTeam": "Universidad Católica",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9345,
-      "status": "notstarted",
-      "league": "Copa Sudamericana",
-      "country": "South America",
-      "homeTeam": "Tigre",
-      "awayTeam": "Alianza Atlético de Sullana",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9457,
       "status": "notstarted",
       "league": "Copa Libertadores",
@@ -273,6 +251,28 @@
       "country": "South America",
       "homeTeam": "América de Cali",
       "awayTeam": "Macará",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9345,
+      "status": "notstarted",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "homeTeam": "Tigre",
+      "awayTeam": "Alianza Atlético de Sullana",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9456,
+      "status": "notstarted",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "homeTeam": "Boca Juniors",
+      "awayTeam": "Universidad Católica",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 207507,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Andorra",
-      "awayTeam": "Iraq",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207162,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -333,12 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 206991,
+      "id": 207507,
       "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "SK Brann",
-      "awayTeam": "Sarpsborg 08",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Andorra",
+      "awayTeam": "Iraq",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,12 +344,23 @@
       "marketCount": 0
     },
     {
-      "id": 206989,
+      "id": 206992,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
-      "homeTeam": "KFUM Oslo",
-      "awayTeam": "Tromsø IL",
+      "homeTeam": "Vålerenga IF",
+      "awayTeam": "Kristiansund BK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206991,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "SK Brann",
+      "awayTeam": "Sarpsborg 08",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,23 +377,23 @@
       "marketCount": 0
     },
     {
+      "id": 206989,
+      "status": "notstarted",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "KFUM Oslo",
+      "awayTeam": "Tromsø IL",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206987,
       "status": "notstarted",
       "league": "Eliteserien",
       "country": "Norway",
       "homeTeam": "Aalesunds FK",
       "awayTeam": "HamKam",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206992,
-      "status": "notstarted",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Vålerenga IF",
-      "awayTeam": "Kristiansund BK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
