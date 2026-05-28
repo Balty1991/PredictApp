@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T12:35:06.674Z",
+  "generatedAt": "2026-05-28T16:58:26.293Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -74,24 +74,24 @@
       "round_number": 29,
       "round_name": "Final",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 1.56,
-      "odds_draw": 3.67,
-      "odds_away": 5.69,
-      "odds_over_15": 1.4,
-      "odds_over_25": 2.22,
-      "odds_over_35": 4.03,
-      "odds_under_15": 2.76,
-      "odds_under_25": 1.61,
-      "odds_under_35": 1.2,
-      "odds_btts_yes": 2.27,
-      "odds_btts_no": 1.57,
+      "status": "finished",
+      "home_score": 2,
+      "away_score": 1,
+      "home_score_ht": 0,
+      "away_score_ht": 1,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 1.63,
+      "odds_draw": 3.38,
+      "odds_away": 5.4,
+      "odds_over_15": 1.5,
+      "odds_over_25": 2.51,
+      "odds_over_35": 4.8,
+      "odds_under_15": 2.44,
+      "odds_under_25": 1.49,
+      "odds_under_35": 1.16,
+      "odds_btts_yes": 2.41,
+      "odds_btts_no": 1.51,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -101,10 +101,10 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": 163,
-      "weather_code": null,
+      "weather_code": 2,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
@@ -194,7 +194,32 @@
           "sentence": "Septemvri Sofia haven't lost in any of their last 5 home matches."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 51,
+          "home": 58
+        },
+        "ball_safe": {
+          "away": 83,
+          "home": 60
+        },
+        "attack_pct": {
+          "away": 17,
+          "home": 27
+        },
+        "ball_safe_pct": {
+          "away": 63,
+          "home": 35
+        },
+        "dangerous_attack": {
+          "away": 43,
+          "home": 61
+        },
+        "dangerous_attack_pct": {
+          "away": 20,
+          "home": 38
+        }
+      },
       "ai_preview": {
         "text": "**Septemvri's hunting for their third straight home win, and Yantra are coming in cold.** This is a mid-table scrap where the hosts' recent form gives them the edge. 🔥\n\nSeptemvri have won two of their last three at Dragalevtski and sit on decent momentum. Yantra haven't lit it up lately, making this a chance for **Septemvri to pile on the misery** and push higher up the table.\n\nKey storylines:\n\n- **Septemvri's home fortress** — back-to-back wins at Dragalevtski set up a third, and Yantra travel without obvious form to lean on\n- **Gabrovo need an away spark** — consistency has been hard to find on the road, and Septemvri's 3-4-2-1 shape could control the midfield\n- **Attacking depth matters** — **F. Herard** and **B. Fourrier** up top for the hosts give them a two-pronged threat that Yantra's 4-3-3 will struggle to handle\n\nExpected lineups:\n\n- **FK Septemvri Sofia**: N. Krastev, M. Stamatov, D. Ivkić, S. Wade, R. Schouten, A. Abou, S. Stoichkov, Y. Baurenski, B. Fourrier, F. Herard\n- **FK Yantra Gabrovo**: A. Georgiev, B. Penchev, D. Lukanov, D. Videv, G. Dimitrov, H. Vasilev, H. Lalev, I. Enchev, K. Ivanov\n\nPrediction:\n\n**Septemvri 2–0 Yantra**\n\nHosts lean on home comfort and attacking punch to extend their winning run. ⚽",
         "generated_at": "2026-05-28T01:45:20.623531+00:00"
@@ -270,17 +295,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.38,
-        "odds_draw": 3.18,
-        "odds_away": 3.34,
-        "odds_over_15": 1.4,
-        "odds_over_25": 2.34,
-        "odds_over_35": 4.31,
+        "odds_home": 2.18,
+        "odds_draw": 3.4,
+        "odds_away": 3.54,
+        "odds_over_15": 1.39,
+        "odds_over_25": 2.3,
+        "odds_over_35": 4.26,
         "odds_under_15": 2.86,
-        "odds_under_25": 1.64,
+        "odds_under_25": 1.66,
         "odds_under_35": 1.2,
-        "odds_btts_yes": 1.93,
-        "odds_btts_no": 1.83,
+        "odds_btts_yes": 1.96,
+        "odds_btts_no": 1.81,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
