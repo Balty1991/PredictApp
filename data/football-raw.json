@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T11:48:48.680Z",
+  "generatedAt": "2026-05-29T15:55:51.025Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,78 +21,84 @@
   ],
   "samples": {
     "event": {
-      "id": 205797,
+      "id": 207496,
       "league": {
-        "id": 52,
-        "name": "Chinese Super League",
-        "country": "China",
+        "id": 31,
+        "name": "International Friendly Games",
+        "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 1040,
-          "name": "Chinese Super League 2026",
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 1040,
-        "name": "Chinese Super League 2026",
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Liaoning Tieren FC",
-      "away_team": "Shanghai Port",
+      "home_team": "Iran",
+      "away_team": "Gambia",
       "home_team_obj": {
-        "id": 2032,
-        "name": "Liaoning Tieren FC",
-        "short_name": "Tieren",
-        "country": "China",
+        "id": 481,
+        "name": "Iran",
+        "short_name": "Iran",
+        "country": "Iran",
         "coach": {
-          "name": "Jung Won Seo",
-          "shortName": "J. W. Seo"
+          "name": "Amir Ghalenoei",
+          "shortName": "A. Ghalenoei"
         },
-        "venue": null
+        "venue": {
+          "id": 439,
+          "name": "Azadi Stadium",
+          "city": "Tehran",
+          "country": "Iran",
+          "capacity": 78116
+        }
       },
       "away_team_obj": {
-        "id": 2037,
-        "name": "Shanghai Port",
-        "short_name": "Port",
-        "country": "China",
+        "id": 720,
+        "name": "Gambia",
+        "short_name": "Gambia",
+        "country": "Gambia",
         "coach": {
-          "name": "Kevin Muscat",
-          "shortName": "K. Muscat"
+          "name": "Johnny McKinstry",
+          "shortName": "J. McKinstry"
         },
         "venue": null
       },
-      "event_date": "2026-05-29T15:35:00+04:00",
-      "round_number": 15,
+      "event_date": "2026-05-29T19:30:00+04:00",
+      "round_number": null,
       "round_name": "",
       "group_name": null,
       "status": "1st_half",
-      "home_score": 1,
+      "home_score": 0,
       "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": 12,
+      "current_minute": 22,
       "period": "1T",
-      "odds_home": 2.15,
-      "odds_draw": 3.65,
-      "odds_away": 2.96,
-      "odds_over_15": 1.15,
-      "odds_over_25": 1.55,
-      "odds_over_35": 2.36,
-      "odds_under_15": 4.39,
-      "odds_under_25": 2.33,
-      "odds_under_35": 1.54,
-      "odds_btts_yes": 1.5,
-      "odds_btts_no": 2.46,
-      "actual_home_xg": 0.01,
+      "odds_home": 1.41,
+      "odds_draw": 3.84,
+      "odds_away": 6.26,
+      "odds_over_15": 1.2,
+      "odds_over_25": 1.69,
+      "odds_over_35": 2.83,
+      "odds_under_15": 2.48,
+      "odds_under_25": 1.56,
+      "odds_under_35": 1.22,
+      "odds_btts_yes": 2.03,
+      "odds_btts_no": 1.59,
+      "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.02,
+      "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
       "weather_code": null,
@@ -102,266 +108,49 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1522,
-        "name": "Jung Won Seo",
-        "short_name": "J. W. Seo",
-        "country": "South Korea",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.6989190841415249,
-        "defensive_line": "mid",
-        "top_styles": [
-          "chaos_ball",
-          "chaos_football"
-        ]
+        "id": 63,
+        "name": "Amir Ghalenoei",
+        "short_name": "A. Ghalenoei",
+        "country": "Iran",
+        "profile": "attacking",
+        "preferred_formation": "5-4-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 1383,
-        "name": "Kevin Muscat",
-        "short_name": "K. Muscat",
-        "country": "Australia",
-        "profile": "attacking",
+        "id": 113,
+        "name": "Johnny McKinstry",
+        "short_name": "J. McKinstry",
+        "country": "Northern Ireland",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5843161166916628,
-        "defensive_line": "mid",
-        "top_styles": [
-          "positional",
-          "territory"
-        ]
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1258,
-        "name": "Tiexi Stadium",
-        "city": "Shenyang",
-        "country": "China",
-        "capacity": 40000,
-        "latitude": 41.809056,
-        "longitude": 123.320556,
+        "id": 439,
+        "name": "Azadi Stadium",
+        "city": "Tehran",
+        "country": "Iran",
+        "capacity": 78116,
+        "latitude": null,
+        "longitude": null,
         "pitch_x": null,
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": {
-        "away": {
-          "duels": 75,
-          "fouls": 1,
-          "passes": 77,
-          "crosses": "1/1 (100%)",
-          "tackles": 2,
-          "dribbles": "2/2 (100%)",
-          "offsides": 0,
-          "throw_ins": 1,
-          "clearances": 1,
-          "free_kicks": 2,
-          "goal_kicks": 1,
-          "long_balls": "3/7 (43%)",
-          "recoveries": 5,
-          "tackles_won": 100,
-          "total_shots": 0,
-          "aerial_duels": "1/1 (100%)",
-          "corner_kicks": 0,
-          "dispossessed": 2,
-          "ground_duels": "5/7 (71%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 0,
-          "blocked_shots": 0,
-          "total_tackles": 2,
-          "accurate_passes": 65,
-          "ball_possession": 70,
-          "shots_on_target": 0,
-          "shots_inside_box": 0,
-          "shots_off_target": 0,
-          "final_third_phase": "13/23 (57%)",
-          "shots_outside_box": 0,
-          "final_third_entries": 9,
-          "errors_lead_to_a_goal": 1,
-          "touches_in_penalty_area": 8
-        },
-        "home": {
-          "duels": 22,
-          "fouls": 2,
-          "passes": 32,
-          "crosses": "0/0 (0%)",
-          "tackles": 2,
-          "dribbles": "0/1 (0%)",
-          "offsides": 1,
-          "throw_ins": 0,
-          "clearances": 6,
-          "free_kicks": 1,
-          "goal_kicks": 1,
-          "long_balls": "4/8 (50%)",
-          "recoveries": 6,
-          "tackles_won": 0,
-          "total_shots": 2,
-          "aerial_duels": "0/1 (0%)",
-          "corner_kicks": 1,
-          "dispossessed": 1,
-          "ground_duels": "2/8 (25%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 0,
-          "total_tackles": 2,
-          "expected_goals": 0.02,
-          "accurate_passes": 26,
-          "ball_possession": 30,
-          "shots_on_target": 1,
-          "shots_inside_box": 0,
-          "shots_off_target": 1,
-          "final_third_phase": "6/9 (67%)",
-          "shots_outside_box": 2,
-          "final_third_entries": 6,
-          "errors_lead_to_a_goal": 0,
-          "touches_in_penalty_area": 0
-        },
-        "first_half": {
-          "away": {
-            "duels": 75,
-            "fouls": 1,
-            "passes": 77,
-            "crosses": "1/1 (100%)",
-            "tackles": 2,
-            "dribbles": "2/2 (100%)",
-            "offsides": 0,
-            "throw_ins": 1,
-            "clearances": 1,
-            "free_kicks": 2,
-            "goal_kicks": 1,
-            "long_balls": "3/7 (43%)",
-            "recoveries": 5,
-            "tackles_won": 100,
-            "total_shots": 0,
-            "aerial_duels": "1/1 (100%)",
-            "corner_kicks": 0,
-            "dispossessed": 2,
-            "ground_duels": "5/7 (71%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 0,
-            "total_tackles": 2,
-            "accurate_passes": 65,
-            "ball_possession": 70,
-            "shots_on_target": 0,
-            "shots_inside_box": 0,
-            "shots_off_target": 0,
-            "shots_outside_box": 0,
-            "final_third_entries": 9
-          },
-          "home": {
-            "duels": 22,
-            "fouls": 2,
-            "passes": 32,
-            "crosses": "0/0 (0%)",
-            "tackles": 2,
-            "dribbles": "0/1 (0%)",
-            "offsides": 1,
-            "throw_ins": 0,
-            "clearances": 6,
-            "free_kicks": 1,
-            "goal_kicks": 1,
-            "long_balls": "4/8 (50%)",
-            "recoveries": 6,
-            "tackles_won": 0,
-            "total_shots": 2,
-            "aerial_duels": "0/1 (0%)",
-            "corner_kicks": 1,
-            "dispossessed": 1,
-            "ground_duels": "2/8 (25%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 0,
-            "total_tackles": 2,
-            "accurate_passes": 26,
-            "ball_possession": 30,
-            "shots_on_target": 1,
-            "shots_inside_box": 0,
-            "shots_off_target": 1,
-            "shots_outside_box": 2,
-            "final_third_entries": 6
-          }
-        }
-      },
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "ffb000",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "fafafa",
-            "sleeve": "070700",
-            "sleevelong": "ffb900"
-          },
-          "player": {
-            "base": "ffffff",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "000000",
-            "sleevelong": "ffffff"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "ffff66",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "000000"
-          },
-          "player": {
-            "base": "dd2137",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "dd2137"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 25,
-          "sentence": "Guy Carel Mbenza Kamboleke is Liaoning Tieren's top scorer with 5 goals. Leonardo has scored 4 times for Shanghai Port."
-        },
-        {
-          "type_id": 26,
-          "sentence": "A year ago, Shanghai Port were number 4 in the table with 27 points. Now they are number 11 with 11 points."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Shanghai Port haven't lost in their last 5 games."
-        }
-      ],
-      "sr_stats": {
-        "attack": {
-          "away": 13,
-          "home": 9
-        },
-        "ball_safe": {
-          "away": 12,
-          "home": 11
-        },
-        "attack_pct": {
-          "away": 30,
-          "home": 18
-        },
-        "ball_safe_pct": {
-          "away": 59,
-          "home": 35
-        },
-        "dangerous_attack": {
-          "away": 7,
-          "home": 4
-        },
-        "dangerous_attack_pct": {
-          "away": 11,
-          "home": 47
-        }
-      },
+      "live_stats": null,
+      "jerseys": null,
+      "funfacts": null,
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Liaoning's firepower meets Shanghai's stubborn wall** — the hosts are rolling after a 5-0 demolition of Zhejiang, but Port's back line has been nearly unbreakable with four straight draws. 🔥\n\nLiaoning are the form team, winning two of their last three and looking genuinely dangerous. Shanghai, though? They haven't lost in five but also haven't strung wins together—classic defensive grind energy.\n\nKey storylines:\n\n- **Liaoning's attacking depth** with Felipe, Jeffinho, and A. Kouamé firing should test Port's deep 5-4-1 setup\n- **Shanghai Port's draw streak** shows resilience but limits their upside; a creative spark from B. Shimeng or Y. Zhang will be crucial\n- **Home advantage at Tiexi** historically matters in the Super League; Liaoning won't waste it lightly\n\nExpected lineups:\n\n- **Liaoning Tieren FC**: Y. Zhang, L. Haoran, Y. Mincheng, P. Vagić, D. Mawlanyaz, T. Li, Felipe, Jeffinho\n- **Shanghai Port**: Y. Junling, Z. Wei, U. Yusup, J. Guangtai, X. Y. Alex, L. Xinxiang, M. Vital, B. Shimeng\n\nPrediction:\n\n**Liaoning 2–1 Shanghai Port**\n\nSlight lean to the hosts' uptempo play at home, but Port's defensive organization keeps it tight. 🎯",
-        "generated_at": "2026-05-29T02:45:13.458554+00:00"
+        "text": "**Iran rolls into a friendly looking to rediscover some magic**, but **Gambia's been ghost-silent on the pitch** — just one match tracked all year. 🏟️\n\nIran's form is wild: they stuffed Costa Rica 5-0 at home but then got humbled by Nigeria and USA back-to-back. Gambia barely has a pulse in recent fixtures, making this a chance for the Iranians to build rhythm without much resistance.\n\nKey storylines:\n\n- **Iran chasing consistency** after mixed results against Nigeria and USA\n- **Gambia fighting for any kind of spark** in what looks like a damage-control tour\n- Friendly vibes mean expect end-to-end chaos rather than tactical chess\n\nExpected lineups:\n\n- **Iran**: Beiranvand, Rezaei, Cheshmi, Pouraliganji, Milad, Kanaani, Torabi, Jahanbakhsh, Azmoun, Taremi, Shojaei\n- **Gambia**: N'Jie, Sanneh, Sabaly, Mendy, Gorre, Ndiaye, Cham, Jallow, Sanyang, Njie, Bojang\n\nPrediction:\n\n**Iran 3-0 Gambia**\n\nThe Iranians should dominate this one — they've got too much quality and need the confidence boost after recent stumbles. 🎯",
+        "generated_at": "2026-05-29T01:45:18.038409+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
       "id": 4579,
@@ -426,23 +215,23 @@
         "round_name": "Final",
         "group_name": null,
         "status": "notstarted",
-        "home_score": null,
-        "away_score": null,
+        "home_score": 0,
+        "away_score": 0,
         "home_score_ht": null,
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.56,
-        "odds_draw": 3.9,
-        "odds_away": 5.33,
-        "odds_over_15": 1.25,
-        "odds_over_25": 1.8,
-        "odds_over_35": 2.99,
-        "odds_under_15": 3.6,
-        "odds_under_25": 1.94,
-        "odds_under_35": 1.35,
-        "odds_btts_yes": 1.84,
-        "odds_btts_no": 1.86,
+        "odds_home": 1.51,
+        "odds_draw": 3.89,
+        "odds_away": 5.92,
+        "odds_over_15": 1.26,
+        "odds_over_25": 1.82,
+        "odds_over_35": 3.02,
+        "odds_under_15": 3.55,
+        "odds_under_25": 1.92,
+        "odds_under_35": 1.34,
+        "odds_btts_yes": 1.9,
+        "odds_btts_no": 1.81,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
