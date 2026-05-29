@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T21:10:31.503Z",
+  "generatedAt": "2026-05-29T22:52:43.322Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,77 +21,83 @@
   ],
   "samples": {
     "event": {
-      "id": 206681,
+      "id": 9959,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": 34,
+        "name": "Brasileirão Serie B",
+        "country": "Brazil",
         "is_women": false,
         "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
         "year": 2026
       },
-      "home_team": "Bosnia & Herzegovina",
-      "away_team": "North Macedonia",
+      "home_team": "Juventude",
+      "away_team": "América Mineiro",
       "home_team_obj": {
-        "id": 931,
-        "name": "Bosnia & Herzegovina",
-        "short_name": "BiH",
-        "country": "Bosnia & Herzegovina",
+        "id": 156,
+        "name": "Juventude",
+        "short_name": "Juventude",
+        "country": "Brazil",
         "coach": {
-          "name": "Sergej Barbarez",
-          "shortName": "S. Barbarez"
+          "name": "Mauricio Barbieri",
+          "shortName": "M. Barbieri"
         },
         "venue": {
-          "id": 710,
-          "name": "Bilino Polje",
-          "city": "Zenica",
-          "country": "Bosnia & Herzegovina",
-          "capacity": 15600
+          "id": 154,
+          "name": "Estádio Alfredo Jaconi",
+          "city": "Caxias do Sul",
+          "country": "Brazil",
+          "capacity": 19924
         }
       },
       "away_team_obj": {
-        "id": 730,
-        "name": "North Macedonia",
-        "short_name": "North Macedonia",
-        "country": "North Macedonia",
+        "id": 838,
+        "name": "América Mineiro",
+        "short_name": "América-MG",
+        "country": "Brazil",
         "coach": {
-          "name": "Goce Sedloski",
-          "shortName": "G. Sedloski"
+          "name": "Roger Rodrigues da Silva",
+          "shortName": "R. R. d. Silva"
         },
-        "venue": null
+        "venue": {
+          "id": 630,
+          "name": "Arena Independência",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": 23000
+        }
       },
-      "event_date": "2026-05-29T22:30:00+04:00",
-      "round_number": null,
+      "event_date": "2026-05-30T04:00:00+04:00",
+      "round_number": 11,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 0,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 1.74,
-      "odds_draw": 3.44,
-      "odds_away": 4.73,
-      "odds_over_15": 1.36,
-      "odds_over_25": 2.13,
-      "odds_over_35": 3.83,
-      "odds_under_15": 2.96,
-      "odds_under_25": 1.67,
-      "odds_under_35": 1.23,
-      "odds_btts_yes": 2,
-      "odds_btts_no": 1.74,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 1.94,
+      "odds_draw": 3,
+      "odds_away": 4.39,
+      "odds_over_15": 1.52,
+      "odds_over_25": 2.62,
+      "odds_over_35": 5.09,
+      "odds_under_15": 2.37,
+      "odds_under_25": 1.45,
+      "odds_under_35": 1.14,
+      "odds_btts_yes": 2.26,
+      "odds_btts_no": 1.58,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -100,158 +106,128 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
-      "weather_code": 1,
+      "travel_distance_km": 1289,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 580,
-        "name": "Sergej Barbarez",
-        "short_name": "S. Barbarez",
-        "country": "Bosnia & Herzegovina",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 118,
+        "name": "Mauricio Barbieri",
+        "short_name": "M. Barbieri",
+        "country": "Brazil",
+        "profile": "balanced",
+        "preferred_formation": "3-4-2-1",
+        "pressing_intensity": 0.48235967934469914,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "anti_football"
+        ]
       },
       "away_coach": {
-        "id": 111,
-        "name": "Goce Sedloski",
-        "short_name": "G. Sedloski",
-        "country": "North Macedonia",
+        "id": 841,
+        "name": "Roger Rodrigues da Silva",
+        "short_name": "R. R. d. Silva",
+        "country": "Brazil",
         "profile": "defensive",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "preferred_formation": "4-1-4-1",
+        "pressing_intensity": 0.5850945864479621,
+        "defensive_line": "mid",
+        "top_styles": [
+          "cross_pray",
+          "wing_play"
+        ]
       },
-      "unavailable_players": null,
+      "unavailable_players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Eduardo Person",
+            "status": "doubtful",
+            "reason": "Thigh Injury",
+            "expected_return": null
+          },
+          {
+            "name": "Yago Santos",
+            "status": "injured",
+            "reason": "Thigh Injury",
+            "expected_return": null
+          }
+        ]
+      },
       "venue": {
-        "id": 710,
-        "name": "Bilino Polje",
-        "city": "Zenica",
-        "country": "Bosnia & Herzegovina",
-        "capacity": 15600,
-        "latitude": null,
-        "longitude": null,
+        "id": 154,
+        "name": "Estádio Alfredo Jaconi",
+        "city": "Caxias do Sul",
+        "country": "Brazil",
+        "capacity": 19924,
+        "latitude": -29.162,
+        "longitude": -51.176,
         "pitch_x": null,
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": {
-        "away": {
-          "fouls": 19,
-          "offsides": 0,
-          "red_cards": 0,
-          "throw_ins": 19,
-          "free_kicks": 16,
-          "goal_kicks": 8,
-          "total_saves": 3,
-          "total_shots": 2,
-          "corner_kicks": 1,
-          "yellow_cards": 1,
-          "blocked_shots": 1,
-          "ball_possession": 31,
-          "shots_on_target": 1,
-          "goalkeeper_saves": 3,
-          "shots_off_target": 0
-        },
-        "home": {
-          "fouls": 12,
-          "offsides": 4,
-          "red_cards": 0,
-          "throw_ins": 22,
-          "free_kicks": 19,
-          "goal_kicks": 4,
-          "total_saves": 1,
-          "total_shots": 13,
-          "corner_kicks": 2,
-          "yellow_cards": 0,
-          "blocked_shots": 5,
-          "ball_possession": 69,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 1,
-          "shots_off_target": 5
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "2aa1eb",
+            "base": "6b4263",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "0795ed"
+            "number": "171f17",
+            "sleeve": "161916"
           },
           "player": {
-            "base": "b20406",
+            "base": "5ab438",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "e27712",
-            "sleevelong": "b20406"
+            "sleeve": "5ab438",
+            "stripes": "000000",
+            "sleevelong": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "000000",
+            "base": "8bff00",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff"
+            "number": "118a02",
+            "sleeve": "327f82",
+            "sleevelong": "1cff00"
           },
           "player": {
-            "base": "1752a7",
+            "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "f8f8f6",
-            "sleeve": "e7c756"
+            "number": "000000",
+            "sleeve": "053328",
+            "stripes": "05614c",
+            "sleevelong": "05614c"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "North Macedonia haven't won in their last 6 games."
+          "type_id": 24,
+          "sentence": "Juventude RS's home record this season: 2-2-0."
         },
         {
-          "type_id": 1,
-          "sentence": "Bosnia and Herzegovina haven't lost in their last 6 games."
+          "type_id": 24,
+          "sentence": "America FC's away record this season: 0-2-3."
+        },
+        {
+          "type_id": 25,
+          "sentence": "Alan Kardec is Juventude RS's top scorer with 2 goals. Gonzalo Mastriani has scored 3 times for America FC."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 52,
-          "home": 82
-        },
-        "ball_safe": {
-          "away": 63,
-          "home": 59
-        },
-        "attack_pct": {
-          "away": 25,
-          "home": 34
-        },
-        "ball_safe_pct": {
-          "away": 67,
-          "home": 44
-        },
-        "dangerous_attack": {
-          "away": 21,
-          "home": 45
-        },
-        "dangerous_attack_pct": {
-          "away": 8,
-          "home": 22
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Bosnia rolls in hot, but Macedonia's got nothing to lose** — this friendly sets up as a classic confidence clash between a team finding rhythm and one still hunting for any spark. 🔥\n\nBosnia come in riding a 3-1 win over Iran, with two losses sandwiching that win. Macedonia? Barely got a draw against Ireland and haven't won in their last five. On paper, this looks like a home comfort job for the hosts.\n\nKey storylines:\n\n- **Bosnia's attack** will fancy their chances after putting three past Iran, while **North Macedonia's defense** has been porous\n- Friendly-game focus means both sides could rotate, so expect energy rather than perfection\n- **North Macedonia** need a spark — they're desperate for a first win in this stretch\n\nExpected lineups:\n\n- **Bosnia & Herzegovina**: Includes key players across defense and midfield ready to control the pace\n- **North Macedonia**: Will likely sit deeper and look for counter opportunities on the break\n\nPrediction:\n\n**Bosnia 2-0 North Macedonia**\n\nBosnia's form and home advantage give them a clear edge, but a friendly's always unpredictable — Macedonia won't roll over.",
-        "generated_at": "2026-05-29T01:45:59.895169+00:00"
+        "text": "**Juventude's looking for consistency, but América Mineiro is in free fall** — one team riding a decent run at home, the other desperately hunting a W after four straight losses. 🔴\n\nJuventude are the clear favorites here, mixing decent form (1W 3D 1L) with home advantage at Alfredo Jaconi. América Mineiro, meanwhile, have genuinely imploded: that 0-4 shellacking to Náutico is the kind of result that stings for weeks.\n\nKey storylines:\n\n- **Juventude's Alan Kardec** and **Raí** need to convert the chances that should come against a leaky Mineiro backline\n- **América Mineiro's attack** — featuring **G. Mastriani** — is toothless right now; missing Y. Santos only makes it worse\n- **Defensive vulnerability** will likely keep this low-scoring despite the gap in quality\n\nExpected lineups:\n\n- **Juventude**: Jandrei, D. Barbosa, Messias, M. Paulo, Nathan, R. Sam, L. Mineiro, Alan Kardec, Raí\n- **América Mineiro**: Gustavo, Paulinho, N. Cardoso, R. Barcelos, L. Alaba, Alê, Thauan, G. Mastriani\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Juventude 2–0 América Mineiro**. The hosts have the edge and should cruise past a genuinely struggling opponent. 💪",
+        "generated_at": "2026-05-29T01:46:09.973790+00:00"
       },
       "live_websocket": true
     },
@@ -324,17 +300,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.96,
-        "odds_draw": 3.04,
-        "odds_away": 4.16,
-        "odds_over_15": 1.49,
-        "odds_over_25": 2.51,
-        "odds_over_35": 4.83,
-        "odds_under_15": 2.46,
-        "odds_under_25": 1.49,
-        "odds_under_35": 1.16,
-        "odds_btts_yes": 2.17,
-        "odds_btts_no": 1.62,
+        "odds_home": 1.94,
+        "odds_draw": 3,
+        "odds_away": 4.39,
+        "odds_over_15": 1.52,
+        "odds_over_25": 2.62,
+        "odds_over_35": 5.09,
+        "odds_under_15": 2.37,
+        "odds_under_25": 1.45,
+        "odds_under_35": 1.14,
+        "odds_btts_yes": 2.26,
+        "odds_btts_no": 1.58,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
