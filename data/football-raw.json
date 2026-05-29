@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T18:38:58.620Z",
+  "generatedAt": "2026-05-29T21:10:31.503Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,83 +21,77 @@
   ],
   "samples": {
     "event": {
-      "id": 207901,
+      "id": 206681,
       "league": {
-        "id": 22,
-        "name": "Parva Liga",
-        "country": "Bulgaria",
+        "id": 31,
+        "name": "International Friendly Games",
+        "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 321,
-          "name": "Parva Liga 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 321,
-        "name": "Parva Liga 25/26",
-        "year": 2025
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
+        "year": 2026
       },
-      "home_team": "Ludogorets",
-      "away_team": "Lokomotiv Plovdiv",
+      "home_team": "Bosnia & Herzegovina",
+      "away_team": "North Macedonia",
       "home_team_obj": {
-        "id": 136,
-        "name": "Ludogorets",
-        "short_name": "Ludogorets",
-        "country": "Bulgaria",
+        "id": 931,
+        "name": "Bosnia & Herzegovina",
+        "short_name": "BiH",
+        "country": "Bosnia & Herzegovina",
         "coach": {
-          "name": "Per Mathias Hogmo",
-          "shortName": "P. M. Hogmo"
+          "name": "Sergej Barbarez",
+          "shortName": "S. Barbarez"
         },
         "venue": {
-          "id": 134,
-          "name": "Huvepharma Arena",
-          "city": "Razgrad",
-          "country": "Bulgaria",
-          "capacity": 10422
+          "id": 710,
+          "name": "Bilino Polje",
+          "city": "Zenica",
+          "country": "Bosnia & Herzegovina",
+          "capacity": 15600
         }
       },
       "away_team_obj": {
-        "id": 350,
-        "name": "Lokomotiv Plovdiv",
-        "short_name": "Lokomotiv Plovdiv",
-        "country": "Bulgaria",
+        "id": 730,
+        "name": "North Macedonia",
+        "short_name": "North Macedonia",
+        "country": "North Macedonia",
         "coach": {
-          "name": "Dušan Kosič",
-          "shortName": "D. Kosič"
+          "name": "Goce Sedloski",
+          "shortName": "G. Sedloski"
         },
-        "venue": {
-          "id": 330,
-          "name": "Lokomotiv Stadium",
-          "city": "Plovdiv",
-          "country": "Bulgaria",
-          "capacity": 13850
-        }
+        "venue": null
       },
-      "event_date": "2026-05-29T20:00:00+04:00",
-      "round_number": 29,
-      "round_name": "Final",
+      "event_date": "2026-05-29T22:30:00+04:00",
+      "round_number": null,
+      "round_name": "",
       "group_name": null,
-      "status": "inprogress",
+      "status": "finished",
       "home_score": 0,
       "away_score": 0,
       "home_score_ht": 0,
       "away_score_ht": 0,
-      "current_minute": 0,
-      "period": "ETHT",
-      "odds_home": 1.41,
-      "odds_draw": 3.52,
-      "odds_away": 5.34,
-      "odds_over_15": 1.21,
-      "odds_over_25": 1.68,
-      "odds_over_35": 2.64,
-      "odds_under_15": 3.13,
-      "odds_under_25": 1.77,
-      "odds_under_35": 1.29,
-      "odds_btts_yes": 1.78,
-      "odds_btts_no": 1.67,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 1.74,
+      "odds_draw": 3.44,
+      "odds_away": 4.73,
+      "odds_over_15": 1.36,
+      "odds_over_25": 2.13,
+      "odds_over_35": 3.83,
+      "odds_under_15": 2.96,
+      "odds_under_25": 1.67,
+      "odds_under_35": 1.23,
+      "odds_btts_yes": 2,
+      "odds_btts_no": 1.74,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -106,199 +100,222 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 212,
-      "weather_code": null,
+      "travel_distance_km": null,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 421,
-        "name": "Per Mathias Hogmo",
-        "short_name": "P. M. Hogmo",
-        "country": "Norway",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4256537467783316,
-        "defensive_line": "mid",
-        "top_styles": [
-          "tiki_taka",
-          "false_9"
-        ]
+        "id": 580,
+        "name": "Sergej Barbarez",
+        "short_name": "S. Barbarez",
+        "country": "Bosnia & Herzegovina",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 193,
-        "name": "Dušan Kosič",
-        "short_name": "D. Kosič",
-        "country": "Slovenia",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.29690793587820485,
-        "defensive_line": "mid",
-        "top_styles": [
-          "terrorist_fb",
-          "anti_football"
-        ]
+        "id": 111,
+        "name": "Goce Sedloski",
+        "short_name": "G. Sedloski",
+        "country": "North Macedonia",
+        "profile": "defensive",
+        "preferred_formation": "3-4-2-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 134,
-        "name": "Huvepharma Arena",
-        "city": "Razgrad",
-        "country": "Bulgaria",
-        "capacity": 10422,
-        "latitude": 43.534635,
-        "longitude": 26.527642,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 1954
+        "id": 710,
+        "name": "Bilino Polje",
+        "city": "Zenica",
+        "country": "Bosnia & Herzegovina",
+        "capacity": 15600,
+        "latitude": null,
+        "longitude": null,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "fouls": 19,
+          "offsides": 0,
+          "red_cards": 0,
+          "throw_ins": 19,
+          "free_kicks": 16,
+          "goal_kicks": 8,
+          "total_saves": 3,
+          "total_shots": 2,
+          "corner_kicks": 1,
+          "yellow_cards": 1,
+          "blocked_shots": 1,
+          "ball_possession": 31,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 3,
+          "shots_off_target": 0
+        },
+        "home": {
+          "fouls": 12,
+          "offsides": 4,
+          "red_cards": 0,
+          "throw_ins": 22,
+          "free_kicks": 19,
+          "goal_kicks": 4,
+          "total_saves": 1,
+          "total_shots": 13,
+          "corner_kicks": 2,
+          "yellow_cards": 0,
+          "blocked_shots": 5,
+          "ball_possession": 69,
+          "shots_on_target": 3,
+          "goalkeeper_saves": 1,
+          "shots_off_target": 5
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "f45542",
+            "base": "2aa1eb",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "0795ed"
+          },
+          "player": {
+            "base": "b20406",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "f5eeea"
-          },
-          "player": {
-            "base": "080808",
-            "real": true,
-            "type": "short_sleeves",
-            "split": "fcf8f8",
-            "number": "f8f7f7",
-            "sleeve": "030303",
-            "sleevelong": "121212"
+            "sleeve": "e27712",
+            "sleevelong": "b20406"
           }
         },
         "home": {
           "GK": {
-            "base": "d53419",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "f5f4f6",
-            "sleevelong": "db1f24"
-          },
-          "player": {
-            "base": "09582d",
+            "base": "000000",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
             "sleeve": "ffffff"
+          },
+          "player": {
+            "base": "1752a7",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "f8f8f6",
+            "sleeve": "e7c756"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "When playing at home, Ludogorets have not lost to Lok Plovdiv in their last 8 encounters."
+          "type_id": 1,
+          "sentence": "North Macedonia haven't won in their last 6 games."
         },
         {
-          "type_id": 6,
-          "sentence": "During the last 25 meetings with Ludogorets playing at home, Ludogorets have won 17 times, there have been 4 draws while Lok Plovdiv have won 4 times. The goal difference is 41-12 in favour of Ludogorets."
-        },
-        {
-          "type_id": 22,
-          "sentence": "Lok Plovdiv's last away win against Ludogorets was in 2021."
+          "type_id": 1,
+          "sentence": "Bosnia and Herzegovina haven't lost in their last 6 games."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 86,
-          "home": 157
+          "away": 52,
+          "home": 82
         },
         "ball_safe": {
-          "away": 105,
-          "home": 119
+          "away": 63,
+          "home": 59
         },
         "attack_pct": {
-          "away": 20,
-          "home": 30
-        },
-        "ball_safe_pct": {
-          "away": 59,
+          "away": 25,
           "home": 34
         },
+        "ball_safe_pct": {
+          "away": 67,
+          "home": 44
+        },
         "dangerous_attack": {
-          "away": 73,
-          "home": 125
+          "away": 21,
+          "home": 45
         },
         "dangerous_attack_pct": {
-          "away": 21,
-          "home": 36
+          "away": 8,
+          "home": 22
         }
       },
       "ai_preview": {
-        "text": "**Ludogorets hold the home fortress in Razgrad — this is their turf, and Lokomotiv Plovdiv's form makes them vulnerable.** 🏟️\n\nLudogorets are solid at home with a recent win over CSKA Sofia, though they've stumbled on the road. Lokomotiv Plovdiv hit 3 wins in their last 5 but got absolutely battered 0-4 by Arda Kardzhali, so consistency is their problem. The H2H heavily favors the hosts — **3 wins, 3 draws, just 1 for the visitors** in their last seven matchups.\n\nKey storylines:\n\n- **Ludogorets' home record vs a Lokomotiv Plovdiv side prone to blowouts** — the visitors can't defend under pressure, as seen in that Arda collapse\n- **Erick Marcus and A. Salido** orchestrating Ludogorets' midfield tempo against a Lokomotiv setup that leaks goals in bunches\n- Expect a low-drama affair rather than a goal fest — **defensive solidity favors Under 3.5** after those recent heavy defeats\n\nExpected lineups:\n\n- **Ludogorets**: H. Bonmann, Son, A. Nedyalkov, I. Nachmias, V. Nogueira, D. Duarte, Erick Marcus, A. Salido\n- **Lokomotiv Plovdiv**: P. Zovko, A. Chindriş, I. Ivanov, M. Ruskov, F. Politino, G. B. Chorbadzhiyski, J. Lamy\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction:\n\n**Ludogorets 2–0 Lokomotiv Plovdiv.** Strong home edge and Lokomotiv's defensive fragility point to a comfortable hosts win. 💪",
-        "generated_at": "2026-05-29T01:45:34.909901+00:00"
+        "text": "**Bosnia rolls in hot, but Macedonia's got nothing to lose** — this friendly sets up as a classic confidence clash between a team finding rhythm and one still hunting for any spark. 🔥\n\nBosnia come in riding a 3-1 win over Iran, with two losses sandwiching that win. Macedonia? Barely got a draw against Ireland and haven't won in their last five. On paper, this looks like a home comfort job for the hosts.\n\nKey storylines:\n\n- **Bosnia's attack** will fancy their chances after putting three past Iran, while **North Macedonia's defense** has been porous\n- Friendly-game focus means both sides could rotate, so expect energy rather than perfection\n- **North Macedonia** need a spark — they're desperate for a first win in this stretch\n\nExpected lineups:\n\n- **Bosnia & Herzegovina**: Includes key players across defense and midfield ready to control the pace\n- **North Macedonia**: Will likely sit deeper and look for counter opportunities on the break\n\nPrediction:\n\n**Bosnia 2-0 North Macedonia**\n\nBosnia's form and home advantage give them a clear edge, but a friendly's always unpredictable — Macedonia won't roll over.",
+        "generated_at": "2026-05-29T01:45:59.895169+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4496,
+      "id": 4497,
       "event": {
-        "id": 207471,
+        "id": 9959,
         "league": {
-          "id": 6,
-          "name": "Ligue 1",
-          "country": "France",
+          "id": 34,
+          "name": "Brasileirão Serie B",
+          "country": "Brazil",
           "is_women": false,
           "current_season": {
-            "id": 317,
-            "name": "Ligue 1 25/26",
-            "year": 2025,
-            "start_date": "2025-07-01",
-            "end_date": "2026-06-30"
+            "id": 52,
+            "name": "Brasileiro Serie B 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 317,
-          "name": "Ligue 1 25/26",
-          "year": 2025
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
+          "year": 2026
         },
-        "home_team": "Nice",
-        "away_team": "Saint-Étienne",
+        "home_team": "Juventude",
+        "away_team": "América Mineiro",
         "home_team_obj": {
-          "id": 103,
-          "name": "Nice",
-          "short_name": "Nice",
-          "country": "France",
+          "id": 156,
+          "name": "Juventude",
+          "short_name": "Juventude",
+          "country": "Brazil",
           "coach": {
-            "name": "Claude Puel",
-            "shortName": "C. Puel"
+            "name": "Mauricio Barbieri",
+            "shortName": "M. Barbieri"
           },
           "venue": {
-            "id": 101,
-            "name": "Allianz Riviera",
-            "city": "Nice",
-            "country": "France",
-            "capacity": 36178
+            "id": 154,
+            "name": "Estádio Alfredo Jaconi",
+            "city": "Caxias do Sul",
+            "country": "Brazil",
+            "capacity": 19924
           }
         },
         "away_team_obj": {
-          "id": 1300,
-          "name": "Saint-Étienne",
-          "short_name": "Saint-Étienne",
-          "country": "France",
+          "id": 838,
+          "name": "América Mineiro",
+          "short_name": "América-MG",
+          "country": "Brazil",
           "coach": {
-            "name": "Philippe Montanier",
-            "shortName": "P. Montanier"
+            "name": "Roger Rodrigues da Silva",
+            "shortName": "R. R. d. Silva"
           },
           "venue": {
-            "id": 765,
-            "name": "Stade Geoffroy Guichard",
-            "city": "Saint Etienne",
-            "country": "France",
-            "capacity": 41965
+            "id": 630,
+            "name": "Arena Independência",
+            "city": "Belo Horizonte",
+            "country": "Brazil",
+            "capacity": 23000
           }
         },
-        "event_date": "2026-05-29T22:45:00+04:00",
-        "round_number": 29,
-        "round_name": "Final",
+        "event_date": "2026-05-30T04:00:00+04:00",
+        "round_number": 11,
+        "round_name": "",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -307,17 +324,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.94,
-        "odds_draw": 3.16,
-        "odds_away": 4.46,
-        "odds_over_15": 1.47,
-        "odds_over_25": 2.46,
-        "odds_over_35": 4.62,
-        "odds_under_15": 2.59,
-        "odds_under_25": 1.52,
-        "odds_under_35": 1.18,
-        "odds_btts_yes": 2.14,
-        "odds_btts_no": 1.65,
+        "odds_home": 1.96,
+        "odds_draw": 3.04,
+        "odds_away": 4.16,
+        "odds_over_15": 1.49,
+        "odds_over_25": 2.51,
+        "odds_over_35": 4.83,
+        "odds_under_15": 2.46,
+        "odds_under_25": 1.49,
+        "odds_under_35": 1.16,
+        "odds_btts_yes": 2.17,
+        "odds_btts_no": 1.62,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -326,7 +343,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 296,
+        "travel_distance_km": 1289,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -334,501 +351,65 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 268,
-          "name": "Claude Puel",
-          "short_name": "C. Puel",
-          "country": "France",
+          "id": 118,
+          "name": "Mauricio Barbieri",
+          "short_name": "M. Barbieri",
+          "country": "Brazil",
           "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.3776828339946034,
-          "defensive_line": "high",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.48235967934469914,
+          "defensive_line": "mid",
           "top_styles": [
-            "ball_dominant",
-            "total_football"
+            "terrorist_fb",
+            "anti_football"
           ]
         },
         "away_coach": {
-          "id": 1078,
-          "name": "Philippe Montanier",
-          "short_name": "P. Montanier",
-          "country": "France",
-          "profile": "attacking",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 841,
+          "name": "Roger Rodrigues da Silva",
+          "short_name": "R. R. d. Silva",
+          "country": "Brazil",
+          "profile": "defensive",
+          "preferred_formation": "4-1-4-1",
+          "pressing_intensity": 0.5850945864479621,
+          "defensive_line": "mid",
+          "top_styles": [
+            "cross_pray",
+            "wing_play"
+          ]
         },
         "unavailable_players": {
-          "home": [
-            {
-              "name": "Ali Abdi",
-              "status": "injured",
-              "reason": "national_team",
-              "expected_return": "2026-05-29"
-            },
-            {
-              "name": "Everton Pereira",
-              "status": "injured",
-              "reason": "Ankle Injury",
-              "expected_return": "2026-07-01"
-            },
-            {
-              "name": "Hicham Boudaoui",
-              "status": "injured",
-              "reason": "Jaw Injury",
-              "expected_return": "2026-06-13"
-            },
-            {
-              "name": "Mohamed Abdelmonem",
-              "status": "injured",
-              "reason": "",
-              "expected_return": null
-            },
-            {
-              "name": "Moise Bombito",
-              "status": "injured",
-              "reason": "Broken Ankle",
-              "expected_return": "2026-06-10"
-            },
-            {
-              "name": "Tom Louchet",
-              "status": "injured",
-              "reason": "Muscle Injury",
-              "expected_return": "2026-06-12"
-            }
-          ],
+          "home": [],
           "away": [
             {
-              "name": "Benjamin Old",
-              "status": "injured",
-              "reason": "",
+              "name": "Eduardo Person",
+              "status": "doubtful",
+              "reason": "Thigh Injury",
               "expected_return": null
             },
             {
-              "name": "Chico Lamba",
+              "name": "Yago Santos",
               "status": "injured",
-              "reason": "",
-              "expected_return": null
-            },
-            {
-              "name": "Florian Tardieu",
-              "status": "injured",
-              "reason": "",
-              "expected_return": null
-            },
-            {
-              "name": "Nadir El Jamali",
-              "status": "injured",
-              "reason": "",
+              "reason": "Thigh Injury",
               "expected_return": null
             }
           ]
         },
         "venue": {
-          "id": 101,
-          "name": "Allianz Riviera",
-          "city": "Nice",
-          "country": "France",
-          "capacity": 36178,
-          "latitude": 43.705139,
-          "longitude": 7.192583,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 2013
+          "id": 154,
+          "name": "Estádio Alfredo Jaconi",
+          "city": "Caxias do Sul",
+          "country": "Brazil",
+          "capacity": 19924,
+          "latitude": -29.162,
+          "longitude": -51.176,
+          "pitch_x": null,
+          "pitch_y": null,
+          "built_year": null
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "G. Larsonneur",
-                "goals": 0,
-                "api_id": 810526,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 29226,
-                "yellow_card": false,
-                "jersey_number": "30",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "K. Pedro",
-                "goals": 0,
-                "api_id": 1894105,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 29224,
-                "yellow_card": false,
-                "jersey_number": "39",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. L. Cardinal",
-                "goals": 0,
-                "api_id": 1129751,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1732,
-                "yellow_card": false,
-                "jersey_number": "26",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Bernauer",
-                "goals": 0,
-                "api_id": 802137,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 29219,
-                "yellow_card": false,
-                "jersey_number": "23",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "D. Appiah",
-                "goals": 0,
-                "api_id": 123164,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 29222,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "L. Gadegbeku",
-                "goals": 0,
-                "api_id": 1958611,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 29218,
-                "yellow_card": false,
-                "jersey_number": "35",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Kanté",
-                "goals": 0,
-                "api_id": 1512625,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 7006,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "I. Cardona",
-                "goals": 0,
-                "api_id": 605552,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 29208,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Boakye",
-                "goals": 0,
-                "api_id": 1138352,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 29207,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "Z. Davitashvili",
-                "goals": 0,
-                "api_id": 921369,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 16397,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "L. Stassin",
-                "goals": 0,
-                "api_id": 1126521,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 17091,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-2-3-1",
-            "substitutes": []
-          },
-          "home": {
-            "players": [
-              {
-                "name": "Y. Diouf",
-                "goals": 0,
-                "api_id": 845183,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 1485,
-                "yellow_card": false,
-                "jersey_number": "80",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Mendy",
-                "goals": 0,
-                "api_id": 1120615,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1486,
-                "yellow_card": false,
-                "jersey_number": "33",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. J. Bah",
-                "goals": 0,
-                "api_id": 1606792,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1502,
-                "yellow_card": false,
-                "jersey_number": "28",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "K. P. Oppong",
-                "goals": 0,
-                "api_id": 1473092,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1487,
-                "yellow_card": false,
-                "jersey_number": "37",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Clauss",
-                "goals": 0,
-                "api_id": 821728,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1489,
-                "yellow_card": false,
-                "jersey_number": "92",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Sanson",
-                "goals": 0,
-                "api_id": 250133,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1499,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "C. Vanhoutte",
-                "goals": 0,
-                "api_id": 928033,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1503,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Bard",
-                "goals": 0,
-                "api_id": 906075,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1488,
-                "yellow_card": false,
-                "jersey_number": "26",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Cho",
-                "goals": 0,
-                "api_id": 1063235,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1494,
-                "yellow_card": false,
-                "jersey_number": "25",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "S. Diop",
-                "goals": 0,
-                "api_id": 944164,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1492,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "E. Wahi",
-                "goals": 0,
-                "api_id": 979315,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 3527,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              }
-            ],
-            "formation": "3-4-2-1",
-            "substitutes": []
-          },
-          "confirmed": false
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -836,75 +417,79 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "ece822",
+              "base": "6b4263",
               "real": true,
               "type": "short_sleeves",
-              "number": "4a699d",
-              "sleeve": "d6c550"
+              "number": "171f17",
+              "sleeve": "161916"
             },
             "player": {
-              "base": "019a5d",
+              "base": "5ab438",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "ffffff"
+              "sleeve": "5ab438",
+              "stripes": "000000",
+              "sleevelong": "000000"
             }
           },
           "home": {
             "GK": {
-              "base": "f219b6",
+              "base": "8bff00",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "118a02",
+              "sleeve": "327f82",
+              "sleevelong": "1cff00"
+            },
+            "player": {
+              "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
               "number": "000000",
-              "sleeve": "000000"
-            },
-            "player": {
-              "base": "ff0000",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "b8a96c",
-              "sleeve": "cfbe79",
-              "stripes": "000000"
+              "sleeve": "053328",
+              "stripes": "05614c",
+              "sleevelong": "05614c"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 1,
-            "sentence": "Nice haven't won in their last 5 games."
+            "type_id": 24,
+            "sentence": "Juventude RS's home record this season: 2-2-0."
           },
           {
-            "type_id": 2,
-            "sentence": "Saint-Etienne haven't won any of their last 5 games against Nice."
+            "type_id": 24,
+            "sentence": "America FC's away record this season: 0-2-3."
           },
           {
-            "type_id": 2,
-            "sentence": "When playing at home, Nice have not lost to Saint-Etienne in their last 3 encounters."
+            "type_id": 25,
+            "sentence": "Alan Kardec is Juventude RS's top scorer with 2 goals. Gonzalo Mastriani has scored 3 times for America FC."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**A Ligue 1 coin flip with genuine attacking upside.** Nice and Saint-Étienne know each other well — they've met twice already this season — and frankly, both teams look a bit toothless heading into this one. 🏟️\n\nNice are in a rough patch, winless in five with three draws dragging them down. Saint-Étienne have stolen a couple wins lately but they're also patchwork defensively. Both sides are carrying injury lists long enough to make a fitness coach weep, which usually means fewer clean sheets and more chaos.\n\nKey storylines:\n\n- **Nice's blunt attack** vs **Saint-Étienne's creaky backline** — E. Wahi and S. Diop need to find their spark after a run of goalless games.\n- **Saint-Étienne's resilience** — 2W in their last five shows they can grind results, but D. N'Guessan upfront has to stay sharp.\n- **Defensive absences matter here** — Nice without M. Bombito and **Saint-Étienne without F. Tardieu** means neither team is watertight.\n\nExpected lineups:\n\n- **Nice**: M. Dupé, A. Mendy, K. P. Oppong, Dante, M. Bard, A. J. Bah, J. Clauss, Y. Diouf, M. Sanson, S. Diop, E. Wahi\n- **Saint-Étienne**: G. Larsonneur, M. Bernauer, K. Pedro, M. Jaber, J. L. Cardinal, A. Kanté, L. Gadegbeku, Z. Davitashvili, P. Eymard, L. Stassin, D. N'Guessan\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Nice 1–1 Saint-Étienne** — coin flip energy, slight edge to a draw. 🤝",
-          "generated_at": "2026-05-29T01:46:05.436054+00:00"
+          "text": "**Juventude's looking for consistency, but América Mineiro is in free fall** — one team riding a decent run at home, the other desperately hunting a W after four straight losses. 🔴\n\nJuventude are the clear favorites here, mixing decent form (1W 3D 1L) with home advantage at Alfredo Jaconi. América Mineiro, meanwhile, have genuinely imploded: that 0-4 shellacking to Náutico is the kind of result that stings for weeks.\n\nKey storylines:\n\n- **Juventude's Alan Kardec** and **Raí** need to convert the chances that should come against a leaky Mineiro backline\n- **América Mineiro's attack** — featuring **G. Mastriani** — is toothless right now; missing Y. Santos only makes it worse\n- **Defensive vulnerability** will likely keep this low-scoring despite the gap in quality\n\nExpected lineups:\n\n- **Juventude**: Jandrei, D. Barbosa, Messias, M. Paulo, Nathan, R. Sam, L. Mineiro, Alan Kardec, Raí\n- **América Mineiro**: Gustavo, Paulinho, N. Cardoso, R. Barcelos, L. Alaba, Alê, Thauan, G. Mastriani\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Juventude 2–0 América Mineiro**. The hosts have the edge and should cruise past a genuinely struggling opponent. 💪",
+          "generated_at": "2026-05-29T01:46:09.973790+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-23T06:20:13.489254+04:00",
-      "prob_home_win": 34.40734691985167,
-      "prob_draw": 34.61575726018376,
-      "prob_away_win": 30.97689581996458,
-      "predicted_result": "D",
-      "expected_home_goals": 1.04749,
-      "expected_away_goals": 1.5549499999999998,
-      "prob_over_15": 91.42012069066404,
-      "prob_over_25": 68.40981017526401,
-      "prob_over_35": 42.908723755307875,
-      "prob_btts_yes": 51.837161341366965,
-      "confidence": 34.61575726018376,
+      "created_at": "2026-05-23T06:20:13.975733+04:00",
+      "prob_home_win": 55.48144816206997,
+      "prob_draw": 26.114317622194587,
+      "prob_away_win": 18.40423421573544,
+      "predicted_result": "H",
+      "expected_home_goals": 1.12119,
+      "expected_away_goals": 0.6381025,
+      "prob_over_15": 53.23758312413808,
+      "prob_over_25": 41.525355704361886,
+      "prob_over_35": 15.08936747498854,
+      "prob_btts_yes": 31.35345483094465,
+      "confidence": 55.48144816206997,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
+      "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 34.40734691985167,
+      "favorite_prob": 55.48144816206997,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
