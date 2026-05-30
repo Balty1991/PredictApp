@@ -1,113 +1,14 @@
 {
-  "generatedAt": "2026-05-30T16:34:40.522Z",
+  "generatedAt": "2026-05-30T18:05:51.391Z",
   "count": 50,
   "items": [
     {
-      "id": 206994,
-      "status": "finished",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Molde FK",
-      "awayTeam": "Sandefjord Fotball",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207232,
-      "status": "finished",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IF Gnistan",
-      "awayTeam": "SJK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207231,
-      "status": "finished",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Kuopion Palloseura",
-      "awayTeam": "Inter Turku",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207234,
-      "status": "finished",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "Ilves",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206993,
-      "status": "cancelled",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Lillestrøm SK",
-      "awayTeam": "Viking FK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207233,
-      "status": "finished",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Turun Palloseura",
-      "awayTeam": "VPS",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204292,
-      "status": "finished",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Sociedad B U21",
-      "awayTeam": "Cultural Leonesa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 204283,
-      "status": "finished",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "AD Ceuta",
-      "awayTeam": "Albacete Balompié",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 206718,
-      "status": "1st_half",
+      "status": "inprogress",
       "league": "Champions League",
       "country": "Europe",
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Arsenal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7167,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Flamengo",
-      "awayTeam": "Coritiba",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,23 +25,23 @@
       "marketCount": 0
     },
     {
-      "id": 207482,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Fath Union Sport",
-      "awayTeam": "AS FAR Rabat",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9955,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Atlético Goianiense",
       "awayTeam": "Goiás",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7167,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Flamengo",
+      "awayTeam": "Coritiba",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -168,12 +69,12 @@
       "marketCount": 0
     },
     {
-      "id": 7165,
+      "id": 207482,
       "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Bahia",
-      "awayTeam": "Botafogo",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Fath Union Sport",
+      "awayTeam": "AS FAR Rabat",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -185,6 +86,17 @@
       "country": "Brazil",
       "homeTeam": "Grêmio",
       "awayTeam": "Corinthians",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7165,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Bahia",
+      "awayTeam": "Botafogo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,28 +135,6 @@
       "marketCount": 0
     },
     {
-      "id": 207641,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Pittsburgh Riverhounds",
-      "awayTeam": "Miami FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7172,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Santos",
-      "awayTeam": "Vitória",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207639,
       "status": "notstarted",
       "league": "USL Championship",
@@ -256,12 +146,34 @@
       "marketCount": 0
     },
     {
+      "id": 207641,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Pittsburgh Riverhounds",
+      "awayTeam": "Miami FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207640,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Louisville City FC",
       "awayTeam": "FC Tampa Bay Rowdies",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7172,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Santos",
+      "awayTeam": "Vitória",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,23 +212,23 @@
       "marketCount": 0
     },
     {
-      "id": 207423,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "South Korea",
-      "awayTeam": "Trinidad and Tobago",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207643,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "El Paso Locomotive FC",
       "awayTeam": "Lexington SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207423,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "South Korea",
+      "awayTeam": "Trinidad and Tobago",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,23 +256,23 @@
       "marketCount": 0
     },
     {
-      "id": 207646,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Phoenix Rising FC",
-      "awayTeam": "Sacramento Republic FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207645,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Las Vegas Lights",
       "awayTeam": "FC Tulsa",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207646,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Phoenix Rising FC",
+      "awayTeam": "Sacramento Republic FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,23 +344,23 @@
       "marketCount": 0
     },
     {
-      "id": 9847,
-      "status": "notstarted",
-      "league": "Liga F",
-      "country": "Spain",
-      "homeTeam": "Costa Adeje Tenerife",
-      "awayTeam": "Real Club Deportivo de la Coruña",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205803,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Tianjin Jinmen Tiger",
       "awayTeam": "Dalian Yingbo FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9847,
+      "status": "notstarted",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "Costa Adeje Tenerife",
+      "awayTeam": "Real Club Deportivo de la Coruña",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,6 +388,17 @@
       "marketCount": 0
     },
     {
+      "id": 46380,
+      "status": "notstarted",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "BK Häcken",
+      "awayTeam": "Hammarby IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 46381,
       "status": "notstarted",
       "league": "Allsvenskan",
@@ -498,12 +421,12 @@
       "marketCount": 0
     },
     {
-      "id": 46380,
+      "id": 9247,
       "status": "notstarted",
-      "league": "Allsvenskan",
-      "country": "Sweden",
-      "homeTeam": "BK Häcken",
-      "awayTeam": "Hammarby IF",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Switzerland",
+      "awayTeam": "Jordan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -520,17 +443,6 @@
       "marketCount": 0
     },
     {
-      "id": 9247,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Switzerland",
-      "awayTeam": "Jordan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9848,
       "status": "notstarted",
       "league": "Liga F",
@@ -542,12 +454,100 @@
       "marketCount": 0
     },
     {
+      "id": 9846,
+      "status": "notstarted",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Alhama Club de Fútbol",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207443,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Czechia",
+      "awayTeam": "Kosovo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9850,
+      "status": "notstarted",
+      "league": "Liga F",
+      "country": "Spain",
+      "homeTeam": "RCD Espanyol de Barcelona",
+      "awayTeam": "Sevilla FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7170,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Red Bull Bragantino",
+      "awayTeam": "Internacional",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9960,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Londrina",
+      "awayTeam": "Vila Nova FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9849,
       "status": "notstarted",
       "league": "Liga F",
       "country": "Spain",
       "homeTeam": "Madrid CFF",
       "awayTeam": "Fútbol Club Barcelona",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9963,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "São Bernardo",
+      "awayTeam": "Grêmio Novorizontino",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 46383,
+      "status": "postponed",
+      "league": "Allsvenskan",
+      "country": "Sweden",
+      "homeTeam": "Mjällby AIF",
+      "awayTeam": "Djurgårdens IF",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207906,
+      "status": "notstarted",
+      "league": "Coupe de Tunisie",
+      "country": "Tunisia",
+      "homeTeam": "Espérance Tunis",
+      "awayTeam": "ES Zarzis",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
