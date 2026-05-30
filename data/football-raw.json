@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T00:13:54.662Z",
+  "generatedAt": "2026-05-30T04:35:29.454Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,92 +21,70 @@
   ],
   "samples": {
     "event": {
-      "id": 9959,
+      "id": 207907,
       "league": {
-        "id": 34,
-        "name": "Brasileirão Serie B",
-        "country": "Brazil",
+        "id": 49,
+        "name": "J1 League",
+        "country": "Japan",
         "is_women": false,
-        "current_season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 52,
-        "name": "Brasileiro Serie B 2026",
-        "year": 2026
-      },
-      "home_team": "Juventude",
-      "away_team": "América Mineiro",
+      "season": null,
+      "home_team": "Vissel Kobe",
+      "away_team": "Kashima Antlers",
       "home_team_obj": {
-        "id": 156,
-        "name": "Juventude",
-        "short_name": "Juventude",
-        "country": "Brazil",
+        "id": 1931,
+        "name": "Vissel Kobe",
+        "short_name": "Vissel Kobe",
+        "country": "Japan",
         "coach": {
-          "name": "Mauricio Barbieri",
-          "shortName": "M. Barbieri"
+          "name": "Michael Skibbe",
+          "shortName": "M. Skibbe"
         },
-        "venue": {
-          "id": 154,
-          "name": "Estádio Alfredo Jaconi",
-          "city": "Caxias do Sul",
-          "country": "Brazil",
-          "capacity": 19924
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 838,
-        "name": "América Mineiro",
-        "short_name": "América-MG",
-        "country": "Brazil",
+        "id": 1937,
+        "name": "Kashima Antlers",
+        "short_name": "Kashima",
+        "country": "Japan",
         "coach": {
-          "name": "Roger Rodrigues da Silva",
-          "shortName": "R. R. d. Silva"
+          "name": "Toru Oniki",
+          "shortName": "T. Oniki"
         },
-        "venue": {
-          "id": 630,
-          "name": "Arena Independência",
-          "city": "Belo Horizonte",
-          "country": "Brazil",
-          "capacity": 23000
-        }
+        "venue": null
       },
-      "event_date": "2026-05-30T04:00:00+04:00",
-      "round_number": 11,
-      "round_name": "",
+      "event_date": "2026-05-30T09:00:00+04:00",
+      "round_number": 29,
+      "round_name": "Final",
       "group_name": null,
-      "status": "1st_half",
-      "home_score": 1,
-      "away_score": 0,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": 10,
-      "period": "1T",
-      "odds_home": 1.87,
-      "odds_draw": 2.83,
-      "odds_away": 4.23,
-      "odds_over_15": 1.52,
-      "odds_over_25": 2.61,
-      "odds_over_35": 4.75,
-      "odds_under_15": 2.38,
-      "odds_under_25": 1.45,
-      "odds_under_35": 1.13,
-      "odds_btts_yes": 2.26,
-      "odds_btts_no": 1.57,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 2.33,
+      "odds_draw": 2.98,
+      "odds_away": 3.28,
+      "odds_over_15": 1.46,
+      "odds_over_25": 2.45,
+      "odds_over_35": 4.61,
+      "odds_under_15": 2.54,
+      "odds_under_25": 1.51,
+      "odds_under_35": 1.17,
+      "odds_btts_yes": 2.05,
+      "odds_btts_no": 1.7,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.06,
-      "away_xg_live": 0.02,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 1289,
+      "travel_distance_km": 519,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -114,293 +92,109 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 118,
-        "name": "Mauricio Barbieri",
-        "short_name": "M. Barbieri",
-        "country": "Brazil",
+        "id": 1288,
+        "name": "Michael Skibbe",
+        "short_name": "M. Skibbe",
+        "country": "Germany",
         "profile": "balanced",
-        "preferred_formation": "3-4-2-1",
-        "pressing_intensity": 0.48235967934469914,
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.6737209175606956,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "high_press",
+          "gegenpressing"
         ]
       },
       "away_coach": {
-        "id": 841,
-        "name": "Roger Rodrigues da Silva",
-        "short_name": "R. R. d. Silva",
-        "country": "Brazil",
-        "profile": "defensive",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.5850945864479621,
-        "defensive_line": "mid",
+        "id": 1294,
+        "name": "Toru Oniki",
+        "short_name": "T. Oniki",
+        "country": "Japan",
+        "profile": "balanced",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.5191656831306545,
+        "defensive_line": "high",
         "top_styles": [
-          "cross_pray",
-          "wing_play"
+          "ball_dominant",
+          "total_football"
         ]
       },
-      "unavailable_players": {
-        "home": [],
-        "away": [
-          {
-            "name": "Eduardo Person",
-            "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          },
-          {
-            "name": "Yago Santos",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": null
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 154,
-        "name": "Estádio Alfredo Jaconi",
-        "city": "Caxias do Sul",
-        "country": "Brazil",
-        "capacity": 19924,
-        "latitude": -29.162,
-        "longitude": -51.176,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+        "id": 1109,
+        "name": "Noevir Stadium Kobe",
+        "city": "Kobe",
+        "country": "Japan",
+        "capacity": 30132,
+        "latitude": 34.6568109,
+        "longitude": 135.1696229,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2001
       },
-      "live_stats": {
-        "away": {
-          "duels": 75,
-          "fouls": 0,
-          "passes": 59,
-          "crosses": "0/1 (0%)",
-          "tackles": 0,
-          "dribbles": "1/1 (100%)",
-          "throw_ins": 0,
-          "clearances": 5,
-          "free_kicks": 3,
-          "goal_kicks": 1,
-          "long_balls": "5/8 (63%)",
-          "recoveries": 5,
-          "tackles_won": 0,
-          "total_saves": 1,
-          "total_shots": 1,
-          "aerial_duels": "2/2 (100%)",
-          "corner_kicks": 0,
-          "dispossessed": 1,
-          "ground_duels": "4/6 (67%)",
-          "hit_woodwork": 0,
-          "blocked_shots": 0,
-          "total_tackles": 0,
-          "expected_goals": 0.02,
-          "accurate_passes": 48,
-          "ball_possession": 71,
-          "goals_prevented": 0.43,
-          "shots_on_target": 0,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 0,
-          "shots_off_target": 1,
-          "final_third_phase": "7/13 (54%)",
-          "shots_outside_box": 1,
-          "final_third_entries": 9,
-          "touches_in_penalty_area": 1
-        },
-        "home": {
-          "duels": 25,
-          "fouls": 3,
-          "passes": 21,
-          "crosses": "1/3 (33%)",
-          "tackles": 1,
-          "dribbles": "1/1 (100%)",
-          "throw_ins": 1,
-          "clearances": 3,
-          "free_kicks": 0,
-          "goal_kicks": 3,
-          "long_balls": "4/7 (57%)",
-          "recoveries": 4,
-          "tackles_won": 0,
-          "total_saves": 1,
-          "total_shots": 2,
-          "aerial_duels": "0/2 (0%)",
-          "corner_kicks": 1,
-          "dispossessed": 0,
-          "ground_duels": "2/6 (33%)",
-          "hit_woodwork": 0,
-          "blocked_shots": 0,
-          "total_tackles": 1,
-          "expected_goals": 0.06,
-          "accurate_passes": 12,
-          "ball_possession": 29,
-          "goals_prevented": 0,
-          "shots_on_target": 2,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 1,
-          "shots_off_target": 0,
-          "final_third_phase": "4/9 (44%)",
-          "shots_outside_box": 1,
-          "final_third_entries": 5,
-          "touches_in_penalty_area": 3
-        },
-        "first_half": {
-          "away": {
-            "duels": 75,
-            "fouls": 0,
-            "passes": 59,
-            "crosses": "0/1 (0%)",
-            "tackles": 0,
-            "dribbles": "1/1 (100%)",
-            "throw_ins": 0,
-            "clearances": 5,
-            "free_kicks": 3,
-            "goal_kicks": 1,
-            "long_balls": "5/8 (63%)",
-            "recoveries": 5,
-            "tackles_won": 0,
-            "total_saves": 1,
-            "total_shots": 1,
-            "aerial_duels": "2/2 (100%)",
-            "corner_kicks": 0,
-            "dispossessed": 1,
-            "ground_duels": "4/6 (67%)",
-            "hit_woodwork": 0,
-            "blocked_shots": 0,
-            "total_tackles": 0,
-            "expected_goals": 0.02,
-            "accurate_passes": 48,
-            "ball_possession": 71,
-            "shots_on_target": 0,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 0,
-            "shots_off_target": 1,
-            "shots_outside_box": 1,
-            "final_third_entries": 9
-          },
-          "home": {
-            "duels": 25,
-            "fouls": 3,
-            "passes": 21,
-            "crosses": "1/3 (33%)",
-            "tackles": 1,
-            "dribbles": "1/1 (100%)",
-            "throw_ins": 1,
-            "clearances": 3,
-            "free_kicks": 0,
-            "goal_kicks": 3,
-            "long_balls": "4/7 (57%)",
-            "recoveries": 4,
-            "tackles_won": 0,
-            "total_saves": 1,
-            "total_shots": 2,
-            "aerial_duels": "0/2 (0%)",
-            "corner_kicks": 1,
-            "dispossessed": 0,
-            "ground_duels": "2/6 (33%)",
-            "hit_woodwork": 0,
-            "blocked_shots": 0,
-            "total_tackles": 1,
-            "expected_goals": 0.06,
-            "accurate_passes": 12,
-            "ball_possession": 29,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 1,
-            "shots_off_target": 0,
-            "shots_outside_box": 1,
-            "final_third_entries": 5
-          }
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "6b4263",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "171f17",
-            "sleeve": "161916"
-          },
-          "player": {
-            "base": "5ab438",
+            "base": "e8ff00",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "5ab438",
-            "stripes": "000000",
-            "sleevelong": "000000"
+            "sleeve": "fbff14"
+          },
+          "player": {
+            "base": "181b2e",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "b02727",
+            "horizontalstripes": "b81b21"
           }
         },
         "home": {
           "GK": {
-            "base": "8bff00",
+            "base": "6ea9ad",
             "real": true,
             "type": "short_sleeves",
-            "number": "118a02",
-            "sleeve": "327f82",
-            "sleevelong": "1cff00"
+            "number": "ffffff",
+            "sleeve": "75a8ac",
+            "stripes": "2c434a"
           },
           "player": {
-            "base": "ffffff",
+            "base": "6d142a",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "053328",
-            "stripes": "05614c",
-            "sleevelong": "05614c"
+            "number": "ffffff",
+            "sleeve": "000000",
+            "stripes": "000000"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 24,
-          "sentence": "Juventude RS's home record this season: 2-2-0."
+          "type_id": 2,
+          "sentence": "When playing at home, Kobe have not lost to Kashima in their last 3 encounters."
         },
         {
-          "type_id": 24,
-          "sentence": "America FC's away record this season: 0-2-3."
+          "type_id": 1,
+          "sentence": "Kashima have a winning streak of 5 matches."
         },
         {
-          "type_id": 25,
-          "sentence": "Alan Kardec is Juventude RS's top scorer with 2 goals. Gonzalo Mastriani has scored 3 times for America FC."
+          "type_id": 6,
+          "sentence": "During the last 25 meetings with Kobe playing at home, Kobe have won 7 times, there have been 5 draws while Kashima have won 13 times. The goal difference is 34-24 in favour of Kashima."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 12,
-          "home": 9
-        },
-        "ball_safe": {
-          "away": 8,
-          "home": 7
-        },
-        "attack_pct": {
-          "away": 26,
-          "home": 17
-        },
-        "ball_safe_pct": {
-          "away": 58,
-          "home": 37
-        },
-        "dangerous_attack": {
-          "away": 7,
-          "home": 6
-        },
-        "dangerous_attack_pct": {
-          "away": 16,
-          "home": 46
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Juventude's looking for consistency, but América Mineiro is in free fall** — one team riding a decent run at home, the other desperately hunting a W after four straight losses. 🔴\n\nJuventude are the clear favorites here, mixing decent form (1W 3D 1L) with home advantage at Alfredo Jaconi. América Mineiro, meanwhile, have genuinely imploded: that 0-4 shellacking to Náutico is the kind of result that stings for weeks.\n\nKey storylines:\n\n- **Juventude's Alan Kardec** and **Raí** need to convert the chances that should come against a leaky Mineiro backline\n- **América Mineiro's attack** — featuring **G. Mastriani** — is toothless right now; missing Y. Santos only makes it worse\n- **Defensive vulnerability** will likely keep this low-scoring despite the gap in quality\n\nExpected lineups:\n\n- **Juventude**: Jandrei, D. Barbosa, Messias, M. Paulo, Nathan, R. Sam, L. Mineiro, Alan Kardec, Raí\n- **América Mineiro**: Gustavo, Paulinho, N. Cardoso, R. Barcelos, L. Alaba, Alê, Thauan, G. Mastriani\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Juventude 2–0 América Mineiro**. The hosts have the edge and should cruise past a genuinely struggling opponent. 💪",
-        "generated_at": "2026-05-29T01:46:09.973790+00:00"
+        "text": "**Kobe's looking sharp at home, but Kashima just will not quit.** Two teams in completely different moods—one riding a nice wave, the other basically unbeaten. 🔥\n\nVissel grabbed three straight wins before that draw and loss derailed momentum slightly. Kashima, though? Three wins in their last five with zero defeats in that stretch. The visitors arrive as the hotter side, plain and simple.\n\nKey storylines:\n\n- **Kashima's defensive wall** hasn't conceded in two of their last three—they're compact and clinical right now\n- **Vissel's home form** at Noevir Stadium needs to shine if they want to capitalize on the crowd and halt the Antlers' run\n- **Y. Muto and L. Ceará** in attack will be the focal point—two dangerous forwards who can turn tight margins\n\nExpected lineups:\n\n- **Vissel Kobe**: D. Maekawa, K. Nagato, Thuler, Caetano, G. Sakai, B. Nduka, Y. Ideguchi, T. Ogihara, J. Patric, D. Sasaki, Y. Muto\n- **Kashima Antlers**: T. Hayakawa, K. Anzai, N. Ueda, T. H. Kim, K. Nono, Y. Higuchi, K. Misao, G. Shibasaki, Y. Matsumura, L. Ceará, Y. Suzuki\n\nPrediction:\n\n**1-1** — Both sides are too well-drilled to crack easily. A draw feels honest here. ⚪",
+        "generated_at": "2026-05-30T02:45:22.416734+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4581,
+      "id": 4582,
       "event": {
-        "id": 207909,
+        "id": 207907,
         "league": {
           "id": 49,
           "name": "J1 League",
@@ -409,33 +203,33 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Nagoya Grampus",
-        "away_team": "Machida Zelvia",
+        "home_team": "Vissel Kobe",
+        "away_team": "Kashima Antlers",
         "home_team_obj": {
-          "id": 1942,
-          "name": "Nagoya Grampus",
-          "short_name": "Nagoya",
+          "id": 1931,
+          "name": "Vissel Kobe",
+          "short_name": "Vissel Kobe",
           "country": "Japan",
           "coach": {
-            "name": "Mihailo Petrovic",
-            "shortName": "M. Petrovic"
+            "name": "Michael Skibbe",
+            "shortName": "M. Skibbe"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 1929,
-          "name": "Machida Zelvia",
-          "short_name": "Machida Z",
+          "id": 1937,
+          "name": "Kashima Antlers",
+          "short_name": "Kashima",
           "country": "Japan",
           "coach": {
-            "name": "Go Kuroda",
-            "shortName": "G. Kuroda"
+            "name": "Toru Oniki",
+            "shortName": "T. Oniki"
           },
           "venue": null
         },
         "event_date": "2026-05-30T09:00:00+04:00",
-        "round_number": 51,
-        "round_name": "Match for 5th place",
+        "round_number": 29,
+        "round_name": "Final",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -444,17 +238,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.75,
-        "odds_draw": 3.17,
-        "odds_away": 2.54,
-        "odds_over_15": 1.34,
-        "odds_over_25": 2.08,
-        "odds_over_35": 3.61,
-        "odds_under_15": 3.01,
-        "odds_under_25": 1.7,
-        "odds_under_35": 1.25,
-        "odds_btts_yes": 1.81,
-        "odds_btts_no": 1.9,
+        "odds_home": 2.33,
+        "odds_draw": 2.98,
+        "odds_away": 3.28,
+        "odds_over_15": 1.46,
+        "odds_over_25": 2.45,
+        "odds_over_35": 4.61,
+        "odds_under_15": 2.54,
+        "odds_under_25": 1.51,
+        "odds_under_35": 1.17,
+        "odds_btts_yes": 2.05,
+        "odds_btts_no": 1.7,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -463,7 +257,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 214,
+        "travel_distance_km": 519,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -471,49 +265,837 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1299,
-          "name": "Mihailo Petrovic",
-          "short_name": "M. Petrovic",
-          "country": "Austria",
-          "profile": "attacking",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.5612321056156254,
-          "defensive_line": "low",
+          "id": 1288,
+          "name": "Michael Skibbe",
+          "short_name": "M. Skibbe",
+          "country": "Germany",
+          "profile": "balanced",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.6737209175606956,
+          "defensive_line": "mid",
           "top_styles": [
-            "cross_pray",
-            "chaos_ball"
+            "high_press",
+            "gegenpressing"
           ]
         },
         "away_coach": {
-          "id": 1286,
-          "name": "Go Kuroda",
-          "short_name": "G. Kuroda",
+          "id": 1294,
+          "name": "Toru Oniki",
+          "short_name": "T. Oniki",
           "country": "Japan",
           "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.25222228841428984,
-          "defensive_line": "low",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.5191656831306545,
+          "defensive_line": "high",
           "top_styles": [
-            "park_the_bus",
-            "low_block"
+            "ball_dominant",
+            "total_football"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1121,
-          "name": "Nagoya Mizuho Athletics Stadium",
-          "city": "Nagoya",
+          "id": 1109,
+          "name": "Noevir Stadium Kobe",
+          "city": "Kobe",
           "country": "Japan",
-          "capacity": 27000,
-          "latitude": 35.122707,
-          "longitude": 136.944199,
-          "pitch_x": 106,
+          "capacity": 30132,
+          "latitude": 34.6568109,
+          "longitude": 135.1696229,
+          "pitch_x": 105,
           "pitch_y": 68,
-          "built_year": 1941
+          "built_year": 2001
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "Y. Kajikawa",
+                "goals": 0,
+                "api_id": 790983,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 44518,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "K. Nono",
+                "goals": 0,
+                "api_id": 1650455,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44507,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "N. Ueda",
+                "goals": 0,
+                "api_id": 155790,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44506,
+                "yellow_card": false,
+                "jersey_number": "55",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "I. Sekigawa",
+                "goals": 0,
+                "api_id": 976200,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44508,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "K. Anzai",
+                "goals": 0,
+                "api_id": 387676,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44510,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "G. Shibasaki",
+                "goals": 0,
+                "api_id": 148352,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44497,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "K. Misao",
+                "goals": 0,
+                "api_id": 358988,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44499,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM",
+                  "CB"
+                ]
+              },
+              {
+                "name": "A. Čavrić",
+                "goals": 0,
+                "api_id": 604166,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44495,
+                "yellow_card": false,
+                "jersey_number": "77",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST",
+                  "RW"
+                ]
+              },
+              {
+                "name": "R. Araki",
+                "goals": 0,
+                "api_id": 1016965,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44496,
+                "yellow_card": false,
+                "jersey_number": "71",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM",
+                  "ST"
+                ]
+              },
+              {
+                "name": "Y. Suzuki",
+                "goals": 0,
+                "api_id": 790976,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44490,
+                "yellow_card": false,
+                "jersey_number": "40",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "L. Ceará",
+                "goals": 0,
+                "api_id": 576002,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 44489,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": [
+              {
+                "name": "T. Yamada",
+                "goals": 0,
+                "api_id": 1016966,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 44517,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "R. Koike",
+                "goals": 0,
+                "api_id": 873031,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44511,
+                "yellow_card": false,
+                "jersey_number": "25",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "R. Ogawa",
+                "goals": 0,
+                "api_id": 790973,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44505,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB",
+                  "LM"
+                ]
+              },
+              {
+                "name": "K. Tsukui",
+                "goals": 0,
+                "api_id": 1462151,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 44513,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "K. Chinen",
+                "goals": 0,
+                "api_id": 871884,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44500,
+                "yellow_card": false,
+                "jersey_number": "13",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM",
+                  "ST"
+                ]
+              },
+              {
+                "name": "Y. Higuchi",
+                "goals": 0,
+                "api_id": 974286,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44501,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "RM"
+                ]
+              },
+              {
+                "name": "H. Hayashi",
+                "goals": 0,
+                "api_id": 2449917,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44504,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "Y. Matsumura",
+                "goals": 0,
+                "api_id": 1000177,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 44502,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RM",
+                "positions_detailed": [
+                  "RM"
+                ]
+              },
+              {
+                "name": "S. Morooka",
+                "goals": 0,
+                "api_id": 1476198,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 44494,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
+              }
+            ]
+          },
+          "home": {
+            "players": [
+              {
+                "name": "S. Gonda",
+                "goals": 0,
+                "api_id": 23952,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 45715,
+                "yellow_card": false,
+                "jersey_number": "71",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "G. Sakai",
+                "goals": 0,
+                "api_id": 48411,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 45697,
+                "yellow_card": false,
+                "jersey_number": "24",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB"
+                ]
+              },
+              {
+                "name": "Thuler",
+                "goals": 0,
+                "api_id": 910637,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 45699,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "Caetano",
+                "goals": 0,
+                "api_id": 959006,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 45701,
+                "yellow_card": false,
+                "jersey_number": "16",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "K. Nagato",
+                "goals": 0,
+                "api_id": 873037,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 45710,
+                "yellow_card": false,
+                "jersey_number": "41",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "Y. Goke",
+                "goals": 0,
+                "api_id": 925943,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 45702,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RM",
+                "positions_detailed": [
+                  "RM",
+                  "ST"
+                ]
+              },
+              {
+                "name": "Y. Kuwasaki",
+                "goals": 0,
+                "api_id": 1104926,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 46164,
+                "yellow_card": false,
+                "jersey_number": "25",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "Y. Ideguchi",
+                "goals": 0,
+                "api_id": 387062,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 45705,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "Y. Muto",
+                "goals": 0,
+                "api_id": 335047,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 45712,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW"
+                ]
+              },
+              {
+                "name": "Y. Osako",
+                "goals": 0,
+                "api_id": 48240,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 45714,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "Diego",
+                "goals": 0,
+                "api_id": 796603,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 46150,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              }
+            ],
+            "formation": "4-3-3",
+            "substitutes": [
+              {
+                "name": "D. Maekawa",
+                "goals": 0,
+                "api_id": 873064,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 45696,
+                "yellow_card": false,
+                "jersey_number": "1",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "R. Hirose",
+                "goals": 0,
+                "api_id": 489178,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 46194,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "LW"
+                ]
+              },
+              {
+                "name": "B. Nduka",
+                "goals": 0,
+                "api_id": 1029591,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 45716,
+                "yellow_card": false,
+                "jersey_number": "80",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "M. Mitsuta",
+                "goals": 0,
+                "api_id": 873216,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 45707,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM",
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. Hidaka",
+                "goals": 0,
+                "api_id": 1201445,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 45711,
+                "yellow_card": false,
+                "jersey_number": "44",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM"
+                ]
+              },
+              {
+                "name": "K. Hamasaki",
+                "goals": 0,
+                "api_id": 1897197,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 46160,
+                "yellow_card": false,
+                "jersey_number": "28",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "T. Inui",
+                "goals": 0,
+                "api_id": 24464,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 45719,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "AM",
+                "positions_detailed": [
+                  "AM"
+                ]
+              },
+              {
+                "name": "R. Komatsu",
+                "goals": 0,
+                "api_id": 891142,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 46178,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "J. Patric",
+                "goals": 0,
+                "api_id": 901742,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 45713,
+                "yellow_card": false,
+                "jersey_number": "26",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "LM"
+                ]
+              }
+            ]
+          },
+          "confirmed": true
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -521,68 +1103,77 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "5c96ee",
+              "base": "e8ff00",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "ffffff"
+              "sleeve": "fbff14"
             },
             "player": {
-              "base": "1c356a",
+              "base": "181b2e",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "c0b97b"
+              "sleeve": "b02727",
+              "horizontalstripes": "b81b21"
             }
           },
           "home": {
             "GK": {
-              "base": "71b7e5",
+              "base": "6ea9ad",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "3f79b1",
-              "sleevelong": "2d7ab3"
+              "sleeve": "75a8ac",
+              "stripes": "2c434a"
             },
             "player": {
-              "base": "efb536",
+              "base": "6d142a",
               "real": true,
               "type": "short_sleeves",
-              "number": "0d0d0d",
-              "sleeve": "c31d14",
-              "sleevelong": "cc0000"
+              "number": "ffffff",
+              "sleeve": "000000",
+              "stripes": "000000"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 2,
-            "sentence": "Nagoya haven't won any of their last 4 games against Machida Z."
+            "sentence": "When playing at home, Kobe have not lost to Kashima in their last 3 encounters."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Kashima have a winning streak of 5 matches."
+          },
+          {
+            "type_id": 6,
+            "sentence": "During the last 25 meetings with Kobe playing at home, Kobe have won 7 times, there have been 5 draws while Kashima have won 13 times. The goal difference is 34-24 in favour of Kashima."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Nagoya's looking to shake off a pair of heavy away losses**, and Machida won't make it easy — but the hosts have the momentum edge here. 🔥\n\nGrampus bounced back with a 3-0 home win over Kyoto after getting battered by Cerezo and Hiroshima on the road. Zelvia, meanwhile, are unbeaten in five but grinding out tight results — three wins, two draws, zero losses, but not exactly lighting the lamp.\n\nKey storylines:\n\n- **Nagoya need consistency**: Two 4+ goal hammerings followed by a shutout win. This is a chance to prove the Kyoto performance wasn't a fluke.\n- **Machida's defensive shape vs Nagoya's attack**: Zelvia's strength is their backline (G. Shoji, Y. Nakayama anchoring things), but Grampus at home should test them early.\n- **Set pieces could matter**: Both sides line up in 3-4-2-1 — classic formation for set-play opportunities.\n\nExpected lineups:\n\n- **Nagoya Grampus**: D. Schmidt, S. Tokumoto, H. Fujii, T. Hara, T. Morishima, K. Nakayama, Y. Kimura, Y. Yamagishi\n- **Machida Zelvia**: K. Tani, Y. Nakayama, G. Shoji, H. Nakamura, I. Drešević, N. Lavi, S. Na, Erik\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Nagoya 2–1 Machida**. Home side lean with fresher legs and a front that should find the net.",
-          "generated_at": "2026-05-29T05:45:33.051488+00:00"
+          "text": "**Kobe's looking sharp at home, but Kashima just will not quit.** Two teams in completely different moods—one riding a nice wave, the other basically unbeaten. 🔥\n\nVissel grabbed three straight wins before that draw and loss derailed momentum slightly. Kashima, though? Three wins in their last five with zero defeats in that stretch. The visitors arrive as the hotter side, plain and simple.\n\nKey storylines:\n\n- **Kashima's defensive wall** hasn't conceded in two of their last three—they're compact and clinical right now\n- **Vissel's home form** at Noevir Stadium needs to shine if they want to capitalize on the crowd and halt the Antlers' run\n- **Y. Muto and L. Ceará** in attack will be the focal point—two dangerous forwards who can turn tight margins\n\nExpected lineups:\n\n- **Vissel Kobe**: D. Maekawa, K. Nagato, Thuler, Caetano, G. Sakai, B. Nduka, Y. Ideguchi, T. Ogihara, J. Patric, D. Sasaki, Y. Muto\n- **Kashima Antlers**: T. Hayakawa, K. Anzai, N. Ueda, T. H. Kim, K. Nono, Y. Higuchi, K. Misao, G. Shibasaki, Y. Matsumura, L. Ceará, Y. Suzuki\n\nPrediction:\n\n**1-1** — Both sides are too well-drilled to crack easily. A draw feels honest here. ⚪",
+          "generated_at": "2026-05-30T02:45:22.416734+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-26T06:20:09.097096+04:00",
-      "prob_home_win": 43.82209203223167,
-      "prob_draw": 25.768895659644876,
-      "prob_away_win": 30.40901230812344,
-      "predicted_result": "H",
-      "expected_home_goals": 1.4,
-      "expected_away_goals": 1,
-      "prob_over_15": 80.52110537547631,
-      "prob_over_25": 58.11281463008999,
-      "prob_over_35": 18.343448152074654,
-      "prob_btts_yes": 58.54515868707881,
-      "confidence": 43.82209203223167,
+      "created_at": "2026-05-26T06:20:09.571718+04:00",
+      "prob_home_win": 30.337548244024138,
+      "prob_draw": 32.762863296159665,
+      "prob_away_win": 36.899588459816194,
+      "predicted_result": "A",
+      "expected_home_goals": 0.8,
+      "expected_away_goals": 1.3,
+      "prob_over_15": 71.34749298971644,
+      "prob_over_25": 38.78075086908314,
+      "prob_over_35": 18.502553557592726,
+      "prob_btts_yes": 56.015915133480284,
+      "confidence": 36.899588459816194,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
-      "favorite": "H",
-      "favorite_prob": 43.82209203223167,
+      "most_likely_score": "0-1",
+      "favorite": "A",
+      "favorite_prob": 36.899588459816194,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
