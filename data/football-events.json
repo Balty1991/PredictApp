@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T22:52:43.323Z",
+  "generatedAt": "2026-05-30T00:13:54.663Z",
   "count": 50,
   "items": [
     {
       "id": 9959,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Juventude",
@@ -25,23 +25,23 @@
       "marketCount": 0
     },
     {
-      "id": 207907,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Vissel Kobe",
-      "awayTeam": "Kashima Antlers",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207909,
       "status": "notstarted",
       "league": "J1 League",
       "country": "Japan",
       "homeTeam": "Nagoya Grampus",
       "awayTeam": "Machida Zelvia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207907,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Vissel Kobe",
+      "awayTeam": "Kashima Antlers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -91,23 +91,23 @@
       "marketCount": 0
     },
     {
-      "id": 207914,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "Kyoto Sanga FC",
-      "awayTeam": "Kashiwa Reysol",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205798,
       "status": "notstarted",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Qingdao West Coast",
       "awayTeam": "Shanghai Shenhua",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207914,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "Kyoto Sanga FC",
+      "awayTeam": "Kashiwa Reysol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,45 +223,12 @@
       "marketCount": 0
     },
     {
-      "id": 206993,
-      "status": "postponed",
-      "league": "Eliteserien",
-      "country": "Norway",
-      "homeTeam": "Lillestrøm SK",
-      "awayTeam": "Viking FK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207233,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Turun Palloseura",
       "awayTeam": "VPS",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207232,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IF Gnistan",
-      "awayTeam": "SJK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207234,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "Ilves",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -289,12 +256,34 @@
       "marketCount": 0
     },
     {
-      "id": 204292,
+      "id": 207234,
       "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Real Sociedad B U21",
-      "awayTeam": "Cultural Leonesa",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "FC Lahti",
+      "awayTeam": "Ilves",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206993,
+      "status": "postponed",
+      "league": "Eliteserien",
+      "country": "Norway",
+      "homeTeam": "Lillestrøm SK",
+      "awayTeam": "Viking FK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207232,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IF Gnistan",
+      "awayTeam": "SJK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -311,45 +300,23 @@
       "marketCount": 0
     },
     {
+      "id": 204292,
+      "status": "notstarted",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Real Sociedad B U21",
+      "awayTeam": "Cultural Leonesa",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206718,
       "status": "notstarted",
       "league": "Champions League",
       "country": "Europe",
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Arsenal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9955,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Atlético Goianiense",
-      "awayTeam": "Goiás",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7164,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Athletico",
-      "awayTeam": "Mirassol",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 7167,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Flamengo",
-      "awayTeam": "Coritiba",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -372,6 +339,39 @@
       "country": "Brazil",
       "homeTeam": "Avaí",
       "awayTeam": "Criciúma",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9955,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Atlético Goianiense",
+      "awayTeam": "Goiás",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7167,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Flamengo",
+      "awayTeam": "Coritiba",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 7164,
+      "status": "notstarted",
+      "league": "Brasileirão Serie A",
+      "country": "Brazil",
+      "homeTeam": "Athletico",
+      "awayTeam": "Mirassol",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,17 +432,6 @@
       "marketCount": 0
     },
     {
-      "id": 7172,
-      "status": "notstarted",
-      "league": "Brasileirão Serie A",
-      "country": "Brazil",
-      "homeTeam": "Santos",
-      "awayTeam": "Vitória",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207641,
       "status": "notstarted",
       "league": "USL Championship",
@@ -487,12 +476,12 @@
       "marketCount": 0
     },
     {
-      "id": 9962,
+      "id": 7172,
       "status": "notstarted",
-      "league": "Brasileirão Serie B",
+      "league": "Brasileirão Serie A",
       "country": "Brazil",
-      "homeTeam": "Sport Recife",
-      "awayTeam": "Náutico",
+      "homeTeam": "Santos",
+      "awayTeam": "Vitória",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -509,6 +498,17 @@
       "marketCount": 0
     },
     {
+      "id": 9962,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Sport Recife",
+      "awayTeam": "Náutico",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207642,
       "status": "notstarted",
       "league": "USL Championship",
@@ -520,23 +520,23 @@
       "marketCount": 0
     },
     {
-      "id": 207423,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "South Korea",
-      "awayTeam": "Trinidad and Tobago",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207643,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "El Paso Locomotive FC",
       "awayTeam": "Lexington SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207423,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "South Korea",
+      "awayTeam": "Trinidad and Tobago",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0

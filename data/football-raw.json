@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T22:52:43.322Z",
+  "generatedAt": "2026-05-30T00:13:54.662Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -80,28 +80,28 @@
       "round_number": 11,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 1,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 1.94,
-      "odds_draw": 3,
-      "odds_away": 4.39,
+      "current_minute": 10,
+      "period": "1T",
+      "odds_home": 1.87,
+      "odds_draw": 2.83,
+      "odds_away": 4.23,
       "odds_over_15": 1.52,
-      "odds_over_25": 2.62,
-      "odds_over_35": 5.09,
-      "odds_under_15": 2.37,
+      "odds_over_25": 2.61,
+      "odds_over_35": 4.75,
+      "odds_under_15": 2.38,
       "odds_under_25": 1.45,
-      "odds_under_35": 1.14,
+      "odds_under_35": 1.13,
       "odds_btts_yes": 2.26,
-      "odds_btts_no": 1.58,
+      "odds_btts_no": 1.57,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.06,
+      "away_xg_live": 0.02,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
@@ -170,7 +170,148 @@
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 75,
+          "fouls": 0,
+          "passes": 59,
+          "crosses": "0/1 (0%)",
+          "tackles": 0,
+          "dribbles": "1/1 (100%)",
+          "throw_ins": 0,
+          "clearances": 5,
+          "free_kicks": 3,
+          "goal_kicks": 1,
+          "long_balls": "5/8 (63%)",
+          "recoveries": 5,
+          "tackles_won": 0,
+          "total_saves": 1,
+          "total_shots": 1,
+          "aerial_duels": "2/2 (100%)",
+          "corner_kicks": 0,
+          "dispossessed": 1,
+          "ground_duels": "4/6 (67%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "total_tackles": 0,
+          "expected_goals": 0.02,
+          "accurate_passes": 48,
+          "ball_possession": 71,
+          "goals_prevented": 0.43,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 0,
+          "shots_off_target": 1,
+          "final_third_phase": "7/13 (54%)",
+          "shots_outside_box": 1,
+          "final_third_entries": 9,
+          "touches_in_penalty_area": 1
+        },
+        "home": {
+          "duels": 25,
+          "fouls": 3,
+          "passes": 21,
+          "crosses": "1/3 (33%)",
+          "tackles": 1,
+          "dribbles": "1/1 (100%)",
+          "throw_ins": 1,
+          "clearances": 3,
+          "free_kicks": 0,
+          "goal_kicks": 3,
+          "long_balls": "4/7 (57%)",
+          "recoveries": 4,
+          "tackles_won": 0,
+          "total_saves": 1,
+          "total_shots": 2,
+          "aerial_duels": "0/2 (0%)",
+          "corner_kicks": 1,
+          "dispossessed": 0,
+          "ground_duels": "2/6 (33%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "total_tackles": 1,
+          "expected_goals": 0.06,
+          "accurate_passes": 12,
+          "ball_possession": 29,
+          "goals_prevented": 0,
+          "shots_on_target": 2,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 1,
+          "shots_off_target": 0,
+          "final_third_phase": "4/9 (44%)",
+          "shots_outside_box": 1,
+          "final_third_entries": 5,
+          "touches_in_penalty_area": 3
+        },
+        "first_half": {
+          "away": {
+            "duels": 75,
+            "fouls": 0,
+            "passes": 59,
+            "crosses": "0/1 (0%)",
+            "tackles": 0,
+            "dribbles": "1/1 (100%)",
+            "throw_ins": 0,
+            "clearances": 5,
+            "free_kicks": 3,
+            "goal_kicks": 1,
+            "long_balls": "5/8 (63%)",
+            "recoveries": 5,
+            "tackles_won": 0,
+            "total_saves": 1,
+            "total_shots": 1,
+            "aerial_duels": "2/2 (100%)",
+            "corner_kicks": 0,
+            "dispossessed": 1,
+            "ground_duels": "4/6 (67%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "total_tackles": 0,
+            "expected_goals": 0.02,
+            "accurate_passes": 48,
+            "ball_possession": 71,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 0,
+            "shots_off_target": 1,
+            "shots_outside_box": 1,
+            "final_third_entries": 9
+          },
+          "home": {
+            "duels": 25,
+            "fouls": 3,
+            "passes": 21,
+            "crosses": "1/3 (33%)",
+            "tackles": 1,
+            "dribbles": "1/1 (100%)",
+            "throw_ins": 1,
+            "clearances": 3,
+            "free_kicks": 0,
+            "goal_kicks": 3,
+            "long_balls": "4/7 (57%)",
+            "recoveries": 4,
+            "tackles_won": 0,
+            "total_saves": 1,
+            "total_shots": 2,
+            "aerial_duels": "0/2 (0%)",
+            "corner_kicks": 1,
+            "dispossessed": 0,
+            "ground_duels": "2/6 (33%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "total_tackles": 1,
+            "expected_goals": 0.06,
+            "accurate_passes": 12,
+            "ball_possession": 29,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 1,
+            "shots_off_target": 0,
+            "shots_outside_box": 1,
+            "final_third_entries": 5
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
@@ -224,7 +365,32 @@
           "sentence": "Alan Kardec is Juventude RS's top scorer with 2 goals. Gonzalo Mastriani has scored 3 times for America FC."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 12,
+          "home": 9
+        },
+        "ball_safe": {
+          "away": 8,
+          "home": 7
+        },
+        "attack_pct": {
+          "away": 26,
+          "home": 17
+        },
+        "ball_safe_pct": {
+          "away": 58,
+          "home": 37
+        },
+        "dangerous_attack": {
+          "away": 7,
+          "home": 6
+        },
+        "dangerous_attack_pct": {
+          "away": 16,
+          "home": 46
+        }
+      },
       "ai_preview": {
         "text": "**Juventude's looking for consistency, but América Mineiro is in free fall** — one team riding a decent run at home, the other desperately hunting a W after four straight losses. 🔴\n\nJuventude are the clear favorites here, mixing decent form (1W 3D 1L) with home advantage at Alfredo Jaconi. América Mineiro, meanwhile, have genuinely imploded: that 0-4 shellacking to Náutico is the kind of result that stings for weeks.\n\nKey storylines:\n\n- **Juventude's Alan Kardec** and **Raí** need to convert the chances that should come against a leaky Mineiro backline\n- **América Mineiro's attack** — featuring **G. Mastriani** — is toothless right now; missing Y. Santos only makes it worse\n- **Defensive vulnerability** will likely keep this low-scoring despite the gap in quality\n\nExpected lineups:\n\n- **Juventude**: Jandrei, D. Barbosa, Messias, M. Paulo, Nathan, R. Sam, L. Mineiro, Alan Kardec, Raí\n- **América Mineiro**: Gustavo, Paulinho, N. Cardoso, R. Barcelos, L. Alaba, Alê, Thauan, G. Mastriani\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Juventude 2–0 América Mineiro**. The hosts have the edge and should cruise past a genuinely struggling opponent. 💪",
         "generated_at": "2026-05-29T01:46:09.973790+00:00"
@@ -232,66 +398,44 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4497,
+      "id": 4581,
       "event": {
-        "id": 9959,
+        "id": 207909,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
-          "country": "Brazil",
+          "id": 49,
+          "name": "J1 League",
+          "country": "Japan",
           "is_women": false,
-          "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
-          "year": 2026
-        },
-        "home_team": "Juventude",
-        "away_team": "América Mineiro",
+        "season": null,
+        "home_team": "Nagoya Grampus",
+        "away_team": "Machida Zelvia",
         "home_team_obj": {
-          "id": 156,
-          "name": "Juventude",
-          "short_name": "Juventude",
-          "country": "Brazil",
+          "id": 1942,
+          "name": "Nagoya Grampus",
+          "short_name": "Nagoya",
+          "country": "Japan",
           "coach": {
-            "name": "Mauricio Barbieri",
-            "shortName": "M. Barbieri"
+            "name": "Mihailo Petrovic",
+            "shortName": "M. Petrovic"
           },
-          "venue": {
-            "id": 154,
-            "name": "Estádio Alfredo Jaconi",
-            "city": "Caxias do Sul",
-            "country": "Brazil",
-            "capacity": 19924
-          }
+          "venue": null
         },
         "away_team_obj": {
-          "id": 838,
-          "name": "América Mineiro",
-          "short_name": "América-MG",
-          "country": "Brazil",
+          "id": 1929,
+          "name": "Machida Zelvia",
+          "short_name": "Machida Z",
+          "country": "Japan",
           "coach": {
-            "name": "Roger Rodrigues da Silva",
-            "shortName": "R. R. d. Silva"
+            "name": "Go Kuroda",
+            "shortName": "G. Kuroda"
           },
-          "venue": {
-            "id": 630,
-            "name": "Arena Independência",
-            "city": "Belo Horizonte",
-            "country": "Brazil",
-            "capacity": 23000
-          }
+          "venue": null
         },
-        "event_date": "2026-05-30T04:00:00+04:00",
-        "round_number": 11,
-        "round_name": "",
+        "event_date": "2026-05-30T09:00:00+04:00",
+        "round_number": 51,
+        "round_name": "Match for 5th place",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -300,17 +444,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.94,
-        "odds_draw": 3,
-        "odds_away": 4.39,
-        "odds_over_15": 1.52,
-        "odds_over_25": 2.62,
-        "odds_over_35": 5.09,
-        "odds_under_15": 2.37,
-        "odds_under_25": 1.45,
-        "odds_under_35": 1.14,
-        "odds_btts_yes": 2.26,
-        "odds_btts_no": 1.58,
+        "odds_home": 2.75,
+        "odds_draw": 3.17,
+        "odds_away": 2.54,
+        "odds_over_15": 1.34,
+        "odds_over_25": 2.08,
+        "odds_over_35": 3.61,
+        "odds_under_15": 3.01,
+        "odds_under_25": 1.7,
+        "odds_under_35": 1.25,
+        "odds_btts_yes": 1.81,
+        "odds_btts_no": 1.9,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -319,7 +463,7 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 1289,
+        "travel_distance_km": 214,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -327,61 +471,45 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 118,
-          "name": "Mauricio Barbieri",
-          "short_name": "M. Barbieri",
-          "country": "Brazil",
-          "profile": "balanced",
+          "id": 1299,
+          "name": "Mihailo Petrovic",
+          "short_name": "M. Petrovic",
+          "country": "Austria",
+          "profile": "attacking",
           "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.48235967934469914,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.5612321056156254,
+          "defensive_line": "low",
           "top_styles": [
-            "terrorist_fb",
-            "anti_football"
+            "cross_pray",
+            "chaos_ball"
           ]
         },
         "away_coach": {
-          "id": 841,
-          "name": "Roger Rodrigues da Silva",
-          "short_name": "R. R. d. Silva",
-          "country": "Brazil",
-          "profile": "defensive",
-          "preferred_formation": "4-1-4-1",
-          "pressing_intensity": 0.5850945864479621,
-          "defensive_line": "mid",
+          "id": 1286,
+          "name": "Go Kuroda",
+          "short_name": "G. Kuroda",
+          "country": "Japan",
+          "profile": "balanced",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.25222228841428984,
+          "defensive_line": "low",
           "top_styles": [
-            "cross_pray",
-            "wing_play"
+            "park_the_bus",
+            "low_block"
           ]
         },
-        "unavailable_players": {
-          "home": [],
-          "away": [
-            {
-              "name": "Eduardo Person",
-              "status": "doubtful",
-              "reason": "Thigh Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Yago Santos",
-              "status": "injured",
-              "reason": "Thigh Injury",
-              "expected_return": null
-            }
-          ]
-        },
+        "unavailable_players": null,
         "venue": {
-          "id": 154,
-          "name": "Estádio Alfredo Jaconi",
-          "city": "Caxias do Sul",
-          "country": "Brazil",
-          "capacity": 19924,
-          "latitude": -29.162,
-          "longitude": -51.176,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
+          "id": 1121,
+          "name": "Nagoya Mizuho Athletics Stadium",
+          "city": "Nagoya",
+          "country": "Japan",
+          "capacity": 27000,
+          "latitude": 35.122707,
+          "longitude": 136.944199,
+          "pitch_x": 106,
+          "pitch_y": 68,
+          "built_year": 1941
         },
         "incidents": null,
         "live_stats": null,
@@ -393,79 +521,68 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "6b4263",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "171f17",
-              "sleeve": "161916"
-            },
-            "player": {
-              "base": "5ab438",
+              "base": "5c96ee",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "5ab438",
-              "stripes": "000000",
-              "sleevelong": "000000"
+              "sleeve": "ffffff"
+            },
+            "player": {
+              "base": "1c356a",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "c0b97b"
             }
           },
           "home": {
             "GK": {
-              "base": "8bff00",
+              "base": "71b7e5",
               "real": true,
               "type": "short_sleeves",
-              "number": "118a02",
-              "sleeve": "327f82",
-              "sleevelong": "1cff00"
+              "number": "ffffff",
+              "sleeve": "3f79b1",
+              "sleevelong": "2d7ab3"
             },
             "player": {
-              "base": "ffffff",
+              "base": "efb536",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "053328",
-              "stripes": "05614c",
-              "sleevelong": "05614c"
+              "number": "0d0d0d",
+              "sleeve": "c31d14",
+              "sleevelong": "cc0000"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 24,
-            "sentence": "Juventude RS's home record this season: 2-2-0."
-          },
-          {
-            "type_id": 24,
-            "sentence": "America FC's away record this season: 0-2-3."
-          },
-          {
-            "type_id": 25,
-            "sentence": "Alan Kardec is Juventude RS's top scorer with 2 goals. Gonzalo Mastriani has scored 3 times for America FC."
+            "type_id": 2,
+            "sentence": "Nagoya haven't won any of their last 4 games against Machida Z."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Juventude's looking for consistency, but América Mineiro is in free fall** — one team riding a decent run at home, the other desperately hunting a W after four straight losses. 🔴\n\nJuventude are the clear favorites here, mixing decent form (1W 3D 1L) with home advantage at Alfredo Jaconi. América Mineiro, meanwhile, have genuinely imploded: that 0-4 shellacking to Náutico is the kind of result that stings for weeks.\n\nKey storylines:\n\n- **Juventude's Alan Kardec** and **Raí** need to convert the chances that should come against a leaky Mineiro backline\n- **América Mineiro's attack** — featuring **G. Mastriani** — is toothless right now; missing Y. Santos only makes it worse\n- **Defensive vulnerability** will likely keep this low-scoring despite the gap in quality\n\nExpected lineups:\n\n- **Juventude**: Jandrei, D. Barbosa, Messias, M. Paulo, Nathan, R. Sam, L. Mineiro, Alan Kardec, Raí\n- **América Mineiro**: Gustavo, Paulinho, N. Cardoso, R. Barcelos, L. Alaba, Alê, Thauan, G. Mastriani\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Juventude 2–0 América Mineiro**. The hosts have the edge and should cruise past a genuinely struggling opponent. 💪",
-          "generated_at": "2026-05-29T01:46:09.973790+00:00"
+          "text": "**Nagoya's looking to shake off a pair of heavy away losses**, and Machida won't make it easy — but the hosts have the momentum edge here. 🔥\n\nGrampus bounced back with a 3-0 home win over Kyoto after getting battered by Cerezo and Hiroshima on the road. Zelvia, meanwhile, are unbeaten in five but grinding out tight results — three wins, two draws, zero losses, but not exactly lighting the lamp.\n\nKey storylines:\n\n- **Nagoya need consistency**: Two 4+ goal hammerings followed by a shutout win. This is a chance to prove the Kyoto performance wasn't a fluke.\n- **Machida's defensive shape vs Nagoya's attack**: Zelvia's strength is their backline (G. Shoji, Y. Nakayama anchoring things), but Grampus at home should test them early.\n- **Set pieces could matter**: Both sides line up in 3-4-2-1 — classic formation for set-play opportunities.\n\nExpected lineups:\n\n- **Nagoya Grampus**: D. Schmidt, S. Tokumoto, H. Fujii, T. Hara, T. Morishima, K. Nakayama, Y. Kimura, Y. Yamagishi\n- **Machida Zelvia**: K. Tani, Y. Nakayama, G. Shoji, H. Nakamura, I. Drešević, N. Lavi, S. Na, Erik\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Nagoya 2–1 Machida**. Home side lean with fresher legs and a front that should find the net.",
+          "generated_at": "2026-05-29T05:45:33.051488+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-23T06:20:13.975733+04:00",
-      "prob_home_win": 55.48144816206997,
-      "prob_draw": 26.114317622194587,
-      "prob_away_win": 18.40423421573544,
+      "created_at": "2026-05-26T06:20:09.097096+04:00",
+      "prob_home_win": 43.82209203223167,
+      "prob_draw": 25.768895659644876,
+      "prob_away_win": 30.40901230812344,
       "predicted_result": "H",
-      "expected_home_goals": 1.12119,
-      "expected_away_goals": 0.6381025,
-      "prob_over_15": 53.23758312413808,
-      "prob_over_25": 41.525355704361886,
-      "prob_over_35": 15.08936747498854,
-      "prob_btts_yes": 31.35345483094465,
-      "confidence": 55.48144816206997,
+      "expected_home_goals": 1.4,
+      "expected_away_goals": 1,
+      "prob_over_15": 80.52110537547631,
+      "prob_over_25": 58.11281463008999,
+      "prob_over_35": 18.343448152074654,
+      "prob_btts_yes": 58.54515868707881,
+      "confidence": 43.82209203223167,
       "model_version": "v5.0",
       "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 55.48144816206997,
+      "favorite_prob": 43.82209203223167,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
