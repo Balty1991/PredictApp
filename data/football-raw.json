@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T20:15:58.919Z",
+  "generatedAt": "2026-05-31T21:33:25.053Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,77 +21,77 @@
   ],
   "samples": {
     "event": {
-      "id": 207492,
+      "id": 9089,
       "league": {
-        "id": 23,
-        "name": "Superliga",
-        "country": "Romania",
+        "id": 31,
+        "name": "International Friendly Games",
+        "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 374,
-          "name": "Superliga 25/26",
-          "year": 2025,
-          "start_date": "2025-07-01",
-          "end_date": "2026-06-30"
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 374,
-        "name": "Superliga 25/26",
-        "year": 2025
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
+        "year": 2026
       },
-      "home_team": "FC Farul Constanța",
-      "away_team": "Chindia Târgoviște",
+      "home_team": "Germany",
+      "away_team": "Finland",
       "home_team_obj": {
-        "id": 366,
-        "name": "FC Farul Constanța",
-        "short_name": "Farul Constanța",
-        "country": "Romania",
+        "id": 467,
+        "name": "Germany",
+        "short_name": "Germany",
+        "country": "Germany",
         "coach": {
-          "name": "Flavius Stoican",
-          "shortName": "F. Stoican"
-        },
-        "venue": {
-          "id": 346,
-          "name": "Stadionul Central-Academia Gheorghe Hagi",
-          "city": "Ovidiu",
-          "country": "Romania",
-          "capacity": 4554
-        }
-      },
-      "away_team_obj": {
-        "id": 2216,
-        "name": "Chindia Târgoviște",
-        "short_name": "Chindia Târgoviște",
-        "country": "Romania",
-        "coach": {
-          "name": "Nicolae Croitoru",
-          "shortName": "N. Croitoru"
+          "name": "Julian Nagelsmann",
+          "shortName": "J. Nagelsmann"
         },
         "venue": null
       },
-      "event_date": "2026-05-31T21:30:00+04:00",
-      "round_number": 29,
-      "round_name": "Final",
+      "away_team_obj": {
+        "id": 721,
+        "name": "Finland",
+        "short_name": "Finland",
+        "country": "Finland",
+        "coach": {
+          "name": "Jacob Friis",
+          "shortName": "J. Friis"
+        },
+        "venue": {
+          "id": 532,
+          "name": "Helsinki Olympic Stadium",
+          "city": "Helsinki",
+          "country": "Finland",
+          "capacity": 36200
+        }
+      },
+      "event_date": "2026-05-31T22:45:00+04:00",
+      "round_number": null,
+      "round_name": "",
       "group_name": null,
       "status": "finished",
-      "home_score": 1,
-      "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 1,
+      "home_score": 4,
+      "away_score": 0,
+      "home_score_ht": 2,
+      "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 1.34,
-      "odds_draw": 4.82,
-      "odds_away": 8.02,
-      "odds_over_15": 1.18,
-      "odds_over_25": 1.62,
-      "odds_over_35": 2.5,
-      "odds_under_15": 4.38,
-      "odds_under_25": 2.22,
-      "odds_under_35": 1.48,
-      "odds_btts_yes": 1.91,
-      "odds_btts_no": 1.81,
+      "odds_home": 1.11,
+      "odds_draw": 9.11,
+      "odds_away": 16.93,
+      "odds_over_15": 1.08,
+      "odds_over_25": 1.31,
+      "odds_over_35": 1.81,
+      "odds_under_15": 7.01,
+      "odds_under_25": 3.25,
+      "odds_under_35": 1.93,
+      "odds_btts_yes": 2.15,
+      "odds_btts_no": 1.63,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -100,32 +100,29 @@
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 265,
-      "weather_code": null,
+      "travel_distance_km": null,
+      "weather_code": 2,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 837,
-        "name": "Flavius Stoican",
-        "short_name": "F. Stoican",
-        "country": "Romania",
-        "profile": "balanced",
+        "id": 51,
+        "name": "Julian Nagelsmann",
+        "short_name": "J. Nagelsmann",
+        "country": "Germany",
+        "profile": "attacking",
         "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.722737979894139,
-        "defensive_line": "mid",
-        "top_styles": [
-          "gegenpressing",
-          "high_press"
-        ]
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 1593,
-        "name": "Nicolae Croitoru",
-        "short_name": "N. Croitoru",
-        "country": "",
+        "id": 573,
+        "name": "Jacob Friis",
+        "short_name": "J. Friis",
+        "country": "Denmark",
         "profile": "",
         "preferred_formation": "",
         "pressing_intensity": null,
@@ -134,182 +131,409 @@
       },
       "unavailable_players": null,
       "venue": {
-        "id": 346,
-        "name": "Stadionul Central-Academia Gheorghe Hagi",
-        "city": "Ovidiu",
-        "country": "Romania",
-        "capacity": 4554,
-        "latitude": 44.264195,
-        "longitude": 28.556438,
+        "id": 91,
+        "name": "MEWA Arena",
+        "city": "Mainz",
+        "country": "Germany",
+        "capacity": 34000,
+        "latitude": 49.98397688222813,
+        "longitude": 8.224491558416606,
         "pitch_x": 105,
         "pitch_y": 68,
-        "built_year": 2015
+        "built_year": 2011
       },
       "live_stats": {
         "away": {
-          "fouls": 7,
-          "offsides": 4,
-          "red_cards": 0,
-          "throw_ins": 20,
-          "free_kicks": 10,
-          "goal_kicks": 32,
-          "total_saves": 9,
-          "total_shots": 3,
-          "corner_kicks": 0,
-          "yellow_cards": 4,
-          "blocked_shots": 0,
-          "ball_possession": 25,
-          "shots_on_target": 2,
-          "goalkeeper_saves": 9,
-          "shots_off_target": 1
+          "duels": 57,
+          "fouls": 6,
+          "passes": 363,
+          "crosses": "1/7 (14%)",
+          "tackles": 15,
+          "dribbles": "5/10 (50%)",
+          "offsides": 1,
+          "throw_ins": 15,
+          "clearances": 30,
+          "free_kicks": 12,
+          "goal_kicks": 12,
+          "long_balls": "23/46 (50%)",
+          "recoveries": 37,
+          "big_chances": 0,
+          "high_claims": 1,
+          "tackles_won": 67,
+          "total_saves": 6,
+          "total_shots": 7,
+          "aerial_duels": "4/8 (50%)",
+          "corner_kicks": 3,
+          "dispossessed": 7,
+          "ground_duels": "30/52 (58%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 4,
+          "interceptions": 7,
+          "through_balls": 0,
+          "total_tackles": 15,
+          "accurate_passes": 310,
+          "ball_possession": 35,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 6,
+          "shots_inside_box": 1,
+          "shots_off_target": 3,
+          "final_third_phase": "38/57 (67%)",
+          "shots_outside_box": 6,
+          "big_chances_missed": 0,
+          "big_chances_scored": 0,
+          "final_third_entries": 33,
+          "errors_lead_to_a_goal": 1,
+          "errors_lead_to_a_shot": 2,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 9
         },
         "home": {
-          "fouls": 9,
+          "duels": 43,
+          "fouls": 12,
+          "passes": 682,
+          "crosses": "3/17 (18%)",
+          "tackles": 12,
+          "dribbles": "6/15 (40%)",
           "offsides": 1,
-          "red_cards": 0,
-          "throw_ins": 40,
-          "free_kicks": 11,
-          "goal_kicks": 4,
-          "total_saves": 1,
-          "total_shots": 32,
-          "corner_kicks": 12,
-          "yellow_cards": 4,
-          "blocked_shots": 4,
-          "ball_possession": 75,
+          "throw_ins": 19,
+          "clearances": 8,
+          "free_kicks": 6,
+          "goal_kicks": 9,
+          "long_balls": "27/44 (61%)",
+          "recoveries": 47,
+          "big_chances": 7,
+          "high_claims": 0,
+          "tackles_won": 58,
+          "total_saves": 0,
+          "total_shots": 19,
+          "aerial_duels": "4/8 (50%)",
+          "corner_kicks": 9,
+          "dispossessed": 6,
+          "ground_duels": "22/52 (42%)",
+          "hit_woodwork": 1,
+          "blocked_shots": 3,
+          "interceptions": 5,
+          "through_balls": 3,
+          "total_tackles": 12,
+          "accurate_passes": 628,
+          "ball_possession": 65,
           "shots_on_target": 10,
-          "goalkeeper_saves": 1,
-          "shots_off_target": 18
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 16,
+          "shots_off_target": 6,
+          "final_third_phase": "222/261 (85%)",
+          "shots_outside_box": 3,
+          "big_chances_missed": 4,
+          "big_chances_scored": 3,
+          "final_third_entries": 86,
+          "errors_lead_to_a_goal": 0,
+          "errors_lead_to_a_shot": 0,
+          "fouled_in_final_third": 3,
+          "touches_in_penalty_area": 50
+        },
+        "first_half": {
+          "away": {
+            "duels": 48,
+            "fouls": 6,
+            "passes": 154,
+            "crosses": "1/1 (100%)",
+            "tackles": 7,
+            "dribbles": "2/6 (33%)",
+            "offsides": 0,
+            "throw_ins": 11,
+            "clearances": 22,
+            "free_kicks": 5,
+            "goal_kicks": 7,
+            "long_balls": "14/30 (47%)",
+            "recoveries": 23,
+            "big_chances": 0,
+            "tackles_won": 57,
+            "total_saves": 5,
+            "total_shots": 3,
+            "aerial_duels": "3/6 (50%)",
+            "corner_kicks": 1,
+            "dispossessed": 3,
+            "ground_duels": "12/25 (48%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 2,
+            "interceptions": 4,
+            "through_balls": 0,
+            "total_tackles": 7,
+            "accurate_passes": 120,
+            "ball_possession": 27,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 5,
+            "shots_inside_box": 1,
+            "shots_off_target": 1,
+            "shots_outside_box": 2,
+            "big_chances_missed": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 15,
+            "fouled_in_final_third": 0
+          },
+          "home": {
+            "duels": 52,
+            "fouls": 5,
+            "passes": 412,
+            "crosses": "1/11 (9%)",
+            "tackles": 7,
+            "dribbles": "2/6 (33%)",
+            "offsides": 0,
+            "throw_ins": 11,
+            "clearances": 0,
+            "free_kicks": 6,
+            "goal_kicks": 4,
+            "long_balls": "15/26 (58%)",
+            "recoveries": 27,
+            "big_chances": 3,
+            "tackles_won": 71,
+            "total_saves": 0,
+            "total_shots": 11,
+            "aerial_duels": "3/6 (50%)",
+            "corner_kicks": 6,
+            "dispossessed": 3,
+            "ground_duels": "13/25 (52%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 3,
+            "interceptions": 1,
+            "through_balls": 1,
+            "total_tackles": 7,
+            "accurate_passes": 374,
+            "ball_possession": 73,
+            "shots_on_target": 6,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 9,
+            "shots_off_target": 2,
+            "shots_outside_box": 2,
+            "big_chances_missed": 2,
+            "big_chances_scored": 1,
+            "final_third_entries": 53,
+            "fouled_in_final_third": 3
+          }
+        },
+        "second_half": {
+          "away": {
+            "duels": 66,
+            "fouls": 0,
+            "passes": 209,
+            "crosses": "0/6 (0%)",
+            "tackles": 8,
+            "dribbles": "3/4 (75%)",
+            "offsides": 1,
+            "throw_ins": 4,
+            "clearances": 8,
+            "free_kicks": 7,
+            "goal_kicks": 5,
+            "long_balls": "9/16 (56%)",
+            "recoveries": 14,
+            "big_chances": 0,
+            "tackles_won": 75,
+            "total_saves": 1,
+            "total_shots": 4,
+            "aerial_duels": "1/2 (50%)",
+            "corner_kicks": 2,
+            "dispossessed": 4,
+            "ground_duels": "18/27 (67%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 2,
+            "interceptions": 3,
+            "through_balls": 0,
+            "total_tackles": 8,
+            "accurate_passes": 190,
+            "ball_possession": 44,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 0,
+            "shots_off_target": 2,
+            "shots_outside_box": 4,
+            "big_chances_missed": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 18,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 34,
+            "fouls": 7,
+            "passes": 270,
+            "crosses": "2/6 (33%)",
+            "tackles": 5,
+            "dribbles": "4/9 (44%)",
+            "offsides": 1,
+            "throw_ins": 8,
+            "clearances": 8,
+            "free_kicks": 0,
+            "goal_kicks": 5,
+            "long_balls": "12/18 (67%)",
+            "recoveries": 20,
+            "big_chances": 4,
+            "tackles_won": 40,
+            "total_saves": 0,
+            "total_shots": 8,
+            "aerial_duels": "1/2 (50%)",
+            "corner_kicks": 3,
+            "dispossessed": 3,
+            "ground_duels": "9/27 (33%)",
+            "hit_woodwork": 1,
+            "blocked_shots": 0,
+            "interceptions": 4,
+            "through_balls": 2,
+            "total_tackles": 5,
+            "accurate_passes": 254,
+            "ball_possession": 56,
+            "shots_on_target": 4,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 7,
+            "shots_off_target": 4,
+            "shots_outside_box": 1,
+            "big_chances_missed": 2,
+            "big_chances_scored": 2,
+            "final_third_entries": 33,
+            "fouled_in_final_third": 0
+          }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "cdff6f",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "b6ff85"
-          },
-          "player": {
-            "base": "007ff0",
+            "base": "080808",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "007ff0"
+            "sleeve": "669900"
+          },
+          "player": {
+            "base": "0030b5",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "010865",
+            "sleevelong": "010865"
           }
         },
         "home": {
           "GK": {
-            "base": "ffe745",
+            "base": "4f9b9c",
             "real": true,
-            "type": "short_sleeves",
-            "number": "050505",
-            "sleeve": "ffe745"
+            "type": "long_sleeves",
+            "number": "ecede8",
+            "sleeve": "5a9a9b"
           },
           "player": {
-            "base": "04529a",
+            "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "04529a",
-            "stripes": "fbf9f9"
+            "number": "000000",
+            "sleeve": "000000",
+            "sleevelong": "fcfcfc"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 1,
-          "sentence": "Farul Constanta haven't won in their last 10 games."
-        },
-        {
-          "type_id": 27,
-          "sentence": "The result of the first leg: Chindia Targoviste - Farul Constanta 3-3."
+          "type_id": 2,
+          "sentence": "When playing at home, Germany have not lost to Finland in their last 3 encounters."
         },
         {
           "type_id": 1,
-          "sentence": "Farul Constanta have played 4 home matches in a row without winning."
+          "sentence": "Germany have won 4 home matches in a row."
+        },
+        {
+          "type_id": 1,
+          "sentence": "Germany have a winning streak of 7 matches."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 79,
-          "home": 125
-        },
-        "ball_safe": {
-          "away": 92,
-          "home": 79
-        },
-        "attack_pct": {
-          "away": 24,
-          "home": 29
-        },
-        "ball_safe_pct": {
-          "away": 65,
-          "home": 22
-        },
-        "dangerous_attack": {
-          "away": 21,
+          "away": 48,
           "home": 98
         },
+        "ball_safe": {
+          "away": 69,
+          "home": 70
+        },
+        "attack_pct": {
+          "away": 19,
+          "home": 23
+        },
+        "ball_safe_pct": {
+          "away": 64,
+          "home": 35
+        },
+        "dangerous_attack": {
+          "away": 20,
+          "home": 66
+        },
         "dangerous_attack_pct": {
-          "away": 11,
-          "home": 49
+          "away": 17,
+          "home": 42
         }
       },
       "ai_preview": {
-        "text": "**Farul and Chindia can't seem to break the deadlock — they drew 3-3 just two weeks ago, and now they're back for round two.** Both sides are in rough form, which means this could go either way. 🔄\n\nFarul's winless in five (three draws, two losses) while Chindia's somehow worse—just one draw in their last outing. When two struggling teams collide, stalemates aren't rare, and the model reckons this one ends level.\n\nKey storylines:\n\n- **Farul's leaky defense** has shipped goals against Metaloglobus and Oțelul Galați; keeping **Chindia's attack** at bay will be crucial.\n- **That 3-3 scoreline two weeks ago** suggests these teams know each other well—could breed caution this time around.\n- **Both sides desperately need wins** but neither has the form to grab one; expect compact, cautious football.\n\nExpected lineups:\n\n- **FC Farul Constanța**: R. Munteanu, C. Ganea, I. Larie, G. Marins, D. Maftei, I. Vînă, V. Dican, E. Radaslavescu, R. A. Tănasă, D. Alibec, A. Ișfan\n- **Chindia Târgoviște**: D. G. Isvoranu, M. C. Brumă, A. Bilali, D. Celea, M. Martac, B. Petre, A. Pandele, D. Popadiuc, G. Honciu, D. Florea, I. Pešić\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw.** Low-confidence attacking football; both sides settle for a point. ⚽",
-        "generated_at": "2026-05-30T23:46:48.823709+00:00"
+        "text": "**Germany rolls into this one red-hot, while Finland's looking to steady a rocky ship.** The hosts are coming off five straight wins and showing serious attacking teeth — meanwhile, the Finns just got hammered 4-0 by the Netherlands and need to find some defensive solidity. 🔥\n\nGermany's been electric in attack (scored 19 in five games), but friendly fixtures can get weird. Finland won't roll over — they managed 2-1 against Lithuania recently — but the gap in form and momentum feels massive right now.\n\nKey storylines:\n\n- **Germany's attacking depth** continues to shine after dismantling Slovakia 6-0 and surviving a 4-3 shootout with Switzerland\n- **Finland's leaky defense** got exposed hard by the Netherlands; they'll need to tighten up against a clinical German side\n- Mainz is a fortress — Germany's won all five on home soil in this run\n\nExpected lineups:\n\n- **Germany**: Neuer, Kimmich, Rudiger, Schlotterbeck, Mittelstädt, Kroos, Gündoğan, Sané, Müller, Havertz, Gnabry\n- **Finland**: Hradecky, Ivanov, Uronen, Raitanen, Lamela, Lod, Kamara, Pukki, Pohjanpalo, Sallai, Korpela\n\nPrediction:\n\n**Germany 3-0 Finland**\n\nThe Finns will make them work for it, but Germany's form is just too sharp. Easy money for the hosts. 🎯",
+        "generated_at": "2026-05-30T23:46:54.849976+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4575,
+      "id": 4577,
       "event": {
-        "id": 10276,
+        "id": 7166,
         "league": {
-          "id": 31,
-          "name": "International Friendly Games",
-          "country": "International",
+          "id": 9,
+          "name": "Brasileirão Serie A",
+          "country": "Brazil",
           "is_women": false,
           "current_season": {
-            "id": 133,
-            "name": "Int. Friendly Games 2026",
+            "id": 28,
+            "name": "Brasileiro Serie A 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
+          "id": 28,
+          "name": "Brasileiro Serie A 2026",
           "year": 2026
         },
-        "home_team": "Brazil",
-        "away_team": "Panama",
+        "home_team": "Cruzeiro",
+        "away_team": "Fluminense",
         "home_team_obj": {
-          "id": 463,
-          "name": "Brazil",
-          "short_name": "Brazil",
+          "id": 150,
+          "name": "Cruzeiro",
+          "short_name": "Cruzeiro",
           "country": "Brazil",
           "coach": {
-            "name": "Carlo Ancelotti",
-            "shortName": "C. Ancelotti"
+            "name": "Artur Jorge",
+            "shortName": "A. Jorge"
           },
-          "venue": null
+          "venue": {
+            "id": 148,
+            "name": "Governador Magalhães Pinto",
+            "city": "Belo Horizonte",
+            "country": "Brazil",
+            "capacity": 61927
+          }
         },
         "away_team_obj": {
-          "id": 496,
-          "name": "Panama",
-          "short_name": "Panama",
-          "country": "Panama",
+          "id": 153,
+          "name": "Fluminense",
+          "short_name": "Fluminense",
+          "country": "Brazil",
           "coach": {
-            "name": "Thomas Christiansen",
-            "shortName": "T. Christiansen"
+            "name": "Luis Zubeldia",
+            "shortName": "L. Zubeldia"
           },
-          "venue": null
+          "venue": {
+            "id": 151,
+            "name": "Estádio do Maracanã",
+            "city": "Rio de Janeiro",
+            "country": "Brazil",
+            "capacity": 78838
+          }
         },
-        "event_date": "2026-06-01T01:30:00+04:00",
-        "round_number": null,
+        "event_date": "2026-06-01T03:30:00+04:00",
+        "round_number": 18,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -319,17 +543,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.13,
-        "odds_draw": 8.4,
-        "odds_away": 19.27,
-        "odds_over_15": 1.12,
-        "odds_over_25": 1.39,
-        "odds_over_35": 2,
-        "odds_under_15": 5.73,
-        "odds_under_25": 2.8,
-        "odds_under_35": 1.76,
-        "odds_btts_yes": 2.4,
-        "odds_btts_no": 1.51,
+        "odds_home": 1.87,
+        "odds_draw": 3.43,
+        "odds_away": 4.15,
+        "odds_over_15": 1.33,
+        "odds_over_25": 2.02,
+        "odds_over_35": 3.53,
+        "odds_under_15": 3.17,
+        "odds_under_25": 1.75,
+        "odds_under_35": 1.27,
+        "odds_btts_yes": 1.87,
+        "odds_btts_no": 1.86,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -338,72 +562,136 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
+        "travel_distance_km": 396,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 1839,
+          "name": "Lucas Casagrande",
+          "country": "Brazil",
+          "nationality_a3": "",
+          "birthdate": null,
+          "yellowCards": 178,
+          "redCards": 7,
+          "career_games": 38,
+          "career_yellow_cards": 178,
+          "career_red_cards": 7
+        },
         "home_coach": {
-          "id": 127,
-          "name": "Carlo Ancelotti",
-          "short_name": "C. Ancelotti",
-          "country": "Italy",
-          "profile": "attacking",
-          "preferred_formation": "4-2-2-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 143,
+          "name": "Artur Jorge",
+          "short_name": "A. Jorge",
+          "country": "Portugal",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.5916528819032407,
+          "defensive_line": "mid",
+          "top_styles": [
+            "anti_football",
+            "tiki_taka"
+          ]
         },
         "away_coach": {
-          "id": 88,
-          "name": "Thomas Christiansen",
-          "short_name": "T. Christiansen",
-          "country": "Spain",
+          "id": 152,
+          "name": "Luis Zubeldia",
+          "short_name": "L. Zubeldia",
+          "country": "Argentina",
           "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.4441346086135156,
+          "defensive_line": "mid",
+          "top_styles": [
+            "inverted_fb",
+            "false_9"
+          ]
         },
         "unavailable_players": {
           "home": [
             {
-              "name": "Caio Henrique",
+              "name": "Kauã Prates",
               "status": "injured",
-              "reason": "Calf Injury",
-              "expected_return": "2026-05-31"
+              "reason": "Thigh Injury",
+              "expected_return": "2026-06-10"
             },
             {
-              "name": "David Neres",
+              "name": "Matheus Henrique",
               "status": "injured",
-              "reason": "Hamstring Injury",
-              "expected_return": "2026-06-07"
-            },
-            {
-              "name": "Neymar",
-              "status": "injured",
-              "reason": "Calf Injury",
-              "expected_return": "2026-06-20"
-            },
-            {
-              "name": "Wendell",
-              "status": "suspended",
-              "reason": "yellow_card_accumulation_suspension",
-              "expected_return": "2026-06-01"
+              "reason": "Chest Injury",
+              "expected_return": "2026-06-06"
             }
           ],
           "away": [
             {
-              "name": "Carlos Harvey",
+              "name": "Agustín Canobbio",
               "status": "injured",
-              "reason": "Muscle Injury",
+              "reason": "national_team",
+              "expected_return": "2026-06-01"
+            },
+            {
+              "name": "Alisson",
+              "status": "injured",
+              "reason": "Calf Injury",
               "expected_return": "2026-06-10"
+            },
+            {
+              "name": "Ganso",
+              "status": "injured",
+              "reason": "club_decision",
+              "expected_return": "2026-06-01"
+            },
+            {
+              "name": "Hércules",
+              "status": "injured",
+              "reason": "Physical Discomfort",
+              "expected_return": "2026-06-14"
+            },
+            {
+              "name": "Ignácio",
+              "status": "doubtful",
+              "reason": "Broken Hand",
+              "expected_return": "2026-06-15"
+            },
+            {
+              "name": "Juan Pablo Freytes",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-06-01"
+            },
+            {
+              "name": "Luciano Acosta",
+              "status": "injured",
+              "reason": "Physical Discomfort",
+              "expected_return": "2026-06-14"
+            },
+            {
+              "name": "Nonato",
+              "status": "suspended",
+              "reason": "yellow_card_accumulation_suspension",
+              "expected_return": "2026-06-01"
+            },
+            {
+              "name": "Rodrigo Castillo",
+              "status": "injured",
+              "reason": "Overload",
+              "expected_return": "2026-06-14"
             }
           ]
         },
-        "venue": null,
+        "venue": {
+          "id": 148,
+          "name": "Governador Magalhães Pinto",
+          "city": "Belo Horizonte",
+          "country": "Brazil",
+          "capacity": 61927,
+          "latitude": -19.865817,
+          "longitude": -43.971083,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": null
+        },
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -414,70 +702,76 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "565f71",
+              "base": "8e051d",
               "real": true,
               "type": "short_sleeves",
-              "number": "050505",
-              "sleeve": "0a0a0a"
+              "number": "070707",
+              "sleeve": "8e051d"
             },
             "player": {
-              "base": "cc252a",
+              "base": "6e202e",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "121212"
+              "sleeve": "ffffff",
+              "stripes": "1e433a",
+              "sleevelong": "6e202e"
             }
           },
           "home": {
             "GK": {
-              "base": "47484d",
-              "real": true,
-              "type": "long_sleeves",
-              "number": "c8d77c",
-              "sleeve": "111111"
-            },
-            "player": {
-              "base": "eae380",
+              "base": "d9e401",
               "real": true,
               "type": "short_sleeves",
-              "number": "1edb80",
-              "sleeve": "13a59b"
+              "number": "ffffff",
+              "sleeve": "ffffff"
+            },
+            "player": {
+              "base": "0455a3",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "ffffff"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 1,
-            "sentence": "Brazil haven't lost in any of their last 8 home matches."
+            "type_id": 25,
+            "sentence": "Christian is Cruzeiro's top scorer with 5 goals. John Kennedy has scored 8 times for Fluminense."
           },
           {
-            "type_id": 1,
-            "sentence": "Panama have lost none of their last 7 away matches."
+            "type_id": 25,
+            "sentence": "Matheus Pereira has more yellow cards (8) than any other player at Cruzeiro. Luciano Acosta has collected 4 for Fluminense."
+          },
+          {
+            "type_id": 26,
+            "sentence": "A year ago, Cruzeiro were number 3 in the table with 34 points. Now they are number 9 with 23 points."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Brazil's looking to bounce back after that shock Bolivia loss, and Panama are here hoping to nick something against the Seleção.** Not exactly a marquee friendly, but friendly chaos is still chaos. ⚽\n\nBrazil have been streaky—three wins sandwiched around losses to France and Bolivia. Panama are grinding it out with their 2W 2D record, though they're missing a chunk of defensive depth with Godoy, Harvey, and Mejía sidelined.\n\nKey storylines:\n\n- **Brazil** need to rediscover their rhythm after getting caught out by Bolivia; a win here steadies the ship\n- **Panama's** injury list (Godoy, Harvey, Mejía out) leaves their backline stretched against a talented attack\n- Expect Brazil to dominate possession and create chances—Panama will sit deep and look for counters\n\nExpected lineups:\n\n- **Brazil**: Alisson, Militão, Neto, Arana, Vinicius Jr., Rodrygo, Neymar, Vinícius (lineup from predicted XI not provided in brief—core attacking talent expected)\n- **Panama**: O. Mosquera, C. Blackman, F. Escobar, J. Gutiérrez, A. Carrasquilla, A. Quintero, T. Rodríguez\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Brazil 3–0 Panama.** Seleção should cruise to a confidence-building win. 💛",
-          "generated_at": "2026-05-30T23:47:21.624214+00:00"
+          "text": "**Cruzeiro's rolling hot at home, and Fluminense's got injury drama to sort.** This is the kind of fixture where momentum tilts the pitch. 🔥\n\nCruzeiro are absolutely **cooking** — three wins in their last five, including a 4-0 demolition of Barcelona SC — while **Fluminense** have wobbled just slightly, dropping a shock loss to Mirassol after winning three straight. The **head-to-head lean goes to Fluminense** historically, but form is king in May.\n\nKey storylines:\n\n- **Cruzeiro's** front line of **K. Jorge**, **Christian**, and **L. Sinisterra** have been clinical; Fluminense's backline missing **Alisson** (calf) is a soft spot.\n- **Fluminense** are without **Ganso** (club decision) and both **Nonato** and **J. Freytes** (suspension), gutting their midfield bite.\n- Home advantage at Governador Magalhães Pinto could be the edge **Cruzeiro** need to bury this one early.\n\nExpected lineups:\n\n- **Cruzeiro**: Otávio, J. Jesus, F. Bruno, Gerson, L. Romero, M. Pereira, Wanderson, Christian, K. Jorge, L. Sinisterra\n- **Fluminense**: Fábio, G. Arana, Guga, Ignácio, J. Savarino, L. Acosta, John Kennedy, A. Canobbio, R. Castillo, G. Cano\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction: **Cruzeiro 2–1 Fluminense**. The model leans Cruzeiro, and their form + fixture advantage should carry the day. 💙",
+          "generated_at": "2026-05-30T23:47:37.547774+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-25T06:20:53.165204+04:00",
-      "prob_home_win": 42.24408374239001,
-      "prob_draw": 28.441914965227706,
-      "prob_away_win": 29.314001292382297,
+      "created_at": "2026-05-25T06:20:54.826780+04:00",
+      "prob_home_win": 56.25914885221081,
+      "prob_draw": 21.877902204276072,
+      "prob_away_win": 21.862948943513114,
       "predicted_result": "H",
-      "expected_home_goals": 1.5,
-      "expected_away_goals": 1.5,
-      "prob_over_15": 80.8620229806326,
-      "prob_over_25": 54.080267187354345,
-      "prob_over_35": 28.598231154026344,
-      "prob_btts_yes": 60.624985519391075,
-      "confidence": 42.24408374239001,
+      "expected_home_goals": 1.0823075000000002,
+      "expected_away_goals": 0.9415399999999999,
+      "prob_over_15": 72.82962322080428,
+      "prob_over_25": 71.4641169421301,
+      "prob_over_35": 22.641795784341305,
+      "prob_btts_yes": 73.26406397178064,
+      "confidence": 56.25914885221081,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
+      "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 42.24408374239001,
+      "favorite_prob": 56.25914885221081,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
