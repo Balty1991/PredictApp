@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T08:27:35.669Z",
+  "generatedAt": "2026-05-31T10:32:53.473Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 9853,
+      "id": 9852,
       "league": {
         "id": 36,
         "name": "Liga F",
@@ -40,156 +40,315 @@
         "name": "Liga F Moeve 25/26",
         "year": 2025
       },
-      "home_team": "SD Eibar",
-      "away_team": "DUX Logroño",
+      "home_team": "Real Sociedad",
+      "away_team": "Club Atlético de Madrid",
       "home_team_obj": {
-        "id": 921,
-        "name": "SD Eibar",
-        "short_name": "Eibar",
+        "id": 924,
+        "name": "Real Sociedad",
+        "short_name": "R. Sociedad",
         "country": "Spain",
         "coach": {
-          "name": "Iñaki Goikoetxea",
-          "shortName": "I. Goikoetxea"
+          "name": "Arturo Ruiz",
+          "shortName": "A. Ruiz"
         },
         "venue": {
-          "id": 701,
-          "name": "Unbe Sports Complex",
-          "city": "Eibar",
+          "id": 704,
+          "name": "Instalaciones de Zubieta",
+          "city": "San Sebastian",
           "country": "Spain",
-          "capacity": null
+          "capacity": 2500
         }
       },
       "away_team_obj": {
-        "id": 925,
-        "name": "DUX Logroño",
-        "short_name": "DUX",
+        "id": 920,
+        "name": "Club Atlético de Madrid",
+        "short_name": "Atlético de Madrid",
         "country": "Spain",
         "coach": {
-          "name": "David Hernandez",
-          "shortName": "D. Hernandez"
+          "name": "José Ángel Herrera",
+          "shortName": "J. Á. Herrera"
         },
         "venue": {
-          "id": 705,
-          "name": "Estadio Las Gaunas",
-          "city": "Logroño",
+          "id": 700,
+          "name": "Centro Deportivo Wanda",
+          "city": "Alcala de Henares",
           "country": "Spain",
-          "capacity": 16000
+          "capacity": null
         }
       },
       "event_date": "2026-05-31T14:00:00+04:00",
       "round_number": 30,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 1,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
-      "odds_home": 2.12,
-      "odds_draw": 3.08,
-      "odds_away": 3.17,
-      "odds_over_15": 1.35,
-      "odds_over_25": 2.11,
-      "odds_over_35": 3.72,
-      "odds_under_15": 2.84,
-      "odds_under_25": 1.63,
-      "odds_under_35": 1.22,
-      "odds_btts_yes": 1.87,
-      "odds_btts_no": 1.81,
+      "current_minute": 32,
+      "period": "1T",
+      "odds_home": 1.9,
+      "odds_draw": 3.15,
+      "odds_away": 2.62,
+      "odds_over_15": 1.12,
+      "odds_over_25": 1.49,
+      "odds_over_35": 2.25,
+      "odds_under_15": 3.24,
+      "odds_under_25": 2.17,
+      "odds_under_35": 1.46,
+      "odds_btts_yes": 1.39,
+      "odds_btts_no": 2.13,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.61,
+      "away_xg_live": 0.53,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 81,
+      "travel_distance_km": 326,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 1623,
-        "name": "Ainara Andrea Acevedo Dudley",
+        "id": 1884,
+        "name": "Ylenia Sanchez Miguel",
         "country": "Spain",
         "nationality_a3": "",
         "birthdate": null,
-        "yellowCards": 66,
+        "yellowCards": 76,
         "redCards": 2,
-        "career_games": 20,
-        "career_yellow_cards": 66,
+        "career_games": 17,
+        "career_yellow_cards": 76,
         "career_red_cards": 2
       },
       "home_coach": {
-        "id": 166,
-        "name": "Iñaki Goikoetxea",
-        "short_name": "I. Goikoetxea",
+        "id": 216,
+        "name": "Arturo Ruiz",
+        "short_name": "A. Ruiz",
         "country": "Spain",
-        "profile": "defensive",
-        "preferred_formation": "5-3-2",
-        "pressing_intensity": 0.537122855096317,
+        "profile": "attacking",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.7104431324203473,
         "defensive_line": "mid",
         "top_styles": [
-          "no_midfield",
-          "park_the_bus"
+          "gegenpressing",
+          "high_press"
         ]
       },
       "away_coach": {
-        "id": 213,
-        "name": "David Hernandez",
-        "short_name": "D. Hernandez",
-        "country": "",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.5050073303697931,
-        "defensive_line": "mid",
+        "id": 22,
+        "name": "José Ángel Herrera",
+        "short_name": "J. Á. Herrera",
+        "country": "Spain",
+        "profile": "attacking",
+        "preferred_formation": "3-5-2",
+        "pressing_intensity": 0.5676728223396875,
+        "defensive_line": "high",
         "top_styles": [
-          "park_the_bus",
-          "terrorist_fb"
+          "chaos_ball",
+          "chaos_football"
         ]
       },
       "unavailable_players": null,
       "venue": {
-        "id": 701,
-        "name": "Unbe Sports Complex",
-        "city": "Eibar",
+        "id": 704,
+        "name": "Instalaciones de Zubieta",
+        "city": "San Sebastian",
         "country": "Spain",
-        "capacity": null,
+        "capacity": 2500,
         "latitude": null,
         "longitude": null,
         "pitch_x": null,
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 54,
+          "fouls": 2,
+          "passes": 126,
+          "crosses": "3/6 (50%)",
+          "tackles": 7,
+          "dribbles": "1/4 (25%)",
+          "throw_ins": 7,
+          "clearances": 15,
+          "free_kicks": 1,
+          "goal_kicks": 3,
+          "long_balls": "4/13 (31%)",
+          "recoveries": 11,
+          "big_chances": 2,
+          "tackles_won": 43,
+          "total_saves": 0,
+          "total_shots": 5,
+          "aerial_duels": "4/7 (57%)",
+          "corner_kicks": 3,
+          "dispossessed": 2,
+          "ground_duels": "9/17 (53%)",
+          "hit_woodwork": 1,
+          "blocked_shots": 2,
+          "interceptions": 2,
+          "total_tackles": 7,
+          "expected_goals": 0.49,
+          "accurate_passes": 104,
+          "ball_possession": 43,
+          "goals_prevented": -0.23,
+          "shots_on_target": 2,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 3,
+          "shots_off_target": 1,
+          "final_third_phase": "27/36 (75%)",
+          "shots_outside_box": 2,
+          "big_chances_missed": 2,
+          "final_third_entries": 16,
+          "fouled_in_final_third": 0,
+          "touches_in_penalty_area": 9
+        },
+        "home": {
+          "duels": 48,
+          "fouls": 1,
+          "passes": 161,
+          "crosses": "3/13 (23%)",
+          "tackles": 6,
+          "dribbles": "1/2 (50%)",
+          "throw_ins": 2,
+          "clearances": 7,
+          "free_kicks": 2,
+          "goal_kicks": 1,
+          "long_balls": "11/18 (61%)",
+          "recoveries": 16,
+          "big_chances": 0,
+          "tackles_won": 83,
+          "total_saves": 1,
+          "total_shots": 6,
+          "aerial_duels": "2/6 (33%)",
+          "corner_kicks": 4,
+          "dispossessed": 4,
+          "ground_duels": "9/17 (53%)",
+          "hit_woodwork": 1,
+          "blocked_shots": 2,
+          "interceptions": 2,
+          "total_tackles": 6,
+          "expected_goals": 0.61,
+          "accurate_passes": 140,
+          "ball_possession": 57,
+          "goals_prevented": 0.38,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 3,
+          "shots_off_target": 3,
+          "final_third_phase": "55/68 (81%)",
+          "shots_outside_box": 3,
+          "big_chances_missed": 0,
+          "final_third_entries": 20,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 14
+        },
+        "first_half": {
+          "away": {
+            "duels": 54,
+            "fouls": 2,
+            "passes": 126,
+            "crosses": "3/6 (50%)",
+            "tackles": 7,
+            "dribbles": "1/4 (25%)",
+            "throw_ins": 7,
+            "clearances": 15,
+            "free_kicks": 1,
+            "goal_kicks": 3,
+            "long_balls": "4/13 (31%)",
+            "recoveries": 11,
+            "big_chances": 2,
+            "tackles_won": 43,
+            "total_saves": 0,
+            "total_shots": 5,
+            "aerial_duels": "4/7 (57%)",
+            "corner_kicks": 3,
+            "dispossessed": 2,
+            "ground_duels": "9/17 (53%)",
+            "hit_woodwork": 1,
+            "blocked_shots": 2,
+            "interceptions": 2,
+            "total_tackles": 7,
+            "expected_goals": 0.49,
+            "accurate_passes": 104,
+            "ball_possession": 43,
+            "shots_on_target": 2,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 3,
+            "shots_off_target": 1,
+            "shots_outside_box": 2,
+            "big_chances_missed": 2,
+            "final_third_entries": 16,
+            "fouled_in_final_third": 0
+          },
+          "home": {
+            "duels": 48,
+            "fouls": 1,
+            "passes": 161,
+            "crosses": "3/13 (23%)",
+            "tackles": 6,
+            "dribbles": "1/2 (50%)",
+            "throw_ins": 2,
+            "clearances": 7,
+            "free_kicks": 2,
+            "goal_kicks": 1,
+            "long_balls": "11/18 (61%)",
+            "recoveries": 16,
+            "big_chances": 0,
+            "tackles_won": 83,
+            "total_saves": 1,
+            "total_shots": 6,
+            "aerial_duels": "2/6 (33%)",
+            "corner_kicks": 4,
+            "dispossessed": 4,
+            "ground_duels": "9/17 (53%)",
+            "hit_woodwork": 1,
+            "blocked_shots": 2,
+            "interceptions": 2,
+            "total_tackles": 6,
+            "expected_goals": 0.61,
+            "accurate_passes": 140,
+            "ball_possession": 57,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 3,
+            "shots_off_target": 3,
+            "shots_outside_box": 3,
+            "big_chances_missed": 0,
+            "final_third_entries": 20,
+            "fouled_in_final_third": 1
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "990000",
+            "base": "0099ff",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "990000"
+            "sleeve": "0099ff"
+          },
+          "player": {
+            "base": "ff0000",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "0415f6",
+            "sleeve": "ffffff",
+            "stripes": "ffffff",
+            "sleevelong": "f30000"
           }
         },
         "home": {
           "GK": {
-            "base": "efc131",
-            "real": false,
+            "base": "339900",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
+            "number": "ffffff",
+            "sleeve": "339900"
           },
           "player": {
             "base": "D8D8D8",
@@ -202,29 +361,54 @@
       },
       "funfacts": [
         {
-          "type_id": 24,
-          "sentence": "Cdef Logrono's away record this season: 2-7-5."
+          "type_id": 25,
+          "sentence": "Nerea Eizaguirre Lasa is Real Sociedad's top scorer with 9 goals. Synne Sofie Kinden Jensen has scored 7 times for Atletico."
         },
         {
-          "type_id": 25,
-          "sentence": "Carmen Alvarez Sanchez is Eibar's top scorer with 4 goals. Isabel Corte Pelaez has scored 7 times for Cdef Logrono."
+          "type_id": 26,
+          "sentence": "A year ago, Real Sociedad were number 7 in the table with 38 points. Now they are number 3 with 63 points."
         },
         {
-          "type_id": 25,
-          "sentence": "Alimata Belem has more yellow cards (6) than any other player at Eibar. Mia Gayle Asenjo Mahabirsingh has collected 5 for Cdef Logrono."
+          "type_id": 23,
+          "sentence": "Last season Atletico won both games against Real Sociedad (1-0 at home and 2-0 away)."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 19,
+          "home": 32
+        },
+        "ball_safe": {
+          "away": 24,
+          "home": 23
+        },
+        "attack_pct": {
+          "away": 17,
+          "home": 27
+        },
+        "ball_safe_pct": {
+          "away": 49,
+          "home": 30
+        },
+        "dangerous_attack": {
+          "away": 11,
+          "home": 23
+        },
+        "dangerous_attack_pct": {
+          "away": 34,
+          "home": 43
+        }
+      },
       "ai_preview": {
-        "text": "**Eibar host Logroño in a dead-rubber finale that could go either way.** Both sides have little to fight for, so expect a scrappy, low-intensity affair on the final day. 🏆\n\nEibar are solid at home (2W 2D recently) but just got hammered 4-0 by Atlético Madrid. Logroño arrive hot off a 4-1 demolition of Levante but stumbled 0-2 at home to Athletic Club last time out. Form's messy for both.\n\nKey storylines:\n\n- **Eibar's home record vs Logroño's away inconsistency** — the hosts have the edge on their patch but nothing's guaranteed\n- **Attack vs defensive stability** — **L. Camino** and **S. M. Díaz** need to threaten, while **M. Asenjo** anchors Logroño's back line\n- **End-of-season fatigue** — neither team has momentum, so efficiency could decide it\n\nExpected lineups:\n\n- **SD Eibar**: E. Astralaga, A. Bélem, P. O. Ramírez, G. Facila, M. Masegur, C. Andrés, A. R. Torres, C. Álvarez, L. Camino, S. M. Díaz\n- **DUX Logroño**: M. Miralles, R. C. d. Silva, M. Masferrer, M. M. Cruz, M. Martín, Isina, C. Ongaro, S. Prat, F. Mawete, M. Asenjo\n\nPrediction:\n\n**Eibar 1–1 Logroño.** Coin flip stuff — lean home advantage, but nothing's clicking for either side.",
-        "generated_at": "2026-05-31T00:45:50.356689+00:00"
+        "text": "**Real Sociedad's looking sharp at home, and Atleti's form is a bit messier** — this could be the kind of Liga F clash where the in-form side punishes sloppiness. 🔴⚪\n\nSociedad have won four of their last five and just put three past Granada at home. Atleti, meanwhile, drew with Tenerife last time out and suffered that derby loss to Real Madrid, so they're not exactly firing on all cylinders.\n\nKey storylines:\n\n- **Real Sociedad's** attack has been clinical lately, especially **C. Lavogez** and **C. Marcos** in the final third\n- **Atleti's** shape under their 3-5-2 gives them defensive cover, but **Lauren** and **A. F. Díaz** will need to stay switched on\n- The midfield battle between **K. Cahynova** and **R. Otermin** could set the tempo early\n\nExpected lineups:\n\n- **Real Sociedad**: J. Arrula, L. Rodríguez, A. V. Moraza, C. Florentino, A. Aguirrezabala, K. Cahynova, P. Fernández, A. Jacinto, A. Aparicio, C. Lavogez, C. Marcos\n- **Club Atlético de Madrid**: L. Gallardo, A. Medina, X. Perez, Lauren, A. F. Díaz, R. Otermin, V. B. Risa, F. Benítez, N. Peñalvo, S. Jensen, A. Sarriegi\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Real Sociedad 2–1 Club Atlético de Madrid**. The model gives a slight edge to the hosts and their current momentum. ⚽",
+        "generated_at": "2026-05-31T00:45:55.049790+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4541,
+      "id": 4543,
       "event": {
-        "id": 9852,
+        "id": 9847,
         "league": {
           "id": 36,
           "name": "Liga F",
@@ -243,43 +427,43 @@
           "name": "Liga F Moeve 25/26",
           "year": 2025
         },
-        "home_team": "Real Sociedad",
-        "away_team": "Club Atlético de Madrid",
+        "home_team": "Costa Adeje Tenerife",
+        "away_team": "Real Club Deportivo de la Coruña",
         "home_team_obj": {
-          "id": 924,
-          "name": "Real Sociedad",
-          "short_name": "R. Sociedad",
+          "id": 912,
+          "name": "Costa Adeje Tenerife",
+          "short_name": "C. Adeje Tenerife",
           "country": "Spain",
           "coach": {
-            "name": "Arturo Ruiz",
-            "shortName": "A. Ruiz"
+            "name": "Yerai Martín",
+            "shortName": "Y. Martín"
           },
           "venue": {
-            "id": 704,
-            "name": "Instalaciones de Zubieta",
-            "city": "San Sebastian",
+            "id": 693,
+            "name": "Estadio Francisco Suarez",
+            "city": "Granadilla de Abona",
             "country": "Spain",
-            "capacity": 2500
+            "capacity": 2000
           }
         },
         "away_team_obj": {
-          "id": 920,
-          "name": "Club Atlético de Madrid",
-          "short_name": "Atlético de Madrid",
+          "id": 915,
+          "name": "Real Club Deportivo de la Coruña",
+          "short_name": "Deportivo",
           "country": "Spain",
           "coach": {
-            "name": "José Ángel Herrera",
-            "shortName": "J. Á. Herrera"
+            "name": "Fran Alonso",
+            "shortName": "F. Alonso"
           },
           "venue": {
-            "id": 700,
-            "name": "Centro Deportivo Wanda",
-            "city": "Alcala de Henares",
+            "id": 696,
+            "name": "Cidade Deportiva de Abegondo",
+            "city": "Abegondo",
             "country": "Spain",
-            "capacity": null
+            "capacity": 1000
           }
         },
-        "event_date": "2026-05-31T14:00:00+04:00",
+        "event_date": "2026-05-31T15:00:00+04:00",
         "round_number": 30,
         "round_name": "",
         "group_name": null,
@@ -290,17 +474,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.1,
-        "odds_draw": 3.44,
-        "odds_away": 2.93,
-        "odds_over_15": 1.18,
-        "odds_over_25": 1.62,
-        "odds_over_35": 2.5,
-        "odds_under_15": 4.13,
-        "odds_under_25": 2.14,
-        "odds_under_35": 1.45,
-        "odds_btts_yes": 1.54,
-        "odds_btts_no": 2.29,
+        "odds_home": 1.43,
+        "odds_draw": 4.17,
+        "odds_away": 5.91,
+        "odds_over_15": 1.19,
+        "odds_over_25": 1.65,
+        "odds_over_35": 2.57,
+        "odds_under_15": 3.95,
+        "odds_under_25": 2.09,
+        "odds_under_35": 1.42,
+        "odds_btts_yes": 1.82,
+        "odds_btts_no": 1.85,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -309,32 +493,32 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 326,
+        "travel_distance_km": 1844,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1884,
-          "name": "Ylenia Sanchez Miguel",
+          "id": 1881,
+          "name": "Alicia Espinosa Rios",
           "country": "Spain",
           "nationality_a3": "",
           "birthdate": null,
-          "yellowCards": 76,
-          "redCards": 2,
+          "yellowCards": 57,
+          "redCards": 0,
           "career_games": 17,
-          "career_yellow_cards": 76,
-          "career_red_cards": 2
+          "career_yellow_cards": 57,
+          "career_red_cards": 0
         },
         "home_coach": {
-          "id": 216,
-          "name": "Arturo Ruiz",
-          "short_name": "A. Ruiz",
+          "id": 167,
+          "name": "Yerai Martín",
+          "short_name": "Y. Martín",
           "country": "Spain",
-          "profile": "attacking",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.7104431324203473,
+          "profile": "balanced",
+          "preferred_formation": "5-3-2",
+          "pressing_intensity": 0.5911676780091637,
           "defensive_line": "mid",
           "top_styles": [
             "gegenpressing",
@@ -342,26 +526,26 @@
           ]
         },
         "away_coach": {
-          "id": 22,
-          "name": "José Ángel Herrera",
-          "short_name": "J. Á. Herrera",
+          "id": 361,
+          "name": "Fran Alonso",
+          "short_name": "F. Alonso",
           "country": "Spain",
-          "profile": "attacking",
-          "preferred_formation": "3-5-2",
-          "pressing_intensity": 0.5676728223396875,
-          "defensive_line": "high",
+          "profile": "balanced",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.7679170284379156,
+          "defensive_line": "mid",
           "top_styles": [
             "chaos_ball",
-            "chaos_football"
+            "gegenpressing"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 704,
-          "name": "Instalaciones de Zubieta",
-          "city": "San Sebastian",
+          "id": 693,
+          "name": "Estadio Francisco Suarez",
+          "city": "Granadilla de Abona",
           "country": "Spain",
-          "capacity": 2500,
+          "capacity": 2000,
           "latitude": null,
           "longitude": null,
           "pitch_x": null,
@@ -378,29 +562,27 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "0099ff",
-              "real": true,
+              "base": "efc131",
+              "real": false,
               "type": "short_sleeves",
               "number": "000000",
-              "sleeve": "0099ff"
+              "sleeve": "333333"
             },
             "player": {
-              "base": "ff0000",
+              "base": "000099",
               "real": true,
               "type": "short_sleeves",
-              "number": "0415f6",
-              "sleeve": "ffffff",
-              "stripes": "ffffff",
-              "sleevelong": "f30000"
+              "number": "ffffff",
+              "sleeve": "ffffff"
             }
           },
           "home": {
             "GK": {
-              "base": "339900",
+              "base": "000000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "339900"
+              "sleeve": "000000"
             },
             "player": {
               "base": "D8D8D8",
@@ -414,40 +596,40 @@
         "funfacts": [
           {
             "type_id": 25,
-            "sentence": "Nerea Eizaguirre Lasa is Real Sociedad's top scorer with 9 goals. Synne Sofie Kinden Jensen has scored 7 times for Atletico."
+            "sentence": "Fatou Dembele has more yellow cards (6) than any other player at Tenerife. Lucia Martinez has collected 6 for Deportivo De La Coruna."
           },
           {
-            "type_id": 26,
-            "sentence": "A year ago, Real Sociedad were number 7 in the table with 38 points. Now they are number 3 with 63 points."
+            "type_id": 6,
+            "sentence": "During the last 5 meetings with Tenerife playing at home, Tenerife have won 3 times, there have been 1 draws while Deportivo De La Coruna have won 1 times. The goal difference is 14-9 in favour of Tenerife."
           },
           {
             "type_id": 23,
-            "sentence": "Last season Atletico won both games against Real Sociedad (1-0 at home and 2-0 away)."
+            "sentence": "Last season's matches: 5-1 (Tenerife at home) and 0-0 (Deportivo De La Coruna at home)."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Real Sociedad's looking sharp at home, and Atleti's form is a bit messier** — this could be the kind of Liga F clash where the in-form side punishes sloppiness. 🔴⚪\n\nSociedad have won four of their last five and just put three past Granada at home. Atleti, meanwhile, drew with Tenerife last time out and suffered that derby loss to Real Madrid, so they're not exactly firing on all cylinders.\n\nKey storylines:\n\n- **Real Sociedad's** attack has been clinical lately, especially **C. Lavogez** and **C. Marcos** in the final third\n- **Atleti's** shape under their 3-5-2 gives them defensive cover, but **Lauren** and **A. F. Díaz** will need to stay switched on\n- The midfield battle between **K. Cahynova** and **R. Otermin** could set the tempo early\n\nExpected lineups:\n\n- **Real Sociedad**: J. Arrula, L. Rodríguez, A. V. Moraza, C. Florentino, A. Aguirrezabala, K. Cahynova, P. Fernández, A. Jacinto, A. Aparicio, C. Lavogez, C. Marcos\n- **Club Atlético de Madrid**: L. Gallardo, A. Medina, X. Perez, Lauren, A. F. Díaz, R. Otermin, V. B. Risa, F. Benítez, N. Peñalvo, S. Jensen, A. Sarriegi\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Real Sociedad 2–1 Club Atlético de Madrid**. The model gives a slight edge to the hosts and their current momentum. ⚽",
-          "generated_at": "2026-05-31T00:45:55.049790+00:00"
+          "text": "**Both sides hunting for form in a dead-rubber clash.** With the season winding down and little to play for, this feels like the kind of match where momentum matters more than the standings. 🔥\n\nCosta Adeje Tenerife's been grinding out results — three draws in their last five is classic mid-table resilience — while Depor have wobbled with two losses mixed in. The visitors' road form is shaky; Tenerife at home could be the edge they need.\n\nKey storylines:\n\n- **Costa Adeje's back line** (Cáceres, Vergés, Quiles leading a 5-3-2) is built to soak pressure and spring attacks; Depor's 4-3-3 will need movement to unlock them.\n- **Depor's attacking duo** of Pizarro and Latorre have shown flashes but consistency is the problem — especially away from home.\n- This teams drew last time; expect another cagey affair where set pieces could be the difference.\n\nExpected lineups:\n\n- **Costa Adeje Tenerife**: N. Cáceres, E. Vergés, P. G. Collado, V. Quiles, A. Zaremba, F. Dembele, N. R. Álvarez, B. Flores, P. Hernández, S. O. Diki, C. Suárez\n- **Real Club Deportivo de la Coruña**: I. Pereira, S. Ortíz, V. Martínez, R. G. Yagüe, M. Barth, P. Gutiérrez, L. M. González, O. Rodríguez, A. Marín, E. Pizarro, B. Latorre\n\nPrediction:\n\n**Costa Adeje 1–0 Depor.** Slight lean to the hosts — better form, home comforts, and Depor's road woes add up. 📍",
+          "generated_at": "2026-05-31T00:46:10.865304+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-25T06:20:20.377786+04:00",
-      "prob_home_win": 43.287471998400775,
-      "prob_draw": 22.285115611678087,
-      "prob_away_win": 34.42741238992114,
+      "created_at": "2026-05-25T06:20:22.387883+04:00",
+      "prob_home_win": 52.03306987592106,
+      "prob_draw": 25.928649011409004,
+      "prob_away_win": 22.03828111266993,
       "predicted_result": "H",
-      "expected_home_goals": 2,
-      "expected_away_goals": 1.7,
-      "prob_over_15": 80.88364700478071,
-      "prob_over_25": 57.524647727133996,
-      "prob_over_35": 38.92025606108508,
-      "prob_btts_yes": 54.00190213612055,
-      "confidence": 43.287471998400775,
+      "expected_home_goals": 1.2,
+      "expected_away_goals": 0.8999999999999999,
+      "prob_over_15": 73.6835693988337,
+      "prob_over_25": 39.66552363122274,
+      "prob_over_35": 26.017477294037487,
+      "prob_btts_yes": 31.801656238435093,
+      "confidence": 52.03306987592106,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
+      "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 43.287471998400775,
+      "favorite_prob": 52.03306987592106,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
