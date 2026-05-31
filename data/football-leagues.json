@@ -1,10 +1,15 @@
 {
-  "generatedAt": "2026-05-31T00:06:14.943Z",
+  "generatedAt": "2026-05-31T05:05:14.423Z",
   "count": 50,
   "items": [
     {
+      "id": 68,
+      "name": "AFC Asian Cup 2023",
+      "country": "Asia"
+    },
+    {
       "id": 30,
-      "name": "Africa Cup of Nations 2025",
+      "name": "Africa Cup of Nations 2023",
       "country": "Africa",
       "season": {
         "id": 211,
@@ -121,9 +126,19 @@
       }
     },
     {
+      "id": 69,
+      "name": "CONCACAF Gold Cup 2025",
+      "country": "North America"
+    },
+    {
       "id": 65,
       "name": "CONCACAF Nations League",
       "country": "North America"
+    },
+    {
+      "id": 67,
+      "name": "Copa America 2024",
+      "country": "South America"
     },
     {
       "id": 41,
@@ -453,42 +468,6 @@
       "id": 56,
       "name": "Suomen Cup",
       "country": "Finland"
-    },
-    {
-      "id": 15,
-      "name": "Super League",
-      "country": "Switzerland",
-      "season": {
-        "id": 371,
-        "name": "Super League 25/26",
-        "year": 2025,
-        "start_date": "2025-07-01",
-        "end_date": "2026-06-30"
-      }
-    },
-    {
-      "id": 23,
-      "name": "Superliga",
-      "country": "Romania",
-      "season": {
-        "id": 374,
-        "name": "Superliga 25/26",
-        "year": 2025,
-        "start_date": "2025-07-01",
-        "end_date": "2026-06-30"
-      }
-    },
-    {
-      "id": 11,
-      "name": "Trendyol Super Lig",
-      "country": "Turkey",
-      "season": {
-        "id": 380,
-        "name": "Super Lig 25/26",
-        "year": 2025,
-        "start_date": "2025-07-01",
-        "end_date": "2026-06-30"
-      }
     }
   ]
 }
