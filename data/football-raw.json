@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T01:40:48.946Z",
+  "generatedAt": "2026-06-01T07:06:45.419Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,607 +21,106 @@
   ],
   "samples": {
     "event": {
-      "id": 7171,
+      "id": 209427,
       "league": {
-        "id": 9,
-        "name": "Brasileirão Serie A",
-        "country": "Brazil",
+        "id": 31,
+        "name": "International Friendly Games",
+        "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 28,
-          "name": "Brasileiro Serie A 2026",
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 28,
-        "name": "Brasileiro Serie A 2026",
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Remo",
-      "away_team": "São Paulo",
+      "home_team": "Pakistan",
+      "away_team": "Bangladesh U23",
       "home_team_obj": {
-        "id": 372,
-        "name": "Remo",
-        "short_name": "Remo",
-        "country": "Brazil",
+        "id": 2258,
+        "name": "Pakistan",
+        "short_name": "Pakistan",
+        "country": "Pakistan",
         "coach": {
-          "name": "Léo Condé",
-          "shortName": "L. Condé"
+          "name": "Nolberto Solano",
+          "shortName": "N. Solano"
         },
-        "venue": {
-          "id": 352,
-          "name": "Estádio Banpará Baenão",
-          "city": "Belem",
-          "country": "Brazil",
-          "capacity": 13792
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 158,
-        "name": "São Paulo",
-        "short_name": "São Paulo",
-        "country": "Brazil",
-        "coach": {
-          "name": "Dorival Júnior",
-          "shortName": "D. Júnior"
-        },
-        "venue": {
-          "id": 156,
-          "name": "MorumBIS",
-          "city": "Sao Paulo",
-          "country": "Brazil",
-          "capacity": 66795
-        }
+        "id": 2310,
+        "name": "Bangladesh U23",
+        "short_name": "Bangladesh U23",
+        "country": "Bangladesh",
+        "coach": null,
+        "venue": null
       },
-      "event_date": "2026-06-01T03:30:00+04:00",
-      "round_number": 18,
+      "event_date": "2026-06-01T15:00:00+04:00",
+      "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 1,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 90,
-      "period": "FT",
-      "odds_home": 3,
-      "odds_draw": 3.19,
-      "odds_away": 2.37,
-      "odds_over_15": 1.34,
-      "odds_over_25": 2.11,
-      "odds_over_35": 3.72,
-      "odds_under_15": 3.02,
-      "odds_under_25": 1.7,
-      "odds_under_35": 1.25,
-      "odds_btts_yes": 1.83,
-      "odds_btts_no": 1.91,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": null,
+      "odds_draw": null,
+      "odds_away": null,
+      "odds_over_15": null,
+      "odds_over_25": null,
+      "odds_over_35": null,
+      "odds_under_15": null,
+      "odds_under_25": null,
+      "odds_under_35": null,
+      "odds_btts_yes": null,
+      "odds_btts_no": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.75,
-      "away_xg_live": 1.04,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 1,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 1840,
-        "name": "Jonathan Benkenstein Pinheiro",
-        "country": "Brazil",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 201,
-        "redCards": 12,
-        "career_games": 52,
-        "career_yellow_cards": 201,
-        "career_red_cards": 12
-      },
+      "referee": null,
       "home_coach": {
-        "id": 157,
-        "name": "Léo Condé",
-        "short_name": "L. Condé",
-        "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4452300653095128,
-        "defensive_line": "mid",
-        "top_styles": [
-          "park_the_bus",
-          "low_counter"
-        ]
+        "id": 1681,
+        "name": "Nolberto Solano",
+        "short_name": "N. Solano",
+        "country": "",
+        "profile": "",
+        "preferred_formation": "",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
-      "away_coach": {
-        "id": 1579,
-        "name": "Dorival Júnior",
-        "short_name": "D. Júnior",
-        "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.563475344271262,
-        "defensive_line": "high",
-        "top_styles": [
-          "ball_dominant",
-          "tiki_taka"
-        ]
+      "away_coach": null,
+      "unavailable_players": null,
+      "venue": null,
+      "live_stats": null,
+      "jerseys": null,
+      "funfacts": null,
+      "sr_stats": null,
+      "ai_preview": {
+        "text": "**Pakistan's in free fall — Bangladesh U23 comes calling with a golden chance to pile on.** 🔴\n\nPakistan have dropped five straight with a brutal goal differential (0-18), getting absolutely dismantled by Tajikistan, Saudi Arabia, and Jordan. Bangladesh U23, meanwhile, are the relative underdogs here but walk in fresh. This is the kind of match where a struggling side either fights back hard or gets exposed further.\n\nKey storylines:\n\n- **Pakistan** desperately need to stop the bleeding and show some spine after conceding 7 to Jordan\n- This is a **Bangladesh U23** squad that could exploit a vulnerable defense if Pakistan don't tighten up\n- Defensive shape will be everything — whoever organizes the back line better likely runs away with this\n\nExpected lineups:\n\n- **Pakistan**: Faheem Ashraf, Hassan Nawaz, Muhammad Hasnain, Iftikhar Ahmed, Shadab Khan, Imam-ul-Haq, and others TBA\n- **Bangladesh U23**: Squad TBA\n\nPrediction:\n\n**Pakistan 2-1 Bangladesh U23**\n\nPakistan have hit rock bottom and should respond with urgency at home. Expect a tighter display and a narrow win to stop the rot. 📈",
+        "generated_at": "2026-06-01T01:45:17.322420+00:00"
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Alef Manga",
-            "status": "doubtful",
-            "reason": "Shoulder Injury",
-            "expected_return": "2026-06-15"
-          },
-          {
-            "name": "Eduardo Melo",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Gabriel Taliari",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Jajá",
-            "status": "suspended",
-            "reason": "red_card_suspension",
-            "expected_return": "2026-06-01"
-          },
-          {
-            "name": "João Lucas",
-            "status": "injured",
-            "reason": "Meniscus Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Kayky Almeida",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Marcelo Rangel",
-            "status": "injured",
-            "reason": "Medial Collateral Ligament Injury",
-            "expected_return": "2026-07-10"
-          },
-          {
-            "name": "Patrick de Paula",
-            "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Thalisson Gabriel",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-06-10"
-          }
-        ],
-        "away": [
-          {
-            "name": "Cauly",
-            "status": "injured",
-            "reason": "Groin Injury",
-            "expected_return": "2026-06-20"
-          },
-          {
-            "name": "Damián Bobadilla",
-            "status": "injured",
-            "reason": "Knee Injury",
-            "expected_return": "2026-06-20"
-          },
-          {
-            "name": "Luciano",
-            "status": "suspended",
-            "reason": "yellow_card_accumulation_suspension",
-            "expected_return": "2026-06-01"
-          },
-          {
-            "name": "Maik",
-            "status": "injured",
-            "reason": "",
-            "expected_return": null
-          },
-          {
-            "name": "Marcos Antônio",
-            "status": "doubtful",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-13"
-          },
-          {
-            "name": "Pablo Maia",
-            "status": "doubtful",
-            "reason": "Broken Nose",
-            "expected_return": "2026-06-06"
-          },
-          {
-            "name": "Rafael Tolói",
-            "status": "injured",
-            "reason": "Calf Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Ryan Francisco",
-            "status": "injured",
-            "reason": "Cruciate Ligament Injury",
-            "expected_return": "2026-06-10"
-          },
-          {
-            "name": "Sabino",
-            "status": "injured",
-            "reason": "Thigh Injury",
-            "expected_return": "2026-06-20"
-          },
-          {
-            "name": "Wendell",
-            "status": "suspended",
-            "reason": "yellow_card_accumulation_suspension",
-            "expected_return": "2026-06-01"
-          }
-        ]
-      },
-      "venue": {
-        "id": 352,
-        "name": "Estádio Banpará Baenão",
-        "city": "Belem",
-        "country": "Brazil",
-        "capacity": 13792,
-        "latitude": -1.445161,
-        "longitude": -48.466038,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
-      },
-      "live_stats": {
-        "away": {
-          "duels": 40,
-          "fouls": 14,
-          "passes": 467,
-          "crosses": "5/22 (23%)",
-          "punches": 0,
-          "tackles": 6,
-          "dribbles": "5/16 (31%)",
-          "offsides": 0,
-          "big_saves": 0,
-          "throw_ins": 23,
-          "clearances": 25,
-          "free_kicks": 7,
-          "goal_kicks": 7,
-          "long_balls": "23/40 (57%)",
-          "recoveries": 38,
-          "big_chances": 2,
-          "high_claims": 3,
-          "tackles_won": 100,
-          "total_saves": 1,
-          "total_shots": 9,
-          "aerial_duels": "15/28 (54%)",
-          "corner_kicks": 7,
-          "dispossessed": 6,
-          "ground_duels": "17/52 (33%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 2,
-          "blocked_shots": 1,
-          "interceptions": 3,
-          "through_balls": 2,
-          "total_tackles": 6,
-          "expected_goals": 1.04,
-          "accurate_passes": 408,
-          "ball_possession": 60,
-          "goals_prevented": -0.8,
-          "shots_on_target": 4,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 6,
-          "shots_off_target": 4,
-          "final_third_phase": "71/93 (76%)",
-          "shots_outside_box": 3,
-          "big_chances_missed": 2,
-          "final_third_entries": 36,
-          "errors_lead_to_a_shot": 1,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 20
-        },
-        "home": {
-          "duels": 62,
-          "fouls": 7,
-          "passes": 299,
-          "crosses": "3/23 (13%)",
-          "punches": 2,
-          "tackles": 17,
-          "dribbles": "4/7 (57%)",
-          "offsides": 2,
-          "big_saves": 2,
-          "throw_ins": 10,
-          "clearances": 28,
-          "free_kicks": 14,
-          "goal_kicks": 9,
-          "long_balls": "18/39 (46%)",
-          "recoveries": 41,
-          "big_chances": 1,
-          "high_claims": 0,
-          "tackles_won": 82,
-          "total_saves": 4,
-          "total_shots": 9,
-          "aerial_duels": "13/26 (50%)",
-          "corner_kicks": 6,
-          "dispossessed": 3,
-          "ground_duels": "35/52 (67%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 1,
-          "blocked_shots": 3,
-          "interceptions": 11,
-          "through_balls": 0,
-          "total_tackles": 17,
-          "expected_goals": 0.75,
-          "accurate_passes": 253,
-          "ball_possession": 40,
-          "goals_prevented": 0.68,
-          "shots_on_target": 2,
-          "goalkeeper_saves": 4,
-          "shots_inside_box": 5,
-          "shots_off_target": 4,
-          "final_third_phase": "53/79 (67%)",
-          "shots_outside_box": 4,
-          "big_chances_missed": 1,
-          "final_third_entries": 42,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 4,
-          "touches_in_penalty_area": 7
-        },
-        "first_half": {
-          "away": {
-            "duels": 36,
-            "fouls": 4,
-            "passes": 256,
-            "crosses": "1/14 (7%)",
-            "tackles": 2,
-            "dribbles": "1/9 (11%)",
-            "offsides": 0,
-            "throw_ins": 10,
-            "clearances": 10,
-            "free_kicks": 4,
-            "goal_kicks": 3,
-            "long_balls": "12/18 (67%)",
-            "recoveries": 22,
-            "big_chances": 1,
-            "tackles_won": 100,
-            "total_saves": 0,
-            "total_shots": 7,
-            "aerial_duels": "6/13 (46%)",
-            "corner_kicks": 5,
-            "dispossessed": 3,
-            "ground_duels": "7/23 (30%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 2,
-            "blocked_shots": 1,
-            "interceptions": 1,
-            "through_balls": 1,
-            "total_tackles": 2,
-            "expected_goals": 0.78,
-            "accurate_passes": 231,
-            "ball_possession": 62,
-            "shots_on_target": 4,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 3,
-            "big_chances_missed": 1,
-            "final_third_entries": 18,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 64,
-            "fouls": 4,
-            "passes": 156,
-            "crosses": "2/10 (20%)",
-            "tackles": 11,
-            "dribbles": "1/1 (100%)",
-            "offsides": 0,
-            "throw_ins": 4,
-            "clearances": 19,
-            "free_kicks": 4,
-            "goal_kicks": 3,
-            "long_balls": "5/18 (28%)",
-            "recoveries": 26,
-            "big_chances": 1,
-            "tackles_won": 82,
-            "total_saves": 4,
-            "total_shots": 3,
-            "aerial_duels": "7/13 (54%)",
-            "corner_kicks": 2,
-            "dispossessed": 2,
-            "ground_duels": "16/23 (70%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 6,
-            "through_balls": 0,
-            "total_tackles": 11,
-            "expected_goals": 0.58,
-            "accurate_passes": 131,
-            "ball_possession": 38,
-            "shots_on_target": 0,
-            "goalkeeper_saves": 4,
-            "shots_inside_box": 1,
-            "shots_off_target": 2,
-            "shots_outside_box": 2,
-            "big_chances_missed": 1,
-            "final_third_entries": 19,
-            "fouled_in_final_third": 2
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 43,
-            "fouls": 10,
-            "passes": 211,
-            "crosses": "4/8 (50%)",
-            "tackles": 4,
-            "dribbles": "4/7 (57%)",
-            "offsides": 0,
-            "throw_ins": 13,
-            "clearances": 15,
-            "free_kicks": 3,
-            "goal_kicks": 4,
-            "long_balls": "11/22 (50%)",
-            "recoveries": 16,
-            "big_chances": 1,
-            "tackles_won": 100,
-            "total_saves": 1,
-            "total_shots": 2,
-            "aerial_duels": "9/15 (60%)",
-            "corner_kicks": 2,
-            "dispossessed": 3,
-            "ground_duels": "10/29 (34%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 0,
-            "interceptions": 2,
-            "through_balls": 1,
-            "total_tackles": 4,
-            "expected_goals": 0.26,
-            "accurate_passes": 177,
-            "ball_possession": 59,
-            "shots_on_target": 0,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 2,
-            "shots_off_target": 2,
-            "shots_outside_box": 0,
-            "big_chances_missed": 1,
-            "final_third_entries": 18,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 60,
-            "fouls": 3,
-            "passes": 143,
-            "crosses": "1/13 (8%)",
-            "tackles": 6,
-            "dribbles": "3/6 (50%)",
-            "offsides": 2,
-            "throw_ins": 6,
-            "clearances": 9,
-            "free_kicks": 10,
-            "goal_kicks": 6,
-            "long_balls": "13/21 (62%)",
-            "recoveries": 15,
-            "big_chances": 0,
-            "tackles_won": 83,
-            "total_saves": 0,
-            "total_shots": 6,
-            "aerial_duels": "6/13 (46%)",
-            "corner_kicks": 4,
-            "dispossessed": 1,
-            "ground_duels": "19/29 (66%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 2,
-            "interceptions": 5,
-            "through_balls": 0,
-            "total_tackles": 6,
-            "expected_goals": 0.17,
-            "accurate_passes": 122,
-            "ball_possession": 41,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 2,
-            "big_chances_missed": 0,
-            "final_third_entries": 23,
-            "fouled_in_final_third": 2
-          }
-        }
-      },
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "99bfd4",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "93c0d5"
-          },
-          "player": {
-            "base": "ffffff",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "ffffff",
-            "sleevelong": "ffffff"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "953741",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff"
-          },
-          "player": {
-            "base": "000000",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff",
-            "sleevelong": "000000"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 1,
-          "sentence": "Sao Paulo haven't won in their last 8 games."
-        },
-        {
-          "type_id": 24,
-          "sentence": "Remo's home record this season: 1-4-3."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Sao Paulo haven't won any of their last 7 away matches."
-        }
-      ],
-      "sr_stats": {
-        "attack": {
-          "away": 85,
-          "home": 96
-        },
-        "ball_safe": {
-          "away": 95,
-          "home": 76
-        },
-        "attack_pct": {
-          "away": 16,
-          "home": 28
-        },
-        "ball_safe_pct": {
-          "away": 58,
-          "home": 42
-        },
-        "dangerous_attack": {
-          "away": 49,
-          "home": 55
-        },
-        "dangerous_attack_pct": {
-          "away": 26,
-          "home": 30
-        }
-      },
-      "ai_preview": null,
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
       "id": 4591,
@@ -671,12 +170,12 @@
         "current_minute": null,
         "period": "",
         "odds_home": 2.41,
-        "odds_draw": 2.9,
+        "odds_draw": 2.91,
         "odds_away": 2.9,
         "odds_over_15": 1.4,
         "odds_over_25": 2.27,
-        "odds_over_35": 4.13,
-        "odds_under_15": 2.67,
+        "odds_over_35": 4.14,
+        "odds_under_15": 2.68,
         "odds_under_25": 1.56,
         "odds_under_35": 1.19,
         "odds_btts_yes": 1.92,
@@ -779,8 +278,8 @@
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Kawkab comes to Touarga looking to keep the momentum rolling** — the visitors have won three of their last five and hold the recent head-to-head edge. 🔥\n\nUnion Touarga are stuttering hard with just two wins in their last five, including back-to-back defeats that included a rough 3-4 loss away at RS Berkane. Kawkab, meanwhile, breezed past CODM Meknès 3-1 at home and look sharper going forward.\n\nKey storylines:\n\n- **Kawkab's attacking threat**: Y. Zghoudi and S. Cissé have been clinical up top, but Union Touarga's defense anchored by M. Ashabi will need to stay compact\n- **Union's home struggles**: They've leaked goals at home recently (0-1 to MAS de Fès) and face a confident visitor with momentum on their side\n- **Midfield battle**: W. Rhailouf and Y. Dahmani hold the key for Touarga's creativity, but **G. Claude** and H. Rafa's control for Kawkab looks like the edge here\n\nExpected lineups:\n\n- **Union Touarga Sport**: H. Bouelainine, F. Zahouani, M. Ashabi, H. Regragui, T. Majni, Y. Dahmani, M. A. Essahel, W. Rhailouf, M. Fouzair, R. Lamkadem, N. Moustaghfir\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, H. Fassoukh, H. Smaali, R. Mennioui, H. E. Janati, G. Claude, H. Rafa, N. Lougmani, Y. Riani, Y. Zghoudi, S. Cissé\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **Kawkab 2-0** — cleaner execution and recent form give them a slight lean. ⚽",
-          "generated_at": "2026-05-31T16:45:35.918025+00:00"
+          "text": "**Kawkab's heading to Touarga hungry — and they're the side in form heading into this Botola Pro clash.** 🔥\n\nUnion Touarga are stuttering with just two wins in their last five, while **Kawkab Athletic** have won three of their last four and smell weakness. The visitor's got momentum and the head-to-head edge too.\n\nKey storylines:\n\n- **Kawkab Athletic** riding a three-win streak and cruising against softer opposition of late\n- **Union Touarga's** defensive woes — conceding four to RS Berkane shows fragility at the back\n- Touarga need **F. Zahouani** and **N. Moustaghfir** to spark something up top or this gets ugly fast\n\nExpected lineups:\n\n- **Union Touarga Sport**: H. Bouelainine, R. Lamkadem, M. Ashabi, H. Regragui, T. Majni, Y. Dahmani, M. A. Essahel, W. Rhailouf, M. Fouzair, F. Zahouani, N. Moustaghfir\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, H. Fassoukh, H. Smaali, R. Mennioui, J. Omurwa, G. Claude, H. Rafa, N. Lougmani, Y. Riani, Y. Zghoudi, S. Cissé\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kawkab 2–0 Touarga** — Marrakech's in-form side has the edge and should control this one comfortably. 💪",
+          "generated_at": "2026-06-01T02:45:17.654230+00:00"
         },
         "live_websocket": true
       },
