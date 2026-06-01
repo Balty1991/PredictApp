@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T19:09:35.444Z",
+  "generatedAt": "2026-06-01T22:21:26.419Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,77 +21,61 @@
   ],
   "samples": {
     "event": {
-      "id": 9248,
+      "id": 207485,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": 53,
+        "name": "Botola Pro",
+        "country": "Morocco",
         "is_women": false,
-        "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
-        "year": 2026
-      },
-      "home_team": "Norway",
-      "away_team": "Sweden",
+      "season": null,
+      "home_team": "CODM Meknès",
+      "away_team": "Olympique Dcheira",
       "home_team_obj": {
-        "id": 488,
-        "name": "Norway",
-        "short_name": "Norway",
-        "country": "Norway",
+        "id": 2070,
+        "name": "CODM Meknès",
+        "short_name": "CODM",
+        "country": "Morocco",
         "coach": {
-          "name": "Ståle Solbakken",
-          "shortName": "S. Solbakken"
-        },
-        "venue": {
-          "id": 444,
-          "name": "Ullevaal",
-          "city": "Oslo",
-          "country": "Norway",
-          "capacity": 28000
-        }
-      },
-      "away_team_obj": {
-        "id": 731,
-        "name": "Sweden",
-        "short_name": "Sweden",
-        "country": "Sweden",
-        "coach": {
-          "name": "Graham Potter",
-          "shortName": "G. Potter"
+          "name": "Abdelaziz Dnibi",
+          "shortName": "A. Dnibi"
         },
         "venue": null
       },
-      "event_date": "2026-06-01T21:00:00+04:00",
-      "round_number": null,
+      "away_team_obj": {
+        "id": 2063,
+        "name": "Olympique Dcheira",
+        "short_name": "",
+        "country": "Morocco",
+        "coach": {
+          "name": "Bouchaib El Moubarki",
+          "shortName": "B. E. Moubarki"
+        },
+        "venue": null
+      },
+      "event_date": "2026-06-02T00:00:00+04:00",
+      "round_number": 22,
       "round_name": "",
       "group_name": null,
       "status": "finished",
-      "home_score": 3,
+      "home_score": 2,
       "away_score": 1,
-      "home_score_ht": 3,
+      "home_score_ht": 2,
       "away_score_ht": 0,
       "current_minute": 90,
       "period": "FT",
-      "odds_home": 1.7,
-      "odds_draw": 3.94,
-      "odds_away": 4.44,
-      "odds_over_15": 1.2,
-      "odds_over_25": 1.64,
-      "odds_over_35": 2.58,
-      "odds_under_15": 4.28,
-      "odds_under_25": 2.18,
-      "odds_under_35": 1.47,
-      "odds_btts_yes": 1.65,
-      "odds_btts_no": 2.15,
+      "odds_home": 2.01,
+      "odds_draw": 3,
+      "odds_away": 3.61,
+      "odds_over_15": 1.5,
+      "odds_over_25": 2.5,
+      "odds_over_35": 4.93,
+      "odds_under_15": 2.42,
+      "odds_under_25": 1.46,
+      "odds_under_35": 1.14,
+      "odds_btts_yes": 2.21,
+      "odds_btts_no": 1.59,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -101,418 +85,181 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 2,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
       "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 77,
-        "name": "Ståle Solbakken",
-        "short_name": "S. Solbakken",
-        "country": "Norway",
+        "id": 1488,
+        "name": "Abdelaziz Dnibi",
+        "short_name": "A. Dnibi",
+        "country": "",
         "profile": "defensive",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.5274508724057064,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "anti_football"
+        ]
       },
       "away_coach": {
-        "id": 574,
-        "name": "Graham Potter",
-        "short_name": "G. Potter",
-        "country": "England",
-        "profile": "",
-        "preferred_formation": "",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "id": 1650,
+        "name": "Bouchaib El Moubarki",
+        "short_name": "B. E. Moubarki",
+        "country": "Morocco",
+        "profile": "defensive",
+        "preferred_formation": "4-4-2",
+        "pressing_intensity": 0.2643374067736043,
+        "defensive_line": "high",
+        "top_styles": [
+          "terrorist_fb",
+          "anti_football"
+        ]
       },
-      "unavailable_players": null,
-      "venue": {
-        "id": 444,
-        "name": "Ullevaal",
-        "city": "Oslo",
-        "country": "Norway",
-        "capacity": 28000,
-        "latitude": 59.949,
-        "longitude": 10.734333,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
-      },
-      "live_stats": {
-        "away": {
-          "duels": 40,
-          "fouls": 6,
-          "passes": 478,
-          "crosses": "0/2 (0%)",
-          "tackles": 13,
-          "dribbles": "4/9 (44%)",
-          "offsides": 2,
-          "big_saves": 0,
-          "throw_ins": 14,
-          "clearances": 31,
-          "free_kicks": 6,
-          "goal_kicks": 12,
-          "long_balls": "16/34 (47%)",
-          "recoveries": 39,
-          "big_chances": 1,
-          "high_claims": 0,
-          "tackles_won": 69,
-          "total_saves": 4,
-          "total_shots": 9,
-          "aerial_duels": "8/18 (44%)",
-          "corner_kicks": 1,
-          "dispossessed": 10,
-          "ground_duels": "23/59 (39%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 2,
-          "interceptions": 6,
-          "total_tackles": 13,
-          "accurate_passes": 424,
-          "ball_possession": 47,
-          "shots_on_target": 5,
-          "goalkeeper_saves": 4,
-          "shots_inside_box": 7,
-          "shots_off_target": 2,
-          "final_third_phase": "55/72 (76%)",
-          "shots_outside_box": 2,
-          "big_chances_missed": 1,
-          "big_chances_scored": 1,
-          "final_third_entries": 26,
-          "errors_lead_to_a_goal": 1,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 0,
-          "touches_in_penalty_area": 13
-        },
-        "home": {
-          "duels": 59,
-          "fouls": 6,
-          "passes": 531,
-          "crosses": "7/26 (27%)",
-          "tackles": 14,
-          "dribbles": "16/23 (70%)",
-          "offsides": 2,
-          "big_saves": 2,
-          "throw_ins": 18,
-          "clearances": 7,
-          "free_kicks": 6,
-          "goal_kicks": 2,
-          "long_balls": "31/48 (65%)",
-          "recoveries": 46,
-          "big_chances": 4,
-          "high_claims": 1,
-          "tackles_won": 71,
-          "total_saves": 3,
-          "total_shots": 22,
-          "aerial_duels": "10/18 (56%)",
-          "corner_kicks": 6,
-          "dispossessed": 6,
-          "ground_duels": "35/58 (60%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 0,
-          "blocked_shots": 7,
-          "interceptions": 5,
-          "total_tackles": 14,
-          "accurate_passes": 467,
-          "ball_possession": 53,
-          "shots_on_target": 7,
-          "goalkeeper_saves": 3,
-          "shots_inside_box": 19,
-          "shots_off_target": 8,
-          "final_third_phase": "131/160 (82%)",
-          "shots_outside_box": 3,
-          "big_chances_missed": 2,
-          "big_chances_scored": 2,
-          "final_third_entries": 46,
-          "errors_lead_to_a_goal": 0,
-          "errors_lead_to_a_shot": 1,
-          "fouled_in_final_third": 1,
-          "touches_in_penalty_area": 44
-        },
-        "first_half": {
-          "away": {
-            "duels": 36,
-            "fouls": 3,
-            "passes": 230,
-            "crosses": "0/0 (0%)",
-            "tackles": 7,
-            "dribbles": "2/3 (67%)",
-            "offsides": 1,
-            "throw_ins": 6,
-            "clearances": 22,
-            "free_kicks": 4,
-            "goal_kicks": 6,
-            "long_balls": "6/15 (40%)",
-            "recoveries": 21,
-            "big_chances": 1,
-            "tackles_won": 86,
-            "total_saves": 2,
-            "total_shots": 4,
-            "aerial_duels": "3/9 (33%)",
-            "corner_kicks": 0,
-            "dispossessed": 9,
-            "ground_duels": "13/35 (37%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 1,
-            "interceptions": 4,
-            "total_tackles": 7,
-            "accurate_passes": 197,
-            "ball_possession": 43,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 0,
-            "big_chances_missed": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 11,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 64,
-            "fouls": 4,
-            "passes": 292,
-            "crosses": "5/16 (31%)",
-            "tackles": 10,
-            "dribbles": "9/11 (82%)",
-            "offsides": 0,
-            "throw_ins": 11,
-            "clearances": 4,
-            "free_kicks": 3,
-            "goal_kicks": 1,
-            "long_balls": "16/25 (64%)",
-            "recoveries": 24,
-            "big_chances": 4,
-            "tackles_won": 70,
-            "total_saves": 1,
-            "total_shots": 12,
-            "aerial_duels": "6/9 (67%)",
-            "corner_kicks": 2,
-            "dispossessed": 5,
-            "ground_duels": "22/35 (63%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 4,
-            "interceptions": 2,
-            "total_tackles": 10,
-            "accurate_passes": 252,
-            "ball_possession": 57,
-            "shots_on_target": 5,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 11,
-            "shots_off_target": 3,
-            "shots_outside_box": 1,
-            "big_chances_missed": 2,
-            "big_chances_scored": 2,
-            "final_third_entries": 26,
-            "fouled_in_final_third": 1
+      "unavailable_players": {
+        "home": [
+          {
+            "name": "Achraf Hmaidou",
+            "status": "suspended",
+            "reason": "yellow_card_accumulation_suspension",
+            "expected_return": "2026-06-01"
           }
-        },
-        "second_half": {
-          "away": {
-            "duels": 45,
-            "fouls": 3,
-            "passes": 248,
-            "crosses": "0/2 (0%)",
-            "tackles": 6,
-            "dribbles": "2/6 (33%)",
-            "offsides": 1,
-            "throw_ins": 8,
-            "clearances": 9,
-            "free_kicks": 2,
-            "goal_kicks": 6,
-            "long_balls": "10/19 (53%)",
-            "recoveries": 18,
-            "big_chances": 1,
-            "tackles_won": 50,
-            "total_saves": 2,
-            "total_shots": 5,
-            "aerial_duels": "5/9 (56%)",
-            "corner_kicks": 1,
-            "dispossessed": 1,
-            "ground_duels": "10/24 (42%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 2,
-            "interceptions": 2,
-            "total_tackles": 6,
-            "accurate_passes": 227,
-            "ball_possession": 50,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 3,
-            "shots_off_target": 1,
-            "shots_outside_box": 2,
-            "big_chances_missed": 0,
-            "big_chances_scored": 1,
-            "final_third_entries": 15,
-            "fouled_in_final_third": 0
-          },
-          "home": {
-            "duels": 53,
-            "fouls": 2,
-            "passes": 239,
-            "crosses": "2/10 (20%)",
-            "tackles": 4,
-            "dribbles": "7/12 (58%)",
-            "offsides": 2,
-            "throw_ins": 7,
-            "clearances": 3,
-            "free_kicks": 3,
-            "goal_kicks": 1,
-            "long_balls": "15/23 (65%)",
-            "recoveries": 22,
-            "big_chances": 1,
-            "tackles_won": 75,
-            "total_saves": 2,
-            "total_shots": 10,
-            "aerial_duels": "4/9 (44%)",
-            "corner_kicks": 4,
-            "dispossessed": 1,
-            "ground_duels": "13/23 (57%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 0,
-            "blocked_shots": 3,
-            "interceptions": 3,
-            "total_tackles": 4,
-            "accurate_passes": 215,
-            "ball_possession": 50,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 8,
-            "shots_off_target": 5,
-            "shots_outside_box": 2,
-            "big_chances_missed": 1,
-            "big_chances_scored": 1,
-            "final_third_entries": 20,
-            "fouled_in_final_third": 0
-          }
-        }
+        ],
+        "away": []
       },
+      "venue": null,
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "cdc9c6",
-            "real": true,
-            "type": "long_sleeves",
-            "number": "1d1d1d",
-            "sleeve": "b6b5b1"
-          },
-          "player": {
-            "base": "f9de52",
+            "base": "cccccc",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "374a56",
-            "sleevelong": "074792"
+            "number": "ffffff",
+            "sleeve": "000000"
+          },
+          "player": {
+            "base": "336600",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "3da509",
-            "real": true,
+            "base": "efc131",
+            "real": false,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "d4c048"
+            "sleeve": "333333"
           },
           "player": {
-            "base": "e63237",
-            "real": true,
+            "base": "D8D8D8",
+            "real": false,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "dd3d3d"
+            "number": "000000",
+            "sleeve": "D8D8D8"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 2,
-          "sentence": "When playing at home, Norway have not lost to Sweden in their last 4 encounters."
+          "type_id": 1,
+          "sentence": "Olymp. Dcheira haven't won in their last 11 games."
         },
         {
           "type_id": 1,
-          "sentence": "Norway haven't lost in any of their last 12 home matches."
+          "sentence": "Olymp. Dcheira haven't won any of their last 6 away matches."
         },
         {
-          "type_id": 6,
-          "sentence": "During the last 7 meetings with Norway playing at home, Norway have won 2 times, there have been 3 draws while Sweden have won 2 times. The goal difference is 11-10 in favour of Sweden."
+          "type_id": 1,
+          "sentence": "Meknes have a losing streak of 3 matches in Botola Pro D1."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 53,
-          "home": 79
+          "away": 101,
+          "home": 77
         },
         "ball_safe": {
-          "away": 63,
-          "home": 62
+          "away": 58,
+          "home": 88
         },
         "attack_pct": {
-          "away": 22,
-          "home": 26
+          "away": 34,
+          "home": 22
         },
         "ball_safe_pct": {
-          "away": 62,
-          "home": 35
+          "away": 28,
+          "home": 54
         },
         "dangerous_attack": {
-          "away": 21,
-          "home": 45
+          "away": 64,
+          "home": 43
         },
         "dangerous_attack_pct": {
-          "away": 16,
-          "home": 39
+          "away": 38,
+          "home": 24
         }
       },
       "ai_preview": {
-        "text": "**Scandinavia's bragging rights are on the line** — Norway and Sweden collide in a friendly that'll matter way more than the scoreline suggests. 🔥\n\nNorway's riding a decent run (3W-1D-1L) and just hammered Italy away. Sweden's lumpy lately (2W-1D-2L) and walking into Ullevaal with injury chaos — five players out, including star winger **D. Kulusevski**.\n\nKey storylines:\n\n- **Norway's home comfort**: Unbeaten at Ullevaal in this stretch, and they've got the fresher squad to exploit it\n- **Sweden's injury crisis**: Missing Kulusevski, Kraft, Holm, and others. That's a lot of firepower on the sideline 🤕\n- **Pedersen and Sema battle**: Attack-minded fullbacks will define the flanks for both sides\n\nExpected lineups:\n\n- **Norway**: Nyland, Wolfe, Selvik, Myhra, Kamanzi, Myhre, Dønnum, Johnsen, Pedersen, Heggebø, Arnstad\n- **Sweden**: Johansson, Lagerbielke, Svanberg, Norén, Nanasi, Zeneli, Karlström, Sema, Bergvall, Elanga, Isak\n\nPrediction:\n\n**Norway 2-1 Sweden**. Home advantage + Sweden's depleted squad gives the hosts a slight edge in a tight one.",
-        "generated_at": "2026-06-01T01:45:38.768739+00:00"
+        "text": "**Both teams are limping into this one**, and frankly, neither has given us much reason for optimism lately. CODM Meknès is winless in five (1D, 4L), while Olympique Dcheira hasn't tasted victory in their last stretch either (2D, 3L). 🏴\n\nCODM Meknès are the slight favorites here, but that's not exactly screaming confidence — they've been pretty dire at home and away. Olympique Dcheira draws a lot (2 in their last 5), which tracks with their overall defensive solidity even without wins.\n\nKey storylines:\n\n- **CODM Meknès** need to snap a four-loss run, but **A. Hmaidou** is suspended via yellow card accumulation, thinning their options\n- **Olympique Dcheira** have held teams at 0-0 and 1-1 recently, suggesting they can at least keep things tight\n- The head-to-head is a stalemate (1-1 draw last time), which fits the pattern we're seeing\n\nExpected lineups:\n\n- **CODM Meknès**: A. Majid, C. E. Knaidil, K. E. Bounagate, A. Lakhlifi, A. Lourhraz, A. Berdad, L. Naji, I. Benktib, M. Enzo\n- **Olympique Dcheira**: M. Idar, H. J. Allah, C. Keita, A. Aboujemaa, H. A. Brahim, B. Amzili, M. E. Gouj, H. Saoud\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **CODM Meknès 1-0 Olympique Dcheira** — model edge to the hosts, but expect a low-scoring grind 🔒",
+        "generated_at": "2026-06-01T02:45:29.235196+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4594,
+      "id": 4596,
       "event": {
-        "id": 207485,
+        "id": 9092,
         "league": {
-          "id": 53,
-          "name": "Botola Pro",
-          "country": "Morocco",
+          "id": 31,
+          "name": "International Friendly Games",
+          "country": "International",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 133,
+            "name": "Int. Friendly Games 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
+          }
         },
-        "season": null,
-        "home_team": "CODM Meknès",
-        "away_team": "Olympique Dcheira",
+        "season": {
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
+          "year": 2026
+        },
+        "home_team": "Canada",
+        "away_team": "Uzbekistan",
         "home_team_obj": {
-          "id": 2070,
-          "name": "CODM Meknès",
-          "short_name": "CODM",
-          "country": "Morocco",
+          "id": 455,
+          "name": "Canada",
+          "short_name": "Canada",
+          "country": "Canada",
           "coach": {
-            "name": "Abdelaziz Dnibi",
-            "shortName": "A. Dnibi"
+            "name": "Jesse Marsch",
+            "shortName": "J. Marsch"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 2063,
-          "name": "Olympique Dcheira",
-          "short_name": "",
-          "country": "Morocco",
+          "id": 497,
+          "name": "Uzbekistan",
+          "short_name": "Uzbekistan",
+          "country": "Uzbekistan",
           "coach": {
-            "name": "Bouchaib El Moubarki",
-            "shortName": "B. E. Moubarki"
+            "name": "Fabio Cannavaro",
+            "shortName": "F. Cannavaro"
           },
           "venue": null
         },
-        "event_date": "2026-06-02T00:00:00+04:00",
-        "round_number": 22,
+        "event_date": "2026-06-02T05:00:00+04:00",
+        "round_number": null,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -522,17 +269,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.87,
-        "odds_draw": 3.01,
-        "odds_away": 4.28,
-        "odds_over_15": 1.51,
-        "odds_over_25": 2.55,
-        "odds_over_35": 5.04,
-        "odds_under_15": 2.38,
-        "odds_under_25": 1.44,
-        "odds_under_35": 1.13,
-        "odds_btts_yes": 2.25,
-        "odds_btts_no": 1.57,
+        "odds_home": 1.58,
+        "odds_draw": 3.78,
+        "odds_away": 5.7,
+        "odds_over_15": 1.31,
+        "odds_over_25": 1.99,
+        "odds_over_35": 3.48,
+        "odds_under_15": 3.18,
+        "odds_under_25": 1.76,
+        "odds_under_35": 1.27,
+        "odds_btts_yes": 2.01,
+        "odds_btts_no": 1.72,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -549,476 +296,43 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1488,
-          "name": "Abdelaziz Dnibi",
-          "short_name": "A. Dnibi",
-          "country": "",
-          "profile": "defensive",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.5274508724057064,
-          "defensive_line": "mid",
-          "top_styles": [
-            "terrorist_fb",
-            "anti_football"
-          ]
-        },
-        "away_coach": {
-          "id": 1650,
-          "name": "Bouchaib El Moubarki",
-          "short_name": "B. E. Moubarki",
-          "country": "Morocco",
+          "id": 130,
+          "name": "Jesse Marsch",
+          "short_name": "J. Marsch",
+          "country": "USA",
           "profile": "defensive",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.2643374067736043,
-          "defensive_line": "high",
-          "top_styles": [
-            "terrorist_fb",
-            "anti_football"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Achraf Hmaidou",
-              "status": "suspended",
-              "reason": "yellow_card_accumulation_suspension",
-              "expected_return": "2026-06-01"
-            }
-          ],
-          "away": []
+        "away_coach": {
+          "id": 575,
+          "name": "Fabio Cannavaro",
+          "short_name": "F. Cannavaro",
+          "country": "Italy",
+          "profile": "attacking",
+          "preferred_formation": "",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
-        "venue": null,
+        "unavailable_players": null,
+        "venue": {
+          "id": 1345,
+          "name": "Commonwealth Stadium",
+          "city": "Edmonton",
+          "country": "Canada",
+          "capacity": 60000,
+          "latitude": 53.559774,
+          "longitude": -113.476306,
+          "pitch_x": null,
+          "pitch_y": null,
+          "built_year": null
+        },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "M. Idar",
-                "goals": 0,
-                "api_id": 2161843,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 49799,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "H. A. Brahim",
-                "goals": 0,
-                "api_id": 1525302,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49800,
-                "yellow_card": false,
-                "jersey_number": "15",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "A. Aboujemaa",
-                "goals": 0,
-                "api_id": 2161828,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49801,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "C. Keita",
-                "goals": 0,
-                "api_id": 1464128,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49900,
-                "yellow_card": false,
-                "jersey_number": "32",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "H. J. Allah",
-                "goals": 0,
-                "api_id": 1387222,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49803,
-                "yellow_card": false,
-                "jersey_number": "37",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "M. Abba",
-                "goals": 0,
-                "api_id": 1140863,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49813,
-                "yellow_card": false,
-                "jersey_number": "77",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "H. Saoud",
-                "goals": 0,
-                "api_id": 2161841,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49901,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "B. Amzili",
-                "goals": 0,
-                "api_id": 2161847,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49804,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LM",
-                "positions_detailed": [
-                  "LM"
-                ]
-              },
-              {
-                "name": "M. E. Gouj",
-                "goals": 0,
-                "api_id": 2161842,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49806,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "M. Adjar",
-                "goals": 0,
-                "api_id": 2161839,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49808,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "R. Abardi",
-                "goals": 0,
-                "api_id": 1923105,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49964,
-                "yellow_card": false,
-                "jersey_number": "62",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-4-2",
-            "substitutes": []
-          },
-          "home": {
-            "players": [
-              {
-                "name": "R. Bounaga",
-                "goals": 0,
-                "api_id": 953991,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 49969,
-                "yellow_card": false,
-                "jersey_number": "34",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "A. Lourhraz",
-                "goals": 0,
-                "api_id": 1924082,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49720,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "A. Nouader",
-                "goals": 0,
-                "api_id": 1401580,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49721,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "K. E. Bounagate",
-                "goals": 0,
-                "api_id": 1140959,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49722,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "O. Daoui",
-                "goals": 0,
-                "api_id": 1525316,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49732,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "M. Goulouss",
-                "goals": 0,
-                "api_id": 1461306,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49734,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM"
-                ]
-              },
-              {
-                "name": "A. Berdad",
-                "goals": 0,
-                "api_id": 1919284,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49736,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "I. Benktib",
-                "goals": 0,
-                "api_id": 939864,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49726,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "O. Msahli",
-                "goals": 0,
-                "api_id": 2029640,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49896,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "M. Sahd",
-                "goals": 0,
-                "api_id": 1140850,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49926,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "Y. Anouar",
-                "goals": 0,
-                "api_id": 884821,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49731,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LW",
-                "positions_detailed": [
-                  "LW",
-                  "ST"
-                ]
-              }
-            ],
-            "formation": "4-3-3",
-            "substitutes": []
-          },
-          "confirmed": false
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -1026,14 +340,14 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "cccccc",
+              "base": "59c990",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "000000"
+              "sleeve": "1a6b41"
             },
             "player": {
-              "base": "336600",
+              "base": "1158bb",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
@@ -1042,58 +356,59 @@
           },
           "home": {
             "GK": {
-              "base": "efc131",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
+              "base": "1b3186",
+              "real": true,
+              "type": "long_sleeves",
+              "number": "ffffff",
+              "sleeve": "1d3286"
             },
             "player": {
-              "base": "D8D8D8",
-              "real": false,
+              "base": "a70115",
+              "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
+              "number": "ffffff",
+              "sleeve": "b31919",
+              "sleevelong": "a0161c"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 1,
-            "sentence": "Olymp. Dcheira haven't won in their last 11 games."
+            "sentence": "Canada haven't lost in their last 6 games."
           },
           {
             "type_id": 1,
-            "sentence": "Olymp. Dcheira haven't won any of their last 6 away matches."
+            "sentence": "Canada have played 4 home matches in a row without winning."
           },
           {
             "type_id": 1,
-            "sentence": "Meknes have a losing streak of 3 matches in Botola Pro D1."
+            "sentence": "Uzbekistan have a winning streak of 4 matches."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Both teams are limping into this one**, and frankly, neither has given us much reason for optimism lately. CODM Meknès is winless in five (1D, 4L), while Olympique Dcheira hasn't tasted victory in their last stretch either (2D, 3L). 🏴\n\nCODM Meknès are the slight favorites here, but that's not exactly screaming confidence — they've been pretty dire at home and away. Olympique Dcheira draws a lot (2 in their last 5), which tracks with their overall defensive solidity even without wins.\n\nKey storylines:\n\n- **CODM Meknès** need to snap a four-loss run, but **A. Hmaidou** is suspended via yellow card accumulation, thinning their options\n- **Olympique Dcheira** have held teams at 0-0 and 1-1 recently, suggesting they can at least keep things tight\n- The head-to-head is a stalemate (1-1 draw last time), which fits the pattern we're seeing\n\nExpected lineups:\n\n- **CODM Meknès**: A. Majid, C. E. Knaidil, K. E. Bounagate, A. Lakhlifi, A. Lourhraz, A. Berdad, L. Naji, I. Benktib, M. Enzo\n- **Olympique Dcheira**: M. Idar, H. J. Allah, C. Keita, A. Aboujemaa, H. A. Brahim, B. Amzili, M. E. Gouj, H. Saoud\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **CODM Meknès 1-0 Olympique Dcheira** — model edge to the hosts, but expect a low-scoring grind 🔒",
-          "generated_at": "2026-06-01T02:45:29.235196+00:00"
+          "text": "**Both teams are riding identical records and come in looking to turn draws into wins** — this friendly in Edmonton could be a proper battle of momentum and grit. 🍁\n\nCanada's been solid at home (1W 2D) but keeps getting pegged back. Uzbekistan showed real teeth against Qatar but also can't seem to break through (drew twice). This feels like a **cagey, low-scoring affair** where neither side wants to slip up.\n\nKey storylines:\n\n- **J. Hoilett** and **C. Larin** will need to crack an Uzbek defense built on compactness with **K. Alizhonov**, **S. Nasrullaev**, and **R. Ashurmatov** holding the line\n- Uzbekistan's midfield trio of **O. Khamrobekov**, **A. Fayzullaev**, and **J. Masharipov** can disrupt Canada's tempo; watch **T. Buchanan** and **J. Osorio** control the middle\n- Home advantage at Commonwealth means Canada should have the edge, but **B. Abdikholikov** and **I. Sergeev** attacking from wide could create chaos\n\nExpected lineups:\n\n- **Canada**: J. Russell Rowe, N. Sigur, R. Laryea, S. Adekugbe, J. Hoilett, T. Buchanan, J. Osorio, Z. Bassong, K. Hiebert, T. Oluwaseyi, C. Larin\n- **Uzbekistan**: U. Yusupov, K. Alizhonov, S. Nasrullaev, R. Ashurmatov, U. Eshmuradov, O. Khamrobekov, A. Fayzullaev, J. Masharipov, I. Sergeev, B. Abdikholikov, O. Shukurov\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 2.5**: Under 2.5 goals\n\nPrediction:\n\n**1-0 Canada** — home edge tips the scales, but this stays tight and tense. ⚪",
+          "generated_at": "2026-06-01T01:46:09.611837+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-26T06:20:13.686983+04:00",
-      "prob_home_win": 42.72713686741809,
-      "prob_draw": 28.767142895120045,
-      "prob_away_win": 28.505720237461862,
-      "predicted_result": "H",
-      "expected_home_goals": 1.2850000000000001,
-      "expected_away_goals": 0.526,
-      "prob_over_15": 41.85030880559012,
-      "prob_over_25": 27.356339759265925,
-      "prob_over_35": 12.897290752395598,
-      "prob_btts_yes": 39.185699402754906,
-      "confidence": 42.72713686741809,
+      "created_at": "2026-05-26T06:20:14.421901+04:00",
+      "prob_home_win": 34.703042849821195,
+      "prob_draw": 52.81883987031609,
+      "prob_away_win": 12.478117279862715,
+      "predicted_result": "D",
+      "expected_home_goals": 1.15,
+      "expected_away_goals": 1.3333333333333333,
+      "prob_over_15": 38.70980925892537,
+      "prob_over_25": 16.50403507940205,
+      "prob_over_35": 15.838833712640884,
+      "prob_btts_yes": 28.67443267522155,
+      "confidence": 52.81883987031609,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 42.72713686741809,
+      "favorite_prob": 34.703042849821195,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
