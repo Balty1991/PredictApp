@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-06-03T12:21:31.617Z",
+  "generatedAt": "2026-06-03T17:28:23.338Z",
   "count": 50,
   "items": [
     {
-      "id": 207902,
-      "status": "halftime",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Philippines",
-      "awayTeam": "Guam",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207892,
-      "status": "postponed",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Kyrgyzstan",
-      "awayTeam": "Kenya",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207510,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Renaissance Zemamra",
@@ -37,33 +15,11 @@
     },
     {
       "id": 207498,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Gibraltar",
       "awayTeam": "British Virgin Islands",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207425,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Albania",
-      "awayTeam": "Israel",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 206683,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Denmark",
-      "awayTeam": "DR Congo",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -80,6 +36,28 @@
       "marketCount": 0
     },
     {
+      "id": 206683,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Denmark",
+      "awayTeam": "DR Congo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207425,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Albania",
+      "awayTeam": "Israel",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9094,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -91,23 +69,23 @@
       "marketCount": 0
     },
     {
-      "id": 205200,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Poland",
-      "awayTeam": "Nigeria",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207167,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Luxembourg",
       "awayTeam": "Italy",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205200,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Poland",
+      "awayTeam": "Nigeria",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -201,28 +179,6 @@
       "marketCount": 0
     },
     {
-      "id": 209436,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Burundi",
-      "awayTeam": "Equatorial Guinea",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207445,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Northern Ireland",
-      "awayTeam": "Guinea",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209429,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -245,12 +201,23 @@
       "marketCount": 0
     },
     {
-      "id": 207170,
+      "id": 209436,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
-      "homeTeam": "Sweden",
-      "awayTeam": "Greece",
+      "homeTeam": "Burundi",
+      "awayTeam": "Equatorial Guinea",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207445,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Northern Ireland",
+      "awayTeam": "Guinea",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -262,6 +229,17 @@
       "country": "International",
       "homeTeam": "Andorra",
       "awayTeam": "Liechtenstein",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207170,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Sweden",
+      "awayTeam": "Greece",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -355,23 +333,23 @@
       "marketCount": 0
     },
     {
-      "id": 209440,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Niger",
-      "awayTeam": "Mauritania",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209441,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Central African Republic",
       "awayTeam": "Togo",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209440,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Niger",
+      "awayTeam": "Mauritania",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,6 +454,17 @@
       "marketCount": 0
     },
     {
+      "id": 205201,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "San Marino",
+      "awayTeam": "Bangladesh",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207427,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -493,17 +482,6 @@
       "country": "International",
       "homeTeam": "Russia",
       "awayTeam": "Burkina Faso",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205201,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "San Marino",
-      "awayTeam": "Bangladesh",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +520,34 @@
       "marketCount": 0
     },
     {
+      "id": 9970,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Operário-PR",
+      "awayTeam": "Juventude",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 209443,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Puerto Rico",
       "awayTeam": "Saudi Arabia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10280,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Canada",
+      "awayTeam": "Ireland",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
