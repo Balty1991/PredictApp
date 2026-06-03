@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T02:09:52.467Z",
+  "generatedAt": "2026-06-03T07:23:30.202Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 207424,
+      "id": 207902,
       "league": {
         "id": 31,
         "name": "International Friendly Games",
@@ -40,52 +40,52 @@
         "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Haiti",
-      "away_team": "New Zealand",
+      "home_team": "Philippines",
+      "away_team": "Guam",
       "home_team_obj": {
-        "id": 465,
-        "name": "Haiti",
-        "short_name": "Haiti",
-        "country": "Haiti",
+        "id": 2252,
+        "name": "Philippines",
+        "short_name": "Philippines",
+        "country": "Philippines",
         "coach": {
-          "name": "Sébastien Migné",
-          "shortName": "S. Migné"
+          "name": "Carles Cuadrat",
+          "shortName": "C. Cuadrat"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 482,
-        "name": "New Zealand",
-        "short_name": "New Zealand",
-        "country": "New Zealand",
+        "id": 2253,
+        "name": "Guam",
+        "short_name": "Guam",
+        "country": "Guam",
         "coach": {
-          "name": "Darren Bazeley",
-          "shortName": "D. Bazeley"
+          "name": "Ross Awa",
+          "shortName": "R. Awa"
         },
         "venue": null
       },
-      "event_date": "2026-06-03T04:36:00+04:00",
+      "event_date": "2026-06-03T15:30:00+04:00",
       "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 3,
-      "away_score": 0,
-      "home_score_ht": 1,
-      "away_score_ht": 0,
-      "current_minute": 73,
-      "period": "2T",
-      "odds_home": 2.37,
-      "odds_draw": 2.49,
-      "odds_away": 2.02,
-      "odds_over_15": 1.37,
-      "odds_over_25": 2.14,
-      "odds_over_35": 3.9,
-      "odds_under_15": 2.61,
-      "odds_under_25": 1.56,
-      "odds_under_35": 1.18,
-      "odds_btts_yes": 1.77,
-      "odds_btts_no": 1.7,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 1.04,
+      "odds_draw": 14.84,
+      "odds_away": 34.82,
+      "odds_over_15": 1.06,
+      "odds_over_25": 1.28,
+      "odds_over_35": 1.78,
+      "odds_under_15": 7.1,
+      "odds_under_25": 3.31,
+      "odds_under_35": 1.98,
+      "odds_btts_yes": 2.7,
+      "odds_btts_no": 1.41,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -100,151 +100,96 @@
       "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 1832,
-        "name": "Rubiel Vazquez",
-        "country": "USA",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 638,
-        "redCards": 21,
-        "career_games": 173,
-        "career_yellow_cards": 638,
-        "career_red_cards": 21
-      },
+      "referee": null,
       "home_coach": {
-        "id": 83,
-        "name": "Sébastien Migné",
-        "short_name": "S. Migné",
-        "country": "France",
-        "profile": "attacking",
+        "id": 1666,
+        "name": "Carles Cuadrat",
+        "short_name": "C. Cuadrat",
+        "country": "Spain",
+        "profile": "defensive",
         "preferred_formation": "4-4-2",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
       "away_coach": {
-        "id": 578,
-        "name": "Darren Bazeley",
-        "short_name": "D. Bazeley",
-        "country": "England",
-        "profile": "attacking",
-        "preferred_formation": "4-3-3",
+        "id": 1667,
+        "name": "Ross Awa",
+        "short_name": "R. Awa",
+        "country": "Guam",
+        "profile": "",
+        "preferred_formation": "",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 1166,
-        "name": "Chase Stadium",
-        "city": "Fort Lauderdale",
-        "country": "USA",
-        "capacity": 21550,
+        "id": 1527,
+        "name": "RIzal Memorial Stadium",
+        "city": "Manila",
+        "country": "Philippines",
+        "capacity": 12873,
         "latitude": null,
         "longitude": null,
         "pitch_x": null,
         "pitch_y": null,
         "built_year": null
       },
-      "live_stats": {
-        "away": {
-          "fouls": 7,
-          "offsides": 1,
-          "red_cards": 0,
-          "throw_ins": 7,
-          "free_kicks": 6,
-          "goal_kicks": 5,
-          "total_saves": 2,
-          "total_shots": 9,
-          "corner_kicks": 7,
-          "yellow_cards": 1,
-          "blocked_shots": 3,
-          "ball_possession": 52,
-          "shots_on_target": 3,
-          "goalkeeper_saves": 2,
-          "shots_off_target": 3
-        },
-        "home": {
-          "fouls": 6,
-          "offsides": 0,
-          "red_cards": 0,
-          "throw_ins": 11,
-          "free_kicks": 8,
-          "goal_kicks": 5,
-          "total_saves": 3,
-          "total_shots": 11,
-          "corner_kicks": 4,
-          "yellow_cards": 0,
-          "blocked_shots": 5,
-          "ball_possession": 48,
-          "shots_on_target": 5,
-          "goalkeeper_saves": 3,
-          "shots_off_target": 1
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "3c691f",
+            "base": "006633",
             "real": true,
             "type": "short_sleeves",
-            "number": "0d0d0d",
-            "sleeve": "457830"
+            "number": "ffffff",
+            "sleeve": "000000"
           },
           "player": {
-            "base": "e7e8ec",
+            "base": "000066",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "e7e8ec"
+            "number": "dd0000",
+            "sleeve": "000000"
           }
         },
         "home": {
           "GK": {
-            "base": "0d0d0d",
+            "base": "ff9605",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "1e1d1d"
+            "sleeve": "2a2a28"
           },
           "player": {
-            "base": "3300ff",
+            "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "731009"
+            "number": "dbd539",
+            "sleeve": "ffffff"
           }
         }
       },
-      "funfacts": null,
-      "sr_stats": {
-        "attack": {
-          "away": 39,
-          "home": 39
+      "funfacts": [
+        {
+          "type_id": 1,
+          "sentence": "Philippines haven't lost in their last 6 games."
         },
-        "ball_safe": {
-          "away": 31,
-          "home": 50
+        {
+          "type_id": 1,
+          "sentence": "Philippines haven't lost in any of their last 6 home matches."
         },
-        "attack_pct": {
-          "away": 30,
-          "home": 18
-        },
-        "ball_safe_pct": {
-          "away": 37,
-          "home": 41
-        },
-        "dangerous_attack": {
-          "away": 29,
-          "home": 23
-        },
-        "dangerous_attack_pct": {
-          "away": 33,
-          "home": 41
+        {
+          "type_id": 1,
+          "sentence": "Guam haven't won any of their last 15 away matches."
         }
+      ],
+      "sr_stats": null,
+      "ai_preview": {
+        "text": "**The Philippines hosts Guam in a friendly that screams \"get back on track\"** — the home side is desperate to snap a brutal four-loss skid, while Guam limps in on their own winless stretch. 🇵🇭\n\nPhilippines have been absolutely battered lately (0-5 hammering to Iraq, 2-3 heartbreak vs Vietnam), so this friendly is basically a free swing to rebuild some confidence. Guam haven't won in ages either, but playing away in Manila isn't gonna help their cause.\n\nKey storylines:\n\n- **Philippines need to flex at home** — after getting dismantled by Iraq, there's nowhere to hide against a lesser opponent\n- **Guam's defensive frailty** — both recent losses came by narrow margins, but road form is dire\n- **A chance for Philippines midfield** — **P. Reichelt** and **M. Baldisimo** have to control tempo and set up the front two (**D. Demuynck** and **P. Bugas**)\n\nExpected lineups:\n\n- **Philippines**: K. R. Mendoza, S. Rublico, J. Nyholm, A. Ugelvik, S. Woods, P. Reichelt, M. Baldisimo, K. Ingreso\n- **Guam**: J. Guidroz, A. Quidachay, D. Agustin, I. Lagutang, J. Romero, A. Taitague, J. Cunliffe, E. K. Na\n\nPrediction:\n\n**Philippines 3–0 Guam** — home turf and a weaker opponent should let the Philippines finally register a win and ease the pressure.",
+        "generated_at": "2026-06-03T01:45:17.971006+00:00"
       },
-      "ai_preview": null,
       "live_websocket": true
     },
     "prediction": {
