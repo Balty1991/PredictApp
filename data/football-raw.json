@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T17:28:23.337Z",
+  "generatedAt": "2026-06-03T20:40:01.599Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,61 +21,77 @@
   ],
   "samples": {
     "event": {
-      "id": 207510,
+      "id": 207425,
       "league": {
-        "id": 53,
-        "name": "Botola Pro",
-        "country": "Morocco",
+        "id": 31,
+        "name": "International Friendly Games",
+        "country": "International",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
+        }
       },
-      "season": null,
-      "home_team": "Renaissance Zemamra",
-      "away_team": "Union Sportive Yacoub El Mansour",
+      "season": {
+        "id": 133,
+        "name": "Int. Friendly Games 2026",
+        "year": 2026
+      },
+      "home_team": "Albania",
+      "away_team": "Israel",
       "home_team_obj": {
-        "id": 2072,
-        "name": "Renaissance Zemamra",
-        "short_name": "Renaissance Zemamra",
-        "country": "Morocco",
+        "id": 724,
+        "name": "Albania",
+        "short_name": "Albania",
+        "country": "Albania",
         "coach": {
-          "name": "Mohamed Fakhir",
-          "shortName": "M. Fakhir"
+          "name": "Sylvinho",
+          "shortName": "Sylvinho"
         },
-        "venue": null
+        "venue": {
+          "id": 535,
+          "name": "Air Albania",
+          "city": "Tirana",
+          "country": "Albania",
+          "capacity": 22500
+        }
       },
       "away_team_obj": {
-        "id": 2068,
-        "name": "Union Sportive Yacoub El Mansour",
-        "short_name": "USYM",
-        "country": "Morocco",
+        "id": 679,
+        "name": "Israel",
+        "short_name": "Israel",
+        "country": "Israel",
         "coach": {
-          "name": "Mehdi El Jabri",
-          "shortName": "M. E. Jabri"
+          "name": "Ran Ben Simon",
+          "shortName": "R. B. Simon"
         },
         "venue": null
       },
-      "event_date": "2026-06-03T20:00:00+04:00",
-      "round_number": 22,
+      "event_date": "2026-06-03T22:00:00+04:00",
+      "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 1,
+      "status": "finished",
+      "home_score": 0,
       "away_score": 1,
-      "home_score_ht": 1,
-      "away_score_ht": 1,
-      "current_minute": 65,
-      "period": "2T",
-      "odds_home": 2.28,
-      "odds_draw": 2.62,
-      "odds_away": 2.54,
-      "odds_over_15": 1.4,
-      "odds_over_25": 2.01,
-      "odds_over_35": 3.76,
-      "odds_under_15": 2.48,
-      "odds_under_25": 1.41,
-      "odds_under_35": 1.14,
-      "odds_btts_yes": 1.87,
-      "odds_btts_no": 1.7,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 90,
+      "period": "FT",
+      "odds_home": 2.27,
+      "odds_draw": 3.21,
+      "odds_away": 3.02,
+      "odds_over_15": 1.29,
+      "odds_over_25": 1.95,
+      "odds_over_35": 3.35,
+      "odds_under_15": 3.27,
+      "odds_under_25": 1.77,
+      "odds_under_35": 1.28,
+      "odds_btts_yes": 1.74,
+      "odds_btts_no": 1.97,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -85,177 +101,422 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": null,
+      "weather_code": 2,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 2652,
+        "name": "Miloš Savović",
+        "country": "Montenegro",
+        "nationality_a3": "",
+        "birthdate": null,
+        "yellowCards": 19,
+        "redCards": 0,
+        "career_games": 5,
+        "career_yellow_cards": 19,
+        "career_red_cards": 0
+      },
       "home_coach": {
-        "id": 1490,
-        "name": "Mohamed Fakhir",
-        "short_name": "M. Fakhir",
-        "country": "Morocco",
+        "id": 107,
+        "name": "Sylvinho",
+        "short_name": "Sylvinho",
+        "country": "Brazil",
         "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.40076564491868427,
-        "defensive_line": "mid",
-        "top_styles": [
-          "park_the_bus",
-          "low_block"
-        ]
+        "preferred_formation": "4-1-3-2",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 1486,
-        "name": "Mehdi El Jabri",
-        "short_name": "M. E. Jabri",
-        "country": "Morocco",
-        "profile": "balanced",
+        "id": 805,
+        "name": "Ran Ben Simon",
+        "short_name": "R. B. Simon",
+        "country": "Israel",
+        "profile": "attacking",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.6298451984047346,
-        "defensive_line": "mid",
-        "top_styles": [
-          "high_press",
-          "man_press"
-        ]
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
-      "venue": null,
-      "live_stats": null,
+      "venue": {
+        "id": 535,
+        "name": "Air Albania",
+        "city": "Tirana",
+        "country": "Albania",
+        "capacity": 22500,
+        "latitude": null,
+        "longitude": null,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
+      "live_stats": {
+        "away": {
+          "duels": 54,
+          "fouls": 8,
+          "passes": 463,
+          "crosses": "2/9 (22%)",
+          "punches": 2,
+          "tackles": 21,
+          "dribbles": "6/13 (46%)",
+          "offsides": 1,
+          "big_saves": 0,
+          "throw_ins": 8,
+          "clearances": 25,
+          "free_kicks": 7,
+          "goal_kicks": 11,
+          "long_balls": "9/29 (31%)",
+          "recoveries": 52,
+          "big_chances": 1,
+          "high_claims": 0,
+          "tackles_won": 81,
+          "total_saves": 0,
+          "total_shots": 11,
+          "aerial_duels": "4/11 (36%)",
+          "corner_kicks": 2,
+          "dispossessed": 6,
+          "ground_duels": "34/59 (58%)",
+          "hit_woodwork": 1,
+          "yellow_cards": 1,
+          "blocked_shots": 1,
+          "interceptions": 13,
+          "through_balls": 0,
+          "total_tackles": 21,
+          "accurate_passes": 408,
+          "ball_possession": 41,
+          "shots_on_target": 3,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 7,
+          "shots_off_target": 7,
+          "final_third_phase": "46/63 (73%)",
+          "shots_outside_box": 4,
+          "big_chances_missed": 1,
+          "final_third_entries": 23,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 18
+        },
+        "home": {
+          "duels": 46,
+          "fouls": 7,
+          "passes": 647,
+          "crosses": "3/23 (13%)",
+          "punches": 0,
+          "tackles": 12,
+          "dribbles": "4/15 (27%)",
+          "offsides": 1,
+          "big_saves": 1,
+          "throw_ins": 22,
+          "clearances": 11,
+          "free_kicks": 8,
+          "goal_kicks": 8,
+          "long_balls": "40/59 (68%)",
+          "recoveries": 52,
+          "big_chances": 1,
+          "high_claims": 1,
+          "tackles_won": 75,
+          "total_saves": 2,
+          "total_shots": 12,
+          "aerial_duels": "7/11 (64%)",
+          "corner_kicks": 7,
+          "dispossessed": 10,
+          "ground_duels": "25/59 (42%)",
+          "hit_woodwork": 0,
+          "yellow_cards": 1,
+          "blocked_shots": 5,
+          "interceptions": 8,
+          "through_balls": 1,
+          "total_tackles": 12,
+          "accurate_passes": 584,
+          "ball_possession": 59,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 2,
+          "shots_inside_box": 7,
+          "shots_off_target": 7,
+          "final_third_phase": "138/171 (81%)",
+          "shots_outside_box": 5,
+          "big_chances_missed": 1,
+          "final_third_entries": 64,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 23
+        },
+        "first_half": {
+          "away": {
+            "duels": 50,
+            "fouls": 2,
+            "passes": 279,
+            "crosses": "0/4 (0%)",
+            "tackles": 5,
+            "dribbles": "3/7 (43%)",
+            "offsides": 0,
+            "throw_ins": 7,
+            "clearances": 6,
+            "free_kicks": 6,
+            "goal_kicks": 5,
+            "long_balls": "6/17 (35%)",
+            "recoveries": 21,
+            "big_chances": 0,
+            "tackles_won": 80,
+            "total_saves": 0,
+            "total_shots": 4,
+            "aerial_duels": "1/6 (17%)",
+            "corner_kicks": 1,
+            "dispossessed": 2,
+            "ground_duels": "14/24 (58%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 1,
+            "interceptions": 7,
+            "through_balls": 0,
+            "total_tackles": 5,
+            "accurate_passes": 252,
+            "ball_possession": 51,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 2,
+            "shots_off_target": 3,
+            "shots_outside_box": 2,
+            "big_chances_missed": 0,
+            "final_third_entries": 15,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 50,
+            "fouls": 6,
+            "passes": 258,
+            "crosses": "2/7 (29%)",
+            "tackles": 6,
+            "dribbles": "2/3 (67%)",
+            "offsides": 1,
+            "throw_ins": 7,
+            "clearances": 6,
+            "free_kicks": 2,
+            "goal_kicks": 4,
+            "long_balls": "22/30 (73%)",
+            "recoveries": 26,
+            "big_chances": 1,
+            "tackles_won": 50,
+            "total_saves": 0,
+            "total_shots": 8,
+            "aerial_duels": "5/6 (83%)",
+            "corner_kicks": 2,
+            "dispossessed": 4,
+            "ground_duels": "10/24 (42%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 4,
+            "interceptions": 5,
+            "through_balls": 1,
+            "total_tackles": 6,
+            "accurate_passes": 233,
+            "ball_possession": 49,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 6,
+            "shots_off_target": 4,
+            "shots_outside_box": 2,
+            "big_chances_missed": 1,
+            "final_third_entries": 26,
+            "fouled_in_final_third": 0
+          }
+        },
+        "second_half": {
+          "away": {
+            "duels": 57,
+            "fouls": 6,
+            "passes": 184,
+            "crosses": "2/5 (40%)",
+            "tackles": 16,
+            "dribbles": "3/6 (50%)",
+            "offsides": 1,
+            "throw_ins": 1,
+            "clearances": 19,
+            "free_kicks": 1,
+            "goal_kicks": 6,
+            "long_balls": "3/12 (25%)",
+            "recoveries": 31,
+            "big_chances": 1,
+            "tackles_won": 81,
+            "total_saves": 0,
+            "total_shots": 7,
+            "aerial_duels": "3/5 (60%)",
+            "corner_kicks": 1,
+            "dispossessed": 4,
+            "ground_duels": "20/35 (57%)",
+            "hit_woodwork": 1,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 6,
+            "through_balls": 0,
+            "total_tackles": 16,
+            "accurate_passes": 156,
+            "ball_possession": 32,
+            "shots_on_target": 3,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 5,
+            "shots_off_target": 4,
+            "shots_outside_box": 2,
+            "big_chances_missed": 1,
+            "final_third_entries": 8,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 43,
+            "fouls": 1,
+            "passes": 389,
+            "crosses": "1/16 (6%)",
+            "tackles": 6,
+            "dribbles": "2/12 (17%)",
+            "offsides": 0,
+            "throw_ins": 15,
+            "clearances": 5,
+            "free_kicks": 6,
+            "goal_kicks": 4,
+            "long_balls": "18/29 (62%)",
+            "recoveries": 26,
+            "big_chances": 0,
+            "tackles_won": 100,
+            "total_saves": 2,
+            "total_shots": 4,
+            "aerial_duels": "2/5 (40%)",
+            "corner_kicks": 5,
+            "dispossessed": 6,
+            "ground_duels": "15/35 (43%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 1,
+            "blocked_shots": 1,
+            "interceptions": 3,
+            "through_balls": 0,
+            "total_tackles": 6,
+            "accurate_passes": 351,
+            "ball_possession": 68,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 2,
+            "shots_inside_box": 1,
+            "shots_off_target": 3,
+            "shots_outside_box": 3,
+            "big_chances_missed": 0,
+            "final_third_entries": 38,
+            "fouled_in_final_third": 1
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "585858",
-            "real": false,
+            "base": "c5ff03",
+            "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "585858"
+            "sleeve": "000000"
+          },
+          "player": {
+            "base": "ffffff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "64becf",
+            "sleeve": "f7f7f7"
           }
         },
         "home": {
           "GK": {
-            "base": "efc131",
-            "real": false,
+            "base": "54cc84",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
+            "number": "f8f8f8",
+            "sleeve": "ffffff"
           },
           "player": {
-            "base": "D8D8D8",
-            "real": false,
+            "base": "b50124",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "number": "ffffff",
+            "sleeve": "000000"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 24,
-          "sentence": "Renaissance Zemamra's home record this season: 2-5-3."
+          "type_id": 2,
+          "sentence": "Albania haven't won any of their last 3 games against Israel."
         },
         {
-          "type_id": 24,
-          "sentence": "US Yacoub Mansour's away record this season: 1-4-5."
-        },
-        {
-          "type_id": 26,
-          "sentence": "A year ago, Renaissance Zemamra were number 4 in the table with 37 points. Now they are number 10 with 23 points."
+          "type_id": 1,
+          "sentence": "Albania have lost 3 matches in a row."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 55,
-          "home": 43
+          "away": 48,
+          "home": 89
         },
         "ball_safe": {
-          "away": 47,
-          "home": 50
+          "away": 55,
+          "home": 68
         },
         "attack_pct": {
-          "away": 27,
-          "home": 20
-        },
-        "ball_safe_pct": {
-          "away": 52,
-          "home": 42
-        },
-        "dangerous_attack": {
-          "away": 33,
+          "away": 19,
           "home": 25
         },
+        "ball_safe_pct": {
+          "away": 63,
+          "home": 49
+        },
+        "dangerous_attack": {
+          "away": 23,
+          "home": 48
+        },
         "dangerous_attack_pct": {
-          "away": 21,
-          "home": 38
+          "away": 18,
+          "home": 26
         }
       },
       "ai_preview": {
-        "text": "**Renaissance Zemamra host Union Sportive Yacoub El Mansour in a middling Botola Pro clash** — neither side is exactly setting the league on fire, but the hosts have that home-ground advantage. 🏟️\n\nZemamra are stuck in neutral with 2W-1D-2L form; they scraped past Kawkab on the road but got hammered by RS Berkane. Yacoub El Mansour are slightly steadier (2W-2D-1L) and actually beat Zemamra when these teams last met. This one could easily be a grind.\n\nKey storylines:\n\n- **Zemamra needing to bounce back** after that loss to Berkane and blank against Dcheira\n- **Yacoub El Mansour's defensive setup** with Z. Marour and Y. Morsil anchoring the backline\n- **Low-scoring pattern likely** — both teams have drawn 1-1 or posted shutouts recently\n\nExpected lineups:\n\n- **Renaissance Zemamra**: M. Fakhr, A. Balich, R. A. Boughima, B. Soufi, A. Badaoui, N. M. Tahiri, I. Zidani, F. E. Yazid, A. E. Bajjani, M. Kamal, A. E. Hamzaoui\n- **Union Sportive Yacoub El Mansour**: H. Doughmi, N. Azzoubairi, Z. Marour, Y. Morsil, I. Badri, A. Khalloufi, B. Mansouri, S. Ahannach, Z. Fati, Z. Ajoughlal, M. Balouk\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-0 Zemamra.** Slight lean to the hosts, but don't expect a goal fest. ⚽",
-        "generated_at": "2026-06-03T02:45:21.808451+00:00"
+        "text": "**Albania and Israel collide in a friendly that screams \"defensive grind\"** — both sides are leaky right now, but neither looks sharp enough to run up the score. 🔒\n\nAlbania's been all over the map: two wins sandwiched around losses to Ukraine, Poland, and England. Israel just got hammered 3-0 by Italy after a wild 4-1 romp over Moldova, so form is all over the place. Home advantage in Tirana could matter, but these teams feel evenly matched on current trajectory.\n\nKey storylines:\n\n- **A. Broja** leads the line for the hosts and will need service from midfield — **K. Asllani and J. Shehu** control the tempo\n- Israel's attack leans on **T. Baribo** and **O. Gloukh**, but their defense has been wobbly; can **I. Nachmias** and **O. Blorian** tighten up?\n- The model leans slightly to the visitors despite playing away, but this screams low-scoring affairs\n\nExpected lineups:\n\n- **Albania**: T. Strakosha, M. Mitaj, Q. Laci, B. Djimsiti, E. Hysaj, K. Asllani, J. Sheju, A. Hoxha, N. Bajrami, M. Uzuni, A. Broja\n- **Israel**: D. Peretz, R. Revivo, I. Nachmias, O. Blorian, E. Dasa, E. Peretz, D. Peretz, T. Baribo, O. Gloukh, A. Khalaili, D. Turgeman\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Albania 1–1 Israel**. Neither team has the offensive juice for a shootout; a draw feels right. ⚽",
+        "generated_at": "2026-06-03T01:45:37.025662+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4665,
+      "id": 4604,
       "event": {
-        "id": 207425,
+        "id": 207648,
         "league": {
-          "id": 31,
-          "name": "International Friendly Games",
-          "country": "International",
+          "id": 57,
+          "name": "USL Championship",
+          "country": "USA",
           "is_women": false,
-          "current_season": {
-            "id": 133,
-            "name": "Int. Friendly Games 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026
-        },
-        "home_team": "Albania",
-        "away_team": "Israel",
+        "season": null,
+        "home_team": "Birmingham Legion FC",
+        "away_team": "Louisville City FC",
         "home_team_obj": {
-          "id": 724,
-          "name": "Albania",
-          "short_name": "Albania",
-          "country": "Albania",
+          "id": 2229,
+          "name": "Birmingham Legion FC",
+          "short_name": "Birmingham Legion",
+          "country": "USA",
           "coach": {
-            "name": "Sylvinho",
-            "shortName": "Sylvinho"
-          },
-          "venue": {
-            "id": 535,
-            "name": "Air Albania",
-            "city": "Tirana",
-            "country": "Albania",
-            "capacity": 22500
-          }
-        },
-        "away_team_obj": {
-          "id": 679,
-          "name": "Israel",
-          "short_name": "Israel",
-          "country": "Israel",
-          "coach": {
-            "name": "Ran Ben Simon",
-            "shortName": "R. B. Simon"
+            "name": "Jay Heaps",
+            "shortName": "J. Heaps"
           },
           "venue": null
         },
-        "event_date": "2026-06-03T22:00:00+04:00",
-        "round_number": null,
+        "away_team_obj": {
+          "id": 2222,
+          "name": "Louisville City FC",
+          "short_name": "Louisville City",
+          "country": "USA",
+          "coach": {
+            "name": "Simon Bird",
+            "shortName": "S. Bird"
+          },
+          "venue": null
+        },
+        "event_date": "2026-06-04T04:00:00+04:00",
+        "round_number": 1,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -265,17 +526,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.27,
-        "odds_draw": 3.21,
-        "odds_away": 3.02,
-        "odds_over_15": 1.29,
-        "odds_over_25": 1.95,
-        "odds_over_35": 3.35,
-        "odds_under_15": 3.27,
-        "odds_under_25": 1.77,
-        "odds_under_35": 1.28,
-        "odds_btts_yes": 1.74,
-        "odds_btts_no": 1.97,
+        "odds_home": 3.44,
+        "odds_draw": 3.59,
+        "odds_away": 1.9,
+        "odds_over_15": 1.21,
+        "odds_over_25": 1.71,
+        "odds_over_35": 2.76,
+        "odds_under_15": 3.84,
+        "odds_under_25": 2.03,
+        "odds_under_35": 1.39,
+        "odds_btts_yes": 1.65,
+        "odds_btts_no": 2.11,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -284,504 +545,57 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
-        "weather_code": null,
-        "wind_speed": null,
-        "temperature_c": null,
+        "travel_distance_km": 539,
+        "weather_code": 0,
+        "wind_speed": 12.4,
+        "temperature_c": 25,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 2652,
-          "name": "Miloš Savović",
-          "country": "Montenegro",
-          "nationality_a3": "",
-          "birthdate": null,
-          "yellowCards": 19,
-          "redCards": 0,
-          "career_games": 5,
-          "career_yellow_cards": 19,
-          "career_red_cards": 0
-        },
+        "referee": null,
         "home_coach": {
-          "id": 107,
-          "name": "Sylvinho",
-          "short_name": "Sylvinho",
-          "country": "Brazil",
-          "profile": "defensive",
-          "preferred_formation": "4-1-3-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 1624,
+          "name": "Jay Heaps",
+          "short_name": "J. Heaps",
+          "country": "USA",
+          "profile": "balanced",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.2457440036229322,
+          "defensive_line": "high",
+          "top_styles": [
+            "inverted_fb",
+            "ball_dominant"
+          ]
         },
         "away_coach": {
-          "id": 805,
-          "name": "Ran Ben Simon",
-          "short_name": "R. B. Simon",
-          "country": "Israel",
+          "id": 1617,
+          "name": "Simon Bird",
+          "short_name": "S. Bird",
+          "country": "England",
           "profile": "attacking",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "preferred_formation": "5-4-1",
+          "pressing_intensity": 0.4619025198948898,
+          "defensive_line": "mid",
+          "top_styles": [
+            "cross_pray",
+            "wing_play"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 535,
-          "name": "Air Albania",
-          "city": "Tirana",
-          "country": "Albania",
-          "capacity": 22500,
-          "latitude": null,
-          "longitude": null,
+          "id": 1337,
+          "name": "Protective Stadium",
+          "city": "Birmingham",
+          "country": "USA",
+          "capacity": 47100,
+          "latitude": 33.5278,
+          "longitude": -86.8092,
           "pitch_x": null,
           "pitch_y": null,
           "built_year": null
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "D. Peretz",
-                "goals": 0,
-                "api_id": 1048265,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 1605,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "E. Dasa",
-                "goals": 0,
-                "api_id": 127846,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 5449,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB",
-                  "CB"
-                ]
-              },
-              {
-                "name": "N. Stoioanov",
-                "goals": 0,
-                "api_id": 1214868,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 11117,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "S. Lemkin",
-                "goals": 0,
-                "api_id": 1091923,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 5257,
-                "yellow_card": false,
-                "jersey_number": "12",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "R. Revivo",
-                "goals": 0,
-                "api_id": 1142085,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 3171,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "E. Peretz",
-                "goals": 0,
-                "api_id": 837216,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 13467,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "G. Kanichowsky",
-                "goals": 0,
-                "api_id": 856417,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 3433,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "O. Gloukh",
-                "goals": 0,
-                "api_id": 1155158,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 3777,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM",
-                  "CM"
-                ]
-              },
-              {
-                "name": "S. Torial",
-                "goals": 0,
-                "api_id": 1063151,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 54182,
-                "yellow_card": false,
-                "jersey_number": "17",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RW",
-                "positions_detailed": [
-                  "RW"
-                ]
-              },
-              {
-                "name": "D. Turgeman",
-                "goals": 0,
-                "api_id": 1005586,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 9528,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "M. Solomon",
-                "goals": 0,
-                "api_id": 862223,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 1785,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LW",
-                "positions_detailed": [
-                  "LW"
-                ]
-              }
-            ],
-            "formation": "4-3-3",
-            "substitutes": []
-          },
-          "home": {
-            "players": [
-              {
-                "name": "A. Sherri",
-                "goals": 0,
-                "api_id": 363380,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 8495,
-                "yellow_card": false,
-                "jersey_number": "12",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "E. Hysaj",
-                "goals": 0,
-                "api_id": 136322,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 3835,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB",
-                  "LB"
-                ]
-              },
-              {
-                "name": "A. Ajeti",
-                "goals": 0,
-                "api_id": 111746,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 26742,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "B. Djimsiti",
-                "goals": 0,
-                "api_id": 151003,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 1300,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB",
-                  "RB"
-                ]
-              },
-              {
-                "name": "M. Mitaj",
-                "goals": 0,
-                "api_id": 1006089,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 8154,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "Q. Laci",
-                "goals": 0,
-                "api_id": 284395,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 5854,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "AM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "K. Asllani",
-                "goals": 0,
-                "api_id": 996820,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1840,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DM",
-                "positions_detailed": [
-                  "DM",
-                  "CM"
-                ]
-              },
-              {
-                "name": "Y. Ramadani",
-                "goals": 0,
-                "api_id": 841977,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 1813,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "A. Broja",
-                "goals": 0,
-                "api_id": 996985,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 417,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "A. Mehmeti",
-                "goals": 0,
-                "api_id": 1007072,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 6309,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM",
-                  "LW"
-                ]
-              },
-              {
-                "name": "A. Hoxha",
-                "goals": 0,
-                "api_id": 890663,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 3346,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LW",
-                "positions_detailed": [
-                  "LW"
-                ]
-              }
-            ],
-            "formation": "4-3-3",
-            "substitutes": []
-          },
-          "confirmed": true
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -789,70 +603,74 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "c5ff03",
-              "real": true,
+              "base": "efc131",
+              "real": false,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "000000"
+              "number": "000000",
+              "sleeve": "333333"
             },
             "player": {
-              "base": "ffffff",
+              "base": "891db9",
               "real": true,
               "type": "short_sleeves",
-              "number": "64becf",
-              "sleeve": "f7f7f7"
+              "number": "000000",
+              "sleeve": "000099"
             }
           },
           "home": {
             "GK": {
-              "base": "54cc84",
-              "real": true,
+              "base": "efc131",
+              "real": false,
               "type": "short_sleeves",
-              "number": "f8f8f8",
-              "sleeve": "ffffff"
+              "number": "000000",
+              "sleeve": "333333"
             },
             "player": {
-              "base": "b50124",
-              "real": true,
+              "base": "D8D8D8",
+              "real": false,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "000000"
+              "number": "000000",
+              "sleeve": "D8D8D8"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 2,
-            "sentence": "Albania haven't won any of their last 3 games against Israel."
+            "type_id": 1,
+            "sentence": "Louisville City have a losing streak of 4 matches in Championship USL."
           },
           {
-            "type_id": 1,
-            "sentence": "Albania have lost 3 matches in a row."
+            "type_id": 6,
+            "sentence": "During the last 7 meetings with Birmingham Legion FC playing at home, Birmingham Legion FC have won 2 times, there have been 2 draws while Louisville City have won 3 times. The goal difference is 10-6 in favour of Louisville City."
+          },
+          {
+            "type_id": 23,
+            "sentence": "Last season's matches: 1-1 (Birmingham Legion FC at home) and 4-2 (Louisville City at home)."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Albania and Israel collide in a friendly that screams \"defensive grind\"** — both sides are leaky right now, but neither looks sharp enough to run up the score. 🔒\n\nAlbania's been all over the map: two wins sandwiched around losses to Ukraine, Poland, and England. Israel just got hammered 3-0 by Italy after a wild 4-1 romp over Moldova, so form is all over the place. Home advantage in Tirana could matter, but these teams feel evenly matched on current trajectory.\n\nKey storylines:\n\n- **A. Broja** leads the line for the hosts and will need service from midfield — **K. Asllani and J. Shehu** control the tempo\n- Israel's attack leans on **T. Baribo** and **O. Gloukh**, but their defense has been wobbly; can **I. Nachmias** and **O. Blorian** tighten up?\n- The model leans slightly to the visitors despite playing away, but this screams low-scoring affairs\n\nExpected lineups:\n\n- **Albania**: T. Strakosha, M. Mitaj, Q. Laci, B. Djimsiti, E. Hysaj, K. Asllani, J. Sheju, A. Hoxha, N. Bajrami, M. Uzuni, A. Broja\n- **Israel**: D. Peretz, R. Revivo, I. Nachmias, O. Blorian, E. Dasa, E. Peretz, D. Peretz, T. Baribo, O. Gloukh, A. Khalaili, D. Turgeman\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Albania 1–1 Israel**. Neither team has the offensive juice for a shootout; a draw feels right. ⚽",
-          "generated_at": "2026-06-03T01:45:37.025662+00:00"
+          "text": "**Birmingham's on a roll, Louisville's in freefall** — this is a clash between the Championship's hot hand and a side desperately needing a reset. 🔥\n\nLegion sit 2-2-1 over their last five with a statement 3-1 away win at Rhode Island, while Louisville have crumbled to 1-4-0 including back-to-back defeats at home. The form gap is real, and Protective Stadium feels like enemy territory for the visitors.\n\nKey storylines:\n\n- **Birmingham's midfield control**: S. McIllhatton and S. Antwi anchoring a Legion side that just dismantled Rhode Island away from home\n- **Louisville's defensive fragility**: Conceding four at Miami and three separate two-goal defeats suggests K. Adams and B. Dayes will have their hands full against T. Pasher and R. Williams\n- **Home-field advantage**: Legion unbeaten at Protective Stadium in their recent form; Louisville winless on the road in their last stretch\n\nExpected lineups:\n\n- **Birmingham Legion FC**: J. Koleilat, D. McCartney, R. Hamouda, P. Kavita, L. Duru, S. Antwi, S. McIllhatton, G. Diarbian, P. Vassell, T. Pasher, R. Williams\n- **Louisville City FC**: H. Fauroux, K. Adams, S. Totsch, B. Dayes, J. Morris, J. Wilson, T. Davila, Z. Duncan, R. Serrano, C. Donovan, M. Akale\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Birmingham 2–0 Louisville**. Legion's rhythm plus Louisville's leaky backline points to a commanding home opener. 👊",
+          "generated_at": "2026-06-03T02:45:39.210684+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:48:29.233868+04:00",
-      "prob_home_win": 31.00158802926923,
-      "prob_draw": 28.2584230024771,
-      "prob_away_win": 40.73998896825366,
-      "predicted_result": "A",
-      "expected_home_goals": 1.3,
-      "expected_away_goals": 1.3,
-      "prob_over_15": 69.42911748751696,
-      "prob_over_25": 31.401410667456446,
-      "prob_over_35": 20.41334553253025,
-      "prob_btts_yes": 54.13616288288723,
-      "confidence": 40.73998896825366,
+      "created_at": "2026-05-28T06:20:18.279996+04:00",
+      "prob_home_win": 54.17635844653083,
+      "prob_draw": 24.770088792238166,
+      "prob_away_win": 21.053552761231003,
+      "predicted_result": "H",
+      "expected_home_goals": 1.37833,
+      "expected_away_goals": 1.2260900000000001,
+      "prob_over_15": 85.92909535746858,
+      "prob_over_25": 58.778232741751154,
+      "prob_over_35": 35.884690082318116,
+      "prob_btts_yes": 65.47052720994984,
+      "confidence": 54.17635844653083,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 40.73998896825366,
+      "favorite": "H",
+      "favorite_prob": 54.17635844653083,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
