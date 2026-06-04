@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T17:30:39.826Z",
+  "generatedAt": "2026-06-04T20:11:52.035Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,72 +21,50 @@
   ],
   "samples": {
     "event": {
-      "id": 209435,
+      "id": 207513,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": 53,
+        "name": "Botola Pro",
+        "country": "Morocco",
         "is_women": false,
-        "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
-        "year": 2026
-      },
-      "home_team": "Iran",
-      "away_team": "Mali",
+      "season": null,
+      "home_team": "Hassania d'Agadir",
+      "away_team": "Fath Union Sport",
       "home_team_obj": {
-        "id": 481,
-        "name": "Iran",
-        "short_name": "Iran",
-        "country": "Iran",
+        "id": 2060,
+        "name": "Hassania d'Agadir",
+        "short_name": "HUSA",
+        "country": "Morocco",
         "coach": {
-          "name": "Amir Ghalenoei",
-          "shortName": "A. Ghalenoei"
+          "name": "Hilal Et-Tair",
+          "shortName": "H. Et-Tair"
         },
-        "venue": {
-          "id": 439,
-          "name": "Azadi Stadium",
-          "city": "Tehran",
-          "country": "Iran",
-          "capacity": 78116
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 644,
-        "name": "Mali",
-        "short_name": "Mali",
-        "country": "Mali",
+        "id": 2066,
+        "name": "Fath Union Sport",
+        "short_name": "FUS Rabat",
+        "country": "Morocco",
         "coach": {
-          "name": "Tom Saintfiet",
-          "shortName": "T. Saintfiet"
+          "name": "Saïd Chiba",
+          "shortName": "S. Chiba"
         },
-        "venue": {
-          "id": 500,
-          "name": "Stade du 26 Mars",
-          "city": "Bamako",
-          "country": "Mali",
-          "capacity": 50000
-        }
+        "venue": null
       },
-      "event_date": "2026-06-04T19:30:00+04:00",
-      "round_number": null,
+      "event_date": "2026-06-04T22:00:00+04:00",
+      "round_number": 22,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 90,
+      "period": "FT",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -114,91 +92,93 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 63,
-        "name": "Amir Ghalenoei",
-        "short_name": "A. Ghalenoei",
-        "country": "Iran",
-        "profile": "attacking",
+        "id": 1478,
+        "name": "Hilal Et-Tair",
+        "short_name": "H. Et-Tair",
+        "country": "Morocco",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
-      "away_coach": {
-        "id": 82,
-        "name": "Tom Saintfiet",
-        "short_name": "T. Saintfiet",
-        "country": "Belgium",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.7180602996136786,
-        "defensive_line": "high",
+        "pressing_intensity": 0.2194544466769074,
+        "defensive_line": "mid",
         "top_styles": [
-          "anti_football",
+          "set_piece",
           "terrorist_fb"
         ]
       },
-      "unavailable_players": null,
-      "venue": {
-        "id": 439,
-        "name": "Azadi Stadium",
-        "city": "Tehran",
-        "country": "Iran",
-        "capacity": 78116,
-        "latitude": null,
-        "longitude": null,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+      "away_coach": {
+        "id": 1484,
+        "name": "Saïd Chiba",
+        "short_name": "S. Chiba",
+        "country": "",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.2539310068541928,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "no_midfield"
+        ]
       },
+      "unavailable_players": null,
+      "venue": null,
       "live_stats": null,
       "jerseys": null,
       "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Iran's looking sharp, Mali's stuck in neutral** — the hosts have won three of their last five while Mali's drowning in draws. This friendly screams mismatch on paper. ⚽\n\nIran are riding a wave after demolishing Costa Rica 5-0 at home, though they did stumble to Nigeria. Mali, meanwhile, have drawn four of their last five matches — which honestly feels less like defensive prowess and more like creative bankruptcy.\n\nKey storylines:\n\n- **M. Taremi** and **S. Ghoddos** will be looking to exploit a Mali midfield that's been toothless in recent games\n- Iran's attacking depth versus Mali's injury to **D. Nene** — the visitors are short on firepower upfront\n- **A. Beiranvand** faces a relatively quiet evening unless Mali suddenly wake up\n\nExpected lineups:\n\n- **Iran**: A. Beiranvand, M. Mohammadi, S. Khalilzadeh, A. Nemati, S. Hardani, S. Ezatolahi, S. Ghoddos, M. Mohebi, M. Ghayedi, S. Moghanlou, M. Taremi\n- **Mali**: D. Diarra, A. Dante, A. Dieng, M. Fofana, H. Traoré, L. Coulibaly, Y. Bissouma, F. Diabaté, K. Doumbia, I. Sissoko, L. Sinayoko\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Iran 2-0 Mali**\n\nIran have the edge in form and attacking intent — expect a controlled win. 🎯",
-        "generated_at": "2026-06-04T01:45:38.781467+00:00"
+        "text": "**Hassania's looking to bounce back, but Fath Union won't budge** — the hosts have been leaky on defense lately, while the visitors are in cruise control with draws keeping them steady. 🎯\n\nHassania lost their last two at home and conceded five goals across both; Fath Union, meanwhile, have drawn three of their last five and rarely get swept up in affairs. Form suggests a cagey affair here.\n\nKey storylines:\n\n- **Hassania's leaky backline** (E. Cabral, S. E. Amrani, M. Bahsain) must tighten up after surrendering 3+ in back-to-back home losses\n- **Fath Union's stingy approach** — A. Lakred and the back line have been solid, conceding just one goal in their last three\n- **Pace vs. control** — R. Kossi and Y. Arbidi will try to drive Hassania forward, but A. Mahir and A. Serrhat will likely sit deep and absorb pressure\n\nExpected lineups:\n\n- **Hassania d'Agadir**: B. Abyir, M. Bahsain, I. Hrila, S. E. Amrani, E. Cabral, J. Tachtach, R. Kossi, Y. Arbidi, A. Qassaq, M. Ounajem, B. Ilou\n- **Fath Union Sport**: A. Lakred, O. Soukhane, A. E. Msane, C. Salaheddine, H. E. Mahssani, A. Mahir, A. Serrhat, C. Faidi, L. Diakité, S. Benyachou, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Fath Union's draw streak extends; Hassania's frustration continues. 📌",
+        "generated_at": "2026-06-04T02:45:25.342131+00:00"
       },
       "live_websocket": false
     },
     "prediction": {
-      "id": 4609,
+      "id": 4675,
       "event": {
-        "id": 207513,
+        "id": 206893,
         "league": {
-          "id": 53,
-          "name": "Botola Pro",
-          "country": "Morocco",
+          "id": 31,
+          "name": "International Friendly Games",
+          "country": "International",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 133,
+            "name": "Int. Friendly Games 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
+          }
         },
-        "season": null,
-        "home_team": "Hassania d'Agadir",
-        "away_team": "Fath Union Sport",
+        "season": {
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
+          "year": 2026
+        },
+        "home_team": "Czechia",
+        "away_team": "Guatemala",
         "home_team_obj": {
-          "id": 2060,
-          "name": "Hassania d'Agadir",
-          "short_name": "HUSA",
-          "country": "Morocco",
+          "id": 930,
+          "name": "Czechia",
+          "short_name": "Czechia",
+          "country": "Czechia",
           "coach": {
-            "name": "Hilal Et-Tair",
-            "shortName": "H. Et-Tair"
+            "name": "Miroslav Koubek",
+            "shortName": "M. Koubek"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 2066,
-          "name": "Fath Union Sport",
-          "short_name": "FUS Rabat",
-          "country": "Morocco",
+          "id": 660,
+          "name": "Guatemala",
+          "short_name": "Guatemala",
+          "country": "Guatemala",
           "coach": {
-            "name": "Saïd Chiba",
-            "shortName": "S. Chiba"
+            "name": "Luis Fernando Tena",
+            "shortName": "L. F. Tena"
           },
           "venue": null
         },
-        "event_date": "2026-06-04T22:00:00+04:00",
-        "round_number": 22,
+        "event_date": "2026-06-05T04:00:00+04:00",
+        "round_number": null,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -225,514 +205,122 @@
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": null,
-        "wind_speed": null,
-        "temperature_c": null,
+        "weather_code": 0,
+        "wind_speed": 13.4,
+        "temperature_c": 27,
         "pitch_condition": null,
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1478,
-          "name": "Hilal Et-Tair",
-          "short_name": "H. Et-Tair",
-          "country": "Morocco",
-          "profile": "balanced",
+          "id": 579,
+          "name": "Miroslav Koubek",
+          "short_name": "M. Koubek",
+          "country": "Czechia",
+          "profile": "attacking",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.2194544466769074,
-          "defensive_line": "mid",
-          "top_styles": [
-            "set_piece",
-            "terrorist_fb"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 1484,
-          "name": "Saïd Chiba",
-          "short_name": "S. Chiba",
-          "country": "",
+          "id": 695,
+          "name": "Luis Fernando Tena",
+          "short_name": "L. F. Tena",
+          "country": "Mexico",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.2539310068541928,
-          "defensive_line": "mid",
-          "top_styles": [
-            "terrorist_fb",
-            "no_midfield"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "unavailable_players": null,
-        "venue": null,
+        "venue": {
+          "id": 269,
+          "name": "Sports Illustrated Stadium",
+          "city": "Harrison",
+          "country": "USA",
+          "capacity": 25000,
+          "latitude": 40.7368,
+          "longitude": -74.1502,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 2010
+        },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "A. Lakred",
-                "goals": 0,
-                "api_id": 919749,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 49739,
-                "yellow_card": false,
-                "jersey_number": "36",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "H. E. Mahssani",
-                "goals": 0,
-                "api_id": 970834,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49740,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "F. Chamboco",
-                "goals": 0,
-                "api_id": 1509176,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 15438,
-                "yellow_card": false,
-                "jersey_number": "40",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "A. E. Msane",
-                "goals": 0,
-                "api_id": 919942,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49866,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "O. Soukhane",
-                "goals": 0,
-                "api_id": 1015235,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49750,
-                "yellow_card": false,
-                "jersey_number": "47",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "A. Mahir",
-                "goals": 0,
-                "api_id": 1022302,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49744,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "A. Serrhat",
-                "goals": 0,
-                "api_id": 1004248,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49745,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "I. Moutaraji",
-                "goals": 0,
-                "api_id": 1140870,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49754,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM"
-                ]
-              },
-              {
-                "name": "C. Salaheddine",
-                "goals": 0,
-                "api_id": 1214792,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49741,
-                "yellow_card": false,
-                "jersey_number": "32",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "D. Bassinga",
-                "goals": 0,
-                "api_id": 1464148,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49752,
-                "yellow_card": false,
-                "jersey_number": "28",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "A. Mouloua",
-                "goals": 0,
-                "api_id": 1095725,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49749,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              }
-            ],
-            "formation": "4-2-3-1",
-            "substitutes": []
-          },
-          "home": {
-            "players": [
-              {
-                "name": "B. Abyir",
-                "goals": 0,
-                "api_id": 1463237,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 49646,
-                "yellow_card": false,
-                "jersey_number": "61",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "M. Akoumi",
-                "goals": 0,
-                "api_id": 1597137,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49652,
-                "yellow_card": false,
-                "jersey_number": "32",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM"
-                ]
-              },
-              {
-                "name": "S. E. Amrani",
-                "goals": 0,
-                "api_id": 1008871,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49648,
-                "yellow_card": false,
-                "jersey_number": "30",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB",
-                  "RB"
-                ]
-              },
-              {
-                "name": "I. Hrila",
-                "goals": 0,
-                "api_id": 1655428,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49649,
-                "yellow_card": false,
-                "jersey_number": "34",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "M. Bahsain",
-                "goals": 0,
-                "api_id": 1140857,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49650,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB",
-                  "CB"
-                ]
-              },
-              {
-                "name": "A. Tarrazi",
-                "goals": 0,
-                "api_id": 1990600,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 49661,
-                "yellow_card": false,
-                "jersey_number": "27",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "J. Tachtach",
-                "goals": 0,
-                "api_id": 1013197,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49651,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "Y. Arbidi",
-                "goals": 0,
-                "api_id": 1004511,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49655,
-                "yellow_card": false,
-                "jersey_number": "26",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LW",
-                "positions_detailed": [
-                  "LW"
-                ]
-              },
-              {
-                "name": "A. Qassaq",
-                "goals": 0,
-                "api_id": 1140891,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49654,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "AM",
-                "positions_detailed": [
-                  "AM"
-                ]
-              },
-              {
-                "name": "A. A. Brayim",
-                "goals": 0,
-                "api_id": 1525286,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 49663,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RW",
-                "positions_detailed": [
-                  "RW"
-                ]
-              },
-              {
-                "name": "B. Ilou",
-                "goals": 0,
-                "api_id": 2003720,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 49656,
-                "yellow_card": false,
-                "jersey_number": "71",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              }
-            ],
-            "formation": "4-2-3-1",
-            "substitutes": []
-          },
-          "confirmed": false
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "c6a7df",
+              "real": true,
+              "type": "long_sleeves",
+              "number": "040404",
+              "sleeve": "0e0c00"
+            },
+            "player": {
+              "base": "ffffff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "078edb",
+              "sleeve": "078edb",
+              "sleevelong": "ffffff"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "bbe6fb",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "c0e5fa"
+            },
+            "player": {
+              "base": "cc0000",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "5399d3",
+              "sleevelong": "cc0100"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Czechia have a winning streak of 5 matches."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Hassania's looking to bounce back, but Fath Union won't budge** — the hosts have been leaky on defense lately, while the visitors are in cruise control with draws keeping them steady. 🎯\n\nHassania lost their last two at home and conceded five goals across both; Fath Union, meanwhile, have drawn three of their last five and rarely get swept up in affairs. Form suggests a cagey affair here.\n\nKey storylines:\n\n- **Hassania's leaky backline** (E. Cabral, S. E. Amrani, M. Bahsain) must tighten up after surrendering 3+ in back-to-back home losses\n- **Fath Union's stingy approach** — A. Lakred and the back line have been solid, conceding just one goal in their last three\n- **Pace vs. control** — R. Kossi and Y. Arbidi will try to drive Hassania forward, but A. Mahir and A. Serrhat will likely sit deep and absorb pressure\n\nExpected lineups:\n\n- **Hassania d'Agadir**: B. Abyir, M. Bahsain, I. Hrila, S. E. Amrani, E. Cabral, J. Tachtach, R. Kossi, Y. Arbidi, A. Qassaq, M. Ounajem, B. Ilou\n- **Fath Union Sport**: A. Lakred, O. Soukhane, A. E. Msane, C. Salaheddine, H. E. Mahssani, A. Mahir, A. Serrhat, C. Faidi, L. Diakité, S. Benyachou, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1** — Fath Union's draw streak extends; Hassania's frustration continues. 📌",
-          "generated_at": "2026-06-04T02:45:25.342131+00:00"
+          "text": "**Czechia rolls into this friendly as the clear favorite** — a team riding two wins in their last five, while Guatemala arrives off a brutal 7-0 drubbing by Algeria. Not exactly a recipe for drama. ⚽\n\nCzechia's mixing steady form with some defensive wobbles (those 1-1 and 2-2 draws suggest leaky moments), but **P. Schick** and **J. Kuchta** up front should have a field day against a Guatemala side that's been getting picked apart. The visitors' only bright spot? A 3-1 home win vs Suriname — everything else has been grim.\n\nKey storylines:\n\n- **Czechia's attack** needs to click after drawing twice at home; Schick and Kuchta are the pressure valve.\n- **Guatemala's backline** has conceded 8 goals in two games — T. Chorý and the midfield should have time and space.\n- Friendly vibes mean rotations could shuffle, but both benches will be hungry for a statement result.\n\nExpected lineups:\n\n- **Czechia**: M. Kovář, J. Zelený, L. Krejčí, R. Hranáč, V. Coufal, T. Souček, L. Červ, T. Chorý, P. Šulc, J. Kuchta, P. Schick\n- **Guatemala**: K. Navarro, J. Morales, J. Pinto, J. Ardón, S. Robles, J. Franco, J. Rosales, R. Muñoz, O. Castellanos, Ó. Santis, D. Lom\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Czechia 3–1 Guatemala**. Czechia's a clear edge, and Guatemala's shaky defense will leak at least two. 🎯",
+          "generated_at": "2026-06-04T01:46:25.982465+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-05-29T06:20:10.129144+04:00",
-      "prob_home_win": 23.284063971511014,
-      "prob_draw": 34.069334649089875,
-      "prob_away_win": 42.646601379399115,
-      "predicted_result": "A",
-      "expected_home_goals": 1.1641700000000001,
-      "expected_away_goals": 1.21597,
-      "prob_over_15": 68.41519257077674,
-      "prob_over_25": 45.97361907399373,
-      "prob_over_35": 18.670461032605953,
-      "prob_btts_yes": 52.244784575190515,
-      "confidence": 42.646601379399115,
+      "created_at": "2026-06-02T14:48:34.119018+04:00",
+      "prob_home_win": 71.6854621320449,
+      "prob_draw": 19.003800237031022,
+      "prob_away_win": 9.310737630924077,
+      "predicted_result": "H",
+      "expected_home_goals": 1.65,
+      "expected_away_goals": 1.15,
+      "prob_over_15": 83.23505686331121,
+      "prob_over_25": 59.37350094559882,
+      "prob_over_35": 30.194421008570355,
+      "prob_btts_yes": 63.77512508569206,
+      "confidence": 71.6854621320449,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 42.646601379399115,
+      "favorite": "H",
+      "favorite_prob": 71.6854621320449,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
