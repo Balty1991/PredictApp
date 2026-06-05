@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T08:30:40.688Z",
+  "generatedAt": "2026-06-05T12:13:51.134Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -156,9 +156,9 @@
       "live_websocket": false
     },
     "prediction": {
-      "id": 4646,
+      "id": 4680,
       "event": {
-        "id": 209437,
+        "id": 207467,
         "league": {
           "id": 31,
           "name": "International Friendly Games",
@@ -177,37 +177,37 @@
           "name": "Int. Friendly Games 2026",
           "year": 2026
         },
-        "home_team": "Jamaica",
-        "away_team": "South Africa",
+        "home_team": "Thailand",
+        "away_team": "Kuwait",
         "home_team_obj": {
-          "id": 662,
-          "name": "Jamaica",
-          "short_name": "Jamaica",
-          "country": "Jamaica",
+          "id": 718,
+          "name": "Thailand",
+          "short_name": "Thailand",
+          "country": "Thailand",
           "coach": {
-            "name": "Rudolph Speid",
-            "shortName": "R. Speid"
+            "name": "Anthony Hudson",
+            "shortName": "A. Hudson"
           },
           "venue": {
-            "id": 507,
-            "name": "Independence Park",
-            "city": "Kingston",
-            "country": "Jamaica",
-            "capacity": 35000
+            "id": 531,
+            "name": "Rajamangala National Stadium",
+            "city": "Bangkok",
+            "country": "Thailand",
+            "capacity": 49722
           }
         },
         "away_team_obj": {
-          "id": 452,
-          "name": "South Africa",
-          "short_name": "South Africa",
-          "country": "South Africa",
+          "id": 2215,
+          "name": "Kuwait",
+          "short_name": "Kuwait",
+          "country": "Kuwait",
           "coach": {
-            "name": "Hugo Broos",
-            "shortName": "H. Broos"
+            "name": "Juan Antonio Pizzi",
+            "shortName": "J. A. Pizzi"
           },
           "venue": null
         },
-        "event_date": "2026-06-05T15:00:00+04:00",
+        "event_date": "2026-06-05T16:30:00+04:00",
         "round_number": null,
         "round_name": "",
         "group_name": null,
@@ -218,24 +218,24 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": null,
-        "odds_draw": null,
-        "odds_away": null,
-        "odds_over_15": null,
-        "odds_over_25": null,
-        "odds_over_35": null,
-        "odds_under_15": null,
-        "odds_under_25": null,
-        "odds_under_35": null,
-        "odds_btts_yes": null,
-        "odds_btts_no": null,
+        "odds_home": 1.6,
+        "odds_draw": 3.59,
+        "odds_away": 4.97,
+        "odds_over_15": 1.34,
+        "odds_over_25": 2.08,
+        "odds_over_35": 3.87,
+        "odds_under_15": 2.98,
+        "odds_under_25": 1.65,
+        "odds_under_35": 1.21,
+        "odds_btts_yes": 2.06,
+        "odds_btts_no": 1.65,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
         "weather_code": null,
@@ -245,10 +245,10 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 697,
-          "name": "Rudolph Speid",
-          "short_name": "R. Speid",
-          "country": "Jamaica",
+          "id": 1587,
+          "name": "Anthony Hudson",
+          "short_name": "A. Hudson",
+          "country": "USA",
           "profile": "balanced",
           "preferred_formation": "4-2-3-1",
           "pressing_intensity": null,
@@ -256,26 +256,23 @@
           "top_styles": []
         },
         "away_coach": {
-          "id": 87,
-          "name": "Hugo Broos",
-          "short_name": "H. Broos",
-          "country": "Belgium",
-          "profile": "balanced",
+          "id": 1588,
+          "name": "Juan Antonio Pizzi",
+          "short_name": "J. A. Pizzi",
+          "country": "Spain",
+          "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.6606538721873174,
-          "defensive_line": "mid",
-          "top_styles": [
-            "positional",
-            "tiki_taka"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "unavailable_players": null,
         "venue": {
-          "id": 507,
-          "name": "Independence Park",
-          "city": "Kingston",
-          "country": "Jamaica",
-          "capacity": 35000,
+          "id": 1530,
+          "name": "True BG Stadium",
+          "city": "Pathum Thani",
+          "country": "Thailand",
+          "capacity": 15114,
           "latitude": null,
           "longitude": null,
           "pitch_x": null,
@@ -289,31 +286,78 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "0fdf71",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "13fc4d"
+            },
+            "player": {
+              "base": "ffffff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "3300ff",
+              "sleeve": "ffffff"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "00385a",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "001270"
+            },
+            "player": {
+              "base": "0246f3",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "f7f3f3",
+              "sleeve": "0246f3",
+              "sleevelong": "0246f3"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Kuwait haven't won any of their last 8 away matches."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Thailand have won 3 home matches in a row."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Thailand have a winning streak of 5 matches."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Jamaica's hot streak meets a South African side struggling to find rhythm** — this friendly is shaping up as a mismatch on paper, with the Reggae Boyz looking sharp and Bafana Bafana stumbling. 🏆\n\nJamaica are on a **3W-2D run** with back-to-back clean sheets, while South Africa have won just once in five and shipped goals in their last two outings. The momentum gap is real.\n\nKey storylines:\n\n- **Jamaica's defensive solidity** continues to be the backbone — T. Chambers and the backline haven't conceded in two straight\n- **South Africa need attacking rhythm** with K. Sebelebele, O. Appollis, and L. Foster tasked with breaking down a stubborn Jamaican shape\n- **T. Hall and C. Ainsworth** controlling the midfield tempo could be the difference in a low-scoring affair\n\nExpected lineups:\n\n- **Jamaica**: T. Chambers, K. Ming, D. Lowe, J. Laing, C. Ainsworth, T. Hall, R. Edwards, I. Hayden, C. Clarke, B. Cover, B. Cadamarteri\n- **South Africa**: R. Williams, S. Kabini, M. Mbokazi, I. Okon, K. Mudau, T. Mokoena, S. Sithole, O. Appollis, T. Zwane, K. Sebelebele, L. Foster\n\nBest picks:\n\n- **Total Goals Under 3.5**: South Africa's leaky defense meets Jamaica's defensive-minded approach — expect a cagey, low-scoring match 📍\n\nPrediction:\n\n**Jamaica 1–0 South Africa**. The model leans Jamaica; their form and defensive structure should edge out a misfiring South African attack.",
-          "generated_at": "2026-06-05T01:45:21.157697+00:00"
+          "text": "**Thailand hosts Kuwait in a friendly that should favour the home side** — the hosts are riding a recent win while Kuwait's winless run is getting awkward. 🏟️\n\nThailand scraped a 1-1 draw with China but bounced back to smash Singapore 3-1 at home. Kuwait, meanwhile, are in free fall: four straight defeats, most recently a brutal 4-0 hammering by South Korea.\n\nKey storylines:\n\n- **Thailand's home fortress** — the True BG Stadium is their turf, and they've already shown they can put goals on the board when firing (3-1 vs Singapore)\n- **Kuwait's defensive frailties** — three losses in the last five with just two draws speaks volumes; stopping **T. Dangda** and co. will be the real test\n- **Friendly stakes, but confidence matters** — Thailand should enter this with momentum; Kuwait need a reset badly\n\nExpected lineups:\n\n- **Thailand**: P. Khammai, S. Bureerat, P. Hemviboon, M. Bihr, N. Mickelson, K. Kaman, W. Pomphan, S. Yooyen, E. Punya, T. Dangda, S. Mueanta\n- **Kuwait**: K. A. Rashidi, M. Ghanam, F. Al-Hajeri, K. Ebrahim, S. A. Sanea, A. Al-Dhefiri, R. Hani, M. Daham, S. Al-Enezi, Y. Majed, Y. Nasser\n\nPrediction:\n\n**Thailand 2-0 Kuwait**\n\nClear edge to the hosts on current form and home advantage. Kuwait's leaky defence has Kuwait's leaky defence is wide open. 🎯",
+          "generated_at": "2026-06-05T01:45:50.681662+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-06-02T06:20:11.904361+04:00",
-      "prob_home_win": 73.0620384415039,
-      "prob_draw": 19.368730313757055,
-      "prob_away_win": 7.569231244739042,
+      "created_at": "2026-06-02T14:48:35.719110+04:00",
+      "prob_home_win": 44.85344987904572,
+      "prob_draw": 26.283401627249948,
+      "prob_away_win": 28.863148493704333,
       "predicted_result": "H",
-      "expected_home_goals": 1.4,
-      "expected_away_goals": 0.87075,
-      "prob_over_15": 70.70921634527126,
-      "prob_over_25": 29.44402535345257,
-      "prob_over_35": 15.022504209790178,
-      "prob_btts_yes": 24.28769498233871,
-      "confidence": 73.0620384415039,
+      "expected_home_goals": 1.3,
+      "expected_away_goals": 1.3,
+      "prob_over_15": 70.61868849105436,
+      "prob_over_25": 48.68321166751967,
+      "prob_over_35": 29.96367303476796,
+      "prob_btts_yes": 44.82749052066798,
+      "confidence": 44.85344987904572,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 73.0620384415039,
+      "favorite_prob": 44.85344987904572,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
