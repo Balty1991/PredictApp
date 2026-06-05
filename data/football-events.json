@@ -1,54 +1,10 @@
 {
-  "generatedAt": "2026-06-05T15:35:37.566Z",
+  "generatedAt": "2026-06-05T18:00:43.383Z",
   "count": 50,
   "items": [
     {
-      "id": 207893,
-      "status": "finished",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Indonesia",
-      "awayTeam": "Oman",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209191,
-      "status": "postponed",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Angola",
-      "awayTeam": "Botswana",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209442,
-      "status": "1st_half",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Tajikistan",
-      "awayTeam": "India",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207466,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Belarus",
-      "awayTeam": "Syria",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207426,
-      "status": "notstarted",
+      "status": "finished",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Georgia",
@@ -58,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 207466,
+      "status": "finished",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Belarus",
+      "awayTeam": "Syria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 206685,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Slovakia",
@@ -69,8 +36,19 @@
       "marketCount": 0
     },
     {
+      "id": 207427,
+      "status": "halftime",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Moldova",
+      "awayTeam": "Bulgaria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207454,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Russia",
@@ -81,7 +59,7 @@
     },
     {
       "id": 205201,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "San Marino",
@@ -91,34 +69,12 @@
       "marketCount": 0
     },
     {
-      "id": 207427,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Moldova",
-      "awayTeam": "Bulgaria",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10279,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Hungary",
       "awayTeam": "Finland",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209470,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Benin",
-      "awayTeam": "Niger",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -130,6 +86,17 @@
       "country": "International",
       "homeTeam": "Azerbaijan",
       "awayTeam": "Malta",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209470,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Benin",
+      "awayTeam": "Niger",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,17 +124,6 @@
       "marketCount": 0
     },
     {
-      "id": 9970,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Operário-PR",
-      "awayTeam": "Juventude",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209471,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -185,6 +141,17 @@
       "country": "International",
       "homeTeam": "Puerto Rico",
       "awayTeam": "Saudi Arabia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9970,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Operário-PR",
+      "awayTeam": "Juventude",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,17 +179,6 @@
       "marketCount": 0
     },
     {
-      "id": 207918,
-      "status": "notstarted",
-      "league": "J1 League",
-      "country": "Japan",
-      "homeTeam": "FC Tokyo",
-      "awayTeam": "Cerezo Osaka",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207919,
       "status": "notstarted",
       "league": "J1 League",
@@ -240,6 +196,17 @@
       "country": "Japan",
       "homeTeam": "Kashima Antlers",
       "awayTeam": "Vissel Kobe",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207918,
+      "status": "notstarted",
+      "league": "J1 League",
+      "country": "Japan",
+      "homeTeam": "FC Tokyo",
+      "awayTeam": "Cerezo Osaka",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -432,17 +399,6 @@
       "marketCount": 0
     },
     {
-      "id": 209447,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Sierra Leone",
-      "awayTeam": "Liberia",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209472,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -465,6 +421,17 @@
       "marketCount": 0
     },
     {
+      "id": 209447,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Sierra Leone",
+      "awayTeam": "Liberia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 209473,
       "status": "notstarted",
       "league": "International Friendly Games",
@@ -476,23 +443,23 @@
       "marketCount": 0
     },
     {
-      "id": 207499,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Gibraltar",
-      "awayTeam": "Cayman Islands",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209448,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "British Virgin Islands",
       "awayTeam": "Bonaire",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207499,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Gibraltar",
+      "awayTeam": "Cayman Islands",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +515,39 @@
       "country": "International",
       "homeTeam": "Switzerland",
       "awayTeam": "Australia",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209453,
+      "status": "notstarted",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "CD Castellón",
+      "awayTeam": "Almería",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 206688,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Panama",
+      "awayTeam": "Bosnia & Herzegovina",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209449,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Cabo Verde",
+      "awayTeam": "Bermuda",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
