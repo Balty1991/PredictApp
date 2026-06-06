@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T23:47:05.859Z",
+  "generatedAt": "2026-06-06T04:02:27.905Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 206686,
+      "id": 209484,
       "league": {
         "id": 31,
         "name": "International Friendly Games",
@@ -40,249 +40,127 @@
         "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Paraguay",
-      "away_team": "Nicaragua",
+      "home_team": "Vanuatu",
+      "away_team": "Fiji",
       "home_team_obj": {
-        "id": 458,
-        "name": "Paraguay",
-        "short_name": "Paraguay",
-        "country": "Paraguay",
-        "coach": {
-          "name": "Gustavo Alfaro",
-          "shortName": "G. Alfaro"
-        },
-        "venue": {
-          "id": 429,
-          "name": "Estadio Defensores del Chaco",
-          "city": "Asuncion",
-          "country": "Paraguay",
-          "capacity": 42354
-        }
+        "id": 2303,
+        "name": "Vanuatu",
+        "short_name": "Vanuatu",
+        "country": "Vanuatu",
+        "coach": null,
+        "venue": null
       },
       "away_team_obj": {
-        "id": 698,
-        "name": "Nicaragua",
-        "short_name": "Nicaragua",
-        "country": "Nicaragua",
+        "id": 2301,
+        "name": "Fiji",
+        "short_name": "",
+        "country": "Fiji",
         "coach": {
-          "name": "Juan Cruz Real",
-          "shortName": "J. C. Real"
+          "name": "Stéphane Auvray",
+          "shortName": "S. Auvray"
         },
-        "venue": {
-          "id": 521,
-          "name": "Nicaragua National Football Stadium",
-          "city": "Managua",
-          "country": "Nicaragua",
-          "capacity": 20000
-        }
+        "venue": null
       },
-      "event_date": "2026-06-06T02:15:00+04:00",
+      "event_date": "2026-06-06T08:00:00+04:00",
       "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "halftime",
-      "home_score": 2,
-      "away_score": 0,
-      "home_score_ht": 2,
-      "away_score_ht": 0,
-      "current_minute": 45,
-      "period": "HT",
-      "odds_home": 1.11,
-      "odds_draw": 8.19,
-      "odds_away": 19.09,
-      "odds_over_15": 1.12,
-      "odds_over_25": 1.39,
-      "odds_over_35": 2.06,
-      "odds_under_15": 5.6,
-      "odds_under_25": 2.52,
-      "odds_under_35": 1.69,
-      "odds_btts_yes": 2.31,
-      "odds_btts_no": 1.46,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": null,
+      "odds_draw": null,
+      "odds_away": null,
+      "odds_over_15": null,
+      "odds_over_25": null,
+      "odds_over_35": null,
+      "odds_under_15": null,
+      "odds_under_25": null,
+      "odds_under_35": null,
+      "odds_btts_yes": null,
+      "odds_btts_no": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 0,
-      "wind_speed": 6.3,
-      "temperature_c": 21,
+      "weather_code": null,
+      "wind_speed": null,
+      "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
       "referee": null,
-      "home_coach": {
-        "id": 90,
-        "name": "Gustavo Alfaro",
-        "short_name": "G. Alfaro",
-        "country": "Argentina",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
+      "home_coach": null,
       "away_coach": {
-        "id": 1591,
-        "name": "Juan Cruz Real",
-        "short_name": "J. C. Real",
-        "country": "Argentina",
+        "id": 1722,
+        "name": "Stéphane Auvray",
+        "short_name": "S. Auvray",
+        "country": "Guadeloupe",
         "profile": "balanced",
-        "preferred_formation": "5-4-1",
+        "preferred_formation": "4-4-2",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
       "unavailable_players": null,
-      "venue": {
-        "id": 429,
-        "name": "Estadio Defensores del Chaco",
-        "city": "Asuncion",
-        "country": "Paraguay",
-        "capacity": 42354,
-        "latitude": -25.292072,
-        "longitude": -57.657381,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 1917
-      },
+      "venue": null,
       "live_stats": null,
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "ff0000",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ff0000",
-            "sleevelong": "ff0000"
-          },
-          "player": {
-            "base": "023ea5",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "023ea5",
-            "sleevelong": "202349"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "6acfee",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "0a0a0a",
-            "sleeve": "f5f2ef"
-          },
-          "player": {
-            "base": "ffffff",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "0f00e4",
-            "sleeve": "1100ff",
-            "stripes": "fa0000"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 1,
-          "sentence": "Paraguay haven't lost in any of their last 6 home matches."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Nicaragua haven't won any of their last 8 away matches."
-        }
-      ],
-      "sr_stats": {
-        "attack": {
-          "away": null,
-          "home": null
-        },
-        "ball_safe": {
-          "away": null,
-          "home": null
-        },
-        "attack_pct": {
-          "away": null,
-          "home": null
-        },
-        "ball_safe_pct": {
-          "away": null,
-          "home": null
-        },
-        "dangerous_attack": {
-          "away": null,
-          "home": null
-        },
-        "dangerous_attack_pct": {
-          "away": null,
-          "home": null
-        }
-      },
+      "jerseys": null,
+      "funfacts": null,
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Paraguay hosts a much-weaker Nicaragua side in a friendly that should be a coronation, not a contest.** The Guaraní are battle-tested and clicking; the Nicaraguans are limping through a brutal streak. 🔥\n\nParaguay's sitting on back-to-back wins and looking sharp despite some injury headaches. Nicaragua just lost 0-2 to Haiti and 1-3 to Russia — they're struggling to score and even harder to keep it tight.\n\nKey storylines:\n\n- **A. Sanabria and G. Ávalos** lead a potent Paraguay attack that should have a field day against a leaky Nicaraguan defense\n- **J. Enciso and A. Cubas** control midfield tempo; Nicaragua's W. Talavera will need to sit deep and absorb pressure all night\n- Home advantage at Estadio Defensores del Chaco gives Paraguay every edge — friendly or not, this is their house 🏟️\n\nExpected lineups:\n\n- **Paraguay**: R. Fernández, M. Almirón, J. Alonso, G. Gómez, J. Cáceres, J. Enciso, D. Gómez, A. Cubas, G. Caballero, A. Sanabria, G. Ávalos\n- **Nicaragua**: A. López, J. Gutiérrez, J. Cano, E. Martínez, J. Rivera, W. Talavera, A. Velásquez, J. Coronel, J. Montes, J. Moncada, J. García\n\nPrediction:\n\n**Paraguay 3–0 Nicaragua.** The hosts are too clinical at home; Nicaragua's defence is a sieve. Lean Paraguay heavy.",
-        "generated_at": "2026-06-05T01:47:00.661101+00:00"
+        "text": "**Vanuatu and Fiji collide in a friendly that's basically a coin flip on paper** — both teams wobbling between competence and chaos in their last outings. 🏝️\n\nVanuatu got absolutely battered by New Zealand (1–8) but bounced back with a convincing 4–1 win over Samoa at home. Fiji, meanwhile, has been the classic draw machine — two stalemates mixed with a demoralizing 0–7 shellacking from the All Blacks. This is the kind of match where recent momentum matters less than just showing up sharp.\n\nKey storylines:\n\n- **Vanuatu's home advantage** could be the deciding edge; they've proven they can put away weaker opponents in their own backyard\n- **Fiji's inability to clinch wins** despite decent stretches (those 1–1 and 3–3 results) suggests they'll struggle to break down a compact Vanuatu defence\n- Both squads are rebuilding confidence after heavy losses to New Zealand — expect a scrappy, defensive affair\n\nExpected lineups:\n\n- **Vanuatu**: Not specified in data\n- **Fiji**: Not specified in data\n\nPrediction:\n\n**Vanuatu 2–1 Fiji**. Slight lean to the hosts; they've shown sharper finishing at home, and Fiji's draw-heavy form suggests they'll settle for a point rather than push for a win. 🔥",
+        "generated_at": "2026-06-06T01:45:15.605946+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 4617,
+      "id": 4620,
       "event": {
-        "id": 207429,
+        "id": 207919,
         "league": {
-          "id": 31,
-          "name": "International Friendly Games",
-          "country": "International",
+          "id": 49,
+          "name": "J1 League",
+          "country": "Japan",
           "is_women": false,
-          "current_season": {
-            "id": 133,
-            "name": "Int. Friendly Games 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026
-        },
-        "home_team": "Haiti",
-        "away_team": "Peru",
+        "season": null,
+        "home_team": "JEF United Chiba",
+        "away_team": "Avispa Fukuoka",
         "home_team_obj": {
-          "id": 465,
-          "name": "Haiti",
-          "short_name": "Haiti",
-          "country": "Haiti",
+          "id": 1934,
+          "name": "JEF United Chiba",
+          "short_name": "Chiba",
+          "country": "Japan",
           "coach": {
-            "name": "Sébastien Migné",
-            "shortName": "S. Migné"
+            "name": "Yoshiyuki Kobayashi",
+            "shortName": "Y. Kobayashi"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 713,
-          "name": "Peru",
-          "short_name": "Peru",
-          "country": "Peru",
+          "id": 1940,
+          "name": "Avispa Fukuoka",
+          "short_name": "Fukuoka",
+          "country": "Japan",
           "coach": {
-            "name": "Mano Menezes",
-            "shortName": "Mano Menezes"
+            "name": "Shinya Tsukahara",
+            "shortName": "S. Tsukahara"
           },
-          "venue": {
-            "id": 529,
-            "name": "Estadio Nacional",
-            "city": "Lima",
-            "country": "Peru",
-            "capacity": 45574
-          }
+          "venue": null
         },
-        "event_date": "2026-06-06T04:00:00+04:00",
-        "round_number": null,
-        "round_name": "",
+        "event_date": "2026-06-06T09:00:00+04:00",
+        "round_number": 52,
+        "round_name": "Placement match",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -291,17 +169,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": null,
-        "odds_draw": null,
-        "odds_away": null,
-        "odds_over_15": null,
-        "odds_over_25": null,
-        "odds_over_35": null,
-        "odds_under_15": null,
-        "odds_under_25": null,
-        "odds_under_35": null,
-        "odds_btts_yes": null,
-        "odds_btts_no": null,
+        "odds_home": 2.85,
+        "odds_draw": 2.95,
+        "odds_away": 2.57,
+        "odds_over_15": 1.45,
+        "odds_over_25": 2.42,
+        "odds_over_35": 4.53,
+        "odds_under_15": 2.57,
+        "odds_under_25": 1.51,
+        "odds_under_35": 1.17,
+        "odds_btts_yes": 1.99,
+        "odds_btts_no": 1.72,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -310,46 +188,52 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
-        "weather_code": 3,
-        "wind_speed": 17.2,
-        "temperature_c": 27,
+        "travel_distance_km": 913,
+        "weather_code": 2,
+        "wind_speed": 10.2,
+        "temperature_c": 22,
         "pitch_condition": null,
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 83,
-          "name": "Sébastien Migné",
-          "short_name": "S. Migné",
-          "country": "France",
-          "profile": "attacking",
+          "id": 1291,
+          "name": "Yoshiyuki Kobayashi",
+          "short_name": "Y. Kobayashi",
+          "country": "Japan",
+          "profile": "balanced",
           "preferred_formation": "4-4-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.35656241101940145,
+          "defensive_line": "mid",
+          "top_styles": [
+            "set_piece",
+            "terrorist_fb"
+          ]
         },
         "away_coach": {
-          "id": 93,
-          "name": "Mano Menezes",
-          "short_name": "Mano Menezes",
-          "country": "Brazil",
-          "profile": "defensive",
-          "preferred_formation": "3-5-2",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "id": 1297,
+          "name": "Shinya Tsukahara",
+          "short_name": "S. Tsukahara",
+          "country": "Japan",
+          "profile": "balanced",
+          "preferred_formation": "3-4-2-1",
+          "pressing_intensity": 0.2663901705691083,
+          "defensive_line": "mid",
+          "top_styles": [
+            "no_midfield",
+            "vertical"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 281,
-          "name": "Nu Stadium",
-          "city": "Miami",
-          "country": "USA",
-          "capacity": 26700,
-          "latitude": 25.7931,
-          "longitude": -80.259,
-          "pitch_x": 105,
-          "pitch_y": 68,
+          "id": 1103,
+          "name": "Fukuda Denshi Arena",
+          "city": "Chiba",
+          "country": "Japan",
+          "capacity": 19781,
+          "latitude": 35.577545,
+          "longitude": 140.122706,
+          "pitch_x": null,
+          "pitch_y": null,
           "built_year": null
         },
         "incidents": null,
@@ -362,67 +246,75 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "dcff26",
+              "base": "0d0e0d",
               "real": true,
               "type": "short_sleeves",
-              "number": "65635b",
-              "sleeve": "ffe800"
+              "number": "ffffff",
+              "sleeve": "faf5f6"
             },
             "player": {
-              "base": "ffffff",
+              "base": "01206f",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "ffffff",
-              "sleevelong": "ffffff"
+              "number": "ffffff",
+              "sleeve": "0e1736"
             }
           },
           "home": {
             "GK": {
-              "base": "f2f551",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "110000",
-              "sleeve": "1e1d1d"
-            },
-            "player": {
-              "base": "3300ff",
+              "base": "c32a94",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "731009"
+              "sleeve": "c32c39"
+            },
+            "player": {
+              "base": "ffff00",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "00bf00",
+              "sleeve": "00bf00",
+              "sleevelong": "ffff00"
             }
           }
         },
         "funfacts": [
           {
+            "type_id": 2,
+            "sentence": "When playing at home, United Chiba have not lost to Avispa in their last 10 encounters."
+          },
+          {
+            "type_id": 27,
+            "sentence": "The result of the first leg: Avispa - United Chiba 0-0."
+          },
+          {
             "type_id": 1,
-            "sentence": "Peru haven't won any of their last 13 away matches."
+            "sentence": "United Chiba have a losing streak of 4 matches at home."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Haiti rolls in hot, Peru desperately chasing form** — one side's riding a three-game win streak while the other's plummeted down the table. This friendly in Miami has real stakes for confidence. 🔥\n\nHaiti's been clinical at home (4-0 demolished New Zealand), though they did drop a shocker to Tunisia midweek. Peru, meanwhile, are limping along winless in five — the Honduras draw and back-to-back losses to Senegal and Paraguay have left them searching for answers.\n\nKey storylines:\n\n- **Haiti's D-line** (Lacroix, Adé, Delcroix anchoring) has been stingy; Peru's missing A. Valera up front and leaning on J. Vélez to carry the load\n- **Yotún and Carrillo** need to generate Peru's midfield spark against a Haiti side that's shown defensive steel\n- Friendly vibes mean both teams want attacking rhythm, but Peru's form suggests caution\n\nExpected lineups:\n\n- **Haiti**: J. Placide, D. Lacroix, R. Adé, H. Delcroix, C. Arcus, R. Providence, D. Jean Jacques, J. Bellegarde, J. Casimir, F. Pierrot, D. Nazon\n- **Peru**: P. Gallese, M. López, M. Araujo, E. Noriega, O. Sonne, A. Barco, A. Carrillo, Y. Yotún, J. Grimaldo, J. Concha, J. Vélez\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Haiti 2–0 Peru**. Haiti's momentum tilts this one; Peru's blunt without Valera.",
-          "generated_at": "2026-06-05T01:47:23.167391+00:00"
+          "text": "**A rematch of draws — and neither side looks sharp enough to break the pattern.** 🎯 JEF United grabbed a point away at Avispa's place not long ago, but they're bleeding form (1W in their last 5), while Fukuoka have turned into the ultimate draw merchants (4D in 5 games). This is a classic stalemate waiting to happen.\n\nJEF's defense anchored by **M. Hidaka** and **R. Kuboniwa** will be tested by Fukuoka's two-pronged attack, but neither squad is firing consistently. Fukuoka's **K. Fujimoto** and **S. Usui** will probe, yet they've managed just 4 goals in their last five outings combined.\n\nKey storylines:\n\n- **C. Junior** and **D. Ishikawa** lead JEF's forward line against a stubborn Fukuoka backline that's drawn its last four\n- **T. Yasui** and **M. Himeno** control JEF's midfield; Fukuoka counter with **K. Yamawaki** and **K. Okuno** breaking the rhythm\n- Both sides drew 2-2 in their last meeting — scripts have a way of repeating in J1 🔄\n\nExpected lineups:\n\n- **JEF United Chiba**: J. Suárez, M. Hidaka, T. Kawano, R. Kuboniwa, I. Takahashi, M. Himeno, Y. Kobayashi, T. Yasui, T. Mae, D. Ishikawa, C. Junior\n- **Avispa Fukuoka**: K. Fujita, M. Yota, Y. Tsujioka, T. Oka, K. Yamawaki, K. Okuno, T. Miki, M. Shigemi, K. Fujimoto, S. Usui, N. Shintaro\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**1-1 draw.** Coin flip on the day, but both teams' recent form screams \"don't back a winner.\"",
+          "generated_at": "2026-06-06T02:45:17.550796+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-05-30T06:20:13.465522+04:00",
-      "prob_home_win": 35.16346310384004,
-      "prob_draw": 35.37645335065555,
-      "prob_away_win": 29.46008354550441,
+      "created_at": "2026-05-31T06:20:18.404903+04:00",
+      "prob_home_win": 33.45278772592012,
+      "prob_draw": 35.119514735997946,
+      "prob_away_win": 31.427697538081944,
       "predicted_result": "D",
-      "expected_home_goals": 1.12935,
-      "expected_away_goals": 0.58575,
-      "prob_over_15": 49.12148412752375,
-      "prob_over_25": 33.15509393683469,
-      "prob_over_35": 19.915438099027526,
-      "prob_btts_yes": 47.14961204948278,
-      "confidence": 35.37645335065555,
+      "expected_home_goals": 1.84598,
+      "expected_away_goals": 2.2696199999999997,
+      "prob_over_15": 79.97813666708808,
+      "prob_over_25": 52.56791591433492,
+      "prob_over_35": 18.277085078815382,
+      "prob_btts_yes": 71.58753413842945,
+      "confidence": 35.119514735997946,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "1-2",
       "favorite": "H",
-      "favorite_prob": 35.16346310384004,
+      "favorite_prob": 33.45278772592012,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
