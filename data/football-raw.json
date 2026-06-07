@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T15:54:05.650Z",
+  "generatedAt": "2026-06-07T17:24:22.713Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 209450,
+      "id": 209486,
       "league": {
         "id": 31,
         "name": "International Friendly Games",
@@ -40,31 +40,28 @@
         "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Oman",
-      "away_team": "Mozambique",
+      "home_team": "Miami United",
+      "away_team": "Jamaica U20",
       "home_team_obj": {
-        "id": 2220,
-        "name": "Oman",
-        "short_name": "Oman",
-        "country": "Oman",
+        "id": 3196,
+        "name": "Miami United",
+        "short_name": "",
+        "country": "USA",
         "coach": {
-          "name": "Tarik Sektioui",
-          "shortName": "T. Sektioui"
+          "name": "Claudio Frean",
+          "shortName": "C. Frean"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 657,
-        "name": "Mozambique",
-        "short_name": "Mozambique",
-        "country": "Mozambique",
-        "coach": {
-          "name": "Francisco Queriol Conde Jnior",
-          "shortName": "F. Q. C. Jnior"
-        },
+        "id": 3197,
+        "name": "Jamaica U20",
+        "short_name": "Jamaica U20",
+        "country": "Jamaica",
+        "coach": null,
         "venue": null
       },
-      "event_date": "2026-06-07T17:00:00+04:00",
+      "event_date": "2026-06-07T19:00:00+04:00",
       "round_number": null,
       "round_name": "",
       "group_name": null,
@@ -102,27 +99,17 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1598,
-        "name": "Tarik Sektioui",
-        "short_name": "T. Sektioui",
-        "country": "Morocco",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
+        "id": 1796,
+        "name": "Claudio Frean",
+        "short_name": "C. Frean",
+        "country": "Haiti",
+        "profile": "",
+        "preferred_formation": "",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
-      "away_coach": {
-        "id": 691,
-        "name": "Francisco Queriol Conde Jnior",
-        "short_name": "F. Q. C. Jnior",
-        "country": "Mozambique",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
+      "away_coach": null,
       "unavailable_players": null,
       "venue": null,
       "live_stats": null,
@@ -130,15 +117,15 @@
       "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Oman rolls into this friendly as the clear favorite**, but both sides are desperately hunting a win after some rough stretches. 🏟️\n\nOman's form is mixed — three losses in their last five, but a solid 0-0 draw at home vs Qatar shows they can lock it down defensively. Mozambique, meanwhile, are winless in four games, though that 3-2 upset over Gabon proves they can score when it clicks.\n\nKey storylines:\n\n- **Oman's attacking thrust**: M. Al-Shaqsy and H. Al-Saadi will need to create space against Mozambique's back line\n- **Mozambique's desperation**: S. Ratifo and R. Guimaraes are their spark plugs in a side that's leaked goals but found one win recently\n- **Set-piece battle**: Oman's 5-4-1 shape gives them defensive stability; Mozambique's 4-2-3-1 is more open, especially from dead balls\n\nExpected lineups:\n\n- **Oman**: I. A. Rajhi, A. Al-Khamisi, A. Al-Harthi, A. Al-Kaabi, G. Al-Habashi, M. Al-Shaqsy, H. Al-Saadi, A. Fawaz, Z. Al-Aghbari, H. Sultan, J. Al-Yahmadi\n- **Mozambique**: Ernan, B. Langa, E. Sitoe, E. G. Dove, Nanani, R. Mandava, A. Amade, W. Quembo, R. Guimaraes, Gildo, S. Ratifo\n\nPrediction:\n\n**Oman 2–1 Mozambique**\n\nOman has the edge in stability and should create enough to win, but Mozambique's hunger for a result keeps this competitive. 🎯",
-        "generated_at": "2026-06-06T13:45:25.393115+00:00"
+        "text": "# Match Preview: Miami United vs Jamaica U20\n\n**Miami United hosts Jamaica U20 in a friendly that's basically a goldfish's memory of competitive football** 🐠\n\nMiami's come off three straight draws — hardly the form of a side looking to make statements. Jamaica U20 has been up and down, but they'll fancy a trip to Florida as a chance to shake things up. Both teams need a result to build momentum heading into their respective calendars.\n\nKey storylines:\n\n- **Miami United's** draw streak is becoming a meme; they need a W to feel alive again\n- **Jamaica U20** has the youth and hunger to exploit any lethargy from the hosts\n- Set pieces could be the difference in what shapes up as a scrappy, low-flow affair\n\nExpected lineups:\n\n- **Miami United**: Ramirez, Carranza, Mota, Allen, Rochez, Cleary, Priso, Aja, Boatwright, Dukart, Moody\n- **Jamaica U20**: Gordon, Grange, Gordon, Blake, Tomlinson, Bernard, Golding, Powell, Hines-Ike, Pinnock, Adeyemi\n\nPrediction:\n\n**Miami United 2–1 Jamaica U20**\n\nSlight lean to Miami at home, but it's tighter than their recent form suggests. Jamaica's youth could nick a goal, but expect Miami to finally break through the draw curse. 🎯",
+        "generated_at": "2026-06-06T23:45:41.197260+00:00"
       },
       "live_websocket": false
     },
     "prediction": {
-      "id": 4713,
+      "id": 4637,
       "event": {
-        "id": 207954,
+        "id": 207899,
         "league": {
           "id": 31,
           "name": "International Friendly Games",
@@ -157,37 +144,37 @@
           "name": "Int. Friendly Games 2026",
           "year": 2026
         },
-        "home_team": "Maldives",
-        "away_team": "Bangladesh",
+        "home_team": "Kosovo",
+        "away_team": "Andorra",
         "home_team_obj": {
-          "id": 2259,
-          "name": "Maldives",
-          "short_name": "Maldives",
-          "country": "Maldives",
+          "id": 2211,
+          "name": "Kosovo",
+          "short_name": "Kosovo",
+          "country": "Kosovo",
           "coach": {
-            "name": "Francesco Moriero",
-            "shortName": "F. Moriero"
+            "name": "Franco Foda",
+            "shortName": "F. Foda"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 672,
-          "name": "Bangladesh",
-          "short_name": "Bangladesh",
-          "country": "Bangladesh",
+          "id": 701,
+          "name": "Andorra",
+          "short_name": "Andorra",
+          "country": "Andorra",
           "coach": {
-            "name": "Thomas Dooley",
-            "shortName": "T. Dooley"
+            "name": "Koldo",
+            "shortName": "Koldo"
           },
           "venue": {
-            "id": 512,
-            "name": "National Stadium, Dhaka",
-            "city": "Dhaka",
-            "country": "Bangladesh",
-            "capacity": 22085
+            "id": 523,
+            "name": "Estadi Nacional",
+            "city": "Andorra la Vella",
+            "country": "Andorra",
+            "capacity": 3306
           }
         },
-        "event_date": "2026-06-07T20:00:00+04:00",
+        "event_date": "2026-06-07T22:00:00+04:00",
         "round_number": null,
         "round_name": "",
         "group_name": null,
@@ -198,17 +185,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": null,
-        "odds_draw": null,
-        "odds_away": null,
-        "odds_over_15": null,
-        "odds_over_25": null,
-        "odds_over_35": null,
-        "odds_under_15": null,
-        "odds_under_25": null,
-        "odds_under_35": null,
-        "odds_btts_yes": null,
-        "odds_btts_no": null,
+        "odds_home": 1.16,
+        "odds_draw": 6.4,
+        "odds_away": 15.5,
+        "odds_over_15": 1.2,
+        "odds_over_25": 1.64,
+        "odds_over_35": 2.6,
+        "odds_under_15": 4,
+        "odds_under_25": 2.1,
+        "odds_under_35": 1.45,
+        "odds_btts_yes": 2.65,
+        "odds_btts_no": 1.4,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -225,23 +212,23 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1682,
-          "name": "Francesco Moriero",
-          "short_name": "F. Moriero",
-          "country": "Italy",
-          "profile": "defensive",
-          "preferred_formation": "3-4-2-1",
+          "id": 1577,
+          "name": "Franco Foda",
+          "short_name": "F. Foda",
+          "country": "Germany",
+          "profile": "balanced",
+          "preferred_formation": "4-4-2",
           "pressing_intensity": null,
           "defensive_line": "",
           "top_styles": []
         },
         "away_coach": {
-          "id": 1604,
-          "name": "Thomas Dooley",
-          "short_name": "T. Dooley",
-          "country": "USA",
+          "id": 76,
+          "name": "Koldo",
+          "short_name": "Koldo",
+          "country": "Andorra",
           "profile": "defensive",
-          "preferred_formation": "4-3-3",
+          "preferred_formation": "5-4-1",
           "pressing_intensity": null,
           "defensive_line": "",
           "top_styles": []
@@ -250,7 +237,424 @@
         "venue": null,
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "I. Álvarez",
+                "goals": 0,
+                "api_id": 1005638,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 27159,
+                "yellow_card": false,
+                "jersey_number": "12",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "B. B. Font",
+                "goals": 0,
+                "api_id": 1409685,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 54260,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Guillén",
+                "goals": 0,
+                "api_id": 986071,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 16769,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "I. B. Olivera",
+                "goals": 0,
+                "api_id": 1159417,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 17203,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. S. Nicolás",
+                "goals": 0,
+                "api_id": 97423,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 16764,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Martínez",
+                "goals": 0,
+                "api_id": 850337,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16768,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "É. Izquierdo",
+                "goals": 0,
+                "api_id": 1064867,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16771,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "P. K. B. Müller",
+                "goals": 0,
+                "api_id": 1005691,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 16770,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "O. R. Planes",
+                "goals": 0,
+                "api_id": 1005682,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 17204,
+                "yellow_card": false,
+                "jersey_number": "23",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "R. Fernandez",
+                "goals": 0,
+                "api_id": 850339,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 16773,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "G. S. García",
+                "goals": 0,
+                "api_id": 1005700,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 60590,
+                "yellow_card": false,
+                "jersey_number": "20",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-4-2",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "V. Bekaj",
+                "goals": 0,
+                "api_id": 890652,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 53972,
+                "yellow_card": false,
+                "jersey_number": "12",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "M. Vojvoda",
+                "goals": 0,
+                "api_id": 798147,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 2822,
+                "yellow_card": false,
+                "jersey_number": "15",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RB",
+                "positions_detailed": [
+                  "RB",
+                  "LM"
+                ]
+              },
+              {
+                "name": "I. Krasniqi",
+                "goals": 0,
+                "api_id": 1127605,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 53973,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "A. Hajdari",
+                "goals": 0,
+                "api_id": 1000269,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 2379,
+                "yellow_card": false,
+                "jersey_number": "21",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB",
+                  "LB"
+                ]
+              },
+              {
+                "name": "D. Gallapeni",
+                "goals": 0,
+                "api_id": 1499083,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 13795,
+                "yellow_card": false,
+                "jersey_number": "13",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "L. Emërllahu",
+                "goals": 0,
+                "api_id": 1383308,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 11911,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "L. Avdullahu",
+                "goals": 0,
+                "api_id": 1493305,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2382,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "M. Jashari",
+                "goals": 0,
+                "api_id": 885043,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 54104,
+                "yellow_card": false,
+                "jersey_number": "22",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "AM"
+                ]
+              },
+              {
+                "name": "B. Zabergja",
+                "goals": 0,
+                "api_id": 1033681,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 53974,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RW",
+                "positions_detailed": [
+                  "RW",
+                  "LW",
+                  "ST"
+                ]
+              },
+              {
+                "name": "F. Asllani",
+                "goals": 0,
+                "api_id": 1010117,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 2384,
+                "yellow_card": false,
+                "jersey_number": "11",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              },
+              {
+                "name": "A. Rrahmani",
+                "goals": 0,
+                "api_id": 1124624,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 26371,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ],
+            "formation": "4-3-3",
+            "substitutes": []
+          },
+          "confirmed": true
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -258,66 +662,68 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "efc131",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
-            },
-            "player": {
-              "base": "33ff00",
+              "base": "000000",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "33ff00"
+              "sleeve": "000000"
+            },
+            "player": {
+              "base": "cc0000",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "fee214",
+              "sleeve": "0a0bfb",
+              "sleevelong": "ca0011"
             }
           },
           "home": {
             "GK": {
-              "base": "cccc00",
+              "base": "ee7cfa",
               "real": true,
               "type": "short_sleeves",
               "number": "000000",
-              "sleeve": "ccff00"
+              "sleeve": "f1ff00"
             },
             "player": {
-              "base": "D8D8D8",
-              "real": false,
+              "base": "0330b2",
+              "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
+              "number": "ffffff",
+              "sleeve": "000000",
+              "sleevelong": "0a31af"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 1,
-            "sentence": "Bangladesh haven't won any of their last 5 away matches."
+            "sentence": "Andorra haven't won any of their last 18 away matches."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Bangladesh's revenge arc starts here** — Maldives are spiraling (one draw in five), and the visitors just beat them in March. This is a classic bounce-back opportunity. 🔥\n\nMaldives are leaking goals (conceded 6 in their last three), while Bangladesh at least snagged a win vs San Marino to stop the bleeding. Neither team is pretty, but one's got momentum.\n\nKey storylines:\n\n- **Maldives' defense is porous** — three straight losses with 0, 1, and 2 goals scored; they need **A. Naajih** and the backline to tighten up fast\n- **Bangladesh's visit to Male in March ended 1-2** — a second chance to prove that wasn't a fluke and grab a confidence-building result\n- Both teams are fragile — expect a cagey, low-scoring affair with neither side dominating midfield through **H. Mohamed** or **M. Ridoy**\n\nExpected lineups:\n\n- **Maldives**: A. Naajih, H. Hassan, H. Sifaau, I. Aisham, A. Fasir, H. Mohamed, H. Nihaan, M. Irufaan, H. Naiz, I. M. Hussain, H. Nazeem\n- **Bangladesh**: M. Marma, U. Saad, T. Kazi, I. Faysal, B. Ghosh, M. Ridoy, S. Rana, S. Morsalin, M. Fahim, S. Emon, M. Islam\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Bangladesh 1–0 Maldives**. Slight away lean — they've got the recent head-to-head edge and less pressure.",
-          "generated_at": "2026-06-06T16:45:28.042326+00:00"
+          "text": "**Kosovo roll into this friendly as the clear favorites — and honestly, the form gap says it all.** 🔥 Andorra are limping in winless in four, while Kosovo just dropped 4 on Slovakia away, even if they've had some rough moments elsewhere.\n\nKosovo's attack has teeth (**F. Asllani** and **A. Rrahmani** leading the line), and their back line anchored by **M. Vojvoda** should be solid enough. Andorra's leaky defense conceded at home to Iraq and can't find consistency — this feels like a mismatch on paper.\n\nKey storylines:\n\n- **Kosovo's firepower vs Andorra's fragile backline** — expect chances for the hosts early and often\n- **Andorra hunting damage control** — their best bet is staying compact and hoping for a rare counter\n- **Low-scoring trend** — both teams have been cagey in recent games; don't expect a rout\n\nExpected lineups:\n\n- **Kosovo**: A. Murić, M. Vojvoda, A. Hajdari, I. Krasniqi, D. Gallapeni, E. Krasniqi, E. Rexhbeçaj, L. Avdullahu, V. Hodža, F. Asllani, A. Rrahmani\n- **Andorra**: I. Álvarez, B. B. Font, I. B. Olivera, M. Llovera, M. S. Nicolás, M. Vales, A. Rodrigo, P. K. B. Müller, É. Izquierdo, A. Martínez, G. Lopez\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Kosovo 2-0 Andorra**\n\nKosovo edges this, but neither side lights the lamp excessively in what shapes up as a controlled performance.",
+          "generated_at": "2026-06-06T23:46:04.789364+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-06-02T14:48:47.354394+04:00",
-      "prob_home_win": 31.710507935888067,
-      "prob_draw": 25.245091044545205,
-      "prob_away_win": 43.04440101956675,
-      "predicted_result": "A",
-      "expected_home_goals": 1.3,
-      "expected_away_goals": 1.15,
-      "prob_over_15": 64.94126013992526,
-      "prob_over_25": 33.4718625730906,
-      "prob_over_35": 21.275048765224973,
-      "prob_btts_yes": 49.036892896971764,
-      "confidence": 43.04440101956675,
+      "created_at": "2026-06-01T06:20:11.160655+04:00",
+      "prob_home_win": 51.63850872414362,
+      "prob_draw": 26.490324069779795,
+      "prob_away_win": 21.871167206076585,
+      "predicted_result": "H",
+      "expected_home_goals": 1,
+      "expected_away_goals": 1.3,
+      "prob_over_15": 32.84235161356442,
+      "prob_over_25": 31.74241099539531,
+      "prob_over_35": 17.83808596728755,
+      "prob_btts_yes": 29.05092340730563,
+      "confidence": 51.63850872414362,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 43.04440101956675,
+      "most_likely_score": "0-1",
+      "favorite": "H",
+      "favorite_prob": 51.63850872414362,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
