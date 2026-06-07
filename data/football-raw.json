@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T01:37:58.058Z",
+  "generatedAt": "2026-06-07T06:35:57.680Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 206692,
+      "id": 207953,
       "league": {
         "id": 31,
         "name": "International Friendly Games",
@@ -40,65 +40,59 @@
         "name": "Int. Friendly Games 2026",
         "year": 2026
       },
-      "home_team": "Curaçao",
-      "away_team": "Aruba",
+      "home_team": "Afghanistan",
+      "away_team": "Pakistan",
       "home_team_obj": {
-        "id": 468,
-        "name": "Curaçao",
-        "short_name": "Curaçao",
-        "country": "Curacao",
+        "id": 2260,
+        "name": "Afghanistan",
+        "short_name": "Afghanistan",
+        "country": "Afghanistan",
         "coach": {
-          "name": "Dick Advocaat",
-          "shortName": "D. Advocaat"
-        },
-        "venue": {
-          "id": 431,
-          "name": "Estadio Ergilio Hato",
-          "city": "Willemstad",
-          "country": "Curacao",
-          "capacity": null
-        }
-      },
-      "away_team_obj": {
-        "id": 2058,
-        "name": "Aruba",
-        "short_name": "Aruba",
-        "country": "Aruba",
-        "coach": {
-          "name": "Marvic Bermúdez",
-          "shortName": "M. Bermúdez"
+          "name": "José Antonio Nogueira",
+          "shortName": "J. A. Nogueira"
         },
         "venue": null
       },
-      "event_date": "2026-06-07T04:00:00+04:00",
+      "away_team_obj": {
+        "id": 2258,
+        "name": "Pakistan",
+        "short_name": "Pakistan",
+        "country": "Pakistan",
+        "coach": {
+          "name": "Nolberto Solano",
+          "shortName": "N. Solano"
+        },
+        "venue": null
+      },
+      "event_date": "2026-06-07T15:00:00+04:00",
       "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "2nd_half",
-      "home_score": 2,
-      "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 73,
-      "period": "2T",
-      "odds_home": 1.08,
-      "odds_draw": 9.59,
-      "odds_away": 19.38,
-      "odds_over_15": 1.07,
-      "odds_over_25": 1.33,
-      "odds_over_35": 1.71,
-      "odds_under_15": 6.05,
-      "odds_under_25": 3.08,
-      "odds_under_35": 1.74,
-      "odds_btts_yes": 2.31,
-      "odds_btts_no": 1.47,
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
+      "odds_home": null,
+      "odds_draw": null,
+      "odds_away": null,
+      "odds_over_15": null,
+      "odds_over_25": null,
+      "odds_over_35": null,
+      "odds_under_15": null,
+      "odds_under_25": null,
+      "odds_under_35": null,
+      "odds_btts_yes": null,
+      "odds_btts_no": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": null,
+      "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
       "weather_code": null,
@@ -108,49 +102,71 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1562,
-        "name": "Dick Advocaat",
-        "short_name": "D. Advocaat",
-        "country": "Netherlands",
-        "profile": "attacking",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
-      },
-      "away_coach": {
-        "id": 1450,
-        "name": "Marvic Bermúdez",
-        "short_name": "M. Bermúdez",
-        "country": "Aruba",
+        "id": 1683,
+        "name": "José Antonio Nogueira",
+        "short_name": "J. A. Nogueira",
+        "country": "Brazil",
         "profile": "defensive",
         "preferred_formation": "4-4-2",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
-      "unavailable_players": null,
-      "venue": {
-        "id": 431,
-        "name": "Estadio Ergilio Hato",
-        "city": "Willemstad",
-        "country": "Curacao",
-        "capacity": null,
-        "latitude": null,
-        "longitude": null,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+      "away_coach": {
+        "id": 1681,
+        "name": "Nolberto Solano",
+        "short_name": "N. Solano",
+        "country": "",
+        "profile": "defensive",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
+      "unavailable_players": null,
+      "venue": null,
       "live_stats": null,
-      "jerseys": null,
+      "jerseys": {
+        "away": {
+          "GK": {
+            "base": "dce44c",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "ffffff"
+          },
+          "player": {
+            "base": "1b9200",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "33cc33"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "ffff33",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "dd0000",
+            "sleeve": "ffff33"
+          },
+          "player": {
+            "base": "D8D8D8",
+            "real": false,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "D8D8D8"
+          }
+        }
+      },
       "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Curaçao rolls into this friendly looking sharp**, while Aruba's been getting knocked around lately. Pretty straightforward matchup on paper. ⚽\n\nCuraçao come in at 2W-2D-1L over five, highlighted by a demolition of Bermuda (7-0) but also that rough loss to Scotland. Aruba, meanwhile, are winless in their last five—just one draw sandwiched between four losses, including a 5-0 hammering from Haiti. Form's got Curaçao's name all over it.\n\nKey storylines:\n\n- **Curaçao's attacking depth** led by K. Gorré and J. Locadia should feast on an Aruba backline that's been leaking goals\n- Missing L. Comenencia to injury won't derail Curaçao's midfield anchor in A. Obispo and J. Bacuna\n- **Aruba chasing stops** — they need a result badly after that brutal run, but haven't won since forever\n\nExpected lineups:\n\n- **Curaçao**: E. Room, S. Floranus, J. Gaari, R. v. Eijma, L. Bacuna, A. Obispo, J. Bacuna, G. Roemeratoe, K. Gorré, J. Locadia, S. Hansen\n- **Aruba**: M. Lentink, K. Nedd, R. Ostiana, N. Paul, D. Luydens, I. Marselia, W. Bennett, S. Rua, D. Senchi, J. Jiménez, T. Groothusen\n\nPrediction:\n\n**Curaçao 3–0 Aruba**\n\nClean sheet lean—Curaçao should control this comfortably.",
-        "generated_at": "2026-06-06T23:45:19.763535+00:00"
+        "text": "**Afghanistan's form is crisp, Pakistan's leaking goals** — this is a chance for the home side to cash in on some serious momentum. 🔥\n\nAfghanistan have won 2 of their last 5 and look rock-solid defensively, while Pakistan are sliding hard with just 1 win in 5 and getting torn apart in recent friendlies. Pakistan's 3-0 loss to Tajikistan should sting, and their leaky defense faces a sharp Afghan attack.\n\nKey storylines:\n\n- **Afghanistan's defense** has only conceded once in their last three outings — if they keep it tight, Pakistan's struggling forwards will have a long day\n- **Pakistan's back line** is in serious trouble after shipping 3 to Tajikistan; this friendly could expose them further\n- **Set pieces and pace** will be critical — both teams play direct, and whoever controls the tempo early sets the tone\n\nExpected lineups:\n\n- **Afghanistan**: F. A. Hamidi, H. Askar, M. Hanifi, A. Arezou, O. Musawi, J. Asekzai, R. Akbari, Q. Kouhyar\n- **Pakistan**: Y. Butt, M. Fazal, A. Iqbal, M. M. Khan, E. Suliman, H. Hamid, R. Nabi, O. Khan\n\nBest picks:\n\n- **Under 1.5 goals**: Low-scoring friendly vibes\n- **Under 2.5 goals**: Both teams struggle to break down organized defenses\n- **Under 3.5 goals**: Neither side has been prolific recently\n- **BTTS No**: Pakistan's defense is fragile; Afghanistan will likely dominate possession\n\nPrediction:\n\n**Afghanistan 1–0 Pakistan**. Model gives the edge to Afghanistan on current form and defensive solidity. 🎯",
+        "generated_at": "2026-06-06T23:45:25.457073+00:00"
       },
-      "live_websocket": false
+      "live_websocket": true
     },
     "prediction": {
       "id": 4651,
