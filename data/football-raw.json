@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T22:58:00.773Z",
+  "generatedAt": "2026-06-09T00:12:47.511Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,50 +21,72 @@
   ],
   "samples": {
     "event": {
-      "id": 209478,
+      "id": 9973,
       "league": {
-        "id": 53,
-        "name": "Botola Pro",
-        "country": "Morocco",
+        "id": 34,
+        "name": "Brasileirão Serie B",
+        "country": "Brazil",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
+        }
       },
-      "season": null,
-      "home_team": "Olympique Dcheira",
-      "away_team": "Hassania d'Agadir",
+      "season": {
+        "id": 52,
+        "name": "Brasileiro Serie B 2026",
+        "year": 2026
+      },
+      "home_team": "Vila Nova FC",
+      "away_team": "Botafogo-SP",
       "home_team_obj": {
-        "id": 2063,
-        "name": "Olympique Dcheira",
-        "short_name": "",
-        "country": "Morocco",
+        "id": 826,
+        "name": "Vila Nova FC",
+        "short_name": "Vila Nova",
+        "country": "Brazil",
         "coach": {
-          "name": "Bouchaib El Moubarki",
-          "shortName": "B. E. Moubarki"
+          "name": "Guto Ferreira",
+          "shortName": "G. Ferreira"
         },
-        "venue": null
+        "venue": {
+          "id": 619,
+          "name": "Estádio Onésio Brasileiro Alvarenga",
+          "city": "Goiânia",
+          "country": "Brazil",
+          "capacity": 11788
+        }
       },
       "away_team_obj": {
-        "id": 2060,
-        "name": "Hassania d'Agadir",
-        "short_name": "HUSA",
-        "country": "Morocco",
+        "id": 927,
+        "name": "Botafogo-SP",
+        "short_name": "Botafogo-SP",
+        "country": "Brazil",
         "coach": {
-          "name": "Hilal Et-Tair",
-          "shortName": "H. Et-Tair"
+          "name": "Cláudio Tencati",
+          "shortName": "C. Tencati"
         },
-        "venue": null
+        "venue": {
+          "id": 707,
+          "name": "Estádio Santa Cruz",
+          "city": "Ribeirao Preto",
+          "country": "Brazil",
+          "capacity": 29292
+        }
       },
-      "event_date": "2026-06-09T00:00:00+04:00",
-      "round_number": 23,
+      "event_date": "2026-06-09T03:00:00+04:00",
+      "round_number": 12,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 0,
-      "away_score": 1,
-      "home_score_ht": 0,
-      "away_score_ht": 1,
-      "current_minute": 90,
-      "period": "FT",
+      "status": "2nd_half",
+      "home_score": 1,
+      "away_score": 0,
+      "home_score_ht": 1,
+      "away_score_ht": 0,
+      "current_minute": 50,
+      "period": "2T",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -78,200 +100,484 @@
       "odds_btts_no": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": null,
-      "away_xg_live": null,
+      "home_xg_live": 0.38,
+      "away_xg_live": 0.2,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
-      "weather_code": 1,
-      "wind_speed": null,
-      "temperature_c": null,
-      "pitch_condition": 1,
+      "travel_distance_km": 527,
+      "weather_code": 3,
+      "wind_speed": 6.4,
+      "temperature_c": 25,
+      "pitch_condition": null,
       "attendance": null,
-      "referee": null,
+      "referee": {
+        "id": 2225,
+        "name": "Maguielson Lima Barbosa",
+        "country": "Brazil",
+        "nationality_a3": "",
+        "birthdate": null,
+        "yellowCards": 258,
+        "redCards": 11,
+        "career_games": 44,
+        "career_yellow_cards": 258,
+        "career_red_cards": 11
+      },
       "home_coach": {
-        "id": 1650,
-        "name": "Bouchaib El Moubarki",
-        "short_name": "B. E. Moubarki",
-        "country": "Morocco",
-        "profile": "defensive",
-        "preferred_formation": "4-4-2",
-        "pressing_intensity": 0.21654334080310605,
-        "defensive_line": "high",
+        "id": 135,
+        "name": "Guto Ferreira",
+        "short_name": "G. Ferreira",
+        "country": "Brazil",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.6191601426268531,
+        "defensive_line": "mid",
         "top_styles": [
-          "moments_fc",
-          "terrorist_fb"
+          "anti_football",
+          "man_press"
         ]
       },
       "away_coach": {
-        "id": 1478,
-        "name": "Hilal Et-Tair",
-        "short_name": "H. Et-Tair",
-        "country": "Morocco",
+        "id": 133,
+        "name": "Cláudio Tencati",
+        "short_name": "C. Tencati",
+        "country": "Brazil",
         "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.2194544466769074,
+        "pressing_intensity": 0.6953979867569572,
         "defensive_line": "mid",
         "top_styles": [
           "set_piece",
-          "terrorist_fb"
+          "cross_pray"
         ]
       },
-      "unavailable_players": null,
-      "venue": null,
+      "unavailable_players": {
+        "home": [
+          {
+            "name": "Emerson Urso",
+            "status": "doubtful",
+            "reason": "Ankle/Foot Injury",
+            "expected_return": "2026-06-15"
+          },
+          {
+            "name": "Pedro Romano",
+            "status": "suspended",
+            "reason": "Red card suspension",
+            "expected_return": "2026-06-10"
+          },
+          {
+            "name": "Rafael Silva",
+            "status": "doubtful",
+            "reason": "Knee Injury",
+            "expected_return": "2026-06-19"
+          },
+          {
+            "name": "Willian Maranhão",
+            "status": "suspended",
+            "reason": "Yellow card accumulation suspension",
+            "expected_return": "2026-06-10"
+          }
+        ],
+        "away": [
+          {
+            "name": "Carlão",
+            "status": "injured",
+            "reason": "LCL Knee Injury",
+            "expected_return": "2027-01-01"
+          },
+          {
+            "name": "Jonathan",
+            "status": "injured",
+            "reason": "Knee Injury",
+            "expected_return": "2026-06-08"
+          }
+        ]
+      },
+      "venue": {
+        "id": 619,
+        "name": "Estádio Onésio Brasileiro Alvarenga",
+        "city": "Goiânia",
+        "country": "Brazil",
+        "capacity": 11788,
+        "latitude": -16.673542,
+        "longitude": -49.237703,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
       "live_stats": {
         "away": {
-          "red_cards": 0,
-          "yellow_cards": 4
+          "duels": 40,
+          "fouls": 11,
+          "passes": 122,
+          "crosses": "2/10 (20%)",
+          "tackles": 9,
+          "dribbles": "3/4 (75%)",
+          "offsides": 1,
+          "big_saves": 1,
+          "throw_ins": 15,
+          "clearances": 21,
+          "free_kicks": 7,
+          "goal_kicks": 7,
+          "long_balls": "14/31 (45%)",
+          "recoveries": 12,
+          "tackles_won": 44,
+          "total_saves": 4,
+          "total_shots": 3,
+          "aerial_duels": "6/19 (32%)",
+          "corner_kicks": 5,
+          "dispossessed": 1,
+          "ground_duels": "19/42 (45%)",
+          "hit_woodwork": 1,
+          "yellow_cards": 1,
+          "blocked_shots": 0,
+          "interceptions": 2,
+          "total_tackles": 9,
+          "expected_goals": 0.2,
+          "accurate_passes": 80,
+          "ball_possession": 40,
+          "goals_prevented": 0.35,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 4,
+          "shots_inside_box": 2,
+          "shots_off_target": 3,
+          "final_third_phase": "18/34 (53%)",
+          "shots_outside_box": 1,
+          "final_third_entries": 21,
+          "errors_lead_to_a_shot": 1,
+          "fouled_in_final_third": 2,
+          "touches_in_penalty_area": 10
         },
         "home": {
-          "red_cards": 0,
-          "yellow_cards": 3
+          "duels": 60,
+          "fouls": 7,
+          "passes": 183,
+          "crosses": "2/15 (13%)",
+          "tackles": 2,
+          "dribbles": "10/14 (71%)",
+          "offsides": 0,
+          "big_saves": 0,
+          "throw_ins": 13,
+          "clearances": 19,
+          "free_kicks": 11,
+          "goal_kicks": 3,
+          "long_balls": "12/22 (55%)",
+          "recoveries": 23,
+          "tackles_won": 100,
+          "total_saves": 0,
+          "total_shots": 12,
+          "aerial_duels": "13/18 (72%)",
+          "corner_kicks": 8,
+          "dispossessed": 5,
+          "ground_duels": "23/42 (55%)",
+          "hit_woodwork": 0,
+          "yellow_cards": 1,
+          "blocked_shots": 4,
+          "interceptions": 2,
+          "total_tackles": 2,
+          "expected_goals": 0.38,
+          "accurate_passes": 149,
+          "ball_possession": 60,
+          "goals_prevented": 0,
+          "shots_on_target": 4,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 4,
+          "shots_off_target": 4,
+          "final_third_phase": "56/79 (71%)",
+          "shots_outside_box": 8,
+          "final_third_entries": 30,
+          "errors_lead_to_a_shot": 1,
+          "fouled_in_final_third": 3,
+          "touches_in_penalty_area": 18
+        },
+        "first_half": {
+          "away": {
+            "duels": 38,
+            "fouls": 11,
+            "passes": 105,
+            "crosses": "2/9 (22%)",
+            "tackles": 9,
+            "dribbles": "1/2 (50%)",
+            "offsides": 1,
+            "throw_ins": 14,
+            "clearances": 18,
+            "free_kicks": 5,
+            "goal_kicks": 7,
+            "long_balls": "12/27 (44%)",
+            "recoveries": 12,
+            "tackles_won": 44,
+            "total_saves": 3,
+            "total_shots": 3,
+            "aerial_duels": "6/19 (32%)",
+            "corner_kicks": 4,
+            "dispossessed": 1,
+            "ground_duels": "15/37 (41%)",
+            "hit_woodwork": 1,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 2,
+            "total_tackles": 9,
+            "expected_goals": 0.2,
+            "accurate_passes": 68,
+            "ball_possession": 36,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 3,
+            "shots_inside_box": 2,
+            "shots_off_target": 3,
+            "shots_outside_box": 1,
+            "final_third_entries": 18,
+            "fouled_in_final_third": 2
+          },
+          "home": {
+            "duels": 64,
+            "fouls": 5,
+            "passes": 182,
+            "crosses": "2/14 (14%)",
+            "tackles": 2,
+            "dribbles": "9/13 (69%)",
+            "offsides": 0,
+            "throw_ins": 12,
+            "clearances": 16,
+            "free_kicks": 11,
+            "goal_kicks": 3,
+            "long_balls": "11/21 (52%)",
+            "recoveries": 22,
+            "tackles_won": 100,
+            "total_saves": 0,
+            "total_shots": 11,
+            "aerial_duels": "13/18 (72%)",
+            "corner_kicks": 7,
+            "dispossessed": 5,
+            "ground_duels": "22/37 (59%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 4,
+            "interceptions": 2,
+            "total_tackles": 2,
+            "expected_goals": 0.35,
+            "accurate_passes": 148,
+            "ball_possession": 64,
+            "shots_on_target": 3,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 3,
+            "shots_off_target": 4,
+            "shots_outside_box": 8,
+            "final_third_entries": 30,
+            "fouled_in_final_third": 3
+          }
+        },
+        "second_half": {
+          "away": {
+            "duels": 80,
+            "fouls": 0,
+            "passes": 17,
+            "crosses": "0/1 (0%)",
+            "tackles": 0,
+            "dribbles": "2/2 (100%)",
+            "offsides": 0,
+            "throw_ins": 1,
+            "clearances": 3,
+            "free_kicks": 2,
+            "goal_kicks": 0,
+            "long_balls": "2/4 (50%)",
+            "recoveries": 0,
+            "tackles_won": 0,
+            "total_saves": 1,
+            "total_shots": 0,
+            "corner_kicks": 1,
+            "dispossessed": 0,
+            "ground_duels": "4/5 (80%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 0,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "total_tackles": 0,
+            "expected_goals": 0,
+            "accurate_passes": 12,
+            "ball_possession": 90,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 3,
+            "fouled_in_final_third": 0
+          },
+          "home": {
+            "duels": 20,
+            "fouls": 2,
+            "passes": 1,
+            "crosses": "0/1 (0%)",
+            "tackles": 0,
+            "dribbles": "1/1 (100%)",
+            "offsides": 0,
+            "throw_ins": 1,
+            "clearances": 3,
+            "free_kicks": 0,
+            "goal_kicks": 0,
+            "long_balls": "1/1 (100%)",
+            "recoveries": 1,
+            "tackles_won": 0,
+            "total_saves": 0,
+            "total_shots": 1,
+            "corner_kicks": 1,
+            "dispossessed": 0,
+            "ground_duels": "1/5 (20%)",
+            "hit_woodwork": 0,
+            "yellow_cards": 1,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "total_tackles": 0,
+            "expected_goals": 0.03,
+            "accurate_passes": 1,
+            "ball_possession": 10,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 1,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 0,
+            "fouled_in_final_third": 0
+          }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "0033ff",
+            "base": "ff80dc",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "0033ff"
+            "sleeve": "ff3300"
+          },
+          "player": {
+            "base": "ffffff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "ff0000",
+            "sleevelong": "ffffff"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "7a47bb",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "161616"
           },
           "player": {
             "base": "ff0000",
             "real": true,
             "type": "short_sleeves",
             "number": "ffffff",
-            "sleeve": "ff0000",
-            "stripes": "ffffff"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "cccccc",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
-          },
-          "player": {
-            "base": "D8D8D8",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "sleeve": "7c0204",
+            "sleevelong": "ff0000"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 1,
-          "sentence": "Olymp. Dcheira haven't won in their last 12 games."
+          "sentence": "Botafogo haven't won in their last 8 games."
+        },
+        {
+          "type_id": 2,
+          "sentence": "When playing at home, Vila Nova have not lost to Botafogo in their last 3 encounters."
         },
         {
           "type_id": 24,
-          "sentence": "Olymp. Dcheira's home record this season: 1-3-7."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Olymp. Dcheira have played 9 home matches in a row without winning."
+          "sentence": "Vila Nova's home record this season: 3-2-0."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 72,
-          "home": 71
+          "away": 28,
+          "home": 41
         },
         "ball_safe": {
-          "away": 61,
-          "home": 66
+          "away": 41,
+          "home": 30
         },
         "attack_pct": {
-          "away": 28,
-          "home": 34
+          "away": 19,
+          "home": 35
         },
         "ball_safe_pct": {
-          "away": 45,
-          "home": 49
+          "away": 60,
+          "home": 24
         },
         "dangerous_attack": {
-          "away": 37,
-          "home": 40
+          "away": 16,
+          "home": 24
         },
         "dangerous_attack_pct": {
-          "away": 27,
-          "home": 17
+          "away": 21,
+          "home": 41
         }
       },
       "ai_preview": {
-        "text": "**Dcheira need a spark badly, but Agadir's form isn't much better** — both teams are trudging through the Botola Pro mid-table slog, and this feels like a match where neither side has the artillery to blow the other away. 🔫\n\nDcheira are winless in five and leaking goals; Agadir won one of their last five but keep getting caught on the counter. The head-to-head edge belongs to Dcheira, though that's slim comfort when both squads are mired in inconsistency.\n\nKey storylines:\n\n- **Dcheira's defense** has to tighten up after conceding in three of their last four outings — **H. J. Allah** and **C. Keita** will be under the microscope\n- **Agadir's midfield battle**: **A. Qassaq** and **R. Kossi** need to control tempo and limit Dcheira's transitions\n- Whoever avoids a careless mistake first probably wins this one — both attacks look blunt\n\nExpected lineups:\n\n- **Olympique Dcheira**: M. Idar, C. Keita, H. A. Brahim, H. J. Allah, A. Aboujemaa, M. E. Gouj, B. Amzili, M. Abba, H. Saoud, R. Abardi, A. Benaadi\n- **Hassania d'Agadir**: B. Abyir, M. Bahsain, J. Tachtach, Z. Lamgahez, I. Hrila, A. Qassaq, R. Kossi, Y. Arbidi, M. Ounajem, B. Ilou, H. Ahaddad\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-0 Dcheira** — slim lean on the home side's slight edge in recent head-to-head, but genuinely a coin flip. ⚽",
-        "generated_at": "2026-06-08T02:45:37.000662+00:00"
+        "text": "**Vila Nova's on a roll and Botafogo-SP is struggling** — this has all the makings of a home-side waltz. 🏟️\n\nVila Nova are riding three wins in their last five with solid form at the Estádio Onésio. Botafogo-SP, meanwhile, are winless in their last five (0W 2D 3L) and missing key defenders Carlão and Jonathan to injury, which leaves them paper-thin at the back.\n\nKey storylines:\n\n- **Vila Nova's attacking trio** of Janderson, Marquinhos Gabriel, and Dellatorre should feast on a weakened Botafogo-SP backline missing two starters\n- **Botafogo-SP's defensive crisis** — without Carlão and Jonathan, they're stretched thin and vulnerable to the kind of pressing that suits home sides\n- **Midfield control** — if Vila Nova's pairing of J. Vieira and D. D. Santos dominate the middle, this could get ugly fast\n\nExpected lineups:\n\n- **Vila Nova FC**: H. Leite, Higor, T. Pagnussat, Anderson, Hayner, J. Vieira, D. D. Santos, R. Lima, Marquinhos Gabriel, Janderson, Dellatorre\n- **Botafogo-SP**: V. Souza, Vilar, P. Brey, M. Sales, Gabriel Inocêncio, E. Morelli, R. Gava, Kelvin, Marquinho, Z. Hugo, Thalles\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction: **Vila Nova 2–0 Botafogo-SP**. The model leans Vila Nova, and their form plus Botafogo-SP's injury woes make them slight favorites. 📊",
+        "generated_at": "2026-06-08T01:45:44.958356+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4655,
+      "id": 4657,
       "event": {
-        "id": 9973,
+        "id": 206696,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
-          "country": "Brazil",
+          "id": 31,
+          "name": "International Friendly Games",
+          "country": "International",
           "is_women": false,
           "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
+            "id": 133,
+            "name": "Int. Friendly Games 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
           "year": 2026
         },
-        "home_team": "Vila Nova FC",
-        "away_team": "Botafogo-SP",
+        "home_team": "Spain",
+        "away_team": "Peru",
         "home_team_obj": {
-          "id": 826,
-          "name": "Vila Nova FC",
-          "short_name": "Vila Nova",
-          "country": "Brazil",
+          "id": 475,
+          "name": "Spain",
+          "short_name": "Spain",
+          "country": "Spain",
           "coach": {
-            "name": "Guto Ferreira",
-            "shortName": "G. Ferreira"
+            "name": "Luis De La Fuente",
+            "shortName": "L. D. L. Fuente"
           },
-          "venue": {
-            "id": 619,
-            "name": "Estádio Onésio Brasileiro Alvarenga",
-            "city": "Goiânia",
-            "country": "Brazil",
-            "capacity": 11788
-          }
+          "venue": null
         },
         "away_team_obj": {
-          "id": 927,
-          "name": "Botafogo-SP",
-          "short_name": "Botafogo-SP",
-          "country": "Brazil",
+          "id": 713,
+          "name": "Peru",
+          "short_name": "Peru",
+          "country": "Peru",
           "coach": {
-            "name": "Cláudio Tencati",
-            "shortName": "C. Tencati"
+            "name": "Mano Menezes",
+            "shortName": "Mano Menezes"
           },
           "venue": {
-            "id": 707,
-            "name": "Estádio Santa Cruz",
-            "city": "Ribeirao Preto",
-            "country": "Brazil",
-            "capacity": 29292
+            "id": 529,
+            "name": "Estadio Nacional",
+            "city": "Lima",
+            "country": "Peru",
+            "capacity": 45574
           }
         },
-        "event_date": "2026-06-09T03:00:00+04:00",
-        "round_number": 12,
+        "event_date": "2026-06-09T06:00:00+04:00",
+        "round_number": null,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -300,106 +606,37 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 527,
-        "weather_code": 3,
-        "wind_speed": 6.4,
-        "temperature_c": 25,
+        "travel_distance_km": null,
+        "weather_code": null,
+        "wind_speed": null,
+        "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 2225,
-          "name": "Maguielson Lima Barbosa",
-          "country": "Brazil",
-          "nationality_a3": "",
-          "birthdate": null,
-          "yellowCards": 258,
-          "redCards": 11,
-          "career_games": 44,
-          "career_yellow_cards": 258,
-          "career_red_cards": 11
-        },
+        "referee": null,
         "home_coach": {
-          "id": 135,
-          "name": "Guto Ferreira",
-          "short_name": "G. Ferreira",
-          "country": "Brazil",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.61696115782045,
-          "defensive_line": "mid",
-          "top_styles": [
-            "anti_football",
-            "man_press"
-          ]
+          "id": 116,
+          "name": "Luis De La Fuente",
+          "short_name": "L. D. L. Fuente",
+          "country": "Spain",
+          "profile": "attacking",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 133,
-          "name": "Cláudio Tencati",
-          "short_name": "C. Tencati",
+          "id": 93,
+          "name": "Mano Menezes",
+          "short_name": "Mano Menezes",
           "country": "Brazil",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.6775867501838335,
-          "defensive_line": "mid",
-          "top_styles": [
-            "set_piece",
-            "cross_pray"
-          ]
+          "profile": "defensive",
+          "preferred_formation": "3-5-2",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Emerson Urso",
-              "status": "doubtful",
-              "reason": "Ankle/Foot Injury",
-              "expected_return": "2026-06-15"
-            },
-            {
-              "name": "Pedro Romano",
-              "status": "suspended",
-              "reason": "Red card suspension",
-              "expected_return": "2026-06-10"
-            },
-            {
-              "name": "Rafael Silva",
-              "status": "doubtful",
-              "reason": "Knee Injury",
-              "expected_return": "2026-06-19"
-            },
-            {
-              "name": "Willian Maranhão",
-              "status": "suspended",
-              "reason": "Yellow card accumulation suspension",
-              "expected_return": "2026-06-10"
-            }
-          ],
-          "away": [
-            {
-              "name": "Carlão",
-              "status": "injured",
-              "reason": "LCL Knee Injury",
-              "expected_return": "2027-01-01"
-            },
-            {
-              "name": "Jonathan",
-              "status": "injured",
-              "reason": "Knee Injury",
-              "expected_return": "2026-06-08"
-            }
-          ]
-        },
-        "venue": {
-          "id": 619,
-          "name": "Estádio Onésio Brasileiro Alvarenga",
-          "city": "Goiânia",
-          "country": "Brazil",
-          "capacity": 11788,
-          "latitude": -16.673542,
-          "longitude": -49.237703,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
-        },
+        "unavailable_players": null,
+        "venue": null,
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -410,76 +647,76 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "ff80dc",
+              "base": "dcff26",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ff3300"
+              "number": "65635b",
+              "sleeve": "ffe800"
             },
             "player": {
               "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
               "number": "000000",
-              "sleeve": "ff0000",
+              "sleeve": "ffffff",
               "sleevelong": "ffffff"
             }
           },
           "home": {
             "GK": {
-              "base": "7a47bb",
+              "base": "0edbd8",
               "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "161616"
+              "type": "long_sleeves",
+              "number": "050505",
+              "sleeve": "314899"
             },
             "player": {
-              "base": "ff0000",
+              "base": "f94046",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "7c0204",
-              "sleevelong": "ff0000"
+              "number": "fddc30",
+              "sleeve": "353c69",
+              "sleevelong": "343f6e"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 1,
-            "sentence": "Botafogo haven't won in their last 8 games."
+            "sentence": "Spain haven't lost in their last 9 games."
           },
           {
-            "type_id": 2,
-            "sentence": "When playing at home, Vila Nova have not lost to Botafogo in their last 3 encounters."
+            "type_id": 1,
+            "sentence": "Spain haven't lost in any of their last 16 home matches."
           },
           {
-            "type_id": 24,
-            "sentence": "Vila Nova's home record this season: 3-2-0."
+            "type_id": 1,
+            "sentence": "Peru haven't won any of their last 13 away matches."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Vila Nova's on a roll and Botafogo-SP is struggling** — this has all the makings of a home-side waltz. 🏟️\n\nVila Nova are riding three wins in their last five with solid form at the Estádio Onésio. Botafogo-SP, meanwhile, are winless in their last five (0W 2D 3L) and missing key defenders Carlão and Jonathan to injury, which leaves them paper-thin at the back.\n\nKey storylines:\n\n- **Vila Nova's attacking trio** of Janderson, Marquinhos Gabriel, and Dellatorre should feast on a weakened Botafogo-SP backline missing two starters\n- **Botafogo-SP's defensive crisis** — without Carlão and Jonathan, they're stretched thin and vulnerable to the kind of pressing that suits home sides\n- **Midfield control** — if Vila Nova's pairing of J. Vieira and D. D. Santos dominate the middle, this could get ugly fast\n\nExpected lineups:\n\n- **Vila Nova FC**: H. Leite, Higor, T. Pagnussat, Anderson, Hayner, J. Vieira, D. D. Santos, R. Lima, Marquinhos Gabriel, Janderson, Dellatorre\n- **Botafogo-SP**: V. Souza, Vilar, P. Brey, M. Sales, Gabriel Inocêncio, E. Morelli, R. Gava, Kelvin, Marquinho, Z. Hugo, Thalles\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction: **Vila Nova 2–0 Botafogo-SP**. The model leans Vila Nova, and their form plus Botafogo-SP's injury woes make them slight favorites. 📊",
-          "generated_at": "2026-06-08T01:45:44.958356+00:00"
+          "text": "**Spain's been a bit sleepy lately, but Peru? Peru's been downright rough.** This friendly screams mismatch on paper — La Roja drawing three of their last five, but still unbeaten, while Peru's limping in on a 3-loss slump. 🇪🇸\n\nSpain's missing some attacking firepower with **F. Torres**, **L. Yamal**, and **V. Muñoz** sidelined, but they've got midfield depth to burn. Peru will need to pack the defense tight and hope for scraps on the break, though that **0-2 loss to Senegal** doesn't scream confidence.\n\nKey storylines:\n\n- **Spain's injury list** (Torres, Yamal, Muñoz out) means Y. Pino and M. Oyarzabal get the spotlight in attack\n- **Peru's defensive frailty** — they've shipped goals in three of their last four, and Spain's 3-0 rout of Serbia shows they can turn it on\n- **M. Zubimendi and Pedri** controlling midfield will be the blueprint; Peru's E. Noriega and A. Carrillo need to disrupt early\n\nExpected lineups:\n\n- **Spain**: D. Raya, M. Cucurella, P. Porro, A. Laporte, P. Cubarsí, U. Simón, M. Zubimendi, Pedri, N. Williams, M. Oyarzabal, Y. Pino\n- **Peru**: P. Gallese, M. López, R. Garces, O. Sonne, F. Gruber, A. Carrillo, E. Noriega, J. Vidales, J. Vélez, A. Ugarriza, M. Zegarra\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Spain 2-0 Peru** — Spain's class should shine through despite the absentees.",
+          "generated_at": "2026-06-08T02:45:43.122068+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T06:20:15.619565+04:00",
-      "prob_home_win": 69.50062359909815,
-      "prob_draw": 21.47241260279103,
-      "prob_away_win": 9.026963798110813,
+      "created_at": "2026-06-02T06:20:16.385375+04:00",
+      "prob_home_win": 60.4907071006694,
+      "prob_draw": 26.60212868809804,
+      "prob_away_win": 12.907164211232555,
       "predicted_result": "H",
-      "expected_home_goals": 0.94604,
-      "expected_away_goals": 0.91612,
-      "prob_over_15": 60.72139153224037,
-      "prob_over_25": 41.459098518119184,
-      "prob_over_35": 17.6868137853728,
-      "prob_btts_yes": 43.59268080031388,
-      "confidence": 69.50062359909815,
+      "expected_home_goals": 1.778925,
+      "expected_away_goals": 0.26715000000000005,
+      "prob_over_15": 79.74347945522632,
+      "prob_over_25": 44.800180047360065,
+      "prob_over_35": 26.409916768155366,
+      "prob_btts_yes": 24.650710892341888,
+      "confidence": 60.4907071006694,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
+      "most_likely_score": "1-0",
       "favorite": "H",
-      "favorite_prob": 69.50062359909815,
+      "favorite_prob": 60.4907071006694,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
