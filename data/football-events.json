@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-06-09T22:11:23.578Z",
+  "generatedAt": "2026-06-09T23:52:42.824Z",
   "count": 50,
   "items": [
     {
-      "id": 209482,
-      "status": "finished",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "MAS de Fès",
-      "awayTeam": "AS FAR Rabat",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9971,
-      "status": "1st_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Ponte Preta",
-      "awayTeam": "Cuiabá",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9969,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Náutico",
@@ -36,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 9971,
+      "status": "2nd_half",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Ponte Preta",
+      "awayTeam": "Cuiabá",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207442,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Senegal",
@@ -58,23 +47,23 @@
       "marketCount": 0
     },
     {
-      "id": 209194,
-      "status": "notstarted",
-      "league": "International Friendly Games",
-      "country": "International",
-      "homeTeam": "Iraq",
-      "awayTeam": "Venezuela",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209489,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Bolivia",
       "awayTeam": "Algeria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209194,
+      "status": "notstarted",
+      "league": "International Friendly Games",
+      "country": "International",
+      "homeTeam": "Iraq",
+      "awayTeam": "Venezuela",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -157,23 +146,23 @@
       "marketCount": 0
     },
     {
-      "id": 9968,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Goiás",
-      "awayTeam": "Grêmio Novorizontino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207649,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "FC Tampa Bay Rowdies",
       "awayTeam": "Charleston Battery",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9968,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Goiás",
+      "awayTeam": "Grêmio Novorizontino",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,23 +289,23 @@
       "marketCount": 0
     },
     {
-      "id": 207236,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Inter Turku",
-      "awayTeam": "AC Oulu",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207237,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Ilves",
       "awayTeam": "Turun Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207236,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Inter Turku",
+      "awayTeam": "AC Oulu",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,23 +333,23 @@
       "marketCount": 0
     },
     {
-      "id": 207241,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "IF Gnistan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207240,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "FC Lahti",
       "awayTeam": "SJK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207241,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "IF Gnistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,17 +366,6 @@
       "marketCount": 0
     },
     {
-      "id": 207653,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Loudoun United FC",
-      "awayTeam": "Rhode Island FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8293,
       "status": "notstarted",
       "league": "World Cup 2026",
@@ -399,12 +377,12 @@
       "marketCount": 0
     },
     {
-      "id": 207656,
+      "id": 207653,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
-      "homeTeam": "SC Jacksonville",
-      "awayTeam": "Detroit City FC",
+      "homeTeam": "Loudoun United FC",
+      "awayTeam": "Rhode Island FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -416,6 +394,17 @@
       "country": "USA",
       "homeTeam": "Pittsburgh Riverhounds",
       "awayTeam": "Indy Eleven",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207656,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "SC Jacksonville",
+      "awayTeam": "Detroit City FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -476,6 +465,17 @@
       "marketCount": 0
     },
     {
+      "id": 8294,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Haiti",
+      "awayTeam": "Scotland",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207662,
       "status": "notstarted",
       "league": "USL Championship",
@@ -493,17 +493,6 @@
       "country": "USA",
       "homeTeam": "Colorado Springs Switchbacks FC",
       "awayTeam": "Sacramento Republic FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8294,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Haiti",
-      "awayTeam": "Scotland",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -537,6 +526,17 @@
       "country": "International",
       "homeTeam": "Australia",
       "awayTeam": "Türkiye",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9981,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Juventude",
+      "awayTeam": "Ponte Preta",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
