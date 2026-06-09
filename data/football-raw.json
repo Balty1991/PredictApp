@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T15:40:45.904Z",
+  "generatedAt": "2026-06-09T18:12:37.736Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,58 +21,48 @@
   ],
   "samples": {
     "event": {
-      "id": 209434,
+      "id": 209459,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
-        "country": "International",
+        "id": 56,
+        "name": "Suomen Cup",
+        "country": "Finland",
         "is_women": false,
-        "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
-        "year": 2026
-      },
-      "home_team": "Indonesia",
-      "away_team": "Mozambique",
+      "season": null,
+      "home_team": "FC Honka",
+      "away_team": "HJK",
       "home_team_obj": {
-        "id": 2249,
-        "name": "Indonesia",
-        "short_name": "Indonesia",
-        "country": "Indonesia",
+        "id": 2126,
+        "name": "FC Honka",
+        "short_name": "Honka",
+        "country": "Finland",
         "coach": {
-          "name": "John Herdman",
-          "shortName": "J. Herdman"
+          "name": "Mika Väyrynen",
+          "shortName": "M. Väyrynen"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 657,
-        "name": "Mozambique",
-        "short_name": "Mozambique",
-        "country": "Mozambique",
+        "id": 2096,
+        "name": "HJK",
+        "short_name": "HJK",
+        "country": "Finland",
         "coach": {
-          "name": "Francisco Queriol Conde Jnior",
-          "shortName": "F. Q. C. Jnior"
+          "name": "Joonas Rantanen",
+          "shortName": "J. Rantanen"
         },
         "venue": null
       },
-      "event_date": "2026-06-09T17:00:00+04:00",
-      "round_number": null,
-      "round_name": "",
+      "event_date": "2026-06-09T19:30:00+04:00",
+      "round_number": 27,
+      "round_name": "Quarterfinals",
       "group_name": null,
       "status": "finished",
       "home_score": 1,
-      "away_score": 0,
+      "away_score": 7,
       "home_score_ht": 1,
-      "away_score_ht": 0,
+      "away_score_ht": 4,
       "current_minute": 90,
       "period": "FT",
       "odds_home": null,
@@ -92,127 +82,56 @@
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 2,
+      "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": 1,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1645,
-        "name": "John Herdman",
-        "short_name": "J. Herdman",
-        "country": "England",
-        "profile": "balanced",
-        "preferred_formation": "5-4-1",
+        "id": 1680,
+        "name": "Mika Väyrynen",
+        "short_name": "M. Väyrynen",
+        "country": "Finland",
+        "profile": "attacking",
+        "preferred_formation": "3-4-3",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
       "away_coach": {
-        "id": 691,
-        "name": "Francisco Queriol Conde Jnior",
-        "short_name": "F. Q. C. Jnior",
-        "country": "Mozambique",
-        "profile": "balanced",
+        "id": 1526,
+        "name": "Joonas Rantanen",
+        "short_name": "J. Rantanen",
+        "country": "Finland",
+        "profile": "attacking",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "pressing_intensity": 0.1186446228829845,
+        "defensive_line": "mid",
+        "top_styles": [
+          "chaos_ball",
+          "chaos_football"
+        ]
       },
       "unavailable_players": null,
-      "venue": {
-        "id": 1420,
-        "name": "Gelora Bung Karno Stadium",
-        "city": "Senayan",
-        "country": "Indonesia",
-        "capacity": 82000,
-        "latitude": null,
-        "longitude": null,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
-      },
+      "venue": null,
       "live_stats": null,
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "0d0d0d",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "e4e850",
-            "sleeve": "e9f558"
-          },
-          "player": {
-            "base": "ff0000",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "eac953",
-            "sleeve": "eace50"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "e9ec4a",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "fc0808",
-            "sleeve": "1aca27"
-          },
-          "player": {
-            "base": "bc1515",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "fffafa"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 1,
-          "sentence": "Mozambique have lost 3 matches in a row."
-        }
-      ],
-      "sr_stats": {
-        "attack": {
-          "away": 57,
-          "home": 62
-        },
-        "ball_safe": {
-          "away": 62,
-          "home": 42
-        },
-        "attack_pct": {
-          "away": 21,
-          "home": 29
-        },
-        "ball_safe_pct": {
-          "away": 58,
-          "home": 35
-        },
-        "dangerous_attack": {
-          "away": 17,
-          "home": 38
-        },
-        "dangerous_attack_pct": {
-          "away": 21,
-          "home": 36
-        }
-      },
+      "jerseys": null,
+      "funfacts": null,
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Indonesia hosts a Mozambique side in dire form** — the Red and White have the home crowd at Gelora Bung Karno, and their guests arrive winless in five. 🏟️\n\nIndonesia's bounce back after losses to Iraq and Saudi Arabia with a thumping 3-0 win over Oman. Mozambique, meanwhile, have been hammered 4-0 by Nigeria and 4-1 by Oman — they're fragile on the road and struggling to score.\n\nKey storylines:\n\n- **M. Paes** and Indonesia's back line will face minimal pressure against a Mozambique attack that's mustered just one goal across their last three outings\n- **B. P. Nugraha** spearheads the home attack with support from **I. Jenner** in a system built to exploit width and ball retention\n- Mozambique's midfield anchors **M. N. Kambala** and **K. Abdala** have their hands full containing Indonesia's energy in the middle\n\nExpected lineups:\n\n- **Indonesia**: M. Paes, C. Verdonk, R. Ridho, J. Hubner, K. Diks, N. Tjoe-A-On, J. Pelupessy, Y. Sayuri, I. Jenner, B. P. Nugraha, R. Oratmangoen\n- **Mozambique**: Ernan, Nanani, Nenê, E. G. Dove, Chico, M. N. Kambala, K. Abdala, C. Alfandega, A. Raice, A. Cantolo, Dário\n\nPrediction:\n\n**Indonesia 3–0 Mozambique**. Home advantage, form edge, and Mozambique's defensive brittleness make this a mismatch. 🎯",
-        "generated_at": "2026-06-09T01:46:25.553866+00:00"
+        "text": "**Honka's been on a tear, but HJK's a different beast entirely** — this cup clash pits a red-hot homeside against the pedigree outfit, and it should get spicy. 🔥\n\nHonka look sharp with three wins in their last five, including that 5-1 demolition of VJS. HJK have their own momentum (that 11-1 scoreline vs MyPa was genuinely farcical), though a recent loss to VPS keeps them honest. Both sides can score, and that's the real story here.\n\nKey storylines:\n\n- **Honka's attacking form** has been stellar — they've found the net in every game lately, and **K. Liikonen** will be central to unlocking HJK's shape\n- **HJK's firepower** with **T. Pukki** leading the line remains the biggest threat to a Honka defense that's been tested\n- Cup knockouts often punish sloppiness — both teams have talent, but execution in the final third will separate them\n\nExpected lineups:\n\n- **FC Honka**: A. Helin, A. Ramström, B. Heikkinen, P. Katajamäki, R. Pyyskänen, B. Ahokas, K. Al-Wehliye, C. K. Umeh, K. Liikonen\n- **HJK**: M. Marković, L. Montano, M. Bogićević, V. Tikkanen, M. Ylitolva, L. Lingman, P. Mentu, T. Mero, L. Möller, Martin Kirilov, T. Pukki\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Honka 2–1 HJK** — home advantage tips it, but HJK will make them work for it. ⚽",
+        "generated_at": "2026-06-09T02:45:20.214820+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 4728,
+      "id": 5255,
       "event": {
-        "id": 207894,
+        "id": 209488,
         "league": {
           "id": 31,
           "name": "International Friendly Games",
@@ -231,37 +150,31 @@
           "name": "Int. Friendly Games 2026",
           "year": 2026
         },
-        "home_team": "DR Congo",
-        "away_team": "Chile",
+        "home_team": "Liberia",
+        "away_team": "Sierra Leone",
         "home_team_obj": {
-          "id": 648,
-          "name": "DR Congo",
-          "short_name": "DR Congo",
-          "country": "DR Congo",
+          "id": 695,
+          "name": "Liberia",
+          "short_name": "Liberia",
+          "country": "Liberia",
           "coach": {
-            "name": "Sebastien Desabre",
-            "shortName": "S. Desabre"
-          },
-          "venue": {
-            "id": 501,
-            "name": "Stade des Martyrs",
-            "city": "Kinshasa",
-            "country": "DR Congo",
-            "capacity": 80000
-          }
-        },
-        "away_team_obj": {
-          "id": 936,
-          "name": "Chile",
-          "short_name": "Chile",
-          "country": "Chile",
-          "coach": {
-            "name": "Nicolas Andres Cordova",
-            "shortName": "N. A. Cordova"
+            "name": "Thomas Kojo",
+            "shortName": "T. Kojo"
           },
           "venue": null
         },
-        "event_date": "2026-06-09T20:00:00+04:00",
+        "away_team_obj": {
+          "id": 2277,
+          "name": "Sierra Leone",
+          "short_name": "Sierra Leone",
+          "country": "Sierra Leone",
+          "coach": {
+            "name": "Mohammed Kallon",
+            "shortName": "M. Kallon"
+          },
+          "venue": null
+        },
+        "event_date": "2026-06-09T22:30:00+04:00",
         "round_number": null,
         "round_name": "",
         "group_name": null,
@@ -299,25 +212,22 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 583,
-          "name": "Sebastien Desabre",
-          "short_name": "S. Desabre",
-          "country": "France",
+          "id": 69,
+          "name": "Thomas Kojo",
+          "short_name": "T. Kojo",
+          "country": "Liberia",
           "profile": "defensive",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.21857136906446123,
-          "defensive_line": "high",
-          "top_styles": [
-            "terrorist_fb",
-            "low_block"
-          ]
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 577,
-          "name": "Nicolas Andres Cordova",
-          "short_name": "N. A. Cordova",
-          "country": "Chile",
-          "profile": "defensive",
+          "id": 1700,
+          "name": "Mohammed Kallon",
+          "short_name": "M. Kallon",
+          "country": "Sierra Leone",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
           "pressing_intensity": null,
           "defensive_line": "",
@@ -325,11 +235,11 @@
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1529,
-          "name": "Estadio Municipal Ciudad de La Linea",
-          "city": "Cadiz",
-          "country": "Spain",
-          "capacity": null,
+          "id": 1375,
+          "name": "Samuel Kanyon Doe Sports Complex",
+          "city": "Monrovia",
+          "country": "Liberia",
+          "capacity": 35000,
           "latitude": null,
           "longitude": null,
           "pitch_x": null,
@@ -347,27 +257,27 @@
         "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**DR Congo looking to keep the party rolling against a slumping Chile side.** 🇨🇩 This is a proper mismatch on paper — one team riding form, the other desperately searching for a win.\n\nDR Congo's unbeaten run (2W 3D) sits nicely against Chile's current nightmare (1D 4L in five). The Leopards have been solid defensively overseas and lethal at home; meanwhile, Chile just got dismantled 3-0 by Brazil and shut out by Uruguay. This reeks of a confidence mismatch.\n\nKey storylines:\n\n- **C. Bakambu** and **T. Bongonda** spearheading DR Congo's attack against a brittle **G. Maripán** and **F. Sierralta** backline\n- **A. Wan-Bissaka** anchoring the right flank while Chile's **F. Hormazábal** tries to weather the storm\n- Chile desperately needing a spark — **I. Morales** carries the creative load but has little support around him\n\nExpected lineups:\n\n- **DR Congo**: L. Mpasi Nzau, C. Mbemba, A. Tuanzebe, A. Wan-Bissaka, S. Moutoussamy, N. Mbuku, T. Bongonda, N. Sadiki, C. Bakambu\n- **Chile**: B. Cortés, G. Suazo, G. Maripán, F. Sierralta, F. Loyola, F. Sierralta, R. Echeverría, V. Pizarro, I. Morales, L. Cepeda\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**DR Congo 2–0 Chile.** The Leopards have the edge in every compartment — form, structure, and killer instinct. 🐾",
-          "generated_at": "2026-06-09T01:46:49.224757+00:00"
+          "text": "**Sierra Leone rolls into Monrovia looking to make it back-to-back wins** — they just beat Liberia 1-0 at home and are the form side here. 🔥\n\nLiberia's mixed run (1W 2D 2L) hasn't been kind lately, while the visitors are buzzing at 3W 1D 1L. That home advantage could matter, but Sierra Leone's got the recent edge in this fixture.\n\nKey storylines:\n\n- **Sierra Leone's attacking trio** of S. Tarawallie, M. Bundu, and A. Bakayoko will test Liberia's back line — P. Tarnue and E. Fully have work to do\n- **Liberia's midfield pairing** of O. Dorley and D. Teah needs to disrupt Sierra Leone's tempo and creativity through A. Koroma and S. Fofanah\n- **Defensive solidity wins this one** — both teams have shown they can keep it tight, and loose play in transition could be punished\n\nExpected lineups:\n\n- **Liberia**: A. Wesseh, P. Tarnue, E. Fully, N. Swen, A. Jamal, O. Dorley, D. Teah, A. Kosiah, N. Kenneh, K. Sherman, G. Wallace\n- **Sierra Leone**: F. Koroma, A. Turay, A. Jarjue, D. Kanu, K. Cesay, A. Koroma, S. Fofanah, I. Kanu, S. Tarawallie, M. Bundu, A. Bakayoko\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Both Teams to Score**: BTTS No\n\nPrediction:\n\n**Sierra Leone 1-0 Liberia**. The model leans visitors, and that recent head-to-head dominance is hard to ignore.",
+          "generated_at": "2026-06-09T01:47:20.282234+00:00"
         },
         "live_websocket": false
       },
-      "created_at": "2026-06-02T14:52:30.465834+04:00",
-      "prob_home_win": 79.57689964078797,
-      "prob_draw": 13.401918354186758,
-      "prob_away_win": 7.021182005025276,
-      "predicted_result": "H",
-      "expected_home_goals": 1.65,
-      "expected_away_goals": 1.3,
-      "prob_over_15": 81.64887721246781,
-      "prob_over_25": 51.25399580207043,
-      "prob_over_35": 33.56669180282459,
-      "prob_btts_yes": 31.7683366680065,
-      "confidence": 79.57689964078797,
+      "created_at": "2026-06-08T06:20:13.096177+04:00",
+      "prob_home_win": 23.705231277156848,
+      "prob_draw": 24.90379216343344,
+      "prob_away_win": 51.390976559409694,
+      "predicted_result": "A",
+      "expected_home_goals": 0.9833333333333334,
+      "expected_away_goals": 1.5,
+      "prob_over_15": 76.93023032555557,
+      "prob_over_25": 30.50820195522061,
+      "prob_over_35": 15.761093312318833,
+      "prob_btts_yes": 20.72891546132768,
+      "confidence": 51.390976559409694,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "H",
-      "favorite_prob": 79.57689964078797,
+      "most_likely_score": "0-1",
+      "favorite": "A",
+      "favorite_prob": 51.390976559409694,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
