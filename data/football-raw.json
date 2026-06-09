@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T20:29:43.612Z",
+  "generatedAt": "2026-06-09T22:11:23.577Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 209480,
+      "id": 209482,
       "league": {
         "id": 53,
         "name": "Botola Pro",
@@ -30,36 +30,42 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Kawkab Athletic Club Marrakech",
-      "away_team": "Raja Club Athletic",
+      "home_team": "MAS de Fès",
+      "away_team": "AS FAR Rabat",
       "home_team_obj": {
-        "id": 2065,
-        "name": "Kawkab Athletic Club Marrakech",
-        "short_name": "KACM",
+        "id": 2071,
+        "name": "MAS de Fès",
+        "short_name": "MAS",
         "country": "Morocco",
         "coach": {
-          "name": "Hicham Dmiai",
-          "shortName": "H. Dmiai"
+          "name": "Pablo Franco",
+          "shortName": "P. Franco"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2067,
-        "name": "Raja Club Athletic",
-        "short_name": "Raja CA",
+        "id": 586,
+        "name": "AS FAR Rabat",
+        "short_name": "AS FAR",
         "country": "Morocco",
         "coach": {
-          "name": "Fadlu Davids",
-          "shortName": "F. Davids"
+          "name": "Alexandre Santos",
+          "shortName": "A. Santos"
         },
-        "venue": null
+        "venue": {
+          "id": 467,
+          "name": "Complexe Sportif Moulay Abdellah",
+          "city": "Rabat",
+          "country": "Morocco",
+          "capacity": 69700
+        }
       },
-      "event_date": "2026-06-09T22:00:00+04:00",
+      "event_date": "2026-06-10T00:00:00+04:00",
       "round_number": 23,
       "round_name": "",
       "group_name": null,
       "status": "finished",
-      "home_score": 2,
+      "home_score": 0,
       "away_score": 0,
       "home_score_ht": 0,
       "away_score_ht": 0,
@@ -82,124 +88,212 @@
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": null,
+      "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
-      "weather_code": null,
+      "travel_distance_km": 177,
+      "weather_code": 1,
       "wind_speed": null,
       "temperature_c": null,
-      "pitch_condition": null,
+      "pitch_condition": 1,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1483,
-        "name": "Hicham Dmiai",
-        "short_name": "H. Dmiai",
-        "country": "Morocco",
+        "id": 1489,
+        "name": "Pablo Franco",
+        "short_name": "P. Franco",
+        "country": "Spain",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.334725913413218,
+        "pressing_intensity": 0.32557491195530697,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
-        ]
-      },
-      "away_coach": {
-        "id": 1485,
-        "name": "Fadlu Davids",
-        "short_name": "F. Davids",
-        "country": "South Africa",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4684737996001448,
-        "defensive_line": "mid",
-        "top_styles": [
-          "tiki_taka",
+          "moments_fc",
           "inverted_fb"
         ]
       },
-      "unavailable_players": null,
+      "away_coach": {
+        "id": 554,
+        "name": "Alexandre Santos",
+        "short_name": "A. Santos",
+        "country": "Portugal",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.478290706242357,
+        "defensive_line": "mid",
+        "top_styles": [
+          "territory",
+          "positional"
+        ]
+      },
+      "unavailable_players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Mohamed Rabie Hrimat",
+            "status": "injured",
+            "reason": "Leg Injury",
+            "expected_return": "2026-06-30"
+          },
+          {
+            "name": "Youssef El Fahli",
+            "status": "injured",
+            "reason": "Shoulder Injury",
+            "expected_return": "2026-07-20"
+          }
+        ]
+      },
       "venue": null,
       "live_stats": {
         "away": {
-          "red_cards": 1,
-          "yellow_cards": 4
+          "red_cards": 0,
+          "yellow_cards": 2
         },
         "home": {
           "red_cards": 0,
           "yellow_cards": 1
         }
       },
-      "jerseys": null,
-      "funfacts": null,
-      "sr_stats": null,
-      "ai_preview": {
-        "text": "**Raja coming to town with the form edge** — Kawkab's been shaky at home lately, and the Green Eagles want to stay hot in the title chase. 🟢\n\nKawkab are 2-1-2 across their last five but that loss to Yacoub El Mansour stings. Raja, meanwhile, have **won three of their last five** and just beat Dcheira on the road — they've got momentum and the head-to-head advantage too.\n\nKey storylines:\n\n- **Raja's attack vs Kawkab's leaky defense** — the visitors scored in their last road win and will fancy chances against a side that shipped goals to Yacoub El Mansour\n- **Home pressure on Kawkab** — they need to turn Marrakech into a fortress, but inconsistency has plagued them all season\n- **Defensive solidity** — both sides lean on compact backlines; this could be a tight, low-scoring affair\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, H. Fassoukh, N. Lougmani, R. Mennioui, G. Claude, H. Rafa, S. A. Sellami, I. Mihrab, Y. Zghoudi, S. Cissé\n- **Raja Club Athletic**: M. Harrar, A. Khammas, B. Benoun, A. Khafifi, M. Makaazi, H. Ferdaoussi, M. O. Kehinde, S. Bougrine, I. Mokadem, I. Khafi\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Raja 1–0 Kawkab**. The visitors have the slight edge in form and should edge a tight one. ⚽",
-        "generated_at": "2026-06-09T02:45:38.039796+00:00"
+      "jerseys": {
+        "away": {
+          "GK": {
+            "base": "66ccff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "66ccff"
+          },
+          "player": {
+            "base": "003300",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "dd0000",
+            "sleeve": "000000",
+            "stripes": "cc0000"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "006600",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "006600"
+          },
+          "player": {
+            "base": "D8D8D8",
+            "real": false,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "D8D8D8"
+          }
+        }
       },
-      "live_websocket": false
+      "funfacts": [
+        {
+          "type_id": 24,
+          "sentence": "Far Rabat's away record this season: 4-7-0."
+        },
+        {
+          "type_id": 26,
+          "sentence": "A year ago, Maghreb de Fes were number 6 in the table with 36 points. Now they are number 2 with 44 points."
+        },
+        {
+          "type_id": 6,
+          "sentence": "During the last 13 meetings with Maghreb de Fes playing at home, Maghreb de Fes have won 5 times, there have been 3 draws while Far Rabat have won 5 times. The goal difference is 12-11 in favour of Far Rabat."
+        }
+      ],
+      "sr_stats": {
+        "attack": {
+          "away": 70,
+          "home": 73
+        },
+        "ball_safe": {
+          "away": 59,
+          "home": 77
+        },
+        "attack_pct": {
+          "away": 32,
+          "home": 35
+        },
+        "ball_safe_pct": {
+          "away": 45,
+          "home": 53
+        },
+        "dangerous_attack": {
+          "away": 40,
+          "home": 37
+        },
+        "dangerous_attack_pct": {
+          "away": 23,
+          "home": 12
+        }
+      },
+      "ai_preview": {
+        "text": "**Two mid-table sides looking to build momentum in a dead-rubber feel**—neither team's pulling away, which means this could go either way. 🔄\n\n**MAS de Fès** are chasing wins (2 in their last 5) but inconsistent at home. **AS FAR Rabat** are steadier overall with 2 wins and a couple of draws, though they're missing key defenders **M. R. Hrimat** and **Y. E. Fahli** to injury.\n\nKey storylines:\n\n- **MAS de Fès** need to tighten up defensively after that 0-1 loss at home to Ittihad Tanger\n- **AS FAR Rabat** dealing with backline absences could expose gaps in possession play\n- Both teams' recent H2H is all draws—nobody's getting a clean edge here\n\nExpected lineups:\n\n- **MAS de Fès**: S. Chihab, M. Ouhrou, D. El-Jabli, A. Rhaili, S. Ghedamsi, S. Allouch, A. Harmach, S. Benjdida, N. Oussama, K. Seakanyeng, A. Tahiri\n- **AS FAR Rabat**: A. R. Tagnaouti, A. Bach, M. Louadni, T. Carneiro, Y. Abdelhamid, K. Ourkane, A. Hadraf, J. E. Khfiyef, R. Slim, H. Khabba, M. Bourika\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1–1 draw** feels most likely given the defensive injuries at FAR and both teams' habit of staying compact. Lean slight lean toward a cagey affair. ⚖️",
+        "generated_at": "2026-06-09T02:45:48.520668+00:00"
+      },
+      "live_websocket": true
     },
     "prediction": {
-      "id": 4736,
+      "id": 4737,
       "event": {
-        "id": 9969,
+        "id": 207442,
         "league": {
-          "id": 34,
-          "name": "Brasileirão Serie B",
-          "country": "Brazil",
+          "id": 31,
+          "name": "International Friendly Games",
+          "country": "International",
           "is_women": false,
           "current_season": {
-            "id": 52,
-            "name": "Brasileiro Serie B 2026",
+            "id": 133,
+            "name": "Int. Friendly Games 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
+          "id": 133,
+          "name": "Int. Friendly Games 2026",
           "year": 2026
         },
-        "home_team": "Náutico",
-        "away_team": "Fortaleza",
+        "home_team": "Senegal",
+        "away_team": "Saudi Arabia",
         "home_team_obj": {
-          "id": 928,
-          "name": "Náutico",
-          "short_name": "Náutico",
-          "country": "Brazil",
+          "id": 486,
+          "name": "Senegal",
+          "short_name": "Senegal",
+          "country": "Senegal",
           "coach": {
-            "name": "Helio Dos Anjos",
-            "shortName": "H. D. Anjos"
+            "name": "Pape Thiaw",
+            "shortName": "P. Thiaw"
           },
           "venue": {
-            "id": 708,
-            "name": "Estádio dos Aflitos",
-            "city": "Recife",
-            "country": "Brazil",
-            "capacity": 22856
+            "id": 443,
+            "name": "Stade Me Abdoulaye Wade",
+            "city": "Diamniadio",
+            "country": "Senegal",
+            "capacity": 50000
           }
         },
         "away_team_obj": {
-          "id": 152,
-          "name": "Fortaleza",
-          "short_name": "Fortaleza",
-          "country": "Brazil",
+          "id": 479,
+          "name": "Saudi Arabia",
+          "short_name": "Saudi Arabia",
+          "country": "Saudi Arabia",
           "coach": {
-            "name": "Thiago Carpini",
-            "shortName": "T. Carpini"
+            "name": "Georgios Donis",
+            "shortName": "G. Donis"
           },
           "venue": {
-            "id": 150,
-            "name": "Estádio Governador Plácido Castelo",
-            "city": "Fortaleza",
-            "country": "Brazil",
-            "capacity": 63904
+            "id": 437,
+            "name": "Al-Shabab Club Stadium",
+            "city": "Riyadh",
+            "country": "Saudi Arabia",
+            "capacity": 15000
           }
         },
-        "event_date": "2026-06-10T02:00:00+04:00",
-        "round_number": 12,
+        "event_date": "2026-06-10T03:00:00+04:00",
+        "round_number": null,
         "round_name": "",
         "group_name": null,
         "status": "notstarted",
@@ -209,176 +303,518 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.28,
-        "odds_draw": 3.06,
-        "odds_away": 3.17,
-        "odds_over_15": 1.4,
-        "odds_over_25": 2.27,
-        "odds_over_35": 4.09,
-        "odds_under_15": 2.69,
-        "odds_under_25": 1.59,
-        "odds_under_35": 1.19,
-        "odds_btts_yes": 1.94,
-        "odds_btts_no": 1.78,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 53,
-        "wind_speed": 15.4,
-        "temperature_c": 25,
+        "weather_code": 0,
+        "wind_speed": 19.8,
+        "temperature_c": 32,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 1839,
-          "name": "Lucas Casagrande",
-          "country": "Brazil",
-          "nationality_a3": "",
-          "birthdate": null,
-          "yellowCards": 182,
-          "redCards": 7,
-          "career_games": 39,
-          "career_yellow_cards": 182,
-          "career_red_cards": 7
-        },
+        "referee": null,
         "home_coach": {
-          "id": 137,
-          "name": "Helio Dos Anjos",
-          "short_name": "H. D. Anjos",
-          "country": "Brazil",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.7512707319214817,
-          "defensive_line": "mid",
+          "id": 112,
+          "name": "Pape Thiaw",
+          "short_name": "P. Thiaw",
+          "country": "Senegal",
+          "profile": "attacking",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.6340538686573383,
+          "defensive_line": "high",
           "top_styles": [
-            "chaos_ball",
-            "man_press"
+            "ball_dominant",
+            "total_football"
           ]
         },
         "away_coach": {
-          "id": 120,
-          "name": "Thiago Carpini",
-          "short_name": "T. Carpini",
-          "country": "Brazil",
+          "id": 188,
+          "name": "Georgios Donis",
+          "short_name": "G. Donis",
+          "country": "Greece",
           "profile": "balanced",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": 0.5060314028948166,
-          "defensive_line": "high",
+          "preferred_formation": "3-5-2",
+          "pressing_intensity": 0.5416918204808029,
+          "defensive_line": "mid",
           "top_styles": [
-            "anti_football",
-            "terrorist_fb"
+            "set_piece",
+            "chaos_ball"
           ]
         },
-        "unavailable_players": {
-          "home": [],
-          "away": [
-            {
-              "name": "Luiz Fernando",
-              "status": "doubtful",
-              "reason": "Knee Injury",
-              "expected_return": null
-            },
-            {
-              "name": "Paulinho Paula",
-              "status": "doubtful",
-              "reason": "Thigh Injury",
-              "expected_return": "2026-06-10"
-            }
-          ]
-        },
+        "unavailable_players": null,
         "venue": {
-          "id": 708,
-          "name": "Estádio dos Aflitos",
-          "city": "Recife",
-          "country": "Brazil",
-          "capacity": 22856,
-          "latitude": -8.040559,
-          "longitude": -34.896801,
+          "id": 1316,
+          "name": "Toyota Field",
+          "city": "San Antonio",
+          "country": "USA",
+          "capacity": 7000,
+          "latitude": 29.53938,
+          "longitude": -98.39456,
           "pitch_x": null,
           "pitch_y": null,
           "built_year": null
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "A. Al-Kassar",
+                "goals": 0,
+                "api_id": 818749,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 8384,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Abdulhamid",
+                "goals": 0,
+                "api_id": 966849,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 1418,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Lajami",
+                "goals": 0,
+                "api_id": 818667,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8288,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "J. Thakri",
+                "goals": 0,
+                "api_id": 1845169,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8146,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "H. Kadesh",
+                "goals": 0,
+                "api_id": 847235,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 8153,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "N. Al-Dawsari",
+                "goals": 0,
+                "api_id": 872607,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7991,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "Z. Aljohani",
+                "goals": 0,
+                "api_id": 1048372,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 8118,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Kanno",
+                "goals": 0,
+                "api_id": 828524,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7998,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Mandash",
+                "goals": 0,
+                "api_id": 818568,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 7921,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. Al-Ghannam",
+                "goals": 0,
+                "api_id": 976538,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8049,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Al-Hamdan",
+                "goals": 0,
+                "api_id": 915991,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 8256,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-4-2",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "M. Diaw",
+                "goals": 0,
+                "api_id": 580226,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 1426,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": [
+                  "GK"
+                ]
+              },
+              {
+                "name": "K. Diatta",
+                "goals": 0,
+                "api_id": 873534,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2233,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "RM",
+                "positions_detailed": [
+                  "RM",
+                  "RB"
+                ]
+              },
+              {
+                "name": "A. Seck",
+                "goals": 0,
+                "api_id": 583896,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 15372,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "M. Sarr",
+                "goals": 0,
+                "api_id": 1154657,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 1704,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CB",
+                "positions_detailed": [
+                  "CB"
+                ]
+              },
+              {
+                "name": "I. Jakobs",
+                "goals": 0,
+                "api_id": 897291,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 3728,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LB",
+                "positions_detailed": [
+                  "LB"
+                ]
+              },
+              {
+                "name": "L. Camara",
+                "goals": 0,
+                "api_id": 1389846,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 2228,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "DM"
+                ]
+              },
+              {
+                "name": "B. S. Ndiaye",
+                "goals": 0,
+                "api_id": 2427970,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 23922,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "I. Ndiaye",
+                "goals": 0,
+                "api_id": 914309,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 810,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "RW"
+                ]
+              },
+              {
+                "name": "H. Diarra",
+                "goals": 0,
+                "api_id": 1128532,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 4743,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "CM",
+                "positions_detailed": [
+                  "CM",
+                  "AM"
+                ]
+              },
+              {
+                "name": "S. Mané",
+                "goals": 0,
+                "api_id": 217704,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 7879,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "LW",
+                "positions_detailed": [
+                  "LW",
+                  "LM"
+                ]
+              },
+              {
+                "name": "N. Jackson",
+                "goals": 0,
+                "api_id": 1085381,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 2471,
+                "yellow_card": false,
+                "jersey_number": null,
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "ST",
+                "positions_detailed": [
+                  "ST"
+                ]
+              }
+            ],
+            "formation": "4-2-3-1",
+            "substitutes": []
+          },
+          "confirmed": false
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "ed9a5b",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "f2f7fe",
-              "sleeve": "352e73"
-            },
-            "player": {
-              "base": "003f7d",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff",
-              "sleevelong": "003f7d",
-              "horizontalstripes": "bb3341"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "006600",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "006600"
-            },
-            "player": {
-              "base": "D8D8D8",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
-            }
-          }
-        },
-        "funfacts": [
-          {
-            "type_id": 1,
-            "sentence": "Fortaleza have lost 3 matches in a row."
-          },
-          {
-            "type_id": 22,
-            "sentence": "Nautico's last home win against Fortaleza was in 2012."
-          }
-        ],
+        "jerseys": null,
+        "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Náutico's home form has been sharp lately, but Fortaleza arrives desperate to climb out of a rough patch.** This is the kind of Série B swing game that could define the season. 🔥\n\nNáutico have won 3 of their last 5 and walloped Operário-PR 6-2 at home — the Estádio dos Aflitos is no walk in the park. Fortaleza, though, sit on just 1 win in 5 and conceded twice to Ceará last time out; they'll need to tighten up.\n\nKey storylines:\n\n- **Náutico's attack** has fired on all cylinders, with Dodô and Todinho leading the charge in a 4-2-3-1 that gives them creative license\n- **Fortaleza's midfield balance** under **Pochettino** and **Pierre** will be crucial to controlling the tempo and limiting Náutico's transitions\n- **Home advantage** at dos Aflitos historically favors the hosts — Náutico's recent form suggests they'll press hard early\n\nExpected lineups:\n\n- **Náutico**: Muriel, I. Fernandes, Mateus Silva, Betão, L. Felipe, Wenderson, V. Andrade, Vinícius, Dodô, Todinho, Derek\n- **Fortaleza**: Vinicius, G. Fuentes, E. Brítez, L. Gazal, Maílton, T. Pochettino, Pierre, Ryan, Luiz Fernando, J. Miritello, Vitinho\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Náutico 2-0 Fortaleza.** The model edges the hosts, and home form + attacking momentum is hard to ignore here.",
-          "generated_at": "2026-06-09T01:47:25.750776+00:00"
+          "text": "**Senegal rolls into Texas looking sharp, while Saudi Arabia's form has been a proper mess.** This is the classic heavyweight-vs-struggling-side vibe. 🏟️\n\nSenegal's bouncing between wins and the odd slip—beat Peru and Gambia at home, but got caught by the USA. Saudi Arabia, though? They've lost three of their last five and just got torched by Serbia and Ecuador on the road. Not exactly a recipe for upsetting the Lions of Teranga.\n\nKey storylines:\n\n- **Senegal's attacking depth** with S. Mané leading the line alongside N. Jackson will hunt for early pressure\n- **Saudi Arabia's defensive fragility**—without N. Al-Aqidi and playing away from home, they could leak chances all night\n- **Midfield control**: I. Ndiaye and P. Gueye anchoring possession for the Senegalese\n\nExpected lineups:\n\n- **Senegal**: E. Mendy, I. Jakobs, M. Niakhaté, M. Sarr, K. Diatta, I. Ndiaye, P. Gueye, H. Diarra, S. Mané, N. Jackson, I. Mbaye\n- **Saudi Arabia**: M. Al-Owais, A. Al-Amri, H. Altambakti, S. Aboulshamat, N. Boushal, S. Abdulhamid, Z. Aljohani, S. Al-Shehri, M. Kanno, S. Mandash, F. Al-Buraikan\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Senegal 2–0 Saudi Arabia.** Senegal should dominate possession and convert their chances; Saudi Arabia's backline looks too thin to hold on. 🎯",
+          "generated_at": "2026-06-09T01:47:35.870695+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-06-02T14:52:33.425777+04:00",
-      "prob_home_win": 57.20186841093727,
-      "prob_draw": 23.571709255255573,
-      "prob_away_win": 19.226422333807147,
+      "created_at": "2026-06-02T14:52:33.800539+04:00",
+      "prob_home_win": 90.24045261669023,
+      "prob_draw": 9.759547383309759,
+      "prob_away_win": 0,
       "predicted_result": "H",
-      "expected_home_goals": 1.20193,
-      "expected_away_goals": 1.1149399999999998,
-      "prob_over_15": 62.997871660354676,
-      "prob_over_25": 41.541812061366166,
-      "prob_over_35": 16.43455852621269,
-      "prob_btts_yes": 37.414724514679605,
-      "confidence": 57.20186841093727,
+      "expected_home_goals": 0.8454999999999999,
+      "expected_away_goals": 0.321175,
+      "prob_over_15": 78.58228961171744,
+      "prob_over_25": 57.249027429195785,
+      "prob_over_35": 23.682500017756343,
+      "prob_btts_yes": 47.87016404314174,
+      "confidence": 90.24045261669023,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
+      "most_likely_score": "0-0",
       "favorite": "H",
-      "favorite_prob": 57.20186841093727,
+      "favorite_prob": 90.24045261669023,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
