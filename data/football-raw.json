@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T12:28:40.587Z",
+  "generatedAt": "2026-06-10T16:23:20.554Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -64,13 +64,13 @@
       "round_number": 27,
       "round_name": "Quarterfinals",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "status": "finished",
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 90,
+      "period": "FT",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -149,50 +149,56 @@
       "live_websocket": false
     },
     "prediction": {
-      "id": 5237,
+      "id": 4740,
       "event": {
-        "id": 209460,
+        "id": 209456,
         "league": {
-          "id": 56,
-          "name": "Suomen Cup",
-          "country": "Finland",
+          "id": 38,
+          "name": "Segunda División",
+          "country": "Spain",
           "is_women": false,
           "current_season": null
         },
         "season": null,
-        "home_team": "Kuopion Palloseura",
-        "away_team": "VPS",
+        "home_team": "Málaga CF",
+        "away_team": "Las Palmas",
         "home_team_obj": {
-          "id": 377,
-          "name": "Kuopion Palloseura",
-          "short_name": "KuPS",
-          "country": "Finland",
+          "id": 1259,
+          "name": "Málaga CF",
+          "short_name": "Málaga",
+          "country": "Spain",
           "coach": {
-            "name": "Miika Nuutinen",
-            "shortName": "M. Nuutinen"
+            "name": "Juan Funes",
+            "shortName": "J. Funes"
           },
           "venue": {
-            "id": 357,
-            "name": "Savon Sanomat Areena",
-            "city": "Kuopio",
-            "country": "Finland",
-            "capacity": 5300
+            "id": 726,
+            "name": "La Rosaleda",
+            "city": "Malaga",
+            "country": "Spain",
+            "capacity": 30044
           }
         },
         "away_team_obj": {
-          "id": 2093,
-          "name": "VPS",
-          "short_name": "VPS",
-          "country": "Finland",
+          "id": 1266,
+          "name": "Las Palmas",
+          "short_name": "Las Palmas",
+          "country": "Spain",
           "coach": {
-            "name": "Jussi Nuorela",
-            "shortName": "J. Nuorela"
+            "name": "Luis García Fernández",
+            "shortName": "L. Garcia"
           },
-          "venue": null
+          "venue": {
+            "id": 733,
+            "name": "Gran Canaria",
+            "city": "Las Palmas de Gran Canaria",
+            "country": "Spain",
+            "capacity": 32392
+          }
         },
-        "event_date": "2026-06-10T18:00:00+04:00",
-        "round_number": 27,
-        "round_name": "Quarterfinals",
+        "event_date": "2026-06-10T23:00:00+04:00",
+        "round_number": 28,
+        "round_name": "Semifinals",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -218,55 +224,96 @@
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
-        "weather_code": null,
-        "wind_speed": null,
-        "temperature_c": null,
+        "travel_distance_km": 1413,
+        "weather_code": 0,
+        "wind_speed": 11.5,
+        "temperature_c": 28,
         "pitch_condition": null,
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 600,
-          "name": "Miika Nuutinen",
-          "short_name": "M. Nuutinen",
-          "country": "Finland",
+          "id": 820,
+          "name": "Juan Funes",
+          "short_name": "J. Funes",
+          "country": "Spain",
           "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.19337473544913664,
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.6426783434366864,
+          "defensive_line": "mid",
+          "top_styles": [
+            "inverted_fb",
+            "counter"
+          ]
+        },
+        "away_coach": {
+          "id": 966,
+          "name": "Luis García Fernández",
+          "short_name": "L. Garcia",
+          "country": "Spain",
+          "profile": "balanced",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.6049717973992905,
           "defensive_line": "mid",
           "top_styles": [
             "tiki_taka",
             "inverted_fb"
           ]
         },
-        "away_coach": {
-          "id": 1523,
-          "name": "Jussi Nuorela",
-          "short_name": "J. Nuorela",
-          "country": "Finland",
-          "profile": "attacking",
-          "preferred_formation": "3-4-1-2",
-          "pressing_intensity": 0.1939721521325481,
-          "defensive_line": "mid",
-          "top_styles": [
-            "low_block",
-            "terrorist_fb"
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Álex Pastor",
+              "status": "injured",
+              "reason": "Knee Injury",
+              "expected_return": "2026-06-24"
+            },
+            {
+              "name": "Luismi Sanchez",
+              "status": "injured",
+              "reason": "Broken Jaw",
+              "expected_return": "2026-06-24"
+            }
+          ],
+          "away": [
+            {
+              "name": "Ale García",
+              "status": "injured",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-06-20"
+            },
+            {
+              "name": "Enzo Loiodice",
+              "status": "injured",
+              "reason": "Ankle Injury",
+              "expected_return": "2026-06-20"
+            },
+            {
+              "name": "Jeremía Recoba",
+              "status": "injured",
+              "reason": "Cruciate Ligament Injury",
+              "expected_return": "2026-07-20"
+            },
+            {
+              "name": "Viti Rozada",
+              "status": "injured",
+              "reason": "Knee Injury",
+              "expected_return": "2026-07-20"
+            }
           ]
         },
-        "unavailable_players": null,
         "venue": {
-          "id": 357,
-          "name": "Savon Sanomat Areena",
-          "city": "Kuopio",
-          "country": "Finland",
-          "capacity": 5300,
-          "latitude": 62.884843,
-          "longitude": 27.671426,
+          "id": 726,
+          "name": "La Rosaleda",
+          "city": "Malaga",
+          "country": "Spain",
+          "capacity": 30044,
+          "latitude": 36.734209,
+          "longitude": -4.426602,
           "pitch_x": 105,
           "pitch_y": 68,
-          "built_year": 1939
+          "built_year": 2006
         },
         "incidents": null,
         "live_stats": null,
@@ -275,31 +322,79 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
-        "funfacts": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "e246c8",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "ffffff"
+            },
+            "player": {
+              "base": "ffff00",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "0a4088",
+              "sleeve": "ffff00",
+              "sleevelong": "ffff00"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "91a7c4",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "000000",
+              "sleeve": "d9b13d"
+            },
+            "player": {
+              "base": "ffffff",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "21255a",
+              "sleeve": "84a6eb",
+              "stripes": "71b1e4"
+            }
+          }
+        },
+        "funfacts": [
+          {
+            "type_id": 2,
+            "sentence": "Las Palmas haven't won any of their last 3 games against Malaga."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Malaga haven't lost in their last 6 games."
+          },
+          {
+            "type_id": 27,
+            "sentence": "The result of the first leg: Las Palmas - Malaga 0-1."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**KuPS rolls into this Cup clash riding a pristine streak — three wins and two draws to open the door.** VPS just demolished HJK and Haka, so expect fireworks on Wednesday. 🔥\n\nBoth sides are flying right now. KuPS haven't dropped a match in five, while VPS showed teeth with a 4-0 dismantling of FC Haka last time out. This is a proper heavyweight tussle dressed up as a Cup tie.\n\nKey storylines:\n\n- **J. Moreno and G. Engvall** will be crucial to unlocking VPS's back line, which sits in a three-defender setup\n- **K. Kouassivi-Benissan and J. Muzinga** up top for VPS give them a sharp counter threat against KuPS's flat midfield\n- Cup knockout football — expect intensity and open play rather than cagey chess matches\n\nExpected lineups:\n\n- **Kuopion Palloseura**: J. Kreidl, C. Antwi, K. Adams, B. Magassa, B. N. Armah, P. Pennanen, V. Gasc, G. Engvall, O. Ruoppi, J. Luyeye-Lutumba, J. Moreno\n- **VPS**: M. Jalloh, J. Turfkruier, E. Okereke, L. Mané, Y. Daoussi, A. Räisänen, P. Lima, S. Lindholm, L. Smyth, J. Muzinga, K. Kouassivi-Benissan\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**VPS 2-1 KuPS.** Model leans VPS, and their recent run suggests they edge it in a thriller. ⚽",
-          "generated_at": "2026-06-10T02:45:16.162215+00:00"
+          "text": "**Málaga rolling into the Rosaleda with serious momentum** — they've won four of their last five and already put Las Palmas to the sword just a few weeks back. 🔥\n\nLas Palmas are banged up and struggling to find rhythm (two losses in their last five), while Málaga have the form, the home crowd, and a clean head-to-head record against these guys. This feels like a mismatch on paper.\n\nKey storylines:\n\n- **Málaga's form is elite** — four wins in five games heading into the final stretch of Segunda División\n- **Las Palmas' injury list is brutal** — they're missing four key players including Loiodice, Recoba, and Rozada, leaving them stretched thin in midfield\n- **Home advantage at La Rosaleda** — Málaga unbeaten at their ground in recent weeks, while Las Palmas have lost on the road\n\nExpected lineups:\n\n- **Málaga CF**: A. Herrero, V. Garcia, C. Puga, R. Garrido, D. Murillo, J. Muñoz, I. Merino, Juanpe, D. Larrubia, Chupete, A. Niño\n- **Las Palmas**: D. Horkaš, M. Mármol, E. Clemente, S. Barcia, M. Park, K. Rodríguez, L. Amatucci, Jesé, M. Fuster, E. Pedrola, I. Bravo\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Málaga 2-0 Las Palmas**. Málaga has the edge in form, health, and recent H2H — expect them to cruise. ⚪",
+          "generated_at": "2026-06-10T02:45:35.192716+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-06-04T06:20:20.305342+04:00",
-      "prob_home_win": 28.81831760659767,
-      "prob_draw": 20.35101419451602,
-      "prob_away_win": 50.83066819888632,
-      "predicted_result": "A",
-      "expected_home_goals": 1,
-      "expected_away_goals": 4.525,
-      "prob_over_15": 82.04457470304035,
-      "prob_over_25": 60.54275694963275,
-      "prob_over_35": 41.488373655518146,
-      "prob_btts_yes": 41.26080091107773,
-      "confidence": 50.83066819888632,
+      "created_at": "2026-06-02T14:52:34.804286+04:00",
+      "prob_home_win": 49.69023516001567,
+      "prob_draw": 22.31693759695387,
+      "prob_away_win": 27.99282724303046,
+      "predicted_result": "H",
+      "expected_home_goals": 1.59864,
+      "expected_away_goals": 0.9763499999999999,
+      "prob_over_15": 84.25209767227572,
+      "prob_over_25": 56.71476768683452,
+      "prob_over_35": 29.17722026718591,
+      "prob_btts_yes": 60.635432086566,
+      "confidence": 49.69023516001567,
       "model_version": "v5.0",
-      "most_likely_score": "0-4",
-      "favorite": "A",
-      "favorite_prob": 50.83066819888632,
+      "most_likely_score": "1-0",
+      "favorite": "H",
+      "favorite_prob": 49.69023516001567,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
