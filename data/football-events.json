@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-10T19:13:38.058Z",
+  "generatedAt": "2026-06-10T21:36:14.774Z",
   "count": 50,
   "items": [
     {
       "id": 209456,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Segunda División",
       "country": "Spain",
       "homeTeam": "Málaga CF",
@@ -15,7 +15,7 @@
     },
     {
       "id": 206719,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Portugal",
@@ -26,7 +26,7 @@
     },
     {
       "id": 9099,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "England",
@@ -47,23 +47,23 @@
       "marketCount": 0
     },
     {
-      "id": 9968,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Goiás",
-      "awayTeam": "Grêmio Novorizontino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207649,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "FC Tampa Bay Rowdies",
       "awayTeam": "Charleston Battery",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9968,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Goiás",
+      "awayTeam": "Grêmio Novorizontino",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -80,23 +80,23 @@
       "marketCount": 0
     },
     {
-      "id": 9972,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Sport Recife",
-      "awayTeam": "Athletic Club",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209489,
       "status": "notstarted",
       "league": "International Friendly Games",
       "country": "International",
       "homeTeam": "Bolivia",
       "awayTeam": "Algeria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9972,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Sport Recife",
+      "awayTeam": "Athletic Club",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -179,23 +179,23 @@
       "marketCount": 0
     },
     {
-      "id": 209497,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Fath Union Sport",
-      "awayTeam": "MAS de Fès",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209498,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Olympic Safi",
       "awayTeam": "Kawkab Athletic Club Marrakech",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209497,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Fath Union Sport",
+      "awayTeam": "MAS de Fès",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -256,23 +256,23 @@
       "marketCount": 0
     },
     {
-      "id": 207237,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Ilves",
-      "awayTeam": "Turun Palloseura",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207236,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Inter Turku",
       "awayTeam": "AC Oulu",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207237,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Ilves",
+      "awayTeam": "Turun Palloseura",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -333,17 +333,6 @@
       "marketCount": 0
     },
     {
-      "id": 207653,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Loudoun United FC",
-      "awayTeam": "Rhode Island FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8293,
       "status": "notstarted",
       "league": "World Cup 2026",
@@ -355,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 207655,
+      "id": 207653,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
-      "homeTeam": "Pittsburgh Riverhounds",
-      "awayTeam": "Indy Eleven",
+      "homeTeam": "Loudoun United FC",
+      "awayTeam": "Rhode Island FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -372,6 +361,17 @@
       "country": "USA",
       "homeTeam": "SC Jacksonville",
       "awayTeam": "Detroit City FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207655,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Pittsburgh Riverhounds",
+      "awayTeam": "Indy Eleven",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,23 +410,23 @@
       "marketCount": 0
     },
     {
-      "id": 207660,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Louisville City FC",
-      "awayTeam": "Brooklyn FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207659,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Birmingham Legion FC",
       "awayTeam": "Las Vegas Lights",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207660,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Louisville City FC",
+      "awayTeam": "Brooklyn FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,17 +498,6 @@
       "marketCount": 0
     },
     {
-      "id": 9983,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "São Bernardo",
-      "awayTeam": "Sport Recife",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9981,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -520,12 +509,12 @@
       "marketCount": 0
     },
     {
-      "id": 209502,
+      "id": 9983,
       "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Hassania d'Agadir",
-      "awayTeam": "RS Berkane",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "São Bernardo",
+      "awayTeam": "Sport Recife",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +531,23 @@
       "marketCount": 0
     },
     {
-      "id": 209503,
+      "id": 209502,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
-      "homeTeam": "Ittihad Tanger",
-      "awayTeam": "Union Sportive Yacoub El Mansour",
+      "homeTeam": "Hassania d'Agadir",
+      "awayTeam": "RS Berkane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209504,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Raja Club Athletic",
+      "awayTeam": "Union Touarga Sport",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
