@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T17:06:49.827Z",
+  "generatedAt": "2026-06-11T19:58:56.914Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -164,9 +164,9 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4750,
+      "id": 4751,
       "event": {
-        "id": 8287,
+        "id": 8288,
         "league": {
           "id": 27,
           "name": "World Cup 2026",
@@ -185,31 +185,37 @@
           "name": "World Cup 2026",
           "year": 2026
         },
-        "home_team": "Mexico",
-        "away_team": "South Africa",
+        "home_team": "South Korea",
+        "away_team": "Czechia",
         "home_team_obj": {
-          "id": 451,
-          "name": "Mexico",
-          "short_name": "Mexico",
-          "country": "Mexico",
+          "id": 453,
+          "name": "South Korea",
+          "short_name": "South Korea",
+          "country": "South Korea",
           "coach": {
-            "name": "Javier Aguirre",
-            "shortName": "J. Aguirre"
+            "name": "Myung Bo Hong",
+            "shortName": "M. B. Hong"
           },
-          "venue": null
+          "venue": {
+            "id": 428,
+            "name": "Seoul World Cup Stadium",
+            "city": "Seoul",
+            "country": "South Korea",
+            "capacity": 68806
+          }
         },
         "away_team_obj": {
-          "id": 452,
-          "name": "South Africa",
-          "short_name": "South Africa",
-          "country": "South Africa",
+          "id": 930,
+          "name": "Czechia",
+          "short_name": "Czechia",
+          "country": "Czechia",
           "coach": {
-            "name": "Hugo Broos",
-            "shortName": "H. Broos"
+            "name": "Miroslav Koubek",
+            "shortName": "M. Koubek"
           },
           "venue": null
         },
-        "event_date": "2026-06-11T23:00:00+04:00",
+        "event_date": "2026-06-12T06:00:00+04:00",
         "round_number": 1,
         "round_name": "",
         "group_name": "Group A",
@@ -220,17 +226,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.45,
-        "odds_draw": 4.3,
-        "odds_away": 7.66,
-        "odds_over_15": 1.34,
-        "odds_over_25": 2.06,
-        "odds_over_35": 3.63,
-        "odds_under_15": 3.16,
-        "odds_under_25": 1.75,
-        "odds_under_35": 1.26,
-        "odds_btts_yes": 2.29,
-        "odds_btts_no": 1.57,
+        "odds_home": 2.64,
+        "odds_draw": 3.12,
+        "odds_away": 2.81,
+        "odds_over_15": 1.38,
+        "odds_over_25": 2.2,
+        "odds_over_35": 3.93,
+        "odds_under_15": 2.94,
+        "odds_under_25": 1.65,
+        "odds_under_35": 1.23,
+        "odds_btts_yes": 1.87,
+        "odds_btts_no": 1.86,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -240,63 +246,57 @@
         "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 55,
-        "wind_speed": 5,
-        "temperature_c": 21,
+        "weather_code": 51,
+        "wind_speed": 7.8,
+        "temperature_c": 20,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1932,
-          "name": "Wilton Pereira Sampaio",
-          "country": "Brazil",
+          "id": 2443,
+          "name": "Amin Mohamed Omar",
+          "country": "Egypt",
           "nationality_a3": "",
           "birthdate": null,
-          "yellowCards": 2028,
-          "redCards": 52,
-          "career_games": 397,
-          "career_yellow_cards": 2028,
-          "career_red_cards": 52
+          "yellowCards": 39,
+          "redCards": 2,
+          "career_games": 14,
+          "career_yellow_cards": 39,
+          "career_red_cards": 2
         },
         "home_coach": {
-          "id": 128,
-          "name": "Javier Aguirre",
-          "short_name": "J. Aguirre",
-          "country": "Mexico",
-          "profile": "balanced",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.4037435271380367,
-          "defensive_line": "high",
-          "top_styles": [
-            "ball_dominant",
-            "tiki_taka"
-          ]
+          "id": 105,
+          "name": "Myung Bo Hong",
+          "short_name": "M. B. Hong",
+          "country": "South Korea",
+          "profile": "attacking",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 87,
-          "name": "Hugo Broos",
-          "short_name": "H. Broos",
-          "country": "Belgium",
-          "profile": "balanced",
+          "id": 579,
+          "name": "Miroslav Koubek",
+          "short_name": "M. Koubek",
+          "country": "Czechia",
+          "profile": "attacking",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.6622129174701875,
-          "defensive_line": "mid",
-          "top_styles": [
-            "positional",
-            "tiki_taka"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "unavailable_players": null,
         "venue": {
-          "id": 295,
-          "name": "Estadio Azteca",
-          "city": "Mexico City",
+          "id": 307,
+          "name": "Estadio Akron",
+          "city": "Guadalajara",
           "country": "Mexico",
-          "capacity": 87523,
-          "latitude": 19.302773,
-          "longitude": -99.150452,
+          "capacity": 46355,
+          "latitude": 20.681667,
+          "longitude": -103.462776,
           "pitch_x": 105,
           "pitch_y": 68,
-          "built_year": 1961
+          "built_year": 2004
         },
         "incidents": null,
         "live_stats": null,
@@ -308,70 +308,68 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "44a9f1",
+              "base": "bbe6fb",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "3e78af"
+              "number": "000000",
+              "sleeve": "c0e5fa"
             },
             "player": {
-              "base": "fdd301",
+              "base": "fefefe",
               "real": true,
               "type": "short_sleeves",
-              "number": "006600",
-              "sleeve": "006600"
+              "number": "a18045",
+              "sleeve": "fefefe",
+              "sleevelong": "fefefe"
             }
           },
           "home": {
             "GK": {
-              "base": "56238f",
-              "real": true,
-              "type": "long_sleeves",
-              "number": "ebebeb",
-              "sleeve": "54188d"
-            },
-            "player": {
-              "base": "298b77",
+              "base": "2c7431",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "e70d0d"
+              "sleeve": "f6f6f0"
+            },
+            "player": {
+              "base": "f8373e",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "050505",
+              "sleevelong": "f8373e"
             }
           }
         },
         "funfacts": [
           {
             "type_id": 1,
-            "sentence": "Mexico haven't lost in their last 8 games."
-          },
-          {
-            "type_id": 1,
-            "sentence": "Mexico have a winning streak of 3 matches."
+            "sentence": "Czechia have a winning streak of 6 matches."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Mexico's on a absolute tear at the Azteca, and South Africa's looking for their first win in five.** This is the kind mismatch setup where the host nation can really flex. 🔥\n\nMexico won their last three straight (5-1 thrashing of Serbia, 1-0 over Australia, 2-0 against Ghana) while **South Africa** are stuck in neutral — three draws and two losses across their last five. The form gap is **massive**.\n\nKey storylines:\n\n- **Mexico's attacking rhythm** — Rodríguez, Alvarado, and Berterame are clicking at home; South Africa's defense (Williams, Modiba, Mbokazi) will be under constant pressure\n- **South Africa's defensive wall** — They've held draws against Jamaica and Nicaragua but haven't beaten anyone lately; this is their acid test\n- **Azteca advantage** — Mexico are 3W-2D in their last five at home; South Africa travel with form concerns and no wins to their name\n\nExpected lineups:\n\n- **Mexico**: Rangel, González, López, Guzmán, Ledezma, Vega, Ruíz, Rodríguez, Alvarado, Berterame, Alvarez\n- **South Africa**: Williams, Modiba, Mbokazi, Okon, Mudau, Mokoena, Sithole, Appollis, Zwane, Sebelebele, Foster\n\nBest picks:\n\n- **Total Goals Under 3.5**: Mexico should dominate possession but South Africa's defensive shape keeps it tidy enough to stay under\n\nPrediction:\n\n**Mexico 2-0 South Africa.** The hosts' edge at home is just too strong against a Bafana Bafana side that can't find the back of the net.",
-          "generated_at": "2026-06-11T01:45:21.172122+00:00"
+          "text": "**South Korea's hunting for their first World Cup group-stage win in ages, and Czechia's unbeaten streak is about to face the heat.** This is a classic \"who wants it more\" clash in Guadalajara. 🔥\n\nSouth Korea are rolling — three wins in their last five with a demolition job on Trinidad and Tobago — but that loss to Austria is a reminder they can leak goals. Czechia haven't lost in five, though two draws suggest they grind rather than dazzle.\n\nKey storylines:\n\n- **S. Heung-min** and **H. Hee-chan** need to unlock Czechia's defense early; the Reds thrive on tempo and transition\n- **T. Souček** is Czechia's midfield anchor — if South Korea's **H. In-beom** and **J. Lee** can dominate possession, that's the game right there\n- Set-piece danger from **P. Schick** could trouble **K. Min-jae** and the South Korean back line\n\nExpected lineups:\n\n- **South Korea**: J. Hyeonwoo, Y. W. Seol, K. Min-jae, H. In-beom, S. Heung-min, H. Hee-chan, H. Oh\n- **Czechia**: M. Kovář, V. Coufal, R. Hranáč, T. Souček, P. Šulc, L. Provod, P. Schick\n\nPrediction:\n\n**South Korea 2-1 Czechia.** The model leans South Korea, and their recent form + home continent advantage is enough to edge an unbeaten but not-yet-tested Czechia.",
+          "generated_at": "2026-06-11T02:45:25.753895+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:52:38.073874+04:00",
-      "prob_home_win": 48.5046594407387,
-      "prob_draw": 24.170403419515285,
-      "prob_away_win": 27.32493713974601,
+      "created_at": "2026-06-02T14:52:38.498736+04:00",
+      "prob_home_win": 42.99980565050066,
+      "prob_draw": 28.31256114950597,
+      "prob_away_win": 28.68763319999336,
       "predicted_result": "H",
-      "expected_home_goals": 1.05,
-      "expected_away_goals": 1.15,
-      "prob_over_15": 70.81850838082804,
-      "prob_over_25": 33.053087154208725,
-      "prob_over_35": 18.285873955670834,
-      "prob_btts_yes": 38.02072465990084,
-      "confidence": 48.5046594407387,
+      "expected_home_goals": 1.35,
+      "expected_away_goals": 1.35,
+      "prob_over_15": 73.97015815848725,
+      "prob_over_25": 49.75793567649975,
+      "prob_over_35": 26.97952979691386,
+      "prob_btts_yes": 47.99572251485901,
+      "confidence": 42.99980565050066,
       "model_version": "v5.0",
       "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 48.5046594407387,
+      "favorite_prob": 42.99980565050066,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
