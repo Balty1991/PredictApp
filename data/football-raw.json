@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T19:58:56.914Z",
+  "generatedAt": "2026-06-11T22:09:37.022Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,74 +21,77 @@
   ],
   "samples": {
     "event": {
-      "id": 209496,
+      "id": 8288,
       "league": {
-        "id": 31,
-        "name": "International Friendly Games",
+        "id": 27,
+        "name": "World Cup 2026",
         "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 133,
-          "name": "Int. Friendly Games 2026",
+          "id": 188,
+          "name": "World Cup 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 133,
-        "name": "Int. Friendly Games 2026",
+        "id": 188,
+        "name": "World Cup 2026",
         "year": 2026
       },
-      "home_team": "Zanzibar",
-      "away_team": "Uganda",
+      "home_team": "South Korea",
+      "away_team": "Czechia",
       "home_team_obj": {
-        "id": 3270,
-        "name": "Zanzibar",
-        "short_name": "",
-        "country": "",
-        "coach": null,
-        "venue": null
-      },
-      "away_team_obj": {
-        "id": 653,
-        "name": "Uganda",
-        "short_name": "Uganda",
-        "country": "Uganda",
+        "id": 453,
+        "name": "South Korea",
+        "short_name": "South Korea",
+        "country": "South Korea",
         "coach": {
-          "name": "Paul Put",
-          "shortName": "P. Put"
+          "name": "Myung Bo Hong",
+          "shortName": "M. B. Hong"
         },
         "venue": {
-          "id": 504,
-          "name": "Mandela National Stadium",
-          "city": "Kampala",
-          "country": "Uganda",
-          "capacity": 45202
+          "id": 428,
+          "name": "Seoul World Cup Stadium",
+          "city": "Seoul",
+          "country": "South Korea",
+          "capacity": 68806
         }
       },
-      "event_date": "2026-06-11T21:15:00+04:00",
-      "round_number": null,
+      "away_team_obj": {
+        "id": 930,
+        "name": "Czechia",
+        "short_name": "Czechia",
+        "country": "Czechia",
+        "coach": {
+          "name": "Miroslav Koubek",
+          "shortName": "M. Koubek"
+        },
+        "venue": null
+      },
+      "event_date": "2026-06-12T06:00:00+04:00",
+      "round_number": 1,
       "round_name": "",
-      "group_name": null,
-      "status": "postponed",
+      "group_name": "Group A",
+      "status": "notstarted",
       "home_score": null,
       "away_score": null,
       "home_score_ht": null,
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": null,
-      "odds_draw": null,
-      "odds_away": null,
-      "odds_over_15": null,
-      "odds_over_25": null,
-      "odds_over_35": null,
-      "odds_under_15": null,
-      "odds_under_25": null,
-      "odds_under_35": null,
-      "odds_btts_yes": null,
-      "odds_btts_no": null,
+      "odds_home": 2.64,
+      "odds_draw": 3.12,
+      "odds_away": 2.81,
+      "odds_over_15": 1.38,
+      "odds_over_25": 2.2,
+      "odds_over_35": 3.93,
+      "odds_under_15": 2.94,
+      "odds_under_25": 1.65,
+      "odds_under_35": 1.23,
+      "odds_btts_yes": 1.87,
+      "odds_btts_no": 1.86,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -98,69 +101,106 @@
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": null,
-      "wind_speed": null,
-      "temperature_c": null,
+      "weather_code": 51,
+      "wind_speed": 7.8,
+      "temperature_c": 20,
       "pitch_condition": null,
       "attendance": null,
-      "referee": null,
-      "home_coach": null,
+      "referee": {
+        "id": 2443,
+        "name": "Amin Mohamed Omar",
+        "country": "Egypt",
+        "nationality_a3": "",
+        "birthdate": null,
+        "yellowCards": 39,
+        "redCards": 2,
+        "career_games": 14,
+        "career_yellow_cards": 39,
+        "career_red_cards": 2
+      },
+      "home_coach": {
+        "id": 105,
+        "name": "Myung Bo Hong",
+        "short_name": "M. B. Hong",
+        "country": "South Korea",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
+      },
       "away_coach": {
-        "id": 689,
-        "name": "Paul Put",
-        "short_name": "P. Put",
-        "country": "Belgium",
-        "profile": "balanced",
+        "id": 579,
+        "name": "Miroslav Koubek",
+        "short_name": "M. Koubek",
+        "country": "Czechia",
+        "profile": "attacking",
         "preferred_formation": "4-2-3-1",
         "pressing_intensity": null,
         "defensive_line": "",
         "top_styles": []
       },
       "unavailable_players": null,
-      "venue": null,
+      "venue": {
+        "id": 307,
+        "name": "Estadio Akron",
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "capacity": 46355,
+        "latitude": 20.681667,
+        "longitude": -103.462776,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2004
+      },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "141414",
+            "base": "bbe6fb",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "f20202"
+            "number": "000000",
+            "sleeve": "c0e5fa"
           },
           "player": {
-            "base": "eee844",
+            "base": "fefefe",
             "real": true,
             "type": "short_sleeves",
-            "number": "0d0d0d",
-            "sleeve": "f4271c"
+            "number": "a18045",
+            "sleeve": "fefefe",
+            "sleevelong": "fefefe"
           }
         },
         "home": {
           "GK": {
-            "base": "efc131",
-            "real": false,
+            "base": "2c7431",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
+            "number": "ffffff",
+            "sleeve": "f6f6f0"
           },
           "player": {
-            "base": "D8D8D8",
-            "real": false,
+            "base": "f8373e",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "number": "ffffff",
+            "sleeve": "050505",
+            "sleevelong": "f8373e"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 1,
-          "sentence": "Uganda haven't won in their last 5 games."
+          "sentence": "Czechia have a winning streak of 6 matches."
         }
       ],
       "sr_stats": null,
-      "ai_preview": null,
+      "ai_preview": {
+        "text": "**South Korea's hunting for their first World Cup group-stage win in ages, and Czechia's unbeaten streak is about to face the heat.** This is a classic \"who wants it more\" clash in Guadalajara. 🔥\n\nSouth Korea are rolling — three wins in their last five with a demolition job on Trinidad and Tobago — but that loss to Austria is a reminder they can leak goals. Czechia haven't lost in five, though two draws suggest they grind rather than dazzle.\n\nKey storylines:\n\n- **S. Heung-min** and **H. Hee-chan** need to unlock Czechia's defense early; the Reds thrive on tempo and transition\n- **T. Souček** is Czechia's midfield anchor — if South Korea's **H. In-beom** and **J. Lee** can dominate possession, that's the game right there\n- Set-piece danger from **P. Schick** could trouble **K. Min-jae** and the South Korean back line\n\nExpected lineups:\n\n- **South Korea**: J. Hyeonwoo, Y. W. Seol, K. Min-jae, H. In-beom, S. Heung-min, H. Hee-chan, H. Oh\n- **Czechia**: M. Kovář, V. Coufal, R. Hranáč, T. Souček, P. Šulc, L. Provod, P. Schick\n\nPrediction:\n\n**South Korea 2-1 Czechia.** The model leans South Korea, and their recent form + home continent advantage is enough to edge an unbeaten but not-yet-tested Czechia.",
+        "generated_at": "2026-06-11T02:45:25.753895+00:00"
+      },
       "live_websocket": true
     },
     "prediction": {
