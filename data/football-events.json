@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-12T16:48:01.601Z",
+  "generatedAt": "2026-06-12T19:11:37.948Z",
   "count": 50,
   "items": [
     {
-      "id": 209497,
-      "status": "2nd_half",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Fath Union Sport",
-      "awayTeam": "MAS de Fès",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209498,
-      "status": "2nd_half",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Olympic Safi",
-      "awayTeam": "Kawkab Athletic Club Marrakech",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209500,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Difaâ Hassani El-Jadidi",
-      "awayTeam": "Olympique Dcheira",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209499,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "CODM Meknès",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 209500,
+      "status": "finished",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Difaâ Hassani El-Jadidi",
+      "awayTeam": "Olympique Dcheira",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8289,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Canada",
@@ -102,17 +80,6 @@
       "marketCount": 0
     },
     {
-      "id": 207238,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FF Jaro",
-      "awayTeam": "HJK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207239,
       "status": "notstarted",
       "league": "Veikkausliiga",
@@ -124,12 +91,12 @@
       "marketCount": 0
     },
     {
-      "id": 207240,
+      "id": 207238,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "SJK",
+      "homeTeam": "FF Jaro",
+      "awayTeam": "HJK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -146,6 +113,17 @@
       "marketCount": 0
     },
     {
+      "id": 207240,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "FC Lahti",
+      "awayTeam": "SJK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8292,
       "status": "notstarted",
       "league": "World Cup 2026",
@@ -157,23 +135,23 @@
       "marketCount": 0
     },
     {
-      "id": 8293,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Brazil",
-      "awayTeam": "Morocco",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207653,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Loudoun United FC",
       "awayTeam": "Rhode Island FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8293,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Brazil",
+      "awayTeam": "Morocco",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -212,23 +190,23 @@
       "marketCount": 0
     },
     {
-      "id": 207657,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Charleston Battery",
-      "awayTeam": "FC Tulsa",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207658,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "FC Tampa Bay Rowdies",
       "awayTeam": "Hartford Athletic",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207657,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Charleston Battery",
+      "awayTeam": "FC Tulsa",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -267,23 +245,23 @@
       "marketCount": 0
     },
     {
-      "id": 207662,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "El Paso Locomotive FC",
-      "awayTeam": "Phoenix Rising FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8294,
       "status": "notstarted",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Haiti",
       "awayTeam": "Scotland",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207662,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "El Paso Locomotive FC",
+      "awayTeam": "Phoenix Rising FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -410,23 +388,23 @@
       "marketCount": 0
     },
     {
-      "id": 9974,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Athletic Club",
-      "awayTeam": "Goiás",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209507,
       "status": "notstarted",
       "league": "Segunda División",
       "country": "Spain",
       "homeTeam": "Málaga CF",
       "awayTeam": "Almería",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9974,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Goiás",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -520,17 +498,6 @@
       "marketCount": 0
     },
     {
-      "id": 9977,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Criciúma",
-      "awayTeam": "Ceará",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9982,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -542,12 +509,45 @@
       "marketCount": 0
     },
     {
+      "id": 9977,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Criciúma",
+      "awayTeam": "Ceará",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8302,
       "status": "notstarted",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Iran",
       "awayTeam": "New Zealand",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8304,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "France",
+      "awayTeam": "Senegal",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8305,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Iraq",
+      "awayTeam": "Norway",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
