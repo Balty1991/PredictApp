@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-06-12T21:14:23.921Z",
+  "generatedAt": "2026-06-12T22:58:58.952Z",
   "count": 50,
   "items": [
     {
-      "id": 8289,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Canada",
-      "awayTeam": "Bosnia & Herzegovina",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9975,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Atlético Goianiense",
@@ -80,23 +69,23 @@
       "marketCount": 0
     },
     {
-      "id": 207241,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "IF Gnistan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207240,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "FC Lahti",
       "awayTeam": "SJK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207241,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "IF Gnistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,23 +179,23 @@
       "marketCount": 0
     },
     {
-      "id": 207659,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Birmingham Legion FC",
-      "awayTeam": "Las Vegas Lights",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207660,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Louisville City FC",
       "awayTeam": "Brooklyn FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207659,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Birmingham Legion FC",
+      "awayTeam": "Las Vegas Lights",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -278,6 +267,17 @@
       "marketCount": 0
     },
     {
+      "id": 9981,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Juventude",
+      "awayTeam": "Ponte Preta",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9983,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -289,12 +289,23 @@
       "marketCount": 0
     },
     {
-      "id": 9981,
+      "id": 209502,
       "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Juventude",
-      "awayTeam": "Ponte Preta",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Hassania d'Agadir",
+      "awayTeam": "RS Berkane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209503,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Ittihad Tanger",
+      "awayTeam": "Union Sportive Yacoub El Mansour",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,28 +333,6 @@
       "marketCount": 0
     },
     {
-      "id": 209503,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Ittihad Tanger",
-      "awayTeam": "Union Sportive Yacoub El Mansour",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209502,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Hassania d'Agadir",
-      "awayTeam": "RS Berkane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8295,
       "status": "notstarted",
       "league": "World Cup 2026",
@@ -355,12 +344,12 @@
       "marketCount": 0
     },
     {
-      "id": 209507,
+      "id": 9974,
       "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Málaga CF",
-      "awayTeam": "Almería",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Goiás",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -377,12 +366,12 @@
       "marketCount": 0
     },
     {
-      "id": 9974,
+      "id": 209507,
       "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Athletic Club",
-      "awayTeam": "Goiás",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Málaga CF",
+      "awayTeam": "Almería",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +537,17 @@
       "country": "International",
       "homeTeam": "Argentina",
       "awayTeam": "Algeria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8303,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
