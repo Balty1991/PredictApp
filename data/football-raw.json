@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T00:05:16.260Z",
+  "generatedAt": "2026-06-12T05:16:34.093Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,59 +21,43 @@
   ],
   "samples": {
     "event": {
-      "id": 8288,
+      "id": 209497,
       "league": {
-        "id": 27,
-        "name": "World Cup 2026",
-        "country": "International",
+        "id": 53,
+        "name": "Botola Pro",
+        "country": "Morocco",
         "is_women": false,
-        "current_season": {
-          "id": 188,
-          "name": "World Cup 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 188,
-        "name": "World Cup 2026",
-        "year": 2026
-      },
-      "home_team": "South Korea",
-      "away_team": "Czechia",
+      "season": null,
+      "home_team": "Fath Union Sport",
+      "away_team": "MAS de Fès",
       "home_team_obj": {
-        "id": 453,
-        "name": "South Korea",
-        "short_name": "South Korea",
-        "country": "South Korea",
+        "id": 2066,
+        "name": "Fath Union Sport",
+        "short_name": "FUS Rabat",
+        "country": "Morocco",
         "coach": {
-          "name": "Myung Bo Hong",
-          "shortName": "M. B. Hong"
-        },
-        "venue": {
-          "id": 428,
-          "name": "Seoul World Cup Stadium",
-          "city": "Seoul",
-          "country": "South Korea",
-          "capacity": 68806
-        }
-      },
-      "away_team_obj": {
-        "id": 930,
-        "name": "Czechia",
-        "short_name": "Czechia",
-        "country": "Czechia",
-        "coach": {
-          "name": "Miroslav Koubek",
-          "shortName": "M. Koubek"
+          "name": "Saïd Chiba",
+          "shortName": "S. Chiba"
         },
         "venue": null
       },
-      "event_date": "2026-06-12T06:00:00+04:00",
-      "round_number": 1,
+      "away_team_obj": {
+        "id": 2071,
+        "name": "MAS de Fès",
+        "short_name": "MAS",
+        "country": "Morocco",
+        "coach": {
+          "name": "Pablo Franco",
+          "shortName": "P. Franco"
+        },
+        "venue": null
+      },
+      "event_date": "2026-06-12T19:00:00+04:00",
+      "round_number": 24,
       "round_name": "",
-      "group_name": "Group A",
+      "group_name": null,
       "status": "notstarted",
       "home_score": null,
       "away_score": null,
@@ -81,184 +65,112 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 2.64,
-      "odds_draw": 3.12,
-      "odds_away": 2.81,
-      "odds_over_15": 1.38,
-      "odds_over_25": 2.2,
-      "odds_over_35": 3.93,
-      "odds_under_15": 2.94,
-      "odds_under_25": 1.65,
-      "odds_under_35": 1.23,
-      "odds_btts_yes": 1.87,
-      "odds_btts_no": 1.86,
+      "odds_home": null,
+      "odds_draw": null,
+      "odds_away": null,
+      "odds_over_15": null,
+      "odds_over_25": null,
+      "odds_over_35": null,
+      "odds_under_15": null,
+      "odds_under_25": null,
+      "odds_under_35": null,
+      "odds_btts_yes": null,
+      "odds_btts_no": null,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 51,
-      "wind_speed": 7.8,
-      "temperature_c": 20,
+      "weather_code": null,
+      "wind_speed": null,
+      "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 2443,
-        "name": "Amin Mohamed Omar",
-        "country": "Egypt",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 39,
-        "redCards": 2,
-        "career_games": 14,
-        "career_yellow_cards": 39,
-        "career_red_cards": 2
-      },
+      "referee": null,
       "home_coach": {
-        "id": 105,
-        "name": "Myung Bo Hong",
-        "short_name": "M. B. Hong",
-        "country": "South Korea",
-        "profile": "attacking",
+        "id": 1484,
+        "name": "Saïd Chiba",
+        "short_name": "S. Chiba",
+        "country": "",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "pressing_intensity": 0.27382162647876984,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "no_midfield"
+        ]
       },
       "away_coach": {
-        "id": 579,
-        "name": "Miroslav Koubek",
-        "short_name": "M. Koubek",
-        "country": "Czechia",
-        "profile": "attacking",
+        "id": 1489,
+        "name": "Pablo Franco",
+        "short_name": "P. Franco",
+        "country": "Spain",
+        "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": null,
-        "defensive_line": "",
-        "top_styles": []
+        "pressing_intensity": 0.32557491195530697,
+        "defensive_line": "mid",
+        "top_styles": [
+          "moments_fc",
+          "inverted_fb"
+        ]
       },
       "unavailable_players": null,
-      "venue": {
-        "id": 307,
-        "name": "Estadio Akron",
-        "city": "Guadalajara",
-        "country": "Mexico",
-        "capacity": 46355,
-        "latitude": 20.681667,
-        "longitude": -103.462776,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 2004
-      },
+      "venue": null,
       "live_stats": null,
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "bbe6fb",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "c0e5fa"
-          },
-          "player": {
-            "base": "fefefe",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "a18045",
-            "sleeve": "fefefe",
-            "sleevelong": "fefefe"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "2c7431",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "f6f6f0"
-          },
-          "player": {
-            "base": "f8373e",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "050505",
-            "sleevelong": "f8373e"
-          }
-        }
-      },
-      "funfacts": [
-        {
-          "type_id": 1,
-          "sentence": "Czechia have a winning streak of 6 matches."
-        }
-      ],
+      "jerseys": null,
+      "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**South Korea's hunting for their first World Cup group-stage win in ages, and Czechia's unbeaten streak is about to face the heat.** This is a classic \"who wants it more\" clash in Guadalajara. 🔥\n\nSouth Korea are rolling — three wins in their last five with a demolition job on Trinidad and Tobago — but that loss to Austria is a reminder they can leak goals. Czechia haven't lost in five, though two draws suggest they grind rather than dazzle.\n\nKey storylines:\n\n- **S. Heung-min** and **H. Hee-chan** need to unlock Czechia's defense early; the Reds thrive on tempo and transition\n- **T. Souček** is Czechia's midfield anchor — if South Korea's **H. In-beom** and **J. Lee** can dominate possession, that's the game right there\n- Set-piece danger from **P. Schick** could trouble **K. Min-jae** and the South Korean back line\n\nExpected lineups:\n\n- **South Korea**: J. Hyeonwoo, Y. W. Seol, K. Min-jae, H. In-beom, S. Heung-min, H. Hee-chan, H. Oh\n- **Czechia**: M. Kovář, V. Coufal, R. Hranáč, T. Souček, P. Šulc, L. Provod, P. Schick\n\nPrediction:\n\n**South Korea 2-1 Czechia.** The model leans South Korea, and their recent form + home continent advantage is enough to edge an unbeaten but not-yet-tested Czechia.",
-        "generated_at": "2026-06-11T02:45:25.753895+00:00"
+        "text": "**Fath Union Sport is stuck in draw city, and MAS de Fès just grabbed a W — but this one's genuinely up for grabs.** 🔄\n\nFath Union have been the definition of stalemate: five straight draws with zero goals in three of their last games. MAS de Fès? They've shown a bit more life with two wins recently, though they're inconsistent. The hosts' defence looks tight, but that could mean another low-scoring slog.\n\nKey storylines:\n\n- **Fath Union's draw streak** keeps extending — zero wins in five is concerning going forward, even if they're hard to break down\n- **MAS de Fès hunting momentum** after beating Olympic Safi; can they avoid slipping back into neutral?\n- **Defensive grind incoming** — this screams tight, cagey stuff with limited chances\n\nExpected lineups:\n\n- **Fath Union Sport**: A. Lakred, M. Amri, H. E. Mahssani, C. Salaheddine, A. E. Msane, A. Mahir, A. Serrhat, D. Bassinga, L. Diakité, A. Gitego, A. Mouloua\n- **MAS de Fès**: S. Chihab, D. El-Jabli, M. Ouhrou, S. A. Khorsa, S. Ghedamsi, N. Oussama, S. Allouch, S. Benjdida, A. Harmach, K. Seakanyeng, A. Tahiri\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-0 or 1-0 MAS** — coin flip, but the over feels unlikely given Fath's recent patterns.",
+        "generated_at": "2026-06-12T02:45:22.398173+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 4751,
+      "id": 5262,
       "event": {
-        "id": 8288,
+        "id": 209497,
         "league": {
-          "id": 27,
-          "name": "World Cup 2026",
-          "country": "International",
+          "id": 53,
+          "name": "Botola Pro",
+          "country": "Morocco",
           "is_women": false,
-          "current_season": {
-            "id": 188,
-            "name": "World Cup 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 188,
-          "name": "World Cup 2026",
-          "year": 2026
-        },
-        "home_team": "South Korea",
-        "away_team": "Czechia",
+        "season": null,
+        "home_team": "Fath Union Sport",
+        "away_team": "MAS de Fès",
         "home_team_obj": {
-          "id": 453,
-          "name": "South Korea",
-          "short_name": "South Korea",
-          "country": "South Korea",
+          "id": 2066,
+          "name": "Fath Union Sport",
+          "short_name": "FUS Rabat",
+          "country": "Morocco",
           "coach": {
-            "name": "Myung Bo Hong",
-            "shortName": "M. B. Hong"
-          },
-          "venue": {
-            "id": 428,
-            "name": "Seoul World Cup Stadium",
-            "city": "Seoul",
-            "country": "South Korea",
-            "capacity": 68806
-          }
-        },
-        "away_team_obj": {
-          "id": 930,
-          "name": "Czechia",
-          "short_name": "Czechia",
-          "country": "Czechia",
-          "coach": {
-            "name": "Miroslav Koubek",
-            "shortName": "M. Koubek"
+            "name": "Saïd Chiba",
+            "shortName": "S. Chiba"
           },
           "venue": null
         },
-        "event_date": "2026-06-12T06:00:00+04:00",
-        "round_number": 1,
+        "away_team_obj": {
+          "id": 2071,
+          "name": "MAS de Fès",
+          "short_name": "MAS",
+          "country": "Morocco",
+          "coach": {
+            "name": "Pablo Franco",
+            "shortName": "P. Franco"
+          },
+          "venue": null
+        },
+        "event_date": "2026-06-12T19:00:00+04:00",
+        "round_number": 24,
         "round_name": "",
-        "group_name": "Group A",
+        "group_name": null,
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -266,78 +178,62 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.64,
-        "odds_draw": 3.12,
-        "odds_away": 2.81,
-        "odds_over_15": 1.38,
-        "odds_over_25": 2.2,
-        "odds_over_35": 3.93,
-        "odds_under_15": 2.94,
-        "odds_under_25": 1.65,
-        "odds_under_35": 1.23,
-        "odds_btts_yes": 1.87,
-        "odds_btts_no": 1.86,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 51,
-        "wind_speed": 7.8,
-        "temperature_c": 20,
+        "weather_code": null,
+        "wind_speed": null,
+        "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 2443,
-          "name": "Amin Mohamed Omar",
-          "country": "Egypt",
-          "nationality_a3": "",
-          "birthdate": null,
-          "yellowCards": 39,
-          "redCards": 2,
-          "career_games": 14,
-          "career_yellow_cards": 39,
-          "career_red_cards": 2
-        },
+        "referee": null,
         "home_coach": {
-          "id": 105,
-          "name": "Myung Bo Hong",
-          "short_name": "M. B. Hong",
-          "country": "South Korea",
-          "profile": "attacking",
+          "id": 1484,
+          "name": "Saïd Chiba",
+          "short_name": "S. Chiba",
+          "country": "",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.27382162647876984,
+          "defensive_line": "mid",
+          "top_styles": [
+            "terrorist_fb",
+            "no_midfield"
+          ]
         },
         "away_coach": {
-          "id": 579,
-          "name": "Miroslav Koubek",
-          "short_name": "M. Koubek",
-          "country": "Czechia",
-          "profile": "attacking",
+          "id": 1489,
+          "name": "Pablo Franco",
+          "short_name": "P. Franco",
+          "country": "Spain",
+          "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.32557491195530697,
+          "defensive_line": "mid",
+          "top_styles": [
+            "moments_fc",
+            "inverted_fb"
+          ]
         },
         "unavailable_players": null,
-        "venue": {
-          "id": 307,
-          "name": "Estadio Akron",
-          "city": "Guadalajara",
-          "country": "Mexico",
-          "capacity": 46355,
-          "latitude": 20.681667,
-          "longitude": -103.462776,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 2004
-        },
+        "venue": null,
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -345,71 +241,31 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "bbe6fb",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "c0e5fa"
-            },
-            "player": {
-              "base": "fefefe",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "a18045",
-              "sleeve": "fefefe",
-              "sleevelong": "fefefe"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "2c7431",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "f6f6f0"
-            },
-            "player": {
-              "base": "f8373e",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "050505",
-              "sleevelong": "f8373e"
-            }
-          }
-        },
-        "funfacts": [
-          {
-            "type_id": 1,
-            "sentence": "Czechia have a winning streak of 6 matches."
-          }
-        ],
+        "jerseys": null,
+        "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**South Korea's hunting for their first World Cup group-stage win in ages, and Czechia's unbeaten streak is about to face the heat.** This is a classic \"who wants it more\" clash in Guadalajara. 🔥\n\nSouth Korea are rolling — three wins in their last five with a demolition job on Trinidad and Tobago — but that loss to Austria is a reminder they can leak goals. Czechia haven't lost in five, though two draws suggest they grind rather than dazzle.\n\nKey storylines:\n\n- **S. Heung-min** and **H. Hee-chan** need to unlock Czechia's defense early; the Reds thrive on tempo and transition\n- **T. Souček** is Czechia's midfield anchor — if South Korea's **H. In-beom** and **J. Lee** can dominate possession, that's the game right there\n- Set-piece danger from **P. Schick** could trouble **K. Min-jae** and the South Korean back line\n\nExpected lineups:\n\n- **South Korea**: J. Hyeonwoo, Y. W. Seol, K. Min-jae, H. In-beom, S. Heung-min, H. Hee-chan, H. Oh\n- **Czechia**: M. Kovář, V. Coufal, R. Hranáč, T. Souček, P. Šulc, L. Provod, P. Schick\n\nPrediction:\n\n**South Korea 2-1 Czechia.** The model leans South Korea, and their recent form + home continent advantage is enough to edge an unbeaten but not-yet-tested Czechia.",
-          "generated_at": "2026-06-11T02:45:25.753895+00:00"
+          "text": "**Fath Union Sport is stuck in draw city, and MAS de Fès just grabbed a W — but this one's genuinely up for grabs.** 🔄\n\nFath Union have been the definition of stalemate: five straight draws with zero goals in three of their last games. MAS de Fès? They've shown a bit more life with two wins recently, though they're inconsistent. The hosts' defence looks tight, but that could mean another low-scoring slog.\n\nKey storylines:\n\n- **Fath Union's draw streak** keeps extending — zero wins in five is concerning going forward, even if they're hard to break down\n- **MAS de Fès hunting momentum** after beating Olympic Safi; can they avoid slipping back into neutral?\n- **Defensive grind incoming** — this screams tight, cagey stuff with limited chances\n\nExpected lineups:\n\n- **Fath Union Sport**: A. Lakred, M. Amri, H. E. Mahssani, C. Salaheddine, A. E. Msane, A. Mahir, A. Serrhat, D. Bassinga, L. Diakité, A. Gitego, A. Mouloua\n- **MAS de Fès**: S. Chihab, D. El-Jabli, M. Ouhrou, S. A. Khorsa, S. Ghedamsi, N. Oussama, S. Allouch, S. Benjdida, A. Harmach, K. Seakanyeng, A. Tahiri\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-0 or 1-0 MAS** — coin flip, but the over feels unlikely given Fath's recent patterns.",
+          "generated_at": "2026-06-12T02:45:22.398173+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-06-02T14:52:38.498736+04:00",
-      "prob_home_win": 42.99980565050066,
-      "prob_draw": 28.31256114950597,
-      "prob_away_win": 28.68763319999336,
-      "predicted_result": "H",
-      "expected_home_goals": 1.35,
-      "expected_away_goals": 1.35,
-      "prob_over_15": 73.97015815848725,
-      "prob_over_25": 49.75793567649975,
-      "prob_over_35": 26.97952979691386,
-      "prob_btts_yes": 47.99572251485901,
-      "confidence": 42.99980565050066,
+      "created_at": "2026-06-10T06:20:09.069961+04:00",
+      "prob_home_win": 34.41899459124143,
+      "prob_draw": 30.065513093612644,
+      "prob_away_win": 35.51549231514593,
+      "predicted_result": "A",
+      "expected_home_goals": 0.6396900000000001,
+      "expected_away_goals": 0.2966125,
+      "prob_over_15": 64.78105052599861,
+      "prob_over_25": 30.267255320613646,
+      "prob_over_35": 14.947963681622195,
+      "prob_btts_yes": 41.15219700038324,
+      "confidence": 35.51549231514593,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "H",
-      "favorite_prob": 42.99980565050066,
+      "most_likely_score": "0-0",
+      "favorite": "A",
+      "favorite_prob": 35.51549231514593,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
