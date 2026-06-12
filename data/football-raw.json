@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T09:44:32.796Z",
+  "generatedAt": "2026-06-12T13:31:11.328Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 209497,
+      "id": 209498,
       "league": {
         "id": 53,
         "name": "Botola Pro",
@@ -30,27 +30,27 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Fath Union Sport",
-      "away_team": "MAS de Fès",
+      "home_team": "Olympic Safi",
+      "away_team": "Kawkab Athletic Club Marrakech",
       "home_team_obj": {
-        "id": 2066,
-        "name": "Fath Union Sport",
-        "short_name": "FUS Rabat",
+        "id": 2061,
+        "name": "Olympic Safi",
+        "short_name": "OC Safi",
         "country": "Morocco",
         "coach": {
-          "name": "Saïd Chiba",
-          "shortName": "S. Chiba"
+          "name": "Chokri Khatoui",
+          "shortName": "C. Khatoui"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2071,
-        "name": "MAS de Fès",
-        "short_name": "MAS",
+        "id": 2065,
+        "name": "Kawkab Athletic Club Marrakech",
+        "short_name": "KACM",
         "country": "Morocco",
         "coach": {
-          "name": "Pablo Franco",
-          "shortName": "P. Franco"
+          "name": "Hicham Dmiai",
+          "shortName": "H. Dmiai"
         },
         "venue": null
       },
@@ -82,9 +82,9 @@
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": null,
+      "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 135,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,44 +92,90 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1484,
-        "name": "Saïd Chiba",
-        "short_name": "S. Chiba",
-        "country": "",
-        "profile": "balanced",
+        "id": 1479,
+        "name": "Chokri Khatoui",
+        "short_name": "C. Khatoui",
+        "country": "Tunisia",
+        "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.27382162647876984,
+        "pressing_intensity": 0.47938639003078276,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "no_midfield"
+          "park_the_bus",
+          "territory"
         ]
       },
       "away_coach": {
-        "id": 1489,
-        "name": "Pablo Franco",
-        "short_name": "P. Franco",
-        "country": "Spain",
+        "id": 1483,
+        "name": "Hicham Dmiai",
+        "short_name": "H. Dmiai",
+        "country": "Morocco",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.32557491195530697,
+        "pressing_intensity": 0.334725913413218,
         "defensive_line": "mid",
         "top_styles": [
-          "moments_fc",
-          "inverted_fb"
+          "terrorist_fb",
+          "anti_football"
         ]
       },
       "unavailable_players": null,
       "venue": null,
       "live_stats": null,
-      "jerseys": null,
-      "funfacts": null,
+      "jerseys": {
+        "away": {
+          "GK": {
+            "base": "00ffff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "00ffcc"
+          },
+          "player": {
+            "base": "660099",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000000"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "66ff66",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "66ff66"
+          },
+          "player": {
+            "base": "000099",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "cc0000",
+            "sleeve": "cc0000"
+          }
+        }
+      },
+      "funfacts": [
+        {
+          "type_id": 2,
+          "sentence": "When playing at home, Olympique de Safi have not lost to Kawkab Marrakech in their last 6 encounters."
+        },
+        {
+          "type_id": 24,
+          "sentence": "Olympique de Safi's home record this season: 1-4-6."
+        },
+        {
+          "type_id": 24,
+          "sentence": "Kawkab Marrakech's away record this season: 1-5-5."
+        }
+      ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Fath Union Sport is stuck in draw city, and MAS de Fès just grabbed a W — but this one's genuinely up for grabs.** 🔄\n\nFath Union have been the definition of stalemate: five straight draws with zero goals in three of their last games. MAS de Fès? They've shown a bit more life with two wins recently, though they're inconsistent. The hosts' defence looks tight, but that could mean another low-scoring slog.\n\nKey storylines:\n\n- **Fath Union's draw streak** keeps extending — zero wins in five is concerning going forward, even if they're hard to break down\n- **MAS de Fès hunting momentum** after beating Olympic Safi; can they avoid slipping back into neutral?\n- **Defensive grind incoming** — this screams tight, cagey stuff with limited chances\n\nExpected lineups:\n\n- **Fath Union Sport**: A. Lakred, M. Amri, H. E. Mahssani, C. Salaheddine, A. E. Msane, A. Mahir, A. Serrhat, D. Bassinga, L. Diakité, A. Gitego, A. Mouloua\n- **MAS de Fès**: S. Chihab, D. El-Jabli, M. Ouhrou, S. A. Khorsa, S. Ghedamsi, N. Oussama, S. Allouch, S. Benjdida, A. Harmach, K. Seakanyeng, A. Tahiri\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-0 or 1-0 MAS** — coin flip, but the over feels unlikely given Fath's recent patterns.",
-        "generated_at": "2026-06-12T02:45:22.398173+00:00"
+        "text": "**Olympic Safi host Kawkab in a mid-table Botola scrap where neither side can afford to drop points.** Safi's form is worrying—three draws and two losses across five—while Kawkab just battered CODM Meknès 3-1 at home. 🔥\n\nSafi are mired in stagnation, grinding out draws against Difaâ Hassani and conceding late to MAS de Fès. Kawkab, meanwhile, have found some rhythm with back-to-back wins—beat Raja and demolished Meknès in the last month. This is a clash between a side running on empty and one building momentum.\n\nKey storylines:\n\n- **I. Khannouss and M. Koné** will need to spark Safi's attack; the hosts have looked blunt recently\n- **Kawkab's defensive solidity**—N. Lougmani and R. Mennioui holding firm—could frustrate Safi's misfiring forwards\n- **H. Jemjami** in goal could be tested early if Kawkab impose their press\n\nExpected lineups:\n\n- **Olympic Safi**: H. Hamiani, Y. Ezzine, F. Karmoune, F. D. Ngoma, I. Serbout, S. E. Bouchqali, S. Errahouli, Y. Najari, A. Habbassi, I. Khannouss, M. Koné\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, J. Omurwa, H. Fassoukh, G. Claude, H. Rafa, S. Cissé, I. Mihrab, Y. E. Bahraoui, H. Founti\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**0-1 or 1-1** — Kawkab have the edge in sharpness; slight lean away.",
+        "generated_at": "2026-06-12T02:45:27.570935+00:00"
       },
-      "live_websocket": false
+      "live_websocket": true
     },
     "prediction": {
       "id": 5262,
