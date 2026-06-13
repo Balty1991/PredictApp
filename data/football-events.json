@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-13T11:20:14.813Z",
+  "generatedAt": "2026-06-13T13:07:04.091Z",
   "count": 50,
   "items": [
     {
       "id": 207237,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Ilves",
@@ -15,22 +15,11 @@
     },
     {
       "id": 207236,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Inter Turku",
       "awayTeam": "AC Oulu",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207238,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FF Jaro",
-      "awayTeam": "HJK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -47,12 +36,12 @@
       "marketCount": 0
     },
     {
-      "id": 207241,
+      "id": 207238,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "IF Gnistan",
+      "homeTeam": "FF Jaro",
+      "awayTeam": "HJK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -64,6 +53,17 @@
       "country": "Finland",
       "homeTeam": "FC Lahti",
       "awayTeam": "SJK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207241,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "IF Gnistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -102,12 +102,12 @@
       "marketCount": 0
     },
     {
-      "id": 207654,
+      "id": 207656,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
-      "homeTeam": "Lexington SC",
-      "awayTeam": "San Antonio FC",
+      "homeTeam": "SC Jacksonville",
+      "awayTeam": "Detroit City FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -124,12 +124,12 @@
       "marketCount": 0
     },
     {
-      "id": 207656,
+      "id": 207654,
       "status": "notstarted",
       "league": "USL Championship",
       "country": "USA",
-      "homeTeam": "SC Jacksonville",
-      "awayTeam": "Detroit City FC",
+      "homeTeam": "Lexington SC",
+      "awayTeam": "San Antonio FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -190,23 +190,23 @@
       "marketCount": 0
     },
     {
-      "id": 207661,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Colorado Springs Switchbacks FC",
-      "awayTeam": "Sacramento Republic FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8294,
       "status": "notstarted",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Haiti",
       "awayTeam": "Scotland",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207661,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Colorado Springs Switchbacks FC",
+      "awayTeam": "Sacramento Republic FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -245,17 +245,6 @@
       "marketCount": 0
     },
     {
-      "id": 9983,
-      "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "São Bernardo",
-      "awayTeam": "Sport Recife",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9981,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -267,12 +256,23 @@
       "marketCount": 0
     },
     {
-      "id": 209501,
+      "id": 9983,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "São Bernardo",
+      "awayTeam": "Sport Recife",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209504,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
-      "homeTeam": "AS FAR Rabat",
-      "awayTeam": "Wydad Casablanca",
+      "homeTeam": "Raja Club Athletic",
+      "awayTeam": "Union Touarga Sport",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -300,12 +300,12 @@
       "marketCount": 0
     },
     {
-      "id": 209504,
+      "id": 209501,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
-      "homeTeam": "Raja Club Athletic",
-      "awayTeam": "Union Touarga Sport",
+      "homeTeam": "AS FAR Rabat",
+      "awayTeam": "Wydad Casablanca",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -322,17 +322,6 @@
       "marketCount": 0
     },
     {
-      "id": 209507,
-      "status": "notstarted",
-      "league": "Segunda División",
-      "country": "Spain",
-      "homeTeam": "Málaga CF",
-      "awayTeam": "Almería",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9974,
       "status": "notstarted",
       "league": "Brasileirão Serie B",
@@ -344,12 +333,12 @@
       "marketCount": 0
     },
     {
-      "id": 8296,
+      "id": 209507,
       "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Netherlands",
-      "awayTeam": "Japan",
+      "league": "Segunda División",
+      "country": "Spain",
+      "homeTeam": "Málaga CF",
+      "awayTeam": "Almería",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -366,12 +355,12 @@
       "marketCount": 0
     },
     {
-      "id": 9980,
+      "id": 8296,
       "status": "notstarted",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Grêmio Novorizontino",
-      "awayTeam": "Náutico",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Japan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -383,6 +372,17 @@
       "country": "Brazil",
       "homeTeam": "Botafogo-SP",
       "awayTeam": "Operário-PR",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 9980,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Grêmio Novorizontino",
+      "awayTeam": "Náutico",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +542,12 @@
       "marketCount": 0
     },
     {
-      "id": 207243,
+      "id": 207244,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
-      "homeTeam": "Turun Palloseura",
-      "awayTeam": "Kuopion Palloseura",
+      "homeTeam": "Ilves",
+      "awayTeam": "FF Jaro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0

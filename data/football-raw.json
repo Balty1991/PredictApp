@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T11:20:14.811Z",
+  "generatedAt": "2026-06-13T13:07:04.089Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -64,13 +64,13 @@
       "round_number": null,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
-      "home_score_ht": null,
-      "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "status": "2nd_half",
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_ht": 0,
+      "away_score_ht": 0,
+      "current_minute": 46,
+      "period": "2T",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -189,7 +189,32 @@
           "sentence": "Turun's away record this season: 0-2-2."
         }
       ],
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 33,
+          "home": 35
+        },
+        "ball_safe": {
+          "away": 33,
+          "home": 34
+        },
+        "attack_pct": {
+          "away": 30,
+          "home": 27
+        },
+        "ball_safe_pct": {
+          "away": 43,
+          "home": 62
+        },
+        "dangerous_attack": {
+          "away": 19,
+          "home": 16
+        },
+        "dangerous_attack_pct": {
+          "away": 27,
+          "home": 11
+        }
+      },
       "ai_preview": {
         "text": "**Ilves are rolling, and TPS are limping into Tammela — this looks like a home demolition waiting to happen.** 🔥\n\nIlves have won three of their last five and just beat TPS 1-0 at home, while TPS are struggling with three losses in five. The visitors' away record against Ilves is, uh, not great — they're 0-1 in their last clash.\n\nKey storylines:\n\n- **Ilves' attack vs TPS' defence** — After a 5-2 thrashing of Lahti and that recent 1-0 win over TPS, Ilves look sharp going forward with **O. Paavola** leading the line\n- **TPS need to stop the bleeding** — They've lost three of five, and **A. Muzaci** and the visitors will need a complete reset away from home\n- **Home advantage matters** — Tammela is fortress territory; Ilves' form at this venue has been vicious\n\nExpected lineups:\n\n- **Ilves**: F. Krkalić, M. Rale, V. Kumpu, T. Miettunen, O. Pettersson, M. Stjopin, J. Kanga, O. Multala\n- **Turun Palloseura**: E. Henriksson, E. Turkki, M. Hradecky, A. Sihvonen, O. Häggström, P. Juvanteny, T. Zaal, S. Anini Jr.\n\nBest picks:\n\n- **Total Goals**: Under 3.5 goals\n\nPrediction:\n\n**Ilves 2–0 TPS.** Slight favourite at home; TPS's leaky defence meets an in-form Ilves side. 📍",
         "generated_at": "2026-06-13T02:45:17.886062+00:00"
@@ -197,9 +222,9 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4756,
+      "id": 4757,
       "event": {
-        "id": 207236,
+        "id": 207239,
         "league": {
           "id": 55,
           "name": "Veikkausliiga",
@@ -208,31 +233,37 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Inter Turku",
-        "away_team": "AC Oulu",
+        "home_team": "VPS",
+        "away_team": "Kuopion Palloseura",
         "home_team_obj": {
-          "id": 2098,
-          "name": "Inter Turku",
-          "short_name": "Inter",
+          "id": 2093,
+          "name": "VPS",
+          "short_name": "VPS",
           "country": "Finland",
           "coach": {
-            "name": "Vesa Vasara",
-            "shortName": "V. Vasara"
+            "name": "Jussi Nuorela",
+            "shortName": "J. Nuorela"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 2097,
-          "name": "AC Oulu",
-          "short_name": "Oulu",
+          "id": 377,
+          "name": "Kuopion Palloseura",
+          "short_name": "KuPS",
           "country": "Finland",
           "coach": {
-            "name": "Mikko Isokangas",
-            "shortName": "M. Isokangas"
+            "name": "Miika Nuutinen",
+            "shortName": "M. Nuutinen"
           },
-          "venue": null
+          "venue": {
+            "id": 357,
+            "name": "Savon Sanomat Areena",
+            "city": "Kuopio",
+            "country": "Finland",
+            "capacity": 5300
+          }
         },
-        "event_date": "2026-06-13T16:00:00+04:00",
+        "event_date": "2026-06-13T18:00:00+04:00",
         "round_number": null,
         "round_name": "",
         "group_name": null,
@@ -260,886 +291,88 @@
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
-        "travel_distance_km": 535,
-        "weather_code": 2,
-        "wind_speed": 24,
-        "temperature_c": 24,
+        "travel_distance_km": null,
+        "weather_code": null,
+        "wind_speed": null,
+        "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1528,
-          "name": "Vesa Vasara",
-          "short_name": "V. Vasara",
+          "id": 1523,
+          "name": "Jussi Nuorela",
+          "short_name": "J. Nuorela",
           "country": "Finland",
           "profile": "attacking",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.14584945756967255,
+          "preferred_formation": "3-4-1-2",
+          "pressing_intensity": 0.1939721521325481,
           "defensive_line": "mid",
           "top_styles": [
-            "tiki_taka",
-            "false_9"
+            "low_block",
+            "terrorist_fb"
           ]
         },
         "away_coach": {
-          "id": 1527,
-          "name": "Mikko Isokangas",
-          "short_name": "M. Isokangas",
+          "id": 600,
+          "name": "Miika Nuutinen",
+          "short_name": "M. Nuutinen",
           "country": "Finland",
           "profile": "balanced",
-          "preferred_formation": "4-4-2",
-          "pressing_intensity": 0.14595023274067792,
-          "defensive_line": "low",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.19337473544913664,
+          "defensive_line": "mid",
           "top_styles": [
-            "park_the_bus",
-            "low_block"
+            "tiki_taka",
+            "inverted_fb"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1296,
-          "name": "Veritas Stadium",
-          "city": "Turku",
+          "id": 1294,
+          "name": "Elisa Stadion",
+          "city": "Vaasa",
           "country": "Finland",
-          "capacity": 9300,
-          "latitude": 60.442778,
-          "longitude": 22.291667,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 1952
+          "capacity": 4600,
+          "latitude": null,
+          "longitude": null,
+          "pitch_x": null,
+          "pitch_y": null,
+          "built_year": null
         },
         "incidents": null,
         "live_stats": null,
-        "lineups": {
-          "away": {
-            "players": [
-              {
-                "name": "M. Santos",
-                "goals": 0,
-                "api_id": 270285,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 50735,
-                "yellow_card": false,
-                "jersey_number": "13",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "O. Kemppainen",
-                "goals": 0,
-                "api_id": 1046870,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50736,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB",
-                  "RM"
-                ]
-              },
-              {
-                "name": "A. Lietsa",
-                "goals": 0,
-                "api_id": 1471767,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50751,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "I. Mendolin",
-                "goals": 0,
-                "api_id": 1416537,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50741,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "J. Pirinen",
-                "goals": 0,
-                "api_id": 36253,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50738,
-                "yellow_card": false,
-                "jersey_number": "66",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB",
-                  "LB"
-                ]
-              },
-              {
-                "name": "J. Paananen",
-                "goals": 0,
-                "api_id": 1465828,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50742,
-                "yellow_card": false,
-                "jersey_number": "6",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "K. Jatta",
-                "goals": 0,
-                "api_id": 2295609,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50749,
-                "yellow_card": false,
-                "jersey_number": "20",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "T. Kaukua",
-                "goals": 0,
-                "api_id": 980794,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50739,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RW",
-                "positions_detailed": [
-                  "RW",
-                  "ST"
-                ]
-              },
-              {
-                "name": "R. Karjalainen",
-                "goals": 0,
-                "api_id": 557824,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50744,
-                "yellow_card": false,
-                "jersey_number": "7",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LW",
-                "positions_detailed": [
-                  "LW",
-                  "ST"
-                ]
-              },
-              {
-                "name": "E. Kallio",
-                "goals": 0,
-                "api_id": 1841838,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50743,
-                "yellow_card": false,
-                "jersey_number": "27",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LM",
-                "positions_detailed": [
-                  "LM"
-                ]
-              },
-              {
-                "name": "J. Körkkö",
-                "goals": 0,
-                "api_id": 1416560,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50745,
-                "yellow_card": false,
-                "jersey_number": "26",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              }
-            ],
-            "formation": "4-1-4-1",
-            "substitutes": [
-              {
-                "name": "N. Schulz",
-                "goals": 0,
-                "api_id": 1482893,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 50750,
-                "yellow_card": false,
-                "jersey_number": "99",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "T. Backman",
-                "goals": 0,
-                "api_id": 2487702,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 51562,
-                "yellow_card": false,
-                "jersey_number": "64",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": [
-                  "GK"
-                ]
-              },
-              {
-                "name": "S. Sipola",
-                "goals": 0,
-                "api_id": 999877,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50746,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB",
-                  "CB",
-                  "LB"
-                ]
-              },
-              {
-                "name": "A. Cassama",
-                "goals": 0,
-                "api_id": 1521742,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50752,
-                "yellow_card": false,
-                "jersey_number": "18",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "LB",
-                "positions_detailed": [
-                  "LB"
-                ]
-              },
-              {
-                "name": "S. Silander",
-                "goals": 0,
-                "api_id": 1200525,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50753,
-                "yellow_card": false,
-                "jersey_number": "29",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RB",
-                "positions_detailed": [
-                  "RB"
-                ]
-              },
-              {
-                "name": "M. Ojala",
-                "goals": 0,
-                "api_id": 118502,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50754,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM"
-                ]
-              },
-              {
-                "name": "L. Ghezali",
-                "goals": 0,
-                "api_id": 878704,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50740,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "RW",
-                "positions_detailed": [
-                  "RW"
-                ]
-              },
-              {
-                "name": "N. Jokelainen",
-                "goals": 0,
-                "api_id": 793785,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50748,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "AM"
-                ]
-              },
-              {
-                "name": "J. Mäkeläinen",
-                "goals": 0,
-                "api_id": 2057213,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50747,
-                "yellow_card": false,
-                "jersey_number": "30",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              }
-            ]
-          },
-          "home": {
-            "players": [
-              {
-                "name": "E. Huuhtanen",
-                "goals": 0,
-                "api_id": 1046660,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 50645,
-                "yellow_card": false,
-                "jersey_number": "1",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Tauriainen",
-                "goals": 0,
-                "api_id": 933673,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50658,
-                "yellow_card": false,
-                "jersey_number": "24",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "I. Kangasniemi",
-                "goals": 0,
-                "api_id": 1526396,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50648,
-                "yellow_card": false,
-                "jersey_number": "21",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB"
-                ]
-              },
-              {
-                "name": "L. Kuittinen",
-                "goals": 0,
-                "api_id": 1046867,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50655,
-                "yellow_card": false,
-                "jersey_number": "22",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Niska",
-                "goals": 0,
-                "api_id": 1034842,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50649,
-                "yellow_card": false,
-                "jersey_number": "2",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Yli-Kokko",
-                "goals": 0,
-                "api_id": 1047007,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50650,
-                "yellow_card": false,
-                "jersey_number": "8",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "P. Ahiabu",
-                "goals": 0,
-                "api_id": 1199013,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50651,
-                "yellow_card": false,
-                "jersey_number": "4",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Tuominen",
-                "goals": 0,
-                "api_id": 322581,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50756,
-                "yellow_card": false,
-                "jersey_number": "9",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. L. Essomba",
-                "goals": 0,
-                "api_id": 1469476,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50653,
-                "yellow_card": false,
-                "jersey_number": "23",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              },
-              {
-                "name": "A. Conteh",
-                "goals": 0,
-                "api_id": 1196767,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50654,
-                "yellow_card": false,
-                "jersey_number": "10",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "ST",
-                "positions_detailed": [
-                  "ST"
-                ]
-              },
-              {
-                "name": "C. Jephta",
-                "goals": 0,
-                "api_id": 1610331,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 15392,
-                "yellow_card": false,
-                "jersey_number": "16",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ],
-            "formation": "4-3-3",
-            "substitutes": [
-              {
-                "name": "E. Vuorjoki",
-                "goals": 0,
-                "api_id": 1586026,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "G",
-                "red_card": false,
-                "player_id": 50769,
-                "yellow_card": false,
-                "jersey_number": "12",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "GK",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Hämäläinen",
-                "goals": 0,
-                "api_id": 317637,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50647,
-                "yellow_card": false,
-                "jersey_number": "3",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CB",
-                "positions_detailed": [
-                  "CB",
-                  "LB"
-                ]
-              },
-              {
-                "name": "A. Granlund",
-                "goals": 0,
-                "api_id": 114364,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "D",
-                "red_card": false,
-                "player_id": 50646,
-                "yellow_card": false,
-                "jersey_number": "5",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "DEF",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. Laine",
-                "goals": 0,
-                "api_id": 961935,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50656,
-                "yellow_card": false,
-                "jersey_number": "14",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "B. Ampofo",
-                "goals": 0,
-                "api_id": 1492153,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50661,
-                "yellow_card": false,
-                "jersey_number": "17",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "CM",
-                "positions_detailed": [
-                  "CM",
-                  "DM"
-                ]
-              },
-              {
-                "name": "I. Järvinen",
-                "goals": 0,
-                "api_id": 360730,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 53627,
-                "yellow_card": false,
-                "jersey_number": "19",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "H. Salomaa",
-                "goals": 0,
-                "api_id": 1106078,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 50662,
-                "yellow_card": false,
-                "jersey_number": "25",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "V. Ulundu",
-                "goals": 0,
-                "api_id": 1409315,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "M",
-                "red_card": false,
-                "player_id": 13158,
-                "yellow_card": false,
-                "jersey_number": "27",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "MID",
-                "positions_detailed": []
-              },
-              {
-                "name": "J. F. K. Botué",
-                "goals": 0,
-                "api_id": 1102863,
-                "rating": null,
-                "sub_in": null,
-                "sub_out": null,
-                "position": "F",
-                "red_card": false,
-                "player_id": 50657,
-                "yellow_card": false,
-                "jersey_number": "11",
-                "replaces_player_id": null,
-                "replaced_by_player_id": null,
-                "specific_position": "FWD",
-                "positions_detailed": []
-              }
-            ]
-          },
-          "confirmed": true
-        },
+        "lineups": null,
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "b9dfeb",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff"
-            },
-            "player": {
-              "base": "010a2d",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "010a2d",
-              "sleevelong": "010a2d"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "ddff52",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "8eff52"
-            },
-            "player": {
-              "base": "0067ce",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "0067ce",
-              "stripes": "000000",
-              "sleevelong": "0067ce"
-            }
-          }
-        },
-        "funfacts": [
-          {
-            "type_id": 2,
-            "sentence": "Oulu haven't won any of their last 3 games against Inter Turku."
-          },
-          {
-            "type_id": 2,
-            "sentence": "When playing at home, Inter Turku have not lost to Oulu in their last 6 encounters."
-          },
-          {
-            "type_id": 24,
-            "sentence": "Inter Turku's home record this season: 4-2-0."
-          }
-        ],
+        "jerseys": null,
+        "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Both teams are absolutely on fire** — Inter Turku and AC Oulu have won four of their last five games each, making this a clash of two of Veikkausliiga's hottest sides right now. 🔥\n\nInter Turku's form is slightly sharper: they've strung together three straight wins and look dangerous in the final third with **C. Jephta** and **A. Conteh** leading the charge. AC Oulu aren't far behind though — they've only dropped one game in five and have found a defensive groove, keeping sheets tight in recent outings.\n\nKey storylines:\n\n- **Inter Turku's attacking fluidity** against **AC Oulu's compact defense** will be the main tactical battle\n- **J. Yli-Kokko** and **P. Ahiabu** need to control midfield tempo for the home side\n- Both teams lean defensive under pressure, which could keep this lower-scoring\n\nExpected lineups:\n\n- **Inter Turku**: E. Huuhtanen, J. Niska, I. Kangasniemi, J. Hämäläinen, L. Kuittinen, P. Ahiabu, E. Kiiskilä, J. Yli-Kokko, A. L. Essomba, A. Conteh, C. Jephta\n\n- **AC Oulu**: M. Santos, R. Karjalainen, J. Pirinen, M. Pitkanen, O. Kemppainen, E. Kallio, I. Mendolin, J. Paananen, T. Kaukua, L. Ghezali, J. Körkkö\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Inter Turku 2-0 AC Oulu**. Home team edges it — they've got the slight lean in form and should have enough to grind out a clean sheet.",
-          "generated_at": "2026-06-13T02:45:25.970819+00:00"
+          "text": "**VPS host KuPS in a rematch that screams \"low-key tactical chess.\"** These sides drew 0-0 just two weeks ago, and lightning rarely strikes twice — but both teams are moving in opposite directions. 🎯\n\nVPS are cooking at home (4-0 over Haka) while KuPS remain unbeaten across their last five. The question isn't who's better — it's whether either side will actually commit to breaking the deadlock.\n\nKey storylines:\n\n- **VPS' home form** has come alive, but they've shown they can also grind out draws against this exact opposition\n- **KuPS' defensive solidity** (unbeaten run) suggests another cagey affair is on the cards\n- **Both midfields** will control the tempo — this won't be a track meet\n\nExpected lineups:\n\n- **VPS**: M. Jalloh, E. Okereke, L. Mané, M. Niemi, V. Rönnberg, J. Turfkruier, P. Lima, S. Lindholm\n- **Kuopion Palloseura**: J. Kreidl, B. Magassa, K. Adams, C. Antwi, A. Lötjönen, P. Pennanen, V. Gasc, G. Engvall\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1 draw.** Both defenses tighten up, VPS push but KuPS have seen this movie before. Classic Veikkausliiga stalemate. ⚽",
+          "generated_at": "2026-06-13T02:45:37.238483+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-06-02T14:52:40.268052+04:00",
-      "prob_home_win": 63.45227509890577,
-      "prob_draw": 19.603758368683007,
-      "prob_away_win": 16.94396653241121,
-      "predicted_result": "H",
-      "expected_home_goals": 1.41621,
-      "expected_away_goals": 0.8929500000000001,
-      "prob_over_15": 71.55241114012183,
-      "prob_over_25": 45.0616052063932,
-      "prob_over_35": 19.290242964685056,
-      "prob_btts_yes": 51.88395102844344,
-      "confidence": 63.45227509890577,
+      "created_at": "2026-06-02T14:52:40.583996+04:00",
+      "prob_home_win": 37.937024032027495,
+      "prob_draw": 38.166814143660304,
+      "prob_away_win": 23.896161824312202,
+      "predicted_result": "D",
+      "expected_home_goals": 1.0520599999999998,
+      "expected_away_goals": 1.2687300000000001,
+      "prob_over_15": 71.03269190456429,
+      "prob_over_25": 39.95708169638401,
+      "prob_over_35": 20.2605077240725,
+      "prob_btts_yes": 53.20372507021982,
+      "confidence": 38.166814143660304,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 63.45227509890577,
+      "favorite_prob": 37.937024032027495,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
