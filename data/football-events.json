@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-13T23:12:14.484Z",
+  "generatedAt": "2026-06-14T01:56:23.671Z",
   "count": 50,
   "items": [
     {
-      "id": 8293,
-      "status": "2nd_half",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Brazil",
-      "awayTeam": "Morocco",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207653,
-      "status": "2nd_half",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Loudoun United FC",
-      "awayTeam": "Rhode Island FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207655,
-      "status": "1st_half",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Pittsburgh Riverhounds",
-      "awayTeam": "Indy Eleven",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207654,
-      "status": "1st_half",
+      "status": "finished",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Lexington SC",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 207655,
+      "status": "finished",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Pittsburgh Riverhounds",
+      "awayTeam": "Indy Eleven",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207656,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "SC Jacksonville",
@@ -59,7 +37,7 @@
     },
     {
       "id": 207657,
-      "status": "notstarted",
+      "status": "finished",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Charleston Battery",
@@ -70,7 +48,7 @@
     },
     {
       "id": 207658,
-      "status": "notstarted",
+      "status": "finished",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "FC Tampa Bay Rowdies",
@@ -80,19 +58,8 @@
       "marketCount": 0
     },
     {
-      "id": 207660,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Louisville City FC",
-      "awayTeam": "Brooklyn FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207659,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Birmingham Legion FC",
@@ -102,8 +69,30 @@
       "marketCount": 0
     },
     {
+      "id": 207660,
+      "status": "2nd_half",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Louisville City FC",
+      "awayTeam": "Brooklyn FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207661,
+      "status": "halftime",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Colorado Springs Switchbacks FC",
+      "awayTeam": "Sacramento Republic FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8294,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Haiti",
@@ -114,7 +103,7 @@
     },
     {
       "id": 207662,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "El Paso Locomotive FC",
@@ -124,19 +113,8 @@
       "marketCount": 0
     },
     {
-      "id": 207661,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Colorado Springs Switchbacks FC",
-      "awayTeam": "Sacramento Republic FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207663,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "New Mexico United",
@@ -190,23 +168,23 @@
       "marketCount": 0
     },
     {
+      "id": 209501,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "AS FAR Rabat",
+      "awayTeam": "Wydad Casablanca",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 209502,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Hassania d'Agadir",
       "awayTeam": "RS Berkane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209503,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Ittihad Tanger",
-      "awayTeam": "Union Sportive Yacoub El Mansour",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -223,12 +201,12 @@
       "marketCount": 0
     },
     {
-      "id": 209501,
+      "id": 209503,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
-      "homeTeam": "AS FAR Rabat",
-      "awayTeam": "Wydad Casablanca",
+      "homeTeam": "Ittihad Tanger",
+      "awayTeam": "Union Sportive Yacoub El Mansour",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +526,28 @@
       "country": "USA",
       "homeTeam": "Indy Eleven",
       "awayTeam": "Brooklyn FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8309,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panama",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207667,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "FC Tulsa",
+      "awayTeam": "Monterey Bay FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
