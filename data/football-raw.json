@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T19:12:21.720Z",
+  "generatedAt": "2026-06-15T22:00:42.851Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 8300,
+      "id": 8301,
       "league": {
         "id": 27,
         "name": "World Cup 2026",
@@ -40,401 +40,239 @@
         "name": "World Cup 2026",
         "year": 2026
       },
-      "home_team": "Belgium",
-      "away_team": "Egypt",
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
       "home_team_obj": {
-        "id": 477,
-        "name": "Belgium",
-        "short_name": "Belgium",
-        "country": "Belgium",
+        "id": 479,
+        "name": "Saudi Arabia",
+        "short_name": "Saudi Arabia",
+        "country": "Saudi Arabia",
         "coach": {
-          "name": "Rudi Garcia",
-          "shortName": "R. Garcia"
+          "name": "Georgios Donis",
+          "shortName": "G. Donis"
         },
         "venue": {
-          "id": 435,
-          "name": "Stade Roi Baudouin",
-          "city": "Brussels",
-          "country": "Belgium",
-          "capacity": 50000
+          "id": 437,
+          "name": "Al-Shabab Club Stadium",
+          "city": "Riyadh",
+          "country": "Saudi Arabia",
+          "capacity": 15000
         }
       },
       "away_team_obj": {
-        "id": 478,
-        "name": "Egypt",
-        "short_name": "Egypt",
-        "country": "Egypt",
+        "id": 480,
+        "name": "Uruguay",
+        "short_name": "Uruguay",
+        "country": "Uruguay",
         "coach": {
-          "name": "Hossam Hassan",
-          "shortName": "H. Hassan"
+          "name": "Marcelo Bielsa",
+          "shortName": "M. Bielsa"
         },
         "venue": {
-          "id": 436,
-          "name": "Cairo International Stadium",
-          "city": "Cairo",
-          "country": "Egypt",
-          "capacity": 75000
+          "id": 438,
+          "name": "Estadio Centenario",
+          "city": "Montevideo",
+          "country": "Uruguay",
+          "capacity": 60235
         }
       },
-      "event_date": "2026-06-15T23:00:00+04:00",
+      "event_date": "2026-06-16T02:00:00+04:00",
       "round_number": 1,
       "round_name": "",
-      "group_name": "Group G",
-      "status": "1st_half",
+      "group_name": "Group H",
+      "status": "notstarted",
       "home_score": 0,
       "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": 11,
-      "period": "1T",
-      "odds_home": 1.66,
-      "odds_draw": 3.93,
-      "odds_away": 5.03,
-      "odds_over_15": 1.26,
-      "odds_over_25": 1.81,
-      "odds_over_35": 3.02,
-      "odds_under_15": 3.72,
-      "odds_under_25": 1.97,
-      "odds_under_35": 1.36,
-      "odds_btts_yes": 1.8,
-      "odds_btts_no": 1.94,
+      "current_minute": null,
+      "period": "",
+      "odds_home": 6.77,
+      "odds_draw": 4.31,
+      "odds_away": 1.48,
+      "odds_over_15": 1.28,
+      "odds_over_25": 1.9,
+      "odds_over_35": 3.23,
+      "odds_under_15": 3.51,
+      "odds_under_25": 1.88,
+      "odds_under_35": 1.33,
+      "odds_btts_yes": 2.06,
+      "odds_btts_no": 1.7,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.08,
+      "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 3,
-      "wind_speed": 9.6,
-      "temperature_c": 20,
+      "weather_code": 2,
+      "wind_speed": 19.9,
+      "temperature_c": 32,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 2045,
-        "name": "Ramon Abatti Abel",
-        "country": "Brazil",
+        "id": 2345,
+        "name": "Maurizio Mariani",
+        "country": "Italy",
         "nationality_a3": "",
         "birthdate": null,
-        "yellowCards": 765,
-        "redCards": 39,
-        "career_games": 162,
-        "career_yellow_cards": 765,
-        "career_red_cards": 39
+        "yellowCards": 1609,
+        "redCards": 58,
+        "career_games": 346,
+        "career_yellow_cards": 1609,
+        "career_red_cards": 58
       },
       "home_coach": {
-        "id": 129,
-        "name": "Rudi Garcia",
-        "short_name": "R. Garcia",
-        "country": "France",
-        "profile": "attacking",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.7112170404495669,
+        "id": 188,
+        "name": "Georgios Donis",
+        "short_name": "G. Donis",
+        "country": "Greece",
+        "profile": "balanced",
+        "preferred_formation": "3-5-2",
+        "pressing_intensity": 0.5416918204808029,
         "defensive_line": "mid",
         "top_styles": [
-          "chaos_ball",
-          "chaos_football"
+          "set_piece",
+          "chaos_ball"
         ]
       },
       "away_coach": {
-        "id": 117,
-        "name": "Hossam Hassan",
-        "short_name": "H. Hassan",
-        "country": "Egypt",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.541751812675686,
-        "defensive_line": "mid",
-        "top_styles": [
-          "low_block",
-          "moments_fc"
-        ]
+        "id": 98,
+        "name": "Marcelo Bielsa",
+        "short_name": "M. Bielsa",
+        "country": "Argentina",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 290,
-        "name": "Lumen Field",
-        "city": "Seattle",
+        "id": 1186,
+        "name": "Hard Rock Stadium",
+        "city": "Miami Gardens",
         "country": "USA",
-        "capacity": 68740,
-        "latitude": 47.595165,
-        "longitude": -122.33165,
-        "pitch_x": 106,
-        "pitch_y": 68,
-        "built_year": 2002
+        "capacity": 65326,
+        "latitude": 25.9583,
+        "longitude": -80.2396,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
       },
-      "live_stats": {
-        "away": {
-          "duels": 71,
-          "fouls": 1,
-          "passes": 73,
-          "crosses": "0/1 (0%)",
-          "tackles": 7,
-          "dribbles": "0/0 (0%)",
-          "offsides": 1,
-          "throw_ins": 2,
-          "clearances": 2,
-          "free_kicks": 2,
-          "goal_kicks": 3,
-          "long_balls": "4/8 (50%)",
-          "recoveries": 7,
-          "tackles_won": 86,
-          "total_shots": 0,
-          "aerial_duels": "1/4 (25%)",
-          "dispossessed": 0,
-          "ground_duels": "9/10 (90%)",
-          "hit_woodwork": 0,
-          "blocked_shots": 0,
-          "interceptions": 0,
-          "total_tackles": 7,
-          "expected_goals": 0,
-          "accurate_passes": 62,
-          "ball_possession": 62,
-          "shots_on_target": 0,
-          "shots_inside_box": 0,
-          "shots_off_target": 0,
-          "final_third_phase": "3/7 (43%)",
-          "shots_outside_box": 0,
-          "final_third_entries": 6,
-          "touches_in_penalty_area": 1
-        },
-        "home": {
-          "duels": 29,
-          "fouls": 2,
-          "passes": 44,
-          "crosses": "0/0 (0%)",
-          "tackles": 0,
-          "dribbles": "0/2 (0%)",
-          "offsides": 0,
-          "throw_ins": 3,
-          "clearances": 2,
-          "free_kicks": 1,
-          "goal_kicks": 0,
-          "long_balls": "4/5 (80%)",
-          "recoveries": 9,
-          "tackles_won": 0,
-          "total_shots": 2,
-          "aerial_duels": "3/4 (75%)",
-          "dispossessed": 5,
-          "ground_duels": "1/10 (10%)",
-          "hit_woodwork": 0,
-          "blocked_shots": 1,
-          "interceptions": 2,
-          "total_tackles": 0,
-          "expected_goals": 0.08,
-          "accurate_passes": 37,
-          "ball_possession": 38,
-          "shots_on_target": 0,
-          "shots_inside_box": 0,
-          "shots_off_target": 1,
-          "final_third_phase": "18/21 (86%)",
-          "shots_outside_box": 2,
-          "final_third_entries": 8,
-          "touches_in_penalty_area": 2
-        },
-        "first_half": {
-          "away": {
-            "duels": 71,
-            "fouls": 1,
-            "passes": 73,
-            "crosses": "0/1 (0%)",
-            "tackles": 7,
-            "dribbles": "0/0 (0%)",
-            "offsides": 1,
-            "throw_ins": 2,
-            "clearances": 2,
-            "free_kicks": 2,
-            "goal_kicks": 3,
-            "long_balls": "4/8 (50%)",
-            "recoveries": 7,
-            "tackles_won": 86,
-            "total_shots": 0,
-            "aerial_duels": "1/4 (25%)",
-            "dispossessed": 0,
-            "ground_duels": "9/10 (90%)",
-            "hit_woodwork": 0,
-            "blocked_shots": 0,
-            "interceptions": 0,
-            "total_tackles": 7,
-            "expected_goals": 0,
-            "accurate_passes": 62,
-            "ball_possession": 62,
-            "shots_on_target": 0,
-            "shots_inside_box": 0,
-            "shots_off_target": 0,
-            "shots_outside_box": 0,
-            "final_third_entries": 6
-          },
-          "home": {
-            "duels": 29,
-            "fouls": 2,
-            "passes": 44,
-            "crosses": "0/0 (0%)",
-            "tackles": 0,
-            "dribbles": "0/2 (0%)",
-            "offsides": 0,
-            "throw_ins": 3,
-            "clearances": 2,
-            "free_kicks": 1,
-            "goal_kicks": 0,
-            "long_balls": "4/5 (80%)",
-            "recoveries": 9,
-            "tackles_won": 0,
-            "total_shots": 2,
-            "aerial_duels": "3/4 (75%)",
-            "dispossessed": 5,
-            "ground_duels": "1/10 (10%)",
-            "hit_woodwork": 0,
-            "blocked_shots": 1,
-            "interceptions": 2,
-            "total_tackles": 0,
-            "expected_goals": 0.08,
-            "accurate_passes": 37,
-            "ball_possession": 38,
-            "shots_on_target": 0,
-            "shots_inside_box": 0,
-            "shots_off_target": 1,
-            "shots_outside_box": 2,
-            "final_third_entries": 8
-          }
-        }
-      },
+      "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "c7e46a",
+            "base": "e46f37",
             "real": true,
             "type": "short_sleeves",
-            "number": "79ff00",
-            "sleeve": "a8afa3"
+            "number": "ffffff",
+            "sleeve": "f5f5ed"
           },
           "player": {
-            "base": "ffffff",
+            "base": "66ccff",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "ffffff"
+            "sleeve": "ffffff",
+            "sleevelong": "66ccff"
           }
         },
         "home": {
           "GK": {
-            "base": "f1df25",
+            "base": "73adee",
             "real": true,
             "type": "short_sleeves",
-            "number": "0c0b0b",
-            "sleeve": "5393d5"
+            "number": "141414",
+            "sleeve": "fffef7"
           },
           "player": {
-            "base": "d42838",
+            "base": "0b5648",
             "real": true,
             "type": "short_sleeves",
-            "number": "f6cb4f",
-            "sleeve": "f1cc57"
+            "number": "f6fbf4",
+            "sleeve": "0b5648"
           }
         }
       },
       "funfacts": [
         {
           "type_id": 1,
-          "sentence": "Belgium haven't lost in their last 13 games."
+          "sentence": "Uruguay haven't won in their last 4 games."
         }
       ],
-      "sr_stats": {
-        "attack": {
-          "away": 16,
-          "home": 12
-        },
-        "ball_safe": {
-          "away": 12,
-          "home": 11
-        },
-        "attack_pct": {
-          "away": 20,
-          "home": 29
-        },
-        "ball_safe_pct": {
-          "away": 64,
-          "home": 55
-        },
-        "dangerous_attack": {
-          "away": 10,
-          "home": 6
-        },
-        "dangerous_attack_pct": {
-          "away": 16,
-          "home": 16
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Belgium rolls into Seattle as heavy favorites, and Egypt's defensive vulnerabilities could get exposed early.** 🔴\n\nBelgium's been absolutely clinical — four wins in five with a 5-0 demolition of Tunisia keeping them sharp. Egypt's tighter but unbeaten in three (two wins, a draw), though that 1-2 loss to Brazil suggests they can leak goals against elite sides.\n\nKey storylines:\n\n- **Kevin De Bruyne and Romelu Lukaku** spearhead a Belgian midfield and attack that's been ruthless; Egypt's missing key defensive bodies with Debast sidelined\n- **Mohamed Salah and Omar Marmoush** on the counter could trouble Belgium's back line, but Egypt's been quiet going forward lately\n- **Tactical mismatch**: Belgium's possession dominance vs. Egypt's compact, counter-focused shape — the midfield battle between **Youri Tielemans and Nagelsmann Raskin** against Egypt's twosome is crucial\n\nExpected lineups:\n\n- **Belgium**: Courtois, De Cuyper, Theate, Mechele, Castagne, Raskin, Tielemans, Doku, De Bruyne, Lukebakio, Lukaku\n- **Egypt**: Shobeir, Hafez, Ibrahim, Rabia, Alaa, Attia, Fathy, Trézéguet, Ashour, Salah, Marmoush\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Belgium 3–1 Egypt.** Belgium's got the slight edge in quality and should control the match, but Egypt won't roll over. 🇧🇪",
-        "generated_at": "2026-06-15T01:45:31.805403+00:00"
+        "text": "**Uruguay's defensive wall rolls into Miami** — the South Americans are heavy favorites against a Saudi side that's been sputtering lately. 🇺🇾\n\nSaudi Arabia's form is rocky (1W-1D-3L), while Uruguay stays solid with 2W-3D across their last five. The key: Uruguay's missing key defenders but their midfield engine—**R. Bentancur** and **F. Valverde**—should still dominate possession and control the tempo.\n\nKey storylines:\n\n- **S. Al-Shehri** and **F. Al-Buraikan** need to create danger on the counter; Saudi's attack has been quiet\n- **R. Aguirre** and **B. Rodríguez** form Uruguay's attacking thrust, though injuries to **E. Martínez**, **G. de Arrascaeta**, and **J. M. Giménez** thin the squad depth\n- Expect Uruguay to soak up pressure and strike on the break—this should be low-scoring\n\nExpected lineups:\n\n- **Saudi Arabia**: M. Al-Owais, M. Al-Harbi, A. Al-Amri, H. Altambakti, S. Abdulhamid, N. Boushal, M. A. Juwayr, Z. Aljohani\n- **Uruguay**: S. Mele, M. Araújo, M. Olivera, M. Ugarte, G. Varela, R. Bentancur, F. Valverde, B. Rodríguez\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Uruguay 2-0 Saudi Arabia**. Uruguay's midfield class and defensive discipline edge out a flat Saudi outfit.",
+        "generated_at": "2026-06-15T01:45:36.789943+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4789,
+      "id": 4791,
       "event": {
-        "id": 8301,
+        "id": 9982,
         "league": {
-          "id": 27,
-          "name": "World Cup 2026",
-          "country": "International",
+          "id": 34,
+          "name": "Brasileirão Serie B",
+          "country": "Brazil",
           "is_women": false,
           "current_season": {
-            "id": 188,
-            "name": "World Cup 2026",
+            "id": 52,
+            "name": "Brasileiro Serie B 2026",
             "year": 2026,
             "start_date": "2026-01-01",
             "end_date": "2026-12-31"
           }
         },
         "season": {
-          "id": 188,
-          "name": "World Cup 2026",
+          "id": 52,
+          "name": "Brasileiro Serie B 2026",
           "year": 2026
         },
-        "home_team": "Saudi Arabia",
-        "away_team": "Uruguay",
+        "home_team": "Londrina",
+        "away_team": "Avaí",
         "home_team_obj": {
-          "id": 479,
-          "name": "Saudi Arabia",
-          "short_name": "Saudi Arabia",
-          "country": "Saudi Arabia",
+          "id": 821,
+          "name": "Londrina",
+          "short_name": "Londrina",
+          "country": "Brazil",
           "coach": {
-            "name": "Georgios Donis",
-            "shortName": "G. Donis"
+            "name": "Rogério Micale",
+            "shortName": "R. Micale"
           },
           "venue": {
-            "id": 437,
-            "name": "Al-Shabab Club Stadium",
-            "city": "Riyadh",
-            "country": "Saudi Arabia",
-            "capacity": 15000
+            "id": 614,
+            "name": "Estádio Jacy Scaff",
+            "city": "Londrina",
+            "country": "Brazil",
+            "capacity": 36056
           }
         },
         "away_team_obj": {
-          "id": 480,
-          "name": "Uruguay",
-          "short_name": "Uruguay",
-          "country": "Uruguay",
+          "id": 860,
+          "name": "Avaí",
+          "short_name": "Avaí",
+          "country": "Brazil",
           "coach": {
-            "name": "Marcelo Bielsa",
-            "shortName": "M. Bielsa"
+            "name": "Cauan",
+            "shortName": "Cauan"
           },
           "venue": {
-            "id": 438,
-            "name": "Estadio Centenario",
-            "city": "Montevideo",
-            "country": "Uruguay",
-            "capacity": 60235
+            "id": 651,
+            "name": "Estádio da Ressacada",
+            "city": "Florianópolis",
+            "country": "Brazil",
+            "capacity": 17800
           }
         },
-        "event_date": "2026-06-16T02:00:00+04:00",
-        "round_number": 1,
+        "event_date": "2026-06-16T04:00:00+04:00",
+        "round_number": 13,
         "round_name": "",
-        "group_name": "Group H",
+        "group_name": null,
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -442,17 +280,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 6.77,
-        "odds_draw": 4.31,
-        "odds_away": 1.48,
-        "odds_over_15": 1.28,
-        "odds_over_25": 1.9,
-        "odds_over_35": 3.23,
-        "odds_under_15": 3.51,
-        "odds_under_25": 1.88,
-        "odds_under_35": 1.33,
-        "odds_btts_yes": 2.06,
-        "odds_btts_no": 1.7,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -461,58 +299,77 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
-        "weather_code": 2,
-        "wind_speed": 19.9,
-        "temperature_c": 32,
+        "travel_distance_km": 556,
+        "weather_code": 3,
+        "wind_speed": 1.6,
+        "temperature_c": 17,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 2345,
-          "name": "Maurizio Mariani",
-          "country": "Italy",
-          "nationality_a3": "",
+          "id": 1646,
+          "name": "Savio Pereira Sampaio",
+          "country": "Brazil",
+          "nationality_a3": "BRA",
           "birthdate": null,
-          "yellowCards": 1609,
-          "redCards": 58,
-          "career_games": 346,
-          "career_yellow_cards": 1609,
-          "career_red_cards": 58
+          "yellowCards": 489,
+          "redCards": 16,
+          "career_games": 108,
+          "career_yellow_cards": 489,
+          "career_red_cards": 16
         },
         "home_coach": {
-          "id": 188,
-          "name": "Georgios Donis",
-          "short_name": "G. Donis",
-          "country": "Greece",
-          "profile": "balanced",
-          "preferred_formation": "3-5-2",
-          "pressing_intensity": 0.5416918204808029,
-          "defensive_line": "mid",
+          "id": 1568,
+          "name": "Rogério Micale",
+          "short_name": "R. Micale",
+          "country": "Brazil",
+          "profile": "defensive",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.4796429895999323,
+          "defensive_line": "high",
           "top_styles": [
             "set_piece",
-            "chaos_ball"
+            "anti_football"
           ]
         },
         "away_coach": {
-          "id": 98,
-          "name": "Marcelo Bielsa",
-          "short_name": "M. Bielsa",
-          "country": "Argentina",
-          "profile": "defensive",
+          "id": 151,
+          "name": "Cauan",
+          "short_name": "Cauan",
+          "country": "Brazil",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "pressing_intensity": 0.5379171446931025,
+          "defensive_line": "mid",
+          "top_styles": [
+            "anti_football",
+            "set_piece"
+          ]
         },
-        "unavailable_players": null,
+        "unavailable_players": {
+          "home": [
+            {
+              "name": "Gilberto",
+              "status": "doubtful",
+              "reason": "Muscle Injury",
+              "expected_return": "2026-06-19"
+            },
+            {
+              "name": "Iago Teles",
+              "status": "suspended",
+              "reason": "Red card suspension",
+              "expected_return": "2026-06-17"
+            }
+          ],
+          "away": []
+        },
         "venue": {
-          "id": 1186,
-          "name": "Hard Rock Stadium",
-          "city": "Miami Gardens",
-          "country": "USA",
-          "capacity": 65326,
-          "latitude": 25.9583,
-          "longitude": -80.2396,
+          "id": 614,
+          "name": "Estádio Jacy Scaff",
+          "city": "Londrina",
+          "country": "Brazil",
+          "capacity": 36056,
+          "latitude": -23.282317,
+          "longitude": -51.164941,
           "pitch_x": null,
           "pitch_y": null,
           "built_year": null
@@ -527,73 +384,82 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "e46f37",
+              "base": "ebf430",
               "real": true,
               "type": "short_sleeves",
               "number": "ffffff",
-              "sleeve": "f5f5ed"
+              "sleeve": "0700cc"
             },
             "player": {
-              "base": "66ccff",
+              "base": "0157a0",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "ffffff",
-              "sleevelong": "66ccff"
+              "number": "ffffff",
+              "sleeve": "013ba0"
             }
           },
           "home": {
             "GK": {
-              "base": "73adee",
+              "base": "af498b",
               "real": true,
               "type": "short_sleeves",
-              "number": "141414",
-              "sleeve": "fffef7"
+              "number": "ffffff",
+              "sleeve": "5d5d5d"
             },
             "player": {
-              "base": "0b5648",
+              "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "f6fbf4",
-              "sleeve": "0b5648"
+              "number": "000000",
+              "sleeve": "ffffff",
+              "stripes": "63aee3",
+              "sleevelong": "63aee3"
             }
           }
         },
         "funfacts": [
           {
-            "type_id": 1,
-            "sentence": "Uruguay haven't won in their last 4 games."
+            "type_id": 24,
+            "sentence": "Londrina's home record this season: 0-2-3."
+          },
+          {
+            "type_id": 25,
+            "sentence": "Bruno Santos de Oliveira is Londrina's top scorer with 4 goals. Walace Franca has scored 3 times for Avai."
+          },
+          {
+            "type_id": 25,
+            "sentence": "Iago Teles Da Silva has more yellow cards (4) than any other player at Londrina. Douglas da Silva Teixeira has collected 6 for Avai."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Uruguay's defensive wall rolls into Miami** — the South Americans are heavy favorites against a Saudi side that's been sputtering lately. 🇺🇾\n\nSaudi Arabia's form is rocky (1W-1D-3L), while Uruguay stays solid with 2W-3D across their last five. The key: Uruguay's missing key defenders but their midfield engine—**R. Bentancur** and **F. Valverde**—should still dominate possession and control the tempo.\n\nKey storylines:\n\n- **S. Al-Shehri** and **F. Al-Buraikan** need to create danger on the counter; Saudi's attack has been quiet\n- **R. Aguirre** and **B. Rodríguez** form Uruguay's attacking thrust, though injuries to **E. Martínez**, **G. de Arrascaeta**, and **J. M. Giménez** thin the squad depth\n- Expect Uruguay to soak up pressure and strike on the break—this should be low-scoring\n\nExpected lineups:\n\n- **Saudi Arabia**: M. Al-Owais, M. Al-Harbi, A. Al-Amri, H. Altambakti, S. Abdulhamid, N. Boushal, M. A. Juwayr, Z. Aljohani\n- **Uruguay**: S. Mele, M. Araújo, M. Olivera, M. Ugarte, G. Varela, R. Bentancur, F. Valverde, B. Rodríguez\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Uruguay 2-0 Saudi Arabia**. Uruguay's midfield class and defensive discipline edge out a flat Saudi outfit.",
-          "generated_at": "2026-06-15T01:45:36.789943+00:00"
+          "text": "**Two struggling sides desperate for a win** — Londrina and Avaí are both in freefall, making this a clash between teams that can't afford another slip. 🔴\n\nLondrina's picked up just one win in five and got hammered 3-0 at Fortaleza; Avaí are somehow worse, winless in their last five with back-to-back 1-2 defeats. This smells like a low-confidence affair where both teams are more worried about not losing than actually attacking.\n\nKey storylines:\n\n- **Londrina at home** should have an edge with the crowd, but they'll be without Iago due to suspension — a hole in the squad they can't ignore\n- **Avaí's defensive frailty** has seen them leak goals constantly; Londrina's attack needs to punish that\n- **Midfield battle between Weverton & A. Luiz** (Londrina) and **L. Henrique & Z. Ricardo** (Avaí) will likely decide how scrappy this gets\n\nExpected lineups:\n\n- **Londrina**: Kozlinski, Kevyn, L. Marques, W. Reis, Weverton, A. Luiz, T. Cantanhede, B. Santos, J. Tavares, E. Rodriguez, Juninho\n- **Avaí**: L. Aragão, D. Teixeira, B. Baldini, Allyson, G. Aquino, L. Henrique, Z. Ricardo, W. d. S. França, T. Roberth, Rafael Bilú, F. Avenatti\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Londrina 1–0 Avaí** — coin flip, but home turf and Avaí's leaky defense give a slight lean to the hosts. 📍",
+          "generated_at": "2026-06-15T01:45:42.368204+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:52:51.120391+04:00",
-      "prob_home_win": 22.473777569671622,
-      "prob_draw": 20.60250950714697,
-      "prob_away_win": 56.923712923181405,
+      "created_at": "2026-06-02T14:52:51.786735+04:00",
+      "prob_home_win": 34.41899459124143,
+      "prob_draw": 30.065513093612644,
+      "prob_away_win": 35.51549231514593,
       "predicted_result": "A",
-      "expected_home_goals": 0.75,
-      "expected_away_goals": 1.35,
-      "prob_over_15": 67.02870918415888,
-      "prob_over_25": 38.79628516164011,
-      "prob_over_35": 17.632899631255476,
-      "prob_btts_yes": 30.72880697727446,
-      "confidence": 56.923712923181405,
+      "expected_home_goals": 1.3377925,
+      "expected_away_goals": 1.1551999999999998,
+      "prob_over_15": 72.15228933822377,
+      "prob_over_25": 41.376208689345404,
+      "prob_over_35": 19.39447687865245,
+      "prob_btts_yes": 57.03831351010932,
+      "confidence": 35.51549231514593,
       "model_version": "v5.0",
-      "most_likely_score": "0-1",
+      "most_likely_score": "1-1",
       "favorite": "A",
-      "favorite_prob": 56.923712923181405,
+      "favorite_prob": 35.51549231514593,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
       "over_35_recommend": false,
       "btts_recommend": false,
-      "winner_recommend": true
+      "winner_recommend": false
     },
     "league": {
       "id": 68,
