@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T02:00:42.580Z",
+  "generatedAt": "2026-06-15T08:37:17.616Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 8298,
+      "id": 8299,
       "league": {
         "id": 27,
         "name": "World Cup 2026",
@@ -40,58 +40,58 @@
         "name": "World Cup 2026",
         "year": 2026
       },
-      "home_team": "Sweden",
-      "away_team": "Tunisia",
+      "home_team": "Spain",
+      "away_team": "Cabo Verde",
       "home_team_obj": {
-        "id": 731,
-        "name": "Sweden",
-        "short_name": "Sweden",
-        "country": "Sweden",
+        "id": 475,
+        "name": "Spain",
+        "short_name": "Spain",
+        "country": "Spain",
         "coach": {
-          "name": "Graham Potter",
-          "shortName": "G. Potter"
+          "name": "Luis De La Fuente",
+          "shortName": "L. D. L. Fuente"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 474,
-        "name": "Tunisia",
-        "short_name": "Tunisia",
-        "country": "Tunisia",
+        "id": 476,
+        "name": "Cabo Verde",
+        "short_name": "Cabo Verde",
+        "country": "Cape Verde",
         "coach": {
-          "name": "Sabri Lamouchi",
-          "shortName": "S. Lamouchi"
+          "name": "Bubista",
+          "shortName": "Bubista"
         },
         "venue": {
-          "id": 433,
-          "name": "Stade Hammadi Agrebi",
-          "city": "Rades",
-          "country": "Tunisia",
-          "capacity": 65000
+          "id": 434,
+          "name": "Estádio Nacional de Cabo Verde",
+          "city": "Praia",
+          "country": "Cape Verde",
+          "capacity": 15000
         }
       },
-      "event_date": "2026-06-15T06:00:00+04:00",
+      "event_date": "2026-06-15T20:00:00+04:00",
       "round_number": 1,
       "round_name": "",
-      "group_name": "Group F",
+      "group_name": "Group H",
       "status": "notstarted",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": null,
+      "away_score": null,
       "home_score_ht": null,
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 1.96,
-      "odds_draw": 3.33,
-      "odds_away": 4.04,
-      "odds_over_15": 1.4,
-      "odds_over_25": 2.25,
-      "odds_over_35": 4.13,
-      "odds_under_15": 2.84,
-      "odds_under_25": 1.63,
-      "odds_under_35": 1.21,
-      "odds_btts_yes": 2,
-      "odds_btts_no": 1.75,
+      "odds_home": 1.09,
+      "odds_draw": 9.94,
+      "odds_away": 28.75,
+      "odds_over_15": 1.1,
+      "odds_over_25": 1.35,
+      "odds_over_35": 1.88,
+      "odds_under_15": 6.41,
+      "odds_under_25": 3.08,
+      "odds_under_35": 1.89,
+      "odds_btts_yes": 2.61,
+      "odds_btts_no": 1.44,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
@@ -102,104 +102,108 @@
       "is_neutral_ground": null,
       "travel_distance_km": null,
       "weather_code": 3,
-      "wind_speed": 21.3,
-      "temperature_c": 30,
+      "wind_speed": 4.8,
+      "temperature_c": 31,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 2107,
-        "name": "Yael Falcon Perez",
-        "country": "Argentina",
+        "id": 1722,
+        "name": "Adham Mohammad",
+        "country": "Jordan",
         "nationality_a3": "",
         "birthdate": null,
-        "yellowCards": 1152,
-        "redCards": 31,
-        "career_games": 210,
-        "career_yellow_cards": 1152,
-        "career_red_cards": 31
+        "yellowCards": 362,
+        "redCards": 7,
+        "career_games": 99,
+        "career_yellow_cards": 362,
+        "career_red_cards": 7
       },
       "home_coach": {
-        "id": 574,
-        "name": "Graham Potter",
-        "short_name": "G. Potter",
-        "country": "England",
+        "id": 116,
+        "name": "Luis De La Fuente",
+        "short_name": "L. D. L. Fuente",
+        "country": "Spain",
         "profile": "attacking",
-        "preferred_formation": "3-4-1-2",
-        "pressing_intensity": 0.11278212649691605,
-        "defensive_line": "high",
-        "top_styles": [
-          "moments_fc",
-          "inverted_fb"
-        ]
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "away_coach": {
-        "id": 131,
-        "name": "Sabri Lamouchi",
-        "short_name": "S. Lamouchi",
-        "country": "France",
-        "profile": "defensive",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.4095750270945502,
-        "defensive_line": "mid",
-        "top_styles": [
-          "low_block",
-          "park_the_bus"
-        ]
+        "id": 1445,
+        "name": "Bubista",
+        "short_name": "Bubista",
+        "country": "Cape Verde",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": null,
+        "defensive_line": "",
+        "top_styles": []
       },
       "unavailable_players": null,
       "venue": {
-        "id": 304,
-        "name": "Estadio BBVA",
-        "city": "Monterrey",
-        "country": "Mexico",
-        "capacity": 53500,
-        "latitude": 25.670172,
-        "longitude": -100.2437,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": 2015
+        "id": 265,
+        "name": "Mercedes-Benz Stadium",
+        "city": "Atlanta",
+        "country": "USA",
+        "capacity": 71000,
+        "latitude": 33.7553,
+        "longitude": -84.4006,
+        "pitch_x": 110,
+        "pitch_y": 69,
+        "built_year": 2017
       },
       "live_stats": null,
       "jerseys": {
         "away": {
           "GK": {
-            "base": "28e9c2",
+            "base": "eccf09",
             "real": true,
             "type": "short_sleeves",
-            "number": "030303",
-            "sleeve": "a7e0f5"
+            "number": "000033",
+            "sleeve": "f8f3f5"
           },
           "player": {
-            "base": "de2226",
+            "base": "ffffff",
             "real": true,
             "type": "short_sleeves",
-            "number": "efefef",
-            "sleeve": "f8140d"
+            "number": "3f4788",
+            "sleeve": "c52c27",
+            "sleevelong": "ffffff"
           }
         },
         "home": {
           "GK": {
-            "base": "8fec8f",
+            "base": "0edbd8",
             "real": true,
-            "type": "short_sleeves",
-            "number": "1d1d1d",
-            "sleeve": "1440c3"
+            "type": "long_sleeves",
+            "number": "050505",
+            "sleeve": "314899"
           },
           "player": {
-            "base": "f9de52",
+            "base": "f94046",
             "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "374a56",
-            "sleevelong": "074792"
+            "number": "fddc30",
+            "sleeve": "353c69",
+            "sleevelong": "343f6e"
           }
         }
       },
-      "funfacts": null,
+      "funfacts": [
+        {
+          "type_id": 1,
+          "sentence": "Spain haven't lost in their last 10 games."
+        },
+        {
+          "type_id": 1,
+          "sentence": "Cape Verde have a winning streak of 3 matches."
+        }
+      ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Sweden's looking to flex some offensive muscle, but Tunisia won't make it easy in Monterrey.** 🇸🇪 This is a classic Group Stage chess match where one team's form matters way more than the other's.\n\nSweden rolled into this tournament on decent momentum — 2W 2D in their last run — while Tunisia's limping in after back-to-back shutout losses to Austria and Belgium. The visitors need a spark; the Swedes are hunting a statement win.\n\nKey storylines:\n\n- **Alexander Isak** and **Viktor Gyökeres** up front have the teeth to punish a fragile Tunisia defense that's shipped 6 goals in two games\n- Tunisia's midfield anchors **Ellyes Skhiri** and **Romain Khedira** will have to grind hard to contain Sweden's press and keep possession\n- Sweden's injuries to **Starfelt** and **Holm** force defensive reshuffles, but **Victor Lindelöf** is a steady hand in that back three\n\nExpected lineups:\n\n- **Sweden**: K. Nordfeldt, I. Hien, G. Lagerbielke, V. Lindelöf, D. Svensson, A. Bernhardsson, J. Karlström, Y. Ayari, M. Svanberg, V. Gyökeres, A. Isak\n- **Tunisia**: A. Dahmen, A. Abdi, M. Talbi, D. Bronn, Y. Valery, E. Skhiri, R. Khedira, E. Achouri, H. Mejbri, I. Gharbi, H. Mastouri\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Sweden 2–0 Tunisia.** Sweden's the lean — better form, better attack, and Tunisia's defense looks vulnerable. 🎯",
-        "generated_at": "2026-06-15T01:45:18.560489+00:00"
+        "text": "**Spain rolls into Atlanta as heavy favorites, but Cabo Verde's hot streak says don't sleep on the upset vibe.** 🔥 The Icelanders have won four of their last five and knocked off Serbia 3-0 — that's not a fluke lineup filler.\n\nSpain's form is solid if a touch vanilla: two wins and three draws across their last five, with some defensive wobble (0-0 vs Egypt, 1-1 vs Iraq). They're missing **L. Yamal**, **N. Williams**, and **V. Muñoz**, which stings the wing depth. **Rodri** and **Pedri** will anchor the midfield, while **M. Oyarzabal** and **D. Olmo** carry the creative load up front.\n\nKey storylines:\n\n- **Rodri** and **Pedri** tested early — Cabo Verde's press could rattle possession if Spain stays sloppy\n- **Cabo Verde's** three-goal wins (Serbia, Bermuda, Eswatini) show they can finish ruthlessly on the counter\n- Missing wingers force Spain to lean on fullbacks **P. Porro** and **M. Cucurella** for width; **F. Torres** may see heavy minutes in an unfamiliar role\n\nExpected lineups:\n\n- **Spain**: U. Simón, P. Porro, A. Laporte, P. Cubarsí, M. Cucurella, Rodri, Pedri, D. Olmo, F. Torres, Y. Pino, M. Oyarzabal\n- **Cabo Verde**: H. S. Tavares, A. Fortes, Y. Lopes, Delmiro, D. Moreira, P. Andrade, A. Da Cruz, H. Tavares, A. Tavares, K. Quejada, I. S. Timas\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Spain 2–0 Cabo Verde.** Spain's class eventually tells, but don't expect a stroll. 🇪🇸",
+        "generated_at": "2026-06-15T01:45:26.719443+00:00"
       },
       "live_websocket": true
     },
