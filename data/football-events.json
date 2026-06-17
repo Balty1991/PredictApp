@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-06-17T14:07:42.746Z",
+  "generatedAt": "2026-06-17T17:30:37.201Z",
   "count": 50,
   "items": [
     {
-      "id": 207244,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "Ilves",
-      "awayTeam": "FF Jaro",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207242,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "HJK",
-      "awayTeam": "Inter Turku",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207243,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Turun Palloseura",
@@ -36,19 +14,30 @@
       "marketCount": 0
     },
     {
-      "id": 209513,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Renaissance Zemamra",
-      "awayTeam": "Raja Club Athletic",
+      "id": 207242,
+      "status": "finished",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "HJK",
+      "awayTeam": "Inter Turku",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207244,
+      "status": "finished",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Ilves",
+      "awayTeam": "FF Jaro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
       "id": 209511,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Kawkab Athletic Club Marrakech",
@@ -59,7 +48,7 @@
     },
     {
       "id": 209514,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Union Touarga Sport",
@@ -70,7 +59,7 @@
     },
     {
       "id": 209512,
-      "status": "notstarted",
+      "status": "finished",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "MAS de Fès",
@@ -80,8 +69,19 @@
       "marketCount": 0
     },
     {
+      "id": 209513,
+      "status": "finished",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Renaissance Zemamra",
+      "awayTeam": "Raja Club Athletic",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 8307,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Portugal",
@@ -201,17 +201,6 @@
       "marketCount": 0
     },
     {
-      "id": 209516,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "RS Berkane",
-      "awayTeam": "Olympic Safi",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209515,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -229,6 +218,17 @@
       "country": "Morocco",
       "homeTeam": "Union Sportive Yacoub El Mansour",
       "awayTeam": "Hassania d'Agadir",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209516,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "RS Berkane",
+      "awayTeam": "Olympic Safi",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
