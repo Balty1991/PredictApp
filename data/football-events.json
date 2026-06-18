@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-17T23:58:17.174Z",
+  "generatedAt": "2026-06-18T04:54:42.128Z",
   "count": 50,
   "items": [
     {
-      "id": 207666,
-      "status": "cancelled",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Indy Eleven",
-      "awayTeam": "Brooklyn FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8309,
-      "status": "halftime",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Ghana",
-      "awayTeam": "Panama",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207667,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "FC Tulsa",
-      "awayTeam": "Monterey Bay FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8310,
-      "status": "notstarted",
+      "status": "finished",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Uzbekistan",
@@ -69,6 +36,17 @@
       "marketCount": 0
     },
     {
+      "id": 209516,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "RS Berkane",
+      "awayTeam": "Olympic Safi",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 209515,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -86,17 +64,6 @@
       "country": "Morocco",
       "homeTeam": "Union Sportive Yacoub El Mansour",
       "awayTeam": "Hassania d'Agadir",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209516,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "RS Berkane",
-      "awayTeam": "Olympic Safi",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +515,39 @@
       "country": "Finland",
       "homeTeam": "FC Lahti",
       "awayTeam": "Turun Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207250,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "VPS",
+      "awayTeam": "AC Oulu",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207248,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Kuopion Palloseura",
+      "awayTeam": "Ilves",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207252,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "FF Jaro",
+      "awayTeam": "IF Gnistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
