@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T16:58:57.867Z",
+  "generatedAt": "2026-06-19T19:04:39.518Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -68,13 +68,13 @@
       "round_number": 2,
       "round_name": "",
       "group_name": "Group D",
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 0,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "current_minute": 3,
+      "period": "1T",
       "odds_home": 1.74,
       "odds_draw": 3.67,
       "odds_away": 4.51,
@@ -89,7 +89,7 @@
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
-      "away_xg_live": null,
+      "away_xg_live": 0.03,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
@@ -150,7 +150,118 @@
         "pitch_y": 68,
         "built_year": 2002
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 100,
+          "fouls": 0,
+          "passes": 7,
+          "crosses": "0/0 (0%)",
+          "throw_ins": 0,
+          "clearances": 2,
+          "long_balls": "0/2 (0%)",
+          "recoveries": 2,
+          "total_saves": 0,
+          "total_shots": 1,
+          "aerial_duels": "1/1 (100%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "interceptions": 1,
+          "expected_goals": 0.03,
+          "accurate_passes": 4,
+          "ball_possession": 19,
+          "goals_prevented": 0,
+          "shots_on_target": 1,
+          "goalkeeper_saves": 0,
+          "shots_inside_box": 1,
+          "shots_off_target": 0,
+          "final_third_phase": "0/0 (0%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 0,
+          "errors_lead_to_a_shot": 0,
+          "touches_in_penalty_area": 1
+        },
+        "home": {
+          "duels": 0,
+          "fouls": 0,
+          "passes": 27,
+          "crosses": "0/1 (0%)",
+          "throw_ins": 2,
+          "clearances": 1,
+          "long_balls": "0/2 (0%)",
+          "recoveries": 2,
+          "total_saves": 1,
+          "total_shots": 0,
+          "aerial_duels": "0/1 (0%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "interceptions": 0,
+          "expected_goals": 0,
+          "accurate_passes": 22,
+          "ball_possession": 81,
+          "goals_prevented": 0.05,
+          "shots_on_target": 0,
+          "goalkeeper_saves": 1,
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "2/6 (33%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 3,
+          "errors_lead_to_a_shot": 1,
+          "touches_in_penalty_area": 0
+        },
+        "first_half": {
+          "away": {
+            "duels": 100,
+            "fouls": 0,
+            "passes": 7,
+            "crosses": "0/0 (0%)",
+            "throw_ins": 0,
+            "clearances": 2,
+            "long_balls": "0/2 (0%)",
+            "recoveries": 2,
+            "total_saves": 0,
+            "total_shots": 1,
+            "aerial_duels": "1/1 (100%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "interceptions": 1,
+            "expected_goals": 0.03,
+            "accurate_passes": 4,
+            "ball_possession": 19,
+            "shots_on_target": 1,
+            "goalkeeper_saves": 0,
+            "shots_inside_box": 1,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 0
+          },
+          "home": {
+            "duels": 0,
+            "fouls": 0,
+            "passes": 27,
+            "crosses": "0/1 (0%)",
+            "throw_ins": 2,
+            "clearances": 1,
+            "long_balls": "0/2 (0%)",
+            "recoveries": 2,
+            "total_saves": 1,
+            "total_shots": 0,
+            "aerial_duels": "0/1 (0%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "interceptions": 0,
+            "expected_goals": 0,
+            "accurate_passes": 22,
+            "ball_possession": 81,
+            "shots_on_target": 0,
+            "goalkeeper_saves": 1,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "final_third_entries": 3
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
@@ -189,7 +300,32 @@
         }
       },
       "funfacts": null,
-      "sr_stats": null,
+      "sr_stats": {
+        "attack": {
+          "away": 3,
+          "home": 6
+        },
+        "ball_safe": {
+          "away": 4,
+          "home": 4
+        },
+        "attack_pct": {
+          "away": 6,
+          "home": 36
+        },
+        "ball_safe_pct": {
+          "away": 73,
+          "home": 32
+        },
+        "dangerous_attack": {
+          "away": 1,
+          "home": 2
+        },
+        "dangerous_attack_pct": {
+          "away": 21,
+          "home": 32
+        }
+      },
       "ai_preview": {
         "text": "**Home advantage in the Pacific Northwest could be the difference here** — the USMNT are hosting in Seattle with a mixed bag of form, while the Socceroos arrive red-hot. 🔥\n\nUSA's attack is spicy (wins over Paraguay and Senegal) but they've stumbled against better sides (Germany loss). Australia have won 3 of their last 5 and only lost to Mexico, so they're genuinely dangerous. Both teams are hungry, but the hosts have the crowd.\n\nKey storylines:\n\n- **C. Pulišić** and **F. Balogun** need to unlock a backline led by **H. Souttar** and the Aussie defensive wall — if the USMNT's creatives get space, it's game over.\n- **T. Adams** anchoring midfield will be crucial to deny **M. Touré** and **N. Irankunda** time on the ball.\n- USA missing **C. Richards** and **M. Robinson** at the back, which could expose **A. Robinson** and **T. Ream** down the flanks.\n\nExpected lineups:\n\n- **USA**: M. Freese, T. Ream, A. Freeman, A. Robinson, S. Dest, M. Tillman, T. Adams, F. Balogun, S. Berhalter, R. Pepi, C. Pulišić\n- **Australia**: M. Ryan, C. Burgess, H. Souttar, A. Behich, J. Geria, A. O'Neill, J. Irvine, C. Metcalfe, N. Irankunda, M. Touré, T. Yengi\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**USA 2–1 Australia** — coin flip on the day, but home field and fresh legs edge it for the Americans. ⚽",
         "generated_at": "2026-06-19T01:45:16.956604+00:00"
@@ -197,9 +333,9 @@
       "live_websocket": true
     },
     "prediction": {
-      "id": 4817,
+      "id": 4818,
       "event": {
-        "id": 8316,
+        "id": 8317,
         "league": {
           "id": 27,
           "name": "World Cup 2026",
@@ -218,34 +354,40 @@
           "name": "World Cup 2026",
           "year": 2026
         },
-        "home_team": "USA",
-        "away_team": "Australia",
+        "home_team": "Scotland",
+        "away_team": "Morocco",
         "home_team_obj": {
-          "id": 457,
-          "name": "USA",
-          "short_name": "USA",
-          "country": "USA",
+          "id": 466,
+          "name": "Scotland",
+          "short_name": "Scotland",
+          "country": "Scotland",
           "coach": {
-            "name": "Mauricio Pochettino",
-            "shortName": "M. Pochettino"
+            "name": "Steve Clarke",
+            "shortName": "S. Clarke"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 459,
-          "name": "Australia",
-          "short_name": "Australia",
-          "country": "Australia",
+          "id": 464,
+          "name": "Morocco",
+          "short_name": "Morocco",
+          "country": "Morocco",
           "coach": {
-            "name": "Tony Popovic",
-            "shortName": "T. Popovic"
+            "name": "Mohamed Ouahbi",
+            "shortName": "M. Ouahbi"
           },
-          "venue": null
+          "venue": {
+            "id": 430,
+            "name": "Stade Mohammed V",
+            "city": "Casablanca",
+            "country": "Morocco",
+            "capacity": 67000
+          }
         },
-        "event_date": "2026-06-19T23:00:00+04:00",
+        "event_date": "2026-06-20T02:00:00+04:00",
         "round_number": 2,
         "round_name": "",
-        "group_name": "Group D",
+        "group_name": "Group C",
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -253,17 +395,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.74,
-        "odds_draw": 3.67,
-        "odds_away": 4.51,
-        "odds_over_15": 1.33,
-        "odds_over_25": 2.03,
-        "odds_over_35": 3.57,
-        "odds_under_15": 3.23,
-        "odds_under_25": 1.76,
-        "odds_under_35": 1.27,
-        "odds_btts_yes": 1.92,
-        "odds_btts_no": 1.8,
+        "odds_home": 3.88,
+        "odds_draw": 3.17,
+        "odds_away": 2.02,
+        "odds_over_15": 1.4,
+        "odds_over_25": 2.28,
+        "odds_over_35": 4.21,
+        "odds_under_15": 2.83,
+        "odds_under_25": 1.61,
+        "odds_under_35": 1.21,
+        "odds_btts_yes": 1.98,
+        "odds_btts_no": 1.76,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -273,59 +415,62 @@
         "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 0,
-        "wind_speed": 13.1,
+        "weather_code": 2,
+        "wind_speed": 9.2,
         "temperature_c": 25,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 1790,
-          "name": "Felix Zwayer",
-          "country": "Germany",
+          "id": 1714,
+          "name": "Ilgiz Tantashev",
+          "country": "Uzbekistan",
           "nationality_a3": "",
           "birthdate": null,
-          "yellowCards": 2404,
-          "redCards": 50,
-          "career_games": 524,
-          "career_yellow_cards": 2404,
-          "career_red_cards": 50
+          "yellowCards": 270,
+          "redCards": 11,
+          "career_games": 69,
+          "career_yellow_cards": 270,
+          "career_red_cards": 11
         },
         "home_coach": {
-          "id": 122,
-          "name": "Mauricio Pochettino",
-          "short_name": "M. Pochettino",
-          "country": "Argentina",
-          "profile": "attacking",
+          "id": 95,
+          "name": "Steve Clarke",
+          "short_name": "S. Clarke",
+          "country": "Scotland",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.4460424144192029,
-          "defensive_line": "low",
+          "pressing_intensity": 0.34232193648943654,
+          "defensive_line": "mid",
           "top_styles": [
             "chaos_ball",
-            "chaos_football"
+            "park_the_bus"
           ]
         },
         "away_coach": {
-          "id": 571,
-          "name": "Tony Popovic",
-          "short_name": "T. Popovic",
-          "country": "Australia",
+          "id": 89,
+          "name": "Mohamed Ouahbi",
+          "short_name": "M. Ouahbi",
+          "country": "Morocco",
           "profile": "attacking",
-          "preferred_formation": "3-4-2-1",
-          "pressing_intensity": null,
-          "defensive_line": "",
-          "top_styles": []
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.6593903242166705,
+          "defensive_line": "mid",
+          "top_styles": [
+            "tiki_taka",
+            "positional"
+          ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 290,
-          "name": "Lumen Field",
-          "city": "Seattle",
+          "id": 273,
+          "name": "Gillette Stadium",
+          "city": "Foxborough",
           "country": "USA",
-          "capacity": 68740,
-          "latitude": 47.595165,
-          "longitude": -122.33165,
+          "capacity": 66829,
+          "latitude": 42.0909,
+          "longitude": -71.2643,
           "pitch_x": 106,
-          "pitch_y": 68,
+          "pitch_y": 69,
           "built_year": 2002
         },
         "incidents": null,
@@ -338,64 +483,66 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "140820",
+              "base": "e0e2de",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "573593"
+              "number": "000000",
+              "sleeve": "eff1f3"
             },
             "player": {
-              "base": "f0bd49",
+              "base": "f11313",
               "real": true,
-              "type": "short_sleeves",
-              "number": "008c80",
-              "sleeve": "008c80",
-              "sleevelong": "f0bd49"
+              "type": "long_sleeves",
+              "number": "f6f3f3",
+              "sleeve": "1f7422"
             }
           },
           "home": {
             "GK": {
-              "base": "5fdb64",
+              "base": "ccccc0",
               "real": true,
               "type": "short_sleeves",
-              "number": "180101",
-              "sleeve": "ffffff"
+              "number": "130202",
+              "sleeve": "dadacf"
             },
             "player": {
-              "base": "ffffff",
+              "base": "0d2852",
               "real": true,
               "type": "short_sleeves",
-              "number": "00007d",
-              "sleeve": "00007d",
-              "sleevelong": "ffffff",
-              "horizontalstripes": "cc2d27"
+              "number": "f9faf5",
+              "sleeve": "000066"
             }
           }
         },
-        "funfacts": null,
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Morocco haven't lost in their last 30 games."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Home advantage in the Pacific Northwest could be the difference here** — the USMNT are hosting in Seattle with a mixed bag of form, while the Socceroos arrive red-hot. 🔥\n\nUSA's attack is spicy (wins over Paraguay and Senegal) but they've stumbled against better sides (Germany loss). Australia have won 3 of their last 5 and only lost to Mexico, so they're genuinely dangerous. Both teams are hungry, but the hosts have the crowd.\n\nKey storylines:\n\n- **C. Pulišić** and **F. Balogun** need to unlock a backline led by **H. Souttar** and the Aussie defensive wall — if the USMNT's creatives get space, it's game over.\n- **T. Adams** anchoring midfield will be crucial to deny **M. Touré** and **N. Irankunda** time on the ball.\n- USA missing **C. Richards** and **M. Robinson** at the back, which could expose **A. Robinson** and **T. Ream** down the flanks.\n\nExpected lineups:\n\n- **USA**: M. Freese, T. Ream, A. Freeman, A. Robinson, S. Dest, M. Tillman, T. Adams, F. Balogun, S. Berhalter, R. Pepi, C. Pulišić\n- **Australia**: M. Ryan, C. Burgess, H. Souttar, A. Behich, J. Geria, A. O'Neill, J. Irvine, C. Metcalfe, N. Irankunda, M. Touré, T. Yengi\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**USA 2–1 Australia** — coin flip on the day, but home field and fresh legs edge it for the Americans. ⚽",
-          "generated_at": "2026-06-19T01:45:16.956604+00:00"
+          "text": "**Scotland's got the hot hand coming in, but Morocco won't budge** — Les Lions have been rock-solid lately with a 3W-2D run, while Scotland's been feasting on smaller sides. Real test incoming. 🔥\n\nScotland edged out Haiti and Bolivia with routine wins, then hammered Curaçao. Morocco? They've drawn with Brazil and Norway, then dismantled Madagascar. Form says Scotland's sharper, but Morocco's pedigree and balance suggests this gets tighter fast.\n\nKey storylines:\n\n- **J. McGinn** and **C. Adams** will need to control the midfield against a Morocco side that's shown they can match anybody\n- **L. Dykes** leading the line for Scotland faces a stern test from **I. Diop** and **N. Aguerd** — no room for error up top\n- Morocco missing **A. Ezzalzouli** and **A. Sbai** is a blow, but **A. Hakimi** anchoring the backline keeps them dangerous\n\nExpected lineups:\n\n- **Scotland**: A. Gunn, A. Robertson, G. Hanley, A. Hickey, J. Hendry, S. McTominay, L. Ferguson, C. Adams, J. McGinn, L. Shankland, L. Dykes\n- **Morocco**: Bono, A. Hakimi, I. Diop, N. Aguerd, C. Riad, N. El Aynaoui, I. Saibari, A. E. Kaabi, B. Díaz, S. Rahimi, A. Amaimouni Echghouyab\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Morocco 1–0 Scotland** — Edge to the Moroccans despite Scotland's form; they've got the defensive grit to weather the pressure. 📊",
+          "generated_at": "2026-06-19T01:45:22.312865+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:53:00.564125+04:00",
-      "prob_home_win": 33.03930340559288,
-      "prob_draw": 32.34084279548106,
-      "prob_away_win": 34.61985379892605,
+      "created_at": "2026-06-02T14:53:01.094416+04:00",
+      "prob_home_win": 28.458536238199184,
+      "prob_draw": 24.324748944044238,
+      "prob_away_win": 47.21671481775658,
       "predicted_result": "A",
-      "expected_home_goals": 1.4,
-      "expected_away_goals": 1.0666666666666667,
-      "prob_over_15": 74.54285231411589,
-      "prob_over_25": 38.359857353667685,
-      "prob_over_35": 17.608478341379268,
-      "prob_btts_yes": 51.10058262077381,
-      "confidence": 34.61985379892605,
+      "expected_home_goals": 0.8,
+      "expected_away_goals": 1.475,
+      "prob_over_15": 73.43894466614938,
+      "prob_over_25": 39.59386452162834,
+      "prob_over_35": 20.499234698712947,
+      "prob_btts_yes": 43.29302808132382,
+      "confidence": 47.21671481775658,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
+      "most_likely_score": "0-1",
       "favorite": "A",
-      "favorite_prob": 34.61985379892605,
+      "favorite_prob": 47.21671481775658,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
