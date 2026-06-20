@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T15:06:43.268Z",
+  "generatedAt": "2026-06-20T17:04:19.098Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,503 +21,379 @@
   ],
   "samples": {
     "event": {
-      "id": 9989,
+      "id": 8320,
       "league": {
-        "id": 34,
-        "name": "Brasileirão Serie B",
-        "country": "Brazil",
+        "id": 27,
+        "name": "World Cup 2026",
+        "country": "International",
         "is_women": false,
         "current_season": {
-          "id": 52,
-          "name": "Brasileiro Serie B 2026",
+          "id": 188,
+          "name": "World Cup 2026",
           "year": 2026,
           "start_date": "2026-01-01",
           "end_date": "2026-12-31"
         }
       },
       "season": {
-        "id": 52,
-        "name": "Brasileiro Serie B 2026",
+        "id": 188,
+        "name": "World Cup 2026",
         "year": 2026
       },
-      "home_team": "Londrina",
-      "away_team": "Athletic Club",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
       "home_team_obj": {
-        "id": 821,
-        "name": "Londrina",
-        "short_name": "Londrina",
-        "country": "Brazil",
+        "id": 469,
+        "name": "Netherlands",
+        "short_name": "Netherlands",
+        "country": "Netherlands",
         "coach": {
-          "name": "Rogério Micale",
-          "shortName": "R. Micale"
+          "name": "Ronald Koeman",
+          "shortName": "R. Koeman"
         },
-        "venue": {
-          "id": 614,
-          "name": "Estádio Jacy Scaff",
-          "city": "Londrina",
-          "country": "Brazil",
-          "capacity": 36056
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 843,
-        "name": "Athletic Club",
-        "short_name": "Athletic",
-        "country": "Brazil",
+        "id": 731,
+        "name": "Sweden",
+        "short_name": "Sweden",
+        "country": "Sweden",
         "coach": {
-          "name": "Alexsandro de Souza",
-          "shortName": "Alex"
+          "name": "Graham Potter",
+          "shortName": "G. Potter"
         },
-        "venue": {
-          "id": 635,
-          "name": "Estádio Joaquim Portugal",
-          "city": "São João del Rei",
-          "country": "Brazil",
-          "capacity": 8000
-        }
+        "venue": null
       },
-      "event_date": "2026-06-20T18:00:00+04:00",
-      "round_number": 14,
+      "event_date": "2026-06-20T21:00:00+04:00",
+      "round_number": 2,
       "round_name": "",
-      "group_name": null,
-      "status": "2nd_half",
+      "group_name": "Group F",
+      "status": "1st_half",
       "home_score": 0,
       "away_score": 0,
-      "home_score_ht": 0,
-      "away_score_ht": 0,
-      "current_minute": 46,
-      "period": "2T",
-      "odds_home": null,
-      "odds_draw": null,
-      "odds_away": null,
-      "odds_over_15": null,
-      "odds_over_25": null,
-      "odds_over_35": null,
-      "odds_under_15": null,
-      "odds_under_25": null,
-      "odds_under_35": null,
-      "odds_btts_yes": null,
-      "odds_btts_no": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": 3,
+      "period": "1T",
+      "odds_home": 1.63,
+      "odds_draw": 3.91,
+      "odds_away": 5.07,
+      "odds_over_15": 1.29,
+      "odds_over_25": 1.9,
+      "odds_over_35": 3.25,
+      "odds_under_15": 3.47,
+      "odds_under_25": 1.87,
+      "odds_under_35": 1.32,
+      "odds_btts_yes": 1.9,
+      "odds_btts_no": 1.82,
       "actual_home_xg": null,
       "actual_away_xg": null,
-      "home_xg_live": 0.26,
-      "away_xg_live": 0.11,
+      "home_xg_live": null,
+      "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 1,
-      "wind_speed": 1.5,
-      "temperature_c": 18,
+      "weather_code": 51,
+      "wind_speed": 20.2,
+      "temperature_c": 32,
       "pitch_condition": null,
       "attendance": null,
       "referee": {
-        "id": 2660,
-        "name": "Charly Wendy Straub Deretti",
-        "country": "Brazil",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 16,
-        "redCards": 2,
-        "career_games": 5,
-        "career_yellow_cards": 16,
-        "career_red_cards": 2
+        "id": 1756,
+        "name": "Michael Oliver",
+        "country": "England",
+        "nationality_a3": "ENG",
+        "birthdate": "1985-02-20",
+        "yellowCards": 2284,
+        "redCards": 50,
+        "career_games": 652,
+        "career_yellow_cards": 2284,
+        "career_red_cards": 50
       },
       "home_coach": {
-        "id": 1568,
-        "name": "Rogério Micale",
-        "short_name": "R. Micale",
-        "country": "Brazil",
-        "profile": "defensive",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.4789981854242048,
+        "id": 102,
+        "name": "Ronald Koeman",
+        "short_name": "R. Koeman",
+        "country": "Netherlands",
+        "profile": "attacking",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.2922916386812556,
         "defensive_line": "high",
         "top_styles": [
-          "set_piece",
-          "anti_football"
+          "positional",
+          "ball_dominant"
         ]
       },
       "away_coach": {
-        "id": 155,
-        "name": "Alexsandro de Souza",
-        "short_name": "Alex",
-        "country": "Brazil",
-        "profile": "balanced",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.48283083197103366,
-        "defensive_line": "mid",
+        "id": 574,
+        "name": "Graham Potter",
+        "short_name": "G. Potter",
+        "country": "England",
+        "profile": "attacking",
+        "preferred_formation": "3-4-1-2",
+        "pressing_intensity": 0.18064050355137234,
+        "defensive_line": "high",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "moments_fc",
+          "chaos_ball"
         ]
       },
-      "unavailable_players": {
-        "home": [],
-        "away": [
-          {
-            "name": "Ronaldo Tavares",
-            "status": "injured",
-            "reason": "ACL Knee Injury",
-            "expected_return": "2027-01-01"
-          }
-        ]
-      },
+      "unavailable_players": null,
       "venue": {
-        "id": 1223,
-        "name": "Estadio Vitorino Goncalves Dias",
-        "city": "Londrina",
-        "country": "Brazil",
-        "capacity": 13000,
-        "latitude": -23.308623,
-        "longitude": -51.151983,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+        "id": 1183,
+        "name": "NRG Stadium",
+        "city": "Houston",
+        "country": "USA",
+        "capacity": 72220,
+        "latitude": 29.6847,
+        "longitude": -95.4107,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2002
       },
       "live_stats": {
         "away": {
-          "duels": 52,
-          "fouls": 8,
-          "passes": 178,
-          "crosses": "2/9 (22%)",
-          "tackles": 10,
-          "dribbles": "3/7 (43%)",
-          "throw_ins": 19,
-          "clearances": 11,
-          "free_kicks": 11,
-          "goal_kicks": 7,
-          "long_balls": "8/18 (44%)",
-          "recoveries": 17,
-          "tackles_won": 80,
-          "total_shots": 3,
-          "aerial_duels": "2/5 (40%)",
-          "corner_kicks": 1,
-          "dispossessed": 6,
-          "ground_duels": "24/45 (53%)",
+          "duels": 75,
+          "fouls": 0,
+          "passes": 14,
+          "tackles": 1,
+          "dribbles": "0/0 (0%)",
+          "offsides": 1,
+          "throw_ins": 2,
+          "free_kicks": 1,
+          "goal_kicks": 1,
+          "long_balls": "1/3 (33%)",
+          "recoveries": 1,
+          "tackles_won": 100,
+          "total_shots": 0,
+          "aerial_duels": "1/2 (50%)",
+          "ground_duels": "2/2 (100%)",
           "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 1,
-          "interceptions": 6,
-          "total_tackles": 10,
-          "expected_goals": 0.11,
-          "accurate_passes": 139,
-          "ball_possession": 51,
+          "blocked_shots": 0,
+          "interceptions": 0,
+          "total_tackles": 1,
+          "accurate_passes": 11,
+          "ball_possession": 42,
           "shots_on_target": 0,
-          "shots_inside_box": 2,
-          "shots_off_target": 2,
-          "final_third_phase": "32/49 (65%)",
-          "shots_outside_box": 1,
-          "final_third_entries": 32,
-          "errors_lead_to_a_shot": 1,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 6
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "0/0 (0%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 0,
+          "touches_in_penalty_area": 0
         },
         "home": {
-          "duels": 48,
-          "fouls": 11,
-          "passes": 173,
-          "crosses": "0/8 (0%)",
-          "tackles": 10,
-          "dribbles": "3/9 (33%)",
-          "throw_ins": 17,
-          "clearances": 15,
-          "free_kicks": 8,
-          "goal_kicks": 5,
-          "long_balls": "27/39 (69%)",
-          "recoveries": 19,
-          "tackles_won": 90,
-          "total_shots": 6,
-          "aerial_duels": "3/5 (60%)",
-          "corner_kicks": 1,
-          "dispossessed": 4,
-          "ground_duels": "21/45 (47%)",
+          "duels": 25,
+          "fouls": 1,
+          "passes": 19,
+          "tackles": 0,
+          "dribbles": "0/1 (0%)",
+          "offsides": 0,
+          "throw_ins": 1,
+          "free_kicks": 0,
+          "goal_kicks": 0,
+          "long_balls": "2/2 (100%)",
+          "recoveries": 1,
+          "tackles_won": 0,
+          "total_shots": 0,
+          "aerial_duels": "1/2 (50%)",
+          "ground_duels": "0/2 (0%)",
           "hit_woodwork": 0,
-          "yellow_cards": 1,
-          "blocked_shots": 2,
-          "interceptions": 6,
-          "total_tackles": 10,
-          "expected_goals": 0.26,
-          "accurate_passes": 141,
-          "ball_possession": 49,
+          "blocked_shots": 0,
+          "interceptions": 1,
+          "total_tackles": 0,
+          "accurate_passes": 15,
+          "ball_possession": 58,
           "shots_on_target": 0,
-          "shots_inside_box": 3,
-          "shots_off_target": 4,
-          "final_third_phase": "36/52 (69%)",
-          "shots_outside_box": 3,
-          "final_third_entries": 21,
-          "errors_lead_to_a_shot": 0,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 7
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "4/5 (80%)",
+          "shots_outside_box": 0,
+          "final_third_entries": 3,
+          "touches_in_penalty_area": 1
         },
         "first_half": {
           "away": {
-            "duels": 52,
-            "fouls": 8,
-            "passes": 178,
-            "crosses": "2/9 (22%)",
-            "tackles": 10,
-            "dribbles": "3/7 (43%)",
-            "throw_ins": 19,
-            "clearances": 11,
-            "free_kicks": 11,
-            "goal_kicks": 7,
-            "long_balls": "8/18 (44%)",
-            "recoveries": 17,
-            "tackles_won": 80,
-            "total_shots": 3,
-            "aerial_duels": "2/5 (40%)",
-            "corner_kicks": 1,
-            "dispossessed": 6,
-            "ground_duels": "24/45 (53%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 1,
-            "interceptions": 6,
-            "total_tackles": 10,
-            "expected_goals": 0.11,
-            "accurate_passes": 139,
-            "ball_possession": 51,
-            "shots_on_target": 0,
-            "shots_inside_box": 2,
-            "shots_off_target": 2,
-            "shots_outside_box": 1,
-            "final_third_entries": 32,
-            "fouled_in_final_third": 2
-          },
-          "home": {
-            "duels": 48,
-            "fouls": 11,
-            "passes": 173,
-            "crosses": "0/8 (0%)",
-            "tackles": 10,
-            "dribbles": "3/9 (33%)",
-            "throw_ins": 17,
-            "clearances": 15,
-            "free_kicks": 8,
-            "goal_kicks": 5,
-            "long_balls": "27/39 (69%)",
-            "recoveries": 19,
-            "tackles_won": 90,
-            "total_shots": 6,
-            "aerial_duels": "3/5 (60%)",
-            "corner_kicks": 1,
-            "dispossessed": 4,
-            "ground_duels": "21/45 (47%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 2,
-            "interceptions": 6,
-            "total_tackles": 10,
-            "expected_goals": 0.26,
-            "accurate_passes": 141,
-            "ball_possession": 49,
-            "shots_on_target": 0,
-            "shots_inside_box": 3,
-            "shots_off_target": 4,
-            "shots_outside_box": 3,
-            "final_third_entries": 21,
-            "fouled_in_final_third": 2
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 0,
+            "duels": 75,
             "fouls": 0,
-            "passes": 0,
-            "crosses": "0/0 (0%)",
-            "tackles": 0,
-            "throw_ins": 0,
-            "clearances": 0,
-            "free_kicks": 0,
-            "goal_kicks": 0,
-            "long_balls": "0/0 (0%)",
-            "recoveries": 0,
-            "tackles_won": 0,
+            "passes": 14,
+            "tackles": 1,
+            "dribbles": "0/0 (0%)",
+            "offsides": 1,
+            "throw_ins": 2,
+            "free_kicks": 1,
+            "goal_kicks": 1,
+            "long_balls": "1/3 (33%)",
+            "recoveries": 1,
+            "tackles_won": 100,
             "total_shots": 0,
-            "corner_kicks": 0,
-            "dispossessed": 0,
+            "aerial_duels": "1/2 (50%)",
+            "ground_duels": "2/2 (100%)",
             "hit_woodwork": 0,
-            "yellow_cards": 0,
             "blocked_shots": 0,
             "interceptions": 0,
-            "total_tackles": 0,
-            "expected_goals": 0,
-            "accurate_passes": 0,
-            "ball_possession": 0,
+            "total_tackles": 1,
+            "accurate_passes": 11,
+            "ball_possession": 42,
             "shots_on_target": 0,
             "shots_inside_box": 0,
             "shots_off_target": 0,
             "shots_outside_box": 0,
-            "final_third_entries": 0,
-            "fouled_in_final_third": 0
+            "final_third_entries": 0
           },
           "home": {
-            "duels": 0,
-            "fouls": 0,
-            "passes": 0,
-            "crosses": "0/0 (0%)",
+            "duels": 25,
+            "fouls": 1,
+            "passes": 19,
             "tackles": 0,
-            "throw_ins": 0,
-            "clearances": 0,
+            "dribbles": "0/1 (0%)",
+            "offsides": 0,
+            "throw_ins": 1,
             "free_kicks": 0,
             "goal_kicks": 0,
-            "long_balls": "0/0 (0%)",
-            "recoveries": 0,
+            "long_balls": "2/2 (100%)",
+            "recoveries": 1,
             "tackles_won": 0,
             "total_shots": 0,
-            "corner_kicks": 0,
-            "dispossessed": 0,
+            "aerial_duels": "1/2 (50%)",
+            "ground_duels": "0/2 (0%)",
             "hit_woodwork": 0,
-            "yellow_cards": 0,
             "blocked_shots": 0,
-            "interceptions": 0,
+            "interceptions": 1,
             "total_tackles": 0,
-            "expected_goals": 0,
-            "accurate_passes": 0,
-            "ball_possession": 0,
+            "accurate_passes": 15,
+            "ball_possession": 58,
             "shots_on_target": 0,
             "shots_inside_box": 0,
             "shots_off_target": 0,
             "shots_outside_box": 0,
-            "final_third_entries": 0,
-            "fouled_in_final_third": 0
+            "final_third_entries": 3
           }
         }
       },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "942cb3",
-            "real": true,
-            "type": "long_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
-          },
-          "player": {
-            "base": "000000",
+            "base": "8fec8f",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "ffffff",
-            "sleevelong": "ffffff"
+            "number": "1d1d1d",
+            "sleeve": "1440c3"
+          },
+          "player": {
+            "base": "093f95",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "fdeda9",
+            "sleeve": "093f95",
+            "stripes": "0a67c7",
+            "sleevelong": "093f95"
           }
         },
         "home": {
           "GK": {
-            "base": "af498b",
+            "base": "2db86f",
             "real": true,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "5d5d5d"
+            "type": "long_sleeves",
+            "number": "f9f1f1",
+            "sleeve": "35b94d"
           },
           "player": {
-            "base": "ffffff",
+            "base": "ff6803",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "ffffff",
-            "stripes": "63aee3",
-            "sleevelong": "63aee3"
+            "sleeve": "0f0f0f"
           }
         }
       },
-      "funfacts": [
-        {
-          "type_id": 2,
-          "sentence": "Londrina haven't won any of their last 3 games against Athletic Club Sjdr."
-        },
-        {
-          "type_id": 24,
-          "sentence": "Londrina's home record this season: 0-2-3."
-        },
-        {
-          "type_id": 25,
-          "sentence": "Bruno Santos de Oliveira is Londrina's top scorer with 4 goals. Ronaldo Tavares has scored 5 times for Athletic Club Sjdr."
-        }
-      ],
+      "funfacts": null,
       "sr_stats": {
         "attack": {
-          "away": 44,
-          "home": 37
+          "away": 3,
+          "home": 3
         },
         "ball_safe": {
-          "away": 36,
-          "home": 38
+          "away": 3,
+          "home": 2
         },
         "attack_pct": {
-          "away": 33,
-          "home": 27
+          "away": 17,
+          "home": 20
         },
         "ball_safe_pct": {
-          "away": 53,
-          "home": 52
+          "away": 83,
+          "home": 59
         },
         "dangerous_attack": {
-          "away": 24,
-          "home": 21
+          "away": 0,
+          "home": 3
         },
         "dangerous_attack_pct": {
-          "away": 14,
+          "away": 0,
           "home": 21
         }
       },
       "ai_preview": {
-        "text": "**Londrina's hot streak meets Athletic Club's defensive wall** — this is a classic clash of momentum vs. stability in Serie B's messy middle. 🔥\n\nLondrina just crushed Avaí 3-2 and look sharp at home, but they're also a bit of a roller coaster (3 losses in 5). Athletic Club, meanwhile, haven't lost in their last five and lean draw-heavy, which tells you everything about their lockdown mentality. They're missing **R. Tavares** (ACL) but that hasn't stopped them grinding results.\n\nKey storylines:\n\n- **Londrina's attacking verve** — with **E. Rodriguez**, **B. Santos**, and **Gilberto** all clicking, they can hurt anyone on their day\n- **Athletic Club's draw culture** — three of their last five are stalemates; if they sit deep with **Luan Polli** and a three-man backline, Londrina could struggle to break through\n- Home-field edge tilts toward the hosts, but Athletic's injury resilience is no joke\n\nExpected lineups:\n\n- **Londrina**: Kozlinski, Kevyn, Y. Lincoln, W. Reis, Weverton, A. Luiz, Iago, B. Santos, L. Marques, E. Rodriguez, Gilberto\n- **Athletic Club**: Luan Polli, L. Belezi, Jhonathan, D. B. d. Souza, Zeca, J. Miguel, K. Rodrigues, Ian Luccas, G. Moyses, O. Otusanya, Ruan Assis\n\nPrediction:\n\n**1-1 draw.** Slight edge to Athletic Club's grind-it-out DNA, but Londrina's home form and firepower suggest neither side leaves satisfied. 🤝",
-        "generated_at": "2026-06-20T02:45:14.689585+00:00"
+        "text": "**Netherlands and Sweden clash in Houston with contrasting vibes** — the Dutch are wobbling after a shock loss to Algeria, while Sweden's rolling off a convincing 5-1 demolition of Tunisia. 🔥\n\nNetherlands have drawn twice in their last five, suggesting some defensive creakiness. Sweden, meanwhile, are sharper in transition and packing real punch up front. The Dutch lean on **Cody Gakpo** and **Memphis Depay** in attack, but they're missing **Quinten Timber** at the back due to concussion — not ideal when you're already vulnerable to the counter.\n\nKey storylines:\n\n- **Virgil van Dijk** and co. need to tighten up defensively after conceding against Japan and Algeria; Sweden's forward press will test that resolve\n- **Viktor Gyökeres** has been clinical for Sweden — he'll be hunting chances in a 3-5-2 that gives him space to run into\n- Netherlands' midfield depth with **Frenkie de Jong** and **Tijgert Reijnders** should control tempo, but they can't afford another slow start\n\nExpected lineups:\n\n- **Netherlands**: Flekken, van Dijk, van de Ven, Aké, Timber, Gakpo, de Jong, Reijnders, Malen, Depay, Weghorst\n- **Sweden**: Nordfeldt, Lagerbielke, Hien, Lindelöf, Gudmundsson, Ekdal, Ayari, Svensson, Karlström, Gyökeres, Nygren\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Netherlands 2–1 Sweden**. The Dutch edge it, but it's tighter than the model suggests — Sweden will hurt them on the break.",
+        "generated_at": "2026-06-20T01:45:22.556711+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4822,
+      "id": 5271,
       "event": {
-        "id": 8320,
+        "id": 209508,
         "league": {
-          "id": 27,
-          "name": "World Cup 2026",
-          "country": "International",
+          "id": 38,
+          "name": "Segunda División",
+          "country": "Spain",
           "is_women": false,
-          "current_season": {
-            "id": 188,
-            "name": "World Cup 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
+          "current_season": null
+        },
+        "season": null,
+        "home_team": "Almería",
+        "away_team": "Málaga CF",
+        "home_team_obj": {
+          "id": 1264,
+          "name": "Almería",
+          "short_name": "Almería",
+          "country": "Spain",
+          "coach": {
+            "name": "Rubi",
+            "shortName": "Rubi"
+          },
+          "venue": {
+            "id": 731,
+            "name": "UD Almeria Stadium",
+            "city": "Almeria",
+            "country": "Spain",
+            "capacity": 17400
           }
         },
-        "season": {
-          "id": 188,
-          "name": "World Cup 2026",
-          "year": 2026
-        },
-        "home_team": "Netherlands",
-        "away_team": "Sweden",
-        "home_team_obj": {
-          "id": 469,
-          "name": "Netherlands",
-          "short_name": "Netherlands",
-          "country": "Netherlands",
-          "coach": {
-            "name": "Ronald Koeman",
-            "shortName": "R. Koeman"
-          },
-          "venue": null
-        },
         "away_team_obj": {
-          "id": 731,
-          "name": "Sweden",
-          "short_name": "Sweden",
-          "country": "Sweden",
+          "id": 1259,
+          "name": "Málaga CF",
+          "short_name": "Málaga",
+          "country": "Spain",
           "coach": {
-            "name": "Graham Potter",
-            "shortName": "G. Potter"
+            "name": "Juan Funes",
+            "shortName": "J. Funes"
           },
-          "venue": null
+          "venue": {
+            "id": 726,
+            "name": "La Rosaleda",
+            "city": "Malaga",
+            "country": "Spain",
+            "capacity": 30044
+          }
         },
-        "event_date": "2026-06-20T21:00:00+04:00",
-        "round_number": 2,
-        "round_name": "",
-        "group_name": "Group F",
+        "event_date": "2026-06-20T23:00:00+04:00",
+        "round_number": 29,
+        "round_name": "Final",
+        "group_name": null,
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -525,17 +401,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.63,
-        "odds_draw": 3.91,
-        "odds_away": 5.07,
-        "odds_over_15": 1.29,
-        "odds_over_25": 1.9,
-        "odds_over_35": 3.25,
-        "odds_under_15": 3.47,
-        "odds_under_25": 1.87,
-        "odds_under_35": 1.32,
-        "odds_btts_yes": 1.9,
-        "odds_btts_no": 1.82,
+        "odds_home": null,
+        "odds_draw": null,
+        "odds_away": null,
+        "odds_over_15": null,
+        "odds_over_25": null,
+        "odds_over_35": null,
+        "odds_under_15": null,
+        "odds_under_25": null,
+        "odds_under_35": null,
+        "odds_btts_yes": null,
+        "odds_btts_no": null,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -544,64 +420,69 @@
         "extra_time_score": null,
         "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": null,
-        "weather_code": 51,
-        "wind_speed": 20.2,
-        "temperature_c": 32,
+        "travel_distance_km": 178,
+        "weather_code": 1,
+        "wind_speed": 4,
+        "temperature_c": 26,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 1756,
-          "name": "Michael Oliver",
-          "country": "England",
-          "nationality_a3": "ENG",
-          "birthdate": "1985-02-20",
-          "yellowCards": 2284,
-          "redCards": 50,
-          "career_games": 652,
-          "career_yellow_cards": 2284,
-          "career_red_cards": 50
-        },
+        "referee": null,
         "home_coach": {
-          "id": 102,
-          "name": "Ronald Koeman",
-          "short_name": "R. Koeman",
-          "country": "Netherlands",
+          "id": 823,
+          "name": "Rubi",
+          "short_name": "Rubi",
+          "country": "Spain",
           "profile": "attacking",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.2922916386812556,
-          "defensive_line": "high",
+          "preferred_formation": "4-2-3-1",
+          "pressing_intensity": 0.5475839637797898,
+          "defensive_line": "mid",
           "top_styles": [
-            "positional",
-            "ball_dominant"
+            "anti_football",
+            "false_9"
           ]
         },
         "away_coach": {
-          "id": 574,
-          "name": "Graham Potter",
-          "short_name": "G. Potter",
-          "country": "England",
-          "profile": "attacking",
-          "preferred_formation": "3-4-1-2",
-          "pressing_intensity": 0.18064050355137234,
-          "defensive_line": "high",
+          "id": 820,
+          "name": "Juan Funes",
+          "short_name": "J. Funes",
+          "country": "Spain",
+          "profile": "balanced",
+          "preferred_formation": "4-4-2",
+          "pressing_intensity": 0.6444859483451709,
+          "defensive_line": "mid",
           "top_styles": [
-            "moments_fc",
-            "chaos_ball"
+            "inverted_fb",
+            "tiki_taka"
           ]
         },
-        "unavailable_players": null,
+        "unavailable_players": {
+          "home": [],
+          "away": [
+            {
+              "name": "Álex Pastor",
+              "status": "injured",
+              "reason": "Knee Injury",
+              "expected_return": "2026-06-26"
+            },
+            {
+              "name": "Luismi Sanchez",
+              "status": "injured",
+              "reason": "Broken Jaw",
+              "expected_return": "2026-06-26"
+            }
+          ]
+        },
         "venue": {
-          "id": 1183,
-          "name": "NRG Stadium",
-          "city": "Houston",
-          "country": "USA",
-          "capacity": 72220,
-          "latitude": 29.6847,
-          "longitude": -95.4107,
+          "id": 731,
+          "name": "UD Almeria Stadium",
+          "city": "Almeria",
+          "country": "Spain",
+          "capacity": 17400,
+          "latitude": 36.840039,
+          "longitude": -2.435457,
           "pitch_x": 105,
           "pitch_y": 68,
-          "built_year": 2002
+          "built_year": 2004
         },
         "incidents": null,
         "live_stats": null,
@@ -613,69 +494,83 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "8fec8f",
+              "base": "91a7c4",
               "real": true,
               "type": "short_sleeves",
-              "number": "1d1d1d",
-              "sleeve": "1440c3"
+              "number": "000000",
+              "sleeve": "d9b13d"
             },
             "player": {
-              "base": "093f95",
+              "base": "ffffff",
               "real": true,
               "type": "short_sleeves",
-              "number": "fdeda9",
-              "sleeve": "093f95",
-              "stripes": "0a67c7",
-              "sleevelong": "093f95"
+              "number": "21255a",
+              "sleeve": "84a6eb",
+              "stripes": "71b1e4"
             }
           },
           "home": {
             "GK": {
-              "base": "2db86f",
-              "real": true,
-              "type": "long_sleeves",
-              "number": "f9f1f1",
-              "sleeve": "35b94d"
-            },
-            "player": {
-              "base": "ff6803",
+              "base": "ffff00",
               "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "0f0f0f"
+              "number": "ffffff",
+              "sleeve": "000000"
+            },
+            "player": {
+              "base": "ef0101",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "e5241a",
+              "stripes": "f1eff0",
+              "sleevelong": "ef0101"
             }
           }
         },
-        "funfacts": null,
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Almeria haven't lost in their last 4 games."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Malaga haven't lost in their last 8 games."
+          },
+          {
+            "type_id": 27,
+            "sentence": "The result of the first leg: Malaga - Almeria 0-0."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Netherlands and Sweden clash in Houston with contrasting vibes** — the Dutch are wobbling after a shock loss to Algeria, while Sweden's rolling off a convincing 5-1 demolition of Tunisia. 🔥\n\nNetherlands have drawn twice in their last five, suggesting some defensive creakiness. Sweden, meanwhile, are sharper in transition and packing real punch up front. The Dutch lean on **Cody Gakpo** and **Memphis Depay** in attack, but they're missing **Quinten Timber** at the back due to concussion — not ideal when you're already vulnerable to the counter.\n\nKey storylines:\n\n- **Virgil van Dijk** and co. need to tighten up defensively after conceding against Japan and Algeria; Sweden's forward press will test that resolve\n- **Viktor Gyökeres** has been clinical for Sweden — he'll be hunting chances in a 3-5-2 that gives him space to run into\n- Netherlands' midfield depth with **Frenkie de Jong** and **Tijgert Reijnders** should control tempo, but they can't afford another slow start\n\nExpected lineups:\n\n- **Netherlands**: Flekken, van Dijk, van de Ven, Aké, Timber, Gakpo, de Jong, Reijnders, Malen, Depay, Weghorst\n- **Sweden**: Nordfeldt, Lagerbielke, Hien, Lindelöf, Gudmundsson, Ekdal, Ayari, Svensson, Karlström, Gyökeres, Nygren\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Netherlands 2–1 Sweden**. The Dutch edge it, but it's tighter than the model suggests — Sweden will hurt them on the break.",
-          "generated_at": "2026-06-20T01:45:22.556711+00:00"
+          "text": "**These two have already played to a goalless draw once this season—but the rematch vibes feel different.** With Málaga missing key attacking depth and Almería riding some recent momentum at home, expect a bit more adventure this time around. 🔥\n\nAlmería are 2W-2D-1L over their last five and just edged past Castellón 3-2 at the Estadio de Almería. Málaga remain unbeaten in their last five (2W-3D) but that injury list—Á. Pastor and L. Sanchez both out—leaves them thinner in the final third.\n\nKey storylines:\n\n- **Almería's home form** vs a Málaga side missing attacking reinforcements should tilt the balance slightly toward the hosts despite the model's away lean\n- **Thalys and P. Soko** leading Almería's press up top will need to capitalize on Málaga's defensive reshuffling\n- **Chupete and A. Niño** carrying Málaga's creative load without their usual support cast\n\nExpected lineups:\n\n- **Almería**: A. Fernández, R. Ely, Á. Muñoz, F. Bonini, D. Chirino, S. Arribas, A. Embarba, M. d. l. Fuente, S. Džodić, Thalys, P. Soko\n- **Málaga CF**: A. Herrero, C. Puga, R. Garrido, D. Murillo, E. Galilea, J. Muñoz, D. Larrubia, Chupete, C. Dotor, I. Merino, A. Niño\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Almería 2–1 Málaga CF**. Slight home edge despite the model's away lean—injuries bite harder than expected. ⚽",
+          "generated_at": "2026-06-20T02:45:23.111589+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:53:03.748943+04:00",
-      "prob_home_win": 58.91577517142851,
-      "prob_draw": 22.037082157194668,
-      "prob_away_win": 19.047142671376825,
-      "predicted_result": "H",
-      "expected_home_goals": 1.5,
-      "expected_away_goals": 1,
-      "prob_over_15": 69.46831396023941,
-      "prob_over_25": 44.48855229456489,
-      "prob_over_35": 20.765349459221063,
-      "prob_btts_yes": 38.00113102447952,
-      "confidence": 58.91577517142851,
+      "created_at": "2026-06-14T06:20:10.347767+04:00",
+      "prob_home_win": 31.00158802926923,
+      "prob_draw": 28.2584230024771,
+      "prob_away_win": 40.73998896825366,
+      "predicted_result": "A",
+      "expected_home_goals": 0.85171,
+      "expected_away_goals": 0.7985500000000001,
+      "prob_over_15": 79.9190716130011,
+      "prob_over_25": 59.448746740371995,
+      "prob_over_35": 37.31595436373544,
+      "prob_btts_yes": 62.0511910687803,
+      "confidence": 40.73998896825366,
       "model_version": "v5.0",
-      "most_likely_score": "1-0",
-      "favorite": "H",
-      "favorite_prob": 58.91577517142851,
+      "most_likely_score": "0-0",
+      "favorite": "A",
+      "favorite_prob": 40.73998896825366,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
       "over_35_recommend": false,
       "btts_recommend": false,
-      "winner_recommend": true
+      "winner_recommend": false
     },
     "league": {
       "id": 68,
