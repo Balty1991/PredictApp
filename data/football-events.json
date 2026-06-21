@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-21T13:10:29.797Z",
+  "generatedAt": "2026-06-21T15:29:00.365Z",
   "count": 50,
   "items": [
     {
-      "id": 209521,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Fath Union Sport",
-      "awayTeam": "Olympique Dcheira",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209522,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Hassania d'Agadir",
-      "awayTeam": "Union Touarga Sport",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209524,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "MAS de Fès",
-      "awayTeam": "RS Berkane",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209520,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Difaâ Hassani El-Jadidi",
@@ -47,41 +14,8 @@
       "marketCount": 0
     },
     {
-      "id": 209526,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Raja Club Athletic",
-      "awayTeam": "CODM Meknès",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209523,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Ittihad Tanger",
-      "awayTeam": "Renaissance Zemamra",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209519,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "AS FAR Rabat",
-      "awayTeam": "Kawkab Athletic Club Marrakech",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209525,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Olympic Safi",
@@ -91,12 +25,78 @@
       "marketCount": 0
     },
     {
+      "id": 209519,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "AS FAR Rabat",
+      "awayTeam": "Kawkab Athletic Club Marrakech",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209522,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Hassania d'Agadir",
+      "awayTeam": "Union Touarga Sport",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9985,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Avaí",
       "awayTeam": "Cuiabá",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209523,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Ittihad Tanger",
+      "awayTeam": "Renaissance Zemamra",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209524,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "MAS de Fès",
+      "awayTeam": "RS Berkane",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209521,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Fath Union Sport",
+      "awayTeam": "Olympique Dcheira",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209526,
+      "status": "2nd_half",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Raja Club Athletic",
+      "awayTeam": "CODM Meknès",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
