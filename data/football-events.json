@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-20T23:15:36.729Z",
+  "generatedAt": "2026-06-21T01:59:25.852Z",
   "count": 50,
   "items": [
     {
-      "id": 9993,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Vila Nova FC",
-      "awayTeam": "Náutico",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9987,
-      "status": "2nd_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Ceará",
-      "awayTeam": "Botafogo-SP",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207669,
-      "status": "1st_half",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Hartford Athletic",
-      "awayTeam": "Pittsburgh Riverhounds",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207668,
-      "status": "1st_half",
+      "status": "finished",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Brooklyn FC",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 207669,
+      "status": "finished",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Hartford Athletic",
+      "awayTeam": "Pittsburgh Riverhounds",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207670,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "SC Jacksonville",
@@ -58,19 +36,8 @@
       "marketCount": 0
     },
     {
-      "id": 207671,
-      "status": "notstarted",
-      "league": "USL Championship",
-      "country": "USA",
-      "homeTeam": "Birmingham Legion FC",
-      "awayTeam": "Loudoun United FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8322,
-      "status": "notstarted",
+      "status": "finished",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Ecuador",
@@ -80,8 +47,19 @@
       "marketCount": 0
     },
     {
+      "id": 207671,
+      "status": "2nd_half",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Birmingham Legion FC",
+      "awayTeam": "Loudoun United FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207672,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "FC Tulsa",
@@ -168,12 +146,34 @@
       "marketCount": 0
     },
     {
+      "id": 209523,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Ittihad Tanger",
+      "awayTeam": "Renaissance Zemamra",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 209522,
       "status": "notstarted",
       "league": "Botola Pro",
       "country": "Morocco",
       "homeTeam": "Hassania d'Agadir",
       "awayTeam": "Union Touarga Sport",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209521,
+      "status": "notstarted",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Fath Union Sport",
+      "awayTeam": "Olympique Dcheira",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -196,28 +196,6 @@
       "country": "Morocco",
       "homeTeam": "Difaâ Hassani El-Jadidi",
       "awayTeam": "Wydad Casablanca",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209521,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Fath Union Sport",
-      "awayTeam": "Olympique Dcheira",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 209523,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Ittihad Tanger",
-      "awayTeam": "Renaissance Zemamra",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -548,6 +526,28 @@
       "country": "USA",
       "homeTeam": "Charleston Battery",
       "awayTeam": "Loudoun United FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207678,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Miami FC",
+      "awayTeam": "Orange County SC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207679,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Colorado Springs Switchbacks FC",
+      "awayTeam": "San Antonio FC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
