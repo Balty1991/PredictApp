@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T07:01:11.735Z",
+  "generatedAt": "2026-06-21T10:52:53.875Z",
   "count": 50,
   "items": [
     {
@@ -229,6 +229,17 @@
       "country": "International",
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 210002,
+      "status": "notstarted",
+      "league": "NPL Queensland",
+      "country": "Australia",
+      "homeTeam": "Gold Coast Knights",
+      "awayTeam": "Eastern Suburbs",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -537,17 +548,6 @@
       "country": "Morocco",
       "homeTeam": "Wydad Casablanca",
       "awayTeam": "MAS de Fès",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8341,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Curaçao",
-      "awayTeam": "Côte d'Ivoire",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
