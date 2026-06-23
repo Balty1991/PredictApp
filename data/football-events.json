@@ -1,32 +1,10 @@
 {
-  "generatedAt": "2026-06-23T19:28:12.241Z",
+  "generatedAt": "2026-06-23T21:16:27.124Z",
   "count": 50,
   "items": [
     {
-      "id": 207253,
-      "status": "finished",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "HJK",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8331,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Portugal",
-      "awayTeam": "Uzbekistan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8332,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "England",
@@ -548,6 +526,28 @@
       "country": "Finland",
       "homeTeam": "IFK Mariehamn",
       "awayTeam": "Inter Turku",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207255,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "HJK",
+      "awayTeam": "Kuopion Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207258,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "Turun Palloseura",
+      "awayTeam": "FF Jaro",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
