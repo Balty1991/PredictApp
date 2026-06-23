@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-06-23T15:13:51.303Z",
+  "generatedAt": "2026-06-23T17:26:33.848Z",
   "count": 50,
   "items": [
     {
-      "id": 207249,
-      "status": "1st_half",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "Turun Palloseura",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207248,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Kuopion Palloseura",
@@ -26,7 +15,7 @@
     },
     {
       "id": 207250,
-      "status": "1st_half",
+      "status": "finished",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "VPS",
@@ -36,8 +25,19 @@
       "marketCount": 0
     },
     {
+      "id": 207249,
+      "status": "finished",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "FC Lahti",
+      "awayTeam": "Turun Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207252,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "FF Jaro",
@@ -48,7 +48,7 @@
     },
     {
       "id": 207251,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "Inter Turku",
@@ -58,23 +58,23 @@
       "marketCount": 0
     },
     {
-      "id": 207253,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "IFK Mariehamn",
-      "awayTeam": "HJK",
+      "id": 8331,
+      "status": "1st_half",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
     },
     {
-      "id": 8331,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Portugal",
-      "awayTeam": "Uzbekistan",
+      "id": 207253,
+      "status": "1st_half",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IFK Mariehamn",
+      "awayTeam": "HJK",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
