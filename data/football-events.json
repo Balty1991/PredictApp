@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-22T23:51:07.934Z",
+  "generatedAt": "2026-06-23T04:03:57.082Z",
   "count": 50,
   "items": [
     {
-      "id": 8328,
-      "status": "halftime",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "France",
-      "awayTeam": "Iraq",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 9990,
-      "status": "1st_half",
-      "league": "Brasileirão Serie B",
-      "country": "Brazil",
-      "homeTeam": "Ponte Preta",
-      "awayTeam": "Grêmio Novorizontino",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8329,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Norway",
-      "awayTeam": "Senegal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8330,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Jordan",
@@ -53,17 +20,6 @@
       "country": "Australia",
       "homeTeam": "Gold Coast Knights",
       "awayTeam": "Eastern Suburbs",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207249,
-      "status": "notstarted",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "FC Lahti",
-      "awayTeam": "Turun Palloseura",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -91,6 +47,17 @@
       "marketCount": 0
     },
     {
+      "id": 207249,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "FC Lahti",
+      "awayTeam": "Turun Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207252,
       "status": "notstarted",
       "league": "Veikkausliiga",
@@ -113,23 +80,23 @@
       "marketCount": 0
     },
     {
-      "id": 8331,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Portugal",
-      "awayTeam": "Uzbekistan",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 207253,
       "status": "notstarted",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "IFK Mariehamn",
       "awayTeam": "HJK",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8331,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -344,17 +311,6 @@
       "marketCount": 0
     },
     {
-      "id": 209533,
-      "status": "notstarted",
-      "league": "Botola Pro",
-      "country": "Morocco",
-      "homeTeam": "Union Touarga Sport",
-      "awayTeam": "Difaâ Hassani El-Jadidi",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 209534,
       "status": "notstarted",
       "league": "Botola Pro",
@@ -366,12 +322,12 @@
       "marketCount": 0
     },
     {
-      "id": 8341,
+      "id": 209533,
       "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Curaçao",
-      "awayTeam": "Côte d'Ivoire",
+      "league": "Botola Pro",
+      "country": "Morocco",
+      "homeTeam": "Union Touarga Sport",
+      "awayTeam": "Difaâ Hassani El-Jadidi",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -383,6 +339,17 @@
       "country": "International",
       "homeTeam": "Ecuador",
       "awayTeam": "Germany",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8341,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Curaçao",
+      "awayTeam": "Côte d'Ivoire",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -498,17 +465,6 @@
       "marketCount": 0
     },
     {
-      "id": 8350,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Uruguay",
-      "awayTeam": "Spain",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8349,
       "status": "notstarted",
       "league": "World Cup 2026",
@@ -520,12 +476,12 @@
       "marketCount": 0
     },
     {
-      "id": 8352,
+      "id": 8350,
       "status": "notstarted",
       "league": "World Cup 2026",
       "country": "International",
-      "homeTeam": "New Zealand",
-      "awayTeam": "Belgium",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Spain",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
@@ -542,12 +498,56 @@
       "marketCount": 0
     },
     {
+      "id": 8352,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "New Zealand",
+      "awayTeam": "Belgium",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 210016,
       "status": "notstarted",
       "league": "NPL Queensland",
       "country": "Australia",
       "homeTeam": "Magic United TFA",
       "awayTeam": "Brisbane City",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 210017,
+      "status": "notstarted",
+      "league": "NPL Queensland",
+      "country": "Australia",
+      "homeTeam": "Peninsula Power",
+      "awayTeam": "Brisbane Roar Youth",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 210018,
+      "status": "notstarted",
+      "league": "NPL Queensland",
+      "country": "Australia",
+      "homeTeam": "Eastern Suburbs",
+      "awayTeam": "Olympic FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205806,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Liaoning Tieren FC",
+      "awayTeam": "Shandong Taishan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
