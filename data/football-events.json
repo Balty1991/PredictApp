@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-24T21:54:53.544Z",
+  "generatedAt": "2026-06-24T23:11:57.909Z",
   "count": 50,
   "items": [
     {
-      "id": 8335,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Switzerland",
-      "awayTeam": "Canada",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8336,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Bosnia & Herzegovina",
-      "awayTeam": "Qatar",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8338,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Scotland",
-      "awayTeam": "Brazil",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8337,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Morocco",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 8338,
+      "status": "2nd_half",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Scotland",
+      "awayTeam": "Brazil",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207677,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "USL Championship",
       "country": "USA",
       "homeTeam": "Charleston Battery",
@@ -548,6 +526,28 @@
       "country": "International",
       "homeTeam": "Croatia",
       "awayTeam": "Ghana",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8354,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Panama",
+      "awayTeam": "England",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8355,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Colombia",
+      "awayTeam": "Portugal",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
