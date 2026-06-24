@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-06-23T22:47:56.226Z",
+  "generatedAt": "2026-06-24T00:02:51.453Z",
   "count": 50,
   "items": [
     {
-      "id": 8332,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "England",
-      "awayTeam": "Ghana",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 9984,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "América Mineiro",
@@ -26,7 +15,7 @@
     },
     {
       "id": 8333,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Panama",
@@ -548,6 +537,17 @@
       "country": "Finland",
       "homeTeam": "Turun Palloseura",
       "awayTeam": "FF Jaro",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207257,
+      "status": "notstarted",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "IF Gnistan",
+      "awayTeam": "VPS",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
