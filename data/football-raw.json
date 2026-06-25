@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T01:32:44.417Z",
+  "generatedAt": "2026-06-25T06:13:53.040Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,50 +21,50 @@
   ],
   "samples": {
     "event": {
-      "id": 207678,
+      "id": 209528,
       "league": {
-        "id": 57,
-        "name": "USL Championship",
-        "country": "USA",
+        "id": 53,
+        "name": "Botola Pro",
+        "country": "Morocco",
         "is_women": false,
         "current_season": null
       },
       "season": null,
-      "home_team": "Miami FC",
-      "away_team": "Orange County SC",
+      "home_team": "Kawkab Athletic Club Marrakech",
+      "away_team": "Fath Union Sport",
       "home_team_obj": {
-        "id": 2244,
-        "name": "Miami FC",
-        "short_name": "Miami FC",
-        "country": "USA",
+        "id": 2065,
+        "name": "Kawkab Athletic Club Marrakech",
+        "short_name": "KACM",
+        "country": "Morocco",
         "coach": {
-          "name": "Gastón Maddoni",
-          "shortName": "G. Maddoni"
+          "name": "Hicham Dmiai",
+          "shortName": "H. Dmiai"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 2237,
-        "name": "Orange County SC",
-        "short_name": "Orange County SC",
-        "country": "USA",
+        "id": 2066,
+        "name": "Fath Union Sport",
+        "short_name": "FUS Rabat",
+        "country": "Morocco",
         "coach": {
-          "name": "Danny Stone",
-          "shortName": "D. Stone"
+          "name": "Saïd Chiba",
+          "shortName": "S. Chiba"
         },
         "venue": null
       },
-      "event_date": "2026-06-25T03:00:00+04:00",
-      "round_number": 1,
+      "event_date": "2026-06-25T21:00:00+04:00",
+      "round_number": 27,
       "round_name": "",
       "group_name": null,
-      "status": "finished",
-      "home_score": 2,
-      "away_score": 4,
-      "home_score_ht": 1,
-      "away_score_ht": 1,
-      "current_minute": 90,
-      "period": "FT",
+      "status": "notstarted",
+      "home_score": null,
+      "away_score": null,
+      "home_score_ht": null,
+      "away_score_ht": null,
+      "current_minute": null,
+      "period": "",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -82,371 +82,59 @@
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
-      "travel_distance_km": 3701,
-      "weather_code": 3,
-      "wind_speed": 15,
-      "temperature_c": 32,
-      "pitch_condition": 2,
+      "travel_distance_km": null,
+      "weather_code": null,
+      "wind_speed": null,
+      "temperature_c": null,
+      "pitch_condition": null,
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1639,
-        "name": "Gastón Maddoni",
-        "short_name": "G. Maddoni",
-        "country": "Argentina",
-        "profile": "balanced",
-        "preferred_formation": "3-4-3",
-        "pressing_intensity": 0.3040323749701531,
-        "defensive_line": "high",
-        "top_styles": [
-          "anti_football",
-          "terrorist_fb"
-        ]
-      },
-      "away_coach": {
-        "id": 1632,
-        "name": "Danny Stone",
-        "short_name": "D. Stone",
-        "country": "England",
-        "profile": "balanced",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.18979839169807805,
+        "id": 1483,
+        "name": "Hicham Dmiai",
+        "short_name": "H. Dmiai",
+        "country": "Morocco",
+        "profile": "defensive",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.33865322283814325,
         "defensive_line": "mid",
         "top_styles": [
           "terrorist_fb",
-          "park_the_bus"
+          "anti_football"
+        ]
+      },
+      "away_coach": {
+        "id": 1484,
+        "name": "Saïd Chiba",
+        "short_name": "S. Chiba",
+        "country": "",
+        "profile": "balanced",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.27818046644749317,
+        "defensive_line": "mid",
+        "top_styles": [
+          "terrorist_fb",
+          "no_midfield"
         ]
       },
       "unavailable_players": null,
-      "venue": {
-        "id": 1332,
-        "name": "FIU Stadium",
-        "city": "Miami",
-        "country": "USA",
-        "capacity": 21000,
-        "latitude": 25.7525,
-        "longitude": -80.3779,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
-      },
-      "live_stats": {
-        "away": {
-          "duels": 51,
-          "fouls": 12,
-          "passes": 387,
-          "crosses": "4/13 (31%)",
-          "tackles": 12,
-          "dribbles": "4/12 (33%)",
-          "offsides": 1,
-          "big_saves": 2,
-          "throw_ins": 9,
-          "clearances": 36,
-          "free_kicks": 18,
-          "goal_kicks": 8,
-          "long_balls": "22/50 (44%)",
-          "recoveries": 45,
-          "big_chances": 3,
-          "high_claims": 1,
-          "tackles_won": 67,
-          "total_saves": 2,
-          "total_shots": 14,
-          "aerial_duels": "11/23 (48%)",
-          "corner_kicks": 3,
-          "dispossessed": 6,
-          "ground_duels": "34/66 (52%)",
-          "hit_woodwork": 0,
-          "yellow_cards": 2,
-          "blocked_shots": 3,
-          "interceptions": 6,
-          "total_tackles": 12,
-          "accurate_passes": 320,
-          "ball_possession": 46,
-          "shots_on_target": 5,
-          "goalkeeper_saves": 2,
-          "shots_inside_box": 8,
-          "shots_off_target": 6,
-          "final_third_phase": "48/72 (67%)",
-          "shots_outside_box": 6,
-          "big_chances_scored": 3,
-          "final_third_entries": 35,
-          "errors_lead_to_a_goal": 0,
-          "fouled_in_final_third": 2,
-          "touches_in_penalty_area": 17
-        },
-        "home": {
-          "duels": 49,
-          "fouls": 18,
-          "passes": 441,
-          "crosses": "4/25 (16%)",
-          "tackles": 15,
-          "dribbles": "6/13 (46%)",
-          "offsides": 3,
-          "big_saves": 0,
-          "throw_ins": 13,
-          "clearances": 17,
-          "free_kicks": 12,
-          "goal_kicks": 9,
-          "long_balls": "32/51 (63%)",
-          "recoveries": 41,
-          "big_chances": 1,
-          "high_claims": 0,
-          "tackles_won": 80,
-          "total_saves": 1,
-          "total_shots": 14,
-          "aerial_duels": "12/24 (50%)",
-          "corner_kicks": 8,
-          "dispossessed": 6,
-          "ground_duels": "33/68 (49%)",
-          "hit_woodwork": 1,
-          "yellow_cards": 2,
-          "blocked_shots": 6,
-          "interceptions": 7,
-          "total_tackles": 15,
-          "accurate_passes": 382,
-          "ball_possession": 54,
-          "shots_on_target": 4,
-          "goalkeeper_saves": 1,
-          "shots_inside_box": 10,
-          "shots_off_target": 4,
-          "final_third_phase": "112/148 (76%)",
-          "shots_outside_box": 4,
-          "big_chances_scored": 1,
-          "final_third_entries": 51,
-          "errors_lead_to_a_goal": 1,
-          "fouled_in_final_third": 0,
-          "touches_in_penalty_area": 37
-        },
-        "first_half": {
-          "away": {
-            "duels": 52,
-            "fouls": 4,
-            "passes": 229,
-            "crosses": "3/10 (30%)",
-            "tackles": 6,
-            "dribbles": "2/6 (33%)",
-            "offsides": 0,
-            "throw_ins": 6,
-            "clearances": 15,
-            "free_kicks": 7,
-            "goal_kicks": 3,
-            "long_balls": "14/22 (64%)",
-            "recoveries": 20,
-            "big_chances": 1,
-            "tackles_won": 67,
-            "total_saves": 0,
-            "total_shots": 7,
-            "aerial_duels": "7/14 (50%)",
-            "corner_kicks": 3,
-            "dispossessed": 2,
-            "ground_duels": "15/28 (54%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 2,
-            "interceptions": 5,
-            "total_tackles": 6,
-            "accurate_passes": 196,
-            "ball_possession": 51,
-            "shots_on_target": 2,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 3,
-            "shots_off_target": 3,
-            "shots_outside_box": 4,
-            "big_chances_scored": 1,
-            "final_third_entries": 14,
-            "fouled_in_final_third": 1
-          },
-          "home": {
-            "duels": 48,
-            "fouls": 7,
-            "passes": 217,
-            "crosses": "1/8 (13%)",
-            "tackles": 6,
-            "dribbles": "3/6 (50%)",
-            "offsides": 1,
-            "throw_ins": 5,
-            "clearances": 11,
-            "free_kicks": 4,
-            "goal_kicks": 5,
-            "long_balls": "12/24 (50%)",
-            "recoveries": 21,
-            "big_chances": 0,
-            "tackles_won": 67,
-            "total_saves": 1,
-            "total_shots": 5,
-            "aerial_duels": "7/14 (50%)",
-            "corner_kicks": 2,
-            "dispossessed": 3,
-            "ground_duels": "13/28 (46%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 2,
-            "blocked_shots": 2,
-            "interceptions": 5,
-            "total_tackles": 6,
-            "accurate_passes": 185,
-            "ball_possession": 49,
-            "shots_on_target": 1,
-            "goalkeeper_saves": 1,
-            "shots_inside_box": 4,
-            "shots_off_target": 2,
-            "shots_outside_box": 1,
-            "big_chances_scored": 0,
-            "final_third_entries": 21,
-            "fouled_in_final_third": 0
-          }
-        },
-        "second_half": {
-          "away": {
-            "duels": 49,
-            "fouls": 8,
-            "passes": 158,
-            "crosses": "1/3 (33%)",
-            "tackles": 6,
-            "dribbles": "2/6 (33%)",
-            "offsides": 1,
-            "throw_ins": 3,
-            "clearances": 21,
-            "free_kicks": 11,
-            "goal_kicks": 5,
-            "long_balls": "8/28 (29%)",
-            "recoveries": 25,
-            "big_chances": 2,
-            "tackles_won": 67,
-            "total_saves": 2,
-            "total_shots": 7,
-            "aerial_duels": "4/9 (44%)",
-            "corner_kicks": 0,
-            "dispossessed": 4,
-            "ground_duels": "19/38 (50%)",
-            "hit_woodwork": 0,
-            "yellow_cards": 1,
-            "blocked_shots": 1,
-            "interceptions": 1,
-            "total_tackles": 6,
-            "accurate_passes": 124,
-            "ball_possession": 40,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 2,
-            "shots_inside_box": 5,
-            "shots_off_target": 3,
-            "shots_outside_box": 2,
-            "big_chances_scored": 2,
-            "final_third_entries": 21,
-            "fouled_in_final_third": 1
-          },
-          "home": {
-            "duels": 50,
-            "fouls": 11,
-            "passes": 224,
-            "crosses": "3/17 (18%)",
-            "tackles": 9,
-            "dribbles": "3/7 (43%)",
-            "offsides": 2,
-            "throw_ins": 8,
-            "clearances": 6,
-            "free_kicks": 8,
-            "goal_kicks": 4,
-            "long_balls": "20/27 (74%)",
-            "recoveries": 20,
-            "big_chances": 1,
-            "tackles_won": 89,
-            "total_saves": 0,
-            "total_shots": 9,
-            "aerial_duels": "5/10 (50%)",
-            "corner_kicks": 6,
-            "dispossessed": 3,
-            "ground_duels": "20/40 (50%)",
-            "hit_woodwork": 1,
-            "yellow_cards": 0,
-            "blocked_shots": 4,
-            "interceptions": 2,
-            "total_tackles": 9,
-            "accurate_passes": 197,
-            "ball_possession": 60,
-            "shots_on_target": 3,
-            "goalkeeper_saves": 0,
-            "shots_inside_box": 6,
-            "shots_off_target": 2,
-            "shots_outside_box": 3,
-            "big_chances_scored": 1,
-            "final_third_entries": 30,
-            "fouled_in_final_third": 0
-          }
-        }
-      },
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "ff3300",
-            "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "000000"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "D8D8D8",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
-          }
-        }
-      },
+      "venue": null,
+      "live_stats": null,
+      "jerseys": null,
       "funfacts": null,
-      "sr_stats": {
-        "attack": {
-          "away": 80,
-          "home": 93
-        },
-        "ball_safe": {
-          "away": 78,
-          "home": 70
-        },
-        "attack_pct": {
-          "away": 21,
-          "home": 25
-        },
-        "ball_safe_pct": {
-          "away": 58,
-          "home": 50
-        },
-        "dangerous_attack": {
-          "away": 38,
-          "home": 52
-        },
-        "dangerous_attack_pct": {
-          "away": 21,
-          "home": 25
-        }
-      },
+      "sr_stats": null,
       "ai_preview": {
-        "text": "**Home-field advantage could be the difference here** — Miami FC's FIU Stadium is no joke, and they'll lean on that edge against a solid but road-weary Orange County side. 🏟️\n\nMiami are **2W 3D 2L** across their last stretch (that 4-3 win over Louisville was a mini statement), while Orange County sits **2W 2D 1L** with some impressive road results. Both squads can score and both can slip up, so this feels wide open on paper.\n\nKey storylines:\n\n- **Miami's attacking spark** with **J. Locadia** and **A. Rocha** up top will test Orange County's backline early\n- **Orange County's counter threat** — **L. MacKinnon** and **M. Bunbury** can hit on the break if Miami overcommit\n- Home turf vibes; Miami gets the crowd at FIU, Orange County battling travel fatigue\n\nExpected lineups:\n\n- **Miami FC**: E. Room, A. Calfo, D. Knutson, P. Kilwien, A. Milesi, B. Ndiaye, R. Tori, M. Romero, R. d. Costa, A. Rocha, J. Locadia\n- **Orange County SC**: A. Rando, T. Brewitt, G. Tubbs, N. Benalcazar, M. War, K. Partida, S. Kelly, C. Hegardt, O. Sylla, M. Bunbury, L. MacKinnon\n\nPrediction:\n\n**Miami 2-1 Orange County**. Slight lean to the hosts — better recent form, home crowd, and the model sees it that way. 📍",
-        "generated_at": "2026-06-23T23:45:21.570131+00:00"
+        "text": "**Kawkab's in the doghouse and Fath's steadier — this feels like a low-scoring scrap in Marrakech.** 🔴 Neither side is exactly electric right now, but the form gap is real: Kawkab have lost three of their last five, while Fath have picked up draws and a shock win over Wydad to stay afloat.\n\nKawkab need a spark at home, but their recent defensive frailties (0-2 hammerings to FAR and Tanger) suggest they're vulnerable. Fath, meanwhile, are the drawing specialists—they've collected three draws in five—which often points to tight, cagey affairs. Their only loss came at home to Dcheira, so there's some solidity when they lock in.\n\nKey storylines:\n\n- **Kawkab's attacking threat** hinges on the creativity of **O. Mahrous** and the finishing of **H. Founti** in a side desperate to avoid another home defeat.\n- **Fath's defensive discipline** (led by **C. Salaheddine** and **H. E. Mahssani**) has kept them ticking over, even if goals are hard to come by.\n- Last meeting ended level; expect a similar grind.\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Fassoukh, O. Mahrous, S. Cissé, I. Mihrab, H. Founti\n- **Fath Union Sport**: A. Lakred, C. Salaheddine, H. E. Mahssani, A. E. Msane, A. Mahir, D. Bassinga, A. Souane, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** Coin flip on the day, but the form and defensive setups scream stalemate. 📍",
+        "generated_at": "2026-06-25T02:45:19.315394+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 5293,
+      "id": 5290,
       "event": {
-        "id": 209531,
+        "id": 209528,
         "league": {
           "id": 53,
           "name": "Botola Pro",
@@ -455,27 +143,27 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "Renaissance Zemamra",
-        "away_team": "Olympic Safi",
+        "home_team": "Kawkab Athletic Club Marrakech",
+        "away_team": "Fath Union Sport",
         "home_team_obj": {
-          "id": 2072,
-          "name": "Renaissance Zemamra",
-          "short_name": "Renaissance Zemamra",
+          "id": 2065,
+          "name": "Kawkab Athletic Club Marrakech",
+          "short_name": "KACM",
           "country": "Morocco",
           "coach": {
-            "name": "Mehdi Mrani Alaoui",
-            "shortName": "M. M. Alaoui"
+            "name": "Hicham Dmiai",
+            "shortName": "H. Dmiai"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 2061,
-          "name": "Olympic Safi",
-          "short_name": "OC Safi",
+          "id": 2066,
+          "name": "Fath Union Sport",
+          "short_name": "FUS Rabat",
           "country": "Morocco",
           "coach": {
-            "name": "Mounir Jaouani",
-            "shortName": "M. Jaouani"
+            "name": "Saïd Chiba",
+            "shortName": "S. Chiba"
           },
           "venue": null
         },
@@ -507,9 +195,9 @@
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
-        "travel_distance_km": 61,
+        "travel_distance_km": null,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -517,31 +205,31 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 1812,
-          "name": "Mehdi Mrani Alaoui",
-          "short_name": "M. M. Alaoui",
+          "id": 1483,
+          "name": "Hicham Dmiai",
+          "short_name": "H. Dmiai",
           "country": "Morocco",
           "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.40565067537243404,
+          "pressing_intensity": 0.33865322283814325,
           "defensive_line": "mid",
           "top_styles": [
-            "park_the_bus",
-            "low_block"
+            "terrorist_fb",
+            "anti_football"
           ]
         },
         "away_coach": {
-          "id": 1810,
-          "name": "Mounir Jaouani",
-          "short_name": "M. Jaouani",
-          "country": "Morocco",
-          "profile": "defensive",
+          "id": 1484,
+          "name": "Saïd Chiba",
+          "short_name": "S. Chiba",
+          "country": "",
+          "profile": "balanced",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.4822887237555895,
+          "pressing_intensity": 0.27818046644749317,
           "defensive_line": "mid",
           "top_styles": [
-            "park_the_bus",
-            "territory"
+            "terrorist_fb",
+            "no_midfield"
           ]
         },
         "unavailable_players": null,
@@ -553,77 +241,31 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "66ff66",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "66ff66"
-            },
-            "player": {
-              "base": "000099",
-              "real": true,
-              "type": "short_sleeves",
-              "number": "cc0000",
-              "sleeve": "cc0000"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "efc131",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
-            },
-            "player": {
-              "base": "D8D8D8",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
-            }
-          }
-        },
-        "funfacts": [
-          {
-            "type_id": 24,
-            "sentence": "Olympique de Safi's away record this season: 1-6-6."
-          },
-          {
-            "type_id": 26,
-            "sentence": "A year ago, Olympique de Safi were number 6 in the table with 38 points. Now they are number 16 with 19 points."
-          },
-          {
-            "type_id": 26,
-            "sentence": "A year ago, Renaissance Zemamra were number 5 in the table with 40 points. Now they are number 11 with 29 points."
-          }
-        ],
+        "jerseys": null,
+        "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Renaissance Zemamra hosting Olympic Safi in a matchday 27 slog** — both teams are in rough form, but the hosts have the edge here. 🔴\n\nRenaissance dropped a heartbreaker to Raja Club Athletic (3-4) at home last time out, while Safi are genuinely struggling: just one win in five and blanked at home by Union Sportive Yacoub El Mansour. The head-to-head also favors Zemamra convincingly.\n\nKey storylines:\n\n- **Renaissance Zemamra's home record**: mixed results but notably beat CODM Meknès away and remain unbeaten at home in recent memory against Safi\n- **Olympic Safi's attacking drought**: one goal in their last three and zero creativity; defensive vulnerability on the road is glaring\n- **A low-intensity Botola clash**: both teams misfiring means expect a grinding, defensively-minded contest\n\nExpected lineups:\n\n- **Renaissance Zemamra**: M. Fakhr, B. Soufi, A. Badaoui, R. A. Boughima, J. Ajako, M. Kamal, A. E. Bajjani, M. Elhtemy, Z. Ghailan\n- **Olympic Safi**: Y. E. Motie, F. Karmoune, I. Serbout, H. Ferhani, A Mkhair, S. Errahouli, F. D. Ngoma, Y. Najari, M. Koné\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Renaissance Zemamra 1–0 Olympic Safi**. Tight, scrappy home win — Safi can't break down a determined Zemamra defense. 📍",
-          "generated_at": "2026-06-24T17:45:20.214919+00:00"
+          "text": "**Kawkab's in the doghouse and Fath's steadier — this feels like a low-scoring scrap in Marrakech.** 🔴 Neither side is exactly electric right now, but the form gap is real: Kawkab have lost three of their last five, while Fath have picked up draws and a shock win over Wydad to stay afloat.\n\nKawkab need a spark at home, but their recent defensive frailties (0-2 hammerings to FAR and Tanger) suggest they're vulnerable. Fath, meanwhile, are the drawing specialists—they've collected three draws in five—which often points to tight, cagey affairs. Their only loss came at home to Dcheira, so there's some solidity when they lock in.\n\nKey storylines:\n\n- **Kawkab's attacking threat** hinges on the creativity of **O. Mahrous** and the finishing of **H. Founti** in a side desperate to avoid another home defeat.\n- **Fath's defensive discipline** (led by **C. Salaheddine** and **H. E. Mahssani**) has kept them ticking over, even if goals are hard to come by.\n- Last meeting ended level; expect a similar grind.\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Fassoukh, O. Mahrous, S. Cissé, I. Mihrab, H. Founti\n- **Fath Union Sport**: A. Lakred, C. Salaheddine, H. E. Mahssani, A. E. Msane, A. Mahir, D. Bassinga, A. Souane, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** Coin flip on the day, but the form and defensive setups scream stalemate. 📍",
+          "generated_at": "2026-06-25T02:45:19.315394+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-06-19T06:20:19.984134+04:00",
-      "prob_home_win": 49.728902911407054,
-      "prob_draw": 29.20873147380883,
-      "prob_away_win": 21.062365614784113,
-      "predicted_result": "H",
-      "expected_home_goals": 0.28872000000000003,
-      "expected_away_goals": 0.28868999999999995,
-      "prob_over_15": 51.337104180648176,
-      "prob_over_25": 33.310773316778665,
-      "prob_over_35": 14.628552033135724,
-      "prob_btts_yes": 48.106983180346134,
-      "confidence": 49.728902911407054,
+      "created_at": "2026-06-19T06:20:18.256017+04:00",
+      "prob_home_win": 34.82337704729875,
+      "prob_draw": 35.03430734305349,
+      "prob_away_win": 30.142315609647763,
+      "predicted_result": "D",
+      "expected_home_goals": 0.4736,
+      "expected_away_goals": 0.62329,
+      "prob_over_15": 68.61386631151873,
+      "prob_over_25": 33.46219030499268,
+      "prob_over_35": 14.219883050243192,
+      "prob_btts_yes": 47.4703275094264,
+      "confidence": 35.03430734305349,
       "model_version": "v5.0",
       "most_likely_score": "0-0",
       "favorite": "H",
-      "favorite_prob": 49.728902911407054,
+      "favorite_prob": 34.82337704729875,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
