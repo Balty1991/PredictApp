@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T17:31:49.685Z",
+  "generatedAt": "2026-06-25T20:09:46.805Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,232 +21,363 @@
   ],
   "samples": {
     "event": {
-      "id": 209530,
+      "id": 8342,
       "league": {
-        "id": 53,
-        "name": "Botola Pro",
-        "country": "Morocco",
+        "id": 27,
+        "name": "World Cup 2026",
+        "country": "International",
         "is_women": false,
-        "current_season": null
+        "current_season": {
+          "id": 188,
+          "name": "World Cup 2026",
+          "year": 2026,
+          "start_date": "2026-01-01",
+          "end_date": "2026-12-31"
+        }
       },
-      "season": null,
-      "home_team": "RS Berkane",
-      "away_team": "AS FAR Rabat",
+      "season": {
+        "id": 188,
+        "name": "World Cup 2026",
+        "year": 2026
+      },
+      "home_team": "Ecuador",
+      "away_team": "Germany",
       "home_team_obj": {
-        "id": 594,
-        "name": "RS Berkane",
-        "short_name": "RS Berkane",
-        "country": "Morocco",
+        "id": 472,
+        "name": "Ecuador",
+        "short_name": "Ecuador",
+        "country": "Ecuador",
         "coach": {
-          "name": "Moïn Chaabani",
-          "shortName": "M. Chaabani"
+          "name": "Sebastian Beccacece",
+          "shortName": "S. Beccacece"
         },
         "venue": {
-          "id": 472,
-          "name": "Stade Municipal de Berkane",
-          "city": "Berkane",
-          "country": "Morocco",
-          "capacity": 15000
+          "id": 432,
+          "name": "Estadio Rodrigo Paz Delgado",
+          "city": "Quito",
+          "country": "Ecuador",
+          "capacity": 41575
         }
       },
       "away_team_obj": {
-        "id": 586,
-        "name": "AS FAR Rabat",
-        "short_name": "AS FAR",
-        "country": "Morocco",
+        "id": 467,
+        "name": "Germany",
+        "short_name": "Germany",
+        "country": "Germany",
         "coach": {
-          "name": "Alexandre Santos",
-          "shortName": "A. Santos"
+          "name": "Julian Nagelsmann",
+          "shortName": "J. Nagelsmann"
         },
-        "venue": {
-          "id": 467,
-          "name": "Complexe Sportif Moulay Abdellah",
-          "city": "Rabat",
-          "country": "Morocco",
-          "capacity": 69700
-        }
+        "venue": null
       },
-      "event_date": "2026-06-25T21:00:00+04:00",
-      "round_number": 27,
+      "event_date": "2026-06-26T00:00:00+04:00",
+      "round_number": 3,
       "round_name": "",
-      "group_name": null,
+      "group_name": "Group E",
       "status": "1st_half",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 1,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": 29,
+      "current_minute": 9,
       "period": "1T",
-      "odds_home": null,
-      "odds_draw": null,
-      "odds_away": null,
-      "odds_over_15": null,
-      "odds_over_25": null,
-      "odds_over_35": null,
-      "odds_under_15": null,
-      "odds_under_25": null,
-      "odds_under_35": null,
-      "odds_btts_yes": null,
-      "odds_btts_no": null,
+      "odds_home": 4.93,
+      "odds_draw": 3.77,
+      "odds_away": 1.66,
+      "odds_over_15": 1.27,
+      "odds_over_25": 1.86,
+      "odds_over_35": 3.11,
+      "odds_under_15": 3.59,
+      "odds_under_25": 1.91,
+      "odds_under_35": 1.34,
+      "odds_btts_yes": 1.82,
+      "odds_btts_no": 1.9,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
-      "away_xg_live": null,
+      "away_xg_live": 0.14,
       "penalty_shootout": null,
       "extra_time_score": null,
       "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 433,
-      "weather_code": null,
-      "wind_speed": null,
-      "temperature_c": null,
+      "travel_distance_km": null,
+      "weather_code": 51,
+      "wind_speed": 9.9,
+      "temperature_c": 28,
       "pitch_condition": null,
       "attendance": null,
-      "referee": null,
-      "home_coach": {
-        "id": 555,
-        "name": "Moïn Chaabani",
-        "short_name": "M. Chaabani",
-        "country": "Tunisia",
-        "profile": "balanced",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.46626298912976283,
-        "defensive_line": "mid",
-        "top_styles": [
-          "territory",
-          "tiki_taka"
-        ]
+      "referee": {
+        "id": 1837,
+        "name": "Tori Penso",
+        "country": "USA",
+        "nationality_a3": "",
+        "birthdate": null,
+        "yellowCards": 349,
+        "redCards": 3,
+        "career_games": 95,
+        "career_yellow_cards": 349,
+        "career_red_cards": 3
       },
-      "away_coach": {
-        "id": 554,
-        "name": "Alexandre Santos",
-        "short_name": "A. Santos",
-        "country": "Portugal",
+      "home_coach": {
+        "id": 103,
+        "name": "Sebastian Beccacece",
+        "short_name": "S. Beccacece",
+        "country": "Argentina",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.48120080331264975,
-        "defensive_line": "mid",
+        "pressing_intensity": 0.7316046375221347,
+        "defensive_line": "high",
         "top_styles": [
-          "territory",
+          "ball_dominant",
           "positional"
         ]
       },
-      "unavailable_players": {
-        "home": [],
-        "away": [
-          {
-            "name": "Mohamed Rabie Hrimat",
-            "status": "injured",
-            "reason": "Leg Injury",
-            "expected_return": "2026-06-30"
-          },
-          {
-            "name": "Youssef El Fahli",
-            "status": "injured",
-            "reason": "Shoulder Injury",
-            "expected_return": "2026-07-20"
-          }
+      "away_coach": {
+        "id": 51,
+        "name": "Julian Nagelsmann",
+        "short_name": "J. Nagelsmann",
+        "country": "Germany",
+        "profile": "attacking",
+        "preferred_formation": "4-2-3-1",
+        "pressing_intensity": 0.5476803845536217,
+        "defensive_line": "high",
+        "top_styles": [
+          "positional",
+          "ball_dominant"
         ]
       },
+      "unavailable_players": null,
       "venue": {
-        "id": 472,
-        "name": "Stade Municipal de Berkane",
-        "city": "Berkane",
-        "country": "Morocco",
-        "capacity": 15000,
-        "latitude": null,
-        "longitude": null,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
+        "id": 1182,
+        "name": "MetLife Stadium",
+        "city": "East Rutherford",
+        "country": "USA",
+        "capacity": 82500,
+        "latitude": 40.8135,
+        "longitude": -74.0745,
+        "pitch_x": 105,
+        "pitch_y": 68,
+        "built_year": 2010
       },
-      "live_stats": null,
+      "live_stats": {
+        "away": {
+          "duels": 57,
+          "fouls": 2,
+          "passes": 43,
+          "crosses": "0/1 (0%)",
+          "tackles": 1,
+          "dribbles": "1/1 (100%)",
+          "throw_ins": 2,
+          "clearances": 0,
+          "free_kicks": 2,
+          "long_balls": "2/5 (40%)",
+          "recoveries": 3,
+          "big_chances": 1,
+          "tackles_won": 100,
+          "total_shots": 2,
+          "aerial_duels": "0/1 (0%)",
+          "dispossessed": 0,
+          "ground_duels": "4/6 (67%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 1,
+          "interceptions": 0,
+          "total_tackles": 1,
+          "expected_goals": 0.14,
+          "accurate_passes": 37,
+          "ball_possession": 62,
+          "goals_prevented": 0,
+          "shots_on_target": 1,
+          "shots_inside_box": 1,
+          "shots_off_target": 0,
+          "final_third_phase": "12/16 (75%)",
+          "shots_outside_box": 1,
+          "big_chances_scored": 1,
+          "final_third_entries": 8,
+          "fouled_in_final_third": 1,
+          "touches_in_penalty_area": 5
+        },
+        "home": {
+          "duels": 43,
+          "fouls": 2,
+          "passes": 28,
+          "crosses": "0/0 (0%)",
+          "tackles": 0,
+          "dribbles": "0/0 (0%)",
+          "throw_ins": 2,
+          "clearances": 4,
+          "free_kicks": 2,
+          "long_balls": "1/3 (33%)",
+          "recoveries": 2,
+          "big_chances": 0,
+          "tackles_won": 0,
+          "total_shots": 0,
+          "aerial_duels": "1/1 (100%)",
+          "dispossessed": 1,
+          "ground_duels": "2/6 (33%)",
+          "hit_woodwork": 0,
+          "blocked_shots": 0,
+          "interceptions": 1,
+          "total_tackles": 0,
+          "expected_goals": 0,
+          "accurate_passes": 25,
+          "ball_possession": 38,
+          "goals_prevented": -0.53,
+          "shots_on_target": 0,
+          "shots_inside_box": 0,
+          "shots_off_target": 0,
+          "final_third_phase": "1/2 (50%)",
+          "shots_outside_box": 0,
+          "big_chances_scored": 0,
+          "final_third_entries": 2,
+          "fouled_in_final_third": 0,
+          "touches_in_penalty_area": 0
+        },
+        "first_half": {
+          "away": {
+            "duels": 57,
+            "fouls": 2,
+            "passes": 43,
+            "crosses": "0/1 (0%)",
+            "tackles": 1,
+            "dribbles": "1/1 (100%)",
+            "throw_ins": 2,
+            "clearances": 0,
+            "free_kicks": 2,
+            "long_balls": "2/5 (40%)",
+            "recoveries": 3,
+            "big_chances": 1,
+            "tackles_won": 100,
+            "total_shots": 2,
+            "aerial_duels": "0/1 (0%)",
+            "dispossessed": 0,
+            "ground_duels": "4/6 (67%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 1,
+            "interceptions": 0,
+            "total_tackles": 1,
+            "expected_goals": 0.14,
+            "accurate_passes": 37,
+            "ball_possession": 62,
+            "shots_on_target": 1,
+            "shots_inside_box": 1,
+            "shots_off_target": 0,
+            "shots_outside_box": 1,
+            "big_chances_scored": 1,
+            "final_third_entries": 8,
+            "fouled_in_final_third": 1
+          },
+          "home": {
+            "duels": 43,
+            "fouls": 2,
+            "passes": 28,
+            "crosses": "0/0 (0%)",
+            "tackles": 0,
+            "dribbles": "0/0 (0%)",
+            "throw_ins": 2,
+            "clearances": 4,
+            "free_kicks": 2,
+            "long_balls": "1/3 (33%)",
+            "recoveries": 2,
+            "big_chances": 0,
+            "tackles_won": 0,
+            "total_shots": 0,
+            "aerial_duels": "1/1 (100%)",
+            "dispossessed": 1,
+            "ground_duels": "2/6 (33%)",
+            "hit_woodwork": 0,
+            "blocked_shots": 0,
+            "interceptions": 1,
+            "total_tackles": 0,
+            "expected_goals": 0,
+            "accurate_passes": 25,
+            "ball_possession": 38,
+            "shots_on_target": 0,
+            "shots_inside_box": 0,
+            "shots_off_target": 0,
+            "shots_outside_box": 0,
+            "big_chances_scored": 0,
+            "final_third_entries": 2,
+            "fouled_in_final_third": 0
+          }
+        }
+      },
       "jerseys": {
         "away": {
           "GK": {
-            "base": "66ccff",
+            "base": "f3ef17",
             "real": true,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "66ccff"
+            "type": "long_sleeves",
+            "number": "000003",
+            "sleeve": "e5ef17"
           },
           "player": {
-            "base": "003300",
+            "base": "2c3d58",
             "real": true,
             "type": "short_sleeves",
-            "number": "dd0000",
-            "sleeve": "000000",
-            "stripes": "cc0000"
+            "number": "ffffff",
+            "sleeve": "ffffff",
+            "sleevelong": "2f3d57"
           }
         },
         "home": {
           "GK": {
-            "base": "009933",
+            "base": "a8a6ac",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000"
+            "number": "28487b",
+            "sleeve": "30477a"
           },
           "player": {
-            "base": "ff6633",
+            "base": "ebd31e",
             "real": true,
             "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "000000",
-            "stripes": "000000"
+            "number": "0a2175",
+            "sleeve": "10141f"
           }
         }
       },
       "funfacts": [
         {
-          "type_id": 24,
-          "sentence": "Berkane's home record this season: 8-4-1."
-        },
-        {
-          "type_id": 24,
-          "sentence": "Far Rabat's away record this season: 4-9-0."
-        },
-        {
           "type_id": 1,
-          "sentence": "Far Rabat haven't lost in their last 7 games."
+          "sentence": "Germany have a winning streak of 11 matches."
         }
       ],
       "sr_stats": {
         "attack": {
-          "away": 42,
-          "home": 45
+          "away": 7,
+          "home": 4
         },
         "ball_safe": {
-          "away": 33,
-          "home": 37
+          "away": 5,
+          "home": 4
         },
         "attack_pct": {
-          "away": 20,
-          "home": 18
+          "away": 30,
+          "home": 26
         },
         "ball_safe_pct": {
-          "away": 63,
-          "home": 56
+          "away": 15,
+          "home": 67
         },
         "dangerous_attack": {
-          "away": 20,
-          "home": 25
+          "away": 5,
+          "home": 1
         },
         "dangerous_attack_pct": {
-          "away": 17,
-          "home": 26
+          "away": 55,
+          "home": 7
         }
       },
       "ai_preview": {
-        "text": "**Berkane host FAR Rabat in a mid-table scrap** — both sides are knocking on the door of the playoff spots, and three points here could shift the entire Round 27 picture. 🔥\n\nBerkane are solid at home with **3 wins in their last 5**, though they got stung 1-0 by Agadir recently. FAR Rabat are the hotter team overall — **unbeaten in five** with back-to-back victories including an impressive 2-1 win over Wydad. The visitors will fancy their chances, but Berkane's familiar turf is no joke.\n\nKey storylines:\n\n- **Y. E. Kaabi** up front for Berkane will be crucial against FAR's defense; can he convert the home advantage?\n- **FAR's missing firepower** — **M. R. Hrimat** and **Y. E. Fahli** are sidelined with injuries, which takes some sting out of their attacking threat\n- **M. Chouiar and P. Bassène** form the Berkane midfield spine; they'll need to control tempo against **K. Ourkane and T. Carneiro**\n\nExpected lineups:\n\n- **RS Berkane**: A. Zniti, I. Kandouss, M. A. Sadil, H. Manaout, E. Boukhriss, M. Chouiar, Y. Labhiri, P. Bassène, Y. Mehri, O. Lamlioui, Y. E. Kaabi\n- **AS FAR Rabat**: H. Mesbahi, A. Bach, M. Louadni, F. F. Mendy, T. Carneiro, K. Ourkane, R. Slim, M. Bourika, A. Hadraf, H. Khabba, J. E. Khfiyef\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1** — slight lean to Berkane's home edge, but FAR's unbeaten run keeps this tight.",
-        "generated_at": "2026-06-25T02:45:57.348979+00:00"
+        "text": "**Germany comes in absolutely rolling, but Ecuador aren't here to fold** — this MetLife clash could get cagey fast. 🔥\n\nGermany's 5-0 run speaks volumes, including a 7-1 demolition of Curaçao. Ecuador, though, mixed results lately—beat Guatemala 3-0 but lost to Côte d'Ivoire 1-0 and drew with Curaçao. The model sees this as a **coin flip**, which tells you everything: both teams can win it.\n\nKey storylines:\n\n- **Germany's attack** has been absolutely clinical, but missing **N. Schlotterbeck** (ligament injury) could leave cracks in defense for Ecuador to exploit\n- **M. Caicedo** anchors Ecuador's midfield with **P. Estupiñán** providing width—they'll need to break up Germany's tempo early\n- **K. Havertz** and **F. Wirtz** are running hot, but Ecuador's back line of **W. Pacho** and **J. Ordóñez** can hold firm\n\nExpected lineups:\n\n- **Ecuador**: H. Galíndez, P. Hincapié, W. Pacho, J. Ordóñez, F. Torres, P. Vite, M. Caicedo, A. Franco, P. Estupiñán, J. Yeboah, E. Valencia\n- **Germany**: M. Neuer, D. Raum, J. Tah, W. Anton, N. Brown, J. Kimmich, A. Pavlović, N. Woltemade, F. Wirtz, L. Karl, K. Havertz\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Germany 2–1 Ecuador.** Edge to the Germans, but Ecuador keeps it tight. ⚪",
+        "generated_at": "2026-06-25T02:46:07.992298+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 4869,
+      "id": 4871,
       "event": {
-        "id": 8341,
+        "id": 8344,
         "league": {
           "id": 27,
           "name": "World Cup 2026",
@@ -265,40 +396,40 @@
           "name": "World Cup 2026",
           "year": 2026
         },
-        "home_team": "Curaçao",
-        "away_team": "Côte d'Ivoire",
+        "home_team": "Tunisia",
+        "away_team": "Netherlands",
         "home_team_obj": {
-          "id": 468,
-          "name": "Curaçao",
-          "short_name": "Curaçao",
-          "country": "Curacao",
+          "id": 474,
+          "name": "Tunisia",
+          "short_name": "Tunisia",
+          "country": "Tunisia",
           "coach": {
-            "name": "Dick Advocaat",
-            "shortName": "D. Advocaat"
+            "name": "Hervé Renard",
+            "shortName": "H. Renard"
           },
           "venue": {
-            "id": 431,
-            "name": "Estadio Ergilio Hato",
-            "city": "Willemstad",
-            "country": "Curacao",
-            "capacity": 15000
+            "id": 433,
+            "name": "Stade Hammadi Agrebi",
+            "city": "Rades",
+            "country": "Tunisia",
+            "capacity": 65000
           }
         },
         "away_team_obj": {
-          "id": 471,
-          "name": "Côte d'Ivoire",
-          "short_name": "Côte d'Ivoire",
-          "country": "Côte d'Ivoire",
+          "id": 469,
+          "name": "Netherlands",
+          "short_name": "Netherlands",
+          "country": "Netherlands",
           "coach": {
-            "name": "Emerse Faé",
-            "shortName": "E. Faé"
+            "name": "Ronald Koeman",
+            "shortName": "R. Koeman"
           },
           "venue": null
         },
-        "event_date": "2026-06-26T00:00:00+04:00",
+        "event_date": "2026-06-26T03:00:00+04:00",
         "round_number": 3,
         "round_name": "",
-        "group_name": "Group E",
+        "group_name": "Group F",
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -306,17 +437,17 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 9.14,
-        "odds_draw": 4.99,
-        "odds_away": 1.31,
-        "odds_over_15": 1.24,
-        "odds_over_25": 1.76,
-        "odds_over_35": 2.9,
-        "odds_under_15": 3.92,
-        "odds_under_25": 2.01,
-        "odds_under_35": 1.38,
-        "odds_btts_yes": 2.17,
-        "odds_btts_no": 1.62,
+        "odds_home": 6.12,
+        "odds_draw": 4.09,
+        "odds_away": 1.51,
+        "odds_over_15": 1.27,
+        "odds_over_25": 1.87,
+        "odds_over_35": 3.14,
+        "odds_under_15": 3.59,
+        "odds_under_25": 1.9,
+        "odds_under_35": 1.33,
+        "odds_btts_yes": 1.96,
+        "odds_btts_no": 1.77,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
@@ -326,60 +457,60 @@
         "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 3,
-        "wind_speed": 24.1,
-        "temperature_c": 32,
+        "weather_code": 0,
+        "wind_speed": 10.1,
+        "temperature_c": 25,
         "pitch_condition": null,
         "attendance": null,
         "referee": {
-          "id": 2039,
-          "name": "Glenn Nyberg",
-          "country": "Sweden",
+          "id": 2261,
+          "name": "Katia García",
+          "country": "Mexico",
           "nationality_a3": "",
           "birthdate": null,
-          "yellowCards": 1232,
-          "redCards": 20,
-          "career_games": 374,
-          "career_yellow_cards": 1232,
-          "career_red_cards": 20
+          "yellowCards": 199,
+          "redCards": 4,
+          "career_games": 51,
+          "career_yellow_cards": 199,
+          "career_red_cards": 4
         },
         "home_coach": {
-          "id": 1562,
-          "name": "Dick Advocaat",
-          "short_name": "D. Advocaat",
-          "country": "Netherlands",
+          "id": 71,
+          "name": "Hervé Renard",
+          "short_name": "H. Renard",
+          "country": "France",
           "profile": "attacking",
-          "preferred_formation": "4-2-3-1",
+          "preferred_formation": "4-3-3",
           "pressing_intensity": null,
           "defensive_line": "",
           "top_styles": []
         },
         "away_coach": {
-          "id": 96,
-          "name": "Emerse Faé",
-          "short_name": "E. Faé",
-          "country": "Côte d'Ivoire",
+          "id": 102,
+          "name": "Ronald Koeman",
+          "short_name": "R. Koeman",
+          "country": "Netherlands",
           "profile": "attacking",
           "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.41260375476523287,
-          "defensive_line": "mid",
+          "pressing_intensity": 0.3185591579944971,
+          "defensive_line": "high",
           "top_styles": [
-            "low_block",
-            "tiki_taka"
+            "ball_dominant",
+            "moments_fc"
           ]
         },
         "unavailable_players": null,
         "venue": {
-          "id": 1185,
-          "name": "Lincoln Financial Field",
-          "city": "Philadelphia",
+          "id": 1187,
+          "name": "Arrowhead Stadium",
+          "city": "Kansas City",
           "country": "USA",
-          "capacity": 69176,
-          "latitude": 39.9014,
-          "longitude": -75.1675,
+          "capacity": 76416,
+          "latitude": 39.049019,
+          "longitude": -94.48414,
           "pitch_x": 105,
           "pitch_y": 68,
-          "built_year": 2003
+          "built_year": null
         },
         "incidents": null,
         "live_stats": null,
@@ -391,61 +522,70 @@
         "jerseys": {
           "away": {
             "GK": {
-              "base": "c2e635",
+              "base": "2db86f",
               "real": true,
-              "type": "short_sleeves",
-              "number": "1d1a1a",
-              "sleeve": "f6f6f6"
+              "type": "long_sleeves",
+              "number": "f9f1f1",
+              "sleeve": "35b94d"
             },
             "player": {
-              "base": "ff7c0a",
+              "base": "ff6803",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "05a8a5"
+              "number": "000000",
+              "sleeve": "0f0f0f"
             }
           },
           "home": {
             "GK": {
-              "base": "c3bdba",
+              "base": "28e9c2",
               "real": true,
               "type": "short_sleeves",
-              "number": "070601",
-              "sleeve": "f3f3f1"
+              "number": "030303",
+              "sleeve": "a7e0f5"
             },
             "player": {
-              "base": "2a1fbb",
+              "base": "f1f1f1",
               "real": true,
               "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "ffffff"
+              "number": "e12327",
+              "sleeve": "fafafa"
             }
           }
         },
-        "funfacts": null,
+        "funfacts": [
+          {
+            "type_id": 1,
+            "sentence": "Tunisia haven't won in their last 4 games."
+          },
+          {
+            "type_id": 1,
+            "sentence": "Tunisia have lost 3 matches in a row."
+          }
+        ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Curaçao's about to get a reality check** — Côte d'Ivoire are rolling into Philadelphia as one of the tournament's form teams, and the Islanders have been wildly inconsistent. 🔥\n\nCuraçao are 1W-2D-2L over their last stretch, including a shellacking from Germany. Côte d'Ivoire, meanwhile, are 4-1 with wins over Ecuador and France — they're the real deal right now, even without key defensive depth due to injury.\n\nKey storylines:\n\n- **Côte d'Ivoire's depth challenge** — E. Ndicka, O. Kossounou, and W. Singo all out means the backline needs to tighten up fast, but their form suggests they'll manage\n- **Curaçao's attacking spark** — J. Locadia and G. Kastaneer need to press the issue early before Côte d'Ivoire's midfield (F. Kessié and I. Sangaré) takes over\n- **Philadelphia factor** — Lincoln Financial Field is a neutral venue, but momentum is firmly with the Ivorians\n\nExpected lineups:\n\n- **Curaçao**: E. Room, L. Comenencia, S. Floranus, A. Obispo, J. Bacuna, L. Bacuna, T. Chong, J. Locadia, S. Hansen\n- **Côte d'Ivoire**: Y. Fofana, G. Konan, O. Diomande, C. Akpa, F. Kessié, I. Sangaré, S. Fofana, N. Pépé, E. Guessand\n\nBest picks:\n\n- **Total Goals Over 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Côte d'Ivoire 2-0 Curaçao** — the model leans Curaçao slightly, but the Ivorians' form and midfield control should prevail here. ✊",
-          "generated_at": "2026-06-25T02:46:02.567468+00:00"
+          "text": "**Netherlands rolls into the knockout stages looking sharp, while Tunisia desperately needs a miracle.** The Dutch are peaking at exactly the right time — that **5-1 demolition of Sweden** has the vibes locked in. 🔥\n\nTunisia's conceding for fun: four games, 19 goals against. The Netherlands smell blood here. **V. van Dijk** and the orange defense should have a field day against a leaky Tunisian side that's been getting picked apart all tournament.\n\nKey storylines:\n\n- **Netherlands** riding momentum from a statement win over Sweden; **F. de Jong** orchestrating in midfield will be crucial to controlling tempo\n- **Tunisia** searching for any spark after successive heavy defeats — **E. Skhiri** tasked with plugging holes and keeping the scoreline respectable\n- Arrowhead's noise could matter, but form tells the real story here\n\nExpected lineups:\n\n- **Netherlands**: M. Flekken, J. Hato, M. van de Ven, V. van Dijk, J. Timber, F. de Jong, T. Reijnders, R. Gravenberch, C. Gakpo, M. Depay, D. Malen\n- **Tunisia**: A. Dahmen, M. Talbi, A. Abdi, Y. Valery, O. Rekik, E. Skhiri, H. Mejbri, H. Mastouri, I. Gharbi, E. Saad, F. Chaouat\n\nPrediction:\n\n**Netherlands 4–0 Tunisia.** The Dutch have the edge and should cruise through. 🧡",
+          "generated_at": "2026-06-25T02:46:16.380826+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-02T14:53:22.374120+04:00",
-      "prob_home_win": 55.53424273318819,
-      "prob_draw": 22.884515135299445,
-      "prob_away_win": 21.581242131512365,
-      "predicted_result": "H",
-      "expected_home_goals": 1.65,
-      "expected_away_goals": 1.3166666666666667,
-      "prob_over_15": 84.8593211957469,
-      "prob_over_25": 60.95881877086615,
-      "prob_over_35": 25.649984434888218,
-      "prob_btts_yes": 63.43424321291248,
-      "confidence": 55.53424273318819,
+      "created_at": "2026-06-02T14:53:23.186939+04:00",
+      "prob_home_win": 16.50015331753253,
+      "prob_draw": 20.66151324959949,
+      "prob_away_win": 62.83833343286798,
+      "predicted_result": "A",
+      "expected_home_goals": 1,
+      "expected_away_goals": 1.5,
+      "prob_over_15": 76.24763469655677,
+      "prob_over_25": 53.410984564442366,
+      "prob_over_35": 24.50100314978052,
+      "prob_btts_yes": 47.78504254661999,
+      "confidence": 62.83833343286798,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "H",
-      "favorite_prob": 55.53424273318819,
+      "most_likely_score": "0-1",
+      "favorite": "A",
+      "favorite_prob": 62.83833343286798,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
