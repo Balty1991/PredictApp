@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T15:25:44.880Z",
+  "generatedAt": "2026-06-25T17:31:49.685Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 209528,
+      "id": 209530,
       "league": {
         "id": 53,
         "name": "Botola Pro",
@@ -30,41 +30,53 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "Kawkab Athletic Club Marrakech",
-      "away_team": "Fath Union Sport",
+      "home_team": "RS Berkane",
+      "away_team": "AS FAR Rabat",
       "home_team_obj": {
-        "id": 2065,
-        "name": "Kawkab Athletic Club Marrakech",
-        "short_name": "KACM",
+        "id": 594,
+        "name": "RS Berkane",
+        "short_name": "RS Berkane",
         "country": "Morocco",
         "coach": {
-          "name": "Hicham Dmiai",
-          "shortName": "H. Dmiai"
+          "name": "Moïn Chaabani",
+          "shortName": "M. Chaabani"
         },
-        "venue": null
+        "venue": {
+          "id": 472,
+          "name": "Stade Municipal de Berkane",
+          "city": "Berkane",
+          "country": "Morocco",
+          "capacity": 15000
+        }
       },
       "away_team_obj": {
-        "id": 2066,
-        "name": "Fath Union Sport",
-        "short_name": "FUS Rabat",
+        "id": 586,
+        "name": "AS FAR Rabat",
+        "short_name": "AS FAR",
         "country": "Morocco",
         "coach": {
-          "name": "Saïd Chiba",
-          "shortName": "S. Chiba"
+          "name": "Alexandre Santos",
+          "shortName": "A. Santos"
         },
-        "venue": null
+        "venue": {
+          "id": 467,
+          "name": "Complexe Sportif Moulay Abdellah",
+          "city": "Rabat",
+          "country": "Morocco",
+          "capacity": 69700
+        }
       },
       "event_date": "2026-06-25T21:00:00+04:00",
       "round_number": 27,
       "round_name": "",
       "group_name": null,
-      "status": "notstarted",
-      "home_score": null,
-      "away_score": null,
+      "status": "1st_half",
+      "home_score": 0,
+      "away_score": 0,
       "home_score_ht": null,
       "away_score_ht": null,
-      "current_minute": null,
-      "period": "",
+      "current_minute": 29,
+      "period": "1T",
       "odds_home": null,
       "odds_draw": null,
       "odds_away": null,
@@ -82,9 +94,9 @@
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": null,
+      "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": null,
+      "travel_distance_km": 433,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -92,85 +104,201 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 1483,
-        "name": "Hicham Dmiai",
-        "short_name": "H. Dmiai",
-        "country": "Morocco",
-        "profile": "defensive",
+        "id": 555,
+        "name": "Moïn Chaabani",
+        "short_name": "M. Chaabani",
+        "country": "Tunisia",
+        "profile": "balanced",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.33865322283814325,
+        "pressing_intensity": 0.46626298912976283,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "anti_football"
+          "territory",
+          "tiki_taka"
         ]
       },
       "away_coach": {
-        "id": 1484,
-        "name": "Saïd Chiba",
-        "short_name": "S. Chiba",
-        "country": "",
-        "profile": "balanced",
+        "id": 554,
+        "name": "Alexandre Santos",
+        "short_name": "A. Santos",
+        "country": "Portugal",
+        "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.27818046644749317,
+        "pressing_intensity": 0.48120080331264975,
         "defensive_line": "mid",
         "top_styles": [
-          "terrorist_fb",
-          "no_midfield"
+          "territory",
+          "positional"
         ]
       },
-      "unavailable_players": null,
-      "venue": null,
-      "live_stats": null,
-      "jerseys": null,
-      "funfacts": null,
-      "sr_stats": null,
-      "ai_preview": {
-        "text": "**Kawkab's in the doghouse and Fath's steadier — this feels like a low-scoring scrap in Marrakech.** 🔴 Neither side is exactly electric right now, but the form gap is real: Kawkab have lost three of their last five, while Fath have picked up draws and a shock win over Wydad to stay afloat.\n\nKawkab need a spark at home, but their recent defensive frailties (0-2 hammerings to FAR and Tanger) suggest they're vulnerable. Fath, meanwhile, are the drawing specialists—they've collected three draws in five—which often points to tight, cagey affairs. Their only loss came at home to Dcheira, so there's some solidity when they lock in.\n\nKey storylines:\n\n- **Kawkab's attacking threat** hinges on the creativity of **O. Mahrous** and the finishing of **H. Founti** in a side desperate to avoid another home defeat.\n- **Fath's defensive discipline** (led by **C. Salaheddine** and **H. E. Mahssani**) has kept them ticking over, even if goals are hard to come by.\n- Last meeting ended level; expect a similar grind.\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Fassoukh, O. Mahrous, S. Cissé, I. Mihrab, H. Founti\n- **Fath Union Sport**: A. Lakred, C. Salaheddine, H. E. Mahssani, A. E. Msane, A. Mahir, D. Bassinga, A. Souane, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** Coin flip on the day, but the form and defensive setups scream stalemate. 📍",
-        "generated_at": "2026-06-25T02:45:19.315394+00:00"
+      "unavailable_players": {
+        "home": [],
+        "away": [
+          {
+            "name": "Mohamed Rabie Hrimat",
+            "status": "injured",
+            "reason": "Leg Injury",
+            "expected_return": "2026-06-30"
+          },
+          {
+            "name": "Youssef El Fahli",
+            "status": "injured",
+            "reason": "Shoulder Injury",
+            "expected_return": "2026-07-20"
+          }
+        ]
       },
-      "live_websocket": false
+      "venue": {
+        "id": 472,
+        "name": "Stade Municipal de Berkane",
+        "city": "Berkane",
+        "country": "Morocco",
+        "capacity": 15000,
+        "latitude": null,
+        "longitude": null,
+        "pitch_x": null,
+        "pitch_y": null,
+        "built_year": null
+      },
+      "live_stats": null,
+      "jerseys": {
+        "away": {
+          "GK": {
+            "base": "66ccff",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "000000",
+            "sleeve": "66ccff"
+          },
+          "player": {
+            "base": "003300",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "dd0000",
+            "sleeve": "000000",
+            "stripes": "cc0000"
+          }
+        },
+        "home": {
+          "GK": {
+            "base": "009933",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000000"
+          },
+          "player": {
+            "base": "ff6633",
+            "real": true,
+            "type": "short_sleeves",
+            "number": "ffffff",
+            "sleeve": "000000",
+            "stripes": "000000"
+          }
+        }
+      },
+      "funfacts": [
+        {
+          "type_id": 24,
+          "sentence": "Berkane's home record this season: 8-4-1."
+        },
+        {
+          "type_id": 24,
+          "sentence": "Far Rabat's away record this season: 4-9-0."
+        },
+        {
+          "type_id": 1,
+          "sentence": "Far Rabat haven't lost in their last 7 games."
+        }
+      ],
+      "sr_stats": {
+        "attack": {
+          "away": 42,
+          "home": 45
+        },
+        "ball_safe": {
+          "away": 33,
+          "home": 37
+        },
+        "attack_pct": {
+          "away": 20,
+          "home": 18
+        },
+        "ball_safe_pct": {
+          "away": 63,
+          "home": 56
+        },
+        "dangerous_attack": {
+          "away": 20,
+          "home": 25
+        },
+        "dangerous_attack_pct": {
+          "away": 17,
+          "home": 26
+        }
+      },
+      "ai_preview": {
+        "text": "**Berkane host FAR Rabat in a mid-table scrap** — both sides are knocking on the door of the playoff spots, and three points here could shift the entire Round 27 picture. 🔥\n\nBerkane are solid at home with **3 wins in their last 5**, though they got stung 1-0 by Agadir recently. FAR Rabat are the hotter team overall — **unbeaten in five** with back-to-back victories including an impressive 2-1 win over Wydad. The visitors will fancy their chances, but Berkane's familiar turf is no joke.\n\nKey storylines:\n\n- **Y. E. Kaabi** up front for Berkane will be crucial against FAR's defense; can he convert the home advantage?\n- **FAR's missing firepower** — **M. R. Hrimat** and **Y. E. Fahli** are sidelined with injuries, which takes some sting out of their attacking threat\n- **M. Chouiar and P. Bassène** form the Berkane midfield spine; they'll need to control tempo against **K. Ourkane and T. Carneiro**\n\nExpected lineups:\n\n- **RS Berkane**: A. Zniti, I. Kandouss, M. A. Sadil, H. Manaout, E. Boukhriss, M. Chouiar, Y. Labhiri, P. Bassène, Y. Mehri, O. Lamlioui, Y. E. Kaabi\n- **AS FAR Rabat**: H. Mesbahi, A. Bach, M. Louadni, F. F. Mendy, T. Carneiro, K. Ourkane, R. Slim, M. Bourika, A. Hadraf, H. Khabba, J. E. Khfiyef\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**1-1** — slight lean to Berkane's home edge, but FAR's unbeaten run keeps this tight.",
+        "generated_at": "2026-06-25T02:45:57.348979+00:00"
+      },
+      "live_websocket": true
     },
     "prediction": {
-      "id": 5290,
+      "id": 4869,
       "event": {
-        "id": 209528,
+        "id": 8341,
         "league": {
-          "id": 53,
-          "name": "Botola Pro",
-          "country": "Morocco",
+          "id": 27,
+          "name": "World Cup 2026",
+          "country": "International",
           "is_women": false,
-          "current_season": null
+          "current_season": {
+            "id": 188,
+            "name": "World Cup 2026",
+            "year": 2026,
+            "start_date": "2026-01-01",
+            "end_date": "2026-12-31"
+          }
         },
-        "season": null,
-        "home_team": "Kawkab Athletic Club Marrakech",
-        "away_team": "Fath Union Sport",
+        "season": {
+          "id": 188,
+          "name": "World Cup 2026",
+          "year": 2026
+        },
+        "home_team": "Curaçao",
+        "away_team": "Côte d'Ivoire",
         "home_team_obj": {
-          "id": 2065,
-          "name": "Kawkab Athletic Club Marrakech",
-          "short_name": "KACM",
-          "country": "Morocco",
+          "id": 468,
+          "name": "Curaçao",
+          "short_name": "Curaçao",
+          "country": "Curacao",
           "coach": {
-            "name": "Hicham Dmiai",
-            "shortName": "H. Dmiai"
+            "name": "Dick Advocaat",
+            "shortName": "D. Advocaat"
           },
-          "venue": null
+          "venue": {
+            "id": 431,
+            "name": "Estadio Ergilio Hato",
+            "city": "Willemstad",
+            "country": "Curacao",
+            "capacity": 15000
+          }
         },
         "away_team_obj": {
-          "id": 2066,
-          "name": "Fath Union Sport",
-          "short_name": "FUS Rabat",
-          "country": "Morocco",
+          "id": 471,
+          "name": "Côte d'Ivoire",
+          "short_name": "Côte d'Ivoire",
+          "country": "Côte d'Ivoire",
           "coach": {
-            "name": "Saïd Chiba",
-            "shortName": "S. Chiba"
+            "name": "Emerse Faé",
+            "shortName": "E. Faé"
           },
           "venue": null
         },
-        "event_date": "2026-06-25T21:00:00+04:00",
-        "round_number": 27,
+        "event_date": "2026-06-26T00:00:00+04:00",
+        "round_number": 3,
         "round_name": "",
-        "group_name": null,
+        "group_name": "Group E",
         "status": "notstarted",
         "home_score": null,
         "away_score": null,
@@ -178,62 +306,81 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": null,
-        "odds_draw": null,
-        "odds_away": null,
-        "odds_over_15": null,
-        "odds_over_25": null,
-        "odds_over_35": null,
-        "odds_under_15": null,
-        "odds_under_25": null,
-        "odds_under_35": null,
-        "odds_btts_yes": null,
-        "odds_btts_no": null,
+        "odds_home": 9.14,
+        "odds_draw": 4.99,
+        "odds_away": 1.31,
+        "odds_over_15": 1.24,
+        "odds_over_25": 1.76,
+        "odds_over_35": 2.9,
+        "odds_under_15": 3.92,
+        "odds_under_25": 2.01,
+        "odds_under_35": 1.38,
+        "odds_btts_yes": 2.17,
+        "odds_btts_no": 1.62,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": null,
+        "is_local_derby": false,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": null,
-        "wind_speed": null,
-        "temperature_c": null,
+        "weather_code": 3,
+        "wind_speed": 24.1,
+        "temperature_c": 32,
         "pitch_condition": null,
         "attendance": null,
-        "referee": null,
+        "referee": {
+          "id": 2039,
+          "name": "Glenn Nyberg",
+          "country": "Sweden",
+          "nationality_a3": "",
+          "birthdate": null,
+          "yellowCards": 1232,
+          "redCards": 20,
+          "career_games": 374,
+          "career_yellow_cards": 1232,
+          "career_red_cards": 20
+        },
         "home_coach": {
-          "id": 1483,
-          "name": "Hicham Dmiai",
-          "short_name": "H. Dmiai",
-          "country": "Morocco",
-          "profile": "defensive",
+          "id": 1562,
+          "name": "Dick Advocaat",
+          "short_name": "D. Advocaat",
+          "country": "Netherlands",
+          "profile": "attacking",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.33865322283814325,
-          "defensive_line": "mid",
-          "top_styles": [
-            "terrorist_fb",
-            "anti_football"
-          ]
+          "pressing_intensity": null,
+          "defensive_line": "",
+          "top_styles": []
         },
         "away_coach": {
-          "id": 1484,
-          "name": "Saïd Chiba",
-          "short_name": "S. Chiba",
-          "country": "",
-          "profile": "balanced",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.27818046644749317,
+          "id": 96,
+          "name": "Emerse Faé",
+          "short_name": "E. Faé",
+          "country": "Côte d'Ivoire",
+          "profile": "attacking",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.41260375476523287,
           "defensive_line": "mid",
           "top_styles": [
-            "terrorist_fb",
-            "no_midfield"
+            "low_block",
+            "tiki_taka"
           ]
         },
         "unavailable_players": null,
-        "venue": null,
+        "venue": {
+          "id": 1185,
+          "name": "Lincoln Financial Field",
+          "city": "Philadelphia",
+          "country": "USA",
+          "capacity": 69176,
+          "latitude": 39.9014,
+          "longitude": -75.1675,
+          "pitch_x": 105,
+          "pitch_y": 68,
+          "built_year": 2003
+        },
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -241,31 +388,64 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": null,
+        "jerseys": {
+          "away": {
+            "GK": {
+              "base": "c2e635",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "1d1a1a",
+              "sleeve": "f6f6f6"
+            },
+            "player": {
+              "base": "ff7c0a",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "05a8a5"
+            }
+          },
+          "home": {
+            "GK": {
+              "base": "c3bdba",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "070601",
+              "sleeve": "f3f3f1"
+            },
+            "player": {
+              "base": "2a1fbb",
+              "real": true,
+              "type": "short_sleeves",
+              "number": "ffffff",
+              "sleeve": "ffffff"
+            }
+          }
+        },
         "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Kawkab's in the doghouse and Fath's steadier — this feels like a low-scoring scrap in Marrakech.** 🔴 Neither side is exactly electric right now, but the form gap is real: Kawkab have lost three of their last five, while Fath have picked up draws and a shock win over Wydad to stay afloat.\n\nKawkab need a spark at home, but their recent defensive frailties (0-2 hammerings to FAR and Tanger) suggest they're vulnerable. Fath, meanwhile, are the drawing specialists—they've collected three draws in five—which often points to tight, cagey affairs. Their only loss came at home to Dcheira, so there's some solidity when they lock in.\n\nKey storylines:\n\n- **Kawkab's attacking threat** hinges on the creativity of **O. Mahrous** and the finishing of **H. Founti** in a side desperate to avoid another home defeat.\n- **Fath's defensive discipline** (led by **C. Salaheddine** and **H. E. Mahssani**) has kept them ticking over, even if goals are hard to come by.\n- Last meeting ended level; expect a similar grind.\n\nExpected lineups:\n\n- **Kawkab Athletic Club Marrakech**: M. Jemjami, N. Lougmani, R. Mennioui, H. Fassoukh, O. Mahrous, S. Cissé, I. Mihrab, H. Founti\n- **Fath Union Sport**: A. Lakred, C. Salaheddine, H. E. Mahssani, A. E. Msane, A. Mahir, D. Bassinga, A. Souane, A. Mouloua\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction: **1-1 draw.** Coin flip on the day, but the form and defensive setups scream stalemate. 📍",
-          "generated_at": "2026-06-25T02:45:19.315394+00:00"
+          "text": "**Curaçao's about to get a reality check** — Côte d'Ivoire are rolling into Philadelphia as one of the tournament's form teams, and the Islanders have been wildly inconsistent. 🔥\n\nCuraçao are 1W-2D-2L over their last stretch, including a shellacking from Germany. Côte d'Ivoire, meanwhile, are 4-1 with wins over Ecuador and France — they're the real deal right now, even without key defensive depth due to injury.\n\nKey storylines:\n\n- **Côte d'Ivoire's depth challenge** — E. Ndicka, O. Kossounou, and W. Singo all out means the backline needs to tighten up fast, but their form suggests they'll manage\n- **Curaçao's attacking spark** — J. Locadia and G. Kastaneer need to press the issue early before Côte d'Ivoire's midfield (F. Kessié and I. Sangaré) takes over\n- **Philadelphia factor** — Lincoln Financial Field is a neutral venue, but momentum is firmly with the Ivorians\n\nExpected lineups:\n\n- **Curaçao**: E. Room, L. Comenencia, S. Floranus, A. Obispo, J. Bacuna, L. Bacuna, T. Chong, J. Locadia, S. Hansen\n- **Côte d'Ivoire**: Y. Fofana, G. Konan, O. Diomande, C. Akpa, F. Kessié, I. Sangaré, S. Fofana, N. Pépé, E. Guessand\n\nBest picks:\n\n- **Total Goals Over 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Côte d'Ivoire 2-0 Curaçao** — the model leans Curaçao slightly, but the Ivorians' form and midfield control should prevail here. ✊",
+          "generated_at": "2026-06-25T02:46:02.567468+00:00"
         },
-        "live_websocket": false
+        "live_websocket": true
       },
-      "created_at": "2026-06-19T06:20:18.256017+04:00",
-      "prob_home_win": 34.82337704729875,
-      "prob_draw": 35.03430734305349,
-      "prob_away_win": 30.142315609647763,
-      "predicted_result": "D",
-      "expected_home_goals": 0.4736,
-      "expected_away_goals": 0.62329,
-      "prob_over_15": 68.61386631151873,
-      "prob_over_25": 33.46219030499268,
-      "prob_over_35": 14.219883050243192,
-      "prob_btts_yes": 47.4703275094264,
-      "confidence": 35.03430734305349,
+      "created_at": "2026-06-02T14:53:22.374120+04:00",
+      "prob_home_win": 55.53424273318819,
+      "prob_draw": 22.884515135299445,
+      "prob_away_win": 21.581242131512365,
+      "predicted_result": "H",
+      "expected_home_goals": 1.65,
+      "expected_away_goals": 1.3166666666666667,
+      "prob_over_15": 84.8593211957469,
+      "prob_over_25": 60.95881877086615,
+      "prob_over_35": 25.649984434888218,
+      "prob_btts_yes": 63.43424321291248,
+      "confidence": 55.53424273318819,
       "model_version": "v5.0",
-      "most_likely_score": "0-0",
+      "most_likely_score": "1-1",
       "favorite": "H",
-      "favorite_prob": 34.82337704729875,
+      "favorite_prob": 55.53424273318819,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
