@@ -1,43 +1,10 @@
 {
-  "generatedAt": "2026-06-25T22:05:38.756Z",
+  "generatedAt": "2026-06-25T23:53:40.738Z",
   "count": 50,
   "items": [
     {
-      "id": 8341,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Curaçao",
-      "awayTeam": "Côte d'Ivoire",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8342,
-      "status": "finished",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Ecuador",
-      "awayTeam": "Germany",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 8343,
-      "status": "notstarted",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Japan",
-      "awayTeam": "Sweden",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8344,
-      "status": "notstarted",
+      "status": "halftime",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "Tunisia",
@@ -47,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 8343,
+      "status": "halftime",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Japan",
+      "awayTeam": "Sweden",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 9998,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Cuiabá",
@@ -548,6 +526,28 @@
       "country": "International",
       "homeTeam": "Germany",
       "awayTeam": "3A/3B/3C/3D/3F",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8362,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "1F",
+      "awayTeam": "Morocco",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 209509,
+      "status": "notstarted",
+      "league": "Suomen Cup",
+      "country": "Finland",
+      "homeTeam": "VPS",
+      "awayTeam": "Inter Turku",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
