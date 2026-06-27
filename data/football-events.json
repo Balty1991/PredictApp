@@ -1,65 +1,10 @@
 {
-  "generatedAt": "2026-06-27T14:14:44.796Z",
+  "generatedAt": "2026-06-27T15:49:45.890Z",
   "count": 50,
   "items": [
     {
-      "id": 205807,
-      "status": "finished",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Henan FC",
-      "awayTeam": "Shanghai Port",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205808,
-      "status": "finished",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Shenzhen Peng City",
-      "awayTeam": "Chengdu Rongcheng",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205809,
-      "status": "finished",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Beijing Guoan",
-      "awayTeam": "Wuhan Three Towns",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 205810,
-      "status": "finished",
-      "league": "Chinese Super League",
-      "country": "China",
-      "homeTeam": "Chongqing Tonglianglong FC",
-      "awayTeam": "Tianjin Jinmen Tiger",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
-      "id": 207255,
-      "status": "1st_half",
-      "league": "Veikkausliiga",
-      "country": "Finland",
-      "homeTeam": "HJK",
-      "awayTeam": "Kuopion Palloseura",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 10003,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Brasileirão Serie B",
       "country": "Brazil",
       "homeTeam": "Operário-PR",
@@ -69,8 +14,19 @@
       "marketCount": 0
     },
     {
+      "id": 207255,
+      "status": "2nd_half",
+      "league": "Veikkausliiga",
+      "country": "Finland",
+      "homeTeam": "HJK",
+      "awayTeam": "Kuopion Palloseura",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
       "id": 207256,
-      "status": "1st_half",
+      "status": "2nd_half",
       "league": "Veikkausliiga",
       "country": "Finland",
       "homeTeam": "IFK Mariehamn",
@@ -548,6 +504,50 @@
       "country": "International",
       "homeTeam": "2K",
       "awayTeam": "2L",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207680,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Birmingham Legion FC",
+      "awayTeam": "Detroit City FC",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 10008,
+      "status": "notstarted",
+      "league": "Brasileirão Serie B",
+      "country": "Brazil",
+      "homeTeam": "Fortaleza",
+      "awayTeam": "Ponte Preta",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 8371,
+      "status": "notstarted",
+      "league": "World Cup 2026",
+      "country": "International",
+      "homeTeam": "Switzerland",
+      "awayTeam": "3E/3F/3G/3I/3J",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 210021,
+      "status": "notstarted",
+      "league": "NPL Queensland",
+      "country": "Australia",
+      "homeTeam": "Wynnum Wolves FC",
+      "awayTeam": "Rochedale Rovers",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
