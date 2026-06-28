@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T14:01:38.420Z",
+  "generatedAt": "2026-06-28T15:51:27.525Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,7 +21,7 @@
   ],
   "samples": {
     "event": {
-      "id": 212773,
+      "id": 212779,
       "league": {
         "id": 53,
         "name": "Botola Pro",
@@ -30,33 +30,27 @@
         "current_season": null
       },
       "season": null,
-      "home_team": "AS FAR Rabat",
-      "away_team": "Union Touarga Sport",
+      "home_team": "Olympic Safi",
+      "away_team": "CODM Meknès",
       "home_team_obj": {
-        "id": 586,
-        "name": "AS FAR Rabat",
-        "short_name": "AS FAR",
+        "id": 2061,
+        "name": "Olympic Safi",
+        "short_name": "OC Safi",
         "country": "Morocco",
         "coach": {
-          "name": "Alexandre Santos",
-          "shortName": "A. Santos"
+          "name": "Mounir Jaouani",
+          "shortName": "M. Jaouani"
         },
-        "venue": {
-          "id": 467,
-          "name": "Complexe Sportif Moulay Abdellah",
-          "city": "Rabat",
-          "country": "Morocco",
-          "capacity": 69700
-        }
+        "venue": null
       },
       "away_team_obj": {
-        "id": 2062,
-        "name": "Union Touarga Sport",
-        "short_name": "Union Touarga",
+        "id": 2070,
+        "name": "CODM Meknès",
+        "short_name": "CODM",
         "country": "Morocco",
         "coach": {
-          "name": "Abdelouahed Zamrat",
-          "shortName": "A. Zamrat"
+          "name": "Abdelaziz Dnibi",
+          "shortName": "A. Dnibi"
         },
         "venue": null
       },
@@ -71,26 +65,26 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 1.34,
-      "odds_draw": 4.32,
-      "odds_away": 7.79,
-      "odds_over_15": 1.26,
-      "odds_over_25": 1.82,
-      "odds_over_35": 3.02,
-      "odds_under_15": 3.44,
-      "odds_under_25": 1.88,
-      "odds_under_35": 1.32,
-      "odds_btts_yes": 2.18,
-      "odds_btts_no": 1.6,
+      "odds_home": 1.86,
+      "odds_draw": 3,
+      "odds_away": 4.27,
+      "odds_over_15": 1.46,
+      "odds_over_25": 2.42,
+      "odds_over_35": 4.58,
+      "odds_under_15": 2.51,
+      "odds_under_25": 1.48,
+      "odds_under_35": 1.16,
+      "odds_btts_yes": 2.13,
+      "odds_btts_no": 1.62,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": true,
+      "is_local_derby": false,
       "is_neutral_ground": null,
-      "travel_distance_km": 7,
+      "travel_distance_km": 387,
       "weather_code": null,
       "wind_speed": null,
       "temperature_c": null,
@@ -98,68 +92,35 @@
       "attendance": null,
       "referee": null,
       "home_coach": {
-        "id": 554,
-        "name": "Alexandre Santos",
-        "short_name": "A. Santos",
-        "country": "Portugal",
+        "id": 1810,
+        "name": "Mounir Jaouani",
+        "short_name": "M. Jaouani",
+        "country": "Morocco",
         "profile": "defensive",
         "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.48120080331264975,
+        "pressing_intensity": 0.4822887237555895,
         "defensive_line": "mid",
         "top_styles": [
-          "territory",
-          "positional"
+          "park_the_bus",
+          "territory"
         ]
       },
       "away_coach": {
-        "id": 1480,
-        "name": "Abdelouahed Zamrat",
-        "short_name": "A. Zamrat",
+        "id": 1488,
+        "name": "Abdelaziz Dnibi",
+        "short_name": "A. Dnibi",
         "country": "",
-        "profile": "balanced",
-        "preferred_formation": "4-1-4-1",
-        "pressing_intensity": 0.33019684834338936,
-        "defensive_line": "low",
+        "profile": "defensive",
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.5330005298317129,
+        "defensive_line": "mid",
         "top_styles": [
-          "anti_football",
-          "park_the_bus"
+          "terrorist_fb",
+          "anti_football"
         ]
       },
-      "unavailable_players": {
-        "home": [
-          {
-            "name": "Marouane Louadni",
-            "status": "suspended",
-            "reason": "red_card_suspension",
-            "expected_return": "2026-06-28"
-          },
-          {
-            "name": "Mohamed Rabie Hrimat",
-            "status": "suspended",
-            "reason": "yellow_card_accumulation_suspension",
-            "expected_return": "2026-06-28"
-          },
-          {
-            "name": "Youssef El Fahli",
-            "status": "injured",
-            "reason": "Shoulder Injury",
-            "expected_return": "2026-07-20"
-          }
-        ],
-        "away": []
-      },
-      "venue": {
-        "id": 467,
-        "name": "Complexe Sportif Moulay Abdellah",
-        "city": "Rabat",
-        "country": "Morocco",
-        "capacity": 69700,
-        "latitude": null,
-        "longitude": null,
-        "pitch_x": null,
-        "pitch_y": null,
-        "built_year": null
-      },
+      "unavailable_players": null,
+      "venue": null,
       "live_stats": null,
       "jerseys": {
         "away": {
@@ -171,56 +132,55 @@
             "sleeve": "333333"
           },
           "player": {
-            "base": "D8D8D8",
-            "real": false,
+            "base": "cc0000",
+            "real": true,
             "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
+            "number": "ffffff",
+            "sleeve": "cc0000"
           }
         },
         "home": {
           "GK": {
-            "base": "66ccff",
+            "base": "66ff66",
             "real": true,
             "type": "short_sleeves",
             "number": "000000",
-            "sleeve": "66ccff"
+            "sleeve": "66ff66"
           },
           "player": {
-            "base": "003300",
+            "base": "000099",
             "real": true,
             "type": "short_sleeves",
-            "number": "dd0000",
-            "sleeve": "000000",
-            "stripes": "cc0000"
+            "number": "cc0000",
+            "sleeve": "cc0000"
           }
         }
       },
       "funfacts": [
         {
+          "type_id": 1,
+          "sentence": "Meknes haven't won in their last 5 games."
+        },
+        {
           "type_id": 2,
-          "sentence": "When playing at home, Far Rabat have not lost to Union Touarga in their last 4 encounters."
+          "sentence": "When playing at home, Olympique de Safi have not lost to Meknes in their last 3 encounters."
         },
         {
           "type_id": 24,
-          "sentence": "Far Rabat's home record this season: 9-4-0."
-        },
-        {
-          "type_id": 1,
-          "sentence": "Far Rabat haven't lost in their last 8 games."
+          "sentence": "Meknes's away record this season: 1-5-7."
         }
       ],
       "sr_stats": null,
       "ai_preview": {
-        "text": "**AS FAR Rabat rolls in favoring control and possession**, while Union Touarga Sport is hunting for consistency after a rough patch. Classic mid-table grind energy 🔥\n\nFAR's unbeaten run (2W 3D) has them locked in, though they're leaning on draws too much. Union just dropped two straight, so they'll need to tighten up defensively — but when they're on, they can sting you.\n\nKey storylines:\n\n- **AS FAR Rabat** pushing tempo through midfield with K. Ourkane and A. Hadraf dictating play\n- Union Touarga's defensive trio of T. E. Khalej, M. Ashabi, and Y. Akharraz under pressure from FAR's creative attacking setup\n- Both missing key depth — FAR without M. Louadni and M. R. Hrimat due to suspensions limits their wing options\n\nExpected lineups:\n\n- **AS FAR Rabat**: H. Mesbahi, A. Bach, F. F. Mendy, T. Carneiro, K. Ourkane, A. Hadraf, M. Bourika, A. Hammoudan, H. Khabba, J. E. Khfiyef\n- **Union Touarga Sport**: H. Bouelainine, T. E. Khalej, M. Ashabi, Y. Akharraz, Y. Dahmani, R. Lamkadem, N. Moustaghfir, H. Regragui, Y. Bammou, K. Konan\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**AS FAR 2–0 Union Touarga**. FAR edges this one with superior midfield control and the model's lean.",
-        "generated_at": "2026-06-28T00:46:12.917060+00:00"
+        "text": "**Olympic Safi's looking to capitalize on home turf against a struggling CODM side** — this feels like a chance for the hosts to grab all three points. 🎯\n\nSafi have found some rhythm with a win and two draws in their last five, while Meknès are in real trouble sitting at 0W from their last five outings. The visitor's 1–0 head-to-head edge doesn't change the fact they're leaking form badly.\n\nKey storylines:\n\n- **Olympic Safi's attack** needs to be clinical; they've drawn twice recently and can't afford to waste chances at home\n- **CODM Meknès' defensive woes** — three losses in five tells you everything about where this team's vulnerability lies\n- **I. Khannouss and S. E. Bouchqali** will be crucial to unlocking Meknès' backline in midfield and attack\n\nExpected lineups:\n\n- **Olympic Safi**: Y. E. Motie, F. Karmoune, I. Serbout, S. Morsli, H. Ferhani, S. Errahouli, F. D. Ngoma, I. Khannouss, S. E. Bouchqali, Y. Najari, M. Koné\n- **CODM Meknès**: R. Bounaga, A. Nouader, A. Lourhraz, O. Daoui, C. E. Knaidil, I. Benktib, L. Naji, A. Hmaidou, M. Sahd, Z. Eddib, A. Benkassou\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Olympic Safi 2–0 CODM Meknès** — home edge and form lean Safi's way here. 🟢",
+        "generated_at": "2026-06-28T00:45:47.462252+00:00"
       },
       "live_websocket": true
     },
     "prediction": {
-      "id": 5309,
+      "id": 5315,
       "event": {
-        "id": 212773,
+        "id": 212779,
         "league": {
           "id": 53,
           "name": "Botola Pro",
@@ -229,33 +189,27 @@
           "current_season": null
         },
         "season": null,
-        "home_team": "AS FAR Rabat",
-        "away_team": "Union Touarga Sport",
+        "home_team": "Olympic Safi",
+        "away_team": "CODM Meknès",
         "home_team_obj": {
-          "id": 586,
-          "name": "AS FAR Rabat",
-          "short_name": "AS FAR",
+          "id": 2061,
+          "name": "Olympic Safi",
+          "short_name": "OC Safi",
           "country": "Morocco",
           "coach": {
-            "name": "Alexandre Santos",
-            "shortName": "A. Santos"
+            "name": "Mounir Jaouani",
+            "shortName": "M. Jaouani"
           },
-          "venue": {
-            "id": 467,
-            "name": "Complexe Sportif Moulay Abdellah",
-            "city": "Rabat",
-            "country": "Morocco",
-            "capacity": 69700
-          }
+          "venue": null
         },
         "away_team_obj": {
-          "id": 2062,
-          "name": "Union Touarga Sport",
-          "short_name": "Union Touarga",
+          "id": 2070,
+          "name": "CODM Meknès",
+          "short_name": "CODM",
           "country": "Morocco",
           "coach": {
-            "name": "Abdelouahed Zamrat",
-            "shortName": "A. Zamrat"
+            "name": "Abdelaziz Dnibi",
+            "shortName": "A. Dnibi"
           },
           "venue": null
         },
@@ -270,26 +224,26 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 1.34,
-        "odds_draw": 4.32,
-        "odds_away": 7.79,
-        "odds_over_15": 1.26,
-        "odds_over_25": 1.82,
-        "odds_over_35": 3.02,
-        "odds_under_15": 3.44,
-        "odds_under_25": 1.88,
-        "odds_under_35": 1.32,
-        "odds_btts_yes": 2.18,
-        "odds_btts_no": 1.6,
+        "odds_home": 1.86,
+        "odds_draw": 3,
+        "odds_away": 4.27,
+        "odds_over_15": 1.46,
+        "odds_over_25": 2.42,
+        "odds_over_35": 4.58,
+        "odds_under_15": 2.51,
+        "odds_under_25": 1.48,
+        "odds_under_35": 1.16,
+        "odds_btts_yes": 2.13,
+        "odds_btts_no": 1.62,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": true,
+        "is_local_derby": false,
         "is_neutral_ground": null,
-        "travel_distance_km": 7,
+        "travel_distance_km": 387,
         "weather_code": null,
         "wind_speed": null,
         "temperature_c": null,
@@ -297,71 +251,426 @@
         "attendance": null,
         "referee": null,
         "home_coach": {
-          "id": 554,
-          "name": "Alexandre Santos",
-          "short_name": "A. Santos",
-          "country": "Portugal",
+          "id": 1810,
+          "name": "Mounir Jaouani",
+          "short_name": "M. Jaouani",
+          "country": "Morocco",
           "profile": "defensive",
           "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.48120080331264975,
+          "pressing_intensity": 0.4822887237555895,
           "defensive_line": "mid",
           "top_styles": [
-            "territory",
-            "positional"
+            "park_the_bus",
+            "territory"
           ]
         },
         "away_coach": {
-          "id": 1480,
-          "name": "Abdelouahed Zamrat",
-          "short_name": "A. Zamrat",
+          "id": 1488,
+          "name": "Abdelaziz Dnibi",
+          "short_name": "A. Dnibi",
           "country": "",
-          "profile": "balanced",
-          "preferred_formation": "4-1-4-1",
-          "pressing_intensity": 0.33019684834338936,
-          "defensive_line": "low",
+          "profile": "defensive",
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.5330005298317129,
+          "defensive_line": "mid",
           "top_styles": [
-            "anti_football",
-            "park_the_bus"
+            "terrorist_fb",
+            "anti_football"
           ]
         },
-        "unavailable_players": {
-          "home": [
-            {
-              "name": "Marouane Louadni",
-              "status": "suspended",
-              "reason": "red_card_suspension",
-              "expected_return": "2026-06-28"
-            },
-            {
-              "name": "Mohamed Rabie Hrimat",
-              "status": "suspended",
-              "reason": "yellow_card_accumulation_suspension",
-              "expected_return": "2026-06-28"
-            },
-            {
-              "name": "Youssef El Fahli",
-              "status": "injured",
-              "reason": "Shoulder Injury",
-              "expected_return": "2026-07-20"
-            }
-          ],
-          "away": []
-        },
-        "venue": {
-          "id": 467,
-          "name": "Complexe Sportif Moulay Abdellah",
-          "city": "Rabat",
-          "country": "Morocco",
-          "capacity": 69700,
-          "latitude": null,
-          "longitude": null,
-          "pitch_x": null,
-          "pitch_y": null,
-          "built_year": null
-        },
+        "unavailable_players": null,
+        "venue": null,
         "incidents": null,
         "live_stats": null,
-        "lineups": null,
+        "lineups": {
+          "away": {
+            "players": [
+              {
+                "name": "A. Majid",
+                "goals": 0,
+                "api_id": 919469,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 49719,
+                "yellow_card": false,
+                "jersey_number": "13",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "O. Daoui",
+                "goals": 0,
+                "api_id": 1525316,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49732,
+                "yellow_card": false,
+                "jersey_number": "16",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Nouader",
+                "goals": 0,
+                "api_id": 1401580,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49721,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "K. E. Bounagate",
+                "goals": 0,
+                "api_id": 1140959,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49722,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "C. E. Knaidil",
+                "goals": 0,
+                "api_id": 1433799,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49723,
+                "yellow_card": false,
+                "jersey_number": "3",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "M. Goulouss",
+                "goals": 0,
+                "api_id": 1461306,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49734,
+                "yellow_card": false,
+                "jersey_number": "10",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "L. Naji",
+                "goals": 0,
+                "api_id": 919761,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49725,
+                "yellow_card": false,
+                "jersey_number": "29",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "I. Benktib",
+                "goals": 0,
+                "api_id": 939864,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49726,
+                "yellow_card": false,
+                "jersey_number": "4",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Hmaidou",
+                "goals": 0,
+                "api_id": 1020148,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49724,
+                "yellow_card": false,
+                "jersey_number": "14",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "Y. Anouar",
+                "goals": 0,
+                "api_id": 884821,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49731,
+                "yellow_card": false,
+                "jersey_number": "7",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "Z. Eddib",
+                "goals": 0,
+                "api_id": 1919278,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 49728,
+                "yellow_card": false,
+                "jersey_number": "9",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-3-1-2",
+            "substitutes": []
+          },
+          "home": {
+            "players": [
+              {
+                "name": "Y. E. Motie",
+                "goals": 0,
+                "api_id": 1140796,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "G",
+                "red_card": false,
+                "player_id": 49842,
+                "yellow_card": false,
+                "jersey_number": "25",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "GK",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Soufeir",
+                "goals": 0,
+                "api_id": 1177186,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49933,
+                "yellow_card": false,
+                "jersey_number": "2",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "I. Serbout",
+                "goals": 0,
+                "api_id": 1404072,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49843,
+                "yellow_card": false,
+                "jersey_number": "32",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "T. M. Sanou",
+                "goals": 0,
+                "api_id": 2577938,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49920,
+                "yellow_card": false,
+                "jersey_number": "35",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Morsli",
+                "goals": 0,
+                "api_id": 919699,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49848,
+                "yellow_card": false,
+                "jersey_number": "27",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "F. Karmoune",
+                "goals": 0,
+                "api_id": 1525301,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "D",
+                "red_card": false,
+                "player_id": 49844,
+                "yellow_card": false,
+                "jersey_number": "8",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "DEF",
+                "positions_detailed": []
+              },
+              {
+                "name": "A. Ouhatti",
+                "goals": 0,
+                "api_id": 1095724,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49859,
+                "yellow_card": false,
+                "jersey_number": "55",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. E. Moudane",
+                "goals": 0,
+                "api_id": 868978,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49947,
+                "yellow_card": false,
+                "jersey_number": "6",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              },
+              {
+                "name": "Y. Najari",
+                "goals": 0,
+                "api_id": 1186787,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 49918,
+                "yellow_card": false,
+                "jersey_number": "19",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "I. Khannouss",
+                "goals": 0,
+                "api_id": 1404064,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "F",
+                "red_card": false,
+                "player_id": 49849,
+                "yellow_card": false,
+                "jersey_number": "18",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "FWD",
+                "positions_detailed": []
+              },
+              {
+                "name": "S. Errahouli",
+                "goals": 0,
+                "api_id": 1140930,
+                "rating": null,
+                "sub_in": null,
+                "sub_out": null,
+                "position": "M",
+                "red_card": false,
+                "player_id": 49850,
+                "yellow_card": false,
+                "jersey_number": "5",
+                "replaces_player_id": null,
+                "replaced_by_player_id": null,
+                "specific_position": "MID",
+                "positions_detailed": []
+              }
+            ],
+            "formation": "4-3-3",
+            "substitutes": []
+          },
+          "confirmed": false
+        },
         "shotmap": null,
         "momentum": null,
         "xg_per_minute": null,
@@ -376,68 +685,67 @@
               "sleeve": "333333"
             },
             "player": {
-              "base": "D8D8D8",
-              "real": false,
+              "base": "cc0000",
+              "real": true,
               "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
+              "number": "ffffff",
+              "sleeve": "cc0000"
             }
           },
           "home": {
             "GK": {
-              "base": "66ccff",
+              "base": "66ff66",
               "real": true,
               "type": "short_sleeves",
               "number": "000000",
-              "sleeve": "66ccff"
+              "sleeve": "66ff66"
             },
             "player": {
-              "base": "003300",
+              "base": "000099",
               "real": true,
               "type": "short_sleeves",
-              "number": "dd0000",
-              "sleeve": "000000",
-              "stripes": "cc0000"
+              "number": "cc0000",
+              "sleeve": "cc0000"
             }
           }
         },
         "funfacts": [
           {
+            "type_id": 1,
+            "sentence": "Meknes haven't won in their last 5 games."
+          },
+          {
             "type_id": 2,
-            "sentence": "When playing at home, Far Rabat have not lost to Union Touarga in their last 4 encounters."
+            "sentence": "When playing at home, Olympique de Safi have not lost to Meknes in their last 3 encounters."
           },
           {
             "type_id": 24,
-            "sentence": "Far Rabat's home record this season: 9-4-0."
-          },
-          {
-            "type_id": 1,
-            "sentence": "Far Rabat haven't lost in their last 8 games."
+            "sentence": "Meknes's away record this season: 1-5-7."
           }
         ],
         "sr_stats": null,
         "ai_preview": {
-          "text": "**AS FAR Rabat rolls in favoring control and possession**, while Union Touarga Sport is hunting for consistency after a rough patch. Classic mid-table grind energy 🔥\n\nFAR's unbeaten run (2W 3D) has them locked in, though they're leaning on draws too much. Union just dropped two straight, so they'll need to tighten up defensively — but when they're on, they can sting you.\n\nKey storylines:\n\n- **AS FAR Rabat** pushing tempo through midfield with K. Ourkane and A. Hadraf dictating play\n- Union Touarga's defensive trio of T. E. Khalej, M. Ashabi, and Y. Akharraz under pressure from FAR's creative attacking setup\n- Both missing key depth — FAR without M. Louadni and M. R. Hrimat due to suspensions limits their wing options\n\nExpected lineups:\n\n- **AS FAR Rabat**: H. Mesbahi, A. Bach, F. F. Mendy, T. Carneiro, K. Ourkane, A. Hadraf, M. Bourika, A. Hammoudan, H. Khabba, J. E. Khfiyef\n- **Union Touarga Sport**: H. Bouelainine, T. E. Khalej, M. Ashabi, Y. Akharraz, Y. Dahmani, R. Lamkadem, N. Moustaghfir, H. Regragui, Y. Bammou, K. Konan\n\nBest picks:\n\n- **Total Goals 3.5**: Under 3.5 goals\n\nPrediction:\n\n**AS FAR 2–0 Union Touarga**. FAR edges this one with superior midfield control and the model's lean.",
-          "generated_at": "2026-06-28T00:46:12.917060+00:00"
+          "text": "**Olympic Safi's looking to capitalize on home turf against a struggling CODM side** — this feels like a chance for the hosts to grab all three points. 🎯\n\nSafi have found some rhythm with a win and two draws in their last five, while Meknès are in real trouble sitting at 0W from their last five outings. The visitor's 1–0 head-to-head edge doesn't change the fact they're leaking form badly.\n\nKey storylines:\n\n- **Olympic Safi's attack** needs to be clinical; they've drawn twice recently and can't afford to waste chances at home\n- **CODM Meknès' defensive woes** — three losses in five tells you everything about where this team's vulnerability lies\n- **I. Khannouss and S. E. Bouchqali** will be crucial to unlocking Meknès' backline in midfield and attack\n\nExpected lineups:\n\n- **Olympic Safi**: Y. E. Motie, F. Karmoune, I. Serbout, S. Morsli, H. Ferhani, S. Errahouli, F. D. Ngoma, I. Khannouss, S. E. Bouchqali, Y. Najari, M. Koné\n- **CODM Meknès**: R. Bounaga, A. Nouader, A. Lourhraz, O. Daoui, C. E. Knaidil, I. Benktib, L. Naji, A. Hmaidou, M. Sahd, Z. Eddib, A. Benkassou\n\nBest picks:\n\n- **Total Goals Under 3.5**: Under 3.5 goals\n\nPrediction:\n\n**Olympic Safi 2–0 CODM Meknès** — home edge and form lean Safi's way here. 🟢",
+          "generated_at": "2026-06-28T00:45:47.462252+00:00"
         },
         "live_websocket": true
       },
-      "created_at": "2026-06-27T06:20:10.209249+04:00",
-      "prob_home_win": 55.48144816206997,
-      "prob_draw": 26.114317622194587,
-      "prob_away_win": 18.40423421573544,
+      "created_at": "2026-06-27T06:20:13.908084+04:00",
+      "prob_home_win": 49.728902911407054,
+      "prob_draw": 29.20873147380883,
+      "prob_away_win": 21.062365614784113,
       "predicted_result": "H",
-      "expected_home_goals": 0.9760099999999999,
-      "expected_away_goals": 0.7629699999999999,
-      "prob_over_15": 54.43640857148966,
-      "prob_over_25": 37.892069771039374,
-      "prob_over_35": 19.072323332626546,
-      "prob_btts_yes": 48.00571406868016,
-      "confidence": 55.48144816206997,
+      "expected_home_goals": 0.5982000000000001,
+      "expected_away_goals": 0.65897,
+      "prob_over_15": 64.07925168642355,
+      "prob_over_25": 33.12073767833455,
+      "prob_over_35": 16.10918824034078,
+      "prob_btts_yes": 38.46149142709161,
+      "confidence": 49.728902911407054,
       "model_version": "v5.0",
       "most_likely_score": "0-0",
       "favorite": "H",
-      "favorite_prob": 55.48144816206997,
+      "favorite_prob": 49.728902911407054,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
