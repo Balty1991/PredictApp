@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-06-28T09:43:15.845Z",
+  "generatedAt": "2026-06-28T11:50:32.939Z",
   "count": 50,
   "items": [
     {
-      "id": 210020,
-      "status": "finished",
-      "league": "NPL Queensland",
-      "country": "Australia",
-      "homeTeam": "Queensland Lions FC",
-      "awayTeam": "Wynnum Wolves FC",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 205811,
-      "status": "notstarted",
+      "status": "2nd_half",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Qingdao West Coast",
@@ -26,7 +15,7 @@
     },
     {
       "id": 205812,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "Chinese Super League",
       "country": "China",
       "homeTeam": "Dalian Yingbo FC",
@@ -548,6 +537,17 @@
       "country": "China",
       "homeTeam": "Qingdao West Coast",
       "awayTeam": "Shanghai Port",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 205816,
+      "status": "notstarted",
+      "league": "Chinese Super League",
+      "country": "China",
+      "homeTeam": "Beijing Guoan",
+      "awayTeam": "Shandong Taishan",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
