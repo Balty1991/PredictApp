@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:35:15.144Z",
+  "generatedAt": "2026-06-30T04:08:57.314Z",
   "requests": {
     "eventsUrl": "https://sports.bzzoiro.com/api/events/",
     "predictionsUrl": "https://sports.bzzoiro.com/api/predictions/",
@@ -21,58 +21,42 @@
   ],
   "samples": {
     "event": {
-      "id": 8362,
+      "id": 209509,
       "league": {
-        "id": 27,
-        "name": "World Cup 2026",
-        "country": "International",
+        "id": 56,
+        "name": "Suomen Cup",
+        "country": "Finland",
         "is_women": false,
-        "current_season": {
-          "id": 188,
-          "name": "World Cup 2026",
-          "year": 2026,
-          "start_date": "2026-01-01",
-          "end_date": "2026-12-31"
-        }
+        "current_season": null
       },
-      "season": {
-        "id": 188,
-        "name": "World Cup 2026",
-        "year": 2026
-      },
-      "home_team": "Netherlands",
-      "away_team": "Morocco",
+      "season": null,
+      "home_team": "VPS",
+      "away_team": "Inter Turku",
       "home_team_obj": {
-        "id": 469,
-        "name": "Netherlands",
-        "short_name": "Netherlands",
-        "country": "Netherlands",
+        "id": 2093,
+        "name": "VPS",
+        "short_name": "VPS",
+        "country": "Finland",
         "coach": {
-          "name": "Ronald Koeman",
-          "shortName": "R. Koeman"
+          "name": "Jussi Nuorela",
+          "shortName": "J. Nuorela"
         },
         "venue": null
       },
       "away_team_obj": {
-        "id": 464,
-        "name": "Morocco",
-        "short_name": "Morocco",
-        "country": "Morocco",
+        "id": 2098,
+        "name": "Inter Turku",
+        "short_name": "Inter",
+        "country": "Finland",
         "coach": {
-          "name": "Mohamed Ouahbi",
-          "shortName": "M. Ouahbi"
+          "name": "Vesa Vasara",
+          "shortName": "V. Vasara"
         },
-        "venue": {
-          "id": 430,
-          "name": "Stade Mohammed V",
-          "city": "Casablanca",
-          "country": "Morocco",
-          "capacity": 67000
-        }
+        "venue": null
       },
-      "event_date": "2026-06-30T05:00:00+04:00",
-      "round_number": 6,
-      "round_name": "Round of 32",
+      "event_date": "2026-06-30T19:00:00+04:00",
+      "round_number": 28,
+      "round_name": "Semifinals",
       "group_name": null,
       "status": "notstarted",
       "home_score": null,
@@ -81,182 +65,111 @@
       "away_score_ht": null,
       "current_minute": null,
       "period": "",
-      "odds_home": 2.36,
-      "odds_draw": 3.12,
-      "odds_away": 3.24,
-      "odds_over_15": 1.34,
-      "odds_over_25": 2.09,
-      "odds_over_35": 3.66,
-      "odds_under_15": 3.15,
-      "odds_under_25": 1.73,
-      "odds_under_35": 1.27,
+      "odds_home": 3.35,
+      "odds_draw": 3.15,
+      "odds_away": 2.07,
+      "odds_over_15": 1.31,
+      "odds_over_25": 2.01,
+      "odds_over_35": 3.45,
+      "odds_under_15": 3.13,
+      "odds_under_25": 1.74,
+      "odds_under_35": 1.26,
       "odds_btts_yes": 1.79,
-      "odds_btts_no": 1.96,
+      "odds_btts_no": 1.91,
       "actual_home_xg": null,
       "actual_away_xg": null,
       "home_xg_live": null,
       "away_xg_live": null,
       "penalty_shootout": null,
       "extra_time_score": null,
-      "is_local_derby": false,
+      "is_local_derby": null,
       "is_neutral_ground": null,
       "travel_distance_km": null,
-      "weather_code": 3,
-      "wind_speed": 19.4,
-      "temperature_c": 28,
+      "weather_code": null,
+      "wind_speed": null,
+      "temperature_c": null,
       "pitch_condition": null,
       "attendance": null,
-      "referee": {
-        "id": 1932,
-        "name": "Wilton Pereira Sampaio",
-        "country": "Brazil",
-        "nationality_a3": "",
-        "birthdate": null,
-        "yellowCards": 2031,
-        "redCards": 55,
-        "career_games": 399,
-        "career_yellow_cards": 2031,
-        "career_red_cards": 55
-      },
+      "referee": null,
       "home_coach": {
-        "id": 102,
-        "name": "Ronald Koeman",
-        "short_name": "R. Koeman",
-        "country": "Netherlands",
+        "id": 1523,
+        "name": "Jussi Nuorela",
+        "short_name": "J. Nuorela",
+        "country": "Finland",
         "profile": "attacking",
-        "preferred_formation": "4-3-3",
-        "pressing_intensity": 0.37688073522979376,
-        "defensive_line": "high",
+        "preferred_formation": "3-4-1-2",
+        "pressing_intensity": 0.22777308917810418,
+        "defensive_line": "mid",
         "top_styles": [
-          "positional",
-          "ball_dominant"
+          "terrorist_fb",
+          "park_the_bus"
         ]
       },
       "away_coach": {
-        "id": 89,
-        "name": "Mohamed Ouahbi",
-        "short_name": "M. Ouahbi",
-        "country": "Morocco",
+        "id": 1528,
+        "name": "Vesa Vasara",
+        "short_name": "V. Vasara",
+        "country": "Finland",
         "profile": "attacking",
-        "preferred_formation": "4-2-3-1",
-        "pressing_intensity": 0.6578266323867552,
+        "preferred_formation": "4-3-3",
+        "pressing_intensity": 0.21394625782473325,
         "defensive_line": "mid",
         "top_styles": [
           "tiki_taka",
-          "positional"
+          "moments_fc"
         ]
       },
       "unavailable_players": null,
-      "venue": {
-        "id": 304,
-        "name": "Estadio BBVA",
-        "city": "Monterrey",
-        "country": "Mexico",
-        "capacity": 53500,
-        "latitude": 25.670172,
-        "longitude": -100.2437,
-        "pitch_x": 105,
-        "pitch_y": 68,
-        "built_year": 2015
-      },
+      "venue": null,
       "live_stats": null,
-      "jerseys": {
-        "away": {
-          "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "585858",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "ffffff",
-            "sleeve": "585858"
-          }
-        },
-        "home": {
-          "GK": {
-            "base": "efc131",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "333333"
-          },
-          "player": {
-            "base": "D8D8D8",
-            "real": false,
-            "type": "short_sleeves",
-            "number": "000000",
-            "sleeve": "D8D8D8"
-          }
-        }
-      },
+      "jerseys": null,
       "funfacts": null,
       "sr_stats": null,
       "ai_preview": {
-        "text": "**Netherlands rolls into Mexico looking to keep their World Cup dream alive — and Morocco's already unbeaten run means this one's a proper toss-up.** 🔥\n\nThe Dutch have been slick in patches (5-1 thrashing of Sweden, solid 3-1 away win) but also sloppy (drew 2-2 at home vs Japan). Morocco, meanwhile, are the sneaky upset artists: undefeated across five, grinding out wins and draws against Scotland and Brazil. This is a classic clash of styles.\n\nKey storylines:\n\n- **Netherlands' midfield engine** needs to control the tempo through F. de Jong, T. Reijnders, and D. Dumfries or they'll get dragged into a dogfight\n- **Morocco's back line** (A. Hakimi, N. Aguerd) have been fortress-solid, but they're missing attacking width with A. Ezzalzouli sidelined\n- **M. Depay and W. Weghorst** have been Netherlands' creative lifeline in attack — they'll be key to breaking down Morocco's compact shape\n\nExpected lineups:\n\n- **Netherlands**: B. Verbruggen, M. van de Ven, N. Aké, V. van Dijk, J. Timber, F. de Jong, T. Reijnders, D. Dumfries, D. Malen, M. Depay, W. Weghorst\n- **Morocco**: Bono, A. Hakimi, I. Diop, N. Aguerd, C. Riad, N. El Aynaoui, I. Saibari, A. E. Kaabi, B. Díaz, S. Rahimi, A. Amaimouni Echghouyab\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Netherlands 2–1 Morocco.** Lean Netherlands off sheer attacking intent, but don't sleep on Morocco's grit.",
-        "generated_at": "2026-06-29T10:45:29.264396+00:00"
+        "text": "**This is a coin flip wrapped in a Suomen Cup package** — both sides are riding identical form (2W-3D), but VPS just put five past AC Oulu and look sharper going forward. ⚽\n\nInter Turku's been leaky in draws (1-1, 3-3 lately), while VPS are clicking. That said, **cup ties are cup ties** — weird things happen, and Inter Turku won't roll over.\n\nKey storylines:\n\n- **VPS's attacking depth** with Smyth and Keturi pressing hard vs Inter Turku's backline vulnerability in transition\n- **J. Tuominen and A. Conteh** need to provide some spark up top for Turku to break down VPS's shape\n- Form suggests **VPS edges it**, but cup math isn't always league math\n\nExpected lineups:\n\n- **VPS**: M. Jalloh, A. Kuek, E. Okereke, L. Mané, M. Niemi, A. Räisänen, P. Lima, S. Lindholm, L. Smyth, O. Keturi\n- **Inter Turku**: E. Vuorjoki, J. Tauriainen, J. Niska, L. Kuittinen, I. Kangasniemi, J. Laine, J. Yli-Kokko, V. Ulundu, A. Conteh, J. Tuominen\n\nPrediction:\n\n**VPS 2–1 Inter Turku**. Slight lean to the hosts' firepower, but Inter Turku will grab one on the break. 🎯",
+        "generated_at": "2026-06-30T03:45:16.992013+00:00"
       },
-      "live_websocket": true
+      "live_websocket": false
     },
     "prediction": {
-      "id": 5308,
+      "id": 5304,
       "event": {
-        "id": 8362,
+        "id": 209509,
         "league": {
-          "id": 27,
-          "name": "World Cup 2026",
-          "country": "International",
+          "id": 56,
+          "name": "Suomen Cup",
+          "country": "Finland",
           "is_women": false,
-          "current_season": {
-            "id": 188,
-            "name": "World Cup 2026",
-            "year": 2026,
-            "start_date": "2026-01-01",
-            "end_date": "2026-12-31"
-          }
+          "current_season": null
         },
-        "season": {
-          "id": 188,
-          "name": "World Cup 2026",
-          "year": 2026
-        },
-        "home_team": "Netherlands",
-        "away_team": "Morocco",
+        "season": null,
+        "home_team": "VPS",
+        "away_team": "Inter Turku",
         "home_team_obj": {
-          "id": 469,
-          "name": "Netherlands",
-          "short_name": "Netherlands",
-          "country": "Netherlands",
+          "id": 2093,
+          "name": "VPS",
+          "short_name": "VPS",
+          "country": "Finland",
           "coach": {
-            "name": "Ronald Koeman",
-            "shortName": "R. Koeman"
+            "name": "Jussi Nuorela",
+            "shortName": "J. Nuorela"
           },
           "venue": null
         },
         "away_team_obj": {
-          "id": 464,
-          "name": "Morocco",
-          "short_name": "Morocco",
-          "country": "Morocco",
+          "id": 2098,
+          "name": "Inter Turku",
+          "short_name": "Inter",
+          "country": "Finland",
           "coach": {
-            "name": "Mohamed Ouahbi",
-            "shortName": "M. Ouahbi"
+            "name": "Vesa Vasara",
+            "shortName": "V. Vasara"
           },
-          "venue": {
-            "id": 430,
-            "name": "Stade Mohammed V",
-            "city": "Casablanca",
-            "country": "Morocco",
-            "capacity": 67000
-          }
+          "venue": null
         },
-        "event_date": "2026-06-30T05:00:00+04:00",
-        "round_number": 6,
-        "round_name": "Round of 32",
+        "event_date": "2026-06-30T19:00:00+04:00",
+        "round_number": 28,
+        "round_name": "Semifinals",
         "group_name": null,
         "status": "notstarted",
         "home_score": null,
@@ -265,84 +178,62 @@
         "away_score_ht": null,
         "current_minute": null,
         "period": "",
-        "odds_home": 2.36,
-        "odds_draw": 3.12,
-        "odds_away": 3.24,
-        "odds_over_15": 1.34,
-        "odds_over_25": 2.09,
-        "odds_over_35": 3.66,
-        "odds_under_15": 3.15,
-        "odds_under_25": 1.73,
-        "odds_under_35": 1.27,
+        "odds_home": 3.35,
+        "odds_draw": 3.15,
+        "odds_away": 2.07,
+        "odds_over_15": 1.31,
+        "odds_over_25": 2.01,
+        "odds_over_35": 3.45,
+        "odds_under_15": 3.13,
+        "odds_under_25": 1.74,
+        "odds_under_35": 1.26,
         "odds_btts_yes": 1.79,
-        "odds_btts_no": 1.96,
+        "odds_btts_no": 1.91,
         "actual_home_xg": null,
         "actual_away_xg": null,
         "home_xg_live": null,
         "away_xg_live": null,
         "penalty_shootout": null,
         "extra_time_score": null,
-        "is_local_derby": false,
+        "is_local_derby": null,
         "is_neutral_ground": null,
         "travel_distance_km": null,
-        "weather_code": 3,
-        "wind_speed": 19.4,
-        "temperature_c": 28,
+        "weather_code": null,
+        "wind_speed": null,
+        "temperature_c": null,
         "pitch_condition": null,
         "attendance": null,
-        "referee": {
-          "id": 1932,
-          "name": "Wilton Pereira Sampaio",
-          "country": "Brazil",
-          "nationality_a3": "",
-          "birthdate": null,
-          "yellowCards": 2031,
-          "redCards": 55,
-          "career_games": 399,
-          "career_yellow_cards": 2031,
-          "career_red_cards": 55
-        },
+        "referee": null,
         "home_coach": {
-          "id": 102,
-          "name": "Ronald Koeman",
-          "short_name": "R. Koeman",
-          "country": "Netherlands",
+          "id": 1523,
+          "name": "Jussi Nuorela",
+          "short_name": "J. Nuorela",
+          "country": "Finland",
           "profile": "attacking",
-          "preferred_formation": "4-3-3",
-          "pressing_intensity": 0.37688073522979376,
-          "defensive_line": "high",
+          "preferred_formation": "3-4-1-2",
+          "pressing_intensity": 0.22777308917810418,
+          "defensive_line": "mid",
           "top_styles": [
-            "positional",
-            "ball_dominant"
+            "terrorist_fb",
+            "park_the_bus"
           ]
         },
         "away_coach": {
-          "id": 89,
-          "name": "Mohamed Ouahbi",
-          "short_name": "M. Ouahbi",
-          "country": "Morocco",
+          "id": 1528,
+          "name": "Vesa Vasara",
+          "short_name": "V. Vasara",
+          "country": "Finland",
           "profile": "attacking",
-          "preferred_formation": "4-2-3-1",
-          "pressing_intensity": 0.6578266323867552,
+          "preferred_formation": "4-3-3",
+          "pressing_intensity": 0.21394625782473325,
           "defensive_line": "mid",
           "top_styles": [
             "tiki_taka",
-            "positional"
+            "moments_fc"
           ]
         },
         "unavailable_players": null,
-        "venue": {
-          "id": 304,
-          "name": "Estadio BBVA",
-          "city": "Monterrey",
-          "country": "Mexico",
-          "capacity": 53500,
-          "latitude": 25.670172,
-          "longitude": -100.2437,
-          "pitch_x": 105,
-          "pitch_y": 68,
-          "built_year": 2015
-        },
+        "venue": null,
         "incidents": null,
         "live_stats": null,
         "lineups": null,
@@ -350,64 +241,31 @@
         "momentum": null,
         "xg_per_minute": null,
         "average_positions": null,
-        "jerseys": {
-          "away": {
-            "GK": {
-              "base": "efc131",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
-            },
-            "player": {
-              "base": "585858",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "ffffff",
-              "sleeve": "585858"
-            }
-          },
-          "home": {
-            "GK": {
-              "base": "efc131",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "333333"
-            },
-            "player": {
-              "base": "D8D8D8",
-              "real": false,
-              "type": "short_sleeves",
-              "number": "000000",
-              "sleeve": "D8D8D8"
-            }
-          }
-        },
+        "jerseys": null,
         "funfacts": null,
         "sr_stats": null,
         "ai_preview": {
-          "text": "**Netherlands rolls into Mexico looking to keep their World Cup dream alive — and Morocco's already unbeaten run means this one's a proper toss-up.** 🔥\n\nThe Dutch have been slick in patches (5-1 thrashing of Sweden, solid 3-1 away win) but also sloppy (drew 2-2 at home vs Japan). Morocco, meanwhile, are the sneaky upset artists: undefeated across five, grinding out wins and draws against Scotland and Brazil. This is a classic clash of styles.\n\nKey storylines:\n\n- **Netherlands' midfield engine** needs to control the tempo through F. de Jong, T. Reijnders, and D. Dumfries or they'll get dragged into a dogfight\n- **Morocco's back line** (A. Hakimi, N. Aguerd) have been fortress-solid, but they're missing attacking width with A. Ezzalzouli sidelined\n- **M. Depay and W. Weghorst** have been Netherlands' creative lifeline in attack — they'll be key to breaking down Morocco's compact shape\n\nExpected lineups:\n\n- **Netherlands**: B. Verbruggen, M. van de Ven, N. Aké, V. van Dijk, J. Timber, F. de Jong, T. Reijnders, D. Dumfries, D. Malen, M. Depay, W. Weghorst\n- **Morocco**: Bono, A. Hakimi, I. Diop, N. Aguerd, C. Riad, N. El Aynaoui, I. Saibari, A. E. Kaabi, B. Díaz, S. Rahimi, A. Amaimouni Echghouyab\n\nBest picks:\n\n- **Total Goals 1.5**: Over 1.5 goals\n\nPrediction:\n\n**Netherlands 2–1 Morocco.** Lean Netherlands off sheer attacking intent, but don't sleep on Morocco's grit.",
-          "generated_at": "2026-06-29T10:45:29.264396+00:00"
+          "text": "**This is a coin flip wrapped in a Suomen Cup package** — both sides are riding identical form (2W-3D), but VPS just put five past AC Oulu and look sharper going forward. ⚽\n\nInter Turku's been leaky in draws (1-1, 3-3 lately), while VPS are clicking. That said, **cup ties are cup ties** — weird things happen, and Inter Turku won't roll over.\n\nKey storylines:\n\n- **VPS's attacking depth** with Smyth and Keturi pressing hard vs Inter Turku's backline vulnerability in transition\n- **J. Tuominen and A. Conteh** need to provide some spark up top for Turku to break down VPS's shape\n- Form suggests **VPS edges it**, but cup math isn't always league math\n\nExpected lineups:\n\n- **VPS**: M. Jalloh, A. Kuek, E. Okereke, L. Mané, M. Niemi, A. Räisänen, P. Lima, S. Lindholm, L. Smyth, O. Keturi\n- **Inter Turku**: E. Vuorjoki, J. Tauriainen, J. Niska, L. Kuittinen, I. Kangasniemi, J. Laine, J. Yli-Kokko, V. Ulundu, A. Conteh, J. Tuominen\n\nPrediction:\n\n**VPS 2–1 Inter Turku**. Slight lean to the hosts' firepower, but Inter Turku will grab one on the break. 🎯",
+          "generated_at": "2026-06-30T03:45:16.992013+00:00"
         },
-        "live_websocket": true
+        "live_websocket": false
       },
-      "created_at": "2026-06-26T06:20:13.381589+04:00",
-      "prob_home_win": 34.41899459124143,
-      "prob_draw": 30.065513093612644,
-      "prob_away_win": 35.51549231514593,
-      "predicted_result": "A",
-      "expected_home_goals": 1.0049166666666667,
-      "expected_away_goals": 1.11386,
-      "prob_over_15": 82.46375401359651,
-      "prob_over_25": 60.10357772630775,
-      "prob_over_35": 29.380474892122848,
-      "prob_btts_yes": 70.14769686773937,
-      "confidence": 35.51549231514593,
+      "created_at": "2026-06-24T06:20:10.317787+04:00",
+      "prob_home_win": 43.82209203223167,
+      "prob_draw": 25.768895659644876,
+      "prob_away_win": 30.40901230812344,
+      "predicted_result": "H",
+      "expected_home_goals": 3.6,
+      "expected_away_goals": 2.65,
+      "prob_over_15": 70.4337457008273,
+      "prob_over_25": 54.5511527176736,
+      "prob_over_35": 42.911232067044224,
+      "prob_btts_yes": 36.11385665874784,
+      "confidence": 43.82209203223167,
       "model_version": "v5.0",
-      "most_likely_score": "1-1",
-      "favorite": "A",
-      "favorite_prob": 35.51549231514593,
+      "most_likely_score": "3-2",
+      "favorite": "H",
+      "favorite_prob": 43.82209203223167,
       "favorite_recommend": false,
       "over_15_recommend": false,
       "over_25_recommend": false,
