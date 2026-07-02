@@ -1,21 +1,10 @@
 {
-  "generatedAt": "2026-07-01T22:48:47.314Z",
+  "generatedAt": "2026-07-02T00:15:13.303Z",
   "count": 50,
   "items": [
     {
-      "id": 8367,
-      "status": "extratime",
-      "league": "World Cup 2026",
-      "country": "International",
-      "homeTeam": "Belgium",
-      "awayTeam": "Senegal",
-      "hasOdds": false,
-      "bookmakerCount": 0,
-      "marketCount": 0
-    },
-    {
       "id": 8368,
-      "status": "notstarted",
+      "status": "1st_half",
       "league": "World Cup 2026",
       "country": "International",
       "homeTeam": "USA",
@@ -548,6 +537,17 @@
       "country": "Brazil",
       "homeTeam": "Goiás",
       "awayTeam": "Ceará",
+      "hasOdds": false,
+      "bookmakerCount": 0,
+      "marketCount": 0
+    },
+    {
+      "id": 207685,
+      "status": "notstarted",
+      "league": "USL Championship",
+      "country": "USA",
+      "homeTeam": "Rhode Island FC",
+      "awayTeam": "Orange County SC",
       "hasOdds": false,
       "bookmakerCount": 0,
       "marketCount": 0
